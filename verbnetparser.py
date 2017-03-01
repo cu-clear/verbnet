@@ -51,12 +51,6 @@ class VerbNetParser(object):
             parsed_files.append(soup(open(fname), "lxml-xml"))
         return parsed_files
 
-    def find_class(self, class_ID):
-        return next(self.__iterClass(class_ID))
-
-    def __iterClass(self, class_ID):
-        return (vn_class for vn_class in self.verb_classes if vn_class.ID == class_ID)
-
     def get_verb_class(self, class_ID):
         """Return a VerbClass instance where self.classname is classname, return
         None if there is no such class."""
