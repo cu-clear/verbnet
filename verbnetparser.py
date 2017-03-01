@@ -71,8 +71,9 @@ class AbstractXML(object):
             return []    
 
     def pp(self):
-        print self.soup.prettify()
+        return self.soup.prettify()
         
+
 class VerbClass(AbstractXML):
     """Represents a single class of verbs in VerbNet (all verbs from the same 
     XML file)."""
@@ -228,7 +229,7 @@ class SyntacticRole(AbstractXML):
         self.POS = self.soup.name
         self.value = self.get_category('value')
         self.restrictions = self.restrictions()
-        
+
     def restrictions(self):
         """Check for selectional restrictions
         NP has value and SYNRESTRS which have Value and type
