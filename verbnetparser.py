@@ -68,9 +68,11 @@ class AbstractXML(object):
         try:
             return special_soup.get(cat).split()
         except AttributeError:
-            return []
+            return []    
 
-
+    def pp(self):
+        print self.soup.prettify()
+        
 class VerbClass(AbstractXML):
     """Represents a single class of verbs in VerbNet (all verbs from the same 
     XML file)."""
@@ -88,7 +90,7 @@ class VerbClass(AbstractXML):
         self.names = [mem.get_category('name')[0] for mem in self.members]
         self.themroles = self.themroles()
         self.subclasses = self.subclass()
-
+        
     def __repr__(self):
         return str(self.ID) + "\n" + str([mem.__repr__() for mem in self.members]) \
                + "\nThemRoles: " + str(self.themroles) \
@@ -129,7 +131,7 @@ class Member(AbstractXML):
         self.name = self.get_category('name')
         self.wn = self.get_category('wn')
         self.grouping = self.get_category('grouping')
-                
+        
     def __repr__(self):
         return str(self.name + self.wn + self.grouping)
 
@@ -267,26 +269,27 @@ def search(verbclasslist, pred_type=None, themroles=None, synroles=None, semrole
 def test():
     vnp = VerbNetParser(max_count=50)
     count =  len(vnp.parsed_files)
-    print count, 'classes'
+    #print count, 'classes'
     vc = vnp.verb_classes[-1]
     mems = vnp.parsed_files[-1].MEMBERS
-    print
-    print vc.ID
-    print '   names', ' '.join(vc.names)
-    print'   members'
-    for m in mems.find_all("MEMBER"):
-        print '     ', m
+    #print
+    #print vc.ID
+    #print '   names', ' '.join(vc.names)
+    #print'   members'
+    #for m in mems.find_all("MEMBER"):
+    #    print '     ', m
     #results = search(vnp.verb_classes, "motion")
     #print len(results)
     #for frame in results:
     #    print frame
-    print
+    #print
     for vc in vnp.verb_classes:
         if len(vc.subclasses) >= 1:
-            print vc.ID
+            #print vc.ID
             for subclass in vc.subclasses:
                 if len(subclass.subclasses) > 0:
-                    print '  ', subclass.ID
+                    pass
+                    #print '  ', subclass.ID
 
 
 if __name__ == '__main__':
