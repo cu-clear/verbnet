@@ -44,7 +44,7 @@ from search import search_by_ID, search_by_subclass_ID
 from search import search_by_themroles, search_by_POS, search_by_cat_and_role
 from search import reverse_image_search, image_schema_search, image_schema_search2
 
-
+#
 class GLVerbClass(object):
 
     """VerbClass analogue, with an update mostly to frames"""
@@ -130,7 +130,9 @@ class GLSubclass(GLVerbClass):
                 final_roles.append(parent_role)
         return final_roles
 
-
+# In here we can add glframe to vnframe
+# Later when we print the VN stuff, the frame should have this in the XML
+# Make sure to only add the GL specific stuff
 class GLFrame(object):
     """GL enhanced VN frame that adds qualia and event structure, and links 
     syn/sem variables in the subcat to those in the event structure."""
