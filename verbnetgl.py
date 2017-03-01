@@ -583,7 +583,7 @@ if __name__ == '__main__':
 
     debug_mode, filelist, run_tests = read_options()
     vn = run_verbnetparser(debug_mode, filelist)
-    vn_classes = [GLVerbClass(vc) for vc in vn.verb_classes]
+    vn_classes = [GLVerbClass(vc) for vc in vn.verb_classes.values()]
 
     if run_tests:
         test_print_first_class(vn_classes)

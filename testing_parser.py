@@ -13,8 +13,4 @@ vn.parse_files()
 # There is a printable representation of it
 vn.verb_classes
 
-a = vn.find_class("accept-77")
-print a.ID
-for t in a.themroles:
-  for s in t.sel_restrictions:
-    print s
+print vn.get_verb_class("exchange-13.6").pp()
