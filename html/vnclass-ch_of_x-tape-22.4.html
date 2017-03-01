@@ -1,0 +1,199 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>tape-22.4</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V NP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Linda taped the picture."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>cause</span>(Agent, E), <span class=pred>attached</span>(end(E), Patient, Instrument)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Patient } / [+solid]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 1: NP V NP PP.co-patient
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Linda taped the picture to the wall."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>cause</span>(Agent, E), <span class=pred>together</span>(end(E), Patient, Co-Patient), <span class=pred>attached</span>(end(E), Patient, Instrument), <span class=pred>attached</span>(end(E), Co-Patient, Instrument)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Patient } / [+solid]<br>
+      { cat=PREP role=to } / []<br>
+      { var=2 cat=NP role=Co-Patient } / [+solid]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 2: NP V NP together
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Linda taped the label and the cover together."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>cause</span>(Agent, E), <span class=pred>together</span>(end(E), Patient_i, Patient_j), <span class=pred>attached</span>(end(E), Patient_i, Instrument), <span class=pred>attached</span>(end(E), Patient_j, Instrument)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Patient } / [+solid]<br>
+      { cat=LEX role=together } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 3: NP V ADV-Middle PP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The labels taped easily to that kind of cover."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>together</span>(end(E), Patient, Co-Patient), <span class=pred>attached</span>(end(E), Patient, Instrument), <span class=pred>attached</span>(end(E), Co-Patient, Instrument)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Patient } / [+solid]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=ADV } / []<br>
+      { cat=PREP role=to } / []<br>
+      { var=1 cat=NP role=Co-Patient } / [+solid]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 4: NP V ADV-Middle
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The labels taped easily."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>together</span>(end(E), Patient_i, Patient_j), <span class=pred>attached</span>(end(E), Patient_i, Instrument), <span class=pred>attached</span>(end(E), Patient_j, Instrument)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Patient } / [+solid]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=ADV } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 5: NP V ADV-Middle together
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The labels and covers taped easily together."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>together</span>(end(E), Patient_i, Patient_j), <span class=pred>attached</span>(end(E), Patient_i, Instrument), <span class=pred>attached</span>(end(E), Patient_j, Instrument)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Patient } / [+solid]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=ADV } / []<br>
+      { cat=LEX role=together } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 6: NP V together ADV-Middle
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The labels and covers taped together easily."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>together</span>(end(E), Patient_i, Patient_j), <span class=pred>attached</span>(end(E), Patient_i, Instrument), <span class=pred>attached</span>(end(E), Patient_j, Instrument)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Patient } / [+solid]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=LEX role=together } / []<br>
+      { cat=ADV } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 7: NP V NP ADJP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Linda taped the box shut."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>cause</span>(Agent, E), <span class=pred>attached</span>(end(E), Patient, Instrument), <span class=pred>path_rel</span>(start(E), ?Initial_State, Patient, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Result, Patient, ch_of_state, prep)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Patient } / [+solid]<br>
+      { var=2 cat=NP role=Result } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+

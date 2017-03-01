@@ -138,6 +138,7 @@ class GLFrame(object):
     def __init__(self, glverbclass, frame):
         self.glverbclass = glverbclass
         self.vnframe = frame                    # instance of verbnetparser.Frame
+        
         self.class_roles = glverbclass.roles    # list of verbnetparser.ThematicRoles
         self.pri_description = frame.primary    # list of unicode strings
         self.sec_description = frame.secondary  # list of unicode strings
@@ -146,7 +147,8 @@ class GLFrame(object):
         self.qualia = None
         self.events = EventStructure(self)
         self.add_oppositions()
-
+        self.add_gl_to_xml()
+        
     def __str__(self):
         return "<GLFrame %s [%s] '%s'>" % \
             (self.glverbclass.ID, ' '.join(self.pri_description), self.example[0])
@@ -158,6 +160,8 @@ class GLFrame(object):
             "\nqualia = " + str(self.qualia) + \
             "\nevents = {" + str(self.events) + "\t}\n"
 
+
+    
     def find_predicates(self, pred_value):
         """Returns the list of Predicates where the value equals pred_value."""
         # TODO: should forward to self.vnframe
@@ -281,6 +285,12 @@ class GLFrame(object):
             print '  ', initial_state
             print '  ', final_state
 
+
+    def add_gl_to_xml(self):
+        #TODO take extra things from gl (qualia, opposition, etc) and add to self.frame.soup somehow
+        return None
+    
+    
 
 class Subcat(object):
 
@@ -453,7 +463,7 @@ def test_print_first_class(vn_classes):
     print ">>> RUNNING test_print_first_class"
     print ">>> Hit return to proceed..."
     raw_input()
-    print vn_classes[0]
+    vn_classes[0].pp()
 
 
 def test_print_some_classes(vn_classes):

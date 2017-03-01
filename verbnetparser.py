@@ -284,6 +284,7 @@ def test():
     #    print frame
     #print
     for vc in vnp.verb_classes:
+#        vc.pp()
         if len(vc.subclasses) >= 1:
             #print vc.ID
             for subclass in vc.subclasses:
