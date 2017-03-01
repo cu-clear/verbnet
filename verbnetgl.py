@@ -44,7 +44,6 @@ from search import search_by_ID, search_by_subclass_ID
 from search import search_by_themroles, search_by_POS, search_by_cat_and_role
 from search import reverse_image_search, image_schema_search, image_schema_search2
 
-#
 class GLVerbClass(object):
 
     """VerbClass analogue, with an update mostly to frames"""
