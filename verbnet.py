@@ -395,6 +395,11 @@ class PredicateStatistics(object):
 
 
 if __name__ == '__main__':
+    vn = VerbNet(directory="/home/kevin/Lexical_Resources/verbnet/")
+    for c in vn.get_classes():
+        print (c)
+#    import doctest
+#    doctest.testmod()
 
-    import doctest
-    doctest.testmod()
+
+    

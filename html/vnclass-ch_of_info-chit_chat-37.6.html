@@ -1,0 +1,175 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>chit_chat-37.6</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Susan was chitchatting."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), Source, ?Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), ?Recipient, ?Topic, tr_of_info, prep), <span class=pred>transfer</span>(during(E), Agent, ?Co-Agent, ?Topic), <span class=pred>equals</span>(?Co-Agent, ?Recipient), <span class=pred>equals</span>(Agent, Source), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 1: NP V PP.co-agent
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Susan chitchatted with Rachel."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), Source_i, ?Topic, tr_of_info, prep), <span class=pred>path_rel</span>(start(E), Source_j, ?Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_i, ?Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_j, ?Topic, tr_of_info, prep), <span class=pred>transfer</span>(during(E), Agent, Co-Agent, ?Topic), <span class=pred>transfer</span>(during(E), Co-Agent, Agent, ?Topic), <span class=pred>equals</span>(Co-Agent, Recipient_i), <span class=pred>equals</span>(Co-Agent, Source_j), <span class=pred>equals</span>(Agent, Source_i), <span class=pred>equals</span>(Agent, Recipient_j), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP role=with } / []<br>
+      { var=1 cat=NP role=Co-Agent } / [(+animate OR +organization)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 2: NP V PP.co-agent PP.topic
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Susan chitchatted with Rachel about the problem."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), Source_i, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(start(E), Source_j, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_i, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_j, Topic, tr_of_info, prep), <span class=pred>transfer</span>(during(E), Agent, Co-Agent, Topic), <span class=pred>transfer</span>(during(E), Co-Agent, Agent, Topic), <span class=pred>equals</span>(Co-Agent, Recipient_i), <span class=pred>equals</span>(Co-Agent, Source_j), <span class=pred>equals</span>(Agent, Source_i), <span class=pred>equals</span>(Agent, Recipient_j), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP role=with } / []<br>
+      { var=1 cat=NP role=Co-Agent } / [(+animate OR +organization)]<br>
+      { cat=PREP role=about } / []<br>
+      { var=2 cat=NP role=Topic } / [+communication]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 3: NP V
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Susan and Rachel chitchatted."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), Source_i, ?Topic, tr_of_info, prep), <span class=pred>path_rel</span>(start(E), Source_j, ?Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_i, ?Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_j, ?Topic, tr_of_info, prep), <span class=pred>transfer</span>(during(E), Agent_i, Agent_j, ?Topic), <span class=pred>transfer</span>(during(E), Agent_j, Agent_i, ?Topic), <span class=pred>equals</span>(Agent_i, Source_i), <span class=pred>equals</span>(Agent_j, Source_j), <span class=pred>equals</span>(Agent_i, Recipient_j), <span class=pred>equals</span>(Agent_j, Recipient_i)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 4: NP V PP.topic PP.co-agent
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Susan chitchatted about the problem with Rachel."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), Source_i, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(start(E), Source_j, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_i, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_j, Topic, tr_of_info, prep), <span class=pred>transfer</span>(during(E), Agent, Co-Agent, Topic), <span class=pred>transfer</span>(during(E), Co-Agent, Agent, Topic), <span class=pred>equals</span>(Agent, Source_i), <span class=pred>equals</span>(Co-Agent, Source_j), <span class=pred>equals</span>(Agent, Recipient_j), <span class=pred>equals</span>(Co-Agent, Recipient_i), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP role=about } / []<br>
+      { var=1 cat=NP role=Topic } / [+communication]<br>
+      { cat=PREP role=with } / []<br>
+      { var=2 cat=NP role=Co-Agent } / [(+animate OR +organization)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 5: NP V PP.topic
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Susan and Rachel chitchatted about matters of great import."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), Source_i, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(start(E), Source_j, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_i, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_j, Topic, tr_of_info, prep), <span class=pred>transfer</span>(during(E), Agent, Agent, Topic), <span class=pred>equals</span>(Agent, Source_i), <span class=pred>equals</span>(Agent, Source_j), <span class=pred>equals</span>(Agent, Recipient_j), <span class=pred>equals</span>(Agent, Recipient_i), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP role=about } / []<br>
+      { var=1 cat=NP role=Topic } / [+communication]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 6: NP V PP.topic
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Susan chitchatted about matters of great import."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), Source_i, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(start(E), ?Source_j, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), ?Recipient_i, Topic, tr_of_info, prep), <span class=pred>path_rel</span>(end(E), Recipient_j, Topic, tr_of_info, prep, prep), <span class=pred>transfer</span>(during(E), Agent, ?Co-Agent, Topic), <span class=pred>transfer</span>(during(E), ?Co-Agent, Agent, Topic), <span class=pred>equals</span>(Agent, Source_i), <span class=pred>equals</span>(?Co-Agent, Source_j), <span class=pred>equals</span>(Agent, Recipient_j), <span class=pred>equals</span>(?Co-Agent, Recipient_i), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP role=about } / []<br>
+      { var=1 cat=NP role=Topic } / [+communication]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+

@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>murder-42.1</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V NP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Brutus murdered Julius Caesar."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Patient, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), ?Result, Patient, ch_of_state, prep), <span class=pred>cause</span>(Agent, E), <span class=pred>alive</span>(start(E), Patient), <span class=pred>alive</span>(result(E), Patient)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [+animate]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Patient } / [+animate]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 1: NP V NP PP.instrument
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Caesar killed Brutus with a knife."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Patient, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), ?Result, Patient, ch_of_state, prep), <span class=pred>cause</span>(Agent, E), <span class=pred>alive</span>(start(E), Patient), <span class=pred>alive</span>(result(E), Patient), <span class=pred>utilize</span>(during(E), Agent, Instrument)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [+animate]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Patient } / [+animate]<br>
+      { cat=PREP role=with } / []<br>
+      { var=2 cat=NP role=Instrument } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+

@@ -1,0 +1,308 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>build-26.1</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V NP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha carves toys."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, ?Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, ?Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, ?Material), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Product } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 1: NP V
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha carves."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, ?Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), ?Product, ?Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), ?Product), <span class=pred>exist</span>(result(E), ?Product), <span class=pred>made_of</span>(result(E), ?Product, ?Material), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 2: NP V NP.product PP.material
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha carved a toy out of a piece of wood."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, Material), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Product } / []<br>
+      { cat=PREP role=from } / []<br>
+      { var=2 cat=NP role=Material } / [+concrete]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 3: NP V NP.material PP.product
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha carved the piece of wood into a toy."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, Material), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Material } / [+concrete]<br>
+      { cat=PREP role=into } / []<br>
+      { var=2 cat=NP role=Product } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 4: NP V NP PP.beneficiary
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha carved a toy for the baby."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, ?Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, ?Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, ?Material), <span class=pred>cause</span>(Agent, E), <span class=pred>benefit</span>(E, Beneficiary)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Product } / []<br>
+      { cat=PREP role=for } / []<br>
+      { var=2 cat=NP role=Beneficiary } / [(+animate OR +organization)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 5: NP V NP.beneficiary NP PP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha carved the baby a toy out of a piece of wood."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, Material), <span class=pred>cause</span>(Agent, E), <span class=pred>benefit</span>(E, Beneficiary)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Beneficiary } / [(+animate OR +organization)]<br>
+      { var=2 cat=NP role=Product } / []<br>
+      { cat=PREP role=from } / []<br>
+      { var=3 cat=NP role=Material } / [+concrete]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 6: NP V NP PP.material PP.beneficiary
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha carved a toy out of a piece of wood for the baby."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, Material), <span class=pred>cause</span>(Agent, E), <span class=pred>benefit</span>(E, Beneficiary)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Product } / []<br>
+      { cat=PREP role=from } / []<br>
+      { var=2 cat=NP role=Material } / [+concrete]<br>
+      { cat=PREP role=for } / []<br>
+      { var=3 cat=NP role=Beneficiary } / [(+animate OR +organization)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 7: NP V NP PP.beneficiary
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha carved a piece of wood for the baby."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), ?Product, Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), ?Product), <span class=pred>exist</span>(result(E), ?Product), <span class=pred>made_of</span>(result(E), ?Product, Material), <span class=pred>cause</span>(Agent, E), <span class=pred>benefit</span>(E, Beneficiary)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Material } / [+concrete]<br>
+      { cat=PREP role=for } / []<br>
+      { var=2 cat=NP role=Beneficiary } / [(+animate OR +organization)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 8: NP V NP PP.product PP.beneficiary
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha carved a piece of wood into a toy for the baby."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, Material), <span class=pred>cause</span>(Agent, E), <span class=pred>benefit</span>(E, Beneficiary)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Material } / [+concrete]<br>
+      { cat=PREP role=into } / []<br>
+      { var=2 cat=NP role=Product } / []<br>
+      { cat=PREP role=for } / []<br>
+      { var=3 cat=NP role=Beneficiary } / [(+animate OR +organization)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 9: NP.material V NP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"This wood carved beautiful toys."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, Material), <span class=pred>cause</span>(?Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Material } / [+concrete]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Product } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 10: NP V NP NP PP.asset
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The contractor will build you a house for $100,000."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, ?Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, ?Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, ?Material), <span class=pred>cause</span>(Agent, E), <span class=pred>benefit</span>(E, Beneficiary), <span class=pred>cost</span>(E, Asset)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Beneficiary } / [(+animate OR +organization)]<br>
+      { var=2 cat=NP role=Product } / []<br>
+      { cat=PREP role=for } / []<br>
+      { var=3 cat=NP role=Asset } / [+currency]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 11: NP V NP PP.material PP.asset
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Martha will carve a toy out of a piece of wood for $50."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Material, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), Product, Material, ch_of_state, prep), <span class=pred>exist</span>(start(E), Product), <span class=pred>exist</span>(result(E), Product), <span class=pred>made_of</span>(result(E), Product, Material), <span class=pred>cause</span>(Agent, E), <span class=pred>cost</span>(E, Asset)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +machine)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Product } / []<br>
+      { cat=PREP role=from } / []<br>
+      { var=2 cat=NP role=Material } / [+concrete]<br>
+      { cat=PREP role=for } / []<br>
+      { var=3 cat=NP role=Asset } / [+currency]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+

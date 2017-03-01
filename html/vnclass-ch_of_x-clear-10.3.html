@@ -1,0 +1,80 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>clear-10.3</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V NP.location
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The strong winds cleared the sky."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>cause</span>(Agent, E), <span class=pred>path_rel</span>(start(E), ?Theme, Source, ch_of_loc, prep), <span class=pred>path_rel</span>(end(E), ?Theme, ?Destination, ch_of_loc, prep)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [+int_control]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Source } / [+location]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 1: NP V NP PP.location
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Doug cleaned the dishes from the table."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>cause</span>(Agent, E), <span class=pred>path_rel</span>(start(E), Theme, Source, ch_of_loc, prep), <span class=pred>path_rel</span>(end(E), Theme, ?Destination, ch_of_loc, prep)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [+int_control]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Theme } / [+concrete]<br>
+      { cat=PREP } / [+src]<br>
+      { var=2 cat=NP role=Source } / [+location]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 2: NP V NP.location PP.theme
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Doug cleaned the table of dishes."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>cause</span>(Agent, E), <span class=pred>path_rel</span>(start(E), Theme, Source, ch_of_loc, prep), <span class=pred>path_rel</span>(end(E), Theme, ?Destination, ch_of_loc, prep)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [+int_control]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Source } / [+location]<br>
+      { cat=PREP role=of } / []<br>
+      { var=2 cat=NP role=Theme } / [+concrete]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+

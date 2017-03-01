@@ -1,0 +1,79 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>substitute-13.6.2</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V PP.co-theme
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Milk and lemon juice may substitute for buttermilk."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>transfer</span>(during(E), Theme), <span class=pred>transfer</span>(during(E), Co-Theme)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Theme } / []<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP role=for } / []<br>
+      { var=1 cat=NP role=Co-Theme } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 1: NP V NP.location
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The bells ringers switched places."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), Source_i, Theme_i, ch_of_loc, prep), <span class=pred>path_rel</span>(end(E), Goal_j, Theme_j, ch_of_loc, prep), <span class=pred>path_rel</span>(start(E), Source_j, Theme_j, ch_of_loc, prep), <span class=pred>path_rel</span>(end(E), Goal_i, Theme_i, ch_of_loc, prep), <span class=pred>transfer</span>(during(E), Theme), <span class=pred>transfer</span>(during(E), Co-Theme), <span class=pred>equals</span>(Source_i, Location_i), <span class=pred>equals</span>(Goal_j, Location_j), <span class=pred>equals</span>(Source_j, Location_i), <span class=pred>equals</span>(Goal_i, Location_j)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Theme } / []<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Location } / [(+location AND -region)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 2: NP V NP PP.co-theme
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"One bell ringer swapped places with another."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), Source_i, Theme, ch_of_loc, prep), <span class=pred>path_rel</span>(end(E), Goal_j, Theme, ch_of_loc, prep), <span class=pred>path_rel</span>(start(E), Source_j, Co-Theme, ch_of_loc, prep), <span class=pred>path_rel</span>(end(E), Goal_j, Co-Theme, ch_of_loc, prep), <span class=pred>transfer</span>(during(E), Theme), <span class=pred>transfer</span>(during(E), Co-Theme), <span class=pred>equals</span>(Source_i, Location_i), <span class=pred>equals</span>(Goal_j, Location_j), <span class=pred>equals</span>(Source_j, Location_i), <span class=pred>equals</span>(Goal_i, Location_j)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Theme } / []<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Location } / [(+location AND -region)]<br>
+      { cat=PREP role=with } / []<br>
+      { var=2 cat=NP role=Co-Theme } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+

@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>transcribe-25.4</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V NP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The secretary transcribed the speech."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Theme, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), ?Result, Theme, ch_of_state, prep), <span class=pred>created_image</span>(result(E), Theme), <span class=pred>location</span>(end(E), Theme, ?Destination), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [+animate]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Theme } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 1: NP V NP PP.destination
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The secretary transcribed the speech into the record."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>path_rel</span>(start(E), ?Initial_State, Theme, ch_of_state, prep), <span class=pred>path_rel</span>(result(E), ?Result, Theme, ch_of_state, prep), <span class=pred>created_image</span>(result(E), Theme), <span class=pred>location</span>(end(E), Theme, Destination), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [+animate]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Theme } / []<br>
+      { cat=PREP } / [+loc]<br>
+      { var=2 cat=NP role=Destination } / [+concrete]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+

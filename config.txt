@@ -1,4 +1,8 @@
 
 # Set the path to where your VerbNet files live
 
+<<<<<<< HEAD
 VERBNET_PATH = ../vn_3_2
+=======
+VERBNET_PATH = /home/kevin/Lexical_Resources/verbnet/
+>>>>>>> 4a76d9a33fc49d521ada9053c6dcefc9535809c2
