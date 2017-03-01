@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e7e54e-ff33-4e39-95f4-fde135037750" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing_parser.py" afterPath="$PROJECT_DIR$/testing_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verbnetgl.py" afterPath="$PROJECT_DIR$/verbnetgl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verbnetparser.py" afterPath="$PROJECT_DIR$/verbnetparser.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/VerbNetWriter.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="verbnet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="verbnetparser.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/verbnetparser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="90" column="14" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="14" />
+            <state relative-caret-position="345">
+              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
               <folding>
                 <element signature="e#195#204#0" expanded="true" />
               </folding>
@@ -72,18 +71,6 @@
               <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerbNetWriter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VerbNetWriter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="7" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="7" />
-              <folding>
-                <element signature="e#47#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -540,9 +527,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="66" column="7" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="7" />
-          <folding>
-            <element signature="e#47#56#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -578,8 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/verbnetparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="90" column="14" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="14" />
+        <state relative-caret-position="345">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
           <folding>
             <element signature="e#195#204#0" expanded="true" />
           </folding>
