@@ -39,9 +39,11 @@ class VerbNetParser(object):
         self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
         self.parsed_files = self.parse_files()
         self.verb_classes = {}
+        self.verb_classes_dict = {}
         for parse in self.parsed_files:
             vc = VerbClass(parse)
-            self.verb_classes[vc.ID] = vc
+            self.verb_classes.append(vc)
+            self.verb_classes_dict[vc.ID] = vc
 
     def parse_files(self):
         """Parse a list of XML files using BeautifulSoup. Returns list of parsed
@@ -54,11 +56,11 @@ class VerbNetParser(object):
     def get_verb_class(self, class_ID):
         """Return a VerbClass instance where self.classname is classname, return
         None if there is no such class."""
-        return self.verb_classes.get(class_ID)
+        return self.verb_classes_dict.get(class_ID)
 
     def get_verb_classes(self):
         """Return a list of all classes."""
-        return self.verb_classes.values()
+        return self.verb_classes_dict.values()
 
 class AbstractXML(object):
     """Abstract class to be inherited by other classes that share the same 
