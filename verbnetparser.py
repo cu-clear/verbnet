@@ -38,7 +38,7 @@ class VerbNetParser(object):
             fnames = ["%s.xml" % f for f in open(file_list).read().split()]
         self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
         self.parsed_files = self.parse_files()
-        self.verb_classes = {}
+        self.verb_classes = []
         self.verb_classes_dict = {}
         for parse in self.parsed_files:
             vc = VerbClass(parse)
