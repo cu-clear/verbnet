@@ -36,7 +36,7 @@ $ python verbnetgl.py -td
 """
 
 import os, sys, itertools, getopt
-
+from bs4 import BeautifulSoup as soup
 from verbnetparser import VerbNetParser
 from writer import HtmlWriter, HtmlClassWriter
 from search import search_by_predicate, search_by_argtype
@@ -91,19 +91,19 @@ class GLVerbClass(object):
                     argtypes.add(arg_type)
         return list(argtypes)
 
-    
+
 
 class GLSubclass(GLVerbClass):
 
     """Represents a subclass to a GLVerbClass. This needs to be different from
-    GLVerbClass because VerbNet seems to change the THEMROLES section of the 
+    GLVerbClass because VerbNet seems to change the THEMROLES section of the
     subclass to only include thematic roles that differ from the main class,
-    but does not list all the roles that stay the same. Since we need to update 
+    but does not list all the roles that stay the same. Since we need to update
     self.roles, we can't call __init__ on the superclass because that would call
     self.frames and self.subclasses before we updated our roles properly."""
-    
+
     # TODO: check this for proper nesting
-    
+
     def __init__(self, verbclass, parent_roles):
         self.verbclass = verbclass
         self.ID = verbclass.ID
@@ -113,8 +113,8 @@ class GLSubclass(GLVerbClass):
         self.subclass_only_roles = verbclass.themroles
         self.roles = self.themroles()
         self.frames = self.frames()
-        self.subclasses = [GLSubclass(sub, self.roles) for sub in verbclass.subclasses]   
-        
+        self.subclasses = [GLSubclass(sub, self.roles) for sub in verbclass.subclasses]
+
     def themroles(self):
         """Combines the thematic roles of the parent class and the current
         subclass. Replaces any version of the parent class's role with one from
@@ -129,17 +129,14 @@ class GLSubclass(GLVerbClass):
                 final_roles.append(parent_role)
         return final_roles
 
-# In here we can add glframe to vnframe
-# Later when we print the VN stuff, the frame should have this in the XML
-# Make sure to only add the GL specific stuff
 class GLFrame(object):
-    """GL enhanced VN frame that adds qualia and event structure, and links 
+    """GL enhanced VN frame that adds qualia and event structure, and links
     syn/sem variables in the subcat to those in the event structure."""
-    
+
     def __init__(self, glverbclass, frame):
         self.glverbclass = glverbclass
         self.vnframe = frame                    # instance of verbnetparser.Frame
-        
+
         self.class_roles = glverbclass.roles    # list of verbnetparser.ThematicRoles
         self.pri_description = frame.primary    # list of unicode strings
         self.sec_description = frame.secondary  # list of unicode strings
@@ -149,7 +146,7 @@ class GLFrame(object):
         self.events = EventStructure(self)
         self.add_oppositions()
         self.add_gl_to_xml()
-        
+
     def __str__(self):
         return "<GLFrame %s [%s] '%s'>" % \
             (self.glverbclass.ID, ' '.join(self.pri_description), self.example[0])
@@ -162,7 +159,7 @@ class GLFrame(object):
             "\nevents = {" + str(self.events) + "\t}\n"
 
 
-    
+
     def find_predicates(self, pred_value):
         """Returns the list of Predicates where the value equals pred_value."""
         # TODO: should forward to self.vnframe
@@ -288,10 +285,24 @@ class GLFrame(object):
 
 
     def add_gl_to_xml(self):
+        # In here we can add glframe to vnframe
+        # Later when we print the VN stuff, the frame should have this in the XML
+        # Make sure to only add the GL specific stuff
         #TODO take extra things from gl (qualia, opposition, etc) and add to self.frame.soup somehow
-        return None
-    
-    
+        dummy_soup = soup('dummy', 'lxml')
+        gl_tag = dummy_soup.new_tag("GL")
+        qualia_tag = dummy_soup.new_tag("QUALIA")
+        qualia_tag.string = self.qualia.__repr__()
+        event_structure_tag = dummy_soup.new_tag("EVENT_STRUCTURE")
+        event_structure_tag.string = self.events.__repr__()
+        subcat_tag = dummy_soup.new_tag("SUBCATEGORISATION")
+        subcat_tag.string = self.subcat.__repr__()
+        gl_tag.append(qualia_tag)
+        gl_tag.append(event_structure_tag)
+        gl_tag.append(subcat_tag)
+        self.vnframe.soup.SEMANTICS.insert_after(gl_tag)
+        return gl_tag
+
 
 class Subcat(object):
 
@@ -331,6 +342,9 @@ class Subcat(object):
     def __len__(self):
         return len(self.members)
 
+    def __repr__(self):
+        return '\n\t'.join([member.__repr__() for member in self.members])
+
 
 class SubcatMember(object):
 
@@ -351,7 +365,7 @@ class SubcatMember(object):
 
 
 class State(object):
-    
+
     """Represents a state in the event structure For motion verbs, this gives the
     variable assignment of the mover, and its location. For transfer verbs, this
     gives the variable assignment of the object being transferred, and what
@@ -365,7 +379,7 @@ class State(object):
         self.glframe = glframe
         self.object = obj_var
         self.position = pos_var
-        
+
     def __repr__(self):
         return "{ objects.%s.location = %s }" % (self.object, self.position)
 
@@ -402,24 +416,24 @@ class Opposition(object):
         self.glframe = glframe
         self.type_of_change = type_of_change
         self.states = states
-        
+
     def __repr__(self):
         op = Opposition.operator_mappings.get(self.type_of_change, 'Op')
         return ' '.join(["(%s(%s, %s), %s(%s, %s))" % \
                          (op, start.object, start.position, op, end.object, end.position)
                          for start, end in self.states])
- 
- 
+
+
 class Qualia(object):
 
     """Represents the qualia structure of a verbframe, including opposition
     structure."""
-    
+
     def __init__(self, glframe, pred_type, opposition):
         self.glframe = glframe
         self.formal = pred_type
         self.opposition = opposition
-        
+
     def __repr__(self):
         return "{ formal = " + str(self.formal) + "(e) AND Opposition" + \
                str(self.opposition) + "}"
@@ -454,7 +468,18 @@ def create_verbnet_gl(vn_classes):
     writer.write(ch_of_state_vcs, 'VN Change of State Classes', 'ch_of_x')
     writer.write(ch_of_info_vcs, 'VN Change of Info Classes', 'ch_of_info')
     writer.finish()
+    # Regenerate the XML for the modified classes
+    generate_verbnet_xml(motion_vcs + transfer_vcs)
+    generate_verbnet_xml(possession_vcs)
+    generate_verbnet_xml(ch_of_state_vcs)
+    generate_verbnet_xml(ch_of_info_vcs)
 
+def generate_verbnet_xml(gl_classes):
+    for gl_class in gl_classes:
+        vn_class = gl_class.verbclass
+        # Write to xml/
+        output = open(os.path.join("xml", vn_class.ID + '.xml'), 'w')
+        output.write(vn_class.pp())
 
 ## TEST FUNCTIONS
 
@@ -582,13 +607,13 @@ if __name__ == '__main__':
 
     debug_mode, filelist, run_tests = read_options()
     vn = run_verbnetparser(debug_mode, filelist)
-    vn_classes = [GLVerbClass(vc) for vc in vn.verb_classes]
+    gl_classes = [GLVerbClass(vc) for vc in vn.verb_classes]
 
     if run_tests:
-        test_print_first_class(vn_classes)
-        test_print_some_classes(vn_classes)
-        test_search_by_ID(vn_classes)
-        test_ch_of_searches(vn_classes)
-        test_new_searches(vn_classes)
+        test_print_first_class(gl_classes)
+        test_print_some_classes(gl_classes)
+        test_search_by_ID(gl_classes)
+        test_ch_of_searches(gl_classes)
+        test_new_searches(gl_classes)
     else:
-        create_verbnet_gl(vn_classes)
+        create_verbnet_gl(gl_classes)
