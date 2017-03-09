@@ -476,10 +476,12 @@ def create_verbnet_gl(vn_classes):
 
 def generate_verbnet_xml(gl_classes):
     for gl_class in gl_classes:
+        print gl_class.verbclass.ID
         vn_class = gl_class.verbclass
         # Write to xml/
         output = open(os.path.join("xml", vn_class.ID + '.xml'), 'w')
         output.write(vn_class.pp())
+        output.close()
 
 ## TEST FUNCTIONS
 
