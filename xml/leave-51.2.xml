@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="leave-51.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="abandon.01" name="abandon" wn="abandon%2:40:00 abandon%2:38:00"/>
+  <MEMBER grouping="" name="split" wn=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Initial_Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+    <SELRESTR Value="-" type="region"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.initial_location" secondary='Transitive; basically, locative preposition drop of "from"' xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     We abandoned the area.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Initial_Location">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="location">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="location">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="direction">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="from"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+   <GL>
+    <QUALIA>
+     { formal = motion(e) AND Opposition(At(0, 1), At(0, -1))}
+    </QUALIA>
+    <EVENT_STRUCTURE>
+     { var = e, initial_state = [{ objects.0.location = 1 }], final_state = [{ objects.0.location = -1 }] }
+    </EVENT_STRUCTURE>
+    <SUBCATEGORISATION>
+     { var = 0, cat = NP, role = [u'Theme'] } / [u'+', u'animate'] 
+	{ var = e, cat = VERB, role = [] } / [] 
+	{ var = 1, cat = NP, role = [u'Initial_Location'] } / ['AND', [u'+', u'location'], [u'-', u'region']]
+    </SUBCATEGORISATION>
+   </GL>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="leave-51.2-1">
+   <MEMBERS>
+    <MEMBER grouping="desert.01" name="desert" wn="desert%2:31:00"/>
+    <MEMBER grouping="leave.01" name="leave" wn="leave%2:38:00"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Basic Intransitive" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The crowd left.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="location">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Initial_Location"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="location">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Initial_Location"/>
+       </ARGS>
+      </PRED>
+      <PRED value="direction">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="Constant" value="from"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Initial_Location"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+     <GL>
+      <QUALIA>
+       { formal = motion(e) AND Opposition(At(0, ?), At(0, -?))}
+      </QUALIA>
+      <EVENT_STRUCTURE>
+       { var = e, initial_state = [{ objects.0.location = ? }], final_state = [{ objects.0.location = -? }] }
+      </EVENT_STRUCTURE>
+      <SUBCATEGORISATION>
+       { var = 0, cat = NP, role = [u'Theme'] } / [u'+', u'animate'] 
+	{ var = e, cat = VERB, role = [] } / []
+      </SUBCATEGORISATION>
+     </GL>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>leave-51.2</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V NP.initial_location
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"We abandoned the area."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>motion</span>(during(E), Theme), <span class=pred>location</span>(start(E), Theme, Initial_Location), <span class=pred>location</span>(end(E), Theme, Initial_Location), <span class=pred>direction</span>(during(E), from, Theme, Initial_Location)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Theme } / [+animate]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Initial_Location } / [(+location AND -region)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>{ formal = motion(e) AND Opposition(At(0, 1), At(0, -1))}
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = [{ objects.0.location = 1 }]<br>
+      final_state = [{ objects.0.location = -1 }]
+</table>
+

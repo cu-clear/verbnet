@@ -1,0 +1,179 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>get-13.5.1</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V NP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Carmen bought a dress."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>has_possession</span>(start(E), ?Source, Theme), <span class=pred>transfer</span>(during(E), Theme), <span class=pred>has_possession</span>(end(E), Agent, Theme), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Theme } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 1: NP V NP PP.source
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Carmen bought a dress from Diana."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>has_possession</span>(start(E), Source, Theme), <span class=pred>transfer</span>(during(E), Theme), <span class=pred>has_possession</span>(end(E), Agent, Theme), <span class=pred>cause</span>(Agent, E)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Theme } / []<br>
+      { cat=PREP role=from } / []<br>
+      { var=2 cat=NP role=Source } / [+concrete]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 2: NP V NP PP.beneficiary
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Carmen bought a dress for Mary."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>has_possession</span>(start(E), ?Source, Theme), <span class=pred>transfer</span>(during(E), Theme), <span class=pred>has_possession</span>(end(E), Agent, Theme), <span class=pred>cause</span>(Agent, E), <span class=pred>benefit</span>(E, Beneficiary)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Theme } / []<br>
+      { cat=PREP role=for } / []<br>
+      { var=2 cat=NP role=Beneficiary } / [(+animate OR +organization)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 3: NP V NP.beneficiary NP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Carmen bought Mary a dress."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>has_possession</span>(start(E), ?Source, Theme), <span class=pred>transfer</span>(during(E), Theme), <span class=pred>has_possession</span>(end(E), Agent, Theme), <span class=pred>cause</span>(Agent, E), <span class=pred>benefit</span>(E, Beneficiary)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Beneficiary } / [(+animate OR +organization)]<br>
+      { var=2 cat=NP role=Theme } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 4: NP V NP PP.asset
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"Carmen bought a dress for $50."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>has_possession</span>(start(E), ?Source, Theme), <span class=pred>transfer</span>(during(E), Theme), <span class=pred>has_possession</span>(end(E), Agent, Theme), <span class=pred>cause</span>(Agent, E), <span class=pred>cost</span>(E, Asset)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Theme } / []<br>
+      { cat=PREP role=for } / []<br>
+      { var=2 cat=NP role=Asset } / [(-location AND -region)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 5: NP.asset V NP
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"$50 won't even buy a dress."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>has_possession</span>(start(E), ?Source, Theme), <span class=pred>transfer</span>(during(E), Theme), <span class=pred>has_possession</span>(end(E), ?Agent, Theme), <span class=pred>cause</span>(?Agent, E), <span class=pred>cost</span>(E, Asset)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Asset } / [(-location AND -region)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Theme } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 6: NP V NP PP.source NP.asset
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"FMC has bought 565,000 shares from Nortek Inc. at $23.50 a share."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>has_possession</span>(start(E), Source, Theme), <span class=pred>has_possession</span>(end(E), Agent, Theme), <span class=pred>transfer</span>(during(E), Theme), <span class=pred>cost</span>(E, Asset)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Agent } / [(+animate OR +organization)]<br>
+      { var=e cat=VERB } / []<br>
+      { var=1 cat=NP role=Theme } / []<br>
+      { cat=PREP role=from } / []<br>
+      { var=2 cat=NP role=Source } / [+concrete]<br>
+      { cat=PREP role=at } / []<br>
+      { var=3 cat=NP role=Asset } / [(-location AND -region)]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>None
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = []<br>
+      final_state = []
+</table>
+

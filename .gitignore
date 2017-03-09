@@ -1,4 +1,5 @@
 .idea/*
-.pyc*
+*.pyc
 config.txt
-html
+./html/*
+./xml/*

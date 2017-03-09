@@ -1,0 +1,127 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>escape-51.1</h1>
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 0: NP V
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"The prisoners advanced."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>motion</span>(during(E), Theme), <span class=pred>path</span>(during(E), Theme, ?Initial_Location, ?Trajectory, ?Destination)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Theme } / [+concrete]<br>
+      { var=e cat=VERB } / []<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>{ formal = motion(e) AND Opposition(At(0, ?), At(0, -?))}
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = [{ objects.0.location = ? }]<br>
+      final_state = [{ objects.0.location = -? }]
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 1: NP V PP.initial_loc
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"He came from France."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>motion</span>(during(E), Theme), <span class=pred>path</span>(during(E), Theme, Initial_Location, ?Trajectory, ?Destination)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Theme } / [+concrete]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP } / [+path]<br>
+      { var=1 cat=NP role=Initial_Location } / [+concrete]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>{ formal = motion(e) AND Opposition(At(0, 1), At(0, -1))}
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = [{ objects.0.location = 1 }]<br>
+      final_state = [{ objects.0.location = -1 }]
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 2: NP V PP.destination
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"He came to Colorado."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>motion</span>(during(E), Theme), <span class=pred>path</span>(during(E), Theme, ?Initial_Location, ?Trajectory, Destination)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Theme } / [+concrete]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP } / [+path]<br>
+      { var=1 cat=NP role=Destination } / [+concrete]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>{ formal = motion(e) AND Opposition(At(0, -1), At(0, 1))}
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = [{ objects.0.location = -1 }]<br>
+      final_state = [{ objects.0.location = 1 }]
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 3: NP V PP.trajectory
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"He came through the door."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>motion</span>(during(E), Theme), <span class=pred>path</span>(during(E), Theme, ?Initial_Location, Trajectory, ?Destination)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Theme } / [+concrete]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP } / [+path]<br>
+      { var=1 cat=NP role=Trajectory } / [+concrete]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>{ formal = motion(e) AND Opposition(At(0, ?), At(0, -?))}
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = [{ objects.0.location = ? }]<br>
+      final_state = [{ objects.0.location = -? }]
+</table>
+
+
+<table class=frame cellpadding=8 cellspacing=0 border=0 width=1000>
+<tr class=description>
+  <td colspan=2>Frame 4: NP V PP.initial_loc PP.destination
+<tr class=vn valign=top>
+  <td width=180>Example
+  <td>"He came from France to Colorado."<tr class=vn valign=top>
+  <td width=180>VerbNet&nbsp;predicates
+  <td><span class=pred>motion</span>(during(E), Theme), <span class=pred>path</span>(during(E), Theme, Initial_Location, ?Trajectory, Destination)<tr class=qualia valign=top>
+  <td>GL&nbsp;subcategorisation
+  <td>
+      { var=0 cat=NP role=Theme } / [+concrete]<br>
+      { var=e cat=VERB } / []<br>
+      { cat=PREP } / [+path]<br>
+      { var=1 cat=NP role=Initial_Location } / [+concrete]<br>
+      { cat=PREP } / [+path]<br>
+      { var=2 cat=NP role=Destination } / [+concrete]<br>
+<tr class=qualia valign=top>
+  <td>GL&nbsp;qualia&nbsp;structure
+  <td>{ formal = motion(e) AND Opposition(At(0, 1), At(0, 2))}
+<tr class=event valign=top>
+  <td>GL event structure  <td>var = e<br>
+      initial_state = [{ objects.0.location = 1 }]<br>
+      final_state = [{ objects.0.location = 2 }]
+</table>
+
