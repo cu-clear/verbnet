@@ -286,8 +286,8 @@ class GLFrame(object):
 
     def add_gl_to_xml(self):
         # Dummy soup object for generating new tags.
-        # Not sure how to access the parsed_file soup so this should work.
-        # Added dummy content so no warnings throw
+        # self.glverbclass.verbclass.soup is sometimes a tag object, which throws an error.
+        # Added content to dummy so that no warnings throw
         dummy_soup = soup('dummy', 'lxml')
 
         # Generate tags, and add the GL content as strings
@@ -481,9 +481,8 @@ def create_verbnet_gl(vn_classes):
 
 def generate_verbnet_xml(gl_classes):
     for gl_class in gl_classes:
-        print gl_class.verbclass.ID
         vn_class = gl_class.verbclass
-        # Write to xml/
+        # Write to xml
         output = open(os.path.join("xml", vn_class.ID + '.xml'), 'w')
         output.write(vn_class.pp())
         output.close()
