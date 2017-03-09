@@ -285,11 +285,12 @@ class GLFrame(object):
 
 
     def add_gl_to_xml(self):
-        # In here we can add glframe to vnframe
-        # Later when we print the VN stuff, the frame should have this in the XML
-        # Make sure to only add the GL specific stuff
-        #TODO take extra things from gl (qualia, opposition, etc) and add to self.frame.soup somehow
+        # Dummy soup object for generating new tags.
+        # Not sure how to access the parsed_file soup so this should work.
+        # Added dummy content so no warnings throw
         dummy_soup = soup('dummy', 'lxml')
+
+        # Generate tags, and add the GL content as strings
         gl_tag = dummy_soup.new_tag("GL")
         qualia_tag = dummy_soup.new_tag("QUALIA")
         qualia_tag.string = self.qualia.__repr__()
@@ -297,9 +298,13 @@ class GLFrame(object):
         event_structure_tag.string = self.events.__repr__()
         subcat_tag = dummy_soup.new_tag("SUBCATEGORISATION")
         subcat_tag.string = self.subcat.__repr__()
+
+        # Add each tag into the new <GL> tag
         gl_tag.append(qualia_tag)
         gl_tag.append(event_structure_tag)
         gl_tag.append(subcat_tag)
+
+        # Insert into frame XML
         self.vnframe.soup.SEMANTICS.insert_after(gl_tag)
         return gl_tag
 
