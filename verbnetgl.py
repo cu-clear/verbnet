@@ -483,6 +483,12 @@ def generate_verbnet_xml(gl_classes):
     for gl_class in gl_classes:
         vn_class = gl_class.verbclass
         # Write to xml
+        try:
+            os.makedirs("xml")
+        except OSError:
+            if not os.path.isdir("xml"):
+                raise
+            
         output = open(os.path.join("xml", vn_class.ID + '.xml'), 'w')
         output.write(vn_class.pp())
         output.close()
