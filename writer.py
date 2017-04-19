@@ -15,6 +15,13 @@ class HtmlWriter(object):
     invoking HtmlClassWriter on individual classes."""
     
     def __init__(self, directory='html'):
+        import errno
+        try:
+            os.makedirs(directory)
+        except OSError:
+            if not os.path.isdir(directory):
+                raise
+            
         self.directory = directory
         self.index = open(os.path.join(self.directory, 'index.html'), 'w')
         self._write_begin()
