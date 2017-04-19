@@ -145,6 +145,7 @@ class Member(AbstractXML):
         self.name = self.get_category('name')
         self.wn = self.get_category('wn')
         self.grouping = self.get_category('grouping')
+        self.features = self.get_category('features')
         
     def __repr__(self):
         return str(self.name + self.wn + self.grouping)

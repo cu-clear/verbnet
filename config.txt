@@ -1,4 +1,4 @@
 
 # Set the path to where your VerbNet files live
 
-VERBNET_PATH = ../vn_3_2
+VERBNET_PATH = ../verbnet_3_3
