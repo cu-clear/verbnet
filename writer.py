@@ -220,6 +220,7 @@ class HtmlFNFrameWriter(object):
         self.fh.write("<h1 class=container>%s</h1>\n" % str(self.fn_frame.name))
         self.fh.write("\n</div>")
         self.fh.write("<div class=container>")
+        self.fh.write("\n<h3>VN Classes</h3>\n")
         for vn_class in self.fn_frame.get_vn_classes():
             self.fh.write("<div class=vn-class>")
             self.fh.write("<a class=vn-class-name data-toggle=collapse href=#vn-class-%s aria-expanded=true aria-controls=vn-class-%s>" % (vn_class.ID.replace('.', '-'), vn_class.ID.replace('.', '-')))
