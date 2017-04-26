@@ -175,7 +175,8 @@ class VerbClass(VerbNetObject):
         self.node = parse(open(fname))
         self.roles = [Role(role) for role in self.get_elements('THEMROLE')]
         self.frames = [Frame(self, frame) for frame in self.get_elements('FRAME')]
-
+        self.members = [Member(self, member) for member in self.get_elements('MEMBER')]
+        
     def __str__(self):
         return "<VerbClass %s>" % self.classname
 
@@ -215,8 +216,16 @@ class Role(VerbNetObject):
 
     def __init__(self, role_node):
         self.node = role_node
+        self.name = self.node.getAttribute('type')
+        restr_nodes = self.get_elements('SELRESTR')
+        self.restrictions = [r.getAttribute('Value') + r.getAttribute('type') for r in restr_nodes]
+        
+class Member(VerbNetObject):
 
-
+    def __init__(self, verb_class, member_node):
+        self.vc = verb_class
+        self.name = member_node.getAttribute('name')
+        
 class Frame(VerbNetObject):
 
     def __init__(self, verb_class, frame_node):
@@ -398,8 +407,6 @@ if __name__ == '__main__':
     vn = VerbNet(directory="/home/kevin/Lexical_Resources/verbnet/")
     for c in vn.get_classes():
         print (c)
+        print (c.members)
 #    import doctest
 #    doctest.testmod()
-
-
-    
