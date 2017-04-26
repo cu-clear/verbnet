@@ -164,6 +164,7 @@ class HtmlFNWriter(object):
 
         self.directory = directory
         self.index = open(os.path.join(self.directory, 'index.html'), 'w')
+        self.pure_frame_index = open(os.path.join(self.directory, 'pure-frame-index.html'), 'w')
         self._write_begin()
 
     def _write_begin(self):
@@ -174,15 +175,18 @@ class HtmlFNWriter(object):
         self.index.write("</head>\n")
         self.index.write("<body>\n")
 
-    def write(self, fn_frames):
+    def write(self, fn):
+        self.write_pure_frames(fn)
+        fn_frames = fn.frames
         self.index.write("<div class=framenet-header>")
         self.index.write("\n<h1 class=container>Framenet Frames</h1>\n")
         self.index.write("\n</div>")
         self.index.write("<div class='container frames'>\n")
+        self.index.write("<a href=pure-frame-index.html class='btn btn-success pure-frames-btn'>View Pure Frames</a>")
         # order frames by name
         fn_frames.sort(key=lambda x: x.name)
         # store size of 1/3 frames for splitting into 3 cols
-        frames_col_size = len(fn_frames)/3
+        frames_col_size = int(len(fn_frames)/3)
         self.index.write("<div class=row>")
         self.index.write("<div class=col-sm-4>")
         for i, fn_frame in enumerate(fn_frames):
@@ -195,6 +199,35 @@ class HtmlFNWriter(object):
                 self.index.write("</div>")
                 self.index.write("<div class=col-sm-4>")
         self.index.write("</div></div>\n")
+
+    def write_pure_frames(self, fn):
+        self.pure_frame_index.write("<html>\n")
+        self.pure_frame_index.write("<head>\n")
+        self.pure_frame_index.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n")
+        self.pure_frame_index.write(bootstrap_header())
+        self.pure_frame_index.write("</head>\n")
+        self.pure_frame_index.write("<body>\n")
+        pure_frames = fn.get_pure_frames()
+        self.pure_frame_index.write("<div class=framenet-header>")
+        self.pure_frame_index.write("\n<h1 class=container>Pure Framenet Frames</h1>\n")
+        self.pure_frame_index.write("\n</div>")
+        self.pure_frame_index.write("<div class='container frames'>\n")
+        self.pure_frame_index.write("<div class=back-button><a href=index.html><< back</a></div>")
+        # order frames by purity
+        pure_frames.sort(key=lambda x: x.purity(), reverse=True)
+        # store size of 1/3 frames for splitting into 3 cols
+        pure_frames_col_size = int(len(pure_frames) / 3)
+        self.pure_frame_index.write("<div class=row>")
+        self.pure_frame_index.write("<div class=col-sm-4>")
+        for i, pure_frame in enumerate(pure_frames):
+            pure_frame_file = "%s.html" % pure_frame.name
+            self.pure_frame_index.write(
+                "<div class='vnlink frame-name'><a href=\"%s\">%s</a></div>\n" % (pure_frame_file, pure_frame.name))
+            # this is where to split into cols
+            if i in [pure_frames_col_size, pure_frames_col_size * 2]:
+                self.pure_frame_index.write("</div>")
+                self.pure_frame_index.write("<div class=col-sm-4>")
+        self.pure_frame_index.write("</div></div>\n")
 
     def finish(self):
         self.index.write("</body>\n")

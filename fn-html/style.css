@@ -12,6 +12,16 @@ td.bordered { border: 1px solid gray; padding: 5pt; }
     color: #FFFFFF;
 }
 
+.back-button {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.pure-frames-btn {
+    font-size: 16px !important;
+    margin-bottom: 15px !important;
+}
+
 .frames {
     margin-top: 10px;
 }
@@ -38,10 +48,10 @@ td.bordered { border: 1px solid gray; padding: 5pt; }
     font-size: 16px;
 }
 
-a:link { color: black; text-decoration: none; }
-a:visited { color: darkblue; text-decoration: none; }
-a:hover { color: darkred; text-decoration: underline; font-weight: xbold; }
-a:active { color: black; text-decoration: none; }
+.vnlink > a:link { color: black; text-decoration: none; }
+.vnlink > a:visited { color: darkblue; text-decoration: none; }
+.vnlink > a:hover { color: darkred; text-decoration: underline; font-weight: xbold; }
+.vnlink > a:active { color: black; text-decoration: none; }
 
 /* used in variables: "x<sub>2</sub>" */
 sub { font-size: 60%; }

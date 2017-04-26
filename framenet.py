@@ -43,9 +43,9 @@ class FrameNet(AbstractXML):
   def __init__(self):
     self.soup = soup(open(FRAMENET_MAPPING_PATH), "lxml-xml")
     self.mappings = [Mapping(mapping_soup) for mapping_soup in self.soup.find_all("vncls")]
-    self.frames = self.frames()
+    self.frames = self._frames()
 
-  def frames(self):
+  def _frames(self):
     names_and_frames = {}
 
     for mapping in self.mappings:
@@ -56,9 +56,16 @@ class FrameNet(AbstractXML):
       else:
         names_and_frames[mapping.name] = Frame([mapping])
 
+    return list(names_and_frames.values())
 
+  def get_pure_frames(self, threshhold=.5):
+    pure_frames = []
 
-    return names_and_frames.values()
+    for frame in self.frames:
+      if frame.purity() > threshhold:
+        pure_frames.append(frame)
+
+    return pure_frames
 
 
 class Mapping(AbstractXML):
@@ -85,11 +92,26 @@ class Frame(object):
 
     return [VN_class(c, m) for c, m in class_and_members.items()]
 
+  def purity(self):
+    return self.biggest_vn_class().size() / len(self.get_vn_members())
+
+  def biggest_vn_class(self):
+    vn_classes = self.get_vn_classes()
+    biggest = vn_classes[0]
+    for vn_class in vn_classes:
+      if vn_class.size() > biggest.size():
+        biggest = vn_class
+
+    return biggest
+
 
 class VN_class(object):
   def __init__(self, ID, members=[]):
     self.ID = ID
     self.members = members
+
+  def size(self):
+    return len(self.members)
 
 
 class Member(object):
@@ -101,8 +123,9 @@ def create_verbnet_framenet(fn):
   # If we need more VN info to go in these FN frames,
   # Add that here by importing VerbNetParser
   writer = HtmlFNWriter()
-  writer.write(list(fn.frames))
+  writer.write(fn)
   writer.finish()
 
 fn = FrameNet()
+#print([(f.name, f.purity()) for f in fn.get_pure_frames()])
 create_verbnet_framenet(fn)
