@@ -38,7 +38,7 @@ $ python verbnetgl.py -td
 import os, sys, itertools, getopt
 from bs4 import BeautifulSoup as soup
 from verbnetparser import VerbNetParser
-from writer import HtmlWriter, HtmlClassWriter
+from writer import HtmlGLWriter, HtmlClassWriter
 from search import search_by_predicate, search_by_argtype
 from search import search_by_ID, search_by_subclass_ID
 from search import search_by_themroles, search_by_POS, search_by_cat_and_role
@@ -467,7 +467,7 @@ def create_verbnet_gl(vn_classes):
     possession_vcs = [vc for vc in vn_classes if vc.ID in possession]
     ch_of_state_vcs = [vc for vc in vn_classes if vc.is_change_of_state_class()]
     ch_of_info_vcs = [vc for vc in vn_classes if vc.is_change_of_info_class()]
-    writer = HtmlWriter()
+    writer = HtmlGLWriter()
     writer.write(motion_vcs + transfer_vcs, 'VN Motion Classes', 'motion')
     writer.write(possession_vcs, 'VN Posession Classes', 'poss')
     writer.write(ch_of_state_vcs, 'VN Change of State Classes', 'ch_of_x')
@@ -516,7 +516,7 @@ def test_print_some_classes(vn_classes):
     results = { p: search_by_predicate(vn_classes, p) for p in preds }
     result_classes = [i for i in itertools.chain.from_iterable(results.values())]
     result_classes = sorted(set(result_classes))
-    writer = HtmlWriter()
+    writer = HtmlGLWriter()
     writer.write(result_classes, "VN Classes")
     print "Results are written to html/index.html"
 

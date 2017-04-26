@@ -8,12 +8,12 @@ Utilities to write HTML files.
 import os
 
 
-class HtmlWriter(object):
+class HtmlGLWriter(object):
 
     """Class that knows how to create html files for set of GLVerbClass
     instances. This class is responsible for writing the index file and for
     invoking HtmlClassWriter on individual classes."""
-    
+
     def __init__(self, directory='html'):
         import errno
         try:
@@ -21,7 +21,7 @@ class HtmlWriter(object):
         except OSError:
             if not os.path.isdir(directory):
                 raise
-            
+
         self.directory = directory
         self.index = open(os.path.join(self.directory, 'index.html'), 'w')
         self._write_begin()
@@ -148,3 +148,103 @@ class HtmlClassWriter(object):
         self.fh.write("  <td>var = %s<br>\n" % gl_frame.events.var)
         self.fh.write("      initial_state = %s<br>\n" % gl_frame.events.initial_state)
         self.fh.write("      final_state = %s\n" % gl_frame.events.final_state)
+
+
+class HtmlFNWriter(object):
+    """Class that knows how to create html files for set of FrameNet Frame
+    instances."""
+
+    def __init__(self, directory='fn-html'):
+        import errno
+        try:
+            os.makedirs(directory)
+        except OSError:
+            if not os.path.isdir(directory):
+                raise
+
+        self.directory = directory
+        self.index = open(os.path.join(self.directory, 'index.html'), 'w')
+        self._write_begin()
+
+    def _write_begin(self):
+        self.index.write("<html>\n")
+        self.index.write("<head>\n")
+        self.index.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n")
+        self.index.write(bootstrap_header())
+        self.index.write("</head>\n")
+        self.index.write("<body>\n")
+
+    def write(self, fn_frames):
+        self.index.write("<div class=framenet-header>")
+        self.index.write("\n<h1 class=container>Framenet Frames</h1>\n")
+        self.index.write("\n</div>")
+        self.index.write("<div class='container frames'>\n")
+        # order frames by name
+        fn_frames.sort(key=lambda x: x.name)
+        # store size of 1/3 frames for splitting into 3 cols
+        frames_col_size = len(fn_frames)/3
+        self.index.write("<div class=row>")
+        self.index.write("<div class=col-sm-4>")
+        for i, fn_frame in enumerate(fn_frames):
+            fn_frame_file = "%s.html" % fn_frame.name
+            self.index.write("<div class='vnlink frame-name'><a href=\"%s\">%s</a></div>\n" % (fn_frame_file, fn_frame.name))
+            fh = open(os.path.join(self.directory, fn_frame_file), 'w')
+            HtmlFNFrameWriter(fh, fn_frame).write()
+            # this is where to split into cols
+            if i in [frames_col_size, frames_col_size * 2]:
+                self.index.write("</div>")
+                self.index.write("<div class=col-sm-4>")
+        self.index.write("</div></div>\n")
+
+    def finish(self):
+        self.index.write("</body>\n")
+        self.index.write("</html>\n")
+
+class HtmlFNFrameWriter(object):
+
+    """Class that knows how to write the HTML representation for a GLVerbClass to a
+    file handle."""
+
+    def __init__(self, fh, fn_frame):
+        self.fh = fh
+        self.fn_frame = fn_frame
+
+    def write(self):
+        self.fh.write("<html>\n")
+        self.fh.write("<head>\n")
+        self.fh.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n")
+        self.fh.write(bootstrap_header())
+        self.fh.write("</head>\n")
+        self.fh.write("<body>\n")
+        self.fh.write("\n<div class=framenet-header>")
+        self.fh.write("<h1 class=container>%s</h1>\n" % str(self.fn_frame.name))
+        self.fh.write("\n</div>")
+        self.fh.write("<div class=container>")
+        for vn_class in self.fn_frame.get_vn_classes():
+            self.fh.write("<div class=vn-class>")
+            self.fh.write("<a class=vn-class-name data-toggle=collapse href=#vn-class-%s aria-expanded=true aria-controls=vn-class-%s>" % (vn_class.ID.replace('.', '-'), vn_class.ID.replace('.', '-')))
+            self.fh.write(vn_class.ID)
+            self.fh.write("<span class=vn-class-plus>+</span>")
+            self.fh.write("</a>")
+            self.fh.write("<div id=vn-class-%s class='collapse' role=tabpanel>" % vn_class.ID.replace('.', '-'))
+            self.fh.write("<ul>")
+            for member in vn_class.members:
+                self.pp_member(member)
+            self.fh.write("</ul></div></div>")
+
+        self.fh.write("</div></div>")
+
+    def pp_member(self, vn_member):
+        self.fh.write("<li class='vn-member'>")
+        self.fh.write(vn_member.name)
+        self.fh.write("</li>")
+
+def bootstrap_header():
+    # Add jquery
+    jquery_ref = "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js\"></script>"
+    # Add bootstrap css
+    css_ref = "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">"
+    # Add bootstrap JS
+    js_ref = "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>"
+
+    return jquery_ref + css_ref + js_ref

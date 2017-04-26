@@ -62,6 +62,10 @@ class VerbNetParser(object):
         """Return a list of all classes."""
         return self.verb_classes_dict.values()
 
+    def get_verb_class_by_numerical_id(self, numerical_ID):
+        """Return a list of all classes."""
+        return self.verb_classes_dict.get(numerical_ID)
+
 class AbstractXML(object):
     """Abstract class to be inherited by other classes that share the same 
     features"""
@@ -99,6 +103,7 @@ class VerbClass(AbstractXML):
         except IndexError:
             print self.get_category("ID", self.soup.VNSUBCLASS), self.soup
             self.ID = self.get_category("ID", self.soup.VNSUBCLASS)[0]
+        self.numerical_ID = self.ID.split("-")[1]
         self.members = self.members()
         self.frames = self.frames()
         self.names = [mem.get_category('name')[0] for mem in self.members]

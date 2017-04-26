@@ -2,4 +2,5 @@
 *.pyc
 config.txt
 html/*
+fn-html/*
 xml/*
