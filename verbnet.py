@@ -216,12 +216,15 @@ class Role(VerbNetObject):
 
     def __init__(self, role_node):
         self.node = role_node
-
+        self.name = self.node.getAttribute('type')
+        restr_nodes = self.get_elements('SELRESTR')
+        self.restrictions = [r.getAttribute('Value') + r.getAttribute('type') for r in restr_nodes]
+        
 class Member(VerbNetObject):
 
     def __init__(self, verb_class, member_node):
         self.vc = verb_class
-        self.verb = member_node.getAttribute('name')
+        self.name = member_node.getAttribute('name')
         
 class Frame(VerbNetObject):
 
