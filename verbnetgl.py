@@ -219,7 +219,7 @@ class GLFrame(object):
         object is always the theme."""
         # check whether there actually is a motion predicate
         if not self.find_predicates('motion'):
-            print "WARNING: no Motion predicate found in", self
+            print("WARNING: no Motion predicate found in", self)
         return ['Theme', str(self.role2var.get('Theme', '?'))]
 
     def _get_agent(self):
@@ -230,7 +230,7 @@ class GLFrame(object):
         if cause_predicates:
             args = self.find_arguments(cause_predicates[0], 'Agent')
             if not args:
-                print 'WARNING: missing Agent in Cause predicate'
+                print('WARNING: missing Agent in Cause predicate')
         return ['Agent', str(self.role2var.get('Agent', '?'))]
 
     def _get_initial_location(self):
@@ -257,31 +257,31 @@ class GLFrame(object):
                 destination[1] = '-' + initial_location[1]
 
     def pp_predicates(self, indent=0):
-        print "%spredicates" % (indent * ' ')
+        print("%spredicates" % (indent * ' '))
         for p in self.vnframe.predicates:
-            print "%s   %s" % (indent * ' ', p)
+            print("%s   %s" % (indent * ' ', p))
 
     def pp_subcat(self, indent=0):
-        print "%ssubcat" % (indent * ' ')
+        print("%ssubcat" % (indent * ' '))
         for sc in self.subcat:
-            print "%s   %s" % (indent * ' ', sc)
+            print("%s   %s" % (indent * ' ', sc))
 
     def pp_variables(self, indent=0):
-        print "%svariables = { %s }" \
+        print("%svariables = { %s }") \
             % (indent * ' ',
                ', '.join(["%s(%s)" % (r, v) for r, v in self.role2var.items()]))
 
     def _debug1(self, agent, moving_object, initial_location, destination,
                 initial_state, final_state):
         if self.glverbclass.ID in ('run-51.3.2', 'slide.11.2', 'snooze-40.4'):
-            print; print self;
+            print(self)
             self.pp_predicates(3); self.pp_subcat(3), self.pp_variables(3)
-            print '   agent  =', agent
-            print '   object =', moving_object
-            print '   start  =', initial_location
-            print '   end    =', destination
-            print '  ', initial_state
-            print '  ', final_state
+            print('   agent  =', agent)
+            print('   object =', moving_object)
+            print('   start  =', initial_location)
+            print('   end    =', destination)
+            print('  ', initial_state)
+            print('  ', final_state)
 
 
     def add_gl_to_xml(self):
@@ -488,7 +488,7 @@ def generate_verbnet_xml(gl_classes):
         except OSError:
             if not os.path.isdir("xml"):
                 raise
-            
+
         output = open(os.path.join("xml", vn_class.ID + '.xml'), 'w')
         output.write(vn_class.pp())
         output.close()
@@ -497,9 +497,9 @@ def generate_verbnet_xml(gl_classes):
 
 def test_print_first_class(vn_classes):
     """Just print the first class to stdout."""
-    print "\n%s" % (">" * 80)
-    print ">>> RUNNING test_print_first_class"
-    print ">>> Hit return to proceed..."
+    print("\n%s" % (">" * 80))
+    print(">>> RUNNING test_print_first_class")
+    print(">>> Hit return to proceed...")
     raw_input()
     vn_classes[0].pp()
 
@@ -507,9 +507,9 @@ def test_print_first_class(vn_classes):
 def test_print_some_classes(vn_classes):
     """Print a list of classes that match a couple of hand-picked predicates. The
     results are written to the html directory."""
-    print "\n%s" % (">" * 80)
-    print ">>> RUNNING test_print_first_class"
-    print ">>> Hit return to proceed..."
+    print("\n%s" % (">" * 80))
+    print(">>> RUNNING test_print_first_class")
+    print(">>> Hit return to proceed...")
     raw_input()
     preds = ["motion", "transfer", "adjust", "cause", "transfer_info",
              "emotional_state", "location", "state", "wear"]
@@ -518,73 +518,74 @@ def test_print_some_classes(vn_classes):
     result_classes = sorted(set(result_classes))
     writer = HtmlGLWriter()
     writer.write(result_classes, "VN Classes")
-    print "Results are written to html/index.html"
+    print("Results are written to html/index.html")
 
 
 def test_search_by_ID(vn_classes):
-    print "\n%s" % (">" * 80)
-    print ">>> RUNNING test_search_by_ID"
-    print ">>> Hit return to proceed..."
+    print("\n%s" % (">" * 80))
+    print(">>> RUNNING test_search_by_ID")
+    print(">>> Hit return to proceed...")
     raw_input()
     try:
-        print search_by_ID(vn_classes, "absorb-39.8")
+        print(search_by_ID(vn_classes, "absorb-39.8"))
     except:
-        print "WARNING: could not find absorb-39.8"
+        print("WARNING: could not find absorb-39.8")
     try:
-        print search_by_ID(vn_classes, "swarm-47.5.1").subclasses[1]
+        print(search_by_ID(vn_classes, "swarm-47.5.1").subclasses[1])
     except AttributeError:
-        print "WARNING: could not find swarm-47.5.1"
+        print("WARNING: could not find swarm-47.5.1")
 
 
 def test_ch_of_searches(vn_classes):
     # find all 'ch_of_' verb classes
-    print "\n%s" % (">" * 80)
-    print ">>> RUNNING test_ch_of_searches"
-    print ">>> Hit return to proceed..."
+    print("\n%s" % (">" * 80))
+    print(">>> RUNNING test_ch_of_searches")
+    print(">>> Hit return to proceed...")
     raw_input()
     for argtype in ('ch_of_', 'ch_of_info', 'ch_of_pos', 'ch_of_poss',
                     'ch_of_state', 'ch_of_loc', 'ch_of_location'):
         results = search_by_argtype(vn_classes, argtype)
-        print "%s %s %s\n" % (len(results), argtype, ' '.join(results))
+        print("%s %s %s\n" % (len(results), argtype, ' '.join(results)))
     path_rel_results = search_by_argtype(vn_classes, "path_rel")
-    print 'number of path_rel classes:', len(path_rel_results)
+    print('number of path_rel classes:', len(path_rel_results))
     path_less_ch = [vc.ID for vc in path_rel_results if vc.ID not in ch_of_results]
-    print 'path_rel classes with no ch_of:', path_less_ch, "\n"
+    print('path_rel classes with no ch_of:', path_less_ch, "\n")
 
 
 def test_new_searches(vn_classes):
-    print "\n%s" % (">" * 80)
-    print ">>> RUNNING test_new_searches"
-    print ">>> Hit return to proceed..."
+    print("\n%s" % (">" * 80))
+    print(">>> RUNNING test_new_searches")
+    print(">>> Hit return to proceed...")
     raw_input()
     for print_string, function, role_list, boolean in [
-            ("Verbclasses with Agent and Patient thematic roles:", search_by_themroles, ['Agent', 'Patient'], False),
-            ('Agent and Patient only classes:', search_by_themroles, ['Agent', 'Patient'], True),
-            ("Verbclasses with frames with NP and VERB syntactic roles:", search_by_POS, ['NP', 'VERB'], False),
-            ('NP and VERB only classes:', search_by_POS, ['NP', 'VERB'], True),
-            ("Verbclasses with frames with (NP, Agent) subcat members:", search_by_cat_and_role, [('NP', 'Agent')], False),
-            ('(NP, Agent) and (PREP, None) classes:', search_by_cat_and_role, [('NP', 'Agent'), ('PREP', 'None')], False),
-            ('(NP, Agent) and (VERB, None) only classes:', search_by_cat_and_role, [('NP', 'Agent'), ('VERB', 'None')], True) ]:
+        ("Verbclasses with Agent and Patient thematic roles:", search_by_themroles, ['Agent', 'Patient'], False),
+        ('Agent and Patient only classes:', search_by_themroles, ['Agent', 'Patient'], True),
+        ("Verbclasses with frames with NP and VERB syntactic roles:", search_by_POS, ['NP', 'VERB'], False),
+        ('NP and VERB only classes:', search_by_POS, ['NP', 'VERB'], True),
+        ("Verbclasses with frames with (NP, Agent) subcat members:", search_by_cat_and_role, [('NP', 'Agent')], False),
+        ('(NP, Agent) and (PREP, None) classes:', search_by_cat_and_role, [('NP', 'Agent'), ('PREP', 'None')], False),
+        ('(NP, Agent) and (VERB, None) only classes:', search_by_cat_and_role, [('NP', 'Agent'), ('VERB', 'None')],
+         True)]:
         results = function(vn_classes, role_list, boolean)
         ids = []
         if results:
             ids = [vc.ID for vc in results] if isinstance(results[0], GLVerbClass) \
-                  else [ID for frame, ID in results]
+                else [ID for frame, ID in results]
             ids = sorted(list(set(ids)))
-        print "\nThere are %s cases of %s" % (len(ids), print_string)
-        print '  ', "\n   ".join([id for id in ids])
+        print("\nThere are %s cases of %s" % (len(ids), print_string))
+        print('  ', "\n   ".join([id for id in ids]))
 
 
 ## SOME UTILITIES
 
 def print_motion_classes():
-    """Print a list of all classes that have a motion frame."""
+    """Print(a list of all classes that have a motion frame.)"""
     vn = VerbNetParser()
     vn_classes = [GLVerbClass(vc) for vc in vn.verb_classes]
     motion_classes = [c for c in vn_classes if c.is_motion_class()]
-    print len(motion_classes)
+    print(len(motion_classes))
     for c in motion_classes:
-        print c.ID
+        print(c.ID)
 
 
 def read_options():
@@ -612,7 +613,6 @@ def run_verbnetparser(debug_mode, filelist):
     else:
         vn = VerbNetParser()
     return vn
-
 
 
 if __name__ == '__main__':

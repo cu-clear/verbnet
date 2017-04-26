@@ -83,7 +83,7 @@ class Frame(object):
     for member in self.get_vn_members():
       class_and_members.setdefault(member.class_ID, []).append(member)
 
-    return [VN_class(c, m) for c, m in class_and_members.iteritems()]
+    return [VN_class(c, m) for c, m in class_and_members.items()]
 
 
 class VN_class(object):
@@ -101,7 +101,7 @@ def create_verbnet_framenet(fn):
   # If we need more VN info to go in these FN frames,
   # Add that here by importing VerbNetParser
   writer = HtmlFNWriter()
-  writer.write(fn.frames)
+  writer.write(list(fn.frames))
   writer.finish()
 
 fn = FrameNet()

@@ -2,3 +2,5 @@
 # Set the path to where your VerbNet files live
 
 VERBNET_PATH = ../verbnet_3_3
+
+FRAMENET_MAPPING_PATH = ../vn-fn.xml

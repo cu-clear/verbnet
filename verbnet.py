@@ -8,42 +8,42 @@ predicates.
 
 You can open a VerbNet instance using a list of XML files with verb classes:
 
->>> fnames = ('data/slide-11.2.xml', 'data/tell-37.2.xml')
->>> vn = VerbNet(fnames=fnames)
->>> print vn
+fnames = ('data/slide-11.2.xml', 'data/tell-37.2.xml')
+vn = VerbNet(fnames=fnames)
+print(vn)
 <VerbNet on 2 classes>
 
 Alternatively you can open an instance on all XML files in a directory:
 
->>> vn = VerbNet(directory='data')
->>> print vn
+vn = VerbNet(directory='data')
+print(vn)
 <VerbNet on 2 classes>
 
 You can get all classes:
 
->>> for cl in sorted(vn.get_classes()):
-...      print cl
+for cl in sorted(vn.get_classes()):
+    print(cl)
 <VerbClass slide-11.2>
 <VerbClass tell-37.2>
 
 Or just look up one class using its full name including the class version:
 
->>> print vn.get_class('slide-11.2')
+print(vn.get_class('slide-11.2'))
 <VerbClass slide-11.2>
 
 Frames can be accessed easily:
 
->>> for frame in  vn.get_class('slide-11.2').frames[:3]:
-...     print frame
+for frame in  vn.get_class('slide-11.2').frames[:3]:
+    print(frame)
 <Frame slide-11.2 'NP V'>
 <Frame slide-11.2 'NP V PP.initial_location'>
 <Frame slide-11.2 'NP V PP.destination'>
 
 The PredicateStatistics class produces some html files with statistics:
 
->>> stats = PredicateStatistics(vn, pred='motion')
->>> stats.print_missing_links('out-missing-roles.html')
->>> stats.print_predicates('out-predicates.txt')
+stats = PredicateStatistics(vn, pred='motion')
+stats.print_missing_links('out-missing-roles.html')
+stats.print_predicates('out-predicates.txt')
 
 In the case above, the results are written to two files and the statistics are
 limited to classes that contain a motion predicate.
@@ -195,7 +195,7 @@ class VerbClass(VerbNetObject):
         return False
 
     def pp(self):
-        print self.classname
+        print(self.classname)
 
     def print_html(self, fh=None):
         if fh is None:

@@ -101,7 +101,7 @@ class VerbClass(AbstractXML):
         try:
             self.ID = self.get_category("ID", self.soup.VNCLASS)[0]
         except IndexError:
-            print self.get_category("ID", self.soup.VNSUBCLASS), self.soup
+            print(self.get_category("ID", self.soup.VNSUBCLASS), self.soup)
             self.ID = self.get_category("ID", self.soup.VNSUBCLASS)[0]
         self.numerical_ID = self.ID.split("-")[1]
         self.members = self.members()
