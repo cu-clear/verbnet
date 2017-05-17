@@ -40,10 +40,12 @@ class VerbNetParser(object):
         self.parsed_files = self.parse_files()
         self.verb_classes = []
         self.verb_classes_dict = {}
+        self.verb_classes_numerical_dict = {}
         for parse in self.parsed_files:
             vc = VerbClass(parse)
             self.verb_classes.append(vc)
             self.verb_classes_dict[vc.ID] = vc
+            self.verb_classes_numerical_dict[vc.ID.split("-")[1]] = vc
 
     def parse_files(self):
         """Parse a list of XML files using BeautifulSoup. Returns list of parsed
@@ -64,7 +66,7 @@ class VerbNetParser(object):
 
     def get_verb_class_by_numerical_id(self, numerical_ID):
         """Return a list of all classes."""
-        return self.verb_classes_dict.get(numerical_ID)
+        return self.verb_classes_numerical_dict.get(numerical_ID)
 
 class AbstractXML(object):
     """Abstract class to be inherited by other classes that share the same 

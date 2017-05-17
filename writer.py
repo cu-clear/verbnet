@@ -190,14 +190,15 @@ class HtmlFNWriter(object):
         self.index.write("<div class=row>")
         self.index.write("<div class=col-sm-4>")
         for i, fn_frame in enumerate(fn_frames):
-            fn_frame_file = "%s.html" % fn_frame.name
-            self.index.write("<div class='vnlink frame-name'><a href=\"%s\">%s</a></div>\n" % (fn_frame_file, fn_frame.name))
-            fh = open(os.path.join(self.directory, fn_frame_file), 'w')
-            HtmlFNFrameWriter(fh, fn_frame).write()
-            # this is where to split into cols
-            if i in [frames_col_size, frames_col_size * 2]:
-                self.index.write("</div>")
-                self.index.write("<div class=col-sm-4>")
+            if fn_frame.has_classes():
+                fn_frame_file = "%s.html" % fn_frame.name
+                self.index.write("<div class='vnlink frame-name'><a href=\"%s\">%s</a></div>\n" % (fn_frame_file, fn_frame.name))
+                fh = open(os.path.join(self.directory, fn_frame_file), 'w')
+                HtmlFNFrameWriter(fh, fn_frame).write()
+                # this is where to split into cols
+                if i in [frames_col_size, frames_col_size * 2]:
+                    self.index.write("</div>")
+                    self.index.write("<div class=col-sm-4>")
         self.index.write("</div></div>\n")
 
     def write_pure_frames(self, fn):
@@ -220,13 +221,14 @@ class HtmlFNWriter(object):
         self.pure_frame_index.write("<div class=row>")
         self.pure_frame_index.write("<div class=col-sm-4>")
         for i, pure_frame in enumerate(pure_frames):
-            pure_frame_file = "%s.html" % pure_frame.name
-            self.pure_frame_index.write(
-                "<div class='vnlink frame-name'><a href=\"%s\">%s</a></div>\n" % (pure_frame_file, pure_frame.name))
-            # this is where to split into cols
-            if i in [pure_frames_col_size, pure_frames_col_size * 2]:
-                self.pure_frame_index.write("</div>")
-                self.pure_frame_index.write("<div class=col-sm-4>")
+            if pure_frame.has_classes():
+                pure_frame_file = "%s.html" % pure_frame.name
+                self.pure_frame_index.write(
+                    "<div class='vnlink frame-name'><a href=\"%s\">%s</a></div>\n" % (pure_frame_file, pure_frame.name))
+                # this is where to split into cols
+                if i in [pure_frames_col_size, pure_frames_col_size * 2]:
+                    self.pure_frame_index.write("</div>")
+                    self.pure_frame_index.write("<div class=col-sm-4>")
         self.pure_frame_index.write("</div></div>\n")
 
     def finish(self):
@@ -255,16 +257,17 @@ class HtmlFNFrameWriter(object):
         self.fh.write("<div class=container>")
         self.fh.write("\n<h3>VN Classes</h3>\n")
         for vn_class in self.fn_frame.get_vn_classes():
-            self.fh.write("<div class=vn-class>")
-            self.fh.write("<a class=vn-class-name data-toggle=collapse href=#vn-class-%s aria-expanded=true aria-controls=vn-class-%s>" % (vn_class.ID.replace('.', '-'), vn_class.ID.replace('.', '-')))
-            self.fh.write(vn_class.ID)
-            self.fh.write("<span class=vn-class-plus>+</span>")
-            self.fh.write("</a>")
-            self.fh.write("<div id=vn-class-%s class='collapse' role=tabpanel>" % vn_class.ID.replace('.', '-'))
-            self.fh.write("<ul>")
-            for member in vn_class.members:
-                self.pp_member(member)
-            self.fh.write("</ul></div></div>")
+            if vn_class.has_vn_counterpart():
+                self.fh.write("<div class=vn-class>")
+                self.fh.write("<a class=vn-class-name data-toggle=collapse href=#vn-class-%s aria-expanded=true aria-controls=vn-class-%s>" % (vn_class.ID.replace('.', '-'), vn_class.ID.replace('.', '-')))
+                self.fh.write(vn_class.full_name())
+                self.fh.write("<span class=vn-class-plus>+</span>")
+                self.fh.write("</a>")
+                self.fh.write("<div id=vn-class-%s class='collapse in' role=tabpanel>" % vn_class.ID.replace('.', '-'))
+                self.fh.write("<ul>")
+                for member in vn_class.members:
+                    self.pp_member(member)
+                self.fh.write("</ul></div></div>")
 
         self.fh.write("</div></div>")
 

@@ -1,6 +1,7 @@
 #from verbnetparser import VerbNetParser, VerbClass, Member
 from bs4 import BeautifulSoup as soup
 from writer import HtmlFNWriter
+from verbnetparser import VerbNetParser
 
 def get_framenet_mappings():
   for line in open('config.txt'):
@@ -9,10 +10,10 @@ def get_framenet_mappings():
   exit('WARNING: could not find a value for VERBNET_PATH')
 
 FRAMENET_MAPPING_PATH = get_framenet_mappings()
-'''
+
 vn = VerbNetParser()
 vn.parse_files()
-'''
+
 
 class AbstractXML(object):
   """Abstract class to be inherited by other classes that share the same
@@ -104,6 +105,13 @@ class Frame(object):
 
     return biggest
 
+  def has_classes(self):
+    for vn_class in self.get_vn_classes():
+      if vn_class.has_vn_counterpart():
+        return True
+
+    return False
+
 
 class VN_class(object):
   def __init__(self, ID, members=[]):
@@ -112,6 +120,22 @@ class VN_class(object):
 
   def size(self):
     return len(self.members)
+
+  def vn_counterpart(self):
+    return vn.get_verb_class_by_numerical_id(self.ID)
+
+  def has_vn_counterpart(self):
+    return self.vn_counterpart() != None
+
+  def full_name(self):
+    if "-" in self.ID:
+      parent_class = vn.get_verb_class_by_numerical_id(self.ID.split("-")[0])
+
+      for subclass in parent_class.subclasses:
+        if '-'.join(subclass.ID.split("-")[1:]) == self.ID:
+          return subclass.ID
+    else:
+      return vn.get_verb_class_by_numerical_id(self.ID).ID
 
 
 class Member(object):
@@ -127,5 +151,4 @@ def create_verbnet_framenet(fn):
   writer.finish()
 
 fn = FrameNet()
-#print([(f.name, f.purity()) for f in fn.get_pure_frames()])
 create_verbnet_framenet(fn)

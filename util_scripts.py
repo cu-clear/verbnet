@@ -55,6 +55,7 @@ def update_fn_mapping():
 
 #update_fn_mapping()
 vn = VerbNetParser()
+print([s.ID for s in vn.get_verb_class_by_numerical_id("36.4").subclasses])
 #print(sorted([verb_class.ID.split("-")[1] for verb_class in vn.get_verb_classes()]))
 
 '''
