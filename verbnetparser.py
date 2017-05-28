@@ -13,29 +13,28 @@ __author__ = ["Todd Curcuru & Marc Verhagen"]
 __date__ = "3/15/2016"
 __email__ = ["tcurcuru@brandeis.edu, marc@cs.brandeis.edu"]
 
-
-def get_verbnet_directory():
-    for line in open('config.txt'):
-        if line.startswith('VERBNET_PATH'):
+def get_verbnet_directory(version):
+    for line in open(os.path.join(os.path.dirname(__file__), 'config.txt')):
+        if line.startswith('VERBNET_PATH') and line.split("=")[0].strip().endswith(str(version)):
             return line.split('=')[1].strip()
-    exit('WARNING: could not find a value for VERBNET_PATH')
+    exit('WARNING: could not find a value for VERBNET_PATH version %s' % str(version))
 
-
-VERBNET_PATH = get_verbnet_directory()
 
 
 class VerbNetParser(object):
     """Parse VerbNet XML files, and turn them into a list of BeautifulSoup 
     objects"""
     
-    def __init__(self, max_count=None, file_list=None):
+    def __init__(self, max_count=None, file_list=None, version=3.3):
         """Take all verbnet files, if max_count is used then take the first max_count
         files, if file_list is used, read the filenames from the file."""
+        VERBNET_PATH = get_verbnet_directory(version)
         fnames = [f for f in os.listdir(VERBNET_PATH) if f.endswith(".xml")]
         if max_count is not None:
             fnames = fnames[:max_count]
         if file_list is not None:
             fnames = ["%s.xml" % f for f in open(file_list).read().split()]
+        self.version = version
         self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
         self.parsed_files = self.parse_files()
         self.verb_classes = []
@@ -46,6 +45,9 @@ class VerbNetParser(object):
             self.verb_classes.append(vc)
             self.verb_classes_dict[vc.ID] = vc
             self.verb_classes_numerical_dict[vc.ID.split("-")[1]] = vc
+        # Set global vn_version variable every time a new set of files is parsed
+        global vn_version
+        vn_version = version
 
     def parse_files(self):
         """Parse a list of XML files using BeautifulSoup. Returns list of parsed
@@ -68,6 +70,22 @@ class VerbNetParser(object):
         """Return a list of all classes."""
         return self.verb_classes_numerical_dict.get(numerical_ID)
 
+    def get_all_members(self):
+        members = []
+
+        for vc in self.get_verb_classes():
+            members += vc.members
+
+        return members
+
+    def get_members_by_classes(self, class_list=[]):
+        members = []
+
+        for vc in class_list:
+            members += vc.members
+
+        return members
+
 class AbstractXML(object):
     """Abstract class to be inherited by other classes that share the same 
     features"""
@@ -87,7 +105,32 @@ class AbstractXML(object):
         try:
             return special_soup.get(cat).split()
         except AttributeError:
-            return []    
+            return []
+
+    def version(self):
+        return vn_version
+
+    # list of dicts of {attribute_name: attribute_value} for self and each child node
+    # One dict per node
+    def all_attrs(self):
+        a = []
+        for element in self.soup.find_all():
+            a.append(element.attrs)
+
+        return a
+
+    def compare_with(self, compare_class):
+        self.all_attrs()
+        compare_class.all_attrs()
+
+    def class_id(self):
+        def get_class_id(soup):
+            if soup.name == "VNCLASS":
+                return soup['ID']
+            else:
+                return get_class_id(soup.parent)
+
+        return get_class_id(self.soup)
 
     def pp(self):
         return self.soup.prettify()

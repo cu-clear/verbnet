@@ -262,3 +262,36 @@ def reverse_image_search(frame, scheme, obligatory_theme=True, theme_only=False)
         return (pp or sr) and tr
     else:
         return (pp or sr)
+
+# Use this to find a member given certain parameters
+# each parameter should be passed in in the form of a list,
+# as that is what the get_category methd in verbnetparser returns
+def find_members(members, class_ID=None, name=None, wn=None, grouping=None, features=None):
+    member_lists = [[], [], [], [], []]
+    for member in members:
+        if class_ID:
+            if member.class_id == class_ID:
+                member_lists[0].append(member)
+        if name:
+            if member.name == name:
+                member_lists[1].append(member)
+        if wn:
+            if member.wn == wn:
+                member_lists[2].append(member)
+        if grouping:
+            if member.grouping == grouping:
+                member_lists[3].append(member)
+        if features:
+            if member.features == features:
+                member_lists[4].append(member)
+
+    # Remove empty lists
+    member_lists = [m for m in member_lists if m]
+
+    # return the intersection of each populated list, to ensure
+    # that the members return fuflill each provided parameter
+    if member_lists:
+        member_sets = [set(x) for x in member_lists]
+        return list(set.intersection(*member_sets))
+    else:
+        return []
