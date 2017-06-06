@@ -1,7 +1,7 @@
 
 # Set the path to where your VerbNet files live
 
-VERBNET_PATH_3.3 = /Users/ajwieme/Desktop/adam-verbs-projects/VerbNet/verbnet_3_3
-VERBNET_PATH_3.2 = /Users/ajwieme/Desktop/adam-verbs-projects/VerbNet/verbnet_3_2
+VERBNET_PATH_3.3 = /Users/ajwieme/verbs-projects/VerbNet/verbnet3.3
+VERBNET_PATH_3.2 = /Users/ajwieme/verbs-projects/VerbNet/verbnet3.2
 
 FRAMENET_MAPPING_PATH = ../vn-fn.xml

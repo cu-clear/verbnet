@@ -13,6 +13,6 @@ vn.parse_files()
 # A list of all the verb classes, as python objects
 # There is a printable representation of it
 #print(vn.verb_classes[0].version())
-print(vn.get_verb_class("waltz-51.5").members[0].features)
+print(vn.get_verb_class("waltz-51.5").members)
 #members = vn.get_all_members()
 #print(search.find_members(members, name=["absorb"]))

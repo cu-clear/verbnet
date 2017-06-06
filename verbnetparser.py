@@ -15,9 +15,9 @@ __email__ = ["tcurcuru@brandeis.edu, marc@cs.brandeis.edu"]
 
 def get_verbnet_directory(version):
     for line in open(os.path.join(os.path.dirname(__file__), 'config.txt')):
-        if line.startswith('VERBNET_PATH') and line.split("=")[0].strip().endswith(str(version)):
+        if line.startswith('VERBNET_PATH') and line.split("=")[0].strip().endswith(version):
             return line.split('=')[1].strip()
-    exit('WARNING: could not find a value for VERBNET_PATH version %s' % str(version))
+    exit('WARNING: could not find a value for VERBNET_PATH version %s' % version)
 
 
 
@@ -25,7 +25,7 @@ class VerbNetParser(object):
     """Parse VerbNet XML files, and turn them into a list of BeautifulSoup 
     objects"""
     
-    def __init__(self, max_count=None, file_list=None, version=3.3):
+    def __init__(self, max_count=None, file_list=None, version="3.3"):
         """Take all verbnet files, if max_count is used then take the first max_count
         files, if file_list is used, read the filenames from the file."""
         VERBNET_PATH = get_verbnet_directory(version)
