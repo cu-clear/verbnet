@@ -16,6 +16,7 @@ from sys import argv, stderr
 import argparse
 import search
 
+
 class Log(object):
   def __init__(self, filename):
     self.filename = filename
@@ -31,18 +32,21 @@ class Log(object):
       outfile.write(message + "\n")
 
 
+def find_in_old_versions(ann, old_vns):
+  for old_vn in old_vns:
+    all_old_members = old_vn.get_all_members()
+
+    if ann.exists_in(old_vn):
+      return search.find_members(all_old_members, class_ID=ann.class_ID, name=ann.verb.split())
+    else:
+      return search.find_members(all_old_members, name=ann.verb.split())
+
 def update_annotation_line(ann_line, new_vn, old_vns, log):
   ann = Annotation(ann_line)
 
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
   if not ann.exists_in(new_vn):
-    for old_vn in old_vns:
-      all_old_members = old_vn.get_all_members()
-
-      if ann.exists_in(old_vn):
-        vn_members = search.find_members(all_old_members, class_ID=ann.class_ID, name=ann.verb.split())
-      else:
-        vn_members = search.find_members(all_old_members, name=ann.verb.split())
+    vn_members = find_in_old_versions(ann, old_vns)
 
     all_new_members = new_vn.get_all_members()
     updated_vn_members = []
