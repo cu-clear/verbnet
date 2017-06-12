@@ -57,23 +57,20 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
     # Ambiguities in previous versions may all point to the same verb in new version
     # so we need to remove the duplicate members from this list
     unique_members = []
-    for m in updated_vn_members:
-      if (m.name, m.class_id()) not in [u[1] for u in unique_members]:
-        unique_members.append([m, (m.name, m.class_id())])
+    for updated_member in updated_vn_members:
+      if (updated_member.name, updated_member.class_id()) not in [u[1] for u in unique_members]:
+        unique_members.append([updated_member, (updated_member.name, updated_member.class_id())])
 
     updated_vn_members = [u[0] for u in unique_members]
 
-    if len(updated_vn_members) == 1:
+    if len(updated_vn_members) == 1: # The verb maps to new version in a new class
       ann.update_vn_info(updated_vn_members[0])
       log.write("SUCCESS: Found %s in %s in VerbNet version %s" % (ann.verb, ann.class_ID, updated_vn_members[0].version()))
-      #print("SUCCESS: Found %s from %s in VerbNet version %s in %s" % (ann.verb, ann.class_ID, updated_vn_members[0].version(), updated_vn_members[0].class_id()))
     elif len(updated_vn_members) > 1: # Otherwise there is ambiguity
       log.write("ERROR: %s no longer belongs to %s and could belong to %s" % (ann.verb, ann.class_ID, ' OR '.join([u.class_id() for u in updated_vn_members])))
-      #print("ERROR: %s in %s could now belong to %s" % (ann.verb, ann.class_ID, ' OR '.join([u.class_id() for u in updated_vn_members])))
       return None
     else: # Otherwise this verb no longer exists in VN
       log.write("ERROR: %s no longer exists in VerbNet" % ann.verb)
-      #print("ERROR: No member named %s (which was previously in class %s) exists in VerbNet" % (ann.verb, ann.class_ID))
       return None
   else:
     log.write("SUCCESS: %s is still a reference to %s in %s" % (ann.verb, ann.verb, ann.class_ID))

@@ -7,7 +7,10 @@ verb frames.
 """
 
 import os
+import bs4
 from bs4 import BeautifulSoup as soup
+from lxml import etree
+from lxml import etree
 
 __author__ = ["Todd Curcuru & Marc Verhagen"]
 __date__ = "3/15/2016"
@@ -41,7 +44,7 @@ class VerbNetParser(object):
         self.verb_classes_dict = {}
         self.verb_classes_numerical_dict = {}
         for parse in self.parsed_files:
-            vc = VerbClass(parse)
+            vc = VerbClass(parse.VNCLASS)
             self.verb_classes.append(vc)
             self.verb_classes_dict[vc.ID] = vc
             self.verb_classes_numerical_dict[vc.ID.split("-")[1]] = vc
@@ -92,6 +95,7 @@ class AbstractXML(object):
     
     def __init__(self, soup):
         self.soup = soup
+        self.etree = etree.fromstring(self.pp())
         
     def get_category(self, cat, special_soup=None):
         """Extracts the category from a soup, with the option to specify a soup. 
@@ -119,9 +123,48 @@ class AbstractXML(object):
 
         return a
 
-    def compare_with(self, compare_class):
-        self.all_attrs()
-        compare_class.all_attrs()
+    def compare_attrs(self):
+        return True
+
+    #TODO
+    # 1. Current level, are we equal?
+    # 2. Do we have children?
+    # 3. Step to the *same* (how to ensure?) child
+    #      a. maybe loop over all children to see if any are equal?
+    # 4. After aligning children of both nodes, recurse back to 1 given current child
+    #      a. Maybe we need to do breadth first search where we step into children only
+    #         only after searched in breadth - and then we can terminate when we are on
+    #         last parallel node, and there a reno more children
+    # 5. Stop recursing if there are no more children.
+
+    # Assume both are of the sKame type, i.e. at the same level in XML
+    # Return the
+    def compare_with(self, compare):
+        updates_dict = {}
+
+        def diff(ele_1, ele_2):
+            return {t[0]: t[1] for t in set(ele_2.attrs.items()) - set(ele_1.attrs.items())}
+
+        def compare_children(ele_1, ele_2):
+            updates_dict.setdefault(ele_1.name, diff(ele_1, ele_2))
+
+            ele_1_children = [child for child in ele_1.children]
+            ele_2_children = [child for child in ele_2.children]
+            children = zip(ele_1_children, ele_2_children)
+
+            if children:
+                print(updates_dict)
+                #TODO implement some type of depth first search inside of the recursion
+                for child_ele_1, child_ele_2 in children:
+                    if isinstance(child_ele_1, bs4.element.Tag):
+                        updates_dict.setdefault(child_ele_1.name, diff(child_ele_1, child_ele_2))
+                    else:
+                        continue
+                    return compare_children(child_ele_1, child_ele_2)
+            else:
+                return updates_dict
+
+        return compare_children(self.soup, compare.soup)
 
     def class_id(self):
         def get_class_id(soup):
@@ -143,10 +186,11 @@ class VerbClass(AbstractXML):
 
     def __init__(self, soup):
         self.soup = soup
+        self.etree = etree.fromstring(self.pp())
         try:
-            self.ID = self.get_category("ID", self.soup.VNCLASS)[0]
+            self.ID = self.get_category("ID", self.soup)[0]
         except IndexError:
-            print(self.get_category("ID", self.soup.VNSUBCLASS), self.soup)
+            print(self.get_category("ID", self.soup), self.soup)
             self.ID = self.get_category("ID", self.soup.VNSUBCLASS)[0]
         self.numerical_ID = self.ID.split("-")[1]
         self.members = self.members()
