@@ -8,14 +8,11 @@ OUTPUTS: updated_annotation_file_with_version_specific_updates, log_file
 # There may be an issue where presence of subclasses appears as duplicate classes?
 import sys
 import os
-sys.path.append("../")
 import codecs
-from verbnetparser import *
-from annotation import *
 from sys import argv, stderr
 import argparse
-import search
 
+local_verbnet_api_path = "/Users/ajwieme/verbs-projects/VerbNet/verbnet"
 
 class Log(object):
   def __init__(self, filename):
@@ -46,11 +43,11 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
 
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
   if not ann.exists_in(new_vn):
-    vn_members = find_in_old_versions(ann, old_vns)
+    possible_old_vn_members = find_in_old_versions(ann, old_vns)
 
     all_new_members = new_vn.get_all_members()
     updated_vn_members = []
-    for vn_member in vn_members:
+    for vn_member in possible_old_vn_members:
       # search these members for the lookup member by name and wordnet mapping
       updated_vn_members += search.find_members(all_new_members, name=vn_member.name, wn=vn_member.wn)
 
@@ -67,13 +64,13 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
       ann.update_vn_info(updated_vn_members[0])
       log.write("SUCCESS: Found %s in %s in VerbNet version %s" % (ann.verb, ann.class_ID, updated_vn_members[0].version()))
     elif len(updated_vn_members) > 1: # Otherwise there is ambiguity
-      log.write("ERROR: %s no longer belongs to %s and could belong to %s" % (ann.verb, ann.class_ID, ' OR '.join([u.class_id() for u in updated_vn_members])))
+      log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.class_ID, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version()))
       return None
     else: # Otherwise this verb no longer exists in VN
-      log.write("ERROR: %s no longer exists in VerbNet" % ann.verb)
+      log.write("ERROR: %s from %s in and old version of VerbNet no longer exists" % (ann.verb, ann.class_ID))
       return None
   else:
-    log.write("SUCCESS: %s is still a reference to %s in %s" % (ann.verb, ann.verb, ann.class_ID))
+    log.write("SUCCESS: %s is still a reference to %s in %s in VerbNet version %s" % (ann.verb, ann.verb, ann.class_ID, new_vn.version))
 
   return str(ann)
 
@@ -97,6 +94,7 @@ if __name__ == '__main__':
   parser.add_argument('-l', '--logs_dir', help='the directory to output the logs to. Default is ./logs_versionNum', required=False)
   parser.add_argument('-n', '--new_anns_dir', help='The directory to put the new updated annotations. Default is ./new_anns_versionNum', required=False)
   parser.add_argument('-f', '--files', help="Annotation files to update", nargs='+', required=True)
+  parser.add_argument('-e', '--execute', help="Pass 'local' to use local dirs", required=False)
   args = vars(parser.parse_args())
 
   # GET VARIABLES FROM ARGS
@@ -110,6 +108,16 @@ if __name__ == '__main__':
     new_anns_dir = args.get("new_anns_dir")
   else:
     new_anns_dir = "./new_anns_%s" % new_vn_version
+
+  # FOR SETTING PATH TO VERBNETPARSER
+  if args.get("execute") == "local":
+    sys.path.append(local_verbnet_api_path)
+  else:
+    sys.path.append("/usr/local/verbnet")
+
+  from verbnetparser import *
+  import search
+  from annotation import *
 
   new_vn = VerbNetParser(version=new_vn_version)
   new_vn.parse_files()
