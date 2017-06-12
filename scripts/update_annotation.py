@@ -61,10 +61,10 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
     updated_vn_members = [u[0] for u in unique_members]
 
     if len(updated_vn_members) == 1: # The verb maps to new version in a new class
+      log.write("SUCCESS: Found %s from %s in %s in VerbNet version %s" % (ann.verb, ann.class_ID, updated_vn_members[0].class_id(), updated_vn_members[0].version))
       ann.update_vn_info(updated_vn_members[0])
-      log.write("SUCCESS: Found %s in %s in VerbNet version %s" % (ann.verb, ann.class_ID, updated_vn_members[0].version()))
     elif len(updated_vn_members) > 1: # Otherwise there is ambiguity
-      log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.class_ID, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version()))
+      log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.class_ID, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version))
       return None
     else: # Otherwise this verb no longer exists in VN
       log.write("ERROR: %s from %s in and old version of VerbNet no longer exists" % (ann.verb, ann.class_ID))

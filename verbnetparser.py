@@ -44,13 +44,10 @@ class VerbNetParser(object):
         self.verb_classes_dict = {}
         self.verb_classes_numerical_dict = {}
         for parse in self.parsed_files:
-            vc = VerbClass(parse.VNCLASS)
+            vc = VerbClass(parse.VNCLASS, version)
             self.verb_classes.append(vc)
             self.verb_classes_dict[vc.ID] = vc
             self.verb_classes_numerical_dict[vc.ID.split("-")[1]] = vc
-        # Set global vn_version variable every time a new set of files is parsed
-        global vn_version
-        vn_version = version
 
     def parse_files(self):
         """Parse a list of XML files using BeautifulSoup. Returns list of parsed
@@ -110,9 +107,6 @@ class AbstractXML(object):
             return special_soup.get(cat).split()
         except AttributeError:
             return []
-
-    def version(self):
-        return vn_version
 
     # list of dicts of {attribute_name: attribute_value} for self and each child node
     # One dict per node
@@ -184,7 +178,7 @@ class VerbClass(AbstractXML):
     XML file)."""
     # TODO: Check if nested subclasses have issues
 
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
         self.etree = etree.fromstring(self.pp())
         try:
@@ -192,6 +186,7 @@ class VerbClass(AbstractXML):
         except IndexError:
             print(self.get_category("ID", self.soup), self.soup)
             self.ID = self.get_category("ID", self.soup.VNSUBCLASS)[0]
+        self.version = version
         self.numerical_ID = self.ID.split("-")[1]
         self.members = self.members()
         self.frames = self.frames()
@@ -208,17 +203,17 @@ class VerbClass(AbstractXML):
 
     def members(self):
         """Get all members of a verb class"""
-        return [Member(mem_soup) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
+        return [Member(mem_soup, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
     
     def frames(self):
         """Get all frames for a verb class, seems to be shared by all members
         of the class."""
-        return [Frame(frame_soup, self.ID) for frame_soup in self.soup.FRAMES.find_all("FRAME")]
+        return [Frame(frame_soup, self.ID, self.version) for frame_soup in self.soup.FRAMES.find_all("FRAME")]
         
     def themroles(self):
         """Get all the thematic roles for a verb class ans their selectional 
         restrictions."""
-        return [ThematicRole(them_soup) for them_soup in 
+        return [ThematicRole(them_soup, self.version) for them_soup in
                 self.soup.THEMROLES.find_all("THEMROLE")]
     
     def subclass(self):
@@ -226,7 +221,7 @@ class VerbClass(AbstractXML):
         subclasses_soup = self.soup.find_all("SUBCLASSES")
         if len(subclasses_soup[0].text) < 1:
             return []
-        return [VerbClass(sub_soup) for sub_soup in \
+        return [VerbClass(sub_soup, self.version) for sub_soup in \
                 self.soup.SUBCLASSES.find_all("VNSUBCLASS", recursive=False)]
 
 
@@ -234,8 +229,9 @@ class Member(AbstractXML):
     """Represents a single member of a VerbClass, with associated name, WordNet
     category, and PropBank grouping."""
     
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
+        self.version = version
         self.name = self.get_category('name')
         self.wn = self.get_category('wn')
         self.grouping = self.get_category('grouping')
@@ -249,8 +245,9 @@ class Frame(AbstractXML):
     """Represents a single verb frame in VerbNet, with a description, examples,
     syntax, and semantics """
 
-    def __init__(self, soup, class_ID):
+    def __init__(self, soup, class_ID, version):
         self.soup = soup
+        self.version = version
         self.class_ID = class_ID
         self.description_num = self.get_category('descriptionNumber', 
                                                  self.soup.DESCRIPTION)
@@ -259,7 +256,7 @@ class Frame(AbstractXML):
         self.xtag = self.get_category('xtag', self.soup.DESCRIPTION)
         self.examples = [example.text for example in self.soup.EXAMPLES.find_all("EXAMPLE")]
         self.syntax = self.get_syntax()
-        self.predicates = [Predicate(pred) for pred in self.soup.SEMANTICS.find_all("PRED")]
+        self.predicates = [Predicate(pred, self.version) for pred in self.soup.SEMANTICS.find_all("PRED")]
     
     def __repr__(self):
         return "\nDN: " + str(self.description_num) + \
@@ -271,7 +268,7 @@ class Frame(AbstractXML):
                "\nPredicates: " + str(self.predicates) + "\n"
 
     def get_syntax(self):
-        raw_roles = [SyntacticRole(role) for role in self.soup.SYNTAX.children]
+        raw_roles = [SyntacticRole(role, self.version) for role in self.soup.SYNTAX.children]
         roles = []
         for role in raw_roles:
             if role.POS != None:
@@ -284,8 +281,9 @@ class ThematicRole(AbstractXML):
     a list of all roles for a given verb class, with possible selectional 
     restrictions"""
     
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
+        self.version = version
         self.role_type = self.get_category('type')[0]
         self.sel_restrictions = self.sel_restrictions(self.soup.SELRESTRS)
         
@@ -315,8 +313,9 @@ class ThematicRole(AbstractXML):
 class Predicate(AbstractXML):
     """Represents the different predicates assigned to a frame"""
     
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
+        self.version = version
         self.value = self.get_category('value')
         self.args = self.soup.find_all('ARG')
         self.argtypes = [(self.get_category('type', arg)[0],
@@ -332,8 +331,9 @@ class Predicate(AbstractXML):
 class SyntacticRole(AbstractXML):
     """Represents a syntactic role assigned to a frame"""
     
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
+        self.version = version
         self.POS = self.soup.name
         self.value = self.get_category('value')
         self.restrictions = self.restrictions()
