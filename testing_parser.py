@@ -11,16 +11,11 @@ vn = VerbNetParser()
 # Returns a list of the XML as beautiful Soup objects
 vn.parse_files()
 #vn_3_2.parse_files()
-print(vn.verb_classes[0].version)
 # A list of all the verb classes, as python objects
 # There is a printable representation of it
+vnc = vn.get_verb_class("spank-18.3")
+#vnc_old = vn_3_2.get_verb_class("spank-18.3")
+print(search.find_members(vnc.members[1:], name=vnc.members[0].name))
 #print(vn.verb_classes[0].version())
-'''
-c1 = vn.get_verb_class("admire-31.2")
-c2 = vn.get_verb_class("addict-96")
-for child in c1.etree:
-  print(child.tag)
-print(compare(c1.etree, c2.etree))
-'''
 #members = vn.get_all_members()
 #print(search.find_members(members, name=["absorb"]))
