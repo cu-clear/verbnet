@@ -295,3 +295,25 @@ def find_members(members, class_ID=None, name=None, wn=None, grouping=None, feat
         return list(set.intersection(*member_sets))
     else:
         return []
+
+def find_frames(frames):
+    return True
+
+def find_syntactic_roles(roles, POS=None, value=None, restrictions=None):
+    role_lists = [[], [], []]
+    for role in roles:
+        if POS:
+            if role.POS == POS:
+                role_lists[0].append(role)
+        if value:
+            if role.value == value:
+                role_lists[1].append(role)
+        if restrictions:
+            if role.wn == restrictions:
+                role_lists[2].append(role)
+
+        role_lists = [r for r in role_lists if r]
+
+    if role_lists:
+        role_sets = [set(x) for x in role_lists]
+        return list(set.intersection(*role_sets))

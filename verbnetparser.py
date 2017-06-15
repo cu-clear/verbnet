@@ -88,6 +88,22 @@ class VerbNetParser(object):
 
         return members
 
+    def get_all_frames(self):
+        frames = []
+
+        for vc in self.get_verb_classes():
+            frames += vc.frames
+
+        return frames
+
+    def get_frames_by_classes(self, class_list=[]):
+        frames = []
+
+        for vc in class_list:
+            frames += vc.frames
+
+        return frames
+
 class AbstractXML(object):
     """Abstract class to be inherited by other classes that share the same 
     features"""
