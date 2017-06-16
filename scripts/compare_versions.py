@@ -7,11 +7,6 @@ from verbnetparser import *
 import search
 import itertools
 
-#TODO account for insertion
-# Return the operation from self to compare,
-# i.e. update, remove, move, and any other data on that operation
-# such as the class moved to, or attribute updates
-
 # update: member still in class, but attributes changed
 # delete: member removed from class, and not moved to a new VN class
 # insert: member inserted to the class (right Now, it could be moved from another class
