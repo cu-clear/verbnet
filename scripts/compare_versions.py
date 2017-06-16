@@ -17,7 +17,7 @@ import itertools
 # insert: member inserted to the class (right Now, it could be moved from another class
 #         OR simply a new verb added to the lexicon)
 # move: member moved to a new vn class
-def compare_members(from_vn_members, to_vn_members, possible_move_vn_members):
+def compare_members(from_vn_members, to_vn_members):
   all_changes = {}
 
   for from_vn_member in from_vn_members:
@@ -41,11 +41,18 @@ def compare_members(from_vn_members, to_vn_members, possible_move_vn_members):
       for possible_to_vn_member in possible_to_vn_members:
         if len(search.find_members(from_vn_members, class_ID=to_vn_member.class_id(), name=from_vn_member.name)) == 0:
           to_vn_member = possible_to_vn_member
+          operations.append(("move", to_vn_member.class_id()))
+          # Compare the attributes
+          attr_diffs = from_vn_member.compare_attrs(to_vn_member)
     elif len(possible_to_vn_members) == 1:
       to_vn_member = possible_to_vn_members[0]
       operations.append(("move", to_vn_member.class_id()))
       # Compare the attributes
       attr_diffs = from_vn_member.compare_attrs(to_vn_member)
+
+      # Record the moved member as an insertion in that class
+      all_changes.setdefault(to_vn_member.class_id(), {})
+      all_changes[to_vn_member.class_id()] = {to_vn_member.name[0]: [("insert", to_vn_member.pp())]}
     else:
       operations.append(("delete", None))
 
@@ -55,10 +62,18 @@ def compare_members(from_vn_members, to_vn_members, possible_move_vn_members):
     if operations:
       all_changes[from_vn_member.class_id()][from_vn_member.name[0]] = operations
 
+  # Lastly, we have to get all to_vn_members that did not exist in
+  # from_vn_members to record all of the rest of the insert operations
+  for name, class_ID in list(set([(m.name[0], m.class_id()) for m in to_vn_members]) - set([(m.name[0], m.class_id()) for m in from_vn_members])):
+    # Have to get string name above, on order to hash it for set,
+    # and then change it back to a list in order to wok with search.find_members
+    inserted_member = search.find_members(to_vn_members, class_ID=class_ID, name=[name])
+    if inserted_member:
+      all_changes[inserted_member[0].class_id()] = {inserted_member[0].name[0]: [("insert", inserted_member[0].pp())]}
+
   return all_changes
 
 def compare_frames(from_vn_frames, to_vn_frames):
-
   return True
 
 
@@ -101,15 +116,14 @@ def compare_syntax(from_vn_syntax, to_vn_syntax):
   return syntax_comparisons
 
 
-#from_vn = VerbNetParser(version="3.2")
+from_vn = VerbNetParser(version="3.2")
 to_vn = VerbNetParser(version="3.3")
 
-#from_vn.parse_files()
+from_vn.parse_files()
 to_vn.parse_files()
-from_vn = to_vn
-
+#from_vn = to_vn
+'''
 print(compare_syntax(from_vn.get_verb_class("hold-15.1").frames[0].syntax, to_vn.get_verb_class("hurt-40.8.3").subclasses[0].frames[0].syntax))
-
 '''
 from_vn_members = from_vn.get_all_members()
 to_vn_members = to_vn.get_all_members()
@@ -118,7 +132,7 @@ x = compare_members(from_vn_members, to_vn_members)
 # Only print out classes that have changes in them
 for k, v in {k: v for k, v in x.items() if v}.items():
   print({k: v})
-'''
+
 
 
 

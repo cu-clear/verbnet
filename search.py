@@ -265,12 +265,12 @@ def reverse_image_search(frame, scheme, obligatory_theme=True, theme_only=False)
 
 # Use this to find a member given certain parameters
 # each parameter should be passed in in the form of a list,
-# as that is what the get_category methd in verbnetparser returns
+# as that is what the get_category method in verbnetparser returns
 def find_members(members, class_ID=None, name=None, wn=None, grouping=None, features=None):
     member_lists = [[], [], [], [], []]
     for member in members:
         if class_ID:
-            if member.class_id == class_ID:
+            if member.class_id() == class_ID:
                 member_lists[0].append(member)
         if name:
             if member.name == name:
