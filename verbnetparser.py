@@ -7,43 +7,46 @@ verb frames.
 """
 
 import os
+import bs4
 from bs4 import BeautifulSoup as soup
+from lxml import etree
 
 __author__ = ["Todd Curcuru & Marc Verhagen"]
 __date__ = "3/15/2016"
 __email__ = ["tcurcuru@brandeis.edu, marc@cs.brandeis.edu"]
 
-
-def get_verbnet_directory():
-    for line in open('config.txt'):
-        if line.startswith('VERBNET_PATH'):
+def get_verbnet_directory(version):
+    for line in open(os.path.join(os.path.dirname(__file__), 'config.txt')):
+        if line.startswith('VERBNET_PATH') and line.split("=")[0].strip().endswith(version):
             return line.split('=')[1].strip()
-    exit('WARNING: could not find a value for VERBNET_PATH')
+    exit('WARNING: could not find a value for VERBNET_PATH version %s' % version)
 
-
-VERBNET_PATH = get_verbnet_directory()
 
 
 class VerbNetParser(object):
     """Parse VerbNet XML files, and turn them into a list of BeautifulSoup 
     objects"""
     
-    def __init__(self, max_count=None, file_list=None):
+    def __init__(self, max_count=None, file_list=None, version="3.3"):
         """Take all verbnet files, if max_count is used then take the first max_count
         files, if file_list is used, read the filenames from the file."""
+        VERBNET_PATH = get_verbnet_directory(version)
         fnames = [f for f in os.listdir(VERBNET_PATH) if f.endswith(".xml")]
         if max_count is not None:
             fnames = fnames[:max_count]
         if file_list is not None:
             fnames = ["%s.xml" % f for f in open(file_list).read().split()]
+        self.version = version
         self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
         self.parsed_files = self.parse_files()
         self.verb_classes = []
         self.verb_classes_dict = {}
+        self.verb_classes_numerical_dict = {}
         for parse in self.parsed_files:
-            vc = VerbClass(parse)
+            vc = VerbClass(parse.VNCLASS, version)
             self.verb_classes.append(vc)
             self.verb_classes_dict[vc.ID] = vc
+            self.verb_classes_numerical_dict[vc.ID.split("-")[1]] = vc
 
     def parse_files(self):
         """Parse a list of XML files using BeautifulSoup. Returns list of parsed
@@ -64,7 +67,42 @@ class VerbNetParser(object):
 
     def get_verb_class_by_numerical_id(self, numerical_ID):
         """Return a list of all classes."""
-        return self.verb_classes_dict.get(numerical_ID)
+        return self.verb_classes_numerical_dict.get(numerical_ID)
+
+    def get_all_verb_cLass_ids(self):
+        return [c.ID for c in self.get_verb_classes()]
+
+    def get_all_members(self):
+        members = []
+
+        for vc in self.get_verb_classes():
+            members += vc.members
+
+        return members
+
+    def get_members_by_classes(self, class_list=[]):
+        members = []
+
+        for vc in class_list:
+            members += vc.members
+
+        return members
+
+    def get_all_frames(self):
+        frames = []
+
+        for vc in self.get_verb_classes():
+            frames += vc.frames
+
+        return frames
+
+    def get_frames_by_classes(self, class_list=[]):
+        frames = []
+
+        for vc in class_list:
+            frames += vc.frames
+
+        return frames
 
 class AbstractXML(object):
     """Abstract class to be inherited by other classes that share the same 
@@ -72,6 +110,7 @@ class AbstractXML(object):
     
     def __init__(self, soup):
         self.soup = soup
+        self.etree = etree.fromstring(self.pp())
         
     def get_category(self, cat, special_soup=None):
         """Extracts the category from a soup, with the option to specify a soup. 
@@ -85,7 +124,39 @@ class AbstractXML(object):
         try:
             return special_soup.get(cat).split()
         except AttributeError:
-            return []    
+            return []
+
+    # list of dicts of {attribute_name: attribute_value} for self and each child node
+    # One dict per node
+    def all_attrs(self):
+        a = []
+        for element in self.soup.find_all():
+            a.append(element.attrs)
+
+        return a
+
+    # Assumes self and compare are both are of the same type of object
+    # Return a dict of {changed_attr: new value in compare}
+    def compare_attrs(self, compare):
+        updates = {}
+        for k, v in self.soup.attrs.items():
+            compare_attrs = compare.soup.attrs
+            if compare_attrs.get(k) != v:
+                updates[k] = compare_attrs.get(k)
+
+        return updates
+
+    # Assumes self and compare are both are of the same type of object
+    #def compare_with(self, compare):
+
+    def class_id(self):
+        def get_class_id(soup):
+            if soup.name == "VNCLASS":
+                return soup['ID']
+            else:
+                return get_class_id(soup.parent)
+
+        return get_class_id(self.soup)
 
     def pp(self):
         return self.soup.prettify()
@@ -96,13 +167,15 @@ class VerbClass(AbstractXML):
     XML file)."""
     # TODO: Check if nested subclasses have issues
 
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
+        self.etree = etree.fromstring(self.pp())
         try:
-            self.ID = self.get_category("ID", self.soup.VNCLASS)[0]
+            self.ID = self.get_category("ID", self.soup)[0]
         except IndexError:
-            print(self.get_category("ID", self.soup.VNSUBCLASS), self.soup)
+            print(self.get_category("ID", self.soup), self.soup)
             self.ID = self.get_category("ID", self.soup.VNSUBCLASS)[0]
+        self.version = version
         self.numerical_ID = self.ID.split("-")[1]
         self.members = self.members()
         self.frames = self.frames()
@@ -119,17 +192,17 @@ class VerbClass(AbstractXML):
 
     def members(self):
         """Get all members of a verb class"""
-        return [Member(mem_soup) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
+        return [Member(mem_soup, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
     
     def frames(self):
         """Get all frames for a verb class, seems to be shared by all members
         of the class."""
-        return [Frame(frame_soup, self.ID) for frame_soup in self.soup.FRAMES.find_all("FRAME")]
+        return [Frame(frame_soup, self.ID, self.version) for frame_soup in self.soup.FRAMES.find_all("FRAME")]
         
     def themroles(self):
         """Get all the thematic roles for a verb class ans their selectional 
         restrictions."""
-        return [ThematicRole(them_soup) for them_soup in 
+        return [ThematicRole(them_soup, self.version) for them_soup in
                 self.soup.THEMROLES.find_all("THEMROLE")]
     
     def subclass(self):
@@ -137,7 +210,7 @@ class VerbClass(AbstractXML):
         subclasses_soup = self.soup.find_all("SUBCLASSES")
         if len(subclasses_soup[0].text) < 1:
             return []
-        return [VerbClass(sub_soup) for sub_soup in \
+        return [VerbClass(sub_soup, self.version) for sub_soup in \
                 self.soup.SUBCLASSES.find_all("VNSUBCLASS", recursive=False)]
 
 
@@ -145,8 +218,9 @@ class Member(AbstractXML):
     """Represents a single member of a VerbClass, with associated name, WordNet
     category, and PropBank grouping."""
     
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
+        self.version = version
         self.name = self.get_category('name')
         self.wn = self.get_category('wn')
         self.grouping = self.get_category('grouping')
@@ -160,8 +234,9 @@ class Frame(AbstractXML):
     """Represents a single verb frame in VerbNet, with a description, examples,
     syntax, and semantics """
 
-    def __init__(self, soup, class_ID):
+    def __init__(self, soup, class_ID, version):
         self.soup = soup
+        self.version = version
         self.class_ID = class_ID
         self.description_num = self.get_category('descriptionNumber', 
                                                  self.soup.DESCRIPTION)
@@ -170,7 +245,7 @@ class Frame(AbstractXML):
         self.xtag = self.get_category('xtag', self.soup.DESCRIPTION)
         self.examples = [example.text for example in self.soup.EXAMPLES.find_all("EXAMPLE")]
         self.syntax = self.get_syntax()
-        self.predicates = [Predicate(pred) for pred in self.soup.SEMANTICS.find_all("PRED")]
+        self.predicates = [Predicate(pred, self.version) for pred in self.soup.SEMANTICS.find_all("PRED")]
     
     def __repr__(self):
         return "\nDN: " + str(self.description_num) + \
@@ -182,7 +257,7 @@ class Frame(AbstractXML):
                "\nPredicates: " + str(self.predicates) + "\n"
 
     def get_syntax(self):
-        raw_roles = [SyntacticRole(role) for role in self.soup.SYNTAX.children]
+        raw_roles = [SyntacticRole(role, self.version) for role in self.soup.SYNTAX.children]
         roles = []
         for role in raw_roles:
             if role.POS != None:
@@ -195,8 +270,9 @@ class ThematicRole(AbstractXML):
     a list of all roles for a given verb class, with possible selectional 
     restrictions"""
     
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
+        self.version = version
         self.role_type = self.get_category('type')[0]
         self.sel_restrictions = self.sel_restrictions(self.soup.SELRESTRS)
         
@@ -226,8 +302,9 @@ class ThematicRole(AbstractXML):
 class Predicate(AbstractXML):
     """Represents the different predicates assigned to a frame"""
     
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
+        self.version = version
         self.value = self.get_category('value')
         self.args = self.soup.find_all('ARG')
         self.argtypes = [(self.get_category('type', arg)[0],
@@ -243,8 +320,9 @@ class Predicate(AbstractXML):
 class SyntacticRole(AbstractXML):
     """Represents a syntactic role assigned to a frame"""
     
-    def __init__(self, soup):
+    def __init__(self, soup, version):
         self.soup = soup
+        self.version = version
         self.POS = self.soup.name
         self.value = self.get_category('value')
         self.restrictions = self.restrictions()
