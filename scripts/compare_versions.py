@@ -7,12 +7,14 @@ from verbnetparser import *
 import search
 import itertools
 
-# update: member still in class, but attributes changed
-# delete: member removed from class, and not moved to a new VN class
-# insert: member inserted to the class (right Now, it could be moved from another class
-#         OR simply a new verb added to the lexicon)
-# move: member moved to a new vn class
 def compare_members(from_vn_members, to_vn_members):
+  '''
+    update: member still in class, but attributes changed
+    delete: member removed from class, and not moved to a new VN class
+    insert: member inserted to the class (right Now, it could be moved from another class
+            OR simply a new verb added to the lexicon)
+    move: member moved to a new vn class
+  '''
   all_changes = {}
 
   for from_vn_member in from_vn_members:
@@ -69,14 +71,32 @@ def compare_members(from_vn_members, to_vn_members):
   return all_changes
 
 def compare_frames(from_vn_frames, to_vn_frames):
+  '''
+    Just like with members, but frames have nested
+    that can undergo the same operations
+  '''
   return True
-
 
 def compare_semantics(from_vn_semantics, to_vn_semantics):
+  semantic_comparisons = {}
+
+  # A predicate has been deleted from the semantic frame
+  if len(from_vn_semantics) > len(to_vn_semantics):
+    for from_predicate, to_predicate in zip(from_vn_semantics, to_vn_semantics):
+      attr_diffs = from_predicate.compare_attrs(to_role)
+      if attr_diffs:
+        semantic_comparisons[(from_role.POS, from_role.value[0])] = [("update", attr_diffs)]
+    for deleted_role in from_vn_syntax[len(to_vn_syntax):]:
+      # Role key represented with tuple of (POS, value)
+      semantic_comparisons[(deleted_role.POS, deleted_role.value[0])] = [("delete", None)]
   return True
 
-def compare_predicates(from_vn_predicates, to_vn_predicates):
-  return True
+def compare_predicates(from_predicate, to_predicate):
+  predicate_comparisons = {}
+
+  if from_predicate.value != to_predicate.value:
+    #predicate_comparisons[]
+    return True
 
 def compare_syntax(from_vn_syntax, to_vn_syntax):
   syntax_comparisons = {}
