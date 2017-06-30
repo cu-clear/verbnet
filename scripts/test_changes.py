@@ -35,13 +35,13 @@ def test_changes():
         c4 = Change('grow','member','delete','120.21','this one is also different')
         print('test 1 success : init works')
         
-        change_set = set()
-        change_set.add(c1)
-        change_set.add(c2)
-        change_set.add(c3)
-        change_set.add(c4)
+        change_dict = {}
+        change_dict[c1] = False
+        change_dict[c2] = True
+        change_dict[c3] = False
+        change_dict[c4] = False
         
-        if len(change_set) == 3:
+        if len(change_dict) == 3 and change_dict[c1]:
             print ('test 2 success : hashing works')
         else:
             print ('test 2 failed : hashing broken')
