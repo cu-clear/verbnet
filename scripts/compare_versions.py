@@ -1,12 +1,40 @@
 import sys
 
-local_verbnet_api_path = "/Users/ajwieme/verbs-projects/VerbNet/verbnet"
+local_verbnet_api_path = "../"
 
 sys.path.append(local_verbnet_api_path)
 from verbnetparser import *
 import search
 import itertools
 
+class Change():
+  def __init__(self, element_name, element_type, change_type, from_class=None, notes=""):
+    if element_type not in ['member','role','frame']:
+      raise Exception(element_type + " is not a valid element type")
+    if change_type not in ['insert','delete','move','update']:
+      raise Exception(change_type + " is not a valid change type")
+    if change_type == 'move' and element_type != 'member':
+      raise Exception('cannot have a \'move\' type on an element that is not a member')
+    #also should probably fail on invalid from_class, but would require VN class lookup (strict) or regex matching (loose)
+    
+    self.element_name = element_name
+    self.element_type = element_type
+    self.change_type = change_type
+    self.from_class = from_class
+    self.notes = notes
+
+  def __eq__(self, other):
+    if type(self) == type(other):
+      return (self.element_name == other.element_name and self.element_type == other.element_type and self.change_type == other.change_type and self.from_class == other.from_class)
+    else:
+      return False
+
+  def __hash__(self):
+    return (hash(self.element_name) + hash(self.element_type) + hash(self.change_type) + hash(self.from_class))
+
+  def __str__(self):
+    return str(self.element_name + " " + self.element_type + " " + self.change_type + " " + self.from_class + " " + self.notes).strip()
+  
 def compare_members(from_vn_members, to_vn_members):
   '''
     update: member still in class, but attributes changed
