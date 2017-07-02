@@ -216,7 +216,7 @@ class Role(VerbNetObject):
 
     def __init__(self, role_node):
         self.node = role_node
-        self.name = self.node.getAttribute('type')
+        self.name = str(self.node.getAttribute('type'))
         restr_nodes = self.get_elements('SELRESTR')
         self.restrictions = [r.getAttribute('Value') + r.getAttribute('type') for r in restr_nodes]
         
