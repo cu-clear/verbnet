@@ -77,12 +77,12 @@ def compare_themroles(from_vn_themroles, to_vn_themroles):
 
   for from_themrole in from_vn_themroles:
     # Find that themrole in to_vn_themroles, and if there are differences, record them
-    possible_to_vn_themroles = search.find_themroles(to_vn_themroles, name=from_vn_member.name, wn=from_vn_member.wn)
+    possible_to_themroles = search.find_themroles(to_vn_themroles, type=from_themrole.type)
     operations = []
     attr_diffs = None
 
     # First case is that this member is in the same class in to_vn
-    possible_match = [m for m in possible_to_vn_members if m.class_id() == from_vn_member.class_id()]
+    possible_match = [t for t in possible_to_themroles if t.class_id() == from_themrole.class_id()]
 
     if possible_match:  # If member is in the same class
       to_vn_member = possible_match[0]
