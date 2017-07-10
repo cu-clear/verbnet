@@ -235,8 +235,10 @@ to_vn_members = to_vn.get_all_members()
 
 x = compare_members(from_vn_members, to_vn_members)
 
+'''
 for k, v in x.items():
   print({k: [change.__dict__ for change in v]})
+'''
 
 
 

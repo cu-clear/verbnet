@@ -1,3 +1,12 @@
+import sys
+
+local_verbnet_api_path = "../"
+
+sys.path.append(local_verbnet_api_path)
+from verbnetparser import *
+import search
+
+
 class Change():
     def __init__(self, element_name, element_type, change_type, from_class=None, notes=""):
         if element_type not in ['member','role','frame']:
@@ -75,5 +84,35 @@ def test_changes():
         print ('test 8 failed : invalid element type accepted')
     except Exception as e:
         print ('test 8 success : invalid element type rejected')
+
+def test_member_comparisons():
+    from compare_versions import compare_members
+
+    from_vn = VerbNetParser(version="3.2")
+    to_vn = VerbNetParser(version="3.3")
+
+    from_vn.parse_files()
+    to_vn.parse_files()
+
+    from_vn_members = from_vn.get_all_members()
+    to_vn_members = to_vn.get_all_members()
+
+    x = compare_members(from_vn_members, to_vn_members)
+
+    for k, v in x.items():
+        if k:
+            for change in v:
+                if change.element_name in [m.name[0] for m in to_vn.get_verb_class(k).members]:
+                    continue#print("Success: %s is now in %s" % (change.element_name, k))
+                else:
+                    print("Failed, %s is in %s: " % (change.element_name, ', '.join(search.find_members(to_vn_members, name=change.element_name))))
+                    print({k: change.__dict__})
+        else: # Deletions
+            for change in v:
+                potential_members = search.find_members(to_vn_members, name=change.element_name)
+                if potential_members:
+                    print("%s marked as Deleted could be in %s" % (change.element_name, ', '.join(potential_members)))
+
                                                                       
 test_changes()
+#test_member_comparisons()
