@@ -113,8 +113,6 @@ def compare_themroles(from_vn_themroles, to_vn_themroles):
 
     possible_to_themrole = search.find_themroles(to_vn_themroles, role_type=from_themrole.role_type,
                                                   class_ID=from_themrole.class_id())
-    print(from_themrole.class_id())
-    print([(t.class_id(), t.role_type) for t in possible_to_themrole])
     if possible_to_themrole:  # If themrole is in the same class
       to_themrole = possible_to_themrole[0]
       diff = from_themrole.identical_selres_with(to_themrole)

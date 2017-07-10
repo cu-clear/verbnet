@@ -285,6 +285,21 @@ def find_members(members, class_ID=None, name=None, wn=None, grouping=None, feat
             if member.features == features:
                 member_lists[4].append(member)
 
+    '''
+        If a parameter was defined and there are no matches,
+        make sure to return an empty list
+    '''
+    if class_ID and len(member_lists[0]) == 0:
+        return []
+    if name and len(member_lists[1]) == 0:
+        return []
+    if wn and len(member_lists[2]) == 0:
+        return []
+    if grouping and len(member_lists[3]) == 0:
+        return []
+    if features and len(member_lists[4]) == 0:
+        return []
+
     # Remove empty lists
     member_lists = [m for m in member_lists if m]
 
@@ -308,6 +323,17 @@ def find_themroles(themroles, class_ID=None, role_type=None, sel_restrictions=No
         if sel_restrictions:
             if themrole.sel_restrictions == sel_restrictions:
                 themrole_lists[2].append(themrole)
+
+    '''
+    If a parameter was defined and there are no matches,
+    make sure to return an empty list
+    '''
+    if class_ID and len(themrole_lists[0]) == 0:
+        return []
+    if role_type and len(themrole_lists[1]) == 0:
+        return []
+    if sel_restrictions and len(themrole_lists[2]) == 0:
+        return []
 
     # Remove empty lists
     themrole_lists = [t for t in themrole_lists if t]
