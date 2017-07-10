@@ -7,6 +7,8 @@ from verbnetparser import *
 import search
 import itertools
 
+#TODO we may need to change code to accomodate for subclasses, test this and update if necessary
+
 class Change():
   def __init__(self, element_name, element_type, change_type, from_class=None, notes=""):
     if element_type not in ['member','role','frame']:
