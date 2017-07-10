@@ -115,7 +115,7 @@ def compare_themroles(from_vn_themroles, to_vn_themroles):
                                                   class_ID=from_themrole.class_id())
     if possible_to_themrole:  # If themrole is in the same class
       to_themrole = possible_to_themrole[0]
-      diff = from_themrole.identical_selres_with(to_themrole)
+      diff = from_themrole.compare_selres_with(to_themrole)
     else:
       changes.append(Change(from_themrole.role_type, "role", "delete", from_themrole.class_id()))
 
