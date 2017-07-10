@@ -88,6 +88,22 @@ class VerbNetParser(object):
 
         return members
 
+    def get_all_themroles(self):
+        themroles = []
+
+        for vc in self.get_verb_classes():
+            themroles += vc.themroles
+
+        return themroles
+
+    def get_members_by_classes(self, class_list=[]):
+        themroles = []
+
+        for vc in class_list:
+            themroles += vc.themroles
+
+        return themroles
+
     def get_all_frames(self):
         frames = []
 
@@ -294,6 +310,27 @@ class ThematicRole(AbstractXML):
             return self.sel_restrictions(soup.find_all('SELRESTR')[0])
         else:
             return ['AND'] + [self.sel_restrictions(child) for child in soup.find_all('SELRESTR')]
+
+    def compare_selres_with(self, other_themrole):
+        sel_restrictions = self.sel_restrictions
+        other_sel_restrictions = other_themrole.sel_restrictions
+
+        if len(sel_restrictions) == 2 and len(other_sel_restrictions) == 2:
+            return list(set(sel_restrictions) - set(other_sel_restrictions))
+        else:
+            diffs = []
+            for i, selres in enumerate(sel_restrictions):
+                if isinstance(selres, list):
+                    if len(other_sel_restrictions) > i:
+                        if selres != other_sel_restrictions[i]:
+                            diffs.append(other_sel_restrictions[i])
+                    else:
+                        diffs.append(selres)
+
+            return diffs
+
+    def identical_selres_with(self, other_themrole):
+        return True if self.compare_selres_with(other_themrole) else False
         
     def __repr__(self):
         return "\n\t" + str(self.role_type) + " / " + str(self.sel_restrictions)

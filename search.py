@@ -296,6 +296,28 @@ def find_members(members, class_ID=None, name=None, wn=None, grouping=None, feat
     else:
         return []
 
+def find_themroles(themroles, class_ID=None, role_type=None, sel_restrictions=None):
+    themrole_lists = [[], [], []]
+    for themrole in themroles:
+        if class_ID:
+            if themrole.class_id() == class_ID:
+                themrole_lists[0].append(themrole)
+        if role_type:
+            if themrole.role_type == role_type:
+                themrole_lists[1].append(themrole)
+        if sel_restrictions:
+            if themrole.sel_restrictions == sel_restrictions:
+                themrole_lists[2].append(themrole)
+
+    # Remove empty lists
+    themrole_lists = [t for t in themrole_lists if t]
+
+    if themrole_lists:
+        themrole_sets = [set(x) for x in themrole_lists]
+        return list(set.intersection(*themrole_sets))
+    else:
+        return []
+
 def find_frames(frames):
     return True
 
