@@ -10,8 +10,8 @@ vn = VerbNetParser()
 
 # Returns a list of the XML as beautiful Soup objects
 vn.parse_files()
+vnc = vn.get_verb_class("invest-13.5.4")
+print([t.class_id() for t in vnc.themroles])
 #vn_3_2.parse_files()
 # A list of all the verb classes, as python objects
 # There is a printable representation of it
-vnc = vn.get_verb_class("put-9.1")
-print([t.sel_restrictions for t in vnc.themroles])
