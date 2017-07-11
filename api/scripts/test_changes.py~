@@ -1,0 +1,78 @@
+class Change():
+    def __init__(self, element_name, element_type, change_type, from_class=None, notes=""):
+        if element_type not in ['member','role','frame']:
+            raise Exception(element_type + " is not a valid element type")
+        if change_type not in ['insert','delete','move','update']:
+            raise Exception(change_type + " is not a valid change type")
+        if change_type == 'move' and element_type != 'member':
+            raise Exception('cannot have a \'move\' type on an element that is not a member')
+        #also should probably fail on invalid from_class, but would require VN class lookup (strict) or regex matching (loose)
+
+        self.element_name = element_name
+        self.element_type = element_type
+        self.change_type = change_type
+        self.from_class = from_class
+        self.notes = notes
+        
+    def __eq__(self, other):
+        if type(self) == type(other):
+            return (self.element_name == other.element_name and self.element_type == other.element_type and self.change_type == other.change_type and self.from_class == other.from_class)
+        else:
+            return False
+            
+    def __hash__(self):
+        return (hash(self.element_name) + hash(self.element_type) + hash(self.change_type) + hash(self.from_class))
+        
+    def __str__(self):
+        return str(self.element_name + " " + self.element_type + " " + self.change_type + " " + self.from_class + " " + self.notes).strip()
+        
+def test_changes():    
+    try:
+        c1 = Change('grow','member','insert','120.21','this is a new change')
+        c2 = Change('grow','member','insert','120.21','this one is the same')
+    
+        c3 = Change('break','member','insert','120.21','this one is different')
+        c4 = Change('grow','member','delete','120.21','this one is also different')
+        print('test 1 success : init works')
+        try:
+            change_set = set()
+            change_set.add(c1)
+            change_set.add(c2)
+            change_set.add(c3)
+            change_set.add(c4)
+            print (len(change_set), change_set)
+        except Exception as e:
+            print (e)
+            print ('test 2 failed : hashing broken')
+    except Exception as e:
+        print (e)
+        print ('test 1 failed : changes not created successfully')
+        
+    if (c1 != c2):
+        print ('test 2 failed : c1 != c2')
+    elif (c1 == c3):
+        print ('test 3 failed : c1 == c3')
+    elif (c1 == c4):
+        print ('test 4 failed : c1 == c4')
+    else:
+        print ('test 2-4 success, equals works')
+
+    if str(c1) == 'grow member insert 120.21 this is a new change':
+        print ('test 5 success, str works')
+    else:
+        print ('test 5 failed, str broken', str(c1))
+
+        
+    try:
+        Change('grow','member','member','120.21','this has an invalid change type')
+        print ('test 6 failed : invalid change type accepted')
+    except Exception as e:
+        print ('test 6 success : invalid change type rejected')
+
+    try:
+        Change('grow','insert','insert','120.21','this has an invalid element type')
+        print ('test 7 failed : invalid element type accepted')
+    except Exception as e:
+        print ('test 7 success : invalid element type rejected')
+                                                                      
+test_changes()

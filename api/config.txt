@@ -1,0 +1,7 @@
+
+# Set the path to where your VerbNet files live
+
+VERBNET_PATH_3.3 = /home/kevin/Lexical_Resources/verbnet/
+VERBNET_PATH_3.2 = /home/kevin/Lexical_Resources/verbnet3.3/
+
+FRAMENET_MAPPING_PATH = /home/kevin/Lexical_Resources/SemNet/vn-fn.s

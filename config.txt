@@ -1,7 +1,0 @@
-
-# Set the path to where your VerbNet files live
-
-VERBNET_PATH_3.3 = /Users/ajwieme/verbs-projects/VerbNet/verbnet3.3
-VERBNET_PATH_3.2 = /Users/ajwieme/verbs-projects/VerbNet/verbnet3.2
-
-FRAMENET_MAPPING_PATH = /home/kevin/Lexical_Resources/SemNet/vn-fn.s
