@@ -1,2 +1,2 @@
-# verbnet
-University of Colorado VerbNet
+# Verbnet
+University of Colorado VerbNet GitHub
