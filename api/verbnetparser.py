@@ -314,10 +314,35 @@ class ThematicRole(AbstractXML):
     def compare_selres_with(self, other_themrole):
         sel_restrictions = self.sel_restrictions
         other_sel_restrictions = other_themrole.sel_restrictions
+        print(sel_restrictions)
+        print(other_sel_restrictions)
 
-        if len(sel_restrictions) == 2 and len(other_sel_restrictions) == 2:
+        if len(sel_restrictions) in [2, 0] and len(other_sel_restrictions)in [2, 0]:
+            '''
+                Both have only one, or no restrictions
+            '''
             return list(set(sel_restrictions) - set(other_sel_restrictions))
+        elif len(sel_restrictions) in [2, 0] or len(other_sel_restrictions) in [2, 0]:
+            '''
+              One has multiple, one has only one, or no restrictions
+            '''
+            if len(sel_restrictions) > 1 and isinstance(sel_restrictions[1], list): # it has multiple selres
+                if other_sel_restrictions in sel_restrictions:
+                    sel_restrictions.pop(sel_restrictions.index(other_sel_restrictions))
+                    return sel_restrictions
+                else:
+                    return other_sel_restrictions + sel_restrictions
+            else: # other has the multiple selres
+                # Just do the inverse
+                if sel_restrictions in other_sel_restrictions:
+                    other_sel_restrictions.pop(other_sel_restrictions.index(sel_restrictions))
+                    return other_sel_restrictions
+                else:
+                    return sel_restrictions + other_sel_restrictions
         else:
+            '''
+              Both have multiple restrictions
+            '''
             diffs = []
             for i, selres in enumerate(sel_restrictions):
                 if isinstance(selres, list):

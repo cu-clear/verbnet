@@ -114,5 +114,5 @@ def test_member_comparisons():
                     print("%s marked as Deleted could be in %s" % (change.element_name, ', '.join(potential_members)))
 
                                                                       
-#test_changes()
-test_member_comparisons()
+test_changes()
+#test_member_comparisons()

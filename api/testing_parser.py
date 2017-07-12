@@ -8,10 +8,8 @@ import search
 vn = VerbNetParser()
 #vn_3_2 = VerbNetParser(version="3.2")
 
-# Returns a list of the XML as beautiful Soup objects
-vn.parse_files()
 vnc = vn.get_verb_class("invest-13.5.4")
-print([t.class_id() for t in vnc.themroles])
+print(vnc.themroles[0].compare_selres_with(vn.get_verb_class("remove-10.1").themroles[0]))
 #vn_3_2.parse_files()
 # A list of all the verb classes, as python objects
 # There is a printable representation of it
