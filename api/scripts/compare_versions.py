@@ -141,6 +141,11 @@ def compare_frames(from_vn_frames, to_vn_frames):
     Just like with members, but frames have nested
     that can undergo the same operations
   '''
+  all_changes = {}
+
+  for to_vn_frame in to_vn_frames:
+    to_vn_frame
+
   return True
 
 def compare_semantics(from_vn_semantics, to_vn_semantics):

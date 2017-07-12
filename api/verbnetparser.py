@@ -355,7 +355,7 @@ class ThematicRole(AbstractXML):
             return diffs
 
     def identical_selres_with(self, other_themrole):
-        return True if self.compare_selres_with(other_themrole) else False
+        return False if self.compare_selres_with(other_themrole) else True
         
     def __repr__(self):
         return "\n\t" + str(self.role_type) + " / " + str(self.sel_restrictions)
