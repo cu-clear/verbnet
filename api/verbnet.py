@@ -225,6 +225,7 @@ class Member(VerbNetObject):
     def __init__(self, verb_class, member_node):
         self.vc = verb_class
         self.name = member_node.getAttribute('name')
+        self.wn = member_node.getAttribute('wn')
         
 class Frame(VerbNetObject):
 
