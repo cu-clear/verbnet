@@ -219,6 +219,9 @@ class Role(VerbNetObject):
         self.name = str(self.node.getAttribute('type'))
         restr_nodes = self.get_elements('SELRESTR')
         self.restrictions = [r.getAttribute('Value') + r.getAttribute('type') for r in restr_nodes]
+
+    def __str__(self):
+        return self.name + " " + " ".join([str(r) for r in self.restrictions]) 
         
 class Member(VerbNetObject):
 
@@ -269,7 +272,7 @@ class Frame(VerbNetObject):
                     roles.add(role)
         return roles
 
-    def syntax_string(self):
+    def syntax_html(self):
         elements = []
         for child in self.syntax.childNodes:
             if child.nodeType == Node.ELEMENT_NODE:
@@ -278,9 +281,24 @@ class Frame(VerbNetObject):
                 elements.append("%s-%s" % (tag, spanned(role, 'role')) if role else tag)
         return ' '.join(elements)
 
-    def semantics_string(self):
+    def syntax_string(self):
+        res = ""
+        for child in self.syntax.childNodes:
+            if child.nodeType == Node.ELEMENT_NODE:
+                res += child.tagName
+                if get_value(child):
+                    res += "-" + get_value(child) + " "
+                else:
+                    res += " "
+
+        return res.strip()
+                         
+    def semantics_html(self):
         return ' &amp; '.join([pred.as_html_string() for pred in self.predicates()])
 
+    def semantics_string(self):
+        return " ".join([str(pred) for pred in self.predicates()])
+    
     def print_html(self, description=True, fh=None):
         if fh is None:
             fh = sys.stdout
