@@ -263,10 +263,13 @@ def reverse_image_search(frame, scheme, obligatory_theme=True, theme_only=False)
     else:
         return (pp or sr)
 
-# Use this to find a member given certain parameters
-# each parameter should be passed in in the form of a list,
-# as that is what the get_category method in verbnetparser returns
-def find_members(members, class_ID=None, name=None, wn=None, grouping=None, features=None):
+def find_members(members=None, class_ID=None, name=None, wn=None, grouping=None, features=None):
+    '''
+        Use this to find a member given certain parameters
+        each parameter should be passed in in the form of a list,
+        as that is what the get_category method in verbnetparser returns
+    '''
+    members = members if members else get_verbnet_parser().get_all_members()
     member_lists = [[], [], [], [], []]
     for member in members:
         if class_ID:
@@ -311,7 +314,8 @@ def find_members(members, class_ID=None, name=None, wn=None, grouping=None, feat
     else:
         return []
 
-def find_themroles(themroles, class_ID=None, role_type=None, sel_restrictions=None):
+def find_themroles(themroles=[], class_ID=None, role_type=None, sel_restrictions=None):
+    themroles = themroles if themroles else get_verbnet_parser().get_all_themroles()
     themrole_lists = [[], [], []]
     for themrole in themroles:
         if class_ID:
@@ -347,26 +351,7 @@ def find_themroles(themroles, class_ID=None, role_type=None, sel_restrictions=No
 def find_frames(frames):
     return True
 
-def find_syntactic_roles(roles, POS=None, value=None, restrictions=None):
-    role_lists = [[], [], []]
-    for role in roles:
-        if POS:
-            if role.POS == POS:
-                role_lists[0].append(role)
-        if value:
-            if role.value == value:
-                role_lists[1].append(role)
-        if restrictions:
-            if role.wn == restrictions:
-                role_lists[2].append(role)
-
-        role_lists = [r for r in role_lists if r]
-
-    if role_lists:
-        role_sets = [set(x) for x in role_lists]
-        return list(set.intersection(*role_sets))
-
 def get_verbnet_parser(version="3.3"):
     from verbnetparser import VerbNetParser
-    vn = VerbNetParser(version)
+    return VerbNetParser(version)
 
