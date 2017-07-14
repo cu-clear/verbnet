@@ -280,6 +280,36 @@ class Frame(AbstractXML):
                 roles.append(role)
         return roles
 
+    def contains(self, input):
+        '''
+            input: a Frame object, or a list of Predicates,
+            which is also the return type of Frame.predicates
+        '''
+        if type(input) == list:
+            search_predicates = input
+        elif type(input) == Frame:
+            search_predicates = input.predicates
+        else:
+            raise Exception(str(type(input)) + " is not a valid input type type")
+
+        predicates = self.predicates
+
+        for search_pred in search_predicates:
+            predicate_names = [pred.value for pred in predicates]
+            if search_pred.value in predicate_names:
+                match_pred = predicates[predicate_names.index(search_pred.value)]
+                # Compare args of match_pred and search_pred
+                if match_pred.contains(search_pred.args):
+                    return True
+                else:
+                    return False
+            else: # one of the search preds is not a predicate of this frame
+                return False
+
+        # This will return of there were no input preds to loop over
+        return True
+
+
 
 class ThematicRole(AbstractXML):
     """Represents an entry in the "Roles" section in VerbNet, which is basically 
@@ -377,6 +407,30 @@ class Predicate(AbstractXML):
 
     def __repr__(self):
         return "Value: " + str(self.value[0]) + " -- " + str(self.argtypes)
+
+    def contains(self, input):
+        '''
+            input: a Predicate object, or a BeatifulSoup result set,
+            which is the return type of predicate.args
+        '''
+        if type(input) == bs4.element.ResultSet:
+            search_args = input
+        elif type(input) == Predicate:
+            search_args = input.args
+        else:
+            raise Exception(str(type(input)) + " is not a valid input type")
+
+        args = self.args
+
+        for search_arg in search_args:
+            arg_info = [(arg.type, arg.value) for arg in args]
+            if (search_arg.type, search_arg.value) in arg_info:
+                return True
+            else:  # one of the search preds is not a predicate of this frame
+                return False
+
+        # This will return of there were no input preds to loop over
+        return True
 
 
 class SyntacticRole(AbstractXML):
