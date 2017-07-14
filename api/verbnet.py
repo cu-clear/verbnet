@@ -3,8 +3,7 @@
 This module contains the VerbNet class which interfaces to the contents of
 VerbNet. In addition it has a couple of classes that are wrappers around a
 couple of VerbNet elements, these classes include VerbClass, Frame, Predicate
-and Role. Finally, PredicateStatistics is a class that generates statistics for
-predicates.
+and Role.
 
 You can open a VerbNet instance using a list of XML files with verb classes:
 
@@ -38,16 +37,6 @@ for frame in  vn.get_class('slide-11.2').frames[:3]:
 <Frame slide-11.2 'NP V'>
 <Frame slide-11.2 'NP V PP.initial_location'>
 <Frame slide-11.2 'NP V PP.destination'>
-
-The PredicateStatistics class produces some html files with statistics:
-
-stats = PredicateStatistics(vn, pred='motion')
-stats.print_missing_links('out-missing-roles.html')
-stats.print_predicates('out-predicates.txt')
-
-In the case above, the results are written to two files and the statistics are
-limited to classes that contain a motion predicate.
-
 """
 
 
@@ -337,90 +326,6 @@ class Predicate(VerbNetObject):
         if self.boolean == '!':
             pred = "<span class=pred>not</span>(%s)" % pred
         return pred
-
-
-class PredicateStatistics(object):
-
-    """Contains statistics on predicates in a set of VerbNet classes."""
-
-    def __init__(self, vn, pred=None):
-        self.vnclasses = vn.get_classes()
-        if pred is not None:
-            self.vnclasses = [c for c in self.vnclasses if c.contains_predicate(pred)]
-        self.predicates = {}
-        self.statistics = {}
-        self.missing_links = {}
-        self._collect_predicates()
-        self._collect_statistics()
-        self._collect_missing_links()
-
-    def _collect_predicates(self):
-        for vc in self.vnclasses:
-            for pred in vc.predicates():
-                predicate = Predicate(pred, vc)
-                self.predicates.setdefault(predicate.value, []).append(predicate)
-
-    def _collect_statistics(self):
-        for pvalue, predicates in self.predicates.items():
-            self.statistics[pvalue] = {'classes': {},
-                                       'arguments': collections.Counter()}
-            for pred in predicates:
-                self.statistics[pvalue]['classes'][pred.vc.classname] = True
-                self.statistics[pvalue]['arguments'].update(pred.argtypes)
-
-    def _collect_missing_links(self):
-        for vnclass in self.vnclasses:
-            classname = vnclass.classname
-            for frame in vnclass.frames:
-                syn_roles = frame.syntax_roles()
-                sem_roles = frame.semantics_roles()
-                for role in sem_roles.difference(syn_roles):
-                    # the ? indicates that the role does not need to be expressed in
-                    # the syntax
-                    if not role.startswith('?'):
-                        self.missing_links.setdefault(classname, []).append(['syntax', role, frame])
-                for role in syn_roles.difference(sem_roles):
-                    self.missing_links.setdefault(classname, []).append(['semantics', role, frame])
-
-    def print_missing_links(self, fname=None):
-        fh = sys.stdout if fname is None else open(fname, 'w')
-        fh.write("<html>\n")
-        fh.write(TEXT_HEAD)
-        fh.write("<body>\n\n")
-        fh.write("<h2>Role mismatches</h2>\n\n")
-        fh.write(TEXT_MISSING_LINKS)
-        fh.write("\n<div class=boxed>Verb classes with missing roles\n" +
-                 "<blockquote>\n")
-        for classname in sorted(self.missing_links.keys()):
-            fh.write("  <a href=\"#%s\">%s</a>\n" % (classname, classname.split('-')[0]))
-        fh.write("</blockquote>\n</div>\n\n")
-        fh.write("<dl>\n")
-        for classname in sorted(self.missing_links.keys()):
-            href = "%s%s.php" % (VERBNET_URL, classname)
-            link = "<a href=\"%s\" class=classname>%s</a>" % (href, classname)
-            fh.write("\n<a name=\"%s\"></a>\n<dt>\n  %s\n</dt>\n" % (classname, link))
-            for (level, role, frame) in self.missing_links[classname]:
-                fh.write("<dd>\n<span class=role>%s</span> is not expressed in %s of frame [%s]"
-                         % (role, level, frame.description))
-                fh.write("\n")
-                frame.print_html(description=False, fh=fh)
-                fh.write("</dd>\n")
-        fh.write("\n</dl>\n\n")
-        fh.write("</body>\n")
-        fh.write("</html>\n")
-
-    def print_predicates(self, fname=None):
-        fh = sys.stdout if fname is None else open(fname, 'w')
-        fh.write("\nFound %d predicates in %d verb classes\n\n"
-                 % (len(self.predicates), len(self.vnclasses)))
-        for pvalue in sorted(self.predicates):
-            fh.write("\nPRED: %s\n" % pvalue)
-            stats = self.statistics[pvalue]
-            fh.write("\n   VN-CLASSES: %s\n" % ' '.join(sorted(stats['classes'])))
-            fh.write("\n   ARGS:\n")
-            for pair, count in sorted(stats['arguments'].items()):
-                fh.write("   %3d  %s - %s\n" % (count, pair[0], pair[1]))
-
 
 if __name__ == '__main__':
     vn = VerbNet(directory="/home/kevin/Lexical_Resources/verbnet/")
