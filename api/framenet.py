@@ -12,7 +12,6 @@ def get_framenet_mappings():
 FRAMENET_MAPPING_PATH = get_framenet_mappings()
 
 vn = VerbNetParser()
-vn.parse_files()
 
 
 class AbstractXML(object):

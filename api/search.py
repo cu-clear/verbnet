@@ -365,3 +365,8 @@ def find_syntactic_roles(roles, POS=None, value=None, restrictions=None):
     if role_lists:
         role_sets = [set(x) for x in role_lists]
         return list(set.intersection(*role_sets))
+
+def get_verbnet_parser(version="3.3"):
+    from verbnetparser import VerbNetParser
+    vn = VerbNetParser(version)
+

@@ -205,8 +205,6 @@ def compare_syntax(from_vn_syntax, to_vn_syntax):
 from_vn = VerbNetParser(version="3.2")
 to_vn = VerbNetParser(version="3.3")
 
-from_vn.parse_files()
-to_vn.parse_files()
 #from_vn = to_vn
 
 #print(compare_syntax(from_vn.get_verb_class("hold-15.1").frames[0].syntax, to_vn.get_verb_class("hurt-40.8.3").subclasses[0].frames[0].syntax))
