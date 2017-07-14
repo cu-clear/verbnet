@@ -306,7 +306,7 @@ class Frame(AbstractXML):
             else: # one of the search preds is not a predicate of this frame
                 return False
 
-        # This will return of there were no input preds to loop over
+        # This will return if there were no input preds to loop over
         return True
 
 
@@ -426,10 +426,10 @@ class Predicate(AbstractXML):
             arg_info = [(arg.type, arg.value) for arg in args]
             if (search_arg.type, search_arg.value) in arg_info:
                 return True
-            else:  # one of the search preds is not a predicate of this frame
+            else:  # one of the search_args is notan arg of this predicate
                 return False
 
-        # This will return of there were no input preds to loop over
+        # This will return if there were no input preds to loop over
         return True
 
 
