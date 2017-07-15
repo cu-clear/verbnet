@@ -3,6 +3,7 @@
 Module with search functions for Verbnet classes.
 
 """
+from verbnetparser import *
 
 def search_by_predicate(verbclasslist, pred_type):
     """Returns verbclasses that exactly match the predicate."""
@@ -268,6 +269,9 @@ def find_members(members=None, class_ID=None, name=None, wn=None, grouping=None,
         Use this to find a member given certain parameters
         each parameter should be passed in in the form of a list,
         as that is what the get_category method in verbnetparser returns
+        ***Note, if you have already instantiated a verbnetparser object, it
+        is more efficient to pass the members in via .get_all_members()
+        so as to not parse all the files a second time here.***
     '''
     members = members if members else get_verbnet_parser().get_all_members()
     member_lists = [[], [], [], [], []]
@@ -276,6 +280,10 @@ def find_members(members=None, class_ID=None, name=None, wn=None, grouping=None,
             if member.class_id() == class_ID:
                 member_lists[0].append(member)
         if name:
+            # member.name returns a list of length 1, but we also want
+            # to accept a string passed in
+            if type(name) == str:
+                name = [name]
             if member.name == name:
                 member_lists[1].append(member)
         if wn:
@@ -352,6 +360,5 @@ def find_frames(frames):
     return True
 
 def get_verbnet_parser(version="3.3"):
-    from verbnetparser import VerbNetParser
-    return VerbNetParser(version)
+    return VerbNetParser(version=version)
 

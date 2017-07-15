@@ -10,6 +10,7 @@ import os
 import bs4
 from bs4 import BeautifulSoup as soup
 from lxml import etree
+import re
 
 __author__ = ["Todd Curcuru & Marc Verhagen"]
 __date__ = "3/15/2016"
@@ -175,7 +176,9 @@ class AbstractXML(object):
         return get_class_id(self.soup)
 
     def pp(self):
-        return self.soup.prettify()
+        # Better indentation for more readable XML
+        indent = re.compile(r'^(\s*)', re.MULTILINE)
+        return indent.sub(r'\1' * 4, self.soup.prettify())
         
 
 class VerbClass(AbstractXML):
@@ -209,6 +212,43 @@ class VerbClass(AbstractXML):
     def members(self):
         """Get all members of a verb class"""
         return [Member(mem_soup, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
+
+    #TODO Adam: add and remove are implemented to just work with the soup,
+    #TODO it may be cleaner to write the API so that the object can be updated directly
+    #TODO and the soup be updated form the object
+    def remove_member(self, input_member):
+        '''
+            Remove the member object with a given name, or that matches a given member object
+            from this class.
+
+            Returns the soup for the removed member
+        '''
+
+        if type(input_member) == Member:
+            input_member_name = input_member.name[0]
+        elif type(input_member) == str:
+            input_member_name = input_member
+
+        # Should only ever be one member with a unique name in a class,
+        # so we can search by name and use [0]
+        return self.soup.MEMBERS.find_all("MEMBER", {"name": input_member_name})[0].extract()
+
+    def add_member(self, input_member):
+        '''
+          Add the member object, or soup object representing the member to this class,
+          may need to add validation for the soup object later,
+          and support for other inputs such as XML, or dictionary of info
+        '''
+
+        if type(input_member) == Member:
+            mem_soup = input_member.soup
+        elif type(input_member) == bs4.element.Tag:
+            mem_soup = input_member
+
+        # Should only ever be one member with a unique name in a class,
+        # so we can search by name and use [0]
+        self.soup.MEMBERS.append(mem_soup)
+
     
     def frames(self):
         """Get all frames for a verb class, seems to be shared by all members
