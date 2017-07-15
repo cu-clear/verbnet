@@ -6,9 +6,6 @@ from verbnetparser import *
 import search
 import argparse
 
-#TODO change remove_member in the api to do so without going directly into soup
-#TODO And look into adding an .update() method to AbstractXML that takes all data in the
-#TODO class and dumps it into the soup object
 def move_member(member_name, current_classname, new_classname):
   '''
     :return: (current_class_xml, new_class_xml)
