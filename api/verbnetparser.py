@@ -186,7 +186,7 @@ class VerbClass(AbstractXML):
     XML file)."""
     # TODO: Check if nested subclasses have issues
 
-    def __init__(self, soup, version):
+    def __init__(self, soup, version="3.3"):
         self.soup = soup
         self.etree = etree.fromstring(self.pp())
         try:
@@ -274,7 +274,7 @@ class Member(AbstractXML):
     """Represents a single member of a VerbClass, with associated name, WordNet
     category, and PropBank grouping."""
     
-    def __init__(self, soup, version):
+    def __init__(self, soup, version="3.3"):
         self.soup = soup
         self.version = version
         self.name = self.get_category('name')
@@ -290,7 +290,7 @@ class Frame(AbstractXML):
     """Represents a single verb frame in VerbNet, with a description, examples,
     syntax, and semantics """
 
-    def __init__(self, soup, class_ID, version):
+    def __init__(self, soup, class_ID, version="3.3"):
         self.soup = soup
         self.version = version
         self.class_ID = class_ID
@@ -356,7 +356,7 @@ class ThematicRole(AbstractXML):
     a list of all roles for a given verb class, with possible selectional 
     restrictions"""
     
-    def __init__(self, soup, version):
+    def __init__(self, soup, version="3.3"):
         self.soup = soup
         self.version = version
         self.role_type = self.get_category('type')[0]
@@ -434,7 +434,7 @@ class ThematicRole(AbstractXML):
 class Predicate(AbstractXML):
     """Represents the different predicates assigned to a frame"""
     
-    def __init__(self, soup, version):
+    def __init__(self, soup, version="3.3"):
         self.soup = soup
         self.version = version
         self.value = self.get_category('value')
@@ -476,7 +476,7 @@ class Predicate(AbstractXML):
 class SyntacticRole(AbstractXML):
     """Represents a syntactic role assigned to a frame"""
     
-    def __init__(self, soup, version):
+    def __init__(self, soup, version="3.3"):
         self.soup = soup
         self.version = version
         self.POS = self.soup.name
