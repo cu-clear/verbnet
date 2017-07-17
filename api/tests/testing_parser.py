@@ -1,7 +1,7 @@
 import os, sys, itertools, getopt
+local_verbnet_api_path = "/Users/ajwieme/verbs-projects/VerbNet/verbnet/api"
 
-from verbnetparser import *
-import search
+sys.path.append(local_verbnet_api_path)
 
 # Looks for config.txt for dir to VN XML
 # Then instantiates parser with the files in that dir

@@ -333,21 +333,23 @@ class Frame(AbstractXML):
             raise Exception(str(type(input)) + " is not a valid input type type")
 
         predicates = self.predicates
+        matches = []
 
         for search_pred in search_predicates:
             predicate_names = [pred.value for pred in predicates]
             if search_pred.value in predicate_names:
+                #TODO What if there are multiple of the same pred?
                 match_pred = predicates[predicate_names.index(search_pred.value)]
                 # Compare args of match_pred and search_pred
-                if match_pred.contains(search_pred.args):
-                    return True
-                else:
+                if not match_pred.contains(search_pred.args): # one of the search preds does not have matching args
                     return False
-            else: # one of the search preds is not a predicate of this frame
+            else:  # one of the search preds is not a predicate of this frame
                 return False
 
-        # This will return if there were no input preds to loop over
+        # If loop completes, all search_preds must have a match, note this also
+        # Means if no search_preds are supplied, the method will return True
         return True
+
 
 
 
@@ -464,12 +466,11 @@ class Predicate(AbstractXML):
 
         for search_arg in search_args:
             arg_info = [(arg.type, arg.value) for arg in args]
-            if (search_arg.type, search_arg.value) in arg_info:
-                return True
-            else:  # one of the search_args is notan arg of this predicate
+            if not (search_arg.type, search_arg.value) in arg_info: # one of the search_args is notan arg of this predicate
                 return False
 
-        # This will return if there were no input preds to loop over
+        # All args have been checked and have a match, thus not returning false
+        # This will also return if there were no input preds to loop over
         return True
 
 
