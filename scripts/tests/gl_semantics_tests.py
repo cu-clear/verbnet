@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup as soup
   Adding .PRED to end of soup instantiation to account for default xml added by lxml-xml parser
 '''
 # Motion pred
-p1 = Predicate(soup('<PRED value="motion"><ARGS><ARG type="Event" value="during(E)"/><ARG type="ThemRole" value="Theme"/></ARGS></PRED>', 'lxml-xml').PRED)
+p1 = Predicate(soup('<PRED value="motion"></PRED>', 'lxml-xml').PRED)
 # path_rel start pred
 p2 = Predicate(soup('<PRED value="path_rel"><ARGS><ARG type="Event" value="start(E)"/><ARG type="ThemRole" value="?Initial_Location"/><ARG type="Constant" value="ch_of_loc"/></ARGS></PRED>', 'lxml-xml').PRED)
 # path_rel end pred

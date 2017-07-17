@@ -21,7 +21,7 @@ def update_gl_semantics(matching_semantics, gl_semantics=[]):
   for vnc in vn.get_verb_classes():
     for frame in vnc.frames:
       if frame.contains(matching_semantics):
-        print(frame.class_id(), frame.primary)
+        print(frame.class_id(), frame.examples)
         udpate_frame_with_gl(frame, gl_semantics)
 
   return True
