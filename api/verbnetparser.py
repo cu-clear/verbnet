@@ -335,15 +335,18 @@ class Frame(AbstractXML):
         predicates = self.predicates
         matches = []
 
+        # Updated to be O(2n) to catch cases where there are multiple preds with the same name
         for search_pred in search_predicates:
-            predicate_names = [pred.value for pred in predicates]
-            if search_pred.value in predicate_names:
-                #TODO What if there are multiple of the same pred?
-                match_pred = predicates[predicate_names.index(search_pred.value)]
-                # Compare args of match_pred and search_pred
-                if not match_pred.contains(search_pred.args): # one of the search preds does not have matching args
-                    return False
-            else:  # one of the search preds is not a predicate of this frame
+            for predicate in predicates:
+                # Reset match flag
+                match = False
+                if predicate.value == search_pred.value and predicate.contains(search_pred):
+                    # We got a match! Go to next search_pred
+                    match = True
+                    break
+
+            # If this loop completes without finding a match, we must be missing a matching pred
+            if not match:
                 return False
 
         # If loop completes, all search_preds must have a match, note this also
@@ -462,11 +465,12 @@ class Predicate(AbstractXML):
         else:
             raise Exception(str(type(input)) + " is not a valid input type")
 
-        args = self.args
+        # Hacky way to ignore question marks (?) in arg values
+        argtypes = [(argtype[0].replace('?', ''), argtype[1].replace('?', '')) for argtype in self.argtypes]
 
         for search_arg in search_args:
-            arg_info = [(arg.type, arg.value) for arg in args]
-            if not (search_arg.type, search_arg.value) in arg_info: # one of the search_args is notan arg of this predicate
+            # Use the same hacky way to ignore question marks (?) in arg values
+            if (self.get_category("type", search_arg)[0].replace('?', ''), self.get_category("value", search_arg)[0].replace('?', '')) not in argtypes: # one of the search_args is not an arg of this predicate
                 return False
 
         # All args have been checked and have a match, thus not returning false
