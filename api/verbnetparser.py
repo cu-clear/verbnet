@@ -10,6 +10,7 @@ import os
 import bs4
 from bs4 import BeautifulSoup as soup
 from lxml import etree
+from itertools import chain
 import re
 
 __author__ = ["Todd Curcuru & Marc Verhagen"]
@@ -65,6 +66,29 @@ class VerbNetParser(object):
     def get_verb_classes(self):
         """Return a list of all classes."""
         return self.verb_classes_dict.values()
+
+    def get_verb_classes_and_subclasses(self):
+        vn_classes = self.get_verb_classes()
+        sub_classes = []
+
+        # Recursively traverse list of trees by using (abusing?) the python yield function
+        def get_subclasses_gen(vnc):
+
+            for sub in vnc.subclasses:
+                if sub.subclasses:
+                    # Yield the subclass before iterating over its children
+                    yield sub
+                    for x in get_subclasses_gen(sub):
+                        yield x
+                else:
+                    # termination case for a branch, use yield so function continues to iterate
+                    yield sub
+
+        # Run the function over each vn_class to recursively get ALL subclasses
+        for vn_class in vn_classes:
+            sub_classes += [s for s in get_subclasses_gen(vn_class)]
+
+        return list(vn_classes) + sub_classes
 
     def get_verb_class_by_numerical_id(self, numerical_ID):
         """Return a list of all classes."""
