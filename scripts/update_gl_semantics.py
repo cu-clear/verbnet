@@ -18,7 +18,8 @@ def update_gl_semantics(matching_semantics, gl_semantics=[]):
   '''
 
   vn = VerbNetParser()
-  for vnc in vn.get_verb_classes():
+  # Use get_verb_classes_and_subclasses() so we can check all classes and subclasses in one list
+  for vnc in vn.get_verb_classes_and_subclasses():
     for frame in vnc.frames:
       if frame.contains(matching_semantics):
         print(frame.class_id(), frame.examples)

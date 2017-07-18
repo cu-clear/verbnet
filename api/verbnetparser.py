@@ -192,7 +192,7 @@ class AbstractXML(object):
 
     def class_id(self):
         def get_class_id(soup):
-            if soup.name == "VNCLASS":
+            if soup.name == "VNCLASS" or soup.name == "VNSUBCLASS":
                 return soup['ID']
             else:
                 return get_class_id(soup.parent)
