@@ -17,12 +17,12 @@ __author__ = ["Todd Curcuru & Marc Verhagen"]
 __date__ = "3/15/2016"
 __email__ = ["tcurcuru@brandeis.edu, marc@cs.brandeis.edu"]
 
+
 def get_verbnet_directory(version):
     for line in open(os.path.join(os.path.dirname(__file__), 'config.txt')):
         if line.startswith('VERBNET_PATH') and line.split("=")[0].strip().endswith(version):
             return line.split('=')[1].strip()
     exit('WARNING: could not find a value for VERBNET_PATH version %s' % version)
-
 
 
 class VerbNetParser(object):
@@ -121,7 +121,7 @@ class VerbNetParser(object):
 
         return themroles
 
-    def get_members_by_classes(self, class_list=[]):
+    def get_themroles_by_classes(self, class_list=[]):
         themroles = []
 
         for vc in class_list:
@@ -376,8 +376,6 @@ class Frame(AbstractXML):
         # If loop completes, all search_preds must have a match, note this also
         # Means if no search_preds are supplied, the method will return True
         return True
-
-
 
 
 class ThematicRole(AbstractXML):
