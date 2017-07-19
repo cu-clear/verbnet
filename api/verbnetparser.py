@@ -187,10 +187,28 @@ class AbstractXML(object):
 
         return updates
 
-    # Assumes self and compare are both are of the same type of object
-    #def compare_with(self, compare):
-
     def class_id(self):
+        '''
+            Recursively find the closest parent node (n nodes up)
+            that is a VNCLASS in order to get its ID
+
+            This is to get the parent of all subclasses, etc, in the file.
+        '''
+        def get_class_id(soup):
+            if soup.name == "VNCLASS":
+                return soup['ID']
+            else:
+                return get_class_id(soup.parent)
+
+        return get_class_id(self.soup)
+
+    #TODO apply this method as oppossed to class_id() where necessary in the API
+    def class_or_subclass_id(self):
+        '''
+          Recursively find the closest parent node (n nodes up)
+          that is a VNCLASS or VNSUBCLASS in order to get its ID
+        '''
+
         def get_class_id(soup):
             if soup.name == "VNCLASS" or soup.name == "VNSUBCLASS":
                 return soup['ID']
