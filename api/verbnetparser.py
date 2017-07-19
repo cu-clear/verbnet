@@ -121,7 +121,7 @@ class VerbNetParser(object):
 
         return themroles
 
-    def get_members_by_classes(self, class_list=[]):
+    def get_themroles_by_classes(self, class_list=[]):
         themroles = []
 
         for vc in class_list:
