@@ -40,12 +40,12 @@ cos_p2 = Predicate(soup('<PRED value="path_rel"><ARGS><ARG type="Event" value="r
 cos_or_p1 = Predicate(soup('<PRED value="degradation_material_integrity"><ARGS><ARG type="Event" value="result(E)"/></ARGS></PRED>', 'lxml-xml').PRED)
 
 # Right now, update_gl_semantics just prints the class_id/example of any frame that meets the criteria
-#print("Change of Location")
-#update_gl_semantics([col_p1, col_p2, col_p3])
-print("Change of Possession")
-update_gl_semantics([cop_p1, cop_p2, cop_p3])
-print("Change of State")
-update_gl_semantics([[cos_p1, cos_p2], [cos_or_p1]])
+print("Change of Location")
+update_gl_semantics([col_p1, col_p2, col_p3])
+#print("Change of Possession")
+#update_gl_semantics([cop_p1, cop_p2, cop_p3])
+#print("Change of State")
+#update_gl_semantics([[cos_p1, cos_p2], [cos_or_p1]])
 
 
 '''
