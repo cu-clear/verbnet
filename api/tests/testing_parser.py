@@ -15,8 +15,10 @@ vnc = vn.get_verb_class("run-51.3.2")
 #print(vnc.themroles[0].compare_selres_with(vn.get_verb_class("remove-10.1").themroles[0]))
 #vn_3_2.parse_files()
 
-vnclasses = vn.get_verb_classes_and_subclasses()
-
+#vnclasses = vn.get_verb_classes()
+#print(vnc.ID)
+#print(vn.get_all_verb_cLass_ids())
+#print(vn.get_all_verb_cLass_ids(subclasses=True))
 #print(vnc.frames[0].predicates[0].argtypes)
 
 def test_frame_contains(containing_frame, contained_frame, preds_list):

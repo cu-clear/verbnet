@@ -4,7 +4,6 @@ VN Version that produces updates is dependent on what config.txt is pointed to
 INPUTS: annotation_file.ann member_name, new_vn_version (i.e the version that you want to find the annotation in)
 OUTPUTS: updated_annotation_file_with_version_specific_updates, log_file
 '''
-#TODO update search to also look in subclasses
 # There may be an issue where presence of subclasses appears as duplicate classes?
 import sys
 import os
@@ -31,7 +30,7 @@ class Log(object):
 
 def find_in_old_versions(ann, old_vns):
   for old_vn in old_vns:
-    all_old_members = old_vn.get_all_members()
+    all_old_members = old_vn.get_members()
 
     if ann.exists_in(old_vn):
       return search.find_members(all_old_members, class_ID=ann.class_ID, name=ann.verb.split())
@@ -45,7 +44,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
   if not ann.exists_in(new_vn):
     possible_old_vn_members = find_in_old_versions(ann, old_vns)
 
-    all_new_members = new_vn.get_all_members()
+    all_new_members = new_vn.get_members()
     updated_vn_members = []
     for vn_member in possible_old_vn_members:
       # search these members for the lookup member by name and wordnet mapping
@@ -120,7 +119,6 @@ if __name__ == '__main__':
   from annotation import *
 
   new_vn = VerbNetParser(version=new_vn_version)
-  new_vn.parse_files()
 
   # Make sure the these dirs exist, or create them
   os.makedirs(logs_dir, exist_ok=True)
