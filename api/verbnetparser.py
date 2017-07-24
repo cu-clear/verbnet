@@ -9,7 +9,6 @@ verb frames.
 import os
 import bs4
 from bs4 import BeautifulSoup as soup
-from lxml import etree
 from itertools import chain
 import re
 
@@ -195,7 +194,6 @@ class VerbClass(AbstractXML):
 
     def __init__(self, soup, version="3.3"):
         self.soup = soup
-        self.etree = etree.fromstring(self.pp())
         try:
             self.ID = self.get_category("ID", self.soup)[0]
         except IndexError:

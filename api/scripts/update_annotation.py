@@ -39,7 +39,7 @@ def find_in_old_versions(ann, old_vns):
 
 def update_annotation_line(ann_line, new_vn, old_vns, log):
   ann = Annotation(ann_line)
-
+  stats[2] += 1
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
   if not ann.exists_in(new_vn):
     possible_old_vn_members = find_in_old_versions(ann, old_vns)
@@ -61,6 +61,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
 
     if len(updated_vn_members) == 1: # The verb maps to new version in a new class
       log.write("SUCCESS: Found %s from %s in %s in VerbNet version %s" % (ann.verb, ann.class_ID, updated_vn_members[0].class_id(), updated_vn_members[0].version))
+      stats[1] += 1
       ann.update_vn_info(updated_vn_members[0])
     elif len(updated_vn_members) > 1: # Otherwise there is ambiguity
       log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.class_ID, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version))
@@ -70,6 +71,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
       return None
   else:
     log.write("SUCCESS: %s is still a reference to %s in %s in VerbNet version %s" % (ann.verb, ann.verb, ann.class_ID, new_vn.version))
+    stats[0] += 1
 
   return str(ann)
 
@@ -86,6 +88,9 @@ def generate_updated_annotations(fn, lines, new_vn, old_vns):
 if __name__ == '__main__':
   global logs_dir
   global new_anns_dir
+  global stats
+
+  stats = (0, 0, 0) #(num_no_change, num_successful_change, total)
 
   # DEFINE ARGS
   parser = argparse.ArgumentParser()
@@ -133,3 +138,6 @@ if __name__ == '__main__':
   for fn in ann_fns:
     lines = [line.strip() for line in codecs.open(fn, "r", encoding="utf-8")]
     generate_updated_annotations(fn, lines, new_vn, old_vns)
+
+  print_stats = ((float(stats[0]) / float(stats[2])) * 100, (float(stats[1]) / float(stats[2])) * 100, ((float(stats[0])  + float(stats[1])) / float(stats[2])) * 100)
+  print("%2f%% of annotations unchanged, %2f%% successfully updated, %2f%% too ambiguous to update" % print_stats)
