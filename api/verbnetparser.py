@@ -40,14 +40,20 @@ class VerbNetParser(object):
         self.version = version
         self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
         self.parsed_files = self.parse_files()
-        self.verb_classes = []
         self.verb_classes_dict = {}
-        self.verb_classes_numerical_dict = {}
+        self.verb_subclasses_dict = {}
         for parse in self.parsed_files:
             vc = VerbClass(parse.VNCLASS, version)
-            self.verb_classes.append(vc)
             self.verb_classes_dict[vc.ID] = vc
-            self.verb_classes_numerical_dict[vc.ID.split("-")[1]] = vc
+            # Add a key for this verb_class that is JUST the numerical part of the string, as well
+            self.verb_classes_dict[vc.ID.split("-")[1]] = vc
+            for sub in vc.get_all_subclasses():
+                self.verb_subclasses_dict[sub.ID] = sub
+                # Add a key for this verb_class that is JUST the numerical part of the string, as well
+                self.verb_subclasses_dict[sub.ID.split("-")[1]] = sub
+                # Dict of both
+                self.verb_classes_and_subclasses_dict = self.verb_classes_dict.copy()
+                self.verb_classes_and_subclasses_dict.update(self.verb_subclasses_dict)
 
     def parse_files(self):
         """Parse a list of XML files using BeautifulSoup. Returns list of parsed
@@ -57,89 +63,59 @@ class VerbNetParser(object):
             parsed_files.append(soup(open(fname), "lxml-xml"))
         return parsed_files
 
-    def get_verb_class(self, class_ID):
+    def get_verb_class(self, class_ID, subclasses=True):
         """Return a VerbClass instance where self.classname is classname, return
-        None if there is no such class."""
-        return self.verb_classes_dict.get(class_ID)
+        None if there is no such class.
 
-    def get_verb_classes(self):
-        """Return a list of all classes."""
-        return self.verb_classes_dict.values()
+        class_ID can be the full id or just the numerical
+        portion as a string"""
+        if subclasses:
+            return self.verb_classes_dict.get(class_ID)
+        else:
+            return self.verb_classes_dict.get(class_ID)
 
-    def get_verb_classes_and_subclasses(self):
-        vn_classes = self.get_verb_classes()
-        sub_classes = []
+    def get_verb_classes(self, class_list=[], subclasses=True):
+        """Return a list of all classes, which can be scoped by a list of class_ID's,
+        each of which can optionally be just the numerical ID.
+        look through subclasses too depending on the flag"""
+        if class_list:
+            return [self.get_verb_class(c, subclasses=subclasses) for c in class_list]
+        else:
+            return self.verb_classes_and_subclasses_dict.values() if subclasses else self.verb_classes_dict.values()
 
-        # Recursively traverse list of trees by using (abusing?) the python yield function
-        def get_subclasses_gen(vnc):
+    def get_all_verb_cLass_ids(self, subclasses=True):
+        """A list of all of the id's for every VerbClass in the parser
+        Can optionally include subclasses"""
+        if subclasses:
+            return list(self.verb_classes_and_subclasses_dict.keys())
+        else:
+            return list(self.verb_classes_dict.keys())
 
-            for sub in vnc.subclasses:
-                if sub.subclasses:
-                    # Yield the subclass before iterating over its children
-                    yield sub
-                    for x in get_subclasses_gen(sub):
-                        yield x
-                else:
-                    # termination case for a branch, use yield so function continues to iterate
-                    yield sub
-
-        # Run the function over each vn_class to recursively get ALL subclasses
-        for vn_class in vn_classes:
-            sub_classes += [s for s in get_subclasses_gen(vn_class)]
-
-        return list(vn_classes) + sub_classes
-
-    def get_verb_class_by_numerical_id(self, numerical_ID):
-        """Return a list of all classes."""
-        return self.verb_classes_numerical_dict.get(numerical_ID)
-
-    def get_all_verb_cLass_ids(self):
-        return [c.ID for c in self.get_verb_classes()]
-
-    def get_all_members(self):
+    def get_members(self, class_list=[], subclasses=True):
+        """Return a list of members from all VerbNet classes
+           optionally scoped by a list of classes, and with addition
+           a subclass flag to also look in all subclasses"""
         members = []
 
-        for vc in self.get_verb_classes():
+        for vc in self.get_verb_classes(class_list=class_list, subclasses=subclasses):
             members += vc.members
 
         return members
 
-    def get_members_by_classes(self, class_list=[]):
-        members = []
-
-        for vc in class_list:
-            members += vc.members
-
-        return members
-
-    def get_all_themroles(self):
+    def get_themroles(self, class_list=[], subclasses=True):
+        """Just like get_members, but for themroles"""
         themroles = []
 
-        for vc in self.get_verb_classes():
+        for vc in self.get_verb_classes(class_list=class_list, subclasses=subclasses):
             themroles += vc.themroles
 
         return themroles
 
-    def get_themroles_by_classes(self, class_list=[]):
-        themroles = []
-
-        for vc in class_list:
-            themroles += vc.themroles
-
-        return themroles
-
-    def get_all_frames(self):
+    def get_frames(self, class_list=[], subclasses=True):
+        """Just like get_members, but for frames"""
         frames = []
 
-        for vc in self.get_verb_classes():
-            frames += vc.frames
-
-        return frames
-
-    def get_frames_by_classes(self, class_list=[]):
-        frames = []
-
-        for vc in class_list:
+        for vc in self.get_verb_classes(class_list=class_list, subclasses=subclasses):
             frames += vc.frames
 
         return frames
@@ -186,30 +162,19 @@ class AbstractXML(object):
 
         return updates
 
-    def class_id(self):
-        '''
-            Recursively find the closest parent node (n nodes up)
-            that is a VNCLASS in order to get its ID
-
-            This is to get the parent of all subclasses, etc, in the file.
-        '''
-        def get_class_id(soup):
-            if soup.name == "VNCLASS":
-                return soup['ID']
-            else:
-                return get_class_id(soup.parent)
-
-        return get_class_id(self.soup)
-
-    #TODO apply this method as oppossed to class_id() where necessary in the API
-    def class_or_subclass_id(self):
+    def class_id(self, subclasses=True):
         '''
           Recursively find the closest parent node (n nodes up)
-          that is a VNCLASS or VNSUBCLASS in order to get its ID
+          that is a VNCLASS or VNSUBCLASS (if subclasses flag set to True)
+          in order to get its ID
         '''
+        if subclasses:
+            id_nodes = ["VNCLASS", "VNSUBCLASS"]
+        else:
+            id_nodes = ["VNCLASS"]
 
         def get_class_id(soup):
-            if soup.name == "VNCLASS" or soup.name == "VNSUBCLASS":
+            if soup.name in id_nodes:
                 return soup['ID']
             else:
                 return get_class_id(soup.parent)
@@ -308,6 +273,21 @@ class VerbClass(AbstractXML):
             return []
         return [VerbClass(sub_soup, self.version) for sub_soup in \
                 self.soup.SUBCLASSES.find_all("VNSUBCLASS", recursive=False)]
+
+    def get_all_subclasses(self):
+        def get_subclasses_gen(vc):
+            for sub in vc.subclasses:
+                if sub.subclasses:
+                    # Yield the subclass before iterating over its children
+                    yield sub
+                    for x in get_subclasses_gen(sub):
+                        yield x
+                else:
+                    # termination case for a branch, use yield so function continues to iterate
+                    yield sub
+
+
+        return [s for s in get_subclasses_gen(self)]
 
 
 class Member(AbstractXML):
@@ -429,8 +409,6 @@ class ThematicRole(AbstractXML):
     def compare_selres_with(self, other_themrole):
         sel_restrictions = self.sel_restrictions
         other_sel_restrictions = other_themrole.sel_restrictions
-        print(sel_restrictions)
-        print(other_sel_restrictions)
 
         if len(sel_restrictions) in [2, 0] and len(other_sel_restrictions)in [2, 0]:
             '''

@@ -209,11 +209,11 @@ to_vn = VerbNetParser(version="3.3")
 
 #print(compare_syntax(from_vn.get_verb_class("hold-15.1").frames[0].syntax, to_vn.get_verb_class("hurt-40.8.3").subclasses[0].frames[0].syntax))
 
-#from_vn_members = from_vn.get_all_members()
-#to_vn_members = to_vn.get_all_members()
+#from_vn_members = from_vn.get_members()
+#to_vn_members = to_vn.get_members()
 
-from_vn_themroles = from_vn.get_all_themroles()
-to_vn_themroles = to_vn.get_all_themroles()
+from_vn_themroles = from_vn.get_themroles()
+to_vn_themroles = to_vn.get_themroles()
 
 x = compare_themroles(from_vn_themroles, to_vn_themroles)
 
