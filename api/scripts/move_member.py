@@ -2,7 +2,7 @@ import sys
 local_verbnet_api_path = "/Users/ajwieme/verbs-projects/VerbNet/verbnet/api"
 sys.path.append(local_verbnet_api_path)
 
-from verbnetparser import *
+from verbnet import *
 import search
 import argparse
 
