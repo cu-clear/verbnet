@@ -3,7 +3,7 @@
 Module with search functions for Verbnet classes.
 
 """
-from verbnetparser import *
+from verbnet import *
 
 def search_by_predicate(verbclasslist, pred_type):
     """Returns verbclasses that exactly match the predicate."""
