@@ -4,7 +4,6 @@ VN Version that produces updates is dependent on what config.txt is pointed to
 INPUTS: annotation_file.ann member_name, new_vn_version (i.e the version that you want to find the annotation in)
 OUTPUTS: updated_annotation_file_with_version_specific_updates, log_file
 '''
-#TODO update search to also look in subclasses
 # There may be an issue where presence of subclasses appears as duplicate classes?
 import sys
 import os
@@ -31,7 +30,7 @@ class Log(object):
 
 def find_in_old_versions(ann, old_vns):
   for old_vn in old_vns:
-    all_old_members = old_vn.get_all_members()
+    all_old_members = old_vn.get_members()
 
     if ann.exists_in(old_vn):
       return search.find_members(all_old_members, class_ID=ann.class_ID, name=ann.verb.split())
@@ -40,12 +39,12 @@ def find_in_old_versions(ann, old_vns):
 
 def update_annotation_line(ann_line, new_vn, old_vns, log):
   ann = Annotation(ann_line)
-
+  stats[2] += 1
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
   if not ann.exists_in(new_vn):
     possible_old_vn_members = find_in_old_versions(ann, old_vns)
 
-    all_new_members = new_vn.get_all_members()
+    all_new_members = new_vn.get_members()
     updated_vn_members = []
     for vn_member in possible_old_vn_members:
       # search these members for the lookup member by name and wordnet mapping
@@ -62,6 +61,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
 
     if len(updated_vn_members) == 1: # The verb maps to new version in a new class
       log.write("SUCCESS: Found %s from %s in %s in VerbNet version %s" % (ann.verb, ann.class_ID, updated_vn_members[0].class_id(), updated_vn_members[0].version))
+      stats[1] += 1
       ann.update_vn_info(updated_vn_members[0])
     elif len(updated_vn_members) > 1: # Otherwise there is ambiguity
       log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.class_ID, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version))
@@ -71,6 +71,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
       return None
   else:
     log.write("SUCCESS: %s is still a reference to %s in %s in VerbNet version %s" % (ann.verb, ann.verb, ann.class_ID, new_vn.version))
+    stats[0] += 1
 
   return str(ann)
 
@@ -87,6 +88,9 @@ def generate_updated_annotations(fn, lines, new_vn, old_vns):
 if __name__ == '__main__':
   global logs_dir
   global new_anns_dir
+  global stats
+
+  stats = (0, 0, 0) #(num_no_change, num_successful_change, total)
 
   # DEFINE ARGS
   parser = argparse.ArgumentParser()
@@ -120,7 +124,6 @@ if __name__ == '__main__':
   from annotation import *
 
   new_vn = VerbNetParser(version=new_vn_version)
-  new_vn.parse_files()
 
   # Make sure the these dirs exist, or create them
   os.makedirs(logs_dir, exist_ok=True)
@@ -135,3 +138,6 @@ if __name__ == '__main__':
   for fn in ann_fns:
     lines = [line.strip() for line in codecs.open(fn, "r", encoding="utf-8")]
     generate_updated_annotations(fn, lines, new_vn, old_vns)
+
+  print_stats = ((float(stats[0]) / float(stats[2])) * 100, (float(stats[1]) / float(stats[2])) * 100, ((float(stats[0])  + float(stats[1])) / float(stats[2])) * 100)
+  print("%2f%% of annotations unchanged, %2f%% successfully updated, %2f%% too ambiguous to update" % print_stats)

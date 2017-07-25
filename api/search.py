@@ -265,15 +265,15 @@ def reverse_image_search(frame, scheme, obligatory_theme=True, theme_only=False)
         return (pp or sr)
 
 def find_members(members=None, class_ID=None, name=None, wn=None, grouping=None, features=None):
-    '''
-        Use this to find a member given certain parameters
-        each parameter should be passed in in the form of a list,
-        as that is what the get_category method in verbnetparser returns
-        ***Note, if you have already instantiated a verbnetparser object, it
-        is more efficient to pass the members in via .get_all_members()
-        so as to not parse all the files a second time here.***
-    '''
-    members = members if members else get_verbnet_parser().get_all_members()
+    """
+    Use this to find a member given certain parameters
+    each parameter should be passed in in the form of a list,
+    as that is what the get_category method in verbnetparser returns
+    ***Note, if you have already instantiated a verbnetparser object, it
+    is more efficient to pass the members in via .get_members()
+    so as to not parse all the files a second time here.***
+    """
+    members = members if members else get_verbnet_parser().get_members()
     member_lists = [[], [], [], [], []]
     for member in members:
         if class_ID:
@@ -296,10 +296,10 @@ def find_members(members=None, class_ID=None, name=None, wn=None, grouping=None,
             if member.features == features:
                 member_lists[4].append(member)
 
-    '''
-        If a parameter was defined and there are no matches,
-        make sure to return an empty list
-    '''
+    """
+    If a parameter was defined and there are no matches,
+    make sure to return an empty list
+    """
     if class_ID and len(member_lists[0]) == 0:
         return []
     if name and len(member_lists[1]) == 0:
@@ -323,7 +323,7 @@ def find_members(members=None, class_ID=None, name=None, wn=None, grouping=None,
         return []
 
 def find_themroles(themroles=[], class_ID=None, role_type=None, sel_restrictions=None):
-    themroles = themroles if themroles else get_verbnet_parser().get_all_themroles()
+    themroles = themroles if themroles else get_verbnet_parser().get_themroles()
     themrole_lists = [[], [], []]
     for themrole in themroles:
         if class_ID:
@@ -336,10 +336,10 @@ def find_themroles(themroles=[], class_ID=None, role_type=None, sel_restrictions
             if themrole.sel_restrictions == sel_restrictions:
                 themrole_lists[2].append(themrole)
 
-    '''
+    """
     If a parameter was defined and there are no matches,
     make sure to return an empty list
-    '''
+    """
     if class_ID and len(themrole_lists[0]) == 0:
         return []
     if role_type and len(themrole_lists[1]) == 0:
