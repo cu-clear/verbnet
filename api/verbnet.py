@@ -28,13 +28,17 @@ class VerbNetParser(object):
     """Parse VerbNet XML files, and turn them into a list of BeautifulSoup 
     objects"""
     
-    def __init__(self, max_count=None, directory=None, file_list=None, version="3.3"):
+    def __init__(self, max_count=None, directory=None, file_list=None, version=None):
         """Take all verbnet files, if max_count is used then take the first max_count
         files, if file_list is used, read the filenames from the file."""
         if directory:
             VERBNET_PATH = directory
         elif version:
             VERBNET_PATH = get_verbnet_directory(version)
+        else:
+            # If no files or version provided, look for the most up-to-date version
+            # (currently 3.3, pointed to in config.txt)
+            VERBNET_PATH = get_verbnet_directory("3.3")
 
         fnames = [f for f in os.listdir(VERBNET_PATH) if f.endswith(".xml")]
         self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
