@@ -90,7 +90,7 @@ if __name__ == '__main__':
   global new_anns_dir
   global stats
 
-  stats = (0, 0, 0) #(num_no_change, num_successful_change, total)
+  stats = [0, 0, 0] #[num_no_change, num_successful_change, total]
 
   # DEFINE ARGS
   parser = argparse.ArgumentParser()
@@ -113,7 +113,7 @@ if __name__ == '__main__':
   else:
     new_anns_dir = "./new_anns_%s" % new_vn_version
 
-  # FOR SETTING PATH TO VERBNETPARSER
+  # FOR SETTING PATH TO VERBNET API
   if args.get("execute") == "local":
     sys.path.append(local_verbnet_api_path)
   else:

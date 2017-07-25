@@ -3,7 +3,7 @@ import sys
 local_verbnet_api_path = "../"
 
 sys.path.append(local_verbnet_api_path)
-from verbnetparser import *
+from verbnet import *
 import search
 import itertools
 
