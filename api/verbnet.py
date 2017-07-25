@@ -28,7 +28,7 @@ class VerbNetParser(object):
     """Parse VerbNet XML files, and turn them into a list of BeautifulSoup 
     objects"""
     
-    def __init__(self, max_count=None, directory=None, file_list=None, version=None):
+    def __init__(self, max_count=None, directory=None, file_list=None, version="3.3"):
         """Take all verbnet files, if max_count is used then take the first max_count
         files, if file_list is used, read the filenames from the file."""
         if directory:
@@ -90,7 +90,7 @@ class VerbNetParser(object):
         if class_list:
             return [self.get_verb_class(c, subclasses=subclasses) for c in class_list]
         else:
-            return self.verb_classes_and_subclasses_dict.values() if subclasses else self.verb_classes_dict.values()
+            return list(self.verb_classes_and_subclasses_dict.values()) if subclasses else list(self.verb_classes_dict.values())
 
     def get_all_verb_cLass_ids(self, subclasses=True):
         """A list of all of the id's for every VerbClass in the parser
