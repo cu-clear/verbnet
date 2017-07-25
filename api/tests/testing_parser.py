@@ -18,10 +18,6 @@ vnc_list = vn.get_verb_classes_and_subclasses()
 #print(vnc.themroles[0].compare_selres_with(vn.get_verb_class("remove-10.1").themroles[0]))
 #vn_3_2.parse_files()
 
-#vnclasses = vn.get_verb_classes_and_subclasses()
-
-#print(vnc.frames[0].predicates[0].argtypes)
-
 def test_frame_contains(containing_frame, contained_frame, preds_list):
   '''
     Test if containing_frame contains contained_frame,
