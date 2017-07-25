@@ -28,32 +28,41 @@ class VerbNetParser(object):
     """Parse VerbNet XML files, and turn them into a list of BeautifulSoup 
     objects"""
     
-    def __init__(self, max_count=None, file_list=None, version="3.3"):
+    def __init__(self, max_count=None, directory=None, file_list=None, version=None):
         """Take all verbnet files, if max_count is used then take the first max_count
         files, if file_list is used, read the filenames from the file."""
-        VERBNET_PATH = get_verbnet_directory(version)
+        if directory:
+            VERBNET_PATH = directory
+        elif version:
+            VERBNET_PATH = get_verbnet_directory(version)
+
         fnames = [f for f in os.listdir(VERBNET_PATH) if f.endswith(".xml")]
+        self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
+
         if max_count is not None:
             fnames = fnames[:max_count]
         if file_list is not None:
             fnames = ["%s.xml" % f for f in open(file_list).read().split()]
+
         self.version = version
-        self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
         self.parsed_files = self.parse_files()
         self.verb_classes_dict = {}
-        self.verb_subclasses_dict = {}
+        self.verb_classes_and_subclasses_dict = {}
+
+        ## shouldn't need intermediary dict for subclasses only
         for parse in self.parsed_files:
             vc = VerbClass(parse.VNCLASS, version)
             self.verb_classes_dict[vc.ID] = vc
             # Add a key for this verb_class that is JUST the numerical part of the string, as well
             self.verb_classes_dict[vc.ID.split("-")[1]] = vc
             for sub in vc.get_all_subclasses():
-                self.verb_subclasses_dict[sub.ID] = sub
+                self.verb_classes_and_subclasses_dict[sub.ID] = sub
                 # Add a key for this verb_class that is JUST the numerical part of the string, as well
-                self.verb_subclasses_dict[sub.ID.split("-")[1]] = sub
-                # Dict of both
-                self.verb_classes_and_subclasses_dict = self.verb_classes_dict.copy()
-                self.verb_classes_and_subclasses_dict.update(self.verb_subclasses_dict)
+                ## !! for subclasses JOIN is required - calling it on the [1] element removes the subclass portion of the string
+                self.verb_classes_and_subclasses_dict["-".join(sub.ID.split("-")[1:])] = sub
+
+        ## calling this outside the loop - update is fast enough but there's no need to call it each time
+        self.verb_classes_and_subclasses_dict.update(self.verb_classes_dict)
 
     def parse_files(self):
         """Parse a list of XML files using BeautifulSoup. Returns list of parsed
@@ -70,7 +79,7 @@ class VerbNetParser(object):
         class_ID can be the full id or just the numerical
         portion as a string"""
         if subclasses:
-            return self.verb_classes_dict.get(class_ID)
+            return self.verb_classes_and_subclasses_dict.get(class_ID)
         else:
             return self.verb_classes_dict.get(class_ID)
 

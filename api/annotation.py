@@ -76,9 +76,8 @@ class SemLinkAnnotation(Annotation):
     self.on_group = attr_list[8]
     self.dependencies = attr_list[10:]
 
-
   def __eq__(self, other):
-    if self.sentence_no == other.sentence_no and self.token_no == other.token_no and self.verb == other.verb:
+    if self.source_file == other.source_file and self.sentence_no == other.sentence_no and self.token_no == other.token_no and self.verb == other.verb:
       return True
     else:
       return False
@@ -87,4 +86,4 @@ class SemLinkAnnotation(Annotation):
     return hash(self.__str__())
 
   def __str__(self):
-    return self.source_file + " " + self.sentence_no + " " + self.token_no + " " + self.verb + " " + self.vn_class + " " + self.fn_frame + " " + self.pb_frame + " " + self.on_group + " " +  " ".join(self.dependecies)
+    return self.source_file + " " + self.sentence_no + " " + self.token_no + " " + self.verb + " " + self.vn_class + " " + self.fn_frame + " " + self.pb_frame + " " + self.on_group + " " +  " ".join(self.dependencies)
