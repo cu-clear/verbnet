@@ -1,4 +1,5 @@
-"""verbnetparser.py
+"""
+verbnetparser.py
 
 This program takes in VerbNet XML files and creates several classes for easy
 manipulation of the data, for eventual inclusion of GL features to individual
@@ -26,8 +27,10 @@ def get_verbnet_directory(version):
 
 
 class VerbNetParser(object):
-    """Parse VerbNet XML files, and turn them into a list of BeautifulSoup 
-    objects"""
+    """
+    Parse VerbNet XML files, and turn them into a list of BeautifulSoup
+    objects
+    """
     
     def __init__(self, max_count=None, file_list=None, version="3.3"):
         """Take all verbnet files, if max_count is used then take the first max_count
@@ -63,7 +66,7 @@ class VerbNetParser(object):
         None if there is no such class."""
         return self.verb_classes_dict.get(class_ID)
 
-    def get_verb_classes(self):
+    def get_verb_classes(self, and_subclasses=False):
         """Return a list of all classes."""
         return self.verb_classes_dict.values()
 
