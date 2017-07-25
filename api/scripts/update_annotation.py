@@ -38,7 +38,7 @@ def find_in_old_versions(ann, old_vns):
       return search.find_members(all_old_members, name=ann.verb.split())
 
 def update_annotation_line(ann_line, new_vn, old_vns, log):
-  ann = Annotation(ann_line)
+  ann = VnAnnotation(ann_line)
   stats[2] += 1
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
   if not ann.exists_in(new_vn):
@@ -119,7 +119,7 @@ if __name__ == '__main__':
   else:
     sys.path.append("/usr/local/verbnet")
 
-  from verbnetparser import *
+  from verbnet import *
   import search
   from annotation import *
 
