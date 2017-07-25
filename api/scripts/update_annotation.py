@@ -90,7 +90,7 @@ if __name__ == '__main__':
   global new_anns_dir
   global stats
 
-  stats = [0, 0, 0 #[num_no_change, num_successful_change, total]
+  stats = [0, 0, 0] #[num_no_change, num_successful_change, total]
 
   # DEFINE ARGS
   parser = argparse.ArgumentParser()
