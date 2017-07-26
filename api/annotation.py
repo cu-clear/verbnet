@@ -1,4 +1,9 @@
+possible_frames = {}
+
 class Annotation(object):
+  def __hash__(self):
+    return hash(self.__str__())
+
   #Verify that this instance has a vn class, and the class/member pair is valid for a certain VN version
   def check_vn(self, vn):
     try:
@@ -11,11 +16,27 @@ class Annotation(object):
     else:
       return False
 
+  #Verify that instance hsa fn frame, the frame is valid, and the member is in the frame
   def check_fn(self, fn):
+    try:
+      self.fn_frame
+    except:
+      return False
 
-    return False
+    #only build possible_frames once if we can
+    global possible_frames
+    if not possible_frames:
+      for lu in fn.lus():
+        if lu.frame.name not in possible_frames:
+          possible_frames[lu.frame.name] = [lu.lexemes[0].name]
+        else:
+          possible_frames[lu.frame.name].append(lu.lexemes[0].name)
 
+    if self.fn_frame not in possible_frames.keys() or self.verb not in possible_frames[self.fn_frame]:
+        return False
+    return True
 
+  #PB and ON checking will probably require PB/ON apis that we can work with.
   def check_pb(self, pb):
 
     return False
@@ -54,9 +75,6 @@ class VnAnnotation(Annotation):
     else:
       return False
 
-  def __hash__(self):
-    return hash(self.__str__())
-
   def __str__(self):
     return self.source_file + " " + self.sentence_no + " " + self.token_no + " " + self.verb + " " + self.vn_class + " " + " ".join(
       self.dep)
@@ -81,9 +99,6 @@ class SemLinkAnnotation(Annotation):
       return True
     else:
       return False
-
-  def __hash__(self):
-    return hash(self.__str__())
 
   def __str__(self):
     return self.source_file + " " + self.sentence_no + " " + self.token_no + " " + self.verb + " " + self.vn_class + " " + self.fn_frame + " " + self.pb_frame + " " + self.on_group + " " +  " ".join(self.dependencies)
