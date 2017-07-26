@@ -3,15 +3,17 @@ local_verbnet_api_path = "/Users/ajwieme/verbs-projects/VerbNet/verbnet/api"
 
 sys.path.append(local_verbnet_api_path)
 
-from verbnetparser import *
-import search
+from verbnet import *
+#import search
 
 # Looks for config.txt for dir to VN XML
 # Then instantiates parser with the files in that dir
 vn = VerbNetParser()
 #vn_3_2 = VerbNetParser(version="3.2")
 
-vnc_list = vn.get_verb_classes_and_subclasses()
+vnc_list = vn.get_verb_classes()
+
+print(vnc_list[0].members[0].soup)
 
 #print(vnc.members[0].soup)
 

@@ -35,6 +35,10 @@ class VerbNetParser(object):
             VERBNET_PATH = directory
         elif version:
             VERBNET_PATH = get_verbnet_directory(version)
+        else:
+            # If no files or version provided, look for the most up-to-date version
+            # (currently 3.3, pointed to in config.txt)
+            VERBNET_PATH = get_verbnet_directory("3.3")
 
         fnames = [f for f in os.listdir(VERBNET_PATH) if f.endswith(".xml")]
         self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
@@ -90,7 +94,7 @@ class VerbNetParser(object):
         if class_list:
             return [self.get_verb_class(c, subclasses=subclasses) for c in class_list]
         else:
-            return self.verb_classes_and_subclasses_dict.values() if subclasses else self.verb_classes_dict.values()
+            return list(self.verb_classes_and_subclasses_dict.values()) if subclasses else list(self.verb_classes_dict.values())
 
     def get_all_verb_cLass_ids(self, subclasses=True):
         """A list of all of the id's for every VerbClass in the parser
