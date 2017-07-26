@@ -80,39 +80,31 @@ class VerbNetParser(object):
         else:
             return list(self.verb_classes_dict.values())
 
-    def get_all_verb_cLass_ids(self, subclasses=True):
-        """A list of all of the id's for every VerbClass in the parser
-        Can optionally include subclasses"""
-        if subclasses:
-            return list(self.verb_classes_and_subclasses_dict.keys())
-        else:
-            return list(self.verb_classes_dict.keys())
-
-    def get_members(self, class_list=[], subclasses=True):
+    def get_members(self, class_list=[]):
         """Return a list of members from all VerbNet classes
            optionally scoped by a list of classes, and with addition
            a subclass flag to also look in all subclasses"""
         members = []
 
-        for vc in self.get_verb_classes(class_list=class_list, subclasses=subclasses):
+        for vc in self.get_verb_classes(class_list=class_list):
             members += vc.members
 
         return members
 
-    def get_themroles(self, class_list=[], subclasses=True):
+    def get_themroles(self, class_list=[]):
         """Just like get_members, but for themroles"""
         themroles = []
 
-        for vc in self.get_verb_classes(class_list=class_list, subclasses=subclasses):
+        for vc in self.get_verb_classes(class_list=class_list):
             themroles += vc.themroles
 
         return themroles
 
-    def get_frames(self, class_list=[], subclasses=True):
+    def get_frames(self, class_list=[]):
         """Just like get_members, but for frames"""
         frames = []
 
-        for vc in self.get_verb_classes(class_list=class_list, subclasses=subclasses):
+        for vc in self.get_verb_classes(class_list=class_list):
             frames += vc.frames
 
         return frames
