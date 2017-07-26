@@ -55,12 +55,8 @@ class VerbNetParser(object):
         for parse in self.parsed_files:
             vc = VerbClass(parse.VNCLASS, version)
             self.verb_classes_dict[vc.ID] = vc
-            # Add a key for this verb_class that is JUST the numerical part of the string, as well
-            self.verb_classes_dict[vc.ID.split("-")[1]] = vc
             for sub in vc.get_all_subclasses():
                 self.verb_classes_dict[sub.ID] = sub
-                self.verb_classes_dict["-".join(sub.ID.split("-")[1:])] = sub
-
 
     def parse_files(self):
         """Parse a list of XML files using BeautifulSoup. Returns list of parsed
