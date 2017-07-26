@@ -51,22 +51,16 @@ class VerbNetParser(object):
         self.version = version
         self.parsed_files = self.parse_files()
         self.verb_classes_dict = {}
-        self.verb_classes_and_subclasses_dict = {}
 
-        ## shouldn't need intermediary dict for subclasses only
         for parse in self.parsed_files:
             vc = VerbClass(parse.VNCLASS, version)
             self.verb_classes_dict[vc.ID] = vc
             # Add a key for this verb_class that is JUST the numerical part of the string, as well
             self.verb_classes_dict[vc.ID.split("-")[1]] = vc
             for sub in vc.get_all_subclasses():
-                self.verb_classes_and_subclasses_dict[sub.ID] = sub
-                # Add a key for this verb_class that is JUST the numerical part of the string, as well
-                ## !! for subclasses JOIN is required - calling it on the [1] element removes the subclass portion of the string
-                self.verb_classes_and_subclasses_dict["-".join(sub.ID.split("-")[1:])] = sub
+                self.verb_classes_dict[sub.ID] = sub
+                self.verb_classes_dict["-".join(sub.ID.split("-")[1:])] = sub
 
-        ## calling this outside the loop - update is fast enough but there's no need to call it each time
-        self.verb_classes_and_subclasses_dict.update(self.verb_classes_dict)
 
     def parse_files(self):
         """Parse a list of XML files using BeautifulSoup. Returns list of parsed
@@ -76,25 +70,15 @@ class VerbNetParser(object):
             parsed_files.append(soup(open(fname), "lxml-xml"))
         return parsed_files
 
-    def get_verb_class(self, class_ID, subclasses=True):
-        """Return a VerbClass instance where self.classname is classname, return
-        None if there is no such class.
 
-        class_ID can be the full id or just the numerical
-        portion as a string"""
-        if subclasses:
-            return self.verb_classes_and_subclasses_dict.get(class_ID)
-        else:
-            return self.verb_classes_dict.get(class_ID)
-
-    def get_verb_classes(self, class_list=[], subclasses=True):
+    def get_verb_classes(self, class_list=[]):
         """Return a list of all classes, which can be scoped by a list of class_ID's,
         each of which can optionally be just the numerical ID.
         look through subclasses too depending on the flag"""
         if class_list:
-            return [self.get_verb_class(c, subclasses=subclasses) for c in class_list]
+            return [self.verb_classes_dict[c] for c in class_list]
         else:
-            return list(self.verb_classes_and_subclasses_dict.values()) if subclasses else list(self.verb_classes_dict.values())
+            return list(self.verb_classes_dict.values())
 
     def get_all_verb_cLass_ids(self, subclasses=True):
         """A list of all of the id's for every VerbClass in the parser
@@ -213,7 +197,7 @@ class VerbClass(AbstractXML):
             print(self.get_category("ID", self.soup), self.soup)
             self.ID = self.get_category("ID", self.soup.VNSUBCLASS)[0]
         self.version = version
-        self.numerical_ID = self.ID.split("-")[1]
+        self.numerical_ID = "-".join(self.ID.split("-")[1:])
         self.members = self.members()
         self.frames = self.frames()
         self.names = [mem.get_category('name')[0] for mem in self.members]
@@ -276,8 +260,7 @@ class VerbClass(AbstractXML):
     def themroles(self):
         """Get all the thematic roles for a verb class ans their selectional 
         restrictions."""
-        return [ThematicRole(them_soup, self.version) for them_soup in
-                self.soup.THEMROLES.find_all("THEMROLE")]
+        return [ThematicRole(them_soup, self.version) for them_soup in self.soup.THEMROLES.find_all("THEMROLE")]
     
     def subclass(self):
         """Get every subclass listed, if any"""
@@ -310,13 +293,13 @@ class Member(AbstractXML):
     def __init__(self, soup, version="3.3"):
         self.soup = soup
         self.version = version
-        self.name = self.get_category('name')
+        self.name = self.get_category('name')[0]
         self.wn = self.get_category('wn')
         self.grouping = self.get_category('grouping')
         self.features = self.get_category('features')
         
     def __repr__(self):
-        return str(self.name + self.wn + self.grouping)
+        return str(self.name + str(self.wn) + str(self.grouping))
 
 
 class Frame(AbstractXML):
@@ -344,6 +327,12 @@ class Frame(AbstractXML):
                "\nExamples: " + str(self.examples) + \
                "\nSyntax: " + str(self.syntax) + \
                "\nPredicates: " + str(self.predicates) + "\n"
+
+    def pp_syntax(self):
+        return " ".join(self.primary)
+
+    def pp_semantics(self):
+        return str(self.predicates)
 
     def get_syntax(self):
         raw_roles = [SyntacticRole(role, self.version) for role in self.soup.SYNTAX.children]
@@ -464,7 +453,7 @@ class ThematicRole(AbstractXML):
         return False if self.compare_selres_with(other_themrole) else True
         
     def __repr__(self):
-        return "\n\t" + str(self.role_type) + " / " + str(self.sel_restrictions)
+        return str(self.role_type) + " : " + str(self.sel_restrictions)
         
 
 class Predicate(AbstractXML):
