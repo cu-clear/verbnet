@@ -203,7 +203,7 @@ class VerbClass(AbstractXML):
 
     #TODO Adam: add and remove are implemented to just work with the soup,
     #TODO it may be cleaner to write the API so that the object can be updated directly
-    #TODO and the soup be updated form the object
+    #TODO and the soup be updated from the object
     def remove_member(self, input_member):
         '''
             Remove the member object with a given name, or that matches a given member object
