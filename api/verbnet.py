@@ -68,8 +68,7 @@ class VerbNetParser(object):
 
 
     def get_verb_classes(self, class_list=[]):
-        """Return a list of all classes, which can be scoped by a list of class_ID's,
-        each of which can optionally be just the numerical ID.
+        """Return a list of all classes, which can be scoped by a list of class_ID's.
         look through subclasses too depending on the flag"""
         if class_list:
             return [self.verb_classes_dict[c] for c in class_list]
@@ -78,8 +77,7 @@ class VerbNetParser(object):
 
     def get_members(self, class_list=[]):
         """Return a list of members from all VerbNet classes
-           optionally scoped by a list of classes, and with addition
-           a subclass flag to also look in all subclasses"""
+           optionally scoped by a list of class_ID's"""
         members = []
 
         for vc in self.get_verb_classes(class_list=class_list):
