@@ -38,6 +38,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
     ann = SemLinkAnnotation(ann_line)
   else:
     ann = VnAnnotation(ann_line)
+
   stats[2] += 1
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
   if not ann.exists_in(new_vn):
@@ -66,7 +67,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
       log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.vn_class, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version))
       return None
     else: # Otherwise this verb no longer exists in VN
-      log.write("ERROR: %s from %s in and old version of VerbNet no longer exists" % (ann.verb, ann.vn_class))
+      log.write("ERROR: %s from %s in and old version of VerbNet no longer exists in version %s" % (ann.verb, ann.vn_class, new_vn.version))
       return None
   else:
     log.write("SUCCESS: %s is still a reference to %s in %s in VerbNet version %s" % (ann.verb, ann.verb, ann.vn_class, new_vn.version))
@@ -133,4 +134,4 @@ if __name__ == '__main__':
     generate_updated_annotations(fn, lines, new_vn, old_vns)
 
   print_stats = ((float(stats[0]) / float(stats[2])) * 100, (float(stats[1]) / float(stats[2])) * 100, ((float(stats[0])  + float(stats[1])) / float(stats[2])) * 100)
-  print("%2f%% of annotations unchanged, %2f%% successfully updated, %2f%% too ambiguous to update" % print_stats)
+  print("%.2f%% of annotations unchanged, %.2f%% successfully updated, %.2f%% too ambiguous to update" % print_stats)

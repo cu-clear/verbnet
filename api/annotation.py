@@ -5,6 +5,7 @@ class Annotation(object):
     return hash(self.__str__())
 
   #Verify that this instance has a vn class, and the class/member pair is valid for a certain VN version
+  #Verify that this instance has a vn class, and the class/member pair is valid for a certain VN version
   def check_vn(self, vn):
     try:
       self.vn_class
@@ -60,7 +61,9 @@ class Annotation(object):
   # Check if the ref in the annotation exists in the given version of VN
   def exists_in(self, vn):
     if self.vn_class and vn.verb_classes_dict.get(self.vn_class):
-      return self.verb.split() in [member.name for member in vn.get_verb_class(self.vn_class).members]
+      return self.verb in [member.name for member in vn.get_verb_class(self.vn_class).members]
+    elif self.vn_class and vn.verb_classes_numerical_dict.get(self.vn_class):
+      return self.verb in [member.name for member in vn.verb_classes_numerical_dict.get(self.vn_class).members]
     else:
       return False
 
@@ -91,15 +94,15 @@ class SemLinkAnnotation(Annotation):
     self.input_line = line.strip()
     attr_list = line.split()
 
-    self.source_file = attr_list[0]
-    self.sentence_no = attr_list[1]
-    self.token_no = attr_list[2]
-    self.verb = attr_list[4][:-2]
-    self.vn_class = attr_list[5]
-    self.fn_frame = attr_list[6]
-    self.pb_frame = attr_list[7]
-    self.on_group = attr_list[8]
-    self.dependencies = attr_list[10:]
+    self.source_file = attr_list[0] if len(attr_list) > 1 else None
+    self.sentence_no = attr_list[1] if len(attr_list) > 2 else None
+    self.token_no = attr_list[2] if len(attr_list) > 3 else None
+    self.verb = attr_list[4][:-2] if len(attr_list) > 5 else None
+    self.vn_class = attr_list[5] if len(attr_list) > 6 else None
+    self.fn_frame = attr_list[6] if len(attr_list) > 7 else None
+    self.pb_frame = attr_list[7] if len(attr_list) > 8 else None
+    self.on_group = attr_list[8] if len(attr_list) > 9 else None
+    self.dependencies = attr_list[10:] if len(attr_list) > 11 else None
 
   def __eq__(self, other):
     if self.source_file == other.source_file and self.sentence_no == other.sentence_no and self.token_no == other.token_no and self.verb == other.verb:
