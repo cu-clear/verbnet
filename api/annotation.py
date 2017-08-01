@@ -57,6 +57,13 @@ class Annotation(object):
     self.verb = vn_member.name[0]
     self.vn_class = vn_member.vn_class()
 
+  # Check if the ref in the annotation exists in the given version of VN
+  def exists_in(self, vn):
+    if self.vn_class and vn.verb_classes_dict.get(self.vn_class):
+      return self.verb.split() in [member.name for member in vn.get_verb_class(self.vn_class).members]
+    else:
+      return False
+
 class VnAnnotation(Annotation):
   def __init__(self, line, dep=[]):
     self.input_line = line.strip()
@@ -67,7 +74,7 @@ class VnAnnotation(Annotation):
     self.sentence_no = attr_list[1]
     self.token_no = attr_list[2]
     self.verb = attr_list[3]
-    self.vn_class = attr_list.split()[4]
+    self.vn_class = attr_list[4]
 
   def __eq__(self, other):
     if self.sentence_no == other.sentence_no and self.token_no == other.token_no and self.verb == other.verb and self.vn_class == other.vn_class:

@@ -1,9 +1,4 @@
-import os, sys, itertools, getopt
-local_verbnet_api_path = "/Users/ajwieme/verbs-projects/VerbNet/verbnet/api"
-
-sys.path.append(local_verbnet_api_path)
-
-from verbnet import *
+from verbnet.api.verbnet import *
 #import search
 
 # Looks for config.txt for dir to VN XML
