@@ -169,6 +169,9 @@ class AbstractXML(object):
 
         return get_class_id(self.soup)
 
+    def numerical_class_id(self):
+        return "-".join(self.class_id().split("-")[1:])
+
     def pp(self):
         # Better indentation for more readable XML
         indent = re.compile(r'^(\s*)', re.MULTILINE)

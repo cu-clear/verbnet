@@ -7,9 +7,9 @@ vn = VerbNetParser()
 #vn_3_2 = VerbNetParser(version="3.2")
 
 vnc_list = vn.get_verb_classes()
+vnc = vnc_list[10]
 
-print(list(vn.verb_classes_dict.values())[22].members[0].name)
-print(list(vn.verb_classes_dict.values())[22].members[0].wn)
+print([member.name for member in vnc.members])
 
 #print(vnc.members[0].soup)
 

@@ -277,7 +277,8 @@ def find_members(members=None, class_ID=None, name=None, wn=None, grouping=None,
     member_lists = [[], [], [], [], []]
     for member in members:
         if class_ID:
-            if member.class_id() == class_ID:
+            # Check both, in case only the numerical version is provided
+            if member.class_id() == class_ID or member.numerical_class_id() == class_ID:
                 member_lists[0].append(member)
         if name:
             # member.name used to return a list, so some scripts may pass

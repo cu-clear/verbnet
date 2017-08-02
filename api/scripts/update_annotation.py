@@ -40,7 +40,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
   else:
     ann = VnAnnotation(ann_line)
 
-  stats[3] += 1
+  stats[4] += 1
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
   if not ann.exists_in(new_vn):
     possible_old_vn_members = find_in_old_versions(ann, old_vns)
@@ -78,7 +78,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
     else: # Otherwise this verb no longer exists in VN
       if log:
         log.write("ERROR: %s from %s in an old version of VerbNet no longer exists in version %s" % (ann.verb, ann.vn_class, new_vn.version))
-      stats[2] += 1
+      stats[3] += 1
       return None
   else:
     if log:
@@ -105,7 +105,7 @@ if __name__ == '__main__':
   global new_anns_dir
   global stats
 
-  stats = [0, 0, 0, 0] #[num_no_change, num_successful_change, num_error, total]
+  stats = [0, 0, 0, 0, 0] #[num_no_change, num_successful_change, num_ambiguous_error, num_no_longer_exist, total]
 
   # DEFINE ARGS
   parser = argparse.ArgumentParser()
@@ -130,6 +130,8 @@ if __name__ == '__main__':
 
   if args.get("mode") == "simulate":
     simulate = True
+  else:
+    simulate = False
 
   from verbnet.api.verbnet import *
   from verbnet.api import search
@@ -148,8 +150,8 @@ if __name__ == '__main__':
     old_vns.append(VerbNetParser(version=version))
 
   for fn in ann_fns:
-    lines = [line.strip() for line in codecs.open(fn, "r", encoding="utf-8")]
+    lines = [line.strip() for line in codecs.open(fn, "r", encoding="utf-8")][:200]
     generate_updated_annotations(fn, lines, new_vn, old_vns)
 
-  print_stats = ((float(stats[0]) / float(stats[3])) * 100, (float(stats[1]) / float(stats[3])) * 100, (float(stats[2]) / float(stats[3])) * 100)
-  print("%.2f%% of annotations unchanged, %.2f%% successfully updated, %.2f%% too ambiguous to update" % print_stats)
+  print_stats = ((float(stats[0]) / float(stats[4])) * 100, (float(stats[1]) / float(stats[4])) * 100, (float(stats[2]) / float(stats[4])) * 100, (float(stats[3]) / float(stats[4])) * 100)
+  print("%.2f%% of annotations unchanged, %.2f%% successfully updated, %.2f%% too ambiguous to update, %.2f verbs no longer exist in VN" % print_stats)
