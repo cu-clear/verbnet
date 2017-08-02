@@ -9,7 +9,9 @@ vn = VerbNetParser()
 vnc_list = vn.get_verb_classes()
 vnc = vnc_list[10]
 
-print([member.name for member in vnc.members])
+for test_mem in ["replace", "recognize", "vary", "know", "run"]:
+  if test_mem in [m.name for m in vn.get_members()]:
+    print(test_mem)
 
 #print(vnc.members[0].soup)
 

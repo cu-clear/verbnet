@@ -51,13 +51,13 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
       # search these members for the lookup member by name and wordnet mapping
       updated_vn_members += search.find_members(all_new_members, name=vn_member.name, wn=vn_member.wn)
 
-      """
-      Ambiguities in previous versions may all point to the same verb in new version
-      I.e one verb may appear in multiple classes in version 3.2, and so this script
-      will look for n new verbs in 3.3, where n is the number of times this member
-      appears in 3.2. So if all n of those points to the same member of the same class
-      in 3.3, then we need to remove those duplicate members from this list
-      """
+    """
+    Ambiguities in previous versions may all point to the same verb in new version
+    I.e one verb may appear in multiple classes in version 3.2, and so this script
+    will look for n new verbs in 3.3, where n is the number of times this member
+    appears in 3.2. So if all n of those points to the same member of the same class
+    in 3.3, then we need to remove those duplicate members from this list
+    """
     unique_members = []
     for updated_member in updated_vn_members:
       if (updated_member.name, updated_member.class_id()) not in [u[1] for u in unique_members]:
@@ -73,11 +73,13 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
     elif len(updated_vn_members) > 1: # Otherwise there is ambiguity
       if log:
         log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.vn_class, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version))
+      ann = ""
       stats[2] += 1
       return None
     else: # Otherwise this verb no longer exists in VN
       if log:
         log.write("ERROR: %s from %s in an old version of VerbNet no longer exists in version %s" % (ann.verb, ann.vn_class, new_vn.version))
+      ann = ""
       stats[3] += 1
       return None
   else:
