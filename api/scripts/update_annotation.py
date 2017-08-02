@@ -33,7 +33,7 @@ def find_in_old_versions(ann, old_vns):
     else:
       return search.find_members(all_old_members, name=ann.verb)
 
-def update_annotation_line(ann_line, new_vn, old_vns, log):
+def update_annotation_line(ann_line, new_vn, old_vns, log=None):
   # Semlink annotations have mappings, and thus more attributes in a line
   if len(ann_line.strip().split()) > 5:
     ann = SemLinkAnnotation(ann_line)
@@ -61,32 +61,39 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
     updated_vn_members = [u[0] for u in unique_members]
 
     if len(updated_vn_members) == 1: # The verb maps to new version in a new class
-      log.write("SUCCESS: Found %s from %s in %s in VerbNet version %s" % (ann.verb, ann.vn_class, updated_vn_members[0].class_id(), updated_vn_members[0].version))
+      if log:
+        log.write("SUCCESS: Found %s from %s in %s in VerbNet version %s" % (ann.verb, ann.vn_class, updated_vn_members[0].class_id(), updated_vn_members[0].version))
       stats[1] += 1
       ann.update_vn_info(updated_vn_members[0])
     elif len(updated_vn_members) > 1: # Otherwise there is ambiguity
-      log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.vn_class, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version))
+      if log:
+        log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.vn_class, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version))
       stats[2] += 1
       return None
     else: # Otherwise this verb no longer exists in VN
-      log.write("ERROR: %s from %s in an old version of VerbNet no longer exists in version %s" % (ann.verb, ann.vn_class, new_vn.version))
+      if log:
+        log.write("ERROR: %s from %s in an old version of VerbNet no longer exists in version %s" % (ann.verb, ann.vn_class, new_vn.version))
       stats[2] += 1
       return None
   else:
-    log.write("SUCCESS: %s is still a reference to %s in %s in VerbNet version %s" % (ann.verb, ann.verb, ann.vn_class, new_vn.version))
+    if log:
+      log.write("SUCCESS: %s is still a reference to %s in %s in VerbNet version %s" % (ann.verb, ann.verb, ann.vn_class, new_vn.version))
     stats[0] += 1
 
   return str(ann)
 
 def generate_updated_annotations(fn, lines, new_vn, old_vns):
-  log = Log(fn.split("/")[-1] + ".log")
-  # Directory for new annotations + JUST the annotation filename (no other path info)
-  new_fn = new_anns_dir + "/" + fn.split('/')[-1]
-  with codecs.open(new_fn, "w", encoding="utf-8") as out:
-    x = [update_annotation_line(line, new_vn, old_vns, log) for line in lines]
-    # Remove the lines wherein it was removed and thus returned None
-    x = [l for l in x if l != None]
-    out.write('\n'.join(x))
+  if simulate:
+    log = Log(fn.split("/")[-1] + ".log")
+    # Directory for new annotations + JUST the annotation filename (no other path info)
+    new_fn = new_anns_dir + "/" + fn.split('/')[-1]
+    with codecs.open(new_fn, "w", encoding="utf-8") as out:
+      x = [update_annotation_line(line, new_vn, old_vns, log) for line in lines]
+      # Remove the lines wherein it was removed and thus returned None
+      x = [l for l in x if l != None]
+      out.write('\n'.join(x))
+  else:
+    [update_annotation_line(line, new_vn, old_vns) for line in lines]
 
 if __name__ == '__main__':
   global logs_dir
@@ -101,7 +108,7 @@ if __name__ == '__main__':
   parser.add_argument('-l', '--logs_dir', help='the directory to output the logs to. Default is ./logs_versionNum', required=False)
   parser.add_argument('-n', '--new_anns_dir', help='The directory to put the new updated annotations. Default is ./new_anns_versionNum', required=False)
   parser.add_argument('-f', '--files', help="Annotation files to update", nargs='+', required=True)
-  parser.add_argument('-e', '--execute', help="Pass 'local' to use local dirs", required=False)
+  parser.add_argument('-s', '--simulate', help="Run as simulation, don't make any actual changes", required=False)
   args = vars(parser.parse_args())
 
   # GET VARIABLES FROM ARGS
@@ -115,6 +122,9 @@ if __name__ == '__main__':
     new_anns_dir = args.get("new_anns_dir")
   else:
     new_anns_dir = "./new_anns_%s" % new_vn_version
+
+  if args.get("simulate"):
+    simulate = True
 
   from verbnet.api.verbnet import *
   from verbnet.api import search
