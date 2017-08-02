@@ -51,8 +51,13 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
       # search these members for the lookup member by name and wordnet mapping
       updated_vn_members += search.find_members(all_new_members, name=vn_member.name, wn=vn_member.wn)
 
-    # Ambiguities in previous versions may all point to the same verb in new version
-    # so we need to remove the duplicate members from this list
+      """
+      Ambiguities in previous versions may all point to the same verb in new version
+      I.e one verb may appear in multiple classes in version 3.2, and so this script
+      will look for n new verbs in 3.3, where n is the number of times this member
+      appears in 3.2. So if all n of those points to the same member of the same class
+      in 3.3, then we need to remove those duplicate members from this list
+      """
     unique_members = []
     for updated_member in updated_vn_members:
       if (updated_member.name, updated_member.class_id()) not in [u[1] for u in unique_members]:
@@ -108,7 +113,7 @@ if __name__ == '__main__':
   parser.add_argument('-l', '--logs_dir', help='the directory to output the logs to. Default is ./logs_versionNum', required=False)
   parser.add_argument('-n', '--new_anns_dir', help='The directory to put the new updated annotations. Default is ./new_anns_versionNum', required=False)
   parser.add_argument('-f', '--files', help="Annotation files to update", nargs='+', required=True)
-  parser.add_argument('-s', '--simulate', help="Run as simulation, don't make any actual changes", required=False)
+  parser.add_argument('-m', '--mode', help="Pass 'simulate' to run as simulation, which will not writeany actual files", required=False)
   args = vars(parser.parse_args())
 
   # GET VARIABLES FROM ARGS
@@ -123,7 +128,7 @@ if __name__ == '__main__':
   else:
     new_anns_dir = "./new_anns_%s" % new_vn_version
 
-  if args.get("simulate"):
+  if args.get("mode") == "simulate":
     simulate = True
 
   from verbnet.api.verbnet import *
