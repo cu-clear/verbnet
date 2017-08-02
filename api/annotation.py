@@ -51,12 +51,12 @@ class Annotation(object):
     try:
       self.vn_class
     except:
-      raise Exception ("this instace of Annotation object doesn't have a verbnet clsas")
+      raise Exception ("this instace of Annotation object doesn't have a verbnet class")
 
     # AbstractXML method get_category() will return a list
     # But because it can only have one name, we can take index 0
-    self.verb = vn_member.name[0]
-    self.vn_class = vn_member.class_id()
+    self.verb = vn_member.name
+    self.vn_class = vn_member.numerical_class_id()
 
   # Check if the ref in the annotation exists in the given version of VN
   def exists_in(self, vn):
