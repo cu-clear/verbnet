@@ -280,10 +280,10 @@ def find_members(members=None, class_ID=None, name=None, wn=None, grouping=None,
             if member.class_id() == class_ID:
                 member_lists[0].append(member)
         if name:
-            # member.name returns a list of length 1, but we also want
-            # to accept a string passed in
-            if type(name) == str:
-                name = [name]
+            # member.name used to return a list, so some scripts may pass
+            # a list to this search, but we want a string
+            if type(name) == list:
+                name = name[0]
             if member.name == name:
                 member_lists[1].append(member)
         if wn:

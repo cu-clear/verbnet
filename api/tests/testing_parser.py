@@ -8,7 +8,8 @@ vn = VerbNetParser()
 
 vnc_list = vn.get_verb_classes()
 
-print(vn.verb_classes_dict.keys())
+print(list(vn.verb_classes_dict.values())[22].members[0].name)
+print(list(vn.verb_classes_dict.values())[22].members[0].wn)
 
 #print(vnc.members[0].soup)
 

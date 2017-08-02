@@ -29,17 +29,18 @@ def find_in_old_versions(ann, old_vns):
     all_old_members = old_vn.get_members()
 
     if ann.exists_in(old_vn):
-      return search.find_members(all_old_members, class_ID=ann.vn_class, name=ann.verb.split())
+      return search.find_members(all_old_members, class_ID=ann.vn_class, name=ann.verb)
     else:
-      return search.find_members(all_old_members, name=ann.verb.split())
+      return search.find_members(all_old_members, name=ann.verb)
 
 def update_annotation_line(ann_line, new_vn, old_vns, log):
+  # Semlink annotations have mappings, and thus more attributes in a line
   if len(ann_line.strip().split()) > 5:
     ann = SemLinkAnnotation(ann_line)
   else:
     ann = VnAnnotation(ann_line)
 
-  stats[2] += 1
+  stats[3] += 1
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
   if not ann.exists_in(new_vn):
     possible_old_vn_members = find_in_old_versions(ann, old_vns)
@@ -65,9 +66,11 @@ def update_annotation_line(ann_line, new_vn, old_vns, log):
       ann.update_vn_info(updated_vn_members[0])
     elif len(updated_vn_members) > 1: # Otherwise there is ambiguity
       log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.vn_class, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version))
+      stats[2] += 1
       return None
     else: # Otherwise this verb no longer exists in VN
-      log.write("ERROR: %s from %s in and old version of VerbNet no longer exists in version %s" % (ann.verb, ann.vn_class, new_vn.version))
+      log.write("ERROR: %s from %s in an old version of VerbNet no longer exists in version %s" % (ann.verb, ann.vn_class, new_vn.version))
+      stats[2] += 1
       return None
   else:
     log.write("SUCCESS: %s is still a reference to %s in %s in VerbNet version %s" % (ann.verb, ann.verb, ann.vn_class, new_vn.version))
@@ -90,7 +93,7 @@ if __name__ == '__main__':
   global new_anns_dir
   global stats
 
-  stats = [0, 0, 0] #[num_no_change, num_successful_change, total]
+  stats = [0, 0, 0, 0] #[num_no_change, num_successful_change, num_error, total]
 
   # DEFINE ARGS
   parser = argparse.ArgumentParser()
@@ -133,5 +136,5 @@ if __name__ == '__main__':
     lines = [line.strip() for line in codecs.open(fn, "r", encoding="utf-8")]
     generate_updated_annotations(fn, lines, new_vn, old_vns)
 
-  print_stats = ((float(stats[0]) / float(stats[2])) * 100, (float(stats[1]) / float(stats[2])) * 100, ((float(stats[0])  + float(stats[1])) / float(stats[2])) * 100)
+  print_stats = ((float(stats[0]) / float(stats[3])) * 100, (float(stats[1]) / float(stats[3])) * 100, (float(stats[2]) / float(stats[3])) * 100)
   print("%.2f%% of annotations unchanged, %.2f%% successfully updated, %.2f%% too ambiguous to update" % print_stats)
