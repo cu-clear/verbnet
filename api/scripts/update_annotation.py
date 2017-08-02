@@ -89,6 +89,8 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
 
 def generate_updated_annotations(fn, lines, new_vn, old_vns):
   if simulate:
+    [update_annotation_line(line, new_vn, old_vns) for line in lines]
+  else:
     log = Log(fn.split("/")[-1] + ".log")
     # Directory for new annotations + JUST the annotation filename (no other path info)
     new_fn = new_anns_dir + "/" + fn.split('/')[-1]
@@ -97,8 +99,6 @@ def generate_updated_annotations(fn, lines, new_vn, old_vns):
       # Remove the lines wherein it was removed and thus returned None
       x = [l for l in x if l != None]
       out.write('\n'.join(x))
-  else:
-    [update_annotation_line(line, new_vn, old_vns) for line in lines]
 
 if __name__ == '__main__':
   global logs_dir
@@ -113,7 +113,7 @@ if __name__ == '__main__':
   parser.add_argument('-l', '--logs_dir', help='the directory to output the logs to. Default is ./logs_versionNum', required=False)
   parser.add_argument('-n', '--new_anns_dir', help='The directory to put the new updated annotations. Default is ./new_anns_versionNum', required=False)
   parser.add_argument('-f', '--files', help="Annotation files to update", nargs='+', required=True)
-  parser.add_argument('-m', '--mode', help="Pass 'simulate' to run as simulation, which will not writeany actual files", required=False)
+  parser.add_argument('-m', '--mode', help="Pass 'simulate' to run as simulation, which will not write any actual files", required=False)
   args = vars(parser.parse_args())
 
   # GET VARIABLES FROM ARGS
@@ -150,8 +150,8 @@ if __name__ == '__main__':
     old_vns.append(VerbNetParser(version=version))
 
   for fn in ann_fns:
-    lines = [line.strip() for line in codecs.open(fn, "r", encoding="utf-8")][:200]
+    lines = [line.strip() for line in codecs.open(fn, "r", encoding="utf-8")]
     generate_updated_annotations(fn, lines, new_vn, old_vns)
 
   print_stats = ((float(stats[0]) / float(stats[4])) * 100, (float(stats[1]) / float(stats[4])) * 100, (float(stats[2]) / float(stats[4])) * 100, (float(stats[3]) / float(stats[4])) * 100)
-  print("%.2f%% of annotations unchanged, %.2f%% successfully updated, %.2f%% too ambiguous to update, %.2f verbs no longer exist in VN" % print_stats)
+  print("%.2f%% of annotations unchanged, %.2f%% successfully updated, %.2f%% too ambiguous to update, %.2f%% of verbs no longer exist in VN" % print_stats)
