@@ -49,13 +49,19 @@ class Mapping():
         return True
 
 
-def load_mappings(mapping_file=VNFN_LOC):
-    mappings = []
+def load_mappings(mapping_file=VNFN_LOC, as_dict=False):
+    if not as_dict:
+        mappings = []
+    else:
+        mappings = {}
     tree = etree.parse(open(mapping_file))
     root = tree.getroot()
 
     for e in root:
-        mappings.append(Mapping(e.attrib["vnmember"], e.attrib["class"], e.attrib["fnframe"]))
+        if not as_dict:
+            mappings.append(Mapping(e.attrib["vnmember"], e.attrib["class"], e.attrib["fnframe"]))
+        else:
+            mappings[e.attrib["vnmember"] + ":" + e.attrib["class"]] = e.attrib["fnframe"]
 
     return mappings
 
