@@ -1,0 +1,11 @@
+<verbnet-framenet_MappingData date="&lt;class 'datetime.datetime'&gt;">
+  <vncls class="109.1" fnframe="Becoming" versionID="vn3.3" vnmember="go"/>
+  <vncls class="13.2-1-1" fnframe="Compliance" versionID="vn3.3" vnmember="submit"/>
+  <vncls class="21.2-1" fnframe="Reshaping" versionID="vn3.3" vnmember="mash"/>
+  <vncls class="29.8-1" fnframe="Social_event" versionID="vn3.3" vnmember="host"/>
+  <vncls class="36.1.2-1" fnframe="Choosing" versionID="vn3.3" vnmember="decide"/>
+  <vncls class="47.8-1" fnframe="Locative_relation" versionID="vn3.3" vnmember="adjoin"/>
+  <vncls class="51.1" fnframe="Departing" versionID="vn3.3" vnmember="set"/>
+  <vncls class="55.1-1" fnframe="Setting_fire" versionID="vn3.3" vnmember="start"/>
+  <vncls class="9.7-1" fnframe="Placing" versionID="vn3.3" vnmember="sow"/>
+</verbnet-framenet_MappingData>
