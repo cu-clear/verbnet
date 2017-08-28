@@ -78,7 +78,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
       return None
     else: # Otherwise this verb no longer exists in VN
       if log:
-        log.write("ERROR: %s from %s in an old version of VerbNet no longer exists in version %s" % (ann.verb, ann.vn_class, new_vn.version))
+        log.write("ERROR: %s from %s in an old version of VerbNet does not have an exact match in version %s" % (ann.verb, ann.vn_class, new_vn.version))
       ann = ""
       stats[3] += 1
       return None
