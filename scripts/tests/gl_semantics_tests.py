@@ -1,12 +1,10 @@
 local_scripts_path = "../"
-local_verbnet_api_path = "/Users/ajwieme/verbs-projects/VerbNet/verbnet/api"
 
 import sys
-sys.path.append(local_verbnet_api_path)
 sys.path.append(local_scripts_path)
 
 from update_gl_semantics import update_gl_semantics
-from verbnetparser import *
+from verbnet import *
 from bs4 import BeautifulSoup as soup
 
 '''
@@ -33,7 +31,7 @@ cop_p2 = Predicate(soup('<PRED value="path_rel"><ARGS><ARG type="Event" value="e
 # transfer pred (don't care about args)
 cop_p3 = Predicate(soup('<PRED value="transfer"><ARGS></ARGS></PRED>', 'lxml-xml').PRED)
 
-# CHANGE OF STATE
+# CHANGE_OF_STATE
 cos_p1 = Predicate(soup('<PRED value="path_rel"><ARGS><ARG type="Event" value="start(E)"/><ARG type="ThemRole" value="?Initial_State"/><ARG type="Constant" value="ch_of_state"/></ARGS></PRED>', 'lxml-xml').PRED)
 cos_p2 = Predicate(soup('<PRED value="path_rel"><ARGS><ARG type="Event" value="result(E)"/><ARG type="ThemRole" value="?Result"/><ARG type="Constant" value="ch_of_state"/></ARGS></PRED>', 'lxml-xml').PRED)
 
