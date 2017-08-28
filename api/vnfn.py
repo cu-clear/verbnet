@@ -17,6 +17,10 @@ for lu in framenet.lus():
     else:
         possible_frames[lu.frame.name].append(lu.lexemes[0].name)
 
+
+for k in sorted(list(possible_frames.keys())):
+    print (k, possible_frames[k])
+
 class Mapping():
     def __init__(self, member, vn_class, fn_frame):
         self.member = member
@@ -87,6 +91,7 @@ def write_mappings(mappings, output_file):
         output.write(out_str)
 
 
+'''
 ms = load_mappings()
 
 errors = {}
@@ -100,3 +105,4 @@ for m in ms:
 for k in errors:
     if k:
         write_mappings(sorted(set(errors[k])), output_file="semlink/errors/" + "_".join(k.split()))
+        '''
