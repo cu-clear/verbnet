@@ -46,7 +46,8 @@ def main(argv=None):
   print ('input dir    :  ' + input_dir)
   print ('writing to   :  ' + output_file)
   
-  to_json_by_member(verbnet.VerbNet(directory=input_dir), output_file)
+  #to_json_by_member(verbnet.VerbNet(directory=input_dir), output_file)
+
 
 
 if __name__ == "__main__":

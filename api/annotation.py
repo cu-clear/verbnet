@@ -5,7 +5,6 @@ class Annotation(object):
     return hash(self.__str__())
 
   #Verify that this instance has a vn class, and the class/member pair is valid for a certain VN version
-  #Verify that this instance has a vn class, and the class/member pair is valid for a certain VN version
   def check_vn(self, vn):
     try:
       self.vn_class

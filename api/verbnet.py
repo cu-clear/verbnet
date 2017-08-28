@@ -205,6 +205,12 @@ class VerbClass(AbstractXML):
                + "\nFrames: " + str(self.frames) \
                + "\nSubclasses: " + str(self.subclasses)
 
+    def __lt__(self, other):
+        return self.ID < other.ID
+
+    def __gt__(self, other):
+        return self.ID > other.ID
+
     def members(self):
         """Get all members of a verb class"""
         return [Member(mem_soup, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
@@ -295,6 +301,11 @@ class Member(AbstractXML):
     def __repr__(self):
         return str(self.name + str(self.wn) + str(self.grouping))
 
+    def __lt__(self, other):
+        return self.name < other.name
+
+    def __gt__(self, other):
+        return self.name > other.name
 
 class Frame(AbstractXML):
     """Represents a single verb frame in VerbNet, with a description, examples,

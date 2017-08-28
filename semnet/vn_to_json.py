@@ -1,11 +1,11 @@
 import sys
 import getopt
-
-local_verbnet_api_path = "../api/"
-
-sys.path.append(local_verbnet_api_path)
-import verbnet
 import json
+
+sys.path.append("../api/")
+
+import verbnet
+import vnfn
 
 DEFAULT_VN_LOC = "../vn3.3.1-test/"
 DEFAULT_OUTPUT = "semnet-test.json"
@@ -13,6 +13,8 @@ DEFAULT_OUTPUT = "semnet-test.json"
 
 def to_json_by_member(vn, output_file):
     res = {}
+    mappings = vnfn.load_mappings("../api/vn-fn.s", as_dict=True)
+
     for cl in vn.get_verb_classes():
         new_id = cl.ID
         full_themroles = cl.themroles
@@ -23,14 +25,22 @@ def to_json_by_member(vn, output_file):
 
         for member in cl.members:
             if cl.frames:
+                norm_id = "-".join(cl.ID.split("-")[1:])
+                if member.name + ":" + norm_id not in mappings:
+                    mappings[member.name + ":" + norm_id] = ""
                 res[cl.ID + "-" + member.name] = {"wn": member.wn, "themroles": [str(r) for r in full_themroles],
                                                   "syntactic_frames": [f.pp_syntax() for f in cl.frames],
-                                                  "semantic_frames": [f.pp_semantics() for f in cl.frames]}
+                                                  "semantic_frames": [f.pp_semantics() for f in cl.frames],
+                                                  "fn_frame":mappings[member.name + ":" + norm_id]}
 
     with open(output_file, "w") as o:
         json.dump(res, o)
 
     return res
+
+
+def print_help():
+    print ("SemNet Generator")
 
 
 # Main method as suggested by van Rossum, simplified

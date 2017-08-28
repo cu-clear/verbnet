@@ -54,7 +54,7 @@
           </FRAME>
 	</FRAMES>
 	<SUBCLASSES>
-		<VNSUBCLASS ID="urge-58.1.1-1">
+		<VNSUBCLASS ID="urge-58.1-1">
 		<MEMBERS>
         		<MEMBER name="call_on" wn="call%2:32:05 call%2:32:15" grouping="call.01 call.07"/>
 		        <MEMBER name="dare" wn="dare%2:32:00" grouping="dare.02"/>
