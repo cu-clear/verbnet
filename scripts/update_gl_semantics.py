@@ -2,7 +2,7 @@ import sys
 local_verbnet_api_path = "/Users/ajwieme/verbs-projects/VerbNet/verbnet/api"
 sys.path.append(local_verbnet_api_path)
 
-from verbnetparser import *
+from verbnet import *
 
 def udpate_frame_with_gl(frame, gl_semantics=[]):
   return True
@@ -20,7 +20,7 @@ def update_gl_semantics(matching_semantics, gl_semantics=[]):
 
   vn = VerbNetParser()
   # Use get_verb_classes_and_subclasses() so we can check all classes and subclasses in one list
-  for vnc in vn.get_verb_classes_and_subclasses():
+  for vnc in vn.get_verb_classes():
     for frame in vnc.frames:
       # If its one flat list of predicates, just check if frame.contains that list of preds
       if matching_semantics and type(matching_semantics[0]) == Predicate:
