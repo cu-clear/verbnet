@@ -8,6 +8,7 @@ OUTPUTS: updated_annotation_file_with_version_specific_updates, log_file
 import codecs
 import sys
 import argparse
+import os
 local_verbnet_api_path = "../"
 
 sys.path.append(local_verbnet_api_path)
