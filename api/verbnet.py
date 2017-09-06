@@ -16,12 +16,12 @@ __author__ = ["Todd Curcuru & Marc Verhagen"]
 __date__ = "3/15/2016"
 __email__ = ["tcurcuru@brandeis.edu, marc@cs.brandeis.edu"]
 
+
 def get_verbnet_directory(version):
     for line in open(os.path.join(os.path.dirname(__file__), 'config.txt')):
         if line.startswith('VERBNET_PATH') and line.split("=")[0].strip().endswith(version):
             return line.split('=')[1].strip()
     exit('WARNING: could not find a value for VERBNET_PATH version %s' % version)
-
 
 
 class VerbNetParser(object):
@@ -70,7 +70,6 @@ class VerbNetParser(object):
         for fname in self.filenames:
             parsed_files.append(soup(open(fname), "lxml-xml"))
         return parsed_files
-
 
     def get_verb_classes(self, class_list=[]):
         """Return a list of all classes, which can be scoped by a list of class_ID's.
@@ -211,7 +210,7 @@ class VerbClass(AbstractXML):
     def __gt__(self, other):
         return self.ID > other.ID
 
-    def members(self):
+    def _members(self):
         """Get all members of a verb class"""
         return [Member(mem_soup, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
 
@@ -252,17 +251,17 @@ class VerbClass(AbstractXML):
         self.soup.MEMBERS.append(mem_soup)
 
     
-    def frames(self):
+    def _frames(self):
         """Get all frames for a verb class, seems to be shared by all members
         of the class."""
         return [Frame(frame_soup, self.ID, self.version) for frame_soup in self.soup.FRAMES.find_all("FRAME")]
         
-    def themroles(self):
+    def _themroles(self):
         """Get all the thematic roles for a verb class ans their selectional 
         restrictions."""
         return [ThematicRole(them_soup, self.version) for them_soup in self.soup.THEMROLES.find_all("THEMROLE")]
     
-    def subclass(self):
+    def _subclass(self):
         """Get every subclass listed, if any"""
         subclasses_soup = self.soup.find_all("SUBCLASSES")
         if len(subclasses_soup[0].text) < 1:

@@ -146,7 +146,14 @@ if __name__ == '__main__':
   else:
     simulate = False
 
-  new_vn = verbnet.VerbNetParser(version=new_vn_version)
+  ##write a wrapper for testing versions
+  try:
+    new_vn = verbnet.VerbNetParser(version=new_vn_version)
+  except Exception:
+    new_vn = verbnet.VerbNetParser(directory=new_vn_version)
+  except Exception:
+    print ('input version is bad : ' + new_vn)
+    sys.exit(2)
 
   # Make sure the these dirs exist, or create them
   os.makedirs(logs_dir, exist_ok=True)
@@ -155,7 +162,7 @@ if __name__ == '__main__':
   # Old versions of VN to look through,
   # just hard coding 3.2 for now, can add others as needed
   old_vns = []
-  for version in ["3.2"]:
+  for version in ["3.3"]:
     old_vns.append(verbnet.VerbNetParser(version=version))
 
   for fn in ann_fns:
