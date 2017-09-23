@@ -85,16 +85,17 @@ def build_semnet(vn):
 def write_semnet(semnet, output_file, output_format):
     for member in semnet.keys():
         for vn_class in semnet[member]:
-            semnet[member][vn_class]["predicates"] = [p.value[0] for f in semnet[member][vn_class]["frames"] for p in f.predicates]
+            semnet[member][vn_class]["predicates"] = set([p.value[0] for f in semnet[member][vn_class]["frames"] for p in f.predicates])
             semnet[member][vn_class].pop("frames", None) 
             semnet[member][vn_class]["themroles"] = semnet[member][vn_class]["themroles"]
-
-            print (semnet[member][vn_class].keys())
             
             for component in semnet[member][vn_class].keys():
                 if component == "restrictions":
-                    #TODO : Write restrictions however Martin wants 
-                    pass
+                    res = []
+                    for r in semnet[member][vn_class]["restrictions"]:
+                        res.append([r[0], r[1:]])
+                    semnet[member][vn_class]["restrictions"] = str(res).translate({ord("'"):None, ord('['):ord('{'), ord("]"):ord("}")})
+                    
                 elif component == "fn_frame":
                     pass
                 else:
@@ -112,7 +113,7 @@ def write_semnet(semnet, output_file, output_format):
 
             for member in sorted(list(semnet.keys())):
                 for vn_class in sorted(list(semnet[member].keys())):
-                    data = [member, vn_class] + [semnet[member][vn_class][item] for item in sorted(list(semnet[member][vn_class].keys()))]
+                    data = [member, vn_class.split("-")[0], "-".join(vn_class.split("-")[1:])] + [semnet[member][vn_class][item] for item in sorted(list(semnet[member][vn_class].keys()))]
                     output_writer.writerow(data)
     return None
 
