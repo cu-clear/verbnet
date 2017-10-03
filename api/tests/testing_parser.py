@@ -7,21 +7,26 @@ from verbnet.api.annotation import *
 vn = VerbNetParser()
 #vn_3_2 = VerbNetParser(version="3.2")
 
-'''
-for test_mem in ["replace", "recognize", "vary", "know", "run"]:
-  if test_mem in [m.name for m in vn.get_members()]:
-    print(test_mem)
-'''
-mems = vn.verb_classes_numerical_dict.get("37.7-1-1").members
-m = mems[[x.name for x in mems].index("say")]
-s = SemLinkAnnotation("nw/wsj/00/wsj_0003.parse 1 31 gold say-v 37.7-1 IN say.01 null ----- 0:3*33:1-ARG1=Topic 30:1-ARG0=Agent 31:0-rel")
-s.update_vn_info(m)
-print(str(s))
+def test_update_pred(frame, predA, predR):
+  frame.add_predicates([predA])
+  frame.remove_predicates([predR])
 
-#print(vnc.members[0].soup)
 
-#print(vnc.themroles[0].compare_selres_with(vn.get_verb_class("remove-10.1").themroles[0]))
-#vn_3_2.parse_files()
+test_p = Predicate(soup('<PRED value="cause"><ARGS><ARG type="ThemRole" value="Agent"></ARG><ARG type="Event" value="E0"></ARG></ARGS></PRED>', 'lxml-xml').PRED)
+other_r_p = Predicate(soup('<PRED value="motion"><ARGS><ARG type="Event" value="during(E1)"/><ARG type="ThemRole" value="Theme"/></ARGS></PRED>', 'lxml-xml').PRED)
+add_p = Predicate(soup('<PRED value="test"><ARGS><ARG type="ThemRole" value="test"></ARG><ARG type="test" value="E0"></ARG></ARGS></PRED>', 'lxml-xml').PRED)
+vc = vn.verb_classes_dict["accompany-51.7"]
+frame1 = vc.frames[0]
+'''
+test_update_pred(frame1, add_p, test_p)
+print(vc.pp())
+'''
+
+pred = frame1.predicates[0]
+remove_arg = pred.args[0]
+print(remove_arg)
+print(pred.remove_args([remove_arg]))
+print(pred.pp())
 
 def test_frame_contains(containing_frame, contained_frame, preds_list):
   '''
