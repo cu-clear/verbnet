@@ -213,7 +213,6 @@ class VerbClass(AbstractXML):
     def __gt__(self, other):
         return self.ID > other.ID
 
-<<<<<<< HEAD
     def is_subclass(self):
         """
         If the highest class id of the soup object is its own ID,
@@ -223,10 +222,7 @@ class VerbClass(AbstractXML):
         """
         return self.class_id(subclasses=False) != self.ID
 
-    def members(self):
-=======
     def _members(self):
->>>>>>> 7558d086b9d412ef1971201479097b6a77cfe614
         """Get all members of a verb class"""
         return [Member(mem_soup, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
 
