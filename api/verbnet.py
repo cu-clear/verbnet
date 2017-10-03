@@ -194,7 +194,7 @@ class VerbClass(AbstractXML):
             self.ID = self.get_category("ID", self.soup.VNSUBCLASS)[0]
         self.version = version
         self.numerical_ID = "-".join(self.ID.split("-")[1:])
-        self.members = self.members()
+        self.members = self._members()
         self.frames = self.frames()
         self.names = [mem.get_category('name')[0] for mem in self.members]
         self.themroles = self.themroles()
