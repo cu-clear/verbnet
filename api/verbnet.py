@@ -558,6 +558,7 @@ def test():
         #add verbnet_key attribute to attributes of soup
         #make sure to increment for each time you see a new sense of a verb
 
+        pass
 
 if __name__ == '__main__':
 
