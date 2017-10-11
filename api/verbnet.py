@@ -554,7 +554,10 @@ def test():
     vnp = VerbNetParser(directory="../vn3.3.1-test/")
 
     for v in vnp.get_members():
-        print (v)
+        #get member soup object
+        #add verbnet_key attribute to attributes of soup
+        #make sure to increment for each time you see a new sense of a verb
+
 
 if __name__ == '__main__':
 
