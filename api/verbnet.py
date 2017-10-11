@@ -191,11 +191,11 @@ class VerbClass(AbstractXML):
             self.ID = self.get_category("ID", self.soup.VNSUBCLASS)[0]
         self.version = version
         self.numerical_ID = "-".join(self.ID.split("-")[1:])
-        self.members = self.members()
-        self.frames = self.frames()
+        self.members = self._members()
+        self.frames = self._frames()
         self.names = [mem.get_category('name')[0] for mem in self.members]
-        self.themroles = self.themroles()
-        self.subclasses = self.subclass()
+        self.themroles = self._themroles()
+        self.subclasses = self._subclass()
         
     def __repr__(self):
         return str(self.ID) + "\n" + str([mem.__repr__() for mem in self.members]) \
@@ -296,9 +296,10 @@ class Member(AbstractXML):
         self.wn = self.get_category('wn')
         self.grouping = self.get_category('grouping')
         self.features = self.get_category('features')
-        
+        self.member_id = self.get_category('member_id')
+
     def __repr__(self):
-        return str(self.name + str(self.wn) + str(self.grouping))
+        return str(self.name + " " + str(self.member_id))
 
     def __lt__(self, other):
         return self.name < other.name
@@ -550,31 +551,10 @@ def search(verbclasslist, pred_type=None, themroles=None, synroles=None, semrole
 
 
 def test():
-    vnp = VerbNetParser(max_count=50)
-    count =  len(vnp.parsed_files)
-    #print count, 'classes'
-    vc = vnp.verb_classes[-1]
-    mems = vnp.parsed_files[-1].MEMBERS
-    #print
-    #print vc.ID
-    #print '   names', ' '.join(vc.names)
-    #print'   members'
-    #for m in mems.find_all("MEMBER"):
-    #    print '     ', m
-    #results = search(vnp.verb_classes, "motion")
-    #print len(results)
-    #for frame in results:
-    #    print frame
-    #print
-    for vc in vnp.verb_classes:
-#        vc.pp()
-        if len(vc.subclasses) >= 1:
-            #print vc.ID
-            for subclass in vc.subclasses:
-                if len(subclass.subclasses) > 0:
-                    pass
-                    #print '  ', subclass.ID
+    vnp = VerbNetParser(directory="../vn3.3.1-test/")
 
+    for v in vnp.get_members():
+        print (v)
 
 if __name__ == '__main__':
 
