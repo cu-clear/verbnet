@@ -212,7 +212,7 @@ class VerbClass(AbstractXML):
 
     def _members(self):
         """Get all members of a verb class"""
-        return [Member(mem_soup, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
+        return [Member(mem_soup, self.ID, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
 
     #TODO Adam: add and remove are implemented to just work with the soup,
     #TODO it may be cleaner to write the API so that the object can be updated directly
@@ -289,8 +289,9 @@ class Member(AbstractXML):
     """Represents a single member of a VerbClass, with associated name, WordNet
     category, and PropBank grouping."""
     
-    def __init__(self, soup, version="3.3"):
+    def __init__(self, soup, vnc, version="3.3"):
         self.soup = soup
+        self.vnc = vnc
         self.version = version
         self.name = self.get_category('name')[0]
         self.wn = self.get_category('wn')
