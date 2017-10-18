@@ -10,10 +10,8 @@ import sys
 import argparse
 import os
 local_verbnet_api_path = "../"
-
 sys.path.append(local_verbnet_api_path)
-import verbnet
-import annotation
+import verbnet, annotation, search
 
 class Log(object):
   def __init__(self, filename):
@@ -33,21 +31,29 @@ class Log(object):
 def find_in_old_versions(ann, old_vns):
   for old_vn in old_vns:
     all_old_members = old_vn.get_members()
-
     if ann.exists_in(old_vn):
-      return verbnet.search.find_members(all_old_members, class_ID=ann.vn_class, name=ann.verb)
+      return search.find_members(all_old_members, class_ID=ann.vn_class, name=ann.verb)
     else:
-      return verbnet.search.find_members(all_old_members, name=ann.verb)
+      return search.find_members(all_old_members, name=ann.verb)
 
 def update_annotation_line(ann_line, new_vn, old_vns, log=None):
+  """
+  Logs changes to log if one is given
+
+  Returns a tuple of (bool marking if the update was successful, updated_annotation)
+  """
   # Semlink annotations have mappings, and thus more attributes in a line
   if len(ann_line.strip().split()) > 5:
     ann = annotation.SemLinkAnnotation(ann_line)
   else:
     ann = annotation.VnAnnotation(ann_line)
 
+  # Flag to tell us whether or not the annotation was updated
+  success = False
+
   stats[4] += 1
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
+  print("Searching for %s from %s...." % (ann.verb, ann.vn_class))
   if not ann.exists_in(new_vn):
     possible_old_vn_members = find_in_old_versions(ann, old_vns)
 
@@ -55,7 +61,7 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
     updated_vn_members = []
     for vn_member in possible_old_vn_members:
       # search these members for the lookup member by name and wordnet mapping
-      updated_vn_members += verbnet.search.find_members(all_new_members, name=vn_member.name, wn=vn_member.wn)
+      updated_vn_members += search.find_members(all_new_members, name=vn_member.name, wn=vn_member.wn)
 
     """
     Ambiguities in previous versions may all point to the same verb in new version
@@ -75,25 +81,25 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
       if log:
         log.write("SUCCESS: Found %s from %s in %s in VerbNet version %s" % (ann.verb, ann.vn_class, updated_vn_members[0].class_id(), updated_vn_members[0].version))
       stats[1] += 1
+      success = True
       ann.update_vn_info(updated_vn_members[0])
     elif len(updated_vn_members) > 1: # Otherwise there is ambiguity
       if log:
         log.write("ERROR: %s no longer belongs to %s and could belong to %s in VerbNet version %s" % (ann.verb, ann.vn_class, ' OR '.join([u.class_id() for u in updated_vn_members]), updated_vn_members[0].version))
-      ann = ""
       stats[2] += 1
-      return None
+      success = False
     else: # Otherwise this verb no longer exists in VN
       if log:
         log.write("ERROR: %s from %s in an old version of VerbNet does not have an exact match in version %s" % (ann.verb, ann.vn_class, new_vn.version))
-      ann = ""
       stats[3] += 1
-      return None
+      success = False
   else:
     if log:
       log.write("SUCCESS: %s is still a reference to %s in %s in VerbNet version %s" % (ann.verb, ann.verb, ann.vn_class, new_vn.version))
     stats[0] += 1
+    success = True
 
-  return str(ann)
+  return (success, str(ann))
 
 def generate_updated_annotations(fn, lines, new_vn, old_vns):
   if simulate:
@@ -101,13 +107,20 @@ def generate_updated_annotations(fn, lines, new_vn, old_vns):
   else:
     log = Log(fn.split("/")[-1] + ".log")
     # Directory for new annotations + JUST the annotation filename (no other path info)
-    new_fn = new_anns_dir + "/" + fn.split('/')[-1]
-    with codecs.open(new_fn, "w", encoding="utf-8") as out:
-      x = [update_annotation_line(line, new_vn, old_vns, log) for line in lines]
+    success_fn = new_anns_dir + "/" + fn.split('/')[-1]
+    failed_fn = new_anns_dir + "FAILED/" + fn.split('/')[-1]
 
-      # Remove the lines wherein it was removed and thus returned None
-      x = [l for l in x if l != None]
-      out.writelines(x)
+    # Get updates and organize by successsful/failed updates
+    updates = [update_annotation_line(line, new_vn, old_vns, log) for line in lines]
+    successful_anns = [ann for success, ann in updates if success == True]
+    failed_anns = [ann for success, ann in updates if success == False]
+
+    # Write to respective directories
+    with codecs.open(success_fn, "w", encoding="utf-8") as out:
+      out.writelines("\n".join(successful_anns))
+
+    with codecs.open(failed_fn, "w", encoding="utf-8") as out:
+      out.writelines("\n".join(failed_anns))
 
 if __name__ == '__main__':
   global logs_dir
@@ -158,11 +171,12 @@ if __name__ == '__main__':
   # Make sure the these dirs exist, or create them
   os.makedirs(logs_dir, exist_ok=True)
   os.makedirs(new_anns_dir, exist_ok=True)
+  os.makedirs(new_anns_dir + "FAILED", exist_ok=True)
 
   # Old versions of VN to look through,
   # just hard coding 3.2 for now, can add others as needed
   old_vns = []
-  for version in ["3.3"]:
+  for version in ["3.2"]:
     old_vns.append(verbnet.VerbNetParser(version=version))
 
   for fn in ann_fns:
