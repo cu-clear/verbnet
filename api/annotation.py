@@ -93,15 +93,22 @@ class SemLinkAnnotation(Annotation):
     self.input_line = line.strip()
     attr_list = line.split()
 
-    self.source_file = attr_list[0] if len(attr_list) > 1 else ""
-    self.sentence_no = attr_list[1] if len(attr_list) > 2 else ""
-    self.token_no = attr_list[2] if len(attr_list) > 3 else ""
-    self.verb = attr_list[4][:-2] if len(attr_list) > 5 else ""
-    self.vn_class = attr_list[5] if len(attr_list) > 6 else ""
-    self.fn_frame = attr_list[6] if len(attr_list) > 7 else ""
-    self.pb_frame = attr_list[7] if len(attr_list) > 8 else ""
-    self.on_group = attr_list[8] if len(attr_list) > 9 else ""
-    self.dependencies = attr_list[10:] if len(attr_list) > 11 else []
+    self.source_file = attr_list[0]
+    self.sentence_no = attr_list[1]
+    self.token_no = attr_list[2]
+
+    if "-v" in attr_list[3] or attr_list[3] != "gold":
+      offset = -1
+
+    self.verb = attr_list[4+offset][:-2]
+    self.vn_class = attr_list[5+offset]
+    self.fn_frame = attr_list[6+offset]
+    self.pb_frame = attr_list[7+offset]
+    self.on_group = attr_list[8+offset]
+
+    if not ("-" in attr_list[9] and len(attr_list[9]) == 5):
+      offset -= 1
+    self.dependencies = attr_list[10+offset:]
 
   def __eq__(self, other):
     if self.source_file == other.source_file and self.sentence_no == other.sentence_no and self.token_no == other.token_no and self.verb == other.verb:
