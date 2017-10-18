@@ -247,6 +247,16 @@ class VerbClass(AbstractXML):
     def __gt__(self, other):
         return self.ID > other.ID
 
+    def is_subclass(self):
+        """
+        If the highest class id of the soup object is its own ID,
+        then it is not a subclass of another class.
+
+        Return True or False
+        """
+
+        return self.class_id(subclasses=False) != self.ID
+
     def _members(self):
         """Get all members of a verb class"""
         return [Member(mem_soup, self.ID, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
@@ -348,6 +358,7 @@ class Member(AbstractXML):
     def __gt__(self, other):
         return self.name > other.name
 
+
 class Frame(AbstractXML):
     """Represents a single verb frame in VerbNet, with a description, examples,
     syntax, and semantics """
@@ -421,7 +432,56 @@ class Frame(AbstractXML):
         # Means if no search_preds are supplied, the method will return True
         return True
 
+    def add_predicates(self, add_preds, reference_pred=None):
+        '''
+        add_preds: list of preds to add in this frame
+        reference_pred: the existing pred to
 
+        Add the list of predicate objects, or soup objects
+        may need to add validation for the soup object later,
+        and support for other inputs such as XML, or dictionary of info
+        '''
+        if reference_pred:
+            if type(reference_pred) == Predicate:
+                ref_soup = reference_pred.soup
+            elif type(reference_pred) == bs4.element.Tag and reference_pred.name == PRED:
+                ref_soup = reference_pred
+            else:
+                raise Exception("Reference predicate must be a Predicate object or soup object at the PRED node")
+
+        for add_pred in add_preds:
+            if type(add_pred) == Predicate:
+                pred_soup = add_pred.soup
+            elif type(add_pred) == bs4.element.Tag and add_pred.name == PRED:
+                pred_soup = add_pred
+            else:
+                raise Exception("Add predicate requires a list of Predicate objects or soup objects at the PRED node")
+
+            if reference_pred:
+                ref_soup.insert_after(pred_soup)
+            else:
+                self.soup.SEMANTICS.append(pred_soup)
+
+    def remove_predicates(self, remove_preds):
+        '''
+        Remove the predicate objects with a given name, or that matches a given member object
+        from this class.
+
+        Returns the soup for the removed member
+        '''
+        removed = []
+        for remove_pred in remove_preds:
+            if type(remove_pred) == bs4.element.Tag:
+                remove_pred = Predicate(remove_pred)
+            elif type(remove_pred) != Predicate:
+                raise Exception("remove_predicates accepts a list of Predicate or soup objects")
+
+            for frame_pred in self.predicates:
+                if frame_pred.value == remove_pred.value and frame_pred.contains(remove_pred.args):
+                    if frame_pred.soup.extract():
+                        removed.append(frame_pred)
+
+        return removed
 
 
 class ThematicRole(AbstractXML):
@@ -542,6 +602,37 @@ class Predicate(AbstractXML):
         # All args have been checked and have a match, thus not returning false
         # This will also return if there were no input preds to loop over
         return True
+
+    def add_args(self, add_args):
+        for add_arg in add_args:
+            if type(add_arg) != bs4.element.Tag or add_arg.name != "ARG":
+                raise Exception("add_args only accepts a list of soup objects at the ARG node")
+
+            self.soup.ARGS.append(add_arg)
+
+    def remove_args(self, remove_args):
+        '''
+          Remove the predicate objects with a given name, or that matches a given member object
+          from this class.
+
+          Returns the soup for the removed member
+          '''
+        removed = []
+        for remove_arg in remove_args:
+            if type(remove_arg) != bs4.element.Tag or remove_arg.name != "ARG":
+                raise Exception("remove_args only accepts a list of soup objects at the ARG node")
+
+            for pred_arg in self.soup.ARGS.find_all("ARG"):
+                if pred_arg["type"] == remove_arg["type"] and pred_arg["value"] == remove_arg["value"]:
+                    removed.append(pred_arg.extract())
+        # Reset the arg attributes to reflect the update
+        self._reset_args()
+        return removed
+
+    def _reset_args(self):
+        self.args = self.soup.find_all('ARG')
+        self.argtypes = [(self.get_category('type', arg)[0],
+                          self.get_category('value', arg)[0]) for arg in self.args]
 
 
 class SyntacticRole(AbstractXML):
