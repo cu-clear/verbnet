@@ -193,7 +193,7 @@ class AbstractXML(object):
         '''
           Recursively find the closest parent node (n nodes up)
           that is a VNCLASS or VNSUBCLASS (if subclasses flag set to True)
-          in order to get the soup object and instantiate a class
+          in order to get its ID
         '''
         if subclasses:
             id_nodes = ["VNCLASS", "VNSUBCLASS"]
@@ -202,7 +202,7 @@ class AbstractXML(object):
 
         def get_class_id(soup):
             if soup.name in id_nodes:
-                return VerbClass(soup)
+                return soup['ID']
             else:
                 return get_class_id(soup.parent)
 
@@ -247,18 +247,9 @@ class VerbClass(AbstractXML):
     def __gt__(self, other):
         return self.ID > other.ID
 
-    def is_subclass(self):
-        """
-        If the highest class id of the soup object is its own ID,
-        then it is not a subclass of another class.
-
-        Return True or False
-        """
-        return self.class_id(subclasses=False) != self.ID
-
     def _members(self):
         """Get all members of a verb class"""
-        return [Member(mem_soup, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
+        return [Member(mem_soup, self.ID, self.version) for mem_soup in self.soup.MEMBERS.find_all("MEMBER")]
 
     #TODO Adam: add and remove are implemented to just work with the soup,
     #TODO it may be cleaner to write the API so that the object can be updated directly
@@ -338,16 +329,18 @@ class Member(AbstractXML):
     """Represents a single member of a VerbClass, with associated name, WordNet
     category, and PropBank grouping."""
 
-    def __init__(self, soup, version="3.3"):
+    def __init__(self, soup, vnc, version="3.3"):
         self.soup = soup
+        self.vnc = vnc
         self.version = version
         self.name = self.get_category('name')[0]
         self.wn = self.get_category('wn')
         self.grouping = self.get_category('grouping')
         self.features = self.get_category('features')
+        self.member_id = self.get_category('member_id')
 
     def __repr__(self):
-        return str(self.name + str(self.wn) + str(self.grouping))
+        return str(self.name + " " + str(self.member_id))
 
     def __lt__(self, other):
         return self.name < other.name
@@ -428,71 +421,22 @@ class Frame(AbstractXML):
         # Means if no search_preds are supplied, the method will return True
         return True
 
-    def add_predicates(self, add_preds, reference_pred=None):
-        '''
-        add_preds: list of preds to add in this frame
-        reference_pred: the existing pred to
 
-        Add the list of predicate objects, or soup objects
-        may need to add validation for the soup object later,
-        and support for other inputs such as XML, or dictionary of info
-        '''
-        if reference_pred:
-            if type(reference_pred) == Predicate:
-                ref_soup = reference_pred.soup
-            elif type(reference_pred) == bs4.element.Tag and reference_pred.name == PRED:
-                ref_soup = reference_pred
-            else:
-                raise Exception("Reference predicate must be a Predicate object or soup object at the PRED node")
-
-        for add_pred in add_preds:
-            if type(add_pred) == Predicate:
-                pred_soup = add_pred.soup
-            elif type(add_pred) == bs4.element.Tag and add_pred.name == PRED:
-                pred_soup = add_pred
-            else:
-                raise Exception("Add predicate requires a list of Predicate objects or soup objects at the PRED node")
-
-            if reference_pred:
-                ref_soup.insert_after(pred_soup)
-            else:
-                self.soup.SEMANTICS.append(pred_soup)
-
-    def remove_predicates(self, remove_preds):
-        '''
-        Remove the predicate objects with a given name, or that matches a given member object
-        from this class.
-
-        Returns the soup for the removed member
-        '''
-        removed = []
-        for remove_pred in remove_preds:
-            if type(remove_pred) == bs4.element.Tag:
-                remove_pred = Predicate(remove_pred)
-            elif type(remove_pred) != Predicate:
-                raise Exception("remove_predicates accepts a list of Predicate or soup objects")
-
-            for frame_pred in self.predicates:
-                if frame_pred.value == remove_pred.value and frame_pred.contains(remove_pred.args):
-                    if frame_pred.soup.extract():
-                        removed.append(frame_pred)
-
-        return removed
 
 
 class ThematicRole(AbstractXML):
-    """Represents an entry in the "Roles" section in VerbNet, which is basically
-    a list of all roles for a given verb class, with possible selectional
+    """Represents an entry in the "Roles" section in VerbNet, which is basically 
+    a list of all roles for a given verb class, with possible selectional 
     restrictions"""
-
+    
     def __init__(self, soup, version="3.3"):
         self.soup = soup
         self.version = version
         self.role_type = self.get_category('type')[0]
         self.sel_restrictions = self.sel_restrictions(self.soup.SELRESTRS)
-
+        
     def sel_restrictions(self, soup):
-        """Finds all the selectional restrictions of the thematic roles and
+        """Finds all the selectional restrictions of the thematic roles and 
         returns them as a string"""
         try:
             a = soup.contents                 # Get rid of \n noise
@@ -575,12 +519,6 @@ class Predicate(AbstractXML):
     def __repr__(self):
         return "Value: " + str(self.value[0]) + " -- " + str(self.argtypes)
 
-    def __eq__(self, other):
-        # Hacky way to ignore '?'
-        self_args = [(argtype[0].replace('?', ''), argtype[1].replace('?', '')) for argtype in self.argtypes]
-        other_args = [(argtype[0].replace('?', ''), argtype[1].replace('?', '')) for argtype in other.argtypes]
-        return self_args == other_args
-
     def contains(self, input):
         '''
             input: a Predicate object, or a BeatifulSoup result set,
@@ -598,44 +536,13 @@ class Predicate(AbstractXML):
 
         for search_arg in search_args:
             # Use the same hacky way to ignore question marks (?) in arg values
-            if (search_arg["type"].replace('?', ''), search_arg["value"].replace('?', '')) not in argtypes: # one of the search_args is not an arg of this predicate
+            if (self.get_category("type", search_arg)[0].replace('?', ''), self.get_category("value", search_arg)[0].replace('?', '')) not in argtypes: # one of the search_args is not an arg of this predicate
                 return False
 
         # All args have been checked and have a match, thus not returning false
         # This will also return if there were no input preds to loop over
         return True
 
-    def add_args(self, add_args):
-        for add_arg in add_args:
-            if type(add_arg) != bs4.element.Tag or add_arg.name != "ARG":
-                raise Exception("add_args only accepts a list of soup objects at the ARG node")
-
-            self.soup.ARGS.append(add_arg)
-
-
-    def remove_args(self, remove_args):
-        '''
-          Remove the predicate objects with a given name, or that matches a given member object
-          from this class.
-
-          Returns the soup for the removed member
-          '''
-        removed = []
-        for remove_arg in remove_args:
-            if type(remove_arg) != bs4.element.Tag or remove_arg.name != "ARG":
-                raise Exception("remove_args only accepts a list of soup objects at the ARG node")
-
-            for pred_arg in self.soup.ARGS.find_all("ARG"):
-                if pred_arg["type"]== remove_arg["type"] and pred_arg["value"] == remove_arg["value"]:
-                    removed.append(pred_arg.extract())
-        # Reset the arg attributes to reflect the update
-        self._reset_args()
-        return removed
-
-    def _reset_args(self):
-        self.args = self.soup.find_all('ARG')
-        self.argtypes = [(self.get_category('type', arg)[0],
-                          self.get_category('value', arg)[0]) for arg in self.args]
 
 class SyntacticRole(AbstractXML):
     """Represents a syntactic role assigned to a frame"""
@@ -685,31 +592,14 @@ def search(verbclasslist, pred_type=None, themroles=None, synroles=None, semrole
 
 
 def test():
-    vnp = VerbNetParser(max_count=50)
-    count =  len(vnp.parsed_files)
-    #print count, 'classes'
-    vc = vnp.verb_classes[-1]
-    mems = vnp.parsed_files[-1].MEMBERS
-    #print
-    #print vc.ID
-    #print '   names', ' '.join(vc.names)
-    #print'   members'
-    #for m in mems.find_all("MEMBER"):
-    #    print '     ', m
-    #results = search(vnp.verb_classes, "motion")
-    #print len(results)
-    #for frame in results:
-    #    print frame
-    #print
-    for vc in vnp.verb_classes:
-#        vc.pp()
-        if len(vc.subclasses) >= 1:
-            #print vc.ID
-            for subclass in vc.subclasses:
-                if len(subclass.subclasses) > 0:
-                    pass
-                    #print '  ', subclass.ID
+    vnp = VerbNetParser(directory="../vn3.3.1-test/")
 
+    for v in vnp.get_members():
+        #get member soup object
+        #add verbnet_key attribute to attributes of soup
+        #make sure to increment for each time you see a new sense of a verb
+
+        pass
 
 if __name__ == '__main__':
 
