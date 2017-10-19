@@ -23,9 +23,9 @@ def get_verbnet_directory(version):
 
 
 class VerbNetParser(object):
-    """Parse VerbNet XML files, and turn them into a list of BeautifulSoup 
+    """Parse VerbNet XML files, and turn them into a list of BeautifulSoup
     objects"""
-    
+
     def __init__(self, max_count=None, directory=None, file_list=None, version=None):
         """Take all verbnet files, if max_count is used then take the first max_count
         files, if file_list is used, read the filenames from the file."""
@@ -77,6 +77,23 @@ class VerbNetParser(object):
         else:
             return list(self.verb_classes_dict.values())
 
+    def get_verb_classes_by_members(self, members_list):
+        """Return a list of all classes that have any members with names in the given list"""
+        if type(members_list) != list:
+            members_list = [members_list]
+
+        if type(members_list[0]) == Member:
+            members_list = [m.name for m in members_list]
+        elif type(members_list[0]) != str:
+            raise Exception("get_verb_classes_by_members requires a list of Members or strings")
+
+        v_classes = []
+        for vc in self.verb_classes_dict.values():
+            if list(set(members_list) & set([m.name for m in vc.members])):
+                v_classes.append(vc)
+                continue
+        return v_classes
+
     def get_members(self, class_list=[]):
         """Return a list of members from all VerbNet classes
            optionally scoped by a list of class_ID's"""
@@ -105,17 +122,18 @@ class VerbNetParser(object):
 
         return frames
 
+
 class AbstractXML(object):
-    """Abstract class to be inherited by other classes that share the same 
+    """Abstract class to be inherited by other classes that share the same
     features"""
-    
+
     def __init__(self, soup):
         self.soup = soup
         self.etree = etree.fromstring(self.pp())
-        
+
     def get_category(self, cat, special_soup=None):
-        """Extracts the category from a soup, with the option to specify a soup. 
-        
+        """Extracts the category from a soup, with the option to specify a soup.
+
         For MEMBERs, we have:
         name (lexeme),
         wn (WordNet category)
@@ -151,6 +169,28 @@ class AbstractXML(object):
         '''
           Recursively find the closest parent node (n nodes up)
           that is a VNCLASS or VNSUBCLASS (if subclasses flag set to True)
+          in order to get the soup object, and grab the ID
+        '''
+        if subclasses:
+            id_nodes = ["VNCLASS", "VNSUBCLASS"]
+        else:
+            id_nodes = ["VNCLASS"]
+
+        def get_class_id(soup):
+            if soup.name in id_nodes:
+                return soup["ID"]
+            else:
+                return get_class_id(soup.parent)
+
+        return get_class_id(self.soup)
+
+    def numerical_class_id(self):
+        return "-".join(self.class_id().split("-")[1:])
+
+    def get_class(self, subclasses=True):
+        '''
+          Recursively find the closest parent node (n nodes up)
+          that is a VNCLASS or VNSUBCLASS (if subclasses flag set to True)
           in order to get its ID
         '''
         if subclasses:
@@ -166,17 +206,14 @@ class AbstractXML(object):
 
         return get_class_id(self.soup)
 
-    def numerical_class_id(self):
-        return "-".join(self.class_id().split("-")[1:])
-
     def pp(self):
         # Better indentation for more readable XML
         indent = re.compile(r'^(\s*)', re.MULTILINE)
         return indent.sub(r'\1' * 4, self.soup.prettify())
-        
+
 
 class VerbClass(AbstractXML):
-    """Represents a single class of verbs in VerbNet (all verbs from the same 
+    """Represents a single class of verbs in VerbNet (all verbs from the same
     XML file)."""
     # TODO: Check if nested subclasses have issues
 
@@ -194,7 +231,7 @@ class VerbClass(AbstractXML):
         self.names = [mem.get_category('name')[0] for mem in self.members]
         self.themroles = self._themroles()
         self.subclasses = self._subclass()
-        
+
     def __repr__(self):
         return str(self.ID) + "\n" + str([mem.__repr__() for mem in self.members]) \
                + "\nThemRoles: " + str(self.themroles) \
@@ -248,17 +285,20 @@ class VerbClass(AbstractXML):
         # so we can search by name and use [0]
         self.soup.MEMBERS.append(mem_soup)
 
-    
+
     def _frames(self):
         """Get all frames for a verb class, seems to be shared by all members
         of the class."""
         return [Frame(frame_soup, self.ID, self.version) for frame_soup in self.soup.FRAMES.find_all("FRAME")]
-        
+
+    def frames_and_subclass_frames(self):
+        return [Frame(frame_soup, self.ID, self.version) for frame_soup in self.soup.find_all("FRAME")]
+
     def _themroles(self):
-        """Get all the thematic roles for a verb class ans their selectional 
+        """Get all the thematic roles for a verb class ans their selectional
         restrictions."""
         return [ThematicRole(them_soup, self.version) for them_soup in self.soup.THEMROLES.find_all("THEMROLE")]
-    
+
     def _subclass(self):
         """Get every subclass listed, if any"""
         subclasses_soup = self.soup.find_all("SUBCLASSES")
@@ -286,7 +326,7 @@ class VerbClass(AbstractXML):
 class Member(AbstractXML):
     """Represents a single member of a VerbClass, with associated name, WordNet
     category, and PropBank grouping."""
-    
+
     def __init__(self, soup, vnc, version="3.3"):
         self.soup = soup
         self.version = version
@@ -313,7 +353,7 @@ class Frame(AbstractXML):
         self.soup = soup
         self.version = version
         self.class_ID = class_ID
-        self.description_num = self.get_category('descriptionNumber', 
+        self.description_num = self.get_category('descriptionNumber',
                                                  self.soup.DESCRIPTION)
         self.primary = self.get_category('primary', self.soup.DESCRIPTION)
         self.secondary = self.get_category('secondary', self.soup.DESCRIPTION)
@@ -321,7 +361,7 @@ class Frame(AbstractXML):
         self.examples = [example.text for example in self.soup.EXAMPLES.find_all("EXAMPLE")]
         self.syntax = self.get_syntax()
         self.predicates = [Predicate(pred, self.version) for pred in self.soup.SEMANTICS.find_all("PRED")]
-    
+
     def __repr__(self):
         return "\nDN: " + str(self.description_num) + \
                "\nPrimary: " + str(self.primary) + \
@@ -454,14 +494,14 @@ class ThematicRole(AbstractXML):
 
     def identical_selres_with(self, other_themrole):
         return False if self.compare_selres_with(other_themrole) else True
-        
+
     def __repr__(self):
         return str(self.role_type) + " : " + str(self.sel_restrictions)
-        
+
 
 class Predicate(AbstractXML):
     """Represents the different predicates assigned to a frame"""
-    
+
     def __init__(self, soup, version="3.3"):
         self.soup = soup
         self.version = version
@@ -503,7 +543,7 @@ class Predicate(AbstractXML):
 
 class SyntacticRole(AbstractXML):
     """Represents a syntactic role assigned to a frame"""
-    
+
     def __init__(self, soup, version="3.3"):
         self.soup = soup
         self.version = version
@@ -524,17 +564,17 @@ class SyntacticRole(AbstractXML):
                 raw_children = self.soup.find_all('SYNRESTR')
         except AttributeError:
             return None
-            
+
         children = []
         for child in raw_children:
             children.append(self.get_category('Value', child)[0])
             children.append(self.get_category('type', child)[0])
         return children
-        
+
     def __repr__(self):
         return "\n" + str(self.POS) + "\tValue: " + str(self.value) \
                     + "\tRestrs: " + str(self.restrictions)
-            
+
 
 def search(verbclasslist, pred_type=None, themroles=None, synroles=None, semroles=None):
     """Returns frames for verbclasses that match search parameters

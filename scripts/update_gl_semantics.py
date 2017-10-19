@@ -5,24 +5,47 @@ sys.path.append(local_verbnet_api_path)
 
 from verbnet import *
 
-def update_frame_with_gl(frame, keep_args, gl_semantics_mappings=[]):
+def order_predicates(frame):
+  """
+  ad-hoc method to order predicates by event number
+  """
+  preds_dict = {}
+  for predicate in frame.predicates:
+    # Check for event in e1 - e10, to be safe (although doubtful theres any predicates with close to 10 events)
+    event = set([value for type, value in predicate.argtypes]).intersection(set(["e" + str(i) for i in range(10)]))
+    if event:
+      # Get the int part of, e.g. e1 for the key
+      preds_dict[int(event[1:])] = predicate
+
+
+
+def update_frame_with_gl(frame, gl_semantics_mappings=[]):
+
   updated = False
 
   for mapping in gl_semantics_mappings:
-    old_preds, new_preds = mapping
+    old_preds, new_preds, keep_argtypes = mapping
     new_preds = [copy.deepcopy(new_pred) for new_pred in new_preds]
+
     if frame.contains(old_preds):
       updated = True
       print("Removing %s predicate for %s" % (",".join([p.value[0] for p in old_preds]), frame.class_id()))
       removed_preds = frame.remove_predicates(old_preds)
       print("Adding %s predicate for %s" % (",".join([p.value[0] for p in new_preds]), frame.class_id()))
-      if keep_args:
+
+      if keep_argtypes:
         # We can only know which args to keep if there is only one 'old_pred' being removed
         if len(old_preds) == 1 and len(new_preds) == 1:
           removed_pred = removed_preds[0]
           removed_pred.remove_args(old_preds[0].args)
-          print(removed_pred.args)
-          new_preds[0].add_args(removed_pred.args)
+
+          keep_args = []
+          for argtype in keep_argtypes:
+            # For all of the argtypes that we want to transfer from removed pred to new pred,
+            # Add them to the new pred
+            keep_args += [arg for arg in removed_pred.args if arg["type"] == argtype]
+
+          new_preds[0].add_args(keep_args)
         else:
           raise Exception("Cannot keep args if a single mapping is not a one to one relationship")
 
@@ -31,7 +54,7 @@ def update_frame_with_gl(frame, keep_args, gl_semantics_mappings=[]):
   return updated
 
 
-def update_gl_semantics(matching_semantics, vn, keep_args=False, gl_semantics_mappings=[], gold=[]):
+def update_gl_semantics(matching_semantics, vn, gl_semantics_mappings=[], gold=[]):
   '''
   matching_semantics: list of lists of preds, or a list of frames, or both, which determine whether this class
   is one that requires the update
@@ -55,7 +78,7 @@ def update_gl_semantics(matching_semantics, vn, keep_args=False, gl_semantics_ma
       if matching_semantics and type(matching_semantics[0]) == Predicate:
         if frame.contains(matching_semantics):
           matches.append((frame.class_id(), frame.examples))
-          if update_frame_with_gl(frame, keep_args, gl_semantics_mappings):
+          if update_frame_with_gl(frame, gl_semantics_mappings):
             updated_class = True
 
       # Otherwise, check if frame.contains any of the multiple matches
@@ -63,7 +86,7 @@ def update_gl_semantics(matching_semantics, vn, keep_args=False, gl_semantics_ma
       else:
         if any([frame.contains(m) for m in matching_semantics]):
           matches.append((frame.class_id(), frame.examples))
-          if update_frame_with_gl(frame, keep_args, gl_semantics_mappings):
+          if update_frame_with_gl(frame, gl_semantics_mappings):
             updated_class = True
 
     if updated_class:

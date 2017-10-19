@@ -313,13 +313,20 @@ def find_members(members=None, class_ID=None, name=None, wn=None, grouping=None,
         return []
 
     # Remove empty lists
-    member_lists = [m for m in member_lists if m]
+    member_lists = [ml for ml in member_lists if ml]
+    # Get a dict of all of the members we found, keyed by a unique ID for lookup later
+    members_dict = {(m.name, m.class_id()): m for ml in member_lists for m in ml}
 
     # return the intersection of each populated list, to ensure
     # that the members return fuflill each provided parameter
     if member_lists:
-        member_sets = [set(x) for x in member_lists]
-        return list(set.intersection(*member_sets))
+        # Get sets of tuples with unique id's
+        member_sets = [set([(m.name, m.class_id())for m in ml]) for ml in member_lists]
+        # Find the intersections, as those will be the members that mett all of the
+        # search criteria
+        intersections = list(set.intersection(*member_sets))
+        #print(intersections)
+        return list(members_dict[m] for m in intersections)
     else:
         return []
 
