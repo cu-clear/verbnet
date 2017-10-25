@@ -8,8 +8,6 @@ verb frames.
 
 import os
 import bs4
-from bs4 import BeautifulSoup as soup
-from itertools import chain
 import re
 
 __author__ = ["Todd Curcuru & Marc Verhagen"]
@@ -68,7 +66,7 @@ class VerbNetParser(object):
         soup objects"""
         parsed_files = []
         for fname in self.filenames:
-            parsed_files.append(soup(open(fname), "lxml-xml"))
+            parsed_files.append(bs4.BeautifulSoup(open(fname), "lxml-xml"))
         return parsed_files
 
     def get_verb_classes(self, class_list=[]):
@@ -341,7 +339,6 @@ class Member(AbstractXML):
 
     def __init__(self, soup, vnc, version="3.3"):
         self.soup = soup
-        self.vnc = vnc
         self.version = version
         self.name = self.get_category('name')[0]
         self.wn = self.get_category('wn')

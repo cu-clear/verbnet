@@ -1,9 +1,11 @@
-import sys
+import sys, os
 
 local_verbnet_api_path = "../"
 
 sys.path.append(local_verbnet_api_path)
 from verbnet import *
+
+DOCTYPE = '<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">\n'
 
 def gen_sense_keys(members, count_dict):
     counts_dict = {}
@@ -36,6 +38,7 @@ def run_script():
         gen_sense_keys(members, count_dict)
 
         with open("sense_key_output/" + class_soup['ID'] + '.xml', 'w') as outfile:
+            outfile.write(DOCTYPE)
             outfile.write(class_soup.prettify())
 
 
