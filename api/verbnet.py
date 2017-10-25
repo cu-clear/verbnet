@@ -462,6 +462,8 @@ class Frame(AbstractXML):
             else:
                 self.soup.SEMANTICS.append(pred_soup)
 
+        self._reset_preds()
+
     def remove_predicates(self, remove_preds):
         '''
         Remove the predicate objects with a given name, or that matches a given member object
@@ -480,8 +482,11 @@ class Frame(AbstractXML):
                 if frame_pred.value == remove_pred.value and frame_pred.contains(remove_pred.args):
                     if frame_pred.soup.extract():
                         removed.append(frame_pred)
-
+        self._reset_preds()
         return removed
+
+    def _reset_preds(self):
+        self.predicates = [Predicate(pred, self.version) for pred in self.soup.SEMANTICS.find_all("PRED")]
 
 
 class ThematicRole(AbstractXML):

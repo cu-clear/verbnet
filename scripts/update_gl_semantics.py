@@ -9,14 +9,29 @@ def order_predicates(frame):
   """
   ad-hoc method to order predicates by event number
   """
+  predicates = frame.predicates.copy()
   preds_dict = {}
-  for predicate in frame.predicates:
+  for predicate in predicates:
     # Check for event in e1 - e10, to be safe (although doubtful theres any predicates with close to 10 events)
-    event = set([value for type, value in predicate.argtypes]).intersection(set(["e" + str(i) for i in range(10)]))
-    if event:
+    events = list(set([value for type, value in predicate.argtypes if type == "Event"]).intersection(set(["e" + str(i) for i in range(10)])))
+    print(set(["e" + str(i) for i in range(10)]))
+    print([value for type, value in predicate.argtypes if type == "Event"])
+    if events:
+      # remove event preds from the predicates list, so they can be added later in different position
+      predicates.remove(predicate)
       # Get the int part of, e.g. e1 for the key
-      preds_dict[int(event[1:])] = predicate
+      e = tuple([int(event[1:]) for event in events])
+      print(e)
+      preds_dict[e] = predicate
 
+  # Sort by event number, with predicates describing a single event first, and preds describing relationship between events after
+  # In python 3, .items() should sort by key
+  sorted_events = [v for k, v in preds_dict.items() if len(k) < 2]
+  sorted_events += [v for k, v in preds_dict.items() if len(k) > 1]
+
+  frame.remove_predicates(frame.predicates)
+  frame.add_predicates(predicates)
+  frame.add_predicates(sorted_events)
 
 
 def update_frame_with_gl(frame, gl_semantics_mappings=[]):
@@ -24,7 +39,7 @@ def update_frame_with_gl(frame, gl_semantics_mappings=[]):
   updated = False
 
   for mapping in gl_semantics_mappings:
-    old_preds, new_preds, keep_argtypes = mapping
+    old_preds, new_preds, discard_args = mapping
     new_preds = [copy.deepcopy(new_pred) for new_pred in new_preds]
 
     if frame.contains(old_preds):
@@ -33,23 +48,16 @@ def update_frame_with_gl(frame, gl_semantics_mappings=[]):
       removed_preds = frame.remove_predicates(old_preds)
       print("Adding %s predicate for %s" % (",".join([p.value[0] for p in new_preds]), frame.class_id()))
 
-      if keep_argtypes:
+      if discard_args:
         # We can only know which args to keep if there is only one 'old_pred' being removed
         if len(old_preds) == 1 and len(new_preds) == 1:
           removed_pred = removed_preds[0]
-          removed_pred.remove_args(old_preds[0].args)
-
-          keep_args = []
-          for argtype in keep_argtypes:
-            # For all of the argtypes that we want to transfer from removed pred to new pred,
-            # Add them to the new pred
-            keep_args += [arg for arg in removed_pred.args if arg["type"] == argtype]
-
-          new_preds[0].add_args(keep_args)
+          new_preds[0].add_args([arg for arg in removed_pred.args if (arg["type"], arg["value"]) not in discard_args])
         else:
-          raise Exception("Cannot keep args if a single mapping is not a one to one relationship")
+          raise Exception("Cannot transfer args if a single mapping is not a one to one relationship, empty the discard_args list in the ,mapping")
 
       frame.add_predicates(new_preds)
+      order_predicates(frame)
 
   return updated
 
@@ -59,7 +67,6 @@ def update_gl_semantics(matching_semantics, vn, gl_semantics_mappings=[], gold=[
   matching_semantics: list of lists of preds, or a list of frames, or both, which determine whether this class
   is one that requires the update
   gl_semantics_mappings: List of tuples of predicates to remove, and what to replace it with
-  keep_args: If there are args in the predicate being removed, other than those in the mapping, should they be kept or discareded?
   '''
   matches = []
   # track classes have frames that get updated

@@ -26,19 +26,19 @@ if __name__ == '__main__':
   # If there’s a CAUSE predicate:
   cause_pred = Predicate(soup('<PRED value="cause"></PRED>', 'lxml-xml').PRED)
 
-  # Mappings are each triples of ([preds to remove], [preds to replace with], [args from the removed to copy into the replacement])
+  # Mappings are each triples of ([preds to remove], [preds to replace with], [(argtype, argval), ... to be discarded from the old_predicate args in the resulting new predicate])
   mappings = [
     # Path_rel(Start(E), Role1, Role2…) -> has_state (e1, Role1, Role2…)
     ([Predicate(soup('<PRED value="path_rel"><ARG type="Event" value="start(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
      [Predicate(soup('<PRED value="has_state"><ARGS><ARG type="Event" value="e1"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     ["ThemRole"]),
+     [("VerbSpecific", "prep"), ("Constant", "ch_of_state")]),
      # Path_rel(Result(E), Role1…) -> has_state (e3, Role1…)
     ([Predicate(soup('<PRED value="path_rel"><ARG type="Event" value="result(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
      [Predicate(soup('<PRED value="has_state"><ARGS><ARG type="Event" value="e3"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     ["ThemRole"]),
+     [("VerbSpecific", "prep"), ("Constant", "ch_of_state")]),
     ([Predicate(soup('<PRED value="path_rel"><ARG type="Event" value="end(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
      [Predicate(soup('<PRED value="has_state"><ARGS><ARG type="Event" value="e3"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     ["ThemRole"]),
+     [("VerbSpecific", "prep"), ("Constant", "ch_of_state")]),
     # Cause(Agent, E) -> Do(e2, Agent) and Cause(e2, e3)
     ([Predicate(soup(
       '<PRED value="cause"><ARG type="ThemRole" value="Agent"></ARG><ARG type="Event" value="E"/></ARG></ARGS></PRED>',
