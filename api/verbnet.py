@@ -295,6 +295,9 @@ class VerbClass(AbstractXML):
         # so we can search by name and use [0]
         self.soup.MEMBERS.append(mem_soup)
 
+    def get_members(self):
+        return self.members
+
 
     def _frames(self):
         """Get all frames for a verb class, seems to be shared by all members
