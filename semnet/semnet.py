@@ -1,11 +1,11 @@
 import sys
 import getopt
 import json
-import itertools
 
 from csv import writer
 
 sys.path.append("../api/")
+sys.path.append("../semlink/")
 
 import verbnet
 import vnfn
@@ -13,10 +13,21 @@ import vnfn
 DEFAULT_VN_LOC = "../vn3.3.1-test/"
 DEFAULT_OUTPUT = "semnet3"
 WN_LOCATION = "/home/kevin/Lexical_Resources/Wordnet/WordNet-3.0/dict/"
-
+VN_OBJECTS_LOCATION = "../../vn_versions/vn_objects/"
 
 all_senses = None
 verb_data= None
+
+def get_vn_objects(verb, vnc, how_many=10):
+    try:
+        class_objects = [item.split(",")[0] for item in open(VN_OBJECTS_LOCATION + verb.name + "_" + vnc.class_id(subclasses=False).split("-")[1] + ".txt").readlines()[:how_many]]
+        print(verb.name, vnc.ID, class_objects)
+
+    except:
+        print (VN_OBJECTS_LOCATION + verb.name + "_" + vnc.class_id(subclasses=False).split("-")[1] + ".txt")
+        class_objects = []
+
+    return class_objects
 
 def get_wn_synset(sense_key):
     global all_senses, verb_data
@@ -48,7 +59,7 @@ def get_wn_synset(sense_key):
                                                 
 def build_semnet(vn):
     res = {}
-    mappings = vnfn.load_mappings("../api/semlink/vn-fn.s", as_dict=True)
+    mappings = vnfn.load_mappings("../semlink/vn-fn.s", as_dict=True)
 
     for cl in vn.get_verb_classes():
         new_id = cl.ID
@@ -74,7 +85,8 @@ def build_semnet(vn):
                            "restrictions": restrictions,
                            "frames": cl.frames,
                            "fn_frame":mappings[member.name + ":" + norm_id],
-                           "wn_synset":get_wn_synset(member.wn)}
+                           #"wn_synset":get_wn_synset(member.wn),
+                           "common_objects":get_vn_objects(member, cl)}
             
             if member.name in res:
                 res[member.name][cl.ID] = member_data
