@@ -8,14 +8,35 @@ from verbnet import *
 DOCTYPE = '<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">\n'
 
 def gen_sense_keys(members, count_dict):
-    counts_dict = {}
+    member_names = [member['name'] for member in members]
+
+    #Dictionary of duplicate members in different subclasses within the same class (e.g. "learn" and "read" in 14-1 and 14-2-1)
+    duplicate_members = {name: member_names.count(name) for name in member_names if member_names.count(name)>1}
+
+    #Print duplicates to terminal for reference
+    if len(duplicate_members) > 0:
+        for member in duplicate_members.keys(): print(member)
 
     for member in members:
         member_name = member['name']
         if member_name not in count_dict:
             count_dict[member_name] = 1
-        member['verbnet_key'] = member_name+'#'+str(count_dict[member_name])
-        count_dict[member_name] += 1
+
+        #For duplicate members within the same class:
+        if member_name in duplicate_members.keys():
+            #Save current count as verbnet_key identifier
+            member['verbnet_key'] = member_name+'#'+str(count_dict[member_name])
+
+            #Increment the count in the global count dictionary if this is the last instance of this member in the class
+            if duplicate_members[member_name] == 1:
+                count_dict[member_name] += 1
+
+            #Decrememnt duplicate count (to meet above IF-condition on encountering last member)
+            duplicate_members[member_name] -= 1
+            
+        else:
+            member['verbnet_key'] = member_name+'#'+str(count_dict[member_name])
+            count_dict[member_name] += 1
 
     return count_dict
 
