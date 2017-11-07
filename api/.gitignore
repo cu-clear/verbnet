@@ -1,6 +1,6 @@
 .idea/*
 *.pyc
-config.txt
+./config.txt
 html/*
 fn-html/*
 xml/*
