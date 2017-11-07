@@ -13,7 +13,7 @@ import vnfn
 DEFAULT_VN_LOC = "../vn3.3.1-test/"
 DEFAULT_OUTPUT = "semnet3"
 WN_LOCATION = "/home/kevin/Lexical_Resources/Wordnet/WordNet-3.0/dict/"
-VN_OBJECTS_LOCATION = "../vn_versions/vn_objects/"
+VN_OBJECTS_LOCATION = "../../vn_versions/vn_objects/"
 
 all_senses = None
 verb_data= None
@@ -21,10 +21,7 @@ verb_data= None
 def get_vn_objects(verb, vnc, how_many=10):
     try:
         class_objects = [item.split(",")[0] for item in open(VN_OBJECTS_LOCATION + verb.name + "_" + vnc.class_id(subclasses=False).split("-")[1] + ".txt").readlines()[:how_many]]
-        print(verb.name, vnc.ID, class_objects)
-
-    except:
-        print (VN_OBJECTS_LOCATION + verb.name + "_" + vnc.class_id(subclasses=False).split("-")[1] + ".txt")
+    except Exception as e:
         class_objects = []
 
     return class_objects
@@ -85,7 +82,8 @@ def build_semnet(vn):
                            "restrictions": restrictions,
                            "frames": cl.frames,
                            "fn_frame":mappings[member.name + ":" + norm_id],
-                           "wn_synset":get_wn_synset(member.wn),
+                           "vs_features":member.features,
+                           #"wn_synset":get_wn_synset(member.wn),
                            "common_objects":get_vn_objects(member, cl)}
             
             if member.name in res:
@@ -100,7 +98,7 @@ def write_semnet(semnet, output_file, output_format):
             semnet[member][vn_class]["predicates"] = set([p.value[0] for f in semnet[member][vn_class]["frames"] for p in f.predicates])
             semnet[member][vn_class].pop("frames", None) 
             semnet[member][vn_class]["themroles"] = list(set(semnet[member][vn_class]["themroles"]))
-            
+
             for component in semnet[member][vn_class].keys():
                 if component == "restrictions":
                     res = []
