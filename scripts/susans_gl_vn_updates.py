@@ -52,6 +52,27 @@ if __name__ == '__main__':
   ]
   updated_classes = update_gl_semantics([cos_pred, cause_pred], vn=vn, gl_semantics_mappings=mappings)
 
+  # Do the same thing without cause, and a simpler update, to catch all other ch_of_state
+  mappings = [
+    # Path_rel(Start(E), Role1, Role2…) -> has_state (e1, Role1, Role2…)
+    ([Predicate(
+      soup('<PRED value="path_rel"><ARG type="Event" value="start(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
+     [Predicate(
+       soup('<PRED value="has_state"><ARGS><ARG type="Event" value="e1"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
+     [("VerbSpecific", "prep"), ("Constant", "ch_of_state")]),
+    # Path_rel(Result(E), Role1…) -> has_state (e3, Role1…)
+    ([Predicate(
+      soup('<PRED value="path_rel"><ARG type="Event" value="result(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
+     [Predicate(
+       soup('<PRED value="has_state"><ARGS><ARG type="Event" value="e3"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
+     [("VerbSpecific", "prep"), ("Constant", "ch_of_state")]),
+    ([Predicate(soup('<PRED value="path_rel"><ARG type="Event" value="end(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
+    [Predicate(
+      soup('<PRED value="has_state"><ARGS><ARG type="Event" value="e3"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
+    [("VerbSpecific", "prep"), ("Constant", "ch_of_state")])
+  ]
+  updated_classes = update_gl_semantics([cos_pred, cause_pred], vn=vn, gl_semantics_mappings=mappings)
+
   for vnc in updated_classes:
     #print(vnc.ID)
     #print(frame.pp())
