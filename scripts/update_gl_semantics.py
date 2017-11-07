@@ -38,15 +38,11 @@ def order_predicates(frame):
   for predicate in predicates:
     # Check for event in e1 - e10, to be safe (although doubtful theres any predicates with close to 10 events)
     events = list(set([value for type, value in predicate.argtypes if type == "Event"]).intersection(set(["e" + str(i) for i in range(10)])))
-    print("===============")
-    print(predicate.value)
-    print([value for type, value in predicate.argtypes])
     if events:
       # Store the predicates that need to be sorted, and therefore removed (to be readded later)
       removes.append(predicate)
       # Get the int part of, e.g. e1 for the key
       e = tuple([int(event[1:]) for event in events])
-      print(e)
       # point to lists, in case of duplicate event numbers
       if preds_dict.get(e):
         preds_dict[e].append(predicate)
@@ -60,7 +56,6 @@ def order_predicates(frame):
   # In python 3, .items() should sort by key
   sorted_events = [val for k in sorted(preds_dict) for val in preds_dict[k] if len(list(preds_dict.keys())) < 2]
   sorted_events += [val for k in sorted(preds_dict) for val in preds_dict[k] if len(list(preds_dict.keys())) > 1]
-  print(sorted_events)
 
   frame.remove_predicates(frame.predicates)
   frame.add_predicates(sorted_events)
@@ -86,7 +81,7 @@ def update_frame_with_gl(frame, gl_semantics_mappings=[]):
         if len(old_preds) == 1 and len(new_preds) == 1:
           removed_pred = removed_preds[0]
           # Add back the args that are not being discarded, AND are not event types (those should always be replaced by the new arg)
-          new_preds[0].add_args([arg for arg in removed_pred.args if (arg["type"], arg["value"]) not in discard_args and arg["type"] != "Event"])
+          new_preds[0].add_args([arg for arg in removed_pred.args if (arg["type"], arg["value"]) not in discard_args and arg["type"] != "Event"], order="last")
         else:
           raise Exception("Cannot transfer args if a single mapping is not a one to one relationship, empty the discard_args list in the ,mapping")
 

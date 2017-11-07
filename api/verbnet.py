@@ -608,12 +608,23 @@ class Predicate(AbstractXML):
         # This will also return if there were no input preds to loop over
         return True
 
-    def add_args(self, add_args):
-        for add_arg in add_args:
+    def add_args(self, add_args, order="first"):
+        """
+        Add an ARG to a predicate
+
+         add_args: list of soup objects corresponding with the ARG node
+         order: optional, add it as the first or last arg. Default to first
+        """
+        for i, add_arg in enumerate(add_args):
             if type(add_arg) != bs4.element.Tag or add_arg.name != "ARG":
                 raise Exception("add_args only accepts a list of soup objects at the ARG node")
 
-            self.soup.ARGS.append(add_arg)
+            if order == "last":
+                self.soup.ARGS.append(add_arg)
+            elif order == "first":
+                self.soup.ARGS.insert(i, add_arg)
+            else:
+                raise Exception("order parameter must be 'first' or 'last'")
 
         self._reset_args()
 
