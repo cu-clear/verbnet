@@ -13,13 +13,14 @@ The repository contains three main components:
 </ul>
 
 Note that one method of pointing the API to the VerbNet XML is via a config.txt file, which you can create and into which you can enter text of the following format:
-'''
-# Set the path to where your VerbNet files live
+
+```
+//Set the path to where your VerbNet files live
 
 VERBNET_PATH_3.3 = path/to/verbnet_version3.3
 VERBNET_PATH_3.2 = path/to/verbnet_version3.2
 
 FRAMENET_MAPPING_PATH = path/to/framenet_mapping_file
-'''
+```
 
 
