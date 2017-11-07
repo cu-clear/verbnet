@@ -1,37 +1,70 @@
 import sys
 import copy
+import bs4
 local_verbnet_api_path = "/Users/ajwieme/verbs-projects/VerbNet/verbnet/api"
 sys.path.append(local_verbnet_api_path)
 
 from verbnet import *
 
+def update_event_args(predicate):
+  """
+  ad-hoc method to change args of type Event to the format of "e1"..."e3"
+  according to a mapping
+  """
+  EVENT_MAPPING = {
+                    "start(e)": "e1",
+                    "during(e)": "e2",
+                    "result(e)": "e3",
+                    "end(e)": "e3"
+                  }
+  for argtype, value in predicate.argtypes:
+    if argtype == "Event":
+      e = EVENT_MAPPING.get(value.lower())
+      old_argsoup = bs4.BeautifulSoup('<ARG type="%s" value="%s"/></ARG>' % (argtype, value), 'lxml-xml').ARG
+      new_argsoup = bs4.BeautifulSoup('<ARG type="%s" value="%s"/></ARG>' % (argtype, e), 'lxml-xml').ARG
+      if e:
+        predicate.remove_args([old_argsoup])
+        predicate.add_args([new_argsoup])
+
+  return predicate
+
 def order_predicates(frame):
   """
-  ad-hoc method to order predicates by event number
+  ad-hoc method to order predicates by event number, and add event numbers to events without them
   """
   predicates = frame.predicates.copy()
   preds_dict = {}
+  removes = []
   for predicate in predicates:
     # Check for event in e1 - e10, to be safe (although doubtful theres any predicates with close to 10 events)
     events = list(set([value for type, value in predicate.argtypes if type == "Event"]).intersection(set(["e" + str(i) for i in range(10)])))
-    print(set(["e" + str(i) for i in range(10)]))
-    print([value for type, value in predicate.argtypes if type == "Event"])
+    print("===============")
+    print(predicate.value)
+    print([value for type, value in predicate.argtypes])
     if events:
-      # remove event preds from the predicates list, so they can be added later in different position
-      predicates.remove(predicate)
+      # Store the predicates that need to be sorted, and therefore removed (to be readded later)
+      removes.append(predicate)
       # Get the int part of, e.g. e1 for the key
       e = tuple([int(event[1:]) for event in events])
       print(e)
-      preds_dict[e] = predicate
+      # point to lists, in case of duplicate event numbers
+      if preds_dict.get(e):
+        preds_dict[e].append(predicate)
+      else:
+        preds_dict[e] = [predicate]
 
+  # Remove the event preds that need to be sorted from the predicates list, so they can be readded below, in sorted order
+  for r in removes:
+    predicates.remove(r)
   # Sort by event number, with predicates describing a single event first, and preds describing relationship between events after
   # In python 3, .items() should sort by key
-  sorted_events = [v for k, v in preds_dict.items() if len(k) < 2]
-  sorted_events += [v for k, v in preds_dict.items() if len(k) > 1]
+  sorted_events = [val for k in sorted(preds_dict) for val in preds_dict[k] if len(list(preds_dict.keys())) < 2]
+  sorted_events += [val for k in sorted(preds_dict) for val in preds_dict[k] if len(list(preds_dict.keys())) > 1]
+  print(sorted_events)
 
   frame.remove_predicates(frame.predicates)
-  frame.add_predicates(predicates)
   frame.add_predicates(sorted_events)
+  frame.add_predicates(predicates)
 
 
 def update_frame_with_gl(frame, gl_semantics_mappings=[]):
@@ -52,13 +85,17 @@ def update_frame_with_gl(frame, gl_semantics_mappings=[]):
         # We can only know which args to keep if there is only one 'old_pred' being removed
         if len(old_preds) == 1 and len(new_preds) == 1:
           removed_pred = removed_preds[0]
-          new_preds[0].add_args([arg for arg in removed_pred.args if (arg["type"], arg["value"]) not in discard_args])
+          # Add back the args that are not being discarded, AND are not event types (those should always be replaced by the new arg)
+          new_preds[0].add_args([arg for arg in removed_pred.args if (arg["type"], arg["value"]) not in discard_args and arg["type"] != "Event"])
         else:
           raise Exception("Cannot transfer args if a single mapping is not a one to one relationship, empty the discard_args list in the ,mapping")
 
       frame.add_predicates(new_preds)
-      order_predicates(frame)
 
+  print("Updating names of event ARGS")
+  [update_event_args(predicate) for predicate in frame.predicates]
+  print("Ordering Predicates...")
+  order_predicates(frame)
   return updated
 
 

@@ -14,7 +14,7 @@ class Change():
     if change_type not in ['insert','delete','move','update']:
       raise Exception(change_type + " is not a valid change type")
     if change_type == 'move' and element_type != 'member':
-      raise Exception('cannot have a \'move\' type on an element that is not a member')
+      raise Exception('cannot have a  \'move\' type on an element that is not a member')
     #also should probably fail on invalid old_class, but would require VN class lookup (strict) or regex matching (loose)
     
     self.element_name = element_name

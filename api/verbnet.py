@@ -615,13 +615,13 @@ class Predicate(AbstractXML):
 
             self.soup.ARGS.append(add_arg)
 
+        self._reset_args()
+
     def remove_args(self, remove_args):
         '''
-          Remove the predicate objects with a given name, or that matches a given member object
-          from this class.
-
-          Returns the soup for the removed member
-          '''
+        Remove the matching soup for args of this predicate
+        Takes a list of soup objects corresponding to ARGS
+        '''
         removed = []
         for remove_arg in remove_args:
             if type(remove_arg) != bs4.element.Tag or remove_arg.name != "ARG":
