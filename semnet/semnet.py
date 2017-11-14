@@ -18,6 +18,9 @@ VN_OBJECTS_LOCATION = "../../vn_versions/vn_objects/"
 all_senses = None
 verb_data= None
 
+def get_on_definition(verb, sense=0):
+    return ""
+
 def get_vn_objects(verb, vnc, how_many=10):
     try:
         class_objects = [item.split(",")[0] for item in open(VN_OBJECTS_LOCATION + verb.name + "_" + vnc.class_id(subclasses=False).split("-")[1] + ".txt").readlines()[:how_many]]
@@ -93,31 +96,32 @@ def build_semnet(vn):
     return res
 
 def write_semnet(semnet, output_file, output_format):
-    for member in semnet.keys():
-        for vn_class in semnet[member]:
-            semnet[member][vn_class]["predicates"] = set([p.value[0] for f in semnet[member][vn_class]["frames"] for p in f.predicates])
-            semnet[member][vn_class].pop("frames", None) 
-            semnet[member][vn_class]["themroles"] = list(set(semnet[member][vn_class]["themroles"]))
-
-            for component in semnet[member][vn_class].keys():
-                if component == "restrictions":
-                    res = []
-                    for r in semnet[member][vn_class]["restrictions"]:
-                        res.append([r[0], r[1:]])
-                    semnet[member][vn_class]["restrictions"] = str(res).translate({ord("'"):None, ord('['):ord('{'), ord("]"):ord("}")})
-                    
-                elif component == "fn_frame":
-                    pass
-                else:
-                    try:
-                        semnet[member][vn_class][component] = " ".join(semnet[member][vn_class][component])
-                    except:
-                        pass
-                
     if output_format == "json":
         with open(output_file, 'w') as output:
             json.dump(semnet, output)
     elif output_format == "csv":
+
+        for member in semnet.keys():
+            for vn_class in semnet[member]:
+                semnet[member][vn_class]["predicates"] = set([p.value[0] for f in semnet[member][vn_class]["frames"] for p in f.predicates])
+                #semnet[member][vn_class].pop("frames", None)
+                semnet[member][vn_class]["themroles"] = list(set(semnet[member][vn_class]["themroles"]))
+
+                for component in semnet[member][vn_class].keys():
+                    if component == "restrictions":
+                        res = []
+                        for r in semnet[member][vn_class]["restrictions"]:
+                            res.append([r[0], r[1:]])
+                        semnet[member][vn_class]["restrictions"] = str(res).translate({ord("'"):None, ord('['):ord('{'), ord("]"):ord("}")})
+
+                    elif component == "fn_frame":
+                        pass
+                    else:
+                        try:
+                            semnet[member][vn_class][component] = " ".join(semnet[member][vn_class][component])
+                        except Exception as e:
+                            pass
+                
         with open(output_file, 'w') as output:
             output_writer = writer(output, delimiter=';')
 
