@@ -1,7 +1,8 @@
 import sys
 import getopt
 import json
-
+import lxml
+import os
 from csv import writer
 
 sys.path.append("../api/")
@@ -12,14 +13,26 @@ import vnfn
 
 DEFAULT_VN_LOC = "../vn3.3.1-test/"
 DEFAULT_OUTPUT = "semnet3"
-WN_LOCATION = "/home/kevin/Lexical_Resources/Wordnet/WordNet-3.0/dict/"
-VN_OBJECTS_LOCATION = "../../vn_versions/vn_objects/"
+WN_LOCATION = "../../lexical_resources/Wordnet-3.0/dict/"
+VN_OBJECTS_LOCATION = "../../lexical_resources/vn_objects/"
+ON_LOCATION = "../../lexical_resources/on_frames/"
 
 all_senses = None
 verb_data= None
 
 def get_on_definition(verb, sense=0):
-    return ""
+    verb = verb.split("_")[0] + "-v.xml"
+    res = []
+    if verb in os.listdir(ON_LOCATION):
+        with open(ON_LOCATION + verb) as f:
+            on_tree = lxml.etree.parse(f)
+            for roleset_element in on_tree.getroot().findall(".//roleset"):
+                if not sense or (roleset_element.get("vncls") and sense in roleset_element.get("vncls").split()):
+                    res.append(roleset_element.get("name"))
+    if len(res) > 1:
+        print (verb, res)
+    return res
+
 
 def get_vn_objects(verb, vnc, how_many=10):
     try:
@@ -45,18 +58,30 @@ def get_wn_synset(sense_key):
             if k + "::" in all_senses:
                 k = k + "::"
             else:
-                return None
+                return []
     
         byte_offset = all_senses[k][1]
 
         if byte_offset not in verb_data.keys():
-            return None
+            return []
         else:
             words_in_synset = int(verb_data[byte_offset][3], 16)
             synonyms.update([verb_data[byte_offset][w] for w in range(4, 4+(words_in_synset*2), 2)])
-    return synonyms
+    return list(synonyms)
 
-                                                
+def extract_predicates(frames):
+    res = set()
+
+    for frame in frames:
+        for pred in frame.predicates:
+            if (pred.value == ["path_rel"]):
+                for a in pred.args:
+                    if a["type"] == "Constant":
+                        res.add(a["value"])
+            else:
+                res.add(pred.value[0])
+    return list(res)
+
 def build_semnet(vn):
     res = {}
     mappings = vnfn.load_mappings("../semlink/vn-fn.s", as_dict=True)
@@ -81,19 +106,23 @@ def build_semnet(vn):
                 mappings[member.name + ":" + norm_id] = ""
 
             member_data = {"wn": member.wn,
-                           "themroles":[r.role_type for r in full_themroles],
+                           "themroles":list(set([r.role_type for r in full_themroles])),
                            "restrictions": restrictions,
-                           "frames": cl.frames,
                            "fn_frame":mappings[member.name + ":" + norm_id],
+                           "predicates": extract_predicates(cl.frames),
+                           "syn_frames":[f.pp_syntax() for f in cl.frames],
                            "vs_features":member.features,
-                           #"wn_synset":get_wn_synset(member.wn),
-                           "common_objects":get_vn_objects(member, cl)}
-            
+                           "wn_synset":get_wn_synset(member.wn),
+                           "common_objects":get_vn_objects(member, cl),
+                           "on_definition":get_on_definition(member.name, cl.numerical_ID)
+                           }
+
             if member.name in res:
                 res[member.name][cl.ID] = member_data
             else:
                 res[member.name] = {cl.ID:member_data}
     return res
+
 
 def write_semnet(semnet, output_file, output_format):
     if output_format == "json":
@@ -103,9 +132,6 @@ def write_semnet(semnet, output_file, output_format):
 
         for member in semnet.keys():
             for vn_class in semnet[member]:
-                semnet[member][vn_class]["predicates"] = set([p.value[0] for f in semnet[member][vn_class]["frames"] for p in f.predicates])
-                #semnet[member][vn_class].pop("frames", None)
-                semnet[member][vn_class]["themroles"] = list(set(semnet[member][vn_class]["themroles"]))
 
                 for component in semnet[member][vn_class].keys():
                     if component == "restrictions":
@@ -169,8 +195,8 @@ def main(argv=None):
     print('writing to   :  ' + output_file)
 
     sn = build_semnet(verbnet.VerbNetParser(directory=input_dir))
-#    write_semnet(sn, output_file+".json", "json")
-    write_semnet(sn, output_file+".csv", "csv")
+    write_semnet(sn, output_file+".json", "json")
+#    write_semnet(sn, output_file+".csv", "csv")
 
 if __name__ == "__main__":
     sys.exit(main())
