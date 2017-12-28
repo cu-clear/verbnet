@@ -11,26 +11,35 @@ sys.path.append("../semlink/")
 import verbnet
 import vnfn
 
+from nltk.corpus import wordnet as wn
+from nltk.corpus.reader.wordnet import WordNetError
+
 DEFAULT_VN_LOC = "../vn3.3.1-test/"
 DEFAULT_OUTPUT = "semnet3"
 WN_LOCATION = "../../lexical_resources/Wordnet-3.0/dict/"
 VN_OBJECTS_LOCATION = "../../lexical_resources/vn_objects/"
-ON_LOCATION = "../../lexical_resources/on_frames/"
+ON_LOCATION = "../../lexical_resources/sense-inventories/"
 
 all_senses = None
-verb_data= None
+verb_data = None
 
-def get_on_definition(verb, sense=0):
+
+def get_on_definition(verb, sense):
+    if not sense:
+        return []
+
+    senses = [str(int(s.split(".")[1])) for s in sense]
     verb = verb.split("_")[0] + "-v.xml"
+
     res = []
     if verb in os.listdir(ON_LOCATION):
         with open(ON_LOCATION + verb) as f:
             on_tree = lxml.etree.parse(f)
-            for roleset_element in on_tree.getroot().findall(".//roleset"):
-                if not sense or (roleset_element.get("vncls") and sense in roleset_element.get("vncls").split()):
-                    res.append(roleset_element.get("name"))
-    if len(res) > 1:
-        print (verb, res)
+
+            for s in senses:
+                for roleset_element in on_tree.getroot().findall(".//sense"):
+                    if roleset_element.get("n") and s in roleset_element.get("n").split():
+                        res.append(roleset_element.get("name"))
     return res
 
 
@@ -41,6 +50,28 @@ def get_vn_objects(verb, vnc, how_many=10):
         class_objects = []
 
     return class_objects
+
+
+def get_wn_supertype(sense_keys, level=2):
+    if type(sense_keys) != list:
+        sense_keys = [sense_keys]
+
+    hier_paths = []
+
+    for sk in sense_keys:
+        sk = sk.replace("?", "")
+        try:
+            lemm = wn.lemma_from_key(sk)
+        except ValueError as e:
+            try:
+                lemm = wn.lemma_from_key(sk + "::")
+            except WordNetError as e2:
+                print (sk)
+                break
+
+        hier_paths.extend(lemm.synset().hypernym_paths())
+    return [p[level].name() for p in hier_paths]
+
 
 def get_wn_synset(sense_key):
     global all_senses, verb_data
@@ -69,18 +100,20 @@ def get_wn_synset(sense_key):
             synonyms.update([verb_data[byte_offset][w] for w in range(4, 4+(words_in_synset*2), 2)])
     return list(synonyms)
 
+
 def extract_predicates(frames):
     res = set()
 
     for frame in frames:
         for pred in frame.predicates:
-            if (pred.value == ["path_rel"]):
+            if pred.value == ["path_rel"]:
                 for a in pred.args:
                     if a["type"] == "Constant":
                         res.add(a["value"])
             else:
                 res.add(pred.value[0])
     return list(res)
+
 
 def build_semnet(vn):
     res = {}
@@ -113,8 +146,9 @@ def build_semnet(vn):
                            "syn_frames":[f.pp_syntax() for f in cl.frames],
                            "vs_features":member.features,
                            "wn_synset":get_wn_synset(member.wn),
+                           "wn_supertype":get_wn_supertype(member.wn, 0),
                            "common_objects":get_vn_objects(member, cl),
-                           "on_definition":get_on_definition(member.name, cl.numerical_ID)
+                           "on_definition":get_on_definition(member.name, member.grouping)
                            }
 
             if member.name in res:
@@ -172,7 +206,7 @@ def main(argv=None):
     if argv is None:
         argv = sys.argv
     try:
-        opts, args = getopt.getopt(argv[1:], "hi:o:j", ["help", "input=", "output=", "json"])
+        opts, args = getopt.getopt(argv[1:], "hi:o:", ["help", "input=", "output="])
     except Exception as e:
         print(e)
         print("Error in args : " + str(argv[1:]))
@@ -188,9 +222,7 @@ def main(argv=None):
             output_file = o[1]
         if o[0] in ["-h", "--help"]:
             print_help()
-        if o[0] in ["-j", "--json"]:
-            generate_json = True
-            
+
     print('input dir    :  ' + input_dir)
     print('writing to   :  ' + output_file)
 
