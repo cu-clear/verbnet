@@ -112,6 +112,7 @@ def update_gl_semantics(matching_semantics, vn, gl_semantics_mappings=[], gold=[
     if vnc.is_subclass():
       continue
     updated_class = False
+    print("============CHECKING %s============" % vnc.ID)
     for frame in vnc.frames_and_subclass_frames():
       # If its one flat list of predicates, just check if frame.contains that list of preds
       if matching_semantics and type(matching_semantics[0]) == Predicate:
