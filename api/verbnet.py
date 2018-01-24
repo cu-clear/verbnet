@@ -358,6 +358,13 @@ class Member(AbstractXML):
     def __gt__(self, other):
         return self.name > other.name
 
+    def update_name(self, name):
+        """
+        Update the name of a Member, and it's soup for XML output
+        """
+        self.name = name
+        self.soup["name"] = name
+
 
 class Frame(AbstractXML):
     """Represents a single verb frame in VerbNet, with a description, examples,
