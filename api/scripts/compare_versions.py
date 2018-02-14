@@ -8,6 +8,9 @@ import search
 import itertools
 
 class Change():
+  """
+  Class to represent a change, this will be the value pointed to by a class name key
+  """
   def __init__(self, element_name, element_type, change_type, old_class=None, notes=""):
     if element_type not in ['member','role','frame']:
       raise Exception(element_type + " is not a valid element type")
@@ -67,19 +70,19 @@ def compare_members(from_vn_members, to_vn_members):
       for possible_to_vn_member in possible_to_vn_members:
         if len(search.find_members(from_vn_members, class_ID=possible_to_vn_member.class_id(), name=from_vn_member.name)) == 0:
           to_vn_member = possible_to_vn_member
-          changes.append(Change(from_vn_member.name[0], "member", "move", from_vn_member.class_id()))
+          changes.append(Change(from_vn_member.name, "member", "move", from_vn_member.class_id()))
           # Compare the attributes
           attr_diffs = from_vn_member.compare_attrs(to_vn_member)
     elif len(possible_to_vn_members) == 1:
       to_vn_member = possible_to_vn_members[0]
-      changes.append(Change(from_vn_member.name[0], "member", "move", from_vn_member.class_id()))
+      changes.append(Change(from_vn_member.name, "member", "move", from_vn_member.class_id()))
       # Compare the attributes
       attr_diffs = from_vn_member.compare_attrs(to_vn_member)
     else:
-      changes.append(Change(from_vn_member.name[0], "member", "delete", from_vn_member.class_id()))
+      changes.append(Change(from_vn_member.name, "member", "delete", from_vn_member.class_id()))
 
     if attr_diffs:  # If member has updates to its attributes
-      changes.append(Change(from_vn_member.name[0], "member", "update", from_vn_member.class_id(), ', '.join(["%s: %s" % (attr, diff) for attr, diff in attr_diffs.items()])))
+      changes.append(Change(from_vn_member.name, "member", "update", from_vn_member.class_id(), ', '.join(["%s: %s" % (attr, diff) for attr, diff in attr_diffs.items()])))
 
     if changes:
       all_changes[to_vn_member.class_id() if to_vn_member else to_vn_member] = changes
@@ -90,10 +93,10 @@ def compare_members(from_vn_members, to_vn_members):
     Get string name in order to hash it for the set,
     and then change it back to a list in order to work with search.find_members
   '''
-  for name, class_ID in list(set([(m.name[0], m.class_id()) for m in to_vn_members]) - set([(m.name[0], m.class_id()) for m in from_vn_members])):
+  for name, class_ID in list(set([(m.name, m.class_id()) for m in to_vn_members]) - set([(m.name, m.class_id()) for m in from_vn_members])):
     inserted_member = search.find_members(to_vn_members, class_ID=class_ID, name=[name])
     if inserted_member:
-      all_changes.setdefault(inserted_member[0].class_id(), []).append(Change(inserted_member[0].name[0], "member", "insert", notes=inserted_member[0].pp()))
+      all_changes.setdefault(inserted_member[0].class_id(), []).append(Change(inserted_member[0].name, "member", "insert", notes=inserted_member[0].pp()))
 
   return all_changes
 
@@ -101,7 +104,7 @@ def compare_themroles(from_vn_themroles, to_vn_themroles):
   '''
     returns a dict of {to_vn_class: [Change objects]}
 
-    update: themrole still in class, but selectional restricyions changed
+    update: themrole still in class, but selectional restrictions changed
     delete: themrole removed from class
     insert: themrole inserted to the class
   '''
@@ -137,10 +140,10 @@ def compare_themroles(from_vn_themroles, to_vn_themroles):
 
 
 def compare_frames(from_vn_frames, to_vn_frames):
-  '''
-    Just like with members, but frames have nested
-    that can undergo the same operations
-  '''
+  """
+  Same idea, but with frames, but frames have nested
+  that can undergo the same operations
+  """
   all_changes = {}
 
   for to_vn_frame in to_vn_frames:
@@ -149,6 +152,9 @@ def compare_frames(from_vn_frames, to_vn_frames):
   return True
 
 def compare_semantics(from_vn_semantics, to_vn_semantics):
+  """
+  Same idea, but with semantics
+  """
   semantic_comparisons = {}
 
   # A predicate has been deleted from the semantic frame
@@ -209,16 +215,20 @@ to_vn = VerbNetParser(version="3.3")
 
 #print(compare_syntax(from_vn.get_verb_class("hold-15.1").frames[0].syntax, to_vn.get_verb_class("hurt-40.8.3").subclasses[0].frames[0].syntax))
 
-#from_vn_members = from_vn.get_members()
-#to_vn_members = to_vn.get_members()
-
-from_vn_themroles = from_vn.get_themroles()
-to_vn_themroles = to_vn.get_themroles()
-
-x = compare_themroles(from_vn_themroles, to_vn_themroles)
+from_vn_members = from_vn.get_members()
+to_vn_members = to_vn.get_members()
+x = compare_members(from_vn_members=from_vn_members, to_vn_members=to_vn_members)
 
 for k, v in x.items():
   print({k: [change.__dict__ for change in v]})
+
+#from_vn_themroles = from_vn.get_themroles()
+#to_vn_themroles = to_vn.get_themroles()
+
+#x = compare_themroles(from_vn_themroles, to_vn_themroles)
+
+#for k, v in x.items():
+#  print({k: [change.__dict__ for change in v]})
 
 
 
