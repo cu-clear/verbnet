@@ -82,6 +82,7 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
@@ -95,6 +96,7 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
@@ -123,6 +125,7 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
@@ -136,6 +139,7 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
@@ -172,6 +176,7 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
@@ -185,6 +190,7 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
@@ -250,14 +256,8 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="Initial_Location"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="e2"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED value="do">
@@ -266,16 +266,24 @@
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
-                <PRED value="has_location">
+                <PRED value="motion">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
                         <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -306,14 +314,8 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="Initial_Location"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="e2"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED value="do">
@@ -322,16 +324,24 @@
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
-                <PRED value="has_location">
+                <PRED value="motion">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
                         <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -370,14 +380,8 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="Initial_Location"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="e2"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED value="do">
@@ -386,16 +390,24 @@
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
-                <PRED value="has_location">
+                <PRED value="motion">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
                         <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -441,6 +453,7 @@
                         <PRED value="has_location">
                             <ARGS>
                                 <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme "/>
                                 <ARG type="ThemRole" value="Initial_Location"/>
                             </ARGS>
                         </PRED>
@@ -452,29 +465,30 @@
                                 <ARG type="ThemRole" value="Destination"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="motion">
-                            <ARGS>
-                                <ARG type="Event" value="e2"/>
-                                <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="Trajectory"/>
-                            </ARGS>
-                        </PRED>
                         <PRED value="do">
                             <ARGS>
                                 <ARG type="Event" value="e2"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="has_location">
+                        <PRED value="motion">
                             <ARGS>
                                 <ARG type="Event" value="e3"/>
-                                <ARG type="ThemRole" value="Destination"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Trajectory"/>
                             </ARGS>
                         </PRED>
                         <PRED value="cause">
                             <ARGS>
                                 <ARG type="Event" value="e2"/>
                                 <ARG type="Event" value="e3"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e4"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Destination"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

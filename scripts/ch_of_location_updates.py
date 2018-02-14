@@ -26,15 +26,15 @@ if __name__ == '__main__':
 
   initial_location = Predicate(
     soup(
-      '<PRED value="has_location"><ARGS><ARG type="Event" value="e1"></ARG><ARG type="ThemRole" value="Initial_Location"></ARG></ARGS></PRED>',
+      '<PRED value="has_location"><ARGS><ARG type="Event" value="e1"></ARG><ARG type="ThemRole" value="Theme "></ARG><ARG type="ThemRole" value="Initial_Location"></ARG></ARGS></PRED>',
       'lxml-xml').PRED)
   motion = Predicate(
     soup(
-      '<PRED value="motion"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="ThemRole" value="Theme"></ARG><ARG type="ThemRole" value="Trajectory"></ARG></ARGS></PRED>',
+      '<PRED value="motion"><ARGS><ARG type="Event" value="e3"></ARG><ARG type="ThemRole" value="Theme"></ARG><ARG type="ThemRole" value="Trajectory"></ARG></ARGS></PRED>',
       'lxml-xml').PRED)
   destination = Predicate(
     soup(
-      '<PRED value="has_location"><ARGS><ARG type="Event" value="e3"></ARG><ARG type="ThemRole" value="Destination"></ARG></ARGS></PRED>',
+      '<PRED value="has_location"><ARGS><ARG type="Event" value="e4"></ARG><ARG type="ThemRole" value="Theme"></ARG><ARG type="ThemRole" value="Destination"></ARG></ARGS></PRED>',
       'lxml-xml').PRED)
 
   mappings = [
@@ -48,15 +48,37 @@ if __name__ == '__main__':
        'lxml-xml').PRED),
       Predicate(soup(
         '<PRED value="cause"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="Event" value="e3"></ARG></ARGS></PRED>',
+        'lxml-xml').PRED)], []),
+    ([Predicate(soup(
+      '<PRED value="cause"><ARG type="ThemRole" value="Agent"></ARG><ARG type="Event" value="E0"/></ARG></ARGS></PRED>',
+      'lxml-xml').PRED)], [Predicate(soup(
+       '<PRED value="do"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="ThemRole" value="Agent"></ARGS></PRED>',
+       'lxml-xml').PRED),
+      Predicate(soup(
+        '<PRED value="cause"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="Event" value="e3"></ARG></ARGS></PRED>',
         'lxml-xml').PRED)], [])
+
   ]
 
   updated_classes = update_gl_semantics([col_pred, cause_pred], vn=vn, gl_semantics_mappings=mappings)
 
+  initial_location2 = Predicate(
+    soup(
+      '<PRED value="has_location"><ARGS><ARG type="Event" value="e1"></ARG><ARG type="ThemRole" value="Theme "></ARG><ARG type="ThemRole" value="Initial_Location"></ARG></ARGS></PRED>',
+      'lxml-xml').PRED)
+  motion2 = Predicate(
+    soup(
+      '<PRED value="motion"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="ThemRole" value="Theme"></ARG><ARG type="ThemRole" value="Trajectory"></ARG></ARGS></PRED>',
+      'lxml-xml').PRED)
+  destination2 = Predicate(
+    soup(
+      '<PRED value="has_location"><ARGS><ARG type="Event" value="e3"></ARG><ARG type="ThemRole" value="Theme"></ARG><ARG type="ThemRole" value="Destination"></ARG></ARGS></PRED>',
+      'lxml-xml').PRED)
+
   # Do the same thing without cause, and a simpler update, to catch all other ch_of_location
   mappings = [
     ([col_pred, Predicate(soup('<PRED value="motion"><ARGS></ARGS></PRED>', 'lxml-xml').PRED)],
-     [initial_location, motion, destination], [])]
+     [initial_location2, motion2, destination2], [])]
 
   updated_classes = update_gl_semantics([col_pred], vn=vn, gl_semantics_mappings=mappings)
   """

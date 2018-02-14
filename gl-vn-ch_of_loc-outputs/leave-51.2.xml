@@ -40,6 +40,7 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
@@ -53,6 +54,7 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
@@ -84,6 +86,7 @@
                         <PRED value="has_location">
                             <ARGS>
                                 <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme "/>
                                 <ARG type="ThemRole" value="Initial_Location"/>
                             </ARGS>
                         </PRED>
@@ -97,6 +100,7 @@
                         <PRED value="has_location">
                             <ARGS>
                                 <ARG type="Event" value="e3"/>
+                                <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Destination"/>
                             </ARGS>
                         </PRED>
