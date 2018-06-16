@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Link
-Name=Examples
-Comment=Example content for Ubuntu
-URL=file:///usr/share/example-content/
-Icon=folder
-X-Ubuntu-Gettext-Domain=example-content
-
