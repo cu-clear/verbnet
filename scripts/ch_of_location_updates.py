@@ -3,24 +3,10 @@ from verbnet import *
 from sys import argv, stderr
 from bs4 import BeautifulSoup as soup
 
-if __name__ == '__main__':
-  if len(argv) == 2:
-    output_dir = argv[1]
-    input_dir = None
-  elif len(argv) == 3:
-    input_dir = argv[1]
-    output_dir = argv[2]
-  else:
-    stderr.write(("USAGE: python %s (optional) input_dir output_dir") % argv[0])
-    exit(1)
-
-  if input_dir:
-    vn = VerbNetParser(directory=input_dir)
-  else:
-    vn = VerbNetParser()
-
+def get_updated_classes(vn):
   # Change of location Predicate
-  col_pred = Predicate(soup('<PRED value="path_rel"><ARGS><ARG type="Constant" value="ch_of_loc"/></ARGS></PRED>', 'lxml-xml').PRED)
+  col_pred = Predicate(
+    soup('<PRED value="path_rel"><ARGS><ARG type="Constant" value="ch_of_loc"/></ARGS></PRED>', 'lxml-xml').PRED)
   # If there’s a CAUSE predicate:
   cause_pred = Predicate(soup('<PRED value="cause"></PRED>', 'lxml-xml').PRED)
 
@@ -52,11 +38,11 @@ if __name__ == '__main__':
     ([Predicate(soup(
       '<PRED value="cause"><ARG type="ThemRole" value="Agent"></ARG><ARG type="Event" value="E0"/></ARG></ARGS></PRED>',
       'lxml-xml').PRED)], [Predicate(soup(
-       '<PRED value="do"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="ThemRole" value="Agent"></ARGS></PRED>',
-       'lxml-xml').PRED),
-      Predicate(soup(
-        '<PRED value="cause"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="Event" value="e3"></ARG></ARGS></PRED>',
-        'lxml-xml').PRED)], [])
+      '<PRED value="do"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="ThemRole" value="Agent"></ARGS></PRED>',
+      'lxml-xml').PRED),
+                           Predicate(soup(
+                             '<PRED value="cause"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="Event" value="e3"></ARG></ARGS></PRED>',
+                             'lxml-xml').PRED)], [])
 
   ]
 
@@ -81,58 +67,26 @@ if __name__ == '__main__':
      [initial_location2, motion2, destination2], [])]
 
   updated_classes = update_gl_semantics([col_pred], vn=vn, gl_semantics_mappings=mappings)
-  """
-  OLD MAPPINGS FOR BOTH CASES
 
-  # Mappings are each triples of ([preds to remove], [preds to replace with], [(argtype, argval), ... to be discarded from the old_predicate args in the resulting new predicate])
-  mappings = [
-    ([Predicate(soup('<PRED value="path_rel"><ARG type="Event" value="start(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [Predicate(soup('<PRED value="has_location"><ARGS><ARG type="Event" value="e1"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [("VerbSpecific", "prep"), ("Constant", "ch_of_loc")]),
-    ([Predicate(
-      soup('<PRED value="path_rel"><ARG type="Event" value="during(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [Predicate(
-       soup('<PRED value="motion"><ARGS><ARG type="Event" value="e3"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [("VerbSpecific", "prep"), ("Constant", "ch_of_loc")]),
-    ([Predicate(soup('<PRED value="path_rel"><ARG type="Event" value="result(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [Predicate(soup('<PRED value="has_location"><ARGS><ARG type="Event" value="e4"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [("VerbSpecific", "prep"), ("Constant", "ch_of_loc")]),
-    ([Predicate(soup('<PRED value="path_rel"><ARG type="Event" value="end(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [Predicate(soup('<PRED value="has_location"><ARGS><ARG type="Event" value="e4"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [("VerbSpecific", "prep"), ("Constant", "ch_of_loc")]),
-    ([Predicate(soup(
-      '<PRED value="cause"><ARG type="ThemRole" value="Agent"></ARG><ARG type="Event" value="E"/></ARG></ARGS></PRED>',
-      'lxml-xml').PRED)],
-     [Predicate(soup(
-       '<PRED value="do"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="ThemRole" value="Agent"></ARGS></PRED>',
-       'lxml-xml').PRED),
-      Predicate(soup(
-        '<PRED value="cause"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="Event" value="e3"></ARG></ARGS></PRED>',
-        'lxml-xml').PRED)], [])
-  ]
-  mappings = [
-    ([Predicate(
-      soup('<PRED value="path_rel"><ARG type="Event" value="start(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [Predicate(
-       soup('<PRED value="has_location"><ARGS><ARG type="Event" value="e1"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [("VerbSpecific", "prep"), ("Constant", "ch_of_loc")]),
-    ([Predicate(
-      soup('<PRED value="path_rel"><ARG type="Event" value="during(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [Predicate(
-       soup('<PRED value="motion"><ARGS><ARG type="Event" value="e2"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [("VerbSpecific", "prep"), ("Constant", "ch_of_loc")]),
-    ([Predicate(
-      soup('<PRED value="path_rel"><ARG type="Event" value="result(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [Predicate(
-       soup('<PRED value="has_location"><ARGS><ARG type="Event" value="e3"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-     [("VerbSpecific", "prep"), ("Constant", "ch_of_loc")]),
-    ([Predicate(soup('<PRED value="path_rel"><ARG type="Event" value="end(E)"/></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-    [Predicate(
-      soup('<PRED value="has_location"><ARGS><ARG type="Event" value="e3"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
-    [("VerbSpecific", "prep"), ("Constant", "ch_of_loc")])
-  ]
-  updated_classes = update_gl_semantics([col_pred], vn=vn, gl_semantics_mappings=mappings)
-  """
+  return updated_classes
+
+if __name__ == '__main__':
+  if len(argv) == 2:
+    output_dir = argv[1]
+    input_dir = None
+  elif len(argv) == 3:
+    input_dir = argv[1]
+    output_dir = argv[2]
+  else:
+    stderr.write(("USAGE: python %s (optional) input_dir output_dir") % argv[0])
+    exit(1)
+
+  if input_dir:
+    vn = VerbNetParser(directory=input_dir)
+  else:
+    vn = VerbNetParser()
+
+  updated_classes = get_updated_classes(vn)
 
   for vnc in updated_classes:
     #print(vnc.ID)

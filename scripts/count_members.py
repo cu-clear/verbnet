@@ -1,4 +1,4 @@
-from verbnet.api.verbnet import *
+from api.verbnet import *
 from sys import argv, stderr
 from bs4 import BeautifulSoup as soup
 

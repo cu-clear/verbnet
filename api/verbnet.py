@@ -219,6 +219,7 @@ class VerbClass(AbstractXML):
 
     def __init__(self, soup, version="3.3"):
         self.soup = soup
+        print(self.get_category("ID", self.soup))
         try:
             self.ID = self.get_category("ID", self.soup)[0]
         except IndexError:
