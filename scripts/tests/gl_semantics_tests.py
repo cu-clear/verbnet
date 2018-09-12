@@ -15,7 +15,7 @@ location_gold=["put-9.1", "put_spatial-9.2", "funnel-9.3", "put_direction-9.4", 
 location_classes = ch_of_location_updates.get_updated_classes(vn)
 location_classnames = [c.ID for c in location_classes]
 for c in location_gold:
-  assert c in location_classnames
+  assert c in location_classnames, "%s not found in updated class list!" % c
 
 # CHANGE_OF_POSSESSION
 possession_gold = ["give-13.1", "contribute-13.2", "future_having-13.3", "fulfilling-13.4.1", "equip-13.4.2", "get-13.5.1", "obtain-13.5.2", "hire-13.5.3", "exchange-13.6", "berry-13.7", "pay-68"]
