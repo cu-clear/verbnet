@@ -61,7 +61,7 @@ def get_updated_classes(vn):
       soup('<PRED value="has_state"><ARGS><ARG type="Event" value="e3"></ARG></ARGS></PRED>', 'lxml-xml').PRED)],
     [("VerbSpecific", "prep"), ("Constant", "ch_of_state")])
   ]
-  updated_classes = update_gl_semantics([cos_pred], vn=vn, gl_semantics_mappings=mappings)
+  updated_classes += update_gl_semantics([cos_pred], vn=vn, gl_semantics_mappings=mappings)
 
   return updated_classes
 

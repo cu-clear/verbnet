@@ -23,6 +23,8 @@ def get_updated_classes(vn):
       '<PRED value="has_location"><ARGS><ARG type="Event" value="e4"></ARG><ARG type="ThemRole" value="Theme"></ARG><ARG type="ThemRole" value="Destination"></ARG></ARGS></PRED>',
       'lxml-xml').PRED)
 
+  # Mappings are each triples of ([preds to remove], [preds to replace with], [(argtype, argval), ...
+  # to be discarded from the old_predicate args in the resulting new predicate])
   mappings = [
     ([col_pred, Predicate(soup('<PRED value="motion"><ARGS></ARGS></PRED>', 'lxml-xml').PRED)],
      [initial_location, motion, destination], []),
@@ -40,13 +42,13 @@ def get_updated_classes(vn):
       'lxml-xml').PRED)], [Predicate(soup(
       '<PRED value="do"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="ThemRole" value="Agent"></ARGS></PRED>',
       'lxml-xml').PRED),
-                           Predicate(soup(
-                             '<PRED value="cause"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="Event" value="e3"></ARG></ARGS></PRED>',
-                             'lxml-xml').PRED)], [])
+      Predicate(soup(
+      '<PRED value="cause"><ARGS><ARG type="Event" value="e2"></ARG><ARG type="Event" value="e3"></ARG></ARGS></PRED>',
+      'lxml-xml').PRED)], [])
 
   ]
 
-  updated_classes = update_gl_semantics([col_pred, cause_pred], vn=vn, gl_semantics_mappings=mappings)
+  classes = update_gl_semantics([col_pred, cause_pred], vn=vn, gl_semantics_mappings=mappings)
 
   initial_location2 = Predicate(
     soup(
@@ -66,9 +68,9 @@ def get_updated_classes(vn):
     ([col_pred, Predicate(soup('<PRED value="motion"><ARGS></ARGS></PRED>', 'lxml-xml').PRED)],
      [initial_location2, motion2, destination2], [])]
 
-  updated_classes = update_gl_semantics([col_pred], vn=vn, gl_semantics_mappings=mappings)
+  classes += update_gl_semantics([col_pred], vn=vn, gl_semantics_mappings=mappings)
 
-  return updated_classes
+  return classes
 
 if __name__ == '__main__':
   if len(argv) == 2:
