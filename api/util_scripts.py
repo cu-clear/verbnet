@@ -1,5 +1,4 @@
-from verbnetparser import *
-from framenet import *
+from verbnet import *
 
 def get_verb_specific_feature_set(vn_classes):
   all_features = []
@@ -38,8 +37,6 @@ def update_fn_mapping():
   vn = VerbNetParser()
   num_ids_and_classes = {}
 
-  vn.get_verb_class_by_numerical_id
-
   print(num_ids_and_classes.keys())
 
   for mapping in fn.mappings:
@@ -53,10 +50,7 @@ def update_fn_mapping():
       for broken_mapping in fn.soup.findAll(attrs={"fnframe": mapping.name, "class": mapping.verbnet_class_ID}):
         broken_mapping.extract()
 
-#update_fn_mapping()
-vn = VerbNetParser()
-print([s.ID for s in vn.get_verb_class_by_numerical_id("36.4").subclasses])
-#print(sorted([verb_class.ID.split("-")[1] for verb_class in vn.get_verb_classes()]))
+
 
 '''
 vn = VerbNetParser()

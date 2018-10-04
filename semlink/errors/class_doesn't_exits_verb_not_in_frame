@@ -1,0 +1,4 @@
+<verbnet-framenet_MappingData date="&lt;class 'datetime.datetime'&gt;">
+  <vncls class="36.1.1" fnframe="Communication" versionID="vn3.3" vnmember="communicate"/>
+  <vncls class="36.1" fnframe="Choosing" versionID="vn3.3" vnmember="decide"/>
+</verbnet-framenet_MappingData>

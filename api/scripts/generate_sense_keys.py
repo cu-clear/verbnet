@@ -15,7 +15,8 @@ def gen_sense_keys(members, count_dict):
 
     #Print duplicates to terminal for reference
     if len(duplicate_members) > 0:
-        for member in duplicate_members.keys(): print(member)
+        for member in duplicate_members.keys():
+            print(member)
 
     for member in members:
         member_name = member['name']
@@ -42,7 +43,7 @@ def gen_sense_keys(members, count_dict):
 
 def run_script():
     # CHANGE DIRECTORY to desired verbnet version;
-    vn_directory = "../../vn3.3.1-test/"
+    vn_directory = "C:/Users/Kevin/PycharmProjects/lexical_resources/verbnet-3.3.2/"
 
     vnp = VerbNetParser(directory=vn_directory)
 

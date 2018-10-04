@@ -315,7 +315,7 @@ class VerbClass(AbstractXML):
     def _subclass(self):
         """Get every subclass listed, if any"""
         subclasses_soup = self.soup.find_all("SUBCLASSES")
-        if len(subclasses_soup[0].text) < 1:
+        if len(subclasses_soup) < 1:
             return []
         return [VerbClass(sub_soup, self.version) for sub_soup in \
                 self.soup.SUBCLASSES.find_all("VNSUBCLASS", recursive=False)]
@@ -348,6 +348,7 @@ class Member(AbstractXML):
         self.grouping = self.get_category('grouping')
         self.features = self.get_category('features')
         self.member_id = self.get_category('member_id')
+        self.vnc = vnc
 
     def __repr__(self):
         return str(self.name + " " + str(self.member_id))
@@ -499,7 +500,7 @@ class ThematicRole(AbstractXML):
         self.version = version
         self.role_type = self.get_category('type')[0]
         self.sel_restrictions = self.sel_restrictions(self.soup.SELRESTRS)
-        
+
     def sel_restrictions(self, soup):
         """Finds all the selectional restrictions of the thematic roles and 
         returns them as a string"""
@@ -708,6 +709,7 @@ def test():
 
         pass
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
 
-    test()
+#    test()
+test()

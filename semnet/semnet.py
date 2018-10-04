@@ -14,8 +14,10 @@ import vnfn
 from nltk.corpus import wordnet as wn
 from nltk.corpus.reader.wordnet import WordNetError
 
-DEFAULT_VN_LOC = "../vn3.3.1-test/"
-DEFAULT_OUTPUT = "semnet3"
+import MineWiki
+
+DEFAULT_VN_LOC = "C:/Users/Kevin/PycharmProjects/lexical_resources/verbnet3.3/"
+DEFAULT_OUTPUT = "verb-semnet"
 WN_LOCATION = "../../lexical_resources/Wordnet-3.0/dict/"
 VN_OBJECTS_LOCATION = "../../lexical_resources/vn_objects/"
 ON_LOCATION = "../../lexical_resources/sense-inventories/"
@@ -23,6 +25,24 @@ ON_LOCATION = "../../lexical_resources/sense-inventories/"
 all_senses = None
 verb_data = None
 
+wiki_dict = MineWiki.tagged_wiki_dict()
+
+def get_class_frequency_data(verb, sense):
+    class_freq = "verb not in wiki data"
+    class_count = "verb not in wiki data"
+    verb_count = "verb not in wiki data"
+
+    if verb in wiki_dict:
+        data = wiki_dict[verb]
+        verb_count = sum(data.values())
+        if sense in data:
+            class_count = data[sense]
+            class_freq = float(class_count)/verb_count
+        else:
+            class_freq = "class not in verb data"
+            class_count = "class not in verb data"
+
+    return {"class frequency":class_freq, "class count":class_count, "verb count":verb_count}
 
 def get_on_definition(verb, sense):
     if not sense:
@@ -52,7 +72,7 @@ def get_vn_objects(verb, vnc, how_many=10):
     return class_objects
 
 
-def get_wn_supertype(sense_keys, level=2):
+def get_wn_hypernyms(sense_keys, level=None):
     if type(sense_keys) != list:
         sense_keys = [sense_keys]
 
@@ -66,11 +86,14 @@ def get_wn_supertype(sense_keys, level=2):
             try:
                 lemm = wn.lemma_from_key(sk + "::")
             except WordNetError as e2:
-                print (sk)
+                print (sk, e2)
                 break
 
         hier_paths.extend(lemm.synset().hypernym_paths())
-    return [p[level].name() for p in hier_paths]
+    if level:
+        return list(set([p[level].name() for p in hier_paths]))
+    else:
+        return list(set([p[-2].name() for p in hier_paths if len(p) > 1]))
 
 
 def get_wn_synset(sense_key):
@@ -115,23 +138,35 @@ def extract_predicates(frames):
     return list(res)
 
 
+def process_restrictions(restr_list):
+    res = []
+    for item in restr_list:
+        if not item:
+            continue
+        if item[0] in ["AND", "OR"]:
+            res += process_restrictions(item[1:])
+        elif item not in ["AND", "OR"]:
+            res.append("".join(item))
+    return set(res)
+
+
 def build_semnet(vn):
     res = {}
     mappings = vnfn.load_mappings("../semlink/vn-fn.s", as_dict=True)
-
+    c = 0
     for cl in vn.get_verb_classes():
         new_id = cl.ID
         full_themroles = cl.themroles
         restrictions = []
+
         while "-" in "-".join(new_id.split("-")[1:]):
             p_class = vn.verb_classes_dict["-".join(new_id.split("-")[:-1])]
             full_themroles.extend(p_class.themroles)
-            for r in full_themroles:
-                for thing in r.sel_restrictions:
-                    if type(thing) == list and len(thing) == 2 and "".join(thing) not in restrictions:
-                        restrictions.append("".join(thing))
-                        
             new_id = "-".join(new_id.split("-")[:-1])
+
+        for r in full_themroles:
+            restrictions += process_restrictions([r.sel_restrictions])
+        restrictions = list(set(restrictions))
 
         for member in cl.members:
             norm_id = "-".join(cl.ID.split("-")[1:])
@@ -146,15 +181,16 @@ def build_semnet(vn):
                            "syn_frames":[f.pp_syntax() for f in cl.frames],
                            "vs_features":member.features,
                            "wn_synset":get_wn_synset(member.wn),
-                           "wn_supertype":get_wn_supertype(member.wn, 0),
+                           "wn_hypernyms":get_wn_hypernyms(member.wn, 0),
                            "common_objects":get_vn_objects(member, cl),
-                           "on_definition":get_on_definition(member.name, member.grouping)
+                           "on_definition":get_on_definition(member.name, member.grouping),
+                           "class_frequency_data":get_class_frequency_data(member.name, cl.numerical_ID)
                            }
-
             if member.name in res:
                 res[member.name][cl.ID] = member_data
             else:
                 res[member.name] = {cl.ID:member_data}
+    print (len(res))
     return res
 
 
@@ -163,7 +199,6 @@ def write_semnet(semnet, output_file, output_format):
         with open(output_file, 'w') as output:
             json.dump(semnet, output)
     elif output_format == "csv":
-
         for member in semnet.keys():
             for vn_class in semnet[member]:
 
@@ -190,7 +225,7 @@ def write_semnet(semnet, output_file, output_format):
                 for vn_class in sorted(list(semnet[member].keys())):
                     if not header:
                         output_writer.writerow(["verb","class_name","class_id"] + sorted(list(semnet[member][vn_class].keys())))
-                        header=True
+                        header = True
                                                                                 
                     data = [member, vn_class.split("-")[0], "-".join(vn_class.split("-")[1:])] + [semnet[member][vn_class][item] for item in sorted(list(semnet[member][vn_class].keys()))]
                     output_writer.writerow(data)
@@ -229,6 +264,20 @@ def main(argv=None):
     sn = build_semnet(verbnet.VerbNetParser(directory=input_dir))
     write_semnet(sn, output_file+".json", "json")
 #    write_semnet(sn, output_file+".csv", "csv")
+
+    an = {"not in wiki":0, "class not in data":0, "single sense":0, "okay":0}
+    for v in sn:
+        for cl in sn[v]:
+            data = sn[v][cl]["class_frequency_data"]
+            if data["class frequency"] == 'verb not in wiki data':
+                an["not in wiki"] += 1
+            elif data["class frequency"] == 'class not in verb data':
+                an['class not in data'] += 1
+            elif data["class frequency"] == 1:
+                an["single sense"] += 1
+            else:
+                an["okay"] += 1
+    print (an)
 
 if __name__ == "__main__":
     sys.exit(main())

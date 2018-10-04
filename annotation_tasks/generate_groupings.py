@@ -9,7 +9,7 @@ import search
 
 def generate_groupings():
     # CHANGE DIRECTORY to desired verbnet version;
-    vn_directory = "../../vn_versions/verbnet3.3/"
+    vn_directory = "../../lexical_resources/verbnet3.3/"
 
     vnp = VerbNetParser(directory=vn_directory)
 

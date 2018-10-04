@@ -48,21 +48,32 @@ def update_annotation_line(ann_line, new_vn, old_vns, log=None):
   else:
     ann = annotation.VnAnnotation(ann_line)
 
-  # Flag to tell us whether or not the annotation was updated
-  success = False
+  stats[5] += 1
 
-  stats[4] += 1
+  if ann.vn_class == "None" or "-" not in ann.vn_class:
+    log.write("Failure: Instance not annotated : " + str(ann.vn_class))
+    stats[4] += 1
+    return (False, str(ann))
+
   # If the verb in this annotation is not mapped directly to desired "new" version of VN
   print("Searching for %s from %s...." % (ann.verb, ann.vn_class))
   if not ann.exists_in(new_vn):
     possible_old_vn_members = find_in_old_versions(ann, old_vns)
-
     all_new_members = new_vn.get_members()
     updated_vn_members = []
+
+    #checking if the verb got moved to a different subclass within the main class
+    possible_new_matches = search.find_members(all_new_members, name=ann.verb)
+    old_class_root = ann.vn_class.split("-")[1]
+    for c in possible_new_matches:
+      if old_class_root == c.vnc.split("-")[1]:
+        ann.update_vn_info(c)
+        stats[1] += 1
+        return (True, str(ann))
+
     for vn_member in possible_old_vn_members:
       # search these members for the lookup member by name and wordnet mapping
       updated_vn_members += search.find_members(all_new_members, name=vn_member.name, wn=vn_member.wn)
-
     """
     Ambiguities in previous versions may all point to the same verb in new version
     I.e one verb may appear in multiple classes in version 3.2, and so this script
@@ -105,10 +116,11 @@ def generate_updated_annotations(fn, lines, new_vn, old_vns):
   if simulate:
     [update_annotation_line(line, new_vn, old_vns) for line in lines]
   else:
-    log = Log(fn.split("/")[-1] + ".log")
+    loc_file = fn.split("\\")[-1]
+    log = Log(loc_file + ".log")
     # Directory for new annotations + JUST the annotation filename (no other path info)
-    success_fn = new_anns_dir + "/" + fn.split('/')[-1]
-    failed_fn = new_anns_dir + "FAILED/" + fn.split('/')[-1]
+    success_fn = new_anns_dir + "\\" + loc_file
+    failed_fn = new_anns_dir + "FAILED\\" + loc_file
 
     # Get updates and organize by successsful/failed updates
     updates = [update_annotation_line(line, new_vn, old_vns, log) for line in lines]
@@ -127,7 +139,7 @@ if __name__ == '__main__':
   global new_anns_dir
   global stats
 
-  stats = [0, 0, 0, 0, 0] #[num_no_change, num_successful_change, num_ambiguous_error, num_no_longer_exist, total]
+  stats = [0, 0, 0, 0, 0, 0] #[num_no_change, num_successful_change, num_ambiguous_error, num_no_longer_exist, total]
 
   # DEFINE ARGS
   parser = argparse.ArgumentParser()
@@ -162,10 +174,10 @@ if __name__ == '__main__':
   ##write a wrapper for testing versions
   try:
     new_vn = verbnet.VerbNetParser(version=new_vn_version)
+#  except Exception:
+#    new_vn = verbnet.VerbNetParser(directory=new_vn_version)
   except Exception:
-    new_vn = verbnet.VerbNetParser(directory=new_vn_version)
-  except Exception:
-    print ('input version is bad : ' + new_vn)
+    print ('input version is bad : ' + new_vn_version)
     sys.exit(2)
 
   # Make sure the these dirs exist, or create them
@@ -179,9 +191,12 @@ if __name__ == '__main__':
   for version in ["3.2"]:
     old_vns.append(verbnet.VerbNetParser(version=version))
 
+  if len(ann_fns) == 1 and os.path.isdir(ann_fns[0]):
+    ann_fns = [ann_fns[0] + "\\" + f for f in os.listdir(ann_fns[0]) if f.endswith(".ann")]
+
   for fn in ann_fns:
     lines = [line.strip() for line in codecs.open(fn, "r", encoding="utf-8")]
     generate_updated_annotations(fn, lines, new_vn, old_vns)
 
-  print_stats = ((float(stats[0]) / float(stats[4])) * 100, (float(stats[1]) / float(stats[4])) * 100, (float(stats[2]) / float(stats[4])) * 100, (float(stats[3]) / float(stats[4])) * 100)
-  print("%.2f%% of annotations unchanged, %.2f%% successfully updated, %.2f%% too ambiguous to update, %.2f%% of verbs no longer exist in VN" % print_stats)
+  print_stats = ((float(stats[0]) / float(stats[5])) * 100, (float(stats[1]) / float(stats[5])) * 100, (float(stats[2]) / float(stats[5])) * 100, (float(stats[3]) / float(stats[5])) * 100, (float(stats[4]) / float(stats[5])) * 100)
+  print("%.2f%% of annotations unchanged, %.2f%% successfully updated, %.2f%% too ambiguous to update, %.2f%% of verbs no longer exist in VN, %.2f%% not annotated" % print_stats)

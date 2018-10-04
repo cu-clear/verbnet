@@ -75,7 +75,7 @@ class VnAnnotation(Annotation):
     self.source_file = attr_list[0]
     self.sentence_no = attr_list[1]
     self.token_no = attr_list[2]
-    self.verb = attr_list[3]
+    self.verb = attr_list[3][:-2] if attr_list[3].endswith("-v") else attr_list[3]
     self.vn_class = attr_list[4]
 
   def __eq__(self, other):
@@ -112,6 +112,7 @@ class SemLinkAnnotation(Annotation):
       self.dependencies = attr_list[10+offset:]
     else:
       self.dependencies = []
+
   def __eq__(self, other):
     if self.source_file == other.source_file and self.sentence_no == other.sentence_no and self.token_no == other.token_no and self.verb == other.verb:
       return True
@@ -120,3 +121,5 @@ class SemLinkAnnotation(Annotation):
 
   def __str__(self):
     return self.source_file + " " + self.sentence_no + " " + self.token_no + " " + self.verb + " " + self.vn_class + " " + self.fn_frame + " " + self.pb_frame + " " + self.on_group + " " +  " ".join(self.dependencies)
+
+thing = {"a":"b", "b":"c"}
