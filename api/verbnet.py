@@ -347,10 +347,10 @@ class Member(AbstractXML):
         self.wn = self.get_category('wn')
         self.grouping = self.get_category('grouping')
         self.features = self.get_category('features')
-        self.member_id = self.get_category('member_id')
+        self.verbnet_key = self.get_category('verbnet_key')
 
     def __repr__(self):
-        return str(self.name + " " + str(self.member_id))
+        return str(self.name + " " + str(self.verbnet_key))
 
     def __lt__(self, other):
         return self.name < other.name
