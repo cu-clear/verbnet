@@ -122,6 +122,23 @@ class VerbNetParser(object):
 
         return frames
 
+    def check_vn(self, vn_class, verb, vn, update=False):
+        if not vn_class:
+            return False
+        if vn_class in self.verb_classes_numerical_dict:
+            if verb in [m.name for m in self.verb_classes_numerical_dict[vn_class].members]:
+                return vn_class
+        if update:
+            if vn_class not in self.verb_classes_numerical_dict:
+                if vn_class.split("-")[0] in self.verb_classes_numerical_dict:
+                    vn_class = vn_class.split("-")[0]
+                else:
+                    return False
+
+            for subclass in [self.verb_classes_numerical_dict[vn_class.split("-")[0]]] + self.verb_classes_numerical_dict[vn_class.split("-")[0]].get_all_subclasses():
+                if verb in [m.name for m in subclass.get_members()]:
+                    return subclass.numerical_ID
+        return False
 
 class AbstractXML(object):
     """Abstract class to be inherited by other classes that share the same
@@ -706,13 +723,10 @@ def search(verbclasslist, pred_type=None, themroles=None, synroles=None, semrole
 
 
 def test():
-    vnp = VerbNetParser(directory="../vn3.3.1-test/")
+    vnp = VerbNetParser(directory="C:/Users/Kevin/PycharmProjects/lexical_resources/verbnet_svn/")
 
     for v in vnp.get_members():
-        #get member soup object
-        #add verbnet_key attribute to attributes of soup
-        #make sure to increment for each time you see a new sense of a verb
-
+        print(v)
         pass
 
 if __name__ == '__main__':
