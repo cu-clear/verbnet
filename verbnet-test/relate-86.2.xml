@@ -1,0 +1,95 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="relate-86.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Co-Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES/>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="relate-86.2-1">
+   <MEMBERS>
+    <MEMBER grouping="involve.02" name="involve" verbnet_key="involve#1" wn="involve%2:42:00"/>
+    <MEMBER grouping="concern.01" name="concern" verbnet_key="concern#2" wn="concern%2:42:00"/>
+    <MEMBER grouping="touch.04" name="touch" verbnet_key="touch#3" wn="touch%2:42:00"/>
+    <MEMBER grouping="" name="bear_on" verbnet_key="bear_on#1" wn="bear_on%2:42:00"/>
+    <MEMBER grouping="" name="touch_on" verbnet_key="touch_on#1" wn="touch_on%2:42:00"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="NP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       This concerns both of us.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Co-Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="relate">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Co-Theme"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+  <VNSUBCLASS ID="relate-86.2-2">
+   <MEMBERS>
+    <MEMBER grouping="refer.02" name="refer" verbnet_key="refer#2" wn="refer%2:42:00"/>
+    <MEMBER grouping="pertain.01" name="pertain" verbnet_key="pertain#1" wn="pertain%2:42:01"/>
+    <MEMBER grouping="relate.02" name="relate" verbnet_key="relate#1" wn="relate%2:42:00"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.co-theme" secondary="PP; to-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       This pertains to both of us.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="to">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Co-Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="relate">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Co-Theme"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

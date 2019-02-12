@@ -1,0 +1,61 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="weekend-56" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="" name="December" verbnet_key="December#1" wn=""/>
+  <MEMBER grouping="" name="holiday" verbnet_key="holiday#1" wn="holiday%2:42:00"/>
+  <MEMBER grouping="" name="honeymoon" verbnet_key="honeymoon#1" wn="honeymoon%2:42:00"/>
+  <MEMBER grouping="junket.01" name="junket" verbnet_key="junket#2" wn="junket%2:38:00"/>
+  <MEMBER grouping="" name="overnight" verbnet_key="overnight#1" wn=""/>
+  <MEMBER grouping="" name="sojourn" verbnet_key="sojourn#1" wn="sojourn%2:42:00"/>
+  <MEMBER grouping="" name="summer" verbnet_key="summer#1" wn="summer%2:42:00"/>
+  <MEMBER grouping="" name="vacation" verbnet_key="vacation#1" wn="vacation%2:42:00"/>
+  <MEMBER grouping="" name="weekend" verbnet_key="weekend#1" wn="weekend%2:42:00"/>
+  <MEMBER grouping="" name="winter" verbnet_key="winter#1" wn="winter%2:42:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; Location-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     My family always summered at the seashore.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="loc"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="location">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

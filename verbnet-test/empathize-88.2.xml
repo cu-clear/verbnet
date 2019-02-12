@@ -1,0 +1,159 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="empathize-88.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="" name="empathize" verbnet_key="empathize#1" wn="empathize%2:31:00"/>
+  <MEMBER grouping="sympathize.02" name="sympathize" verbnet_key="sympathize#1" wn="sympathize%2:31:00 sympathize%2:37:00"/>
+  <MEMBER grouping="identify.02" name="identify" verbnet_key="identify#2" wn="identify%2:31:04"/>
+  <MEMBER grouping="" name="commiserate" verbnet_key="commiserate#1" wn="commiserate%2:37:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Experiencer">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Stimulus">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V" secondary="Intransitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     You really have to empathize.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="?Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus" secondary="PP; with-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     You really have to empathize with them.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Stimulus">
+     <SYNRESTRS>
+      <SYNRESTR Value="-" type="sentential"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus S_ING" secondary="P-POSSING; with-P" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     You really have to empathize with their doing it.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Stimulus">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="poss_ing"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus what S" secondary="P-WHAT-TO-INF; with-P" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     You've really got to empathize with what they want.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Stimulus">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="what_inf"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

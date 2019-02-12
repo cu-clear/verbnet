@@ -1,0 +1,163 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="become-109.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="come.03" name="come_out" verbnet_key="come_out#1" wn="come_out%2:42:00"/>
+  <MEMBER grouping="get.03" name="get" verbnet_key="get#1" wn="get%2:30:00 get%2:30:01 get%2:39:00"/>
+  <MEMBER grouping="turn.02 turn.03" name="turn" verbnet_key="turn#1" wn="turn%2:38:03"/>
+  <MEMBER grouping="turn.07" name="turn_up" verbnet_key="turn_up#2" wn="turn_up%2:40:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Patient">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Result">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V ADJ" secondary="" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The belt came undone
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Result">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="become-109.1-1">
+   <MEMBERS>
+    <MEMBER grouping="come.03" name="come" verbnet_key="come#2" wn="come%2:30:01 come%2:30:02"/>
+    <MEMBER grouping="fall.03" name="fall" verbnet_key="fall#2" wn="fall%2:30:08"/>
+    <MEMBER grouping="go.04" name="go" verbnet_key="go#2" wn="go%2:30:04"/>
+    <MEMBER grouping="go.01" name="grow" verbnet_key="grow#2" wn="grow%2:30:03"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V PP.attribute" secondary="" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The matter fell into dispute.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Patient">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="in | into">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Result">
+       <SYNRESTRS>
+        <SYNRESTR Value="-" type="sentential"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="?Initial_State"/>
+        <ARG type="ThemRole" value="Patient"/>
+        <ARG type="Constant" value="ch_of_state"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="result(E)"/>
+        <ARG type="ThemRole" value="Result"/>
+        <ARG type="ThemRole" value="Patient"/>
+        <ARG type="Constant" value="ch_of_state"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="become-109.1-1-1">
+     <MEMBERS>
+      <MEMBER grouping="become.01" name="become" verbnet_key="become#1" wn="become%2:30:00"/>
+      <MEMBER grouping="end.04" name="end_up" verbnet_key="end_up#1" wn="end_up%2:30:01"/>
+      <MEMBER grouping="" name="leave" verbnet_key="leave#1" wn=""/>
+     </MEMBERS>
+     <THEMROLES/>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="" xtag="0.2"/>
+       <EXAMPLES>
+        <EXAMPLE>
+         He became a banker.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Patient">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Result">
+         <SYNRESTRS>
+          <SYNRESTR Value="-" type="sentential"/>
+         </SYNRESTRS>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="path_rel">
+         <ARGS>
+          <ARG type="Event" value="start(E)"/>
+          <ARG type="ThemRole" value="?Initial_State"/>
+          <ARG type="ThemRole" value="Patient"/>
+          <ARG type="Constant" value="ch_of_state"/>
+          <ARG type="VerbSpecific" value="prep"/>
+         </ARGS>
+        </PRED>
+        <PRED value="path_rel">
+         <ARGS>
+          <ARG type="Event" value="result(E)"/>
+          <ARG type="ThemRole" value="Result"/>
+          <ARG type="ThemRole" value="Patient"/>
+          <ARG type="Constant" value="ch_of_state"/>
+          <ARG type="VerbSpecific" value="prep"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

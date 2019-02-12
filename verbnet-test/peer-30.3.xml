@@ -1,0 +1,75 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="peer-30.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="" name="attend" verbnet_key="attend#3" wn=""/>
+  <MEMBER grouping="check.01" name="check" verbnet_key="check#2" wn="check%2:31:00"/>
+  <MEMBER grouping="" name="eavesdrop" verbnet_key="eavesdrop#1" wn=""/>
+  <MEMBER grouping="" name="gape" verbnet_key="gape#2" wn="gape%2:39:00"/>
+  <MEMBER grouping="" name="gawk" verbnet_key="gawk#2" wn="gawk%2:39:00"/>
+  <MEMBER grouping="" name="gaze" verbnet_key="gaze#1" wn="gaze%2:39:00"/>
+  <MEMBER grouping="glance.01" name="glance" verbnet_key="glance#1" wn="glance%2:39:00"/>
+  <MEMBER grouping="glare.01" name="glare" verbnet_key="glare#3" wn="glare%2:29:00"/>
+  <MEMBER grouping="" name="goggle" verbnet_key="goggle#2" wn="goggle%2:39:00"/>
+  <MEMBER grouping="" name="leer" verbnet_key="leer#1" wn="leer%2:39:00"/>
+  <MEMBER grouping="listen.01" name="listen" verbnet_key="listen#1" wn="listen%2:39:00 listen%2:39:01"/>
+  <MEMBER grouping="look.01" name="look" verbnet_key="look#1" wn="look%2:39:00 look%2:39:02"/>
+  <MEMBER grouping="" name="ogle" verbnet_key="ogle#1" wn="ogle%2:39:00"/>
+  <MEMBER grouping="" name="peek" verbnet_key="peek#1" wn="peek%2:39:02"/>
+  <MEMBER grouping="" name="peep" verbnet_key="peep#2" wn="peep%2:39:00"/>
+  <MEMBER grouping="peer.01" name="peer" verbnet_key="peer#1" wn="peer%2:39:00"/>
+  <MEMBER grouping="sniff.01" name="sniff" verbnet_key="sniff#2" wn="sniff%2:39:00"/>
+  <MEMBER grouping="" name="snoop" verbnet_key="snoop#1" wn="snoop%2:32:00"/>
+  <MEMBER grouping="squint.01" name="squint" verbnet_key="squint#1" wn="squint%2:29:00"/>
+  <MEMBER grouping="stare.01" name="stare" verbnet_key="stare#1" wn="stare%2:39:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.theme" secondary="PP; Theme-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     We peered at the baby.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="spatial"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="perceive">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

@@ -1,0 +1,243 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="coil-9.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="loop.02" name="loop" verbnet_key="loop#1" wn="loop%2:36:00 loop%2:35:00"/>
+  <MEMBER grouping="roll.02" name="roll" verbnet_key="roll#2" wn="roll%2:35:00"/>
+  <MEMBER grouping="rotate.01" name="rotate" verbnet_key="rotate#1" wn="rotate%2:38:01"/>
+  <MEMBER grouping="spin.01" name="spin" verbnet_key="spin#2" wn="spin%2:38:02"/>
+  <MEMBER grouping="" name="swirl" verbnet_key="swirl#1" wn="swirl%2:38:01"/>
+  <MEMBER grouping="twine.01" name="twine" verbnet_key="twine#1" wn="twine%2:35:03"/>
+  <MEMBER grouping="wind.02" name="wind" verbnet_key="wind#1" wn="wind%2:35:06"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="int_control"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="nonrigid"/>
+    <SELRESTR Value="+" type="elongated"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Initial_Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Destination">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; path-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Cora coiled the rope around the post.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="path"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="rotational_motion">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; path-PP" xtag=""/>
+   <!--strongly prefers prep "around"-->
+   <EXAMPLES>
+    <EXAMPLE>
+     The rope coiled around the post.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="path"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="rotational_motion">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle PP.location" secondary="Middle Construction" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     That type of rope coiled easily around the post.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <ADV/>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="path"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="rotational_motion">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="coil-9.6-1">
+   <MEMBERS>
+    <MEMBER grouping="curl.01" name="curl" verbnet_key="curl#1" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
+    <MEMBER grouping="coil.01 coil.03" name="coil" verbnet_key="coil#1" wn="coil%2:35:00"/>
+    <MEMBER grouping="hook.01" name="hook" verbnet_key="hook#1" wn=""/>
+    <MEMBER grouping="swing.01" name="swing" verbnet_key="swing#2" wn="swing%2:38:02 swing%2:38:03"/>
+    <MEMBER grouping="" name="twirl" verbnet_key="twirl#1" wn="twirl%2:38:01"/>
+    <MEMBER grouping="twist.02" name="twist" verbnet_key="twist#1" wn="twist%2:30:00"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The rope curled upward.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <ADV/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="rotational_motion">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="Adv">
+       <ARGS>
+        <ARG type="VerbSpecific" value="Prop"/>
+       </ARGS>
+      </PRED>
+      <PRED value="property">
+       <ARGS>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="VerbSpecific" value="Prop"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+     <!--Unlike the other usages, the intransitive uses are stative  in nature, describing orientation of the Theme.-->
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

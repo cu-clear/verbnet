@@ -1,0 +1,557 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="contribute-13.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="betroth.01" name="betroth" verbnet_key="betroth#1" wn="betroth%2:32:00"/>
+  <MEMBER grouping="forgo.02 forgo.03" name="forgo" verbnet_key="forgo#3" wn="forgo%2:42:00"/>
+  <MEMBER grouping="refer.03" name="refer" verbnet_key="refer#1" wn="refer%2:38:00"/>
+  <MEMBER grouping="relinquish.01 relinquish.02" name="relinquish" verbnet_key="relinquish#1" wn="relinquish%2:40:01 relinquish%2:41:00"/>
+  <MEMBER grouping="remit.01" name="remit" verbnet_key="remit#1" wn="remit%2:40:00"/>
+  <MEMBER grouping="" name="resign" verbnet_key="resign#1" wn=""/>
+  <MEMBER grouping="restore.02" name="restore" verbnet_key="restore#1" wn="restore%2:40:00"/>
+  <MEMBER grouping="gift.02" name="gift" verbnet_key="gift#1" wn="gift%2:40:00"/>
+  <MEMBER grouping="give.01 give.02" name="give_away" verbnet_key="give_away#1" wn=""/>
+  <MEMBER grouping="give.01 give.02" name="give_out" verbnet_key="give_out#2" wn=""/>
+  <MEMBER grouping="give.01 give.02" name="give_up" verbnet_key="give_up#1" wn=""/>
+  <MEMBER grouping="" name="hand_out" verbnet_key="hand_out#1" wn="hand_out%2:40:00"/>
+  <MEMBER grouping="" name="pass_out" verbnet_key="pass_out#2" wn="pass_out%2:40:00"/>
+  <MEMBER grouping="" name="shell_out" verbnet_key="shell_out#1" wn="shell_out%2:40:00"/>
+  <MEMBER grouping="" name="abnegate" verbnet_key="abnegate#1" wn="abnegate%2:33:00"/>
+  <MEMBER grouping="" name="turn_in" verbnet_key="turn_in#1" wn=""/>
+  <MEMBER grouping="" name="turn_over" verbnet_key="turn_over#1" wn=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Recipient">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient" secondary="NP-PP; Recipient-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     We contributed our paycheck to her.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Recipient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Recipient"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme (PP)" secondary="Transitive; Theme Object" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I donated my house (to somebody).
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V PP.recipient NP" secondary="PP-NP; Recipient-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He is willing to sacrifice to the arbitrage trader some small profit.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="to">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Recipient">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Recipient"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="contribute-13.2-1">
+   <MEMBERS>
+    <MEMBER grouping="" name="disseminate" verbnet_key="disseminate#1" wn=""/>
+    <MEMBER grouping="distribute.01 distribute.02 distribute.03" name="distribute" verbnet_key="distribute#1" wn="distribute%2:40:00 distribute%2:35:01 distribute%2:41:00 distribute%2:40:01"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V PP.recipient" secondary="PP; Recipient-PP" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       He donated directly to JSP members.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="to">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Recipient">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="?Theme"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Recipient"/>
+        <ARG type="ThemRole" value="?Theme"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="?Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="equals">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Source"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V NP PP.recipient" secondary="NP-PP; among-PP" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       She distributed the money among oversea units.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="among">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Recipient">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="plural"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Recipient"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="equals">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Source"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="contribute-13.2-1-1">
+     <MEMBERS>
+      <MEMBER grouping="administer.02 administer.03" name="administer" verbnet_key="administer#1" wn="administer%2:40:01 administer%2:40:00 administer%2:29:00"/>
+      <MEMBER grouping="circularize.01" name="circularize" verbnet_key="circularize#1" wn="circularize%2:32:00"/>
+      <MEMBER grouping="contribute.01" name="contribute" verbnet_key="contribute#1" wn="contribute%2:40:00 contribute%2:40:02"/>
+      <MEMBER grouping="donate.01" name="donate" verbnet_key="donate#1" wn="donate%2:40:00"/>
+      <MEMBER grouping="" name="forfeit" verbnet_key="forfeit#1" wn="forfeit%2:40:00"/>
+      <MEMBER grouping="" name="resubmit" verbnet_key="resubmit#1" wn="resubmit%2:40:00"/>
+      <MEMBER grouping="sacrifice.01" name="sacrifice" verbnet_key="sacrifice#1" wn="?sacrifice%2:40:00 ?sacrifice%2:40:02 ?sacrifice%2:40:01"/>
+      <MEMBER grouping="submit.01 submit.02" name="submit" verbnet_key="submit#2" wn="submit%2:33:00 submit%2:40:00 submit%2:33:02 submit%2:40:01"/>
+      <MEMBER grouping="surrender.02" name="surrender" verbnet_key="surrender#1" wn="surrender%2:33:00 surrender%2:40:00"/>
+     </MEMBERS>
+     <THEMROLES/>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Basic Intransitive" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         Some of the members may donate privately.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="path_rel">
+         <ARGS>
+          <ARG type="Event" value="start(E)"/>
+          <ARG type="ThemRole" value="Source"/>
+          <ARG type="ThemRole" value="?Theme"/>
+          <ARG type="Constant" value="ch_of_poss"/>
+          <ARG type="VerbSpecific" value="prep"/>
+         </ARGS>
+        </PRED>
+        <PRED value="path_rel">
+         <ARGS>
+          <ARG type="Event" value="end(E)"/>
+          <ARG type="ThemRole" value="?Recipient"/>
+          <ARG type="ThemRole" value="?Theme"/>
+          <ARG type="Constant" value="ch_of_poss"/>
+          <ARG type="VerbSpecific" value="prep"/>
+         </ARGS>
+        </PRED>
+        <PRED value="transfer">
+         <ARGS>
+          <ARG type="Event" value="during(E)"/>
+          <ARG type="ThemRole" value="?Theme"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="Event" value="E"/>
+         </ARGS>
+        </PRED>
+        <PRED value="equals">
+         <ARGS>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Source"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+  <VNSUBCLASS ID="contribute-13.2-2">
+   <MEMBERS>
+    <MEMBER grouping="" name="disburse" verbnet_key="disburse#1" wn="disburse%2:40:00"/>
+    <MEMBER grouping="extend.03" name="extend" verbnet_key="extend#2" wn="extend%2:40:05"/>
+    <MEMBER grouping="" name="proffer" verbnet_key="proffer#1" wn="proffer%2:40:00"/>
+    <MEMBER grouping="transfer.01" name="transfer" verbnet_key="transfer#1" wn="transfer%2:40:00 transfer%2:35:00"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V NP PP.theme" secondary="NP-PP; Theme-PP" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       They will reimburse them up to $500.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Recipient">
+       <SYNRESTRS/>
+      </NP>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Recipient"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="equals">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Source"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="contribute-13.2-2-1">
+     <MEMBERS>
+      <MEMBER grouping="reimburse.01" name="reimburse" verbnet_key="reimburse#1" wn="reimburse%2:40:00 reimburse%2:40:01"/>
+     </MEMBERS>
+     <THEMROLES/>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         He reimbursed members.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Recipient">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="path_rel">
+         <ARGS>
+          <ARG type="Event" value="start(E)"/>
+          <ARG type="ThemRole" value="Source"/>
+          <ARG type="ThemRole" value="?Theme"/>
+          <ARG type="Constant" value="ch_of_poss"/>
+          <ARG type="VerbSpecific" value="prep"/>
+         </ARGS>
+        </PRED>
+        <PRED value="path_rel">
+         <ARGS>
+          <ARG type="Event" value="end(E)"/>
+          <ARG type="ThemRole" value="Recipient"/>
+          <ARG type="ThemRole" value="?Theme"/>
+          <ARG type="Constant" value="ch_of_poss"/>
+          <ARG type="VerbSpecific" value="prep"/>
+         </ARGS>
+        </PRED>
+        <PRED value="transfer">
+         <ARGS>
+          <ARG type="Event" value="during(E)"/>
+          <ARG type="ThemRole" value="?Theme"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="Event" value="E"/>
+         </ARGS>
+        </PRED>
+        <PRED value="equals">
+         <ARGS>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Source"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+       <!--It seems that this usage is allowed either if it is possible to determine from context the nature of the transaction or if both parties already have such knowledge.-->
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

@@ -1,0 +1,48 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="earn-54.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="" name="attract" verbnet_key="attract#1" wn=""/>
+  <MEMBER grouping="" name="bring" verbnet_key="bring#1" wn=""/>
+  <MEMBER grouping="" name="bring_in" verbnet_key="bring_in#1" wn=""/>
+  <MEMBER grouping="" name="earn" verbnet_key="earn#1" wn=""/>
+  <MEMBER grouping="" name="fetch" verbnet_key="fetch#1" wn=""/>
+  <MEMBER grouping="" name="raise" verbnet_key="raise#3" wn=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Asset">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The auction raised $2 million.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Asset">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="earn">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Asset"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

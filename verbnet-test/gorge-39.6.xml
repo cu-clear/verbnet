@@ -1,0 +1,57 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="gorge-39.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="exist.02" name="exist" verbnet_key="exist#2" wn="exist%2:42:01"/>
+  <MEMBER grouping="feed.05" name="feed" verbnet_key="feed#2" wn="feed%2:34:00"/>
+  <MEMBER grouping="flourish.01" name="flourish" verbnet_key="flourish#2" wn="flourish%2:30:01"/>
+  <MEMBER grouping="" name="gorge" verbnet_key="gorge#1" wn="gorge%2:34:00"/>
+  <MEMBER grouping="" name="prosper" verbnet_key="prosper#2" wn="prosper%2:40:00"/>
+  <MEMBER grouping="" name="subsist" verbnet_key="subsist#1" wn="subsist%2:42:00"/>
+  <MEMBER grouping="survive.01" name="survive" verbnet_key="survive#2" wn="survive%2:42:01"/>
+  <MEMBER grouping="thrive.01" name="thrive" verbnet_key="thrive#2" wn="thrive%2:30:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="comestible"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.patient" secondary="PP; Patient-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Cynthia gorged on peaches.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="on">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="take_in">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

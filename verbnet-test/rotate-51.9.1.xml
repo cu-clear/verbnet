@@ -1,0 +1,180 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="rotate-51.9.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS/>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Extent">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Trajectory">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.extent" secondary="Transitive: without Destination" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The camera rotated 90 degrees.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Extent">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="rotational_motion">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Extent"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V ADV-Middle" secondary="Middle construction" xtag=""/>
+   <!--strongly prefers prep "around"-->
+   <EXAMPLES>
+    <EXAMPLE>
+     The camera rotated clockwise.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <ADV value="Trajectory">
+     <SYNRESTRS/>
+    </ADV>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="rotational_motion">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Trajectory"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="rotate-51.9.1-1">
+   <MEMBERS>
+    <MEMBER grouping="curl.01" name="curl" verbnet_key="curl#2" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
+    <MEMBER grouping="coil.01" name="coil" verbnet_key="coil#4" wn="coil%2:35:00 coil%2:38:00"/>
+    <MEMBER grouping="hook.01" name="hook" verbnet_key="hook#2" wn=""/>
+    <MEMBER grouping="rotate.01" name="rotate" verbnet_key="rotate#5" wn="rotate%2:38:01"/>
+    <MEMBER grouping="spin.01" name="spin" verbnet_key="spin#5" wn="spin%2:38:02"/>
+    <MEMBER grouping="swing.01" name="swing" verbnet_key="swing#4" wn="swing%2:38:02"/>
+    <MEMBER grouping="turn.01" name="turn" verbnet_key="turn#5" wn=""/>
+    <MEMBER grouping="" name="twirl" verbnet_key="twirl#5" wn="twirl%2:38:01"/>
+    <MEMBER grouping="twist.02" name="twist" verbnet_key="twist#5" wn="twist%2:35:01"/>
+    <MEMBER grouping="wind.02" name="wind" verbnet_key="wind#6" wn="wind%2:35:06"/>
+   </MEMBERS>
+   <THEMROLES>
+    <THEMROLE type="Agent">
+     <SELRESTRS/>
+    </THEMROLE>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V NP NP" secondary="NP-NP" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Cynthia rotated the image 90 degrees.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <NP value="Extent">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="rotational_motion">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Initial_Location"/>
+        <ARG type="Constant" value="ch_of_loc"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Extent"/>
+        <ARG type="Constant" value="ch_of_loc"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

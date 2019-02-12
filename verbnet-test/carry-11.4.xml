@@ -1,0 +1,740 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="carry-11.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <!--the lexical entry for "carry" should have a "support" predicate and allow the interpretation in which there is no motion - perhaps another class?-->
+ <MEMBERS>
+  <MEMBER grouping="carry.01" name="carry" verbnet_key="carry#1" wn="carry%2:35:02 carry%2:35:08"/>
+  <MEMBER grouping="drag.01" name="drag" verbnet_key="drag#1" wn="drag%2:35:00 drag%2:35:01"/>
+  <MEMBER grouping="draw.01" name="draw" verbnet_key="draw#1" wn="draw%2:35:03"/>
+  <MEMBER grouping="haul.01 haul.02" name="haul" verbnet_key="haul#1" wn="haul%2:35:01 haul%2:35:00"/>
+  <MEMBER grouping="" name="heft" verbnet_key="heft#1" wn="heft%2:35:00"/>
+  <MEMBER grouping="hoist.02" name="hoist" verbnet_key="hoist#1" wn="hoist%2:35:00 hoist%2:35:10"/>
+  <MEMBER grouping="" name="lug" verbnet_key="lug#1" wn="lug%2:35:00"/>
+  <MEMBER grouping="" name="nudge" verbnet_key="nudge#1" wn="nudge%2:35:00"/>
+  <MEMBER grouping="pull.01" name="pull" verbnet_key="pull#1" wn="pull%2:35:00 pull%2:35:04 pull%2:38:03 pull%2:35:10"/>
+  <MEMBER grouping="run.01 run.02 run.11" name="run" verbnet_key="run#2" wn="run%2:38:00 run%2:42:08 run%2:38:10"/>
+  <MEMBER grouping="" name="schlep" verbnet_key="schlep#1" wn="schlep%2:35:00"/>
+  <MEMBER grouping="" name="tote" verbnet_key="tote#1" wn="tote%2:35:00"/>
+  <MEMBER grouping="" name="tow" verbnet_key="tow#1" wn="tow%2:35:00"/>
+  <MEMBER grouping="" name="tug" verbnet_key="tug#1" wn="tug%2:35:00 tug%2:35:04 tug%2:35:03 tug%2:35:02 tug%2:35:01"/>
+  <MEMBER grouping="yank.01 yank.02 yank.03" name="yank" verbnet_key="yank#1" wn="yank%2:35:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="int_control"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Initial_Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Destination">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive; with accompanied motion" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Amanda carried the package.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="Event" value="E0"/>
+      <ARG type="Event" value="E1"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E0"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Goal-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Amanda carried the package to New York.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to towards">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="Event" value="E0"/>
+      <ARG type="Event" value="E1"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Destination"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E0"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Amanda carried the package from home.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="src"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Initial_Location">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="Event" value="E0"/>
+      <ARG type="Event" value="E1"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E0"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP-PP; Initial_Location-PP Goal-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Amanda carried the package from home to New York.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="src"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Initial_Location">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to towards">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="Event" value="E0"/>
+      <ARG type="Event" value="E1"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Destination"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E0"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination PP.initial_location" secondary="NP-PP-PP; Goal-PP Initial_Location-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Amanda carried the package to New York from home.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to towards">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="src"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Initial_Location">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E0)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="Event" value="E0"/>
+      <ARG type="Event" value="E1"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="during(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E1)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Destination"/>
+      <ARG type="Constant" value="ch_of_loc"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E0"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="carry-11.4-1">
+   <MEMBERS/>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive; without accompanied motion" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Amanda shoved the box.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Amanda shoved the box from the corner.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="src"/>
+       </SELRESTRS>
+      </PREP>
+      <NP value="Initial_Location">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Initial_Location"/>
+        <ARG type="Constant" value="ch_of_loc"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Goal-PP" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Amanda shoved the box to John.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="to towards">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Destination">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Destination"/>
+        <ARG type="Constant" value="ch_of_loc"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP-PP; Initial_Location-PP Goal-PP" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Amanda shoved the box from the corner to John.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="src"/>
+       </SELRESTRS>
+      </PREP>
+      <NP value="Initial_Location">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="to towards">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Destination">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Initial_Location"/>
+        <ARG type="Constant" value="ch_of_loc"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Destination"/>
+        <ARG type="Constant" value="ch_of_loc"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination PP.initial_location" secondary="NP-PP-PP; Goal-PP Initial_Location-PP" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Amanda shoved the box to John from the corner.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="to towards">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Destination">
+       <SYNRESTRS/>
+      </NP>
+      <PREP>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="src"/>
+       </SELRESTRS>
+      </PREP>
+      <NP value="Initial_Location">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Initial_Location"/>
+        <ARG type="Constant" value="ch_of_loc"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Destination"/>
+        <ARG type="Constant" value="ch_of_loc"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="carry-11.4-1-1">
+     <MEMBERS>
+      <MEMBER grouping="heave.01" name="heave" verbnet_key="heave#1" wn="heave%2:35:01"/>
+      <MEMBER grouping="kick.01" name="kick" verbnet_key="kick#2" wn="kick%2:35:01"/>
+      <MEMBER grouping="push.01" name="push" verbnet_key="push#1" wn="push%2:38:00"/>
+      <MEMBER grouping="shove.02" name="shove" verbnet_key="shove#1" wn="?shove%2:35:00"/>
+      <MEMBER grouping="thrust.01 thrust.02" name="thrust" verbnet_key="thrust#1" wn="thrust%2:38:00 thrust%2:38:02 thrust%2:35:08"/>
+     </MEMBERS>
+     <THEMROLES>
+      <THEMROLE type="Destination">
+       <SELRESTRS>
+        <SELRESTR Value="+" type="animate"/>
+       </SELRESTRS>
+      </THEMROLE>
+     </THEMROLES>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="2.1" primary="NP V NP-Dative NP" secondary="Dative" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         Amanda shoved John the box.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Destination">
+         <SYNRESTRS/>
+        </NP>
+        <NP value="Theme">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="motion">
+         <ARGS>
+          <ARG type="Event" value="during(E)"/>
+          <ARG type="ThemRole" value="Theme"/>
+         </ARGS>
+        </PRED>
+        <PRED value="direction">
+         <ARGS>
+          <ARG type="Event" value="during(E)"/>
+          <ARG type="Constant" value="toward"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Destination"/>
+         </ARGS>
+        </PRED>
+        <PRED value="path_rel">
+         <ARGS>
+          <ARG type="Event" value="end(E)"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Destination"/>
+          <ARG type="Constant" value="ch_of_loc"/>
+          <ARG type="VerbSpecific" value="prep"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="Event" value="E"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+       <!--always w/o accompanied motion-->
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

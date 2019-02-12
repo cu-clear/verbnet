@@ -1,0 +1,952 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="hit-18.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="bang.01 bang.04" name="bang" verbnet_key="bang#3" wn="bang%2:35:00 bang%2:35:01"/>
+  <MEMBER grouping="" name="bash" verbnet_key="bash#2" wn="bash%2:35:00"/>
+  <MEMBER grouping="" name="blast" verbnet_key="blast#1" wn=""/>
+  <MEMBER grouping="" name="bop" verbnet_key="bop#1" wn=""/>
+  <MEMBER grouping="click.02" name="click" verbnet_key="click#2" wn="click%2:35:00"/>
+  <MEMBER grouping="dash.02" name="dash" verbnet_key="dash#1" wn="dash%2:35:02"/>
+  <MEMBER grouping="" name="knap" verbnet_key="knap#1" wn=""/>
+  <MEMBER grouping="pink.03" name="pink" verbnet_key="pink#2" wn=""/>
+  <MEMBER grouping="" name="squash" verbnet_key="squash#4" wn="squash%2:35:00"/>
+  <MEMBER grouping="squelch.01" name="squelch" verbnet_key="squelch#1" wn=""/>
+  <MEMBER grouping="" name="tamp" verbnet_key="tamp#1" wn="tamp%2:35:00"/>
+  <MEMBER grouping="" name="thump" verbnet_key="thump#2" wn="thump%2:35:00"/>
+  <MEMBER grouping="" name="thwack" verbnet_key="thwack#1" wn="thwack%2:35:00"/>
+  <MEMBER grouping="" name="trounce" verbnet_key="trounce#1" wn=""/>
+  <MEMBER grouping="whack.01" name="whack" verbnet_key="whack#1" wn="whack%2:35:00"/>
+  <MEMBER grouping="" name="wham" verbnet_key="wham#1" wn=""/>
+  <MEMBER grouping="" name="whang" verbnet_key="whang#1" wn=""/>
+  <MEMBER grouping="" name="whap" verbnet_key="whap#1" wn=""/>
+  <MEMBER grouping="" name="whop" verbnet_key="whop#1" wn=""/>
+  <MEMBER grouping="smite.01" name="smite" verbnet_key="smite#2" wn="smite%2:35:00 smite%2:30:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="int_control"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Instrument">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Result">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paula hit the ball.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paula hit the ball with a stick.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.5.2" primary="NP V NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paula hit the sticks together.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="plural"/>
+     </SYNRESTRS>
+    </NP>
+    <LEX value="together"/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Patient_i"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Patient_j"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Patient_i"/>
+      <ARG type="ThemRole" value="Patient_j"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Patient_i"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Patient_j"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Patient_i"/>
+      <ARG type="ThemRole" value="Patient_j"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paul kicked the door open.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Result">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP PP.instrument" secondary="NP-ADJP-PP; Resultative, Instrument-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paul hit the door open with his foot.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Result">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paul hit the window to pieces.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to into">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Result">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="state"/>
+     </SELRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paul hit the window to pieces with a hammer.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to into">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Result">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="state"/>
+     </SELRESTRS>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.8" primary="NP V NP PP" secondary="NP-PP" xtag="against/on-PP"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paula hit the stick against/on the fence.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="against on">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The stick hit the fence.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The stick hit the door open.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Result">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP" secondary="NP-ADJP; Result-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The hammer hit the window to pieces.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to into">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Result">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="state"/>
+     </SELRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="directedmotion"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="hit-18.1-1">
+   <MEMBERS>
+    <MEMBER grouping="batter.01 batter.02" name="batter" verbnet_key="batter#1" wn="batter%2:35:01 batter%2:35:00 batter%2:30:00"/>
+    <MEMBER grouping="beat.03 beat.11" name="beat" verbnet_key="beat#2" wn="beat%2:35:01 beat%2:36:00 beat%2:35:03 beat%2:35:10 beat%2:35:12"/>
+    <MEMBER grouping="bump.01" name="bump" verbnet_key="bump#2" wn="bump%2:35:00"/>
+    <MEMBER grouping="butt.02" name="butt" verbnet_key="butt#2" wn="butt%2:35:00"/>
+    <MEMBER grouping="drum.01" name="drum" verbnet_key="drum#2" wn="drum%2:39:00"/>
+    <MEMBER grouping="hammer.01" name="hammer" verbnet_key="hammer#4" wn="hammer%2:35:00"/>
+    <MEMBER grouping="hit.01 hit.02 hit.03" name="hit" verbnet_key="hit#3" wn="hit%2:35:01 hit%2:35:00 hit%2:33:01 hit%2:33:03"/>
+    <MEMBER grouping="" name="jab" verbnet_key="jab#1" wn="jab%2:35:00 jab%2:35:01 jab%2:35:02"/>
+    <MEMBER grouping="kick.01" name="kick" verbnet_key="kick#4" wn="kick%2:35:00"/>
+    <MEMBER grouping="knock.01 knock.02" name="knock" verbnet_key="knock#2" wn="knock%2:35:01 knock%2:35:00 knock%2:39:00"/>
+    <MEMBER grouping="lash.01" name="lash" verbnet_key="lash#2" wn="lash%2:35:01 lash%2:35:00"/>
+    <MEMBER grouping="pound.01 pound.03" name="pound" verbnet_key="pound#3" wn="pound%2:35:00 pound%2:35:01 pound%2:30:03"/>
+    <MEMBER grouping="" name="rap" verbnet_key="rap#2" wn="rap%2:35:00 rap%2:39:00"/>
+    <MEMBER grouping="slap.01" name="slap" verbnet_key="slap#2" wn="slap%2:35:00"/>
+    <MEMBER grouping="smack.01" name="smack" verbnet_key="smack#3" wn="smack%2:35:02"/>
+    <MEMBER grouping="smash.01" name="smash" verbnet_key="smash#4" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:05 smash%2:30:10"/>
+    <MEMBER grouping="strike.01 strike.02" name="strike" verbnet_key="strike#4" wn="strike%2:35:01 strike%2:35:00 strike%2:35:09"/>
+    <MEMBER grouping="" name="stomp" verbnet_key="stomp#1" wn=""/>
+    <MEMBER grouping="whang.01" name="whang" verbnet_key="whang#1" wn="whang%2:35:01"/>
+    <MEMBER grouping="tap.02" name="tap" verbnet_key="tap#1" wn="tap%2:35:00 tap%2:39:01"/>
+   </MEMBERS>
+   <THEMROLES>
+    <THEMROLE type="Instrument">
+     <SELRESTRS logic="or">
+      <SELRESTR Value="+" type="body_part"/>
+      <SELRESTR Value="+" type="refl"/>
+     </SELRESTRS>
+    </THEMROLE>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.3" primary="NP V PP" secondary="Conative" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Paul hit at the window.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <LEX value="at"/>
+      <NP value="Patient">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="Constant" value="directedmotion"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Patient"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.3" primary="NP V PP PP" secondary="Conative" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Paul hit at the window with an open hand.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <LEX value="at"/>
+      <NP value="Patient">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="with">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Instrument">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="Constant" value="directedmotion"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Instrument"/>
+        <ARG type="ThemRole" value="Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

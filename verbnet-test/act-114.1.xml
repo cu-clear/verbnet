@@ -1,0 +1,151 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="act-114.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="" name="action" verbnet_key="action#1" wn="action%2:36:00"/>
+  <MEMBER grouping="carry.08" name="carry_out" verbnet_key="carry_out#1" wn="carry_out%2:36:00"/>
+  <MEMBER grouping="carry.08" name="carry_through" verbnet_key="carry_through#1" wn="carry_through%2:36:00"/>
+  <MEMBER grouping="conduct.01 conduct.02" name="conduct" verbnet_key="conduct#1" wn="conduct%2:36:00 conduct%2:41:00"/>
+  <MEMBER grouping="execute.02" name="execute" verbnet_key="execute#1" wn="execute%2:36:00"/>
+  <MEMBER grouping="fulfill.01" name="fulfill" verbnet_key="fulfill#1" wn="fulfill%2:36:00"/>
+  <MEMBER grouping="make.01 make.02" name="make" verbnet_key="make#1" wn="make%2:41:00 make%2:36:08"/>
+  <MEMBER grouping="cause.01" name="cause" verbnet_key="cause#1" wn="cause%2:36:00"/>
+  <MEMBER grouping="engage.01" name="engage_in" verbnet_key="engage_in#1" wn="engage_in%2:41:06"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Predicate">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     They carried out the deed."
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Predicate">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="act">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Predicate"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="act-114.1-1">
+   <MEMBERS>
+    <MEMBER grouping="do.01" name="do" verbnet_key="do#1" wn="do%2:41:01 do%2:36:01 do%2:41:04 do%2:36:02"/>
+    <MEMBER grouping="perform.01" name="perform" verbnet_key="perform#1" wn="perform%2:36:00"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V" secondary="" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       No one acted.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="act">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Predicate"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="act-114.1-1-1">
+     <MEMBERS>
+      <MEMBER grouping="act.02" name="act" verbnet_key="act#1" wn="act%2:41:00"/>
+      <MEMBER grouping="move.02" name="move" verbnet_key="move#1" wn="move%2:41:00"/>
+     </MEMBERS>
+     <THEMROLES/>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         We moved (quickly) on the buyer's offer.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <PREP value="on">
+         <SELRESTRS/>
+        </PREP>
+        <NP value="Predicate">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="act">
+         <ARGS>
+          <ARG type="Event" value="during(E)"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Predicate"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="" primary="NP V PP.predicate" secondary="" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         We must act to end hunger.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Predicate">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="act">
+         <ARGS>
+          <ARG type="Event" value="during(E)"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Predicate"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

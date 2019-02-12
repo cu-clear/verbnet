@@ -1,0 +1,243 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="murder-42.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="" name="annihilate" verbnet_key="annihilate#2" wn=""/>
+  <MEMBER grouping="assassinate.01" name="assassinate" verbnet_key="assassinate#1" wn="assassinate%2:41:00"/>
+  <MEMBER grouping="bushwhack.01" name="bushwhack" verbnet_key="bushwhack#1" wn="bushwhack%2:33:00"/>
+  <MEMBER grouping="" name="butcher" verbnet_key="butcher#2" wn="butcher%2:35:00"/>
+  <MEMBER grouping="dispatch.03" name="dispatch" verbnet_key="dispatch#1" wn="dispatch%2:41:01"/>
+  <MEMBER grouping="eliminate.01" name="eliminate" verbnet_key="eliminate#1" wn="eliminate%2:30:00"/>
+  <MEMBER grouping="" name="euthanize" verbnet_key="euthanize#1" wn=""/>
+  <MEMBER grouping="execute.01" name="execute" verbnet_key="execute#2" wn="execute%2:41:00 execute%2:41:01"/>
+  <MEMBER grouping="" name="exterminate" verbnet_key="exterminate#2" wn=""/>
+  <MEMBER grouping="" name="immolate" verbnet_key="immolate#1" wn="immolate%2:40:00"/>
+  <MEMBER grouping="liquidate.04" name="liquidate" verbnet_key="liquidate#1" wn="liquidate%2:35:00"/>
+  <MEMBER grouping="" name="lynch" verbnet_key="lynch#1" wn=""/>
+  <MEMBER grouping="" name="massacre" verbnet_key="massacre#1" wn="massacre%2:30:00"/>
+  <MEMBER grouping="murder.01" name="murder" verbnet_key="murder#1" wn="murder%2:41:00"/>
+  <MEMBER grouping="" name="off" verbnet_key="off#1" wn=""/>
+  <MEMBER grouping="slaughter.01 slaughter.02" name="slaughter" verbnet_key="slaughter#1" wn="slaughter%2:35:00 slaughter%2:30:00"/>
+  <MEMBER grouping="" name="slay" verbnet_key="slay#1" wn="slay%2:41:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Instrument">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <!--Levin also includes resultative for "kill" - "kill him dead"-->
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Brutus murdered Julius Caesar.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="alive">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="alive">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Caesar killed Brutus with a knife.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="alive">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="alive">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="murder-42.1-1">
+   <MEMBERS>
+    <MEMBER grouping="kill.01" name="kill" verbnet_key="kill#2" wn="kill%2:35:00 kill%2:35:01                 kill%2:42:00 kill%2:35:02"/>
+    <MEMBER grouping="kill.01" name="kill-off" verbnet_key="kill-off#1" wn="kill_off%2:35:00"/>
+   </MEMBERS>
+   <THEMROLES>
+    <THEMROLE type="Instrument">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="concrete"/>
+     </SELRESTRS>
+    </THEMROLE>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The DDT killed the insects.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Instrument">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Patient">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="?Initial_State"/>
+        <ARG type="ThemRole" value="Patient"/>
+        <ARG type="Constant" value="ch_of_state"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="result(E)"/>
+        <ARG type="ThemRole" value="?Result"/>
+        <ARG type="ThemRole" value="Patient"/>
+        <ARG type="Constant" value="ch_of_state"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="alive">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="alive">
+       <ARGS>
+        <ARG type="Event" value="result(E)"/>
+        <ARG type="ThemRole" value="Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="?Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="?Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

@@ -1,0 +1,174 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="volunteer-95.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="offer.03" name="offer" verbnet_key="offer#3" wn="offer%2:41:00"/>
+  <MEMBER grouping="" name="proffer" verbnet_key="proffer#3" wn="proffer%2:40:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Pivot">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="Transitive; S_INF" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I volunteered to run the workshop.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="designated">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP" secondary="PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I volunteered for the task.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="designated">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP" secondary="NP-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     John volunteered my sister for the task.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Pivot">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="designated">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Pivot"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="volunteer-95.4-1">
+   <MEMBERS>
+    <MEMBER grouping="volunteer.03" name="volunteer" verbnet_key="volunteer#2" wn="volunteer%2:41:00"/>
+    <MEMBER grouping="enlist.01" name="enlist" verbnet_key="enlist#2" wn="enlist%2:40:00"/>
+    <MEMBER grouping="" name="sign_up" verbnet_key="sign_up#2" wn="sign_up%2:33:00"/>
+   </MEMBERS>
+   <THEMROLES>
+    <THEMROLE type="Attribute">
+     <SELRESTRS/>
+    </THEMROLE>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive;as-Attribute" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       John volunteered as a workshop coordinator.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Attribute">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="designated">
+       <ARGS>
+        <ARG type="Event" value="result(E)"/>
+        <ARG type="ThemRole" value="?Agent"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="property">
+       <ARGS>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Attribute"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

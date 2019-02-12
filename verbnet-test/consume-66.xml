@@ -1,0 +1,327 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="consume-66" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="use.02" name="use" verbnet_key="use#1" wn="use%2:34:00"/>
+  <MEMBER grouping="consume.02" name="consume" verbnet_key="consume#1" wn="consume%2:34:01"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Asset">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Goal">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I spent all that money.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Asset">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="exist">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Asset"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="exist">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Asset"/>
+     </ARGS>
+    </PRED>
+    <PRED value="spend">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Asset"/>
+      <ARG type="ThemRole" value="?Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Asset"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Goal"/>
+      <ARG type="ThemRole" value="Asset"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-ING-SC" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I spent that money feeding my family.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Asset">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Goal">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="sc_ing"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="exist">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Asset"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="exist">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Asset"/>
+     </ARGS>
+    </PRED>
+    <PRED value="spend">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Asset"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Asset"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Goal"/>
+      <ARG type="ThemRole" value="Asset"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="consume-66-1">
+   <MEMBERS>
+    <MEMBER grouping="" name="reuse" verbnet_key="reuse#1" wn="reuse%2:34:00"/>
+    <MEMBER grouping="" name="misspend" verbnet_key="misspend#1" wn="misspend%2:40:00"/>
+    <MEMBER grouping="spend.02" name="spend" verbnet_key="spend#1" wn="spend%2:40:00 spend%2:40:01"/>
+    <MEMBER grouping="" name="squander" verbnet_key="squander#1" wn="squander%2:34:00"/>
+    <MEMBER grouping="waste.01" name="waste" verbnet_key="waste#1" wn="waste%2:40:00 waste%2:34:05"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-SC; on-PP" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I spent the resources on buying books.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Asset">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="on">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Goal">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="sc_ing"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="exist">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Asset"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="exist">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Asset"/>
+       </ARGS>
+      </PRED>
+      <PRED value="spend">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Asset"/>
+        <ARG type="ThemRole" value="Goal"/>
+       </ARGS>
+      </PRED>
+      <PRED value="do">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Asset"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="result(E)"/>
+        <ARG type="ThemRole" value="Goal"/>
+        <ARG type="ThemRole" value="Asset"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+       </ARGS>
+      </PRED>
+      <PRED value="equals">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Source"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.goal" secondary="NP-PP; on-PP" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I spent the resources on this trip.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Asset">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="on">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Goal">
+       <SYNRESTRS>
+        <SYNRESTR Value="-" type="sentential"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="exist">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Asset"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="exist">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Asset"/>
+       </ARGS>
+      </PRED>
+      <PRED value="spend">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Asset"/>
+        <ARG type="ThemRole" value="Goal"/>
+       </ARGS>
+      </PRED>
+      <PRED value="do">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Asset"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="result(E)"/>
+        <ARG type="ThemRole" value="Goal"/>
+        <ARG type="ThemRole" value="Asset"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+       </ARGS>
+      </PRED>
+      <PRED value="equals">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Source"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

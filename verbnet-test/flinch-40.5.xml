@@ -1,0 +1,130 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="flinch-40.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="balk.01" name="balk" verbnet_key="balk#1" wn="?balk%2:41:00"/>
+  <MEMBER grouping="" name="cower" verbnet_key="cower#2" wn="cower%2:38:01"/>
+  <MEMBER grouping="" name="cringe" verbnet_key="cringe#1" wn="cringe%2:38:01"/>
+  <MEMBER grouping="" name="flinch" verbnet_key="flinch#1" wn="flinch%2:38:00"/>
+  <MEMBER grouping="" name="quail" verbnet_key="quail#1" wn=""/>
+  <MEMBER grouping="" name="recoil" verbnet_key="recoil#1" wn="recoil%2:38:00"/>
+  <MEMBER grouping="shrink.02" name="shrink" verbnet_key="shrink#1" wn="shrink%2:38:00"/>
+  <MEMBER grouping="" name="wince" verbnet_key="wince#1" wn="wince%2:38:00 wince%2:29:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Experiencer">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Stimulus">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive" xtag="0.1"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Sharon flinched.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="flinch">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="flinch">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Sharon flinched at the sight of the accident.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="at from">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Stimulus">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="flinch">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="flinch">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

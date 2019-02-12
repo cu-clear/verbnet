@@ -1,0 +1,142 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="change_bodily_state-40.8.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <!--verb add a manner predicate-->
+  <MEMBER grouping="" name="blanch" verbnet_key="blanch#1" wn="blanch%2:29:00"/>
+  <MEMBER grouping="" name="blench" verbnet_key="blench#1" wn=""/>
+  <MEMBER grouping="" name="faint" verbnet_key="faint#1" wn="faint%2:29:00"/>
+  <MEMBER grouping="" name="pale" verbnet_key="pale#1" wn=""/>
+  <MEMBER grouping="sicken.01" name="sicken" verbnet_key="sicken#2" wn="sicken%2:29:00"/>
+  <MEMBER grouping="" name="black_out" verbnet_key="black_out#1" wn="black_out%2:29:00"/>
+  <MEMBER grouping="" name="swoon" verbnet_key="swoon#1" wn="swoon%2:29:00"/>
+  <MEMBER grouping="" name="doze" verbnet_key="doze#1" wn="drowse%2:29:00"/>
+  <MEMBER grouping="" name="doze_off" verbnet_key="doze_off#1" wn="doze_off%2:29:00"/>
+  <MEMBER grouping="" name="drowse" verbnet_key="drowse#1" wn="drowse%2:29:01"/>
+  <MEMBER grouping="" name="drowse_off" verbnet_key="drowse_off#1" wn="drowse_off%2:29:00"/>
+  <MEMBER grouping="" name="drift_off" verbnet_key="drift_off#1" wn="drift_off%2:29:00"/>
+  <MEMBER grouping="" name="konk_out" verbnet_key="konk_out#1" wn=""/>
+  <MEMBER grouping="" name="nod_off" verbnet_key="nod_off#1" wn="nod_off%2:29:00"/>
+  <MEMBER grouping="" name="pass_out" verbnet_key="pass_out#1" wn="pass_out%2:29:01"/>
+  <MEMBER grouping="" name="zonk_out" verbnet_key="zonk_out#1" wn="zonk_out%2:29:01"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Experiencer">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Stimulus">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive" xtag="0.1"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Sharon fainted.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="body_reflex">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="involuntary">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Sharon fainted from hunger.
+    </EXAMPLE>
+    <EXAMPLE>
+     Sharon fainted at the sight of the accident.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="from at">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Stimulus">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="body_reflex">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="involuntary">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

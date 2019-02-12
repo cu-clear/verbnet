@@ -1,0 +1,134 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="attack-60.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="" name="ambush" verbnet_key="ambush#1" wn="ambush%2:33:00"/>
+  <MEMBER grouping="assail.01" name="assail" verbnet_key="assail#1" wn="assail%2:33:00"/>
+  <MEMBER grouping="assault.01" name="assault" verbnet_key="assault#1" wn="assault%2:33:00"/>
+  <MEMBER grouping="bomb.01" name="bomb" verbnet_key="bomb#1" wn="bomb%2:33:00"/>
+  <MEMBER grouping="bombard.01" name="bombard" verbnet_key="bombard#1" wn="bomb%2:33:00"/>
+  <MEMBER grouping="charge.05" name="charge" verbnet_key="charge#1" wn="charge%2:33:00"/>
+  <MEMBER grouping="" name="fall_upon" verbnet_key="fall_upon#1" wn=""/>
+  <MEMBER grouping="jump.04" name="jump" verbnet_key="jump#1" wn="jump%2:33:00"/>
+  <MEMBER grouping="lay.05" name="lay_into" verbnet_key="lay_into#1" wn="lay_into%2:35:00"/>
+  <MEMBER grouping="round.05" name="round_on" verbnet_key="round_on#1" wn=""/>
+  <MEMBER grouping="set.09" name="set_upon" verbnet_key="set_upon#1" wn="set_upon%2:33:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     John attacked Simon
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="conflict">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="?" value="harmed">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="Constant" value="hostile"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="attack-60.1-1">
+   <MEMBERS>
+    <MEMBER grouping="attack.01" name="attack" verbnet_key="attack#1" wn=""/>
+    <MEMBER grouping="" name="charge" verbnet_key="charge#1" wn=""/>
+    <MEMBER grouping="" name="raid" verbnet_key="raid#1" wn=""/>
+    <MEMBER grouping="" name="strike" verbnet_key="strike#2" wn=""/>
+   </MEMBERS>
+   <THEMROLES>
+    <THEMROLE type="Agent">
+     <SELRESTRS/>
+    </THEMROLE>
+    <THEMROLE type="Patient">
+     <SELRESTRS/>
+    </THEMROLE>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       John attacked
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="conflict">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="?" value="harmed">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="?Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="Constant" value="forceful"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

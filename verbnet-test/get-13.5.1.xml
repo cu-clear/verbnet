@@ -1,0 +1,585 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="get-13.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="attain.01" name="attain" verbnet_key="attain#1" wn=""/>
+  <MEMBER grouping="book.01" name="book" verbnet_key="book#1" wn="book%2:41:01"/>
+  <MEMBER grouping="buy.01" name="buy" verbnet_key="buy#2" wn="buy%2:40:00 buy%2:42:00"/>
+  <MEMBER grouping="call.01 call.07" name="call" verbnet_key="call#3" wn="call%2:32:05 call%2:32:15"/>
+  <MEMBER grouping="catch.01 catch.02" name="catch" verbnet_key="catch#1" wn="catch%2:35:00 catch%2:35:01 catch%2:35:03"/>
+  <MEMBER grouping="" name="charter" verbnet_key="charter#1" wn="charter%2:40:00"/>
+  <MEMBER grouping="choose.01" name="choose" verbnet_key="choose#1" wn="choose%2:31:00 choose%2:31:02"/>
+  <MEMBER grouping="find.01" name="find" verbnet_key="find#2" wn="find%2:40:00 find%2:40:01"/>
+  <MEMBER grouping="gather.01 gather.02" name="gather" verbnet_key="gather#2" wn="gather%2:35:00 gather%2:41:02"/>
+  <MEMBER grouping="hire.01" name="hire" verbnet_key="hire#1" wn="hire%2:41:00 hire%2:41:01 hire%2:40:00"/>
+  <MEMBER grouping="lease.01" name="lease" verbnet_key="lease#1" wn="lease%2:41:01 lease%2:40:00"/>
+  <MEMBER grouping="order.02" name="order" verbnet_key="order#1" wn="order%2:32:00"/>
+  <MEMBER grouping="phone.01" name="phone" verbnet_key="phone#1" wn="phone%2:32:00"/>
+  <MEMBER grouping="pick.02" name="pick" verbnet_key="pick#2" wn="pick%2:35:01"/>
+  <MEMBER grouping="pluck.01" name="pluck" verbnet_key="pluck#1" wn="pluck%2:35:00 pluck%2:35:01"/>
+  <MEMBER grouping="" name="procure" verbnet_key="procure#1" wn="procure%2:40:00 procure%2:34:00"/>
+  <MEMBER grouping="pull.01 pull.03" name="pull" verbnet_key="pull#2" wn="pull%2:35:02 pull%2:38:03 pull%2:30:11"/>
+  <MEMBER grouping="reach.03" name="reach" verbnet_key="reach#2" wn="reach%2:40:00"/>
+  <MEMBER grouping="rent.02" name="rent" verbnet_key="rent#1" wn="rent%2:40:00 rent%2:41:00"/>
+  <MEMBER grouping="reserve.02" name="reserve" verbnet_key="reserve#1" wn="reserve%2:32:00 reserve%2:41:00"/>
+  <!--MOVED "secure" to 13.5.1-1-->
+  <MEMBER grouping="take.04" name="take" verbnet_key="take#6" wn="take%2:40:00"/>
+  <MEMBER grouping="win.02" name="win" verbnet_key="win#1" wn="win%2:40:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Source">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Beneficiary">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Asset">
+   <SELRESTRS>
+    <SELRESTR Value="-" type="location"/>
+    <SELRESTR Value="-" type="region"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Carmen bought a dress.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Goal"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; from-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Carmen bought a dress from Diana.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="from">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Source">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Goal"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; Beneficiary Object" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Carmen bought a dress for Mary.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="for">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Beneficiary">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Goal"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="benefit">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Beneficiary"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.2" primary="NP V NP.beneficiary NP" secondary="Benefactive Alternation; double object" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Carmen bought Mary a dress.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Beneficiary">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Goal"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="benefit">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Beneficiary"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="3.9" primary="NP V NP PP.asset" secondary="NP-PP; Asset Subject" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Carmen bought a dress for $50.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="for">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Asset">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Goal"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cost">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Asset"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="3.9" primary="NP.asset V NP" secondary="NP; Asset Subject" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     $50 won't even buy a dress.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Asset">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="?Goal"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="?Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cost">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Asset"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source NP.asset" secondary="NP-PP-PP; Source-PP, Asset-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     FMC has bought 565,000 shares from Nortek Inc. at $23.50 a share.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="from">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Source">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="at for">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Asset">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Goal"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_poss"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cost">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Asset"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="get-13.5.1-1">
+   <MEMBERS>
+    <MEMBER grouping="earn.01 earn.02" name="earn" verbnet_key="earn#2" wn="earn%2:40:01 earn%2:40:03"/>
+    <MEMBER grouping="fetch.01 fetch.02" name="fetch" verbnet_key="fetch#2" wn="fetch%2:35:00 fetch%2:40:00 ?fetch%2:35:03"/>
+    <MEMBER grouping="cash.01" name="cash" verbnet_key="cash#1" wn="cash%2:40:00"/>
+    <MEMBER grouping="gain.01" name="gain" verbnet_key="gain#2" wn="gain%2:40:03 gain%2:40:01 gain%2:40:00"/>
+    <MEMBER grouping="get.01" name="get" verbnet_key="get#5" wn="get%2:40:00 get%2:35:03 get%2:40:14 get%2:40:13"/>
+    <MEMBER grouping="save.02" name="save" verbnet_key="save#2" wn="save%2:40:03"/>
+    <MEMBER grouping="" name="score" verbnet_key="score#1" wn=""/>
+    <MEMBER grouping="secure.01" name="secure" verbnet_key="secure#2" wn="secure%2:40:00 secure%2:40:01 secure%2:32:00"/>
+   </MEMBERS>
+   <THEMROLES>
+    <THEMROLE type="Source">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="abstract"/>
+     </SELRESTRS>
+    </THEMROLE>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source" secondary="NP-PP; for/on Source (abstract)" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       John earned $10 million on proceeds from the sale.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="from for on">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Source">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="start(E)"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="path_rel">
+       <ARGS>
+        <ARG type="Event" value="end(E)"/>
+        <ARG type="ThemRole" value="Goal"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="Constant" value="ch_of_poss"/>
+        <ARG type="VerbSpecific" value="prep"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer">
+       <ARGS>
+        <ARG type="Event" value="during(E)"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="E"/>
+       </ARGS>
+      </PRED>
+      <PRED value="equals">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Goal"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

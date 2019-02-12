@@ -1,0 +1,163 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="illustrate-25.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="address.06" name="address" verbnet_key="address#1" wn="address%2:32:03"/>
+  <MEMBER grouping="adorn.01" name="adorn" verbnet_key="adorn#2" wn="adorn%2:36:00"/>
+  <MEMBER grouping="" name="autograph" verbnet_key="autograph#1" wn="autograph%2:32:00"/>
+  <MEMBER grouping="bead.02" name="bead" verbnet_key="bead#2" wn="bead%2:36:00 bead%2:35:00"/>
+  <MEMBER grouping="brand.01" name="brand" verbnet_key="brand#2" wn="brand%2:41:01"/>
+  <MEMBER grouping="date.02" name="date" verbnet_key="date#1" wn="date%2:31:02 date%2:31:01"/>
+  <MEMBER grouping="decorate.01" name="decorate" verbnet_key="decorate#2" wn="decorate%2:35:00"/>
+  <MEMBER grouping="embellish.01 embellish.02" name="embellish" verbnet_key="embellish#2" wn="embellish%2:32:00 embellish%2:36:00"/>
+  <MEMBER grouping="endorse.03" name="endorse" verbnet_key="endorse#2" wn="endorse%2:32:00"/>
+  <MEMBER grouping="" name="gild" verbnet_key="gild#1" wn=""/>
+  <MEMBER grouping="ice.01" name="ice" verbnet_key="ice#1" wn="ice%2:35:00"/>
+  <MEMBER grouping="illuminate.03" name="illuminate" verbnet_key="illuminate#1" wn="illuminate%2:36:00"/>
+  <MEMBER grouping="illustrate.01" name="illustrate" verbnet_key="illustrate#1" wn="illustrate%2:36:01"/>
+  <MEMBER grouping="" name="initial" verbnet_key="initial#1" wn="initial%2:32:00"/>
+  <MEMBER grouping="label.02" name="label" verbnet_key="label#2" wn="label%2:35:00"/>
+  <MEMBER grouping="letter.02" name="letter" verbnet_key="letter#1" wn="letter%2:36:00"/>
+  <MEMBER grouping="" name="monogram" verbnet_key="monogram#1" wn=""/>
+  <MEMBER grouping="" name="ornament" verbnet_key="ornament#2" wn="ornament%2:36:00"/>
+  <MEMBER grouping="" name="redecorate" verbnet_key="redecorate#2" wn="redecorate%2:36:00"/>
+  <MEMBER grouping="tag.01 tag.04" name="tag" verbnet_key="tag#1" wn="tag%2:35:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <!--In most predicates, such as location, Theme really means image_of(Theme)-->
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="machine"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Destination">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The jeweler decorated the ring.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="created_image">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="location">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; with-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The jeweler decorated the ring with the name.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="created_image">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="location">
+     <ARGS>
+      <ARG type="Event" value="end(E)"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

@@ -1,0 +1,171 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="dress-41.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="bathe.01" name="bathe" verbnet_key="bathe#1" wn="bathe%2:29:00 bathe%2:29:01"/>
+  <MEMBER grouping="change.02" name="change" verbnet_key="change#1" wn="change%2:30:03 change%2:30:06"/>
+  <MEMBER grouping="clothe.01" name="clothe" verbnet_key="clothe#1" wn=""/>
+  <MEMBER grouping="" name="disrobe" verbnet_key="disrobe#1" wn="disrobe%2:29:01"/>
+  <MEMBER grouping="dress.01" name="dress" verbnet_key="dress#1" wn="dress%2:29:00 dress%2:29:01 dress%2:29:07"/>
+  <MEMBER grouping="exercise.02" name="exercise" verbnet_key="exercise#1" wn="exercise%2:29:01 exercise%2:29:00"/>
+  <MEMBER grouping="" name="frock" verbnet_key="frock#1" wn="frock%2:29:00"/>
+  <MEMBER grouping="lave.02" name="lave" verbnet_key="lave#1" wn="lave%2:29:00 lave%2:29:02"/>
+  <MEMBER grouping="" name="moisturize" verbnet_key="moisturize#1" wn=""/>
+  <MEMBER grouping="" name="preen" verbnet_key="preen#1" wn="preen%2:29:00"/>
+  <MEMBER grouping="" name="primp" verbnet_key="primp#1" wn="primp%2:29:00"/>
+  <MEMBER grouping="shave.01" name="shave" verbnet_key="shave#1" wn="shave%2:29:00 shave%2:35:01"/>
+  <MEMBER grouping="shower.03" name="shower" verbnet_key="shower#1" wn="shower%2:29:00"/>
+  <MEMBER grouping="strip.01 strip.03" name="strip" verbnet_key="strip#2" wn="strip%2:40:03 strip%2:30:12"/>
+  <MEMBER grouping="" name="sunbathe" verbnet_key="sunbathe#1" wn=""/>
+  <MEMBER grouping="" name="tan" verbnet_key="tan#1" wn=""/>
+  <MEMBER grouping="unclothe.02" name="unclothe" verbnet_key="unclothe#1" wn="unclothe%2:29:00"/>
+  <MEMBER grouping="" name="undress" verbnet_key="undress#1" wn="undress%2:29:00 undress%2:30:00"/>
+  <MEMBER grouping="wash.01" name="wash" verbnet_key="wash#1" wn="wash%2:29:00 wash%2:35:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="refl"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.2.3" primary="NP V" secondary="Intransitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Marlene dressed.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_state"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="take_care_of">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Marlene dressed the baby.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="take_care_of">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Unspecified Reflexive ObjectReflexive variant" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Marlene dressed herself.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="refl"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="start(E)"/>
+      <ARG type="ThemRole" value="?Initial_State"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="path_rel">
+     <ARGS>
+      <ARG type="Event" value="result(E)"/>
+      <ARG type="ThemRole" value="?Result"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Constant" value="ch_of_state"/>
+      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="take_care_of">
+     <ARGS>
+      <ARG type="Event" value="during(E)"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>
