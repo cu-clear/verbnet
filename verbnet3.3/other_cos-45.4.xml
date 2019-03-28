@@ -312,8 +312,8 @@
         <MEMBER name="treble" wn="" grouping=""/>
         <MEMBER name="trip" wn="trip%2:36:00" grouping="trip.03"/>
         <MEMBER name="triple" wn="triple%2:30:00" grouping="triple.01"/>
-        <MEMBER name="turn-on" wn="" grouping=""/>
-        <MEMBER name="turn-off" wn="" grouping=""/>
+        <MEMBER name="turn_on" wn="" grouping=""/>
+        <MEMBER name="turn_off" wn="" grouping=""/>
         <MEMBER name="ulcerate" wn="ulcerate%2:30:00 ulcerate%2:29:00" grouping=""/>
         <MEMBER name="unionize" wn="unionize%2:41:00" grouping=""/>
 	<MEMBER name="upload" wn="" grouping=""/>

@@ -26,7 +26,7 @@
         <MEMBER name="reorganize" wn="reorganize%2:41:00 reorganize%2:41:01" grouping="reorganize.01"/>
         <MEMBER name="style" wn="style%2:36:00" grouping="style.01"/>
         <MEMBER name="synthesize" wn="synthesize%2:31:00" grouping="synthesize.01"/>
-        <MEMBER name="turn-out" wn="" grouping=""/>
+        <MEMBER name="turn_out" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

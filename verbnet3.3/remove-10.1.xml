@@ -4,7 +4,7 @@
         <MEMBER name="abolish" wn="abolish%2:41:00" grouping="abolish.01"/>
         <MEMBER name="abstract" wn="abstract%2:40:00" grouping="abstract.02"/>
         <MEMBER name="cull" wn="cull%2:40:00 cull%2:35:00" grouping=""/>
-        <MEMBER name="cut-off" wn="" grouping="cut.06"/>
+        <MEMBER name="cut_off" wn="" grouping="cut.06"/>
         <MEMBER name="deburr" wn="" grouping=""/>
         <MEMBER name="deduct" wn="deduct%2:31:01 deduct%2:40:00" grouping="deduct.01"/>
         <MEMBER name="delete" wn="delete%2:35:00 delete%2:32:00" grouping="delete.01"/>

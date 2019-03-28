@@ -160,7 +160,7 @@
         <VNSUBCLASS ID="murder-42.1-1">
             <MEMBERS>
                 <MEMBER name="kill" wn="kill%2:35:00 kill%2:35:01                 kill%2:42:00 kill%2:35:02" grouping="kill.01"/>
-                <MEMBER name="kill-off" wn="kill_off%2:35:00" grouping="kill.01"/>      
+                <MEMBER name="kill_off" wn="kill_off%2:35:00" grouping="kill.01"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Instrument">

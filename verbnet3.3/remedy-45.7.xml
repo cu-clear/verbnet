@@ -15,8 +15,8 @@
         <MEMBER name="bloody" wn="" grouping=""/>
         <MEMBER name="botch" wn="" grouping=""/>
         <MEMBER name="bowdlerize" wn="" grouping=""/>
-        <MEMBER name="bring-out" wn="" grouping=""/>
-        <MEMBER name="bring-up" wn="" grouping=""/>		
+        <MEMBER name="bring_out" wn="" grouping=""/>
+        <MEMBER name="bring_up" wn="" grouping=""/>
         <MEMBER name="bungle" wn="" grouping=""/>
         <MEMBER name="capacitate" wn="" grouping="capacitate.01 capacitate.02"/>
         <MEMBER name="carbonify" wn="" grouping=""/>
@@ -145,8 +145,8 @@
         <MEMBER name="traumatize" wn="" grouping=""/>
         <MEMBER name="truncate" wn="" grouping=""/>
         <MEMBER name="trivialize" wn="trivialize%2:32:00" grouping=""/>
-        <MEMBER name="turn-up" wn="" grouping=""/>
-        <MEMBER name="turn-down" wn="" grouping=""/>
+        <MEMBER name="turn_up" wn="" grouping=""/>
+        <MEMBER name="turn_down" wn="" grouping=""/>
         <MEMBER name="underfeed" wn="" grouping=""/>
         <MEMBER name="urbanize" wn="" grouping=""/>
         <MEMBER name="ventilate" wn="" grouping=""/>

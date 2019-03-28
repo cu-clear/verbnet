@@ -11,9 +11,9 @@
         <MEMBER name="recuse" wn="recuse%2:32:00" grouping=""/>
         <MEMBER name="remove" wn="remove%2:30:00 remove%2:41:00 remove%2:40:00 remove%2:41:02 remove%2:38:00" grouping="remove.01"/>
         <MEMBER name="shanghai" wn="shanghai%2:35:00" grouping=""/>
-        <MEMBER name="turn-away" wn="" grouping=""/>
-        <MEMBER name="turn-back" wn="" grouping=""/>
-        <MEMBER name="turn-out" wn="" grouping=""/>
+        <MEMBER name="turn_away" wn="" grouping=""/>
+        <MEMBER name="turn_back" wn="" grouping=""/>
+        <MEMBER name="turn_out" wn="" grouping=""/>
         <MEMBER name="boot" wn="boot%2:35:00" grouping="boot.03"/>
     </MEMBERS>
     <THEMROLES>

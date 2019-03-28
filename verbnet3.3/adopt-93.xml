@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="adopt-93" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="abide-by" wn="abide_by%2:41:00" grouping="abide.03"/>
+        <MEMBER name="abide_by" wn="abide_by%2:41:00" grouping="abide.03"/>
         <MEMBER name="assume" wn="assume%2:41:00 assume%2:30:00 assume%2:38:00" grouping="assume.02"/>
         <MEMBER name="adopt" wn="adopt%2:40:02" grouping="adopt.01"/>
         <MEMBER name="follow" wn="follow%2:41:00 follow%2:40:00" grouping="follow.03"/>

@@ -164,7 +164,7 @@
             <MEMBERS>
                 <MEMBER name="advance" wn="" grouping=""/>
                 <MEMBER name="balloon" wn="" grouping="balloon.01 balloon.02"/>
-                <MEMBER name="build-up" wn="" grouping=""/>
+                <MEMBER name="build_up" wn="" grouping=""/>
                 <MEMBER name="decrease" wn="" grouping="decrease.01"/>
                 <MEMBER name="diminish" wn="" grouping="diminish.01"/>
                 <MEMBER name="increase" wn="" grouping="increase.01"/>

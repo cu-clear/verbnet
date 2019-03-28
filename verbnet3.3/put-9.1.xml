@@ -155,7 +155,7 @@
             <MEMBERS>
                 <MEMBER name="apply" wn="apply%2:35:00" grouping="apply.03"/>
                 <MEMBER name="bury" wn="bury%2:39:00 bury%2:41:00                 bury%2:35:00 bury%2:35:02 bury%2:35:01" grouping="bury.01                 bury.02"/>
-                <MEMBER name="build-in" wn="build_in%2:30:00" grouping="build.05"/>
+                <MEMBER name="build_in" wn="build_in%2:30:00" grouping="build.05"/>
                 <MEMBER name="deposit" wn="deposit%2:40:00" grouping="deposit.02"/>
                 <MEMBER name="embed" wn="embed%2:35:00" grouping="embed.01"/>
                 <MEMBER name="insert" wn="insert%2:35:00" grouping="insert.01"/>

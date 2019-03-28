@@ -3,7 +3,7 @@
     <MEMBERS>
 	<MEMBER name="accord" wn="accord%2:40:00" grouping=""/>
 	<MEMBER name="devolve" wn="devolve%2:41:02" grouping="devolve.01"/>		
-	<MEMBER name="portion-out" wn="portion%2:40:00" grouping=""/>
+	<MEMBER name="portion_out" wn="portion%2:40:00" grouping=""/>
 	<MEMBER name="ration" wn="ration%2:40:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>

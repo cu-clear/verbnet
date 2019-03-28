@@ -11,7 +11,7 @@
         <MEMBER name="produce" wn="produce%2:36:03" grouping="produce.01"/>
         <MEMBER name="raise" wn="raise%2:32:00 raise%2:36:06 raise%2:32:06" grouping="raise.03"/> 
         <MEMBER name="return" wn="return%2:36:00" grouping="return.02"/>
-        <MEMBER name="set-in_motion" wn="set_in_motion%2:35:05" grouping="set.06"/>
+        <MEMBER name="set_in_motion" wn="set_in_motion%2:35:05" grouping="set.06"/>
         <MEMBER name="set_off" wn="set_off%2:32:00 set_off%2:36:00" grouping=""/>
         <MEMBER name="shape" wn="shape%2:31:00" grouping="shape.02"/>
         <MEMBER name="sire" wn="" grouping=""/>
