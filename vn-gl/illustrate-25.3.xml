@@ -1,0 +1,152 @@
+<VNCLASS ID="illustrate-25.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="address.06" name="address" wn="address%2:32:03"/>
+        <MEMBER grouping="adorn.01" name="adorn" wn="adorn%2:36:00"/>
+        <MEMBER grouping="" name="autograph" wn="autograph%2:32:00"/>
+        <MEMBER grouping="bead.02" name="bead" wn="bead%2:36:00 bead%2:35:00"/>
+        <MEMBER grouping="brand.01" name="brand" wn="brand%2:41:01"/>
+        <MEMBER grouping="date.02" name="date" wn="date%2:31:02 date%2:31:01"/>
+        <MEMBER grouping="decorate.01" name="decorate" wn="decorate%2:35:00"/>
+        <MEMBER grouping="embellish.01 embellish.02" name="embellish" wn="embellish%2:32:00 embellish%2:36:00"/>
+        <MEMBER grouping="endorse.03" name="endorse" wn="endorse%2:32:00"/>
+        <MEMBER grouping="" name="gild" wn=""/>
+        <MEMBER grouping="ice.01" name="ice" wn="ice%2:35:00"/>
+        <MEMBER grouping="illuminate.03" name="illuminate" wn="illuminate%2:36:00"/>
+        <MEMBER grouping="illustrate.01" name="illustrate" wn="illustrate%2:36:01"/>
+        <MEMBER grouping="" name="initial" wn="initial%2:32:00"/>
+        <MEMBER grouping="label.02" name="label" wn="label%2:35:00"/>
+        <MEMBER grouping="letter.02" name="letter" wn="letter%2:36:00"/>
+        <MEMBER grouping="" name="monogram" wn=""/>
+        <MEMBER grouping="" name="ornament" wn="ornament%2:36:00"/>
+        <MEMBER grouping="" name="redecorate" wn="redecorate%2:36:00"/>
+        <MEMBER grouping="tag.01 tag.04" name="tag" wn="tag%2:35:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <!--In most predicates, such as location, Theme really means image_of(Theme)-->
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="machine"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The jeweler decorated the ring.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="be">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="create_image">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="be">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="part_of">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; with-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The jeweler decorated the ring with the name.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="be">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="create_image">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="be">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="part_of">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

@@ -1,0 +1,166 @@
+<VNCLASS ID="contiguous_location-47.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <!--Removed "miss" from the class-->
+        <!--Verbs may add more specific description of the spatial relationship between Theme and Co-Theme-->
+        <MEMBER grouping="" name="bestride" wn=""/>
+        <MEMBER grouping="" name="blanket" wn="blanket%2:35:00 blanket%2:42:00"/>
+        <MEMBER grouping="border.01" name="border" wn="border%2:35:01 border%2:42:00 border%2:35:00"/>
+        <MEMBER grouping="bound.02" name="bound" wn="bound%2:42:00"/>
+        <MEMBER grouping="" name="bracket" wn=""/>
+        <MEMBER grouping="bridge.01" name="bridge" wn="bridge%2:42:00"/>
+        <MEMBER grouping="cap.01" name="cap" wn="cap%2:42:00"/>
+        <MEMBER grouping="circle.02" name="circle" wn=""/>
+        <MEMBER grouping="cloak.02" name="cloak" wn=""/>
+        <MEMBER grouping="cover.01" name="cover" wn="cover%2:35:01"/>
+        <MEMBER grouping="edge.03" name="edge" wn="edge%2:35:00"/>
+        <MEMBER grouping="" name="encircle" wn="encircle%2:35:12"/>
+        <MEMBER grouping="enclose.01" name="enclose" wn="enclose%2:35:01 enclose%2:35:00"/>
+        <MEMBER grouping="" name="encompass" wn=""/>
+        <MEMBER grouping="" name="engulf" wn=""/>
+        <MEMBER grouping="" name="envelop" wn=""/>
+        <MEMBER grouping="fence.01" name="fence" wn="?fence%2:35:00"/>
+        <MEMBER grouping="fill.01" name="fill" wn="fill%2:42:00"/>
+        <MEMBER grouping="" name="flank" wn="flank%2:42:00"/>
+        <MEMBER grouping="follow.01" name="follow" wn=""/>
+        <MEMBER grouping="forgo.02 forgo.03" name="forgo" wn="forgo%2:42:00"/>
+        <MEMBER grouping="frame.01" name="frame" wn="frame%2:35:00 frame%2:42:00"/>
+        <MEMBER grouping="head.02" name="head" wn="head%2:42:00"/>
+        <MEMBER grouping="hug.02" name="hug" wn="hug%2:35:00"/>
+        <MEMBER grouping="line.01" name="line" wn="line%2:42:00"/>
+        <MEMBER grouping="" name="neighbor" wn=""/>
+        <MEMBER grouping="" name="overcast" wn=""/>
+        <MEMBER grouping="" name="overhang" wn="overhang%2:42:01 overhang%2:42:00"/>
+        <MEMBER grouping="precede.01" name="precede" wn="precede%2:42:01 precede%2:38:00"/>
+        <MEMBER grouping="predate.01" name="predate" wn="predate%2:42:00 predate%2:42:01"/>
+        <MEMBER grouping="rim.01" name="rim" wn="rim%2:42:00"/>
+        <MEMBER grouping="ring.02" name="ring" wn="ring%2:35:03"/>
+        <MEMBER grouping="skirt.02" name="skirt" wn="skirt%2:35:00"/>
+        <MEMBER grouping="" name="span" wn="span%2:42:00"/>
+        <MEMBER grouping="straddle.01 straddle.02" name="straddle" wn="straddle%2:42:01 straddle%2:42:02"/>
+        <MEMBER grouping="support.01" name="support" wn="support%2:35:00"/>
+        <MEMBER grouping="" name="surmount" wn="surmount%2:42:00"/>
+        <MEMBER grouping="surround.01" name="surround" wn="surround%2:35:00"/>
+        <MEMBER grouping="top.03" name="top" wn="top%2:40:00"/>
+        <MEMBER grouping="traverse.01" name="traverse" wn=""/>
+        <MEMBER grouping="underlie.01" name="underlie" wn="underlie%2:42:00 underlie%2:42:01 underlay%2:35:00 underlay%2:34:00"/>
+        <MEMBER grouping="" name="wreathe" wn=""/>
+        <MEMBER grouping="" name="enshroud" wn="enshroud%2:35:00"/>
+        <MEMBER grouping="" name="veil" wn="veil%2:35:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Co-Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Italy borders France.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Co-Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="contiguous_location-47.8-1">
+            <MEMBERS>
+                <MEMBER grouping="" name="abut" wn="abut%2:35:00"/>
+                <MEMBER grouping="adjoin.01" name="adjoin" wn="adjoin%2:35:02 adjoin%2:35:03"/>
+                <MEMBER grouping="cross.02" name="cross" wn="cross%2:38:03"/>
+                <MEMBER grouping="" name="hit" wn=""/>
+                <MEMBER grouping="" name="intersect" wn="intersect%2:38:00"/>
+                <MEMBER grouping="meet.03" name="meet" wn="meet%2:42:02 meet%2:35:00"/>
+                <MEMBER grouping="touch.02" name="touch" wn="touch%2:35:01"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="1.2.4" primary="NP V" secondary="Understood Reciprocal Object" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            Italy and France touch.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <LEX value="and"/>
+                        <NP value="Co-Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Co-Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+        <VNSUBCLASS ID="contiguous_location-47.8-2">
+            <MEMBERS>
+                <MEMBER grouping="" name="dominate" wn="?dominate%2:42:02"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Unspecified Object" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            DEC has often dominated.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Co-Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

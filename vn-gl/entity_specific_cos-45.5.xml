@@ -1,0 +1,85 @@
+<VNCLASS ID="entity_specific_cos-45.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="" name="apostatize" wn=""/>
+        <MEMBER grouping="" name="atrophy" wn=""/>
+        <MEMBER grouping="blister.01" name="blister" wn="blister%2:30:00"/>
+        <MEMBER grouping="" name="bloom" wn="bloom%2:30:00"/>
+        <MEMBER grouping="" name="blossom" wn="blossom%2:30:01"/>
+        <MEMBER grouping="" name="bud" wn="bud%2:30:00 bud%2:30:02"/>
+        <MEMBER grouping="" name="burgeon" wn="burgeon%2:30:01"/>
+        <MEMBER grouping="burn.02" name="burn" wn="burn%2:43:01"/>
+        <MEMBER grouping="" name="corrode" wn="corrode%2:30:00"/>
+        <MEMBER grouping="" name="crust" wn="crust%2:30:00"/>
+        <MEMBER grouping="decay.01" name="decay" wn="decay%2:30:00 decay%2:30:02"/>
+        <MEMBER grouping="decompose.01" name="decompose" wn=""/>
+        <MEMBER grouping="deteriorate.01" name="deteriorate" wn="deteriorate%2:30:00 deteriorate%2:29:00"/>
+        <MEMBER grouping="" name="ebb" wn=""/>
+        <MEMBER grouping="erode.02" name="erode" wn="erode%2:30:01"/>
+        <MEMBER grouping="ferment.01" name="ferment" wn="ferment%2:30:00"/>
+        <MEMBER grouping="" name="fester" wn=""/>
+        <MEMBER grouping="" name="flower" wn="flower%2:30:00"/>
+        <MEMBER grouping="foliate.05" name="foliate" wn="foliate%2:30:00"/>
+        <MEMBER grouping="" name="germinate" wn="germinate%2:30:00"/>
+        <MEMBER grouping="" name="green" wn=""/>
+        <MEMBER grouping="" name="molder" wn="molder%2:30:00"/>
+        <MEMBER grouping="" name="molt" wn="molt%2:29:00"/>
+        <MEMBER grouping="" name="moult" wn="moult%2:29:00"/>
+        <MEMBER grouping="" name="oxidize" wn=""/>
+        <MEMBER grouping="" name="phosphoresce" wn=""/>
+        <MEMBER grouping="" name="progress" wn=""/>
+        <MEMBER grouping="" name="putrefy" wn=""/>
+        <MEMBER grouping="rot.01" name="rot" wn="rot%2:30:00"/>
+        <MEMBER grouping="rust.01" name="rust" wn="rust%2:30:00"/>
+        <MEMBER grouping="spoil.02" name="spoil" wn="spoil%2:30:01"/>
+        <MEMBER grouping="" name="sprout" wn="sprout%2:30:00"/>
+        <MEMBER grouping="stagnate.02" name="stagnate" wn="stagnate%2:42:00"/>
+        <MEMBER grouping="subside.01 subside.02" name="subside" wn="subside%2:30:00 subside%2:38:02 subside%2:38:00"/>
+        <MEMBER grouping="" name="suppurate" wn="suppurate%2:29:01 suppurate%2:29:00"/>
+        <MEMBER grouping="swell.01" name="swell" wn="swell%2:30:02 swell%2:30:00"/>
+        <MEMBER grouping="" name="tarnish" wn=""/>
+        <MEMBER grouping="wane.01 wane.02" name="wane" wn="wane%2:30:02 wane%2:30:01"/>
+        <MEMBER grouping="" name="wilt" wn="wilt%2:30:00"/>
+        <MEMBER grouping="" name="wither" wn="wither%2:30:00"/>
+        <MEMBER grouping="" name="pullulate" wn="pullulate%2:30:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="Intransitive; Inchoative" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The roses bloomed.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="has_state">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="VerbSpecific" value="V_Final_State"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_state">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="VerbSpecific" value="V_Final_State"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

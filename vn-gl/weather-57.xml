@@ -1,0 +1,118 @@
+<VNCLASS ID="weather-57" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="blow.02" name="blow" wn="blow%2:43:00"/>
+        <MEMBER grouping="" name="bucket" wn=""/>
+        <MEMBER grouping="clear.01" name="clear" wn="clear%2:43:00"/>
+        <MEMBER grouping="" name="drizzle" wn="drizzle%2:43:00"/>
+        <MEMBER grouping="" name="fog" wn="fog%2:39:00"/>
+        <MEMBER grouping="frost.05" name="frost" wn=""/>
+        <MEMBER grouping="freeze.01" name="freeze" wn="freeze%2:43:10"/>
+        <MEMBER grouping="" name="gust" wn=""/>
+        <MEMBER grouping="hail.05" name="hail" wn="hail%2:43:00"/>
+        <MEMBER grouping="howl.01" name="howl" wn="howl%2:32:01"/>
+        <MEMBER grouping="" name="lightning" wn=""/>
+        <MEMBER grouping="mist.01" name="mist" wn="mist%2:30:00"/>
+        <MEMBER grouping="" name="mizzle" wn="mizzle%2:43:00"/>
+        <MEMBER grouping="" name="pelt" wn="pelt%2:43:00"/>
+        <MEMBER grouping="pour.04" name="pour" wn="pour%2:43:00"/>
+        <MEMBER grouping="precipitate.02" name="precipitate" wn="precipitate%2:43:00"/>
+        <MEMBER grouping="" name="rain" wn="rain%2:43:00"/>
+        <MEMBER grouping="roar.02" name="roar" wn="roar%2:32:01"/>
+        <MEMBER grouping="shower.04" name="shower" wn="shower%2:43:00"/>
+        <MEMBER grouping="" name="sleet" wn="sleet%2:43:00"/>
+        <MEMBER grouping="snow.01" name="snow" wn="snow%2:43:00"/>
+        <MEMBER grouping="spit.03" name="spit" wn="spit%2:43:00"/>
+        <MEMBER grouping="spot.02" name="spot" wn="spot%2:30:01"/>
+        <MEMBER grouping="sprinkle.02" name="sprinkle" wn="sprinkle%2:43:00"/>
+        <MEMBER grouping="storm.01" name="storm" wn="storm%2:43:01 storm%2:43:00"/>
+        <MEMBER grouping="" name="swelter" wn="swelter%2:29:01"/>
+        <MEMBER grouping="" name="teem" wn="teem%2:42:00"/>
+        <MEMBER grouping="" name="thaw" wn="?thaw%2:30:00"/>
+        <MEMBER grouping="" name="thunder" wn="thunder%2:43:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="force"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.7" primary="It V" secondary="Intransitive; Expletive Subject" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    It's raining.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <LEX value="it"/>
+                <LEX value="[+be]"/>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="weather">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.7" primary="It V NP.theme" secondary="NP; Expletive Subject, Theme Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    It's raining cats and dogs.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <LEX value="it"/>
+                <LEX value="[+be]"/>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="weather">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.7" primary="It V PP.theme" secondary="PP; Expletive Subject, Theme-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    It was pelting with rain.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <LEX value="it[+be]"/>
+                <VERB/>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="weather">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

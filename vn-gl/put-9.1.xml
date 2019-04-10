@@ -1,0 +1,338 @@
+<VNCLASS ID="put-9.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="arrange.01" name="arrange" wn="arrange%2:35:00"/>
+        <MEMBER grouping="" name="emplace" wn="emplace%2:35:00"/>
+        <MEMBER grouping="immerse.01" name="immerse" wn="immerse%2:35:00"/>
+        <MEMBER grouping="implant.01 implant.02" name="implant" wn="implant%2:35:00 implant%2:35:02 implant%2:31:00"/>
+        <MEMBER grouping="lodge.02 lodge.03" name="lodge" wn="lodge%2:35:00"/>
+        <MEMBER grouping="mount.01" name="mount" wn="mount%2:35:00 mount%2:30:01"/>
+        <MEMBER grouping="position.01" name="position" wn="position%2:35:00"/>
+        <MEMBER grouping="situate.01" name="situate" wn="situate%2:35:00"/>
+        <MEMBER grouping="sling.01" name="sling" wn="sling%2:35:00"/>
+        <MEMBER grouping="" name="station" wn="station%2:33:00"/>
+        <MEMBER grouping="" name="superimpose" wn="superimpose%2:35:00"/>
+        <MEMBER grouping="tack.01" name="tack_on" wn="tack%2:35:00 tack%2:35:06"/>
+        <MEMBER grouping="wharf.04" name="wharf" wn="wharf%2:35:03 wharf%2:35:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <!--Destination can also be realized locative adverb (here, there)-->
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Initial_Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; locative-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    I put the book on/under/near the table.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool = "!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+            <!--some prepositions are verb specific (immerse can take 'under' or 'beneath' but not 'on')-->
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADVP" secondary="NP-ADVP-PRED; here/there" xtag=""/>
+            <!-- discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
+            <EXAMPLES>
+                <EXAMPLE>
+                    I put the book here/there.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Destination">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adv_loc"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool = "!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="put-9.1-1">
+            <MEMBERS>
+                <MEMBER grouping="apply.03" name="apply" wn="apply%2:35:00"/>
+                <MEMBER grouping="bury.01                 bury.02" name="bury" wn="bury%2:39:00 bury%2:41:00                 bury%2:35:00 bury%2:35:02 bury%2:35:01"/>
+                <MEMBER grouping="build.05" name="build-in" wn="build_in%2:30:00"/>
+                <MEMBER grouping="deposit.02" name="deposit" wn="deposit%2:40:00"/>
+                <MEMBER grouping="embed.01" name="embed" wn="embed%2:35:00"/>
+                <MEMBER grouping="insert.01" name="insert" wn="insert%2:35:00"/>
+                <MEMBER grouping="install.01 install.02" name="install" wn="install%2:35:00"/>
+                <MEMBER grouping="park.01 park.02" name="park" wn="park%2:35:00 park%2:38:00"/>
+                <MEMBER grouping="plant.01 plant.03 plant.04" name="plant" wn="plant%2:35:00 plant%2:40:00 plant%2:35:06 plant%2:31:00"/>
+                <MEMBER grouping="" name="reinstall" wn="reinstall%2:35:00"/>
+                <MEMBER grouping="" name="stash" wn="stash%2:40:00"/>
+                <MEMBER grouping="" name="stow" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; without Destination" xtag="0.2"/>
+                    <!-- Discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            I stashed the book.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme "/>
+                                <ARG type="ThemRole" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="do">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="PredSpecific" value="Trajectory"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool = "!" value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e4"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Event" value="ë3"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+        <VNSUBCLASS ID="put-9.1-2">
+            <MEMBERS>
+                <MEMBER grouping="place.01" name="place" wn="place%2:35:00 place%2:40:00"/>
+                <MEMBER grouping="put.01" name="put" wn="put%2:35:00"/>
+                <MEMBER grouping="set.01 set.07" name="set" wn="set%2:35:00 set%2:35:02 set%2:35:09 set%2:35:05"/>
+                <MEMBER grouping="stick.01 stick.02" name="stick" wn="stick%2:35:02 stick%2:36:03 stick%2:35:08 stick%2:35:09"/>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Theme">
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.destination NP" secondary="PP-NP; upon/on-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            They put upon me a brilliant, red helm.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP value="on upon">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme "/>
+                                <ARG type="ThemRole" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="do">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="PredSpecific" value="Trajectory"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool = "!" value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e4"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Event" value="ë3"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

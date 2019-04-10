@@ -1,0 +1,181 @@
+<VNCLASS ID="occur-48.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="" name="go_on" wn=""/>
+        <MEMBER grouping="fall.05" name="fall" wn="fall%2:40:03"/>
+        <MEMBER grouping="" name="recur" wn=""/>
+        <MEMBER grouping="" name="take_place" wn="take_place%2:30:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    A serious accident happened.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="occur">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NP; Expletive-there Subject" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    There happened a serious accident.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <LEX value="there"/>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="occur">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP V PP" secondary="NP; PP-location" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    A serious accident happened in front of them.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="occur">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="occur-48.3-1">
+            <MEMBERS>
+                <MEMBER grouping="befall.01" name="befall" wn=""/>
+                <MEMBER grouping="chance.01" name="chance" wn=""/>
+                <MEMBER grouping="develop.01" name="develop" wn=""/>
+                <MEMBER grouping="" name="ensue" wn="ensue%2:42:00"/>
+                <MEMBER grouping="" name="eventuate" wn="eventuate%2:42:00"/>
+                <MEMBER grouping="" name="follow" wn=""/>
+                <MEMBER grouping="happen.01" name="happen" wn="happen%2:30:00 happen%2:30:01"/>
+                <MEMBER grouping="occur.01" name="occur" wn="occur%2:30:00"/>
+                <MEMBER grouping="pass.03" name="pass" wn=""/>
+                <MEMBER grouping="" name="result" wn=""/>
+                <MEMBER grouping="" name="transpire" wn="transpire%2:30:09"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="It V that S" secondary="SEEM-S" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            It occurred that they left.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <LEX value="it"/>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="that_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="occur">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+        <VNSUBCLASS ID="occur-48.3-2">
+            <MEMBERS>
+                <MEMBER grouping="" name="go" wn=""/>
+                <MEMBER grouping="" name="go_over" wn=""/>
+                <MEMBER grouping="" name="go_off" wn=""/>
+                <MEMBER grouping="" name="go_down" wn=""/>
+                <MEMBER grouping="" name="come_off" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V ADV" secondary="" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            The discussion went well.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="occur">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

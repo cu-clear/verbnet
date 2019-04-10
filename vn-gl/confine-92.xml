@@ -1,0 +1,193 @@
+<VNCLASS ID="confine-92" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="charge.06" name="charge" wn="charge%2:40:05"/>
+        <MEMBER grouping="" name="institutionalize" wn="institutionalize%2:40:00"/>
+        <MEMBER grouping="" name="incarcerate" wn="incarcerate%2:41:00"/>
+        <MEMBER grouping="" name="hospitalize" wn="hospitalize%2:40:00"/>
+        <MEMBER grouping="detain.01" name="detain" wn="detain%2:41:00"/>
+        <MEMBER grouping="jail.01" name="jail" wn="jail%2:41:00"/>
+        <MEMBER grouping="imprison.01" name="imprison" wn="imprison%2:41:00 imprison%2:41:01"/>
+        <MEMBER grouping="" name="jug" wn="jug%2:41:00"/>
+        <MEMBER grouping="" name="immure" wn="immure%2:41:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    We committed John.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="confined">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="confined">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="confine-92-1">
+            <MEMBERS>
+                <MEMBER grouping="commit.03" name="commit" wn="commit%2:40:02"/>
+                <MEMBER grouping="recommit.01" name="recommit" wn="recommit%2:41:01 recommit%2:40:00"/>
+                <MEMBER grouping="send.02" name="send" wn="send%2:40:00"/>
+                <MEMBER grouping="confine.02" name="confine" wn="confine%2:41:00"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.destination" secondary="NP-PP; to-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            We committed John to prison.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="to">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="PredSpecific" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="confined">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="do">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="PredSpecific" value="Trajectory"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="PredSpecific" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e4"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="confined">
+                            <ARGS>
+                                <ARG type="Event" value="e4"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Event" value="ë3"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

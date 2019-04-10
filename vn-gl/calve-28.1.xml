@@ -1,0 +1,65 @@
+<VNCLASS ID="calve-28.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <!--Each member specifies the Patient-->
+        <MEMBER grouping="" name="calve" wn="calve%2:29:00"/>
+        <MEMBER grouping="" name="cub" wn="cub%2:29:00"/>
+        <MEMBER grouping="fawn.02" name="fawn" wn="fawn%2:29:00"/>
+        <MEMBER grouping="" name="foal" wn="foal%2:29:00"/>
+        <MEMBER grouping="" name="kitten" wn="kitten%2:29:00"/>
+        <MEMBER grouping="" name="lamb" wn="lamb%2:29:00"/>
+        <MEMBER grouping="litter.02" name="litter" wn="litter%2:29:00"/>
+        <MEMBER grouping="" name="pup" wn="pup%2:29:00"/>
+        <MEMBER grouping="spawn.01" name="spawn" wn="spawn%2:36:00"/>
+        <MEMBER grouping="" name="whelp" wn="whelp%2:29:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The cat kittened.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="give_birth">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

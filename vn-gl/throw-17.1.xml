@@ -1,0 +1,756 @@
+<VNCLASS ID="throw-17.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="cast.01" name="cast" wn="cast%2:36:02 cast%2:35:00"/>
+        <MEMBER grouping="discard.01" name="discard" wn="discard%2:40:00"/>
+        <MEMBER grouping="drive.04" name="drive" wn="drive%2:35:01"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="int_control"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Initial_Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTRS>
+                    <SELRESTR Value="+" type="location"/>
+                    <SELRESTR Value="-" type="region"/>
+                </SELRESTRS>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Result">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Steve tossed the ball.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_location"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool = "!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="e4"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destinations" secondary="NP-PP; Goal-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Steve tossed the ball to the garden.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS logic="or">
+                        <SELRESTR Value="+" type="dest"/>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_location"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool = "!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="e4"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
+            <!-- might want to add predicate !location(end(E1),Theme,Initial_Location)-->
+            <EXAMPLES>
+                <EXAMPLE>
+                    Steve tossed the ball from the corner.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Initial_Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Initial_location"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="e4"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP-PP; Initial_Location-PP Goal-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Steve tossed the ball from the corner to the garden.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Initial_Location">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="dest_dir"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Initial_location"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="e4"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP ADVP" secondary="NP-ADVP-PRED; here/there/away" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    I threw the package away.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <ADV/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_location"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="e4"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="throw-17.1-1">
+            <MEMBERS>
+                <MEMBER grouping="" name="bash" wn="bash%2:35:00"/>
+                <MEMBER grouping="bat.01" name="bat" wn="bat%2:35:01"/>
+                <MEMBER grouping="" name="bunt" wn="bunt%2:35:01"/>
+                <MEMBER grouping="chuck.01" name="chuck" wn="chuck%2:35:00"/>
+                <MEMBER grouping="fire.01" name="fire" wn="fire%2:33:01 fire%2:33:00"/>
+                <MEMBER grouping="flick.04" name="flick" wn="flick%2:35:03"/>
+                <MEMBER grouping="fling.01" name="fling" wn="fling%2:35:00"/>
+                <MEMBER grouping="flip.01" name="flip" wn="flip%2:38:00 flip%2:38:02 flip%2:35:05 flip%2:35:03"/>
+                <MEMBER grouping="hit.01" name="hit" wn="hit%2:35:03"/>
+                <MEMBER grouping="hurl.01" name="hurl" wn="hurl%2:35:00"/>
+                <MEMBER grouping="knock.01" name="knock" wn="knock%2:35:04"/>
+                <MEMBER grouping="" name="lob" wn="lob%2:35:00"/>
+                <MEMBER grouping="" name="loft" wn="loft%2:35:01"/>
+                <MEMBER grouping="" name="nudge" wn="nudge%2:35:00"/>
+                <MEMBER grouping="pass.04" name="pass" wn="pass%2:40:01"/>
+                <MEMBER grouping="pitch.01 pitch.02 pitch.07 pitch.08" name="pitch" wn="pitch%2:35:00 pitch%2:35:13"/>
+                <MEMBER grouping="punt.01" name="punt" wn="punt%2:35:01"/>
+                <MEMBER grouping="shoot.02" name="shoot" wn="shoot%2:35:01"/>
+                <MEMBER grouping="shove.02" name="shove" wn="shove%2:38:01"/>
+                <MEMBER grouping="slam.01" name="slam" wn="slam%2:35:02"/>
+                <MEMBER grouping="slap.04" name="slap" wn=""/>
+                <MEMBER grouping="sling.01" name="sling" wn="sling%2:35:00"/>
+                <MEMBER grouping="smash.01" name="smash" wn="smash%2:35:00"/>
+                <MEMBER grouping="" name="tap" wn=""/>
+                <MEMBER grouping="boot.02" name="boot" wn="boot%2:35:00"/>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Destination">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="animate"/>
+                    </SELRESTRS>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="2.1" primary="NP V NP-Dative NP" secondary="Dative" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            Steve tossed John the ball.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Destination">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="exert_force">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="PredSpecific" value="Trajectory"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Initial_location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="e4"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e5"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Event" value="ë3"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="overlaps">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Event" value="ë3"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="overlaps">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="e4"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="throw-17.1-1-1">
+                    <MEMBERS>
+                        <MEMBER grouping="" name="catapult" wn="catapult%2:35:00 catapult%2:35:01"/>
+                        <MEMBER grouping="kick.01" name="kick" wn="kick%2:35:01"/>
+                        <MEMBER grouping="launch.01 launch.02" name="launch" wn="launch%2:35:00 launch%2:35:04"/>
+                        <MEMBER grouping="throw.01 throw.03" name="throw" wn="throw%2:35:00 throw%2:38:00 throw%2:35:02 throw%2:38:03"/>
+                        <MEMBER grouping="tip.01 tip.07" name="tip" wn=""/>
+                        <MEMBER grouping="toss.01 toss.04" name="toss" wn="toss%2:35:04 toss%2:38:00 toss%2:35:05"/>
+                    </MEMBERS>
+                    <THEMROLES>
+                        <THEMROLE type="Causer">
+                            <SELRESTRS/>
+                        </THEMROLE>
+                    </THEMROLES>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    The proposal throws the House's work into chaos.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Causer">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="into">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Result">
+                                    <SELRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED bool="!" value="has_state">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Result"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="exert_force">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Causer"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_state">
+                                    <ARGS>
+                                        <ARG type="Event" value="e3"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Result"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="Event" value="e3"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="" primary="NP V PP.result NP" secondary="PP-NP; Result-PP" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    The proposal throws into chaos the House's proposal.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Causer">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <PREP value="into">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Result">
+                                    <SELRESTRS/>
+                                </NP>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED bool="!" value="has_state">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Result"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="exert_force">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Causer"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_state">
+                                    <ARGS>
+                                        <ARG type="Event" value="e3"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Result"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="Event" value="e3"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

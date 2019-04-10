@@ -1,0 +1,142 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="assuming_position-50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <!--individual verbs specify what spatial position Pos refers to, and specifies what kind of motion is happening during the event for Agent to assume this position-->
+        <!--"straddle" also takes a transitive ("John straddled the horse")-->
+        <MEMBER grouping="bend.02" name="bend" verbnet_key="bend#1" wn="bend%2:38:03"/>
+        <MEMBER grouping="bow.01" name="bow" verbnet_key="bow#2" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
+        <MEMBER grouping="" name="crouch" verbnet_key="crouch#1" wn="crouch%2:38:00"/>
+        <MEMBER grouping="flop.01" name="flop" verbnet_key="flop#1" wn="flop%2:38:01 flop%2:38:00"/>
+        <MEMBER grouping="hang.01" name="hang" verbnet_key="hang#1" wn=""/>
+        <MEMBER grouping="" name="hunch" verbnet_key="hunch#1" wn=""/>
+        <MEMBER grouping="" name="hunch_up" verbnet_key="hunch_up#1" wn=""/>
+        <MEMBER grouping="" name="kneel" verbnet_key="kneel#1" wn="kneel%2:35:00"/>
+        <MEMBER grouping="lean.01" name="lean" verbnet_key="lean#1" wn="lean%2:38:00"/>
+        <MEMBER grouping="lie.01" name="lie" verbnet_key="lie#1" wn="lie%2:38:00"/>
+        <MEMBER grouping="" name="lie_down" verbnet_key="lie_down#1" wn=""/>
+        <MEMBER grouping="" name="perch" verbnet_key="perch#1" wn="perch%2:35:00"/>
+        <MEMBER grouping="plop.01" name="plop" verbnet_key="plop#2" wn="plop%2:35:00"/>
+        <MEMBER grouping="rise.01 rise.03" name="rise" verbnet_key="rise#2" wn="rise%2:38:00 rise%2:38:05 rise%2:38:04 rise%2:29:08"/>
+        <MEMBER grouping="sit.01" name="sit" verbnet_key="sit#1" wn="sit%2:38:00"/>
+        <MEMBER grouping="" name="sit_down" verbnet_key="sit_down#1" wn=""/>
+        <MEMBER grouping="" name="slouch" verbnet_key="slouch#1" wn="slouch%2:38:01"/>
+        <MEMBER grouping="slump.01" name="slump" verbnet_key="slump#1" wn="slump%2:38:01 slump%2:38:00"/>
+        <MEMBER grouping="" name="sprawl" verbnet_key="sprawl#1" wn="sprawl%2:35:00 ?sprawl%2:38:00"/>
+        <MEMBER grouping="squat.01" name="squat" verbnet_key="squat#1" wn="squat%2:35:00"/>
+        <MEMBER grouping="" name="squat_down" verbnet_key="squat_down#1" wn=""/>
+        <MEMBER grouping="stand.01" name="stand" verbnet_key="stand#2" wn="stand%2:42:03"/>
+        <MEMBER grouping="" name="stand_up" verbnet_key="stand_up#1" wn=""/>
+        <MEMBER grouping="" name="stoop" verbnet_key="stoop#1" wn="stoop%2:38:00 stoop%2:38:04"/>
+        <MEMBER grouping="straddle.01" name="straddle" verbnet_key="straddle#1" wn="straddle%2:42:01"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The dog flopped.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="has_position">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="VerbSpecific" value="V_Position"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="body_motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_position">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="VerbSpecific" value="V_Position"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The dog flopped in the corner.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="has_position">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="VerbSpecific" value="V_Position"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="body_motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_position">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="VerbSpecific" value="V_Position"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

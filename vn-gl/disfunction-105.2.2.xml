@@ -1,0 +1,51 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="disfunction-105.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+	<MEMBERS>
+		<MEMBER grouping="croak.01" name="croak" verbnet_key="croak#4" wn="croak%2:30:00" />
+		<MEMBER grouping="die.04" name="die" verbnet_key="die#5" wn="die%2:30:04" />
+		<MEMBER grouping="" name="fizzle_out" verbnet_key="fizzle_out#2" wn="fizzle_out%2:42:00" />
+		<MEMBER grouping="give.05" name="give_out" verbnet_key="give_out#3" wn="give_out%2:30:00" />
+		<MEMBER grouping="go.03" name="go_down" verbnet_key="go_down#4" wn="go_down%2:30:14" />
+		<MEMBER grouping="go.03" name="go_off" verbnet_key="go_off#3" wn="go_off%2:35:00" />
+		<MEMBER grouping="go.03" name="go_out" verbnet_key="go_out#3" wn="go_out%2:30:00" />
+		<MEMBER grouping="" name="poop_out" verbnet_key="poop_out#2" wn="poop_out%2:29:00" />
+	</MEMBERS>
+	<THEMROLES>
+		<THEMROLE type="Theme">
+			<SELRESTRS />
+		</THEMROLE>
+	</THEMROLES>
+	<FRAMES>
+		<FRAME>
+			<DESCRIPTION descriptionNumber="8.1" primary="NP V"
+				secondary="Basic Intransitive" xtag="0.2" />
+			<EXAMPLES>
+				<EXAMPLE>
+					The old dishwasher died.
+				</EXAMPLE>
+			</EXAMPLES>
+			<SYNTAX>
+				<NP value="Theme">
+					<SYNRESTRS />
+				</NP>
+				<VERB />
+			</SYNTAX>
+			<SEMANTICS>
+				<PRED value="function">
+					<ARGS>
+						<ARG type="Event" value="e1" />
+						<ARG type="ThemRole" value="Theme" />
+					</ARGS>
+				</PRED>
+				<PRED bool="!" value="function">
+					<ARGS>
+						<ARG type="Event" value="e2" />
+						<ARG type="ThemRole" value="Theme" />
+					</ARGS>
+				</PRED>
+			</SEMANTICS>
+		</FRAME>
+	</FRAMES>
+	<SUBCLASSES />
+</VNCLASS>

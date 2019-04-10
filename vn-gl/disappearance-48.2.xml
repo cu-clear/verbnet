@@ -1,0 +1,114 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="disappearance-48.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+	<MEMBERS>
+		<MEMBER grouping="die.01" name="die" verbnet_key="die#4" wn="die%2:30:01" />
+		<MEMBER grouping="go.03" name="go_out" verbnet_key="go_out#2" wn="go_out%2:30:00" />
+		<MEMBER grouping="go.03" name="go_down" verbnet_key="go_down#3" wn="go_down%2:30:14" />
+		<MEMBER grouping="go.03" name="go_off" verbnet_key="go_off#2" wn="go_off%2:35:00" />
+	</MEMBERS>
+	<THEMROLES>
+		<THEMROLE type="Theme">
+			<SELRESTRS />
+		</THEMROLE>
+		<THEMROLE type="Initial_Location">
+			<SELRESTRS />
+		</THEMROLE>
+	</THEMROLES>
+	<FRAMES>
+		<FRAME>
+			<DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="" />
+			<EXAMPLES>
+				<EXAMPLE>
+					The crowd vanished.
+				</EXAMPLE>
+			</EXAMPLES>
+			<SYNTAX>
+				<NP value="Theme">
+					<SYNRESTRS />
+				</NP>
+				<VERB />
+			</SYNTAX>
+			<SEMANTICS>
+				<PRED value="has_location">
+					<ARGS>
+						<ARG type="Event" value="e1" />
+						<ARG type="ThemRole" value="Theme" />
+						<ARG type="ThemRole" value="?Initial_Location" />
+					</ARGS>
+				</PRED>
+				<PRED value="disappear">
+					<ARGS>
+						<ARG type="Event" value="e2" />
+						<ARG type="ThemRole" value="Theme" />
+					</ARGS>
+				</PRED>
+				<PRED bool="!" value="has_location">
+					<ARGS>
+						<ARG type="Event" value="e3" />
+						<ARG type="ThemRole" value="Theme" />
+						<ARG type="ThemRole" value="?Initial_Location" />
+					</ARGS>
+				</PRED>
+			</SEMANTICS>
+		</FRAME>
+	</FRAMES>
+	<SUBCLASSES>
+		<VNSUBCLASS ID="disappearance-48.2-1">
+			<MEMBERS>
+				<MEMBER grouping="disappear.01" name="disappear" verbnet_key="disappear#1" wn="disappear%2:30:00 disappear%2:39:00 disappear%2:30:02" />
+				<MEMBER grouping="expire.01 expire.02" name="expire" verbnet_key="expire#3" wn="expire%2:42:00 expire%2:30:00" />
+				<MEMBER grouping="go.03" name="go" verbnet_key="go#3" wn="go%2:30:03" />
+				<MEMBER grouping="lapse.02 lapse.05" name="lapse" verbnet_key="lapse#1" wn="lapse%2:30:01 lapse%2:38:00" />
+				<MEMBER grouping="" name="perish" verbnet_key="perish#3" wn="perish%2:30:00" />
+				<MEMBER grouping="vanish.01" name="vanish" verbnet_key="vanish#1" wn="vanish%2:30:00 vanish%2:39:00 vanish%2:38:05 vanish%2:30:02 vanish%2:30:01" />
+			</MEMBERS>
+			<THEMROLES />
+			<FRAMES>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="6.1" primary="NP V PP"	secondary="PP" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							A valuable manuscript vanished from the library.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Theme">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<PREP value="from">
+							<SELRESTRS />
+						</PREP>
+						<NP value="Initial_Location">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+        				<PRED value="has_location">
+        					<ARGS>
+        						<ARG type="Event" value="e1" />
+        						<ARG type="ThemRole" value="Theme" />
+        						<ARG type="ThemRole" value="Initial_Location" />
+        					</ARGS>
+        				</PRED>
+        				<PRED value="disappear">
+        					<ARGS>
+        						<ARG type="Event" value="e2" />
+        						<ARG type="ThemRole" value="Theme" />
+        					</ARGS>
+        				</PRED>
+        				<PRED bool="!" value="has_location">
+        					<ARGS>
+        						<ARG type="Event" value="e3" />
+        						<ARG type="ThemRole" value="Theme" />
+        						<ARG type="ThemRole" value="Initial_Location" />
+        					</ARGS>
+        				</PRED>
+					</SEMANTICS>
+				</FRAME>
+			</FRAMES>
+			<SUBCLASSES />
+		</VNSUBCLASS>
+	</SUBCLASSES>
+</VNCLASS>

@@ -1,0 +1,100 @@
+<VNCLASS ID="investigate-35.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="" name="canvass" wn="canvass%2:41:01 canvass%2:41:00"/>
+        <MEMBER grouping="explore.01" name="explore" wn="explore%2:31:02"/>
+        <MEMBER grouping="examine.01 examine.02 examine.03" name="examine" wn="examine%2:31:00 examine%2:39:00 examine%2:32:01"/>
+        <MEMBER grouping="" name="frisk" wn="frisk%2:35:00"/>
+        <MEMBER grouping="inspect.01" name="inspect" wn="inspect%2:39:00 inspect%2:38:00"/>
+        <MEMBER grouping="investigate.01" name="investigate" wn="investigate%2:32:00 investigate%2:32:01"/>
+        <MEMBER grouping="monitor.01" name="monitor" wn="monitor%2:39:00"/>
+        <MEMBER grouping="observe.01" name="observe" wn="observe%2:41:00"/>
+        <MEMBER grouping="" name="picket" wn="picket%2:41:00"/>
+        <MEMBER grouping="" name="quiz" wn="quiz%2:32:00"/>
+        <MEMBER grouping="raid.01" name="raid" wn="raid%2:41:00"/>
+        <MEMBER grouping="" name="ransack" wn="ransack%2:40:00 ransack%2:35:02"/>
+        <MEMBER grouping="" name="riffle" wn="riffle%2:39:10"/>
+        <MEMBER grouping="scan.01" name="scan" wn="scan%2:39:01 scan%2:39:00 scan%2:35:00"/>
+        <MEMBER grouping="scrutinize.01" name="scrutinize" wn="scrutinize%2:39:00 scrutinize%2:31:00"/>
+        <MEMBER grouping="" name="surveil" wn="surveil%2:39:00"/>
+        <MEMBER grouping="survey.01" name="survey" wn="survey%2:31:00 survey%2:39:00 survey%2:39:13"/>
+        <MEMBER grouping="tap.01" name="tap" wn="tap%2:39:00"/>
+        <MEMBER grouping="test.01 test.02" name="test" wn="test%2:41:01"/>
+        <MEMBER grouping="tour.01" name="tour" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.location PP.theme" secondary="NP-PP; Location Object, Theme-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    We investigated the area for bombs.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="for">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP.location" secondary="Transitive; Location Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    We inspected the area.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

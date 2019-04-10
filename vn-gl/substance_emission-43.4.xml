@@ -1,0 +1,372 @@
+<VNCLASS ID="substance_emission-43.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="give.09" name="give" wn=""/>
+        <MEMBER grouping="give.09" name="give_off" wn=""/>
+        <MEMBER grouping="give.09" name="give_out" wn=""/>
+        <MEMBER grouping="give.09" name="give_forth" wn=""/>
+        <MEMBER grouping="" name="emit" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The well gushed oil.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="ë1"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="substance_emission-43.4-1">
+            <MEMBERS>
+                <MEMBER grouping="bead.01" name="bead" wn="bead%2:42:00"/>
+                <MEMBER grouping="" name="belch" wn="belch%2:29:00 belch%2:30:00"/>
+                <MEMBER grouping="bubble.02" name="bubble" wn="bubble%2:30:00 bubble%2:29:00"/>
+                <MEMBER grouping="dribble.04" name="dribble" wn="dribble%2:35:10 dribble%2:29:00"/>
+                <MEMBER grouping="drip.01" name="drip" wn="drip%2:38:00 drip%2:35:10"/>
+                <MEMBER grouping="drool.01" name="drool" wn="drool%2:29:00"/>
+                <MEMBER grouping="" name="emanate" wn="emanate%2:30:00 emanate%2:29:00"/>
+                <MEMBER grouping="" name="exrete" wn="excrete%2:29:00"/>
+                <MEMBER grouping="" name="exude" wn="exude%2:29:00"/>
+                <MEMBER grouping="" name="foam" wn=""/>
+                <MEMBER grouping="gush.01" name="gush" wn="gush%2:38:00 gush%2:35:00"/>
+                <MEMBER grouping="" name="jet" wn=""/>
+                <MEMBER grouping="leak.01 leak.02" name="leak" wn="leak%2:30:04"/>
+                <MEMBER grouping="" name="ooze" wn="ooze%2:38:00 ooze%2:29:00"/>
+                <MEMBER grouping="" name="percolate" wn=""/>
+                <MEMBER grouping="pour.01 pour.02" name="pour" wn="pour%2:38:03 pour%2:38:04 pour%2:38:02"/>
+                <MEMBER grouping="" name="puff" wn="?puff%2:30:00"/>
+                <MEMBER grouping="radiate.01 radiate.02" name="radiate" wn="radiate%2:43:00 radiate%2:30:00 radiate%2:39:00 radiate%2:30:02"/>
+                <MEMBER grouping="" name="seep" wn="seep%2:38:00"/>
+                <MEMBER grouping="shed.01 shed.03" name="shed" wn="shed%2:35:02 shed%2:35:00 shed%2:29:00"/>
+                <MEMBER grouping="" name="slop" wn="slop%2:35:00 slop%2:35:01"/>
+                <MEMBER grouping="spew.01 spew.02" name="spew" wn="spew%2:29:01 spew%2:29:02 spew%2:29:00"/>
+                <MEMBER grouping="spill.01" name="spill" wn="spill%2:35:04 spill%2:38:00 spill%2:35:00 spill%2:35:01"/>
+                <MEMBER grouping="spout.01" name="spout" wn="spout%2:38:00"/>
+                <MEMBER grouping="" name="sprout" wn="sprout%2:30:00 sprout%2:29:01"/>
+                <MEMBER grouping="" name="spurt" wn="spurt%2:38:01"/>
+                <MEMBER grouping="squirt.01" name="squirt" wn="squirt%2:35:00"/>
+                <MEMBER grouping="steam.02" name="steam" wn="steam%2:43:00"/>
+                <MEMBER grouping="stream.05" name="stream" wn="stream%2:29:00"/>
+                <MEMBER grouping="" name="sweat" wn="sweat%2:29:00"/>
+                <MEMBER grouping="" name="trickle" wn=""/>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Location">
+                    <SELRESTRS/>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            The fountain gushed.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emit">
+                            <ARGS>
+                                <ARG type="Event" value="ë1"/>
+                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="1.1.3" primary="NP.theme V PP.source" secondary="PP; Substance Subject, Source-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            Oil gushed from the well.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP value="from out_of">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emit">
+                            <ARGS>
+                                <ARG type="Event" value="ë1"/>
+                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.location" secondary="NP-PP; Location-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            Water gushed through the streets.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP>
+                            <SELRESTRS>
+                                <SELRESTR Value="+" type="path"/>
+                            </SELRESTRS>
+                        </PREP>
+                        <NP value="Location">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emit">
+                            <ARGS>
+                                <ARG type="Event" value="ë1"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Location"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="2.3" primary="NP.location V PP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            The streets gushed with water.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Location">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP value="with">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emit">
+                            <ARGS>
+                                <ARG type="Event" value="ë1"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Location"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                    <!--some verbs-->
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="6.2" primary="PP.location V NP" secondary="Locative Inversion" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            Over the fire bubbled a fragant stew.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <PREP>
+                            <SELRESTRS>
+                                <SELRESTR Value="+" type="loc"/>
+                            </SELRESTRS>
+                        </PREP>
+                        <NP value="Location">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emit">
+                            <ARGS>
+                                <ARG type="Event" value="ë1"/>
+                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                                <ARG type="ThemRole" value="Location"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                    <!--some verbs-->
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="6.1" primary="There V NP PP" secondary="NP-PP; Expletive-there Subject" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            There bubbled a fragant stew over the fire.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <LEX value="there"/>
+                        <VERB/>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP>
+                            <SELRESTRS>
+                                <SELRESTR Value="+" type="loc"/>
+                            </SELRESTRS>
+                        </PREP>
+                        <NP value="Location">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emit">
+                            <ARGS>
+                                <ARG type="Event" value="ë1"/>
+                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                                <ARG type="ThemRole" value="Location"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V out" secondary="PARTout" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            The water seeped out.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <LEX value="out"/>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emit">
+                            <ARGS>
+                                <ARG type="Event" value="ë1"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="substance_emission-43.4-1-1">
+                    <MEMBERS>
+                        <MEMBER grouping="bleed.01 bleed.03 bleed.05 bleed.06" name="bleed" wn="bleed%2:29:00 bleed%2:29:01 bleed%2:38:00 bleed%2:30:00"/>
+                    </MEMBERS>
+                    <THEMROLES>
+                        <THEMROLE type="Agent">
+                            <SELRESTRS/>
+                        </THEMROLE>
+                    </THEMROLES>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="" primary="NP V NP.source" secondary="NP; Causative variant" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    I bled him.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Source">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="do">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="emit">
+                                    <ARGS>
+                                        <ARG type="Event" value="ë2"/>
+                                        <ARG type="ThemRole" value="Source"/>
+                                        <ARG type="ThemRole" value="?Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="ë2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                            <!--some verbs-->
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

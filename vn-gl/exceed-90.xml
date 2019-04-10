@@ -1,0 +1,98 @@
+<VNCLASS ID="exceed-90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="overcome.01" name="overcome" wn="overcome%2:33:01"/>
+        <MEMBER grouping="overleap.02" name="overleap" wn="overleap%2:38:00"/>
+        <MEMBER grouping="transcend.01" name="transcend" wn="transcend%2:42:00 transcend%2:42:01"/>
+        <MEMBER grouping="" name="better" wn="better%2:33:00"/>
+        <MEMBER grouping="exceed.01" name="exceed" wn="exceed%2:42:01 exceed%2:42:00         exceed%2:33:00"/>
+        <MEMBER grouping="lap.04" name="lap" wn=""/>
+        <MEMBER grouping="" name="outbid" wn="outbid%2:40:01 outbid%2:40:00"/>
+        <MEMBER grouping="" name="outdo" wn="outdo%2:33:00"/>
+        <MEMBER grouping="" name="outmatch" wn="outmatch%2:33:00"/>
+        <MEMBER grouping="outnumber.01" name="outnumber" wn="outnumber%2:42:00"/>
+        <MEMBER grouping="" name="outrace" wn=""/>
+        <MEMBER grouping="" name="outshine" wn="outshine%2:33:00"/>
+        <MEMBER grouping="" name="outsmart" wn="outsmart%2:33:00 outsmart%2:33:01"/>
+        <MEMBER grouping="outstrip.01" name="outstrip" wn="outstrip%2:33:00 outstrip%2:38:00"/>
+        <MEMBER grouping="outweigh.01 outweigh.02" name="outweigh" wn="outweigh%2:33:00 outweigh%2:42:00"/>
+        <MEMBER grouping="" name="outwit" wn="outwit%2:33:00"/>
+        <MEMBER grouping="" name="overreach" wn="overreach%2:33:00"/>
+        <MEMBER grouping="" name="overstep" wn="overstep%2:42:00"/>
+        <MEMBER grouping="surpass.01" name="surpass" wn="surpass%2:33:00 surpass%2:42:01"/>
+        <MEMBER grouping="top.01         top.02" name="top" wn="top%2:42:00 top%2:42:11"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Co-Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Attribute">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Her performance exceeds our expectations.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Co-Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exceed">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP-PP; in-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Her performance exceeds ours in brilliance.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Co-Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="in">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Attribute">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exceed">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
+                        <ARG type="ThemRole" value="Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

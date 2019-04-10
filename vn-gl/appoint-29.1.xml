@@ -1,0 +1,204 @@
+<VNCLASS ID="appoint-29.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="appoint.01" name="appoint" wn="appoint%2:41:01 appoint%2:41:00"/>
+        <MEMBER grouping="" name="coronate" wn="coronate%2:41:00"/>
+        <MEMBER grouping="crown.01" name="crown" wn="crown%2:41:00"/>
+        <MEMBER grouping="designate.01 designate.02" name="designate" wn="designate%2:32:00"/>
+        <MEMBER grouping="elect.01" name="elect" wn="elect%2:41:00"/>
+        <MEMBER grouping="install.02" name="install" wn="install%2:41:00"/>
+        <MEMBER grouping="proclaim.01" name="proclaim" wn="proclaim%2:32:02"/>
+        <MEMBER grouping="mark.03" name="mark" wn="mark%2:31:09"/>
+        <MEMBER grouping="ordain.02" name="ordain" wn="ordain%2:41:00 ordain%2:41:02"/>
+        <MEMBER grouping="adopt.01" name="adopt" wn="adopt%2:40:02 adopt%2:40:00 adopt%2:41:01 adopt%2:31:04"/>
+        <MEMBER grouping="upgrade.03" name="upgrade" wn=""/>
+        <MEMBER grouping="" name="reelect" wn="reelect%2:41:00"/>
+        <MEMBER grouping="want.01" name="want" wn="want%2:31:01"/>
+        <MEMBER grouping="" name="name" wn=""/>
+        <MEMBER grouping="nominate.01" name="nominate" wn="nominate%2:32:00 nominate%2:41:02 nominate%2:41:01 nominate%2:41:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Result">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP NP" secondary="NP-NP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    We elected him governor.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="designated">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Result"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.result" secondary="NP-PP; as-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    We elected him as governor.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <LEX value="as"/>
+                <NP value="Result">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="designated">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Result"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP to be NP" secondary="Infinitival Copular Clause" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    We elected Alan to be our new governor.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <LEX value="to"/>
+                <LEX value="be"/>
+                <NP value="Result">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="designated">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Result"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    They elected John.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="designated">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Result"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

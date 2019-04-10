@@ -1,0 +1,1388 @@
+<VNCLASS ID="say-37.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="" name="be_like" wn=""/>
+        <MEMBER grouping="continue.02" name="continue" wn="continue%2:32:00"/>
+        <MEMBER grouping="go.06" name="go" wn=""/>
+        <MEMBER grouping="go.06" name="go_like" wn=""/>
+        <MEMBER grouping="" name="go_on" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Topic">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="communication"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V S-Quote" secondary="QUOT" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    He was like, 'It has to go.'
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="quotation"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                
+                <PRED value="has_information">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="?Recipient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_information">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="?Recipient"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="Event" value="e2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="say-37.7-1">
+            <MEMBERS>
+                <MEMBER grouping="" name="add" wn=""/>
+                <MEMBER grouping="" name="allege" wn=""/>
+                <MEMBER grouping="blabber.01" name="blabber" wn="blabber%2:32:00"/>
+                <MEMBER grouping="" name="disclose" wn=""/>
+                <MEMBER grouping="" name="divulge" wn=""/>
+                <MEMBER grouping="exclaim.01" name="exclaim" wn=""/>
+                <MEMBER grouping="insinuate.02" name="insinuate" wn=""/>
+                <MEMBER grouping="" name="insist" wn=""/>
+                <MEMBER grouping="" name="intimate" wn=""/>
+                <MEMBER grouping="" name="leak" wn=""/>
+                <MEMBER grouping="" name="reply" wn=""/>
+                <MEMBER grouping="" name="respond" wn=""/>
+                <MEMBER grouping="" name="retort" wn=""/>
+                <MEMBER grouping="" name="promulgate" wn=""/>
+                <MEMBER grouping="utter.01" name="utter" wn=""/>
+                <MEMBER grouping="" name="venture" wn=""/>
+                <MEMBER grouping="vocalize.01" name="vocalize" wn="vocalize%2:32:02 vocalize%2:32:04"/>
+                <MEMBER grouping="voice.01" name="voice" wn=""/>
+                <MEMBER grouping="" name="write" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.topic" secondary="Basic Transitive; Topic Object" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            Ellen said a few words.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Topic">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="Event" value="e2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient" secondary="NP-PP; to-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            Ellen said a few words to Helen.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Topic">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="to">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="Event" value="e2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.recipient S-Quote" secondary="PP-S; to-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            Mr. Jacobson announced to the trading mob: 'We're going to trade on the bell.'
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP value="to">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="quotation"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="Event" value="e2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V how S" secondary="HOW-S" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            John suggested how she could do it.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="how_extract"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="Event" value="e2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V how S_INF" secondary="HOW-TO-INF" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            John suggested how to do it.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="wh_inf"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="Event" value="e2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF" secondary="WHAT-TO-INF" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            John suggested what to do.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="what_inf"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="Event" value="e2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            John suggested what we should eat.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="what_extract"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_information">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="Event" value="e2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="say-37.7-1-1">
+                    <MEMBERS>
+                        <MEMBER grouping="advise.01 advise.02" name="advise" wn="advise%2:32:01"/>
+                        <MEMBER grouping="announce.01 announce.02" name="announce" wn="announce%2:32:00 announce%2:32:07"/>
+                        <MEMBER grouping="articulate.01" name="articulate" wn="articulate%2:32:02 articulate%2:32:01"/>
+                        <MEMBER grouping="" name="blab" wn="blab%2:32:00"/>
+                        <MEMBER grouping="" name="blurt" wn="blurt%2:32:00"/>
+                        <MEMBER grouping="claim.01" name="claim" wn="claim%2:32:00"/>
+                        <MEMBER grouping="confess.03" name="confess" wn="confess%2:32:01"/>
+                        <MEMBER grouping="" name="confide" wn="confide%2:32:00"/>
+                        <MEMBER grouping="convey.01" name="convey" wn="convey%2:32:00"/>
+                        <MEMBER grouping="declare.01" name="declare" wn="declare%2:32:00 declare%2:32:01"/>
+                        <MEMBER grouping="" name="interject" wn="interject%2:32:00"/>
+                        <MEMBER grouping="" name="interpose" wn="interpose%2:32:00"/>
+                        <MEMBER grouping="mention.01" name="mention" wn="mention%2:32:02 mention%2:32:00"/>
+                        <MEMBER grouping="observe.04" name="observe" wn="observe%2:32:00"/>
+                        <MEMBER grouping="proclaim.02" name="proclaim" wn="proclaim%2:32:00"/>
+                        <MEMBER grouping="propose.01" name="propose" wn="?propose%2:32:00"/>
+                        <MEMBER grouping="recount.01" name="recount" wn="recount%2:32:00"/>
+                        <MEMBER grouping="reiterate.01" name="reiterate" wn="reiterate%2:32:00"/>
+                        <MEMBER grouping="relate.04" name="relate" wn="relate%2:32:00"/>
+                        <MEMBER grouping="reveal.02" name="reveal" wn="reveal%2:32:00"/>
+                        <MEMBER grouping="say.01" name="say" wn="say%2:32:00 say%2:32:01 say%2:32:15 say%2:32:04"/>
+                        <MEMBER grouping="state.01" name="state" wn="state%2:32:00"/>
+                        <MEMBER grouping="" name="volunteer" wn="volunteer%2:32:00"/>
+                        <MEMBER grouping="repeat.01 repeat.02" name="repeat" wn="repeat%2:32:00 repeat%2:32:01"/>
+                        <MEMBER grouping="remark.01" name="remark" wn="remark%2:32:00 remark%2:32:01"/>
+                        <MEMBER grouping="note.02" name="note" wn="note%2:32:00"/>
+                        <MEMBER grouping="report.01" name="report" wn="report%2:32:00 report%2:32:04"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.1"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    He ordered that he go.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="that_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="transfer_info">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                        <ARG type="ThemRole" value="?Recipient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="?Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="e2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S-SUBJUNCT" xtag="0.1"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    John suggested that he should go.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="that_comp"/>
+                                        <SYNRESTR Value="-" type="tensed_that"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="transfer_info">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                        <ARG type="ThemRole" value="?Recipient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="?Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="e2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES>
+                        <VNSUBCLASS ID="say-37.7-1-1-1">
+                            <MEMBERS>
+                                <MEMBER grouping="" name="purpose" wn=""/>
+                                <MEMBER grouping="suggest.01 suggest.02" name="suggest" wn="suggest%2:32:00 suggest%2:32:04"/>
+                                <MEMBER grouping="" name="recommend" wn=""/>
+                            </MEMBERS>
+                            <THEMROLES/>
+                            <FRAMES>
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient" secondary="NP-PP; to-PP" xtag="0.1"/>
+                                    <EXAMPLES>
+                                        <EXAMPLE>
+                                            John suggested eye glasses to her.
+                                        </EXAMPLE>
+                                    </EXAMPLES>
+                                    <SYNTAX>
+                                        <NP value="Agent">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <VERB/>
+                                        <NP value="Topic">
+                                            <SYNRESTRS>
+                                                <SYNRESTR Value="-" type="sentential"/>
+                                            </SYNRESTRS>
+                                        </NP>
+                                        <PREP value="to">
+                                            <SELRESTRS/>
+                                        </PREP>
+                                        <NP value="Recipient">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                    </SYNTAX>
+                                    <SEMANTICS>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="E"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="transfer_info">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="e2"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="cause">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="Event" value="e2"/>
+                                            </ARGS>
+                                        </PRED>
+                                    </SEMANTICS>
+                                </FRAME>
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient how S" secondary="PP-HOW-S; to-PP" xtag="0.1"/>
+                                    <EXAMPLES>
+                                        <EXAMPLE>
+                                            John suggested to her how she could do it.
+                                        </EXAMPLE>
+                                    </EXAMPLES>
+                                    <SYNTAX>
+                                        <NP value="Agent">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <VERB/>
+                                        <PREP value="to">
+                                            <SELRESTRS/>
+                                        </PREP>
+                                        <NP value="Recipient">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <NP value="Topic">
+                                            <SYNRESTRS>
+                                                <SYNRESTR Value="+" type="how_extract"/>
+                                            </SYNRESTRS>
+                                        </NP>
+                                    </SYNTAX>
+                                    <SEMANTICS>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="E"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="transfer_info">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="e2"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="cause">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="Event" value="e2"/>
+                                            </ARGS>
+                                        </PRED>
+                                    </SEMANTICS>
+                                </FRAME>
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient how S_INF" secondary="PP-HOW-TO-INF; to-PP" xtag="0.1"/>
+                                    <EXAMPLES>
+                                        <EXAMPLE>
+                                            John suggested to her how to do it.
+                                        </EXAMPLE>
+                                    </EXAMPLES>
+                                    <SYNTAX>
+                                        <NP value="Agent">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <VERB/>
+                                        <PREP value="to">
+                                            <SELRESTRS/>
+                                        </PREP>
+                                        <NP value="Recipient">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <NP value="Topic">
+                                            <SYNRESTRS>
+                                                <SYNRESTR Value="+" type="wh_inf"/>
+                                            </SYNRESTRS>
+                                        </NP>
+                                    </SYNTAX>
+                                    <SEMANTICS>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="E"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="transfer_info">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="e2"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="cause">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="Event" value="e2"/>
+                                            </ARGS>
+                                        </PRED>
+                                    </SEMANTICS>
+                                </FRAME>
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient that S" secondary="PP-THAT-S; to-PP" xtag="0.1"/>
+                                    <EXAMPLES>
+                                        <EXAMPLE>
+                                            John suggested to him that he goes.
+                                        </EXAMPLE>
+                                    </EXAMPLES>
+                                    <SYNTAX>
+                                        <NP value="Agent">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <VERB/>
+                                        <PREP value="to">
+                                            <SELRESTRS/>
+                                        </PREP>
+                                        <NP value="Recipient">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <NP value="Topic">
+                                            <SYNRESTRS>
+                                                <SYNRESTR Value="+" type="that_comp"/>
+                                            </SYNRESTRS>
+                                        </NP>
+                                    </SYNTAX>
+                                    <SEMANTICS>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="E"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="transfer_info">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="e2"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="cause">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="Event" value="e2"/>
+                                            </ARGS>
+                                        </PRED>
+                                    </SEMANTICS>
+                                </FRAME>
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient that S" secondary="PP-THAT-S-SUBJUNCT; to-PP" xtag="0.1"/>
+                                    <EXAMPLES>
+                                        <EXAMPLE>
+                                            John suggested to him that he go.
+                                        </EXAMPLE>
+                                    </EXAMPLES>
+                                    <SYNTAX>
+                                        <NP value="Agent">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <VERB/>
+                                        <PREP value="to">
+                                            <SELRESTRS/>
+                                        </PREP>
+                                        <NP value="Recipient">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <NP value="Topic">
+                                            <SYNRESTRS>
+                                                <SYNRESTR Value="+" type="that_comp"/>
+                                                <SYNRESTR Value="-" type="tensed_that"/>
+                                            </SYNRESTRS>
+                                        </NP>
+                                    </SYNTAX>
+                                    <SEMANTICS>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="E"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="transfer_info">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="e2"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="cause">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="Event" value="e2"/>
+                                            </ARGS>
+                                        </PRED>
+                                    </SEMANTICS>
+                                </FRAME>
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient what S" secondary="PP-WHAT-S; to-PP" xtag="0.1"/>
+                                    <EXAMPLES>
+                                        <EXAMPLE>
+                                            John suggested to her what she could do.
+                                        </EXAMPLE>
+                                    </EXAMPLES>
+                                    <SYNTAX>
+                                        <NP value="Agent">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <VERB/>
+                                        <PREP value="to">
+                                            <SELRESTRS/>
+                                        </PREP>
+                                        <NP value="Recipient">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <NP value="Topic">
+                                            <SYNRESTRS>
+                                                <SYNRESTR Value="+" type="what_extract"/>
+                                            </SYNRESTRS>
+                                        </NP>
+                                    </SYNTAX>
+                                    <SEMANTICS>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="E"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="transfer_info">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="e2"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="cause">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="Event" value="e2"/>
+                                            </ARGS>
+                                        </PRED>
+                                    </SEMANTICS>
+                                </FRAME>
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient what S_INF" secondary="PP-WHAT-TO-INF; to-PP" xtag="0.1"/>
+                                    <EXAMPLES>
+                                        <EXAMPLE>
+                                            John suggested to her what to do.
+                                        </EXAMPLE>
+                                    </EXAMPLES>
+                                    <SYNTAX>
+                                        <NP value="Agent">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <VERB/>
+                                        <PREP value="to">
+                                            <SELRESTRS/>
+                                        </PREP>
+                                        <NP value="Recipient">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <NP value="Topic">
+                                            <SYNRESTRS>
+                                                <SYNRESTR Value="+" type="what_inf"/>
+                                            </SYNRESTRS>
+                                        </NP>
+                                    </SYNTAX>
+                                    <SEMANTICS>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="E"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="transfer_info">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="has_information">
+                                            <ARGS>
+                                                <ARG type="Event" value="e2"/>
+                                                <ARG type="ThemRole" value="Recipient"/>
+                                                <ARG type="ThemRole" value="Topic"/>
+                                            </ARGS>
+                                        </PRED>
+                                        <PRED value="cause">
+                                            <ARGS>
+                                                <ARG type="Event" value="e1"/>
+                                                <ARG type="Event" value="e2"/>
+                                            </ARGS>
+                                        </PRED>
+                                    </SEMANTICS>
+                                </FRAME>
+                            </FRAMES>
+                            <SUBCLASSES/>
+                        </VNSUBCLASS>
+                    </SUBCLASSES>
+                </VNSUBCLASS>
+                <VNSUBCLASS ID="say-37.7-1-2">
+                    <MEMBERS>
+                        <MEMBER grouping="hint.01" name="hint" wn="hint%2:32:00"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.recipient" secondary="NP-PP; to-PP" xtag="0.1"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    He suggested it to her.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="-" type="sentential"/>
+                                    </SYNRESTRS>
+                                </NP>
+                                <PREP value="to">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="transfer_info">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="e2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient how S" secondary="PP-HOW-S; to-PP" xtag="0.1"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    John suggested to her how she could do it.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <PREP value="to">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="how_extract"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="transfer_info">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="e2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient how S_INF" secondary="PP-HOW-TO-INF; to-PP" xtag="0.1"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    John suggested to her how to do it.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <PREP value="to">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="wh_inf"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="transfer_info">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="e2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient that S" secondary="PP-THAT-S; to-PP" xtag="0.1"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    John suggested to him that he goes.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <PREP value="to">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="that_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="transfer_info">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="e2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient that S" secondary="PP-THAT-S-SUBJUNCT; to-PP" xtag="0.1"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    John suggested to him that he go.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <PREP value="to">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="that_comp"/>
+                                        <SYNRESTR Value="-" type="tensed_that"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="transfer_info">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="e2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient what S" secondary="PP-WHAT-S; to-PP" xtag="0.1"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    John suggested to her what she could do.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <PREP value="to">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="what_extract"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="transfer_info">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="e2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient what S_INF" secondary="PP-WHAT-TO-INF; to-PP" xtag="0.1"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    John suggested to her what to do.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <PREP value="to">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="what_inf"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="transfer_info">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_information">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="Event" value="e2"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

@@ -1,0 +1,82 @@
+<VNCLASS ID="marry-36.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="court.02" name="court" wn="court%2:41:00 court%2:41:10"/>
+        <MEMBER grouping="" name="cuddle" wn="cuddle%2:35:00 cuddle%2:35:01"/>
+        <MEMBER grouping="date.01" name="date" wn="date%2:41:00 date%2:41:01"/>
+        <MEMBER grouping="divorce.01 divorce.02" name="divorce" wn="divorce%2:41:01 divorce%2:41:00"/>
+        <MEMBER grouping="embrace.02" name="embrace" wn="embrace%2:35:00"/>
+        <MEMBER grouping="hug.01" name="hug" wn="hug%2:35:01"/>
+        <MEMBER grouping="kiss.01" name="kiss" wn="kiss%2:35:00"/>
+        <MEMBER grouping="marry.01" name="marry" wn="marry%2:41:00"/>
+        <MEMBER grouping="" name="neck" wn="neck%2:35:00"/>
+        <MEMBER grouping="" name="nuzzle" wn="nuzzle%2:35:02 nuzzle%2:35:00"/>
+        <MEMBER grouping="" name="pet" wn="pet%2:35:00 pet%2:35:01"/>
+        <!-- Removed "pass" from class -->
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Co-Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive; Plural Subject" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Bill and Kathy married.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="plural"/>
+                    </SYNRESTRS>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent_i"/>
+                        <ARG type="ThemRole" value="Agent_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Bill married Kathy.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Co-Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

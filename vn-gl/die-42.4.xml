@@ -1,0 +1,121 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="die-42.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+	<MEMBERS>
+		<MEMBER grouping="" name="buy_the_farm" verbnet_key="buy_the_farm#1" wn="" />
+		<MEMBER grouping="" name="decease" verbnet_key="decease#1" wn="" />
+		<MEMBER grouping="" name="fall" verbnet_key="fall#4" wn="" />
+		<MEMBER grouping="" name="give_up_the_ghost" verbnet_key="give_up_the_ghost#1" wn="" />
+		<MEMBER grouping="" name="kick_the_bucket" verbnet_key="kick_the_bucket#2" wn="" />
+		<MEMBER grouping="" name="pass" verbnet_key="pass#1" wn="" />
+		<MEMBER grouping="" name="pop_off" verbnet_key="pop_off#1" wn="" />
+		<MEMBER grouping="" name="snuff_it" verbnet_key="snuff_it#1" wn="" />
+	</MEMBERS>
+	<THEMROLES>
+		<THEMROLE type="Patient">
+			<SELRESTRS>
+				<SELRESTR Value="+" type="animate" />
+			</SELRESTRS>
+		</THEMROLE>
+	</THEMROLES>
+	<FRAMES>
+		<FRAME>
+			<DESCRIPTION descriptionNumber="0.2" primary="NP V"
+				secondary="Basic Intransitive" xtag="0.2" />
+			<EXAMPLES>
+				<EXAMPLE>
+					He died.
+				</EXAMPLE>
+			</EXAMPLES>
+			<SYNTAX>
+				<NP value="Patient">
+					<SYNRESTRS />
+				</NP>
+				<VERB />
+			</SYNTAX>
+			<SEMANTICS>
+				<PRED value="alive">
+					<ARGS>
+						<ARG type="Event" value="e1" />
+						<ARG type="ThemRole" value="Patient" />
+					</ARGS>
+				</PRED>
+				<PRED bool="!" value="alive">
+					<ARGS>
+						<ARG type="Event" value="e2" />
+						<ARG type="ThemRole" value="Patient" />
+					</ARGS>
+				</PRED>
+			</SEMANTICS>
+		</FRAME>
+	</FRAMES>
+	<SUBCLASSES>
+		<VNSUBCLASS ID="die-42.4-1">
+			<MEMBERS>
+				<MEMBER grouping="" name="choke" verbnet_key="choke#1" wn="" />
+				<MEMBER grouping="" name="conk" verbnet_key="conk#1" wn="" />
+				<MEMBER grouping="" name="croak" verbnet_key="croak#3" wn="" />
+				<MEMBER grouping="" name="die" verbnet_key="die#3" wn="" />
+				<MEMBER grouping="" name="drop_dead" verbnet_key="drop_dead#1" wn="" />
+				<MEMBER grouping="" name="expire" verbnet_key="expire#2" wn="" />
+				<MEMBER grouping="" name="pass_away" verbnet_key="pass_away#2" wn="" />
+				<MEMBER grouping="" name="perish" verbnet_key="perish#2" wn="" />
+			</MEMBERS>
+			<THEMROLES>
+        		<THEMROLE type="Causer">
+        			<SELRESTRS />
+        		</THEMROLE>
+			</THEMROLES>
+			<FRAMES>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="0.2" primary="NP V PP.cause"
+						secondary="Transitive; PP-cause" xtag="0.2" />
+					<EXAMPLES>
+						<EXAMPLE>
+							He died of illness.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<PREP value="of | from">
+							<SELRESTRS />
+						</PREP>
+						<NP value="Causer">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+        				<PRED value="alive">
+        					<ARGS>
+        						<ARG type="Event" value="e1" />
+        						<ARG type="ThemRole" value="Patient" />
+        					</ARGS>
+        				</PRED>
+        				<PRED value="do">
+        					<ARGS>
+        						<ARG type="Event" value="e2" />
+        						<ARG type="ThemRole" value="Causer" />
+        					</ARGS>
+        				</PRED>
+        				<PRED bool="!" value="alive">
+        					<ARGS>
+        						<ARG type="Event" value="e3" />
+        						<ARG type="ThemRole" value="Patient" />
+        					</ARGS>
+        				</PRED>
+        				<PRED value="cause">
+        					<ARGS>
+        						<ARG type="Event" value="e2" />
+        						<ARG type="Event" value="e3" />
+        					</ARGS>
+        				</PRED>
+					</SEMANTICS>
+				</FRAME>
+			</FRAMES>
+			<SUBCLASSES />
+		</VNSUBCLASS>
+	</SUBCLASSES>
+</VNCLASS>

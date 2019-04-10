@@ -1,0 +1,201 @@
+<VNCLASS ID="remove-10.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="abolish.01" name="abolish" wn="abolish%2:41:00"/>
+        <MEMBER grouping="abstract.02" name="abstract" wn="abstract%2:40:00"/>
+        <MEMBER grouping="" name="cull" wn="cull%2:40:00 cull%2:35:00"/>
+        <MEMBER grouping="cut.06" name="cut-off" wn=""/>
+        <MEMBER grouping="" name="deburr" wn=""/>
+        <MEMBER grouping="deduct.01" name="deduct" wn="deduct%2:31:01 deduct%2:40:00"/>
+        <MEMBER grouping="delete.01" name="delete" wn="delete%2:35:00 delete%2:32:00"/>
+        <MEMBER grouping="" name="depose" wn="depose%2:41:00"/>
+        <MEMBER grouping="" name="disgorge" wn="disgorge%2:35:00"/>
+        <MEMBER grouping="dislodge.01" name="dislodge" wn="dislodge%2:35:00 dislodge%2:35:01"/>
+        <MEMBER grouping="disengage.01" name="disengage" wn="disengage%2:35:00"/>
+        <MEMBER grouping="draw.03" name="draw" wn="draw%2:38:01 draw%2:38:00 draw%2:31:13 draw%2:40:01 draw%2:33:01 draw%2:38:07"/>
+        <MEMBER grouping="eject.02" name="eject" wn="eject%2:35:01"/>
+        <MEMBER grouping="eliminate.01 eliminate.02 eliminate.03" name="eliminate" wn="eliminate%2:30:01 eliminate%2:42:01 eliminate%2:31:00 eliminate%2:29:00"/>
+        <MEMBER grouping="eradicate.01" name="eradicate" wn="eradicate%2:30:00 eradicate%2:36:00"/>
+        <MEMBER grouping="excise.01 excise.03" name="excise" wn="excise%2:35:00 excise%2:30:02"/>
+        <MEMBER grouping="" name="excommunicate" wn="excommunicate%2:32:00"/>
+        <MEMBER grouping="expel.01 expel.02" name="expel" wn="expel%2:41:00 expel%2:41:01"/>
+        <MEMBER grouping="" name="extirpate" wn="extirpate%2:35:00"/>
+        <MEMBER grouping="extract.01 extract.02 extract.03 extract.04" name="extract" wn="extract%2:35:04 extract%2:40:00 extract%2:30:00 extract%2:35:07 extract%2:35:05 extract%2:31:00"/>
+        <MEMBER grouping="" name="extrude" wn="extrude%2:36:00"/>
+        <MEMBER grouping="kill.03" name="kill" wn="kill%2:30:08 kill%2:30:00 kill%2:30:04"/>
+        <MEMBER grouping="" name="lop" wn="lop%2:35:01 lop%2:35:00"/>
+        <MEMBER grouping="" name="lose" wn=""/>
+        <MEMBER grouping="omit.01" name="omit" wn="omit%2:31:01"/>
+        <MEMBER grouping="" name="ostracize" wn="ostracize%2:41:01"/>
+        <MEMBER grouping="" name="partition" wn="partition%2:35:00 partition%2:30:00"/>
+        <MEMBER grouping="pry.01" name="pry" wn="pry%2:35:00"/>
+        <MEMBER grouping="pull.02" name="pull" wn="pull%2:38:03"/>
+        <MEMBER grouping="reap.01 reap.02" name="reap" wn="reap%2:35:00 reap%2:40:00"/>
+        <MEMBER grouping="ream.02" name="ream" wn="ream%2:30:01"/>
+        <MEMBER grouping="render.04" name="render" wn=""/>
+        <MEMBER grouping="retract.01" name="retract" wn="retract%2:32:00"/>
+        <MEMBER grouping="" name="roust" wn=""/>
+        <MEMBER grouping="separate.01" name="separate" wn="separate%2:42:00 separate%2:35:01 separate%2:35:02"/>
+        <MEMBER grouping="" name="shoo" wn="shoo%2:38:00"/>
+        <MEMBER grouping="strip.01 strip.03 strip.04" name="strip" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12"/>
+        <MEMBER grouping="subtract.01" name="subtract" wn="subtract%2:31:00"/>
+        <MEMBER grouping="take.10" name="take" wn="subtract%2:31:00"/>
+        <MEMBER grouping="take.10" name="take_away" wn="take_away%2:30:01 take_away%2:30:00 take_away%2:40:01 take_away%2:30:02"/>
+        <MEMBER grouping="take.10" name="take_out" wn="take_out%2:41:01 take_out%2:35:01 take_out%2:30:00 take_out%2:35:00 take_out%2:40:00 take_out%2:38:10 take_out%2:38:00 take_out%2:35:09 take_out%2:31:01 take_out%2:31:00"/>
+        <MEMBER grouping="take.10" name="take_off" wn="take_off%2:30:00 take_off%2:41:00 take_off%2:29:03"/>
+        <MEMBER grouping="" name="uproot" wn="uproot%2:35:00"/>
+        <MEMBER grouping="" name="winkle" wn="winkle%2:35:00"/>
+        <MEMBER grouping="wrench.01" name="wrench" wn="wrench%2:35:00"/>
+        <MEMBER grouping="withdraw.02 withdraw.03 withdraw.04" name="withdraw" wn="withdraw%2:40:01 withdraw%2:30:01 withdraw%2:40:00"/>
+        <MEMBER grouping="oust.01" name="oust" wn="oust%2:41:00"/>
+        <MEMBER grouping="discharge.01" name="discharge" wn="discharge%2:35:00 discharge%2:29:00 discharge%2:35:06"/>
+        <MEMBER grouping="dismiss.02" name="dismiss" wn="dismiss%2:41:00"/>
+        <MEMBER grouping="evict.01" name="evict" wn="evict%2:35:00"/>
+        <MEMBER grouping="remove.01" name="remove" wn="remove%2:30:00 remove%2:41:00 remove%2:41:02"/>
+        <MEMBER grouping="sever.01" name="sever" wn="sever%2:35:00"/>
+        <MEMBER grouping="extinguish.01 extinguish.02" name="extinguish" wn="extinguish%2:30:00 extinguish%2:43:00 extinguish%2:30:05 extinguish%2:30:03 extinguish%2:30:01"/>
+        <MEMBER grouping="" name="prise" wn="prise%2:35:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="int_control"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Initial_Location">
+			<SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Doug removed the smudges.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool = "!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Doug removed the smudges from the tabletop.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool = "!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

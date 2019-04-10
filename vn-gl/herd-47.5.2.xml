@@ -1,0 +1,157 @@
+<VNCLASS ID="herd-47.5.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="accumulate.01 accumulate.02" name="accumulate" wn="accumulate%2:40:00 accumulate%2:30:00"/>
+        <MEMBER grouping="" name="aggregate" wn="aggregate%2:35:00"/>
+        <MEMBER grouping="amass.01" name="amass" wn="amass%2:30:00 amass%2:40:00"/>
+        <MEMBER grouping="assemble.02" name="assemble" wn="assemble%2:41:00 assemble%2:41:03"/>
+        <MEMBER grouping="cluster.01" name="cluster" wn="cluster%2:38:00 cluster%2:35:00"/>
+        <MEMBER grouping="collect.01" name="collect" wn="collect%2:40:00 collect%2:35:00 collect%2:35:01"/>
+        <MEMBER grouping="" name="congregate" wn="congregate%2:38:00"/>
+        <MEMBER grouping="convene.01" name="convene" wn="convene%2:38:00 convene%2:32:00"/>
+        <MEMBER grouping="flock.01" name="flock" wn="flock%2:38:01 flock%2:38:00"/>
+        <MEMBER grouping="gather.01 gather.02 gather.03" name="gather" wn="gather%2:35:00 gather%2:41:00 gather%2:30:00 gather%2:41:02"/>
+        <MEMBER grouping="group.01" name="group" wn="group%2:31:00 group%2:33:00"/>
+        <MEMBER grouping="herd.01" name="herd" wn="herd%2:38:01 herd%2:38:00 herd%2:42:00"/>
+        <MEMBER grouping="" name="huddle" wn="huddle%2:38:01"/>
+        <MEMBER grouping="mass.01" name="mass" wn="mass%2:38:00"/>
+        <MEMBER grouping="" name="reconvene" wn="reconvene%2:38:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="plural"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The kids are assembling.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="together">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="together">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+            <!--some verbs-->
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="1.1.2" primary="NP V NP.theme" secondary="NP; Causative variant" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The teacher gathered the kids.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="together">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="together">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The teacher gathered the kids together.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <LEX value="together"/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="together">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="VerbSpecific" value="Theme_i"/>
+                        <ARG type="VerbSpecific" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="together">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="VerbSpecific" value="Theme_i"/>
+                        <ARG type="VerbSpecific" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

@@ -1,0 +1,276 @@
+<VNCLASS ID="judgment-33.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="abuse.01" name="abuse" wn="abuse%2:41:00 abuse%2:30:00 abuse%2:32:00"/>
+        <MEMBER grouping="assault.01" name="assault" wn=""/>
+        <MEMBER grouping="" name="backbite" wn="backbite%2:32:00"/>
+        <MEMBER grouping="" name="badmouth" wn=""/>
+        <MEMBER grouping="blame.01 blame.02" name="blame" wn=""/>
+        <MEMBER grouping="" name="blaspheme" wn=""/>
+        <MEMBER grouping="" name="condone" wn=""/>
+        <MEMBER grouping="find.06" name="find_fault_with" wn=""/>
+        <MEMBER grouping="" name="gibe" wn=""/>
+        <MEMBER grouping="" name="imprecate" wn=""/>
+        <MEMBER grouping="" name="slang" wn="slang%2:32:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="human"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Attribute">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    They praised the volunteers.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP-PP; Cause-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    They praised the volunteers for their dedication.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="for">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Attribute">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP.attribute" secondary="NP; Theme Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    They praised the volunteer's dedication.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Attribute">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="judgment-33.1-1">
+            <MEMBERS>
+                <MEMBER grouping="applaud.02" name="applaud" wn="applaud%2:32:00"/>
+                <MEMBER grouping="approve.01 approve.02" name="approve" wn="approve%2:32:00 approve%2:31:00"/>
+                <MEMBER grouping="assail.01 assail.02" name="assail" wn=""/>
+                <MEMBER grouping="attack.02" name="attack" wn=""/>
+                <MEMBER grouping="belittle.01" name="belittle" wn=""/>
+                <MEMBER grouping="" name="berate" wn="berate%2:32:00"/>
+                <MEMBER grouping="bless.01 bless.02" name="bless" wn="bless%2:32:00 bless%2:40:00"/>
+                <MEMBER grouping="" name="calumniate" wn="calumniate%2:32:00"/>
+                <MEMBER grouping="" name="castigate" wn="castigate%2:32:00"/>
+                <MEMBER grouping="celebrate.02" name="celebrate" wn="celebrate%2:41:02"/>
+                <MEMBER grouping="" name="censure" wn="censure%2:32:00"/>
+                <MEMBER grouping="" name="chasten" wn="chasten%2:32:00"/>
+                <MEMBER grouping="" name="chastise" wn="chastise%2:32:00"/>
+                <MEMBER grouping="" name="chide" wn="chide%2:32:00"/>
+                <MEMBER grouping="cite.03" name="cite" wn="cite%2:32:01"/>
+                <MEMBER grouping="" name="commemorate" wn=""/>
+                <MEMBER grouping="commend.01" name="commend" wn="commend%2:32:00 commend%2:32:02"/>
+                <MEMBER grouping="" name="compliment" wn="compliment%2:32:00 compliment%2:32:01"/>
+                <MEMBER grouping="condemn.01" name="condemn" wn="condemn%2:32:00"/>
+                <MEMBER grouping="congratulate.01" name="congratulate" wn="congratulate%2:32:00 congratulate%2:32:01 congratulate%2:37:00 congratulate%2:32:11"/>
+                <MEMBER grouping="criticize.01 criticize.02" name="criticize" wn="criticize%2:32:00 criticize%2:33:00"/>
+                <MEMBER grouping="curse.02" name="curse" wn=""/>
+                <MEMBER grouping="" name="damn" wn=""/>
+                <MEMBER grouping="" name="decry" wn="decry%2:32:00"/>
+                <MEMBER grouping="" name="defame" wn="defame%2:32:00"/>
+                <MEMBER grouping="denigrate.01" name="denigrate" wn="denigrate%2:32:00 denigrate%2:32:01"/>
+                <MEMBER grouping="denounce.01" name="denounce" wn="denounce%2:32:00 denounce%2:41:00"/>
+                <MEMBER grouping="" name="deprecate" wn="deprecate%2:32:01 deprecate%2:32:00"/>
+                <MEMBER grouping="" name="deride" wn="deride%2:32:00"/>
+                <MEMBER grouping="" name="disparage" wn="disparage%2:32:00"/>
+                <MEMBER grouping="" name="eulogize" wn="eulogize%2:32:00"/>
+                <MEMBER grouping="excuse.01" name="excuse" wn="excuse%2:32:01 excuse%2:32:02"/>
+                <MEMBER grouping="" name="extol" wn="extol%2:32:00"/>
+                <MEMBER grouping="" name="fault" wn="fault%2:32:00"/>
+                <MEMBER grouping="" name="felicitate" wn="felicitate%2:32:00"/>
+                <MEMBER grouping="forgive.01" name="forgive" wn="forgive%2:32:00"/>
+                <MEMBER grouping="glorify.01" name="glorify" wn=""/>
+                <MEMBER grouping="greet.01" name="greet" wn="greet%2:32:00 ?greet%2:31:00"/>
+                <MEMBER grouping="honor.01" name="honor" wn="honor%2:41:00 honor%2:41:01"/>
+                <MEMBER grouping="" name="incriminate" wn=""/>
+                <MEMBER grouping="" name="insult" wn="insult%2:32:00"/>
+                <MEMBER grouping="" name="lambaste" wn="lambaste%2:32:00"/>
+                <MEMBER grouping="" name="lampoon" wn="lampoon%2:32:00"/>
+                <MEMBER grouping="" name="malign" wn="malign%2:32:00"/>
+                <MEMBER grouping="mock.01" name="mock" wn="mock%2:32:00"/>
+                <MEMBER grouping="pardon.01 pardon.02" name="pardon" wn="pardon%2:32:01 pardon%2:32:00"/>
+                <MEMBER grouping="" name="rebuke" wn="rebuke%2:32:00"/>
+                <MEMBER grouping="recommend.01" name="recommend" wn="recommend%2:32:00"/>
+                <MEMBER grouping="" name="reproach" wn="reproach%2:32:00"/>
+                <MEMBER grouping="" name="reprove" wn="reprove%2:32:00"/>
+                <MEMBER grouping="" name="repudiate" wn="repudiate%2:32:00"/>
+                <MEMBER grouping="" name="revile" wn="revile%2:32:00"/>
+                <MEMBER grouping="reward.01" name="reward" wn="reward%2:41:01"/>
+                <MEMBER grouping="" name="ridicule" wn="ridicule%2:32:00"/>
+                <MEMBER grouping="salute.01" name="salute" wn="salute%2:32:03 salute%2:34:00"/>
+                <MEMBER grouping="" name="satirize" wn="satirize%2:32:00"/>
+                <MEMBER grouping="scold.01" name="scold" wn="scold%2:32:00"/>
+                <MEMBER grouping="" name="scorn" wn="scorn%2:37:00"/>
+                <MEMBER grouping="" name="shame" wn="shame%2:41:00 shame%2:37:00"/>
+                <MEMBER grouping="" name="slander" wn=""/>
+                <MEMBER grouping="" name="snub" wn="snub%2:32:01 snub%2:32:00"/>
+                <MEMBER grouping="" name="stigmatize" wn="stigmatize%2:41:00"/>
+                <MEMBER grouping="thank.01" name="thank" wn="thank%2:32:00"/>
+                <MEMBER grouping="" name="toast" wn="toast%2:34:00"/>
+                <MEMBER grouping="" name="upbraid" wn="upbraid%2:32:00"/>
+                <MEMBER grouping="" name="vilify" wn="vilify%2:32:00"/>
+                <MEMBER grouping="welcome.01" name="welcome" wn="welcome%2:40:00"/>
+                <MEMBER grouping="write.09" name="write_up" wn="write_up%2:32:02"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.attribute" secondary="NP-PP; as-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            I judged him as a good man.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="as">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Attribute">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="declare">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Attribute"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="judgment-33.1-1-1">
+                    <MEMBERS>
+                        <MEMBER grouping="" name="acclaim" wn="acclaim%2:32:00"/>
+                        <MEMBER grouping="doubt.02" name="doubt" wn=""/>
+                        <MEMBER grouping="hail.01" name="hail" wn="hail%2:32:02"/>
+                        <MEMBER grouping="" name="herald" wn="herald%2:32:01"/>
+                        <MEMBER grouping="judge.02" name="judge" wn="judge%2:32:00"/>
+                        <MEMBER grouping="" name="laud" wn="laud%2:32:00"/>
+                        <MEMBER grouping="praise.01" name="praise" wn="praise%2:32:00"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP to be NP" secondary="NP-TOBE" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    I judged him to be a good man.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Attribute">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="small_clause"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="declare">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Attribute"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

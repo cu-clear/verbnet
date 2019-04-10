@@ -1,0 +1,80 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="orbit-51.9.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+	<MEMBERS>
+		<MEMBER grouping="" name="orbit" verbnet_key="orbit#1" wn="orbit%2:38:00"/>
+		<MEMBER grouping="revolve.01" name="revolve" verbnet_key="revolve#2" wn="revolve%2:38:01"/>
+		<MEMBER grouping="rotate.01" name="rotate" verbnet_key="rotate#3" wn="rotate%2:38:01"/>
+		<MEMBER grouping="" name="twirl" verbnet_key="twirl#3" wn="twirl%2:38:01"/>
+	</MEMBERS>
+	<THEMROLES>
+		<THEMROLE type="Theme">
+			<SELRESTRS/>
+		</THEMROLE>
+		<THEMROLE type="Axis">
+			<!-- Subcategory of LOCATION/PATH, indicating a path around the axis. -->
+			<SELRESTRS/>
+		</THEMROLE>
+	</THEMROLES>
+	<FRAMES>
+		<FRAME>
+			<DESCRIPTION descriptionNumber="0.2" primary="NP V PP.location" secondary="NP-PP; path-PP" xtag=""/>
+			<EXAMPLES>
+				<EXAMPLE>
+					The Earth revolved around the Sun.
+				</EXAMPLE>
+			</EXAMPLES>
+			<SYNTAX>
+				<NP value="Theme">
+					<SYNRESTRS/>
+				</NP>
+				<VERB/>
+				<PREP>
+					<SELRESTRS>
+						<SELRESTR Value="+" type="path"/>
+					</SELRESTRS>
+				</PREP>
+				<NP value="Axis">
+					<SYNRESTRS/>
+				</NP>
+			</SYNTAX>
+			<SEMANTICS>
+				<PRED value="has_location">
+					<ARGS>
+						<ARG type="Event" value="e1"/>
+						<ARG type="ThemRole" value="Theme"/>
+						<ARG type="PredSpecific" value="Initial_Location"/>
+					</ARGS>
+				</PRED>
+				<PRED value="elliptical_motion">
+					<ARGS>
+						<ARG type="Event" value="ë2"/>
+						<ARG type="ThemRole" value="Theme"/>
+						<ARG type="ThemRole" value="Axis"/>
+					</ARGS>
+				</PRED>
+				<PRED bool="!" value="has_location">
+					<ARGS>
+						<ARG type="Event" value="ë2"/>
+						<ARG type="ThemRole" value="Theme"/>
+						<ARG type="PredSpecific" value="Initial_Location"/>
+					</ARGS>
+				</PRED>
+				<PRED value="has_location">
+					<ARGS>
+						<ARG type="Event" value="e3"/>
+						<ARG type="ThemRole" value="Theme"/>
+						<ARG type="PredSpecific" value="Destination"/>
+					</ARGS>
+				</PRED>
+				<PRED value="equals">
+					<ARGS>
+						<ARG type="PredSpecific" value="Initial_Location"/>
+						<ARG type="PredSpecific" value="Destination"/>
+					</ARGS>
+				</PRED>
+			</SEMANTICS>
+		</FRAME>
+	</FRAMES>
+	<SUBCLASSES/>
+</VNCLASS>

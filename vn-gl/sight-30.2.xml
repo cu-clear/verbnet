@@ -1,0 +1,71 @@
+<VNCLASS ID="sight-30.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="behold.01" name="behold" wn="behold%2:39:00"/>
+        <MEMBER grouping="" name="descry" wn="descry%2:39:00"/>
+        <MEMBER grouping="discover.01" name="discover" wn="discover%2:36:00 discover%2:40:00 discover%2:39:00"/>
+        <MEMBER grouping="" name="espy" wn="espy%2:39:00"/>
+        <MEMBER grouping="experience.01" name="experience" wn="experience%2:31:00"/>
+        <MEMBER grouping="" name="eye" wn="eye%2:39:00"/>
+        <MEMBER grouping="" name="glimpse" wn="glimpse%2:39:00"/>
+        <MEMBER grouping="" name="make_out" wn="make_out%2:39:00"/>
+        <MEMBER grouping="note.01" name="note" wn="note%2:39:00 note%2:39:02 note%2:32:01"/>
+        <MEMBER grouping="observe.01 observe.03" name="observe" wn="observe%2:39:02 observe%2:39:01 observe%2:41:00 observe%2:31:00"/>
+        <MEMBER grouping="" name="overhear" wn="overhear%2:39:00"/>
+        <MEMBER grouping="perceive.01" name="perceive" wn="perceive%2:39:00"/>
+        <MEMBER grouping="recognize.01" name="recognize" wn="recognize%2:39:01 recognize%2:32:01"/>
+        <MEMBER grouping="savor.01" name="savor" wn="savor%2:37:00 savor%2:39:00"/>
+        <MEMBER grouping="scent.02" name="scent" wn="scent%2:39:01"/>
+        <MEMBER grouping="" name="scent_out" wn="scent_out%2:39:00"/>
+        <MEMBER grouping="" name="sight" wn="sight%2:39:00"/>
+        <MEMBER grouping="spot.01" name="spot" wn="spot%2:39:00 spot%2:30:00"/>
+        <MEMBER grouping="spy.01" name="spy" wn="spy%2:39:00 spy%2:32:01"/>
+        <MEMBER grouping="view.02" name="view" wn="view%2:39:02"/>
+        <MEMBER grouping="witness.01 witness.02" name="witness" wn="witness%2:39:00 witness%2:39:01"/>
+        <MEMBER grouping="sniff.01" name="sniff" wn="sniff%2:39:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Stimulus">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The crew spotted the island.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Stimulus">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

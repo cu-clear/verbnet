@@ -1,0 +1,98 @@
+<VNCLASS ID="bill-54.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="" name="amerce" wn="amerce%2:41:01"/>
+        <MEMBER grouping="bet.01" name="bet" wn="bet%2:33:00"/>
+        <MEMBER grouping="bill.01" name="bill" wn="bill%2:40:00"/>
+        <MEMBER grouping="charge.01" name="charge" wn="charge%2:40:02 charge%2:31:12"/>
+        <MEMBER grouping="fine.01" name="fine" wn="fine%2:41:00"/>
+        <MEMBER grouping="" name="invoice" wn="invoice%2:40:00"/>
+        <MEMBER grouping="" name="mulct" wn="?mulct%2:41:00 mulct%2:40:00"/>
+        <MEMBER grouping="" name="overcharge" wn="overcharge%2:40:00"/>
+        <MEMBER grouping="save.03" name="save" wn="?save%2:40:02 ?save%2:30:00"/>
+        <MEMBER grouping="" name="scrimp" wn="scrimp%2:40:00"/>
+        <MEMBER grouping="spare.01 spare.02" name="spare" wn="spare%2:41:01"/>
+        <MEMBER grouping="tax.01" name="tax" wn="tax%2:40:00"/>
+        <MEMBER grouping="tip.02" name="tip" wn="tip%2:40:00"/>
+        <MEMBER grouping="" name="undercharge" wn="undercharge%2:40:00"/>
+        <MEMBER grouping="" name="wager" wn="wager%2:33:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Asset">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="currency"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.recipient" secondary="Transitive; Recipient Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The phone company billed me.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="financial_relationship">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP NP.asset" secondary="NP-PP; Asset Object" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The phone company billed me $10.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Asset">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="financial_relationship">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

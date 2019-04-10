@@ -1,0 +1,141 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="engender-27.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="" name="beget" verbnet_key="beget#2" wn=""/>
+  <MEMBER grouping="bring.02" name="bring" verbnet_key="bring#2" wn=""/>
+  <MEMBER grouping="bring.02" name="bring_about" verbnet_key="bring_about#1" wn=""/>
+  <MEMBER grouping="create.01" name="create" verbnet_key="create#2" wn="create%2:36:00 create%2:36:02"/>
+  <MEMBER grouping="" name="engender" verbnet_key="engender#1" wn="engender%2:36:00"/>
+  <MEMBER grouping="generate.01" name="generate" verbnet_key="generate#2" wn="generate%2:36:00"/>
+  <MEMBER grouping="" name="kindle" verbnet_key="kindle#1" wn="kindle%2:37:00"/>
+  <MEMBER grouping="produce.01" name="produce" verbnet_key="produce#2" wn="produce%2:36:03"/>
+  <MEMBER grouping="raise.03" name="raise" verbnet_key="raise#4" wn="raise%2:32:00 raise%2:36:06 raise%2:32:06"/>
+  <MEMBER grouping="return.02" name="return" verbnet_key="return#1" wn="return%2:36:00"/>
+  <MEMBER grouping="set.06" name="set_in_motion" verbnet_key="set_in_motion#1" wn="set_in_motion%2:35:05"/>
+  <MEMBER grouping="" name="set_off" verbnet_key="set_off#1" wn="set_off%2:32:00 set_off%2:36:00"/>
+  <MEMBER grouping="shape.02" name="shape" verbnet_key="shape#2" wn="shape%2:31:00"/>
+  <MEMBER grouping="" name="sire" verbnet_key="sire#2" wn=""/>
+  <MEMBER grouping="spawn.01" name="spawn" verbnet_key="spawn#3" wn="spawn%2:36:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Causer">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="abstract"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Racial inequality engenders conflict.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Precondition">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="be">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Precondition"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="engender-27.1-1">
+   <MEMBERS>
+    <MEMBER grouping="" name="actuate" verbnet_key="actuate#1" wn="actuate%2:36:00"/>
+    <MEMBER grouping="" name="arouse" verbnet_key="arouse#2" wn="arouse%2:36:00"/>
+    <MEMBER grouping="call.02" name="call_forth" verbnet_key="call_forth#1" wn="call_forth%2:36:01 call_forth%2:36:00"/>
+    <MEMBER grouping="cause.01" name="cause" verbnet_key="cause#2" wn="cause%2:36:00"/>
+    <MEMBER grouping="" name="elicit" verbnet_key="elicit#1" wn=""/>
+    <MEMBER grouping="incite.01" name="incite" verbnet_key="incite#1" wn="incite%2:32:00"/>
+    <MEMBER grouping="inspire.01" name="inspire" verbnet_key="inspire#2" wn="inspire%2:37:00 inspire%2:36:00"/>
+    <MEMBER grouping="" name="instigate" verbnet_key="instigate#1" wn="instigate%2:32:00"/>
+    <MEMBER grouping="prompt.01" name="prompt" verbnet_key="prompt#1" wn="prompt%2:36:00"/>
+    <MEMBER grouping="provoke.01" name="provoke" verbnet_key="provoke#2" wn="provoke%2:37:00 provoke%2:36:00"/>
+    <MEMBER grouping="spark.01" name="spark" verbnet_key="spark#1" wn="spark%2:36:00"/>
+    <MEMBER grouping="stimulate.01" name="stimulate" verbnet_key="stimulate#2" wn="stimulate%2:36:00 stimulate%2:32:00"/>
+    <MEMBER grouping="stir.02" name="stir_up" verbnet_key="stir_up#1" wn="stir_up%2:32:00"/>
+    <MEMBER grouping="" name="trigger" verbnet_key="trigger#1" wn=""/>
+   </MEMBERS>
+   <THEMROLES>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V S" secondary="NP-INF-OC" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The bug causes the chip to give wrong answers for some mathematical calculations.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Causer">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <NP value="Predicate">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Precondition"/>
+     </ARGS>
+    </PRED>
+    <PRED value="act">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Predicate"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
+     </ARGS>
+    </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

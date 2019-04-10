@@ -1,0 +1,103 @@
+<VNCLASS ID="fit-54.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="carry.02 carry.03" name="carry" wn="carry%2:42:03 carry%2:31:12 carry%2:36:08 carry%2:34:01"/>
+        <MEMBER grouping="contain.01" name="contain" wn="contain%2:42:14"/>
+        <MEMBER grouping="fit.02" name="fit" wn="fit%2:42:02 fit%2:42:03"/>
+        <MEMBER grouping="feed.03" name="feed" wn="feed%2:34:02"/>
+        <MEMBER grouping="" name="hibernate" wn=""/>
+        <MEMBER grouping="hold.01 hold.04" name="hold" wn="hold%2:42:05 hold%2:42:14"/>
+        <MEMBER grouping="house.01" name="house" wn="house%2:41:00"/>
+        <MEMBER grouping="reseat.01" name="reseat" wn="reseat%2:40:01 reseat%2:40:00 reseat%2:35:00"/>
+        <MEMBER grouping="seat.01 seat.02" name="seat" wn="seat%2:42:00"/>
+        <MEMBER grouping="serve.01" name="serve" wn="serve%2:41:00"/>
+        <MEMBER grouping="sleep.03" name="sleep" wn="sleep%2:42:00"/>
+        <MEMBER grouping="store.01" name="store" wn="store%2:40:02"/>
+        <MEMBER grouping="take.10" name="take" wn="take%2:42:15"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Value">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="3.6" primary="NP.location V NP" secondary="Location Subject Alternation" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Each room sleeps five people.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Value">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="capacity">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Value"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; Location-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    We sleep five people in each room.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Value">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="in">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="capacity">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Value"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="e1"/>
+                        <ARG type="Event" value="e2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

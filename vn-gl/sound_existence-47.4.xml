@@ -1,0 +1,192 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="sound_existence-47.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <!--Each member adds a predicate for the quality of the sound-->
+  <MEMBER grouping="echo.02" name="echo" verbnet_key="echo#1" wn="echo%2:39:00"/>
+  <MEMBER grouping="" name="resonate" verbnet_key="resonate#1" wn="resonate%2:39:00"/>
+  <MEMBER grouping="" name="resound" verbnet_key="resound#1" wn="resound%2:39:01"/>
+  <MEMBER grouping="reverberate.01" name="reverberate" verbnet_key="reverberate#1" wn="reverberate%2:39:00"/>
+  <MEMBER grouping="" name="roll" verbnet_key="roll#9" wn=""/>
+  <MEMBER grouping="sound.02" name="sound" verbnet_key="sound#2" wn="sound%2:39:01"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="sound"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+    <SELRESTR Value="-" type="region"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The voices echoed.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The voices echoed through the hall.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="loc"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NP-PP; Expletive-there Subject" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     There echoed voices through the hall.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <LEX value="there"/>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS>
+      <SYNRESTR Value="-" type="definite"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="6.2" primary="PP.location V NP" secondary="Locative Inversion" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Through the hall echoed a loud cry.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="loc"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+   <!--some verbs-->
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.3" primary="NP.location V NP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The hall echoed with voices.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Location">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

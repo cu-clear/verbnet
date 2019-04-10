@@ -1,0 +1,50 @@
+<VNCLASS ID="break_down-45.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="" name="break_down" wn=""/>
+        <MEMBER grouping="" name="croak" wn=""/>
+        <MEMBER grouping="" name="die" wn=""/>
+        <MEMBER grouping="" name="expire" wn=""/>
+        <MEMBER grouping="fall.10" name="fall_apart" wn="fall_apart%2:37:00 fall_apart%2:35:00         fall_apart%2:30:00 fall_apart%2:30:03"/>
+        <MEMBER grouping="" name="go_out" wn=""/>
+        <MEMBER grouping="" name="go_down" wn=""/>
+        <MEMBER grouping="" name="go_off" wn=""/>
+        <MEMBER grouping="" name="give_out" wn=""/>
+        <MEMBER grouping="give.06" name="give_way" wn=""/>
+        <MEMBER grouping="give.06" name="give" wn=""/>
+        <MEMBER grouping="" name="kick_the_bucket" wn=""/>
+        <MEMBER grouping="" name="pass_away" wn=""/>
+        <MEMBER grouping="" name="perish" wn=""/>
+        <MEMBER grouping="" name="poop_out" wn=""/>
+        <MEMBER grouping="" name="fizzle_out" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Basic Intransitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The bridge gave way.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="degradation_material_integrity">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

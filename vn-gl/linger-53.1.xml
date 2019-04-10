@@ -1,0 +1,139 @@
+<VNCLASS ID="linger-53.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="dally.01" name="dally" wn="dally%2:38:00"/>
+        <MEMBER grouping="" name="dawdle" wn="dawdle%2:38:00 dawdle%2:38:04"/>
+        <MEMBER grouping="" name="dither" wn="dither%2:37:01"/>
+        <MEMBER grouping="" name="equivocate" wn=""/>
+        <MEMBER grouping="hesitate.02" name="hesitate" wn="hesitate%2:42:00 hesitate%2:42:01"/>
+        <MEMBER grouping="linger.02" name="linger" wn="linger%2:42:00 linger%2:38:01 linger%2:38:00"/>
+        <MEMBER grouping="" name="loaf" wn="loaf%2:42:01"/>
+        <MEMBER grouping="" name="loiter" wn="loiter%2:42:00"/>
+        <MEMBER grouping="pause.01" name="pause" wn="pause%2:42:00 pause%2:32:01"/>
+        <MEMBER grouping="" name="potter" wn="potter%2:35:01"/>
+        <MEMBER grouping="" name="procrastinate" wn="procrastinate%2:42:00 procrastinate%2:42:01"/>
+        <MEMBER grouping="" name="putter" wn="putter%2:35:00"/>
+        <MEMBER grouping="" name="tarry" wn="tarry%2:42:00 tarry%2:38:00"/>
+        <!--delay can be used transitively-->
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; Location-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Sasha dawdled in the museum.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="linger">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; over-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Sasha dawdled over lunch.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="over">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="linger">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="linger-53.1-1">
+            <MEMBERS>
+                <MEMBER grouping="delay.02" name="delay" wn="delay%2:42:00"/>
+                <MEMBER grouping="scruple.01" name="scruple" wn="scruple%2:42:00 scruple%2:37:00"/>
+                <MEMBER grouping="stall.01" name="stall" wn="stall%2:42:00 stall%2:30:00"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            He delayed the watering.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="delay">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

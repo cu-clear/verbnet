@@ -1,0 +1,301 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="animal_sounds-38" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER grouping="" name="baa" verbnet_key="baa#1" wn="baa%2:32:00"/>
+  <MEMBER grouping="bark.01" name="bark" verbnet_key="bark#1" wn="bark%2:32:00"/>
+  <MEMBER grouping="" name="bay" verbnet_key="bay#1" wn="bay%2:32:01"/>
+  <MEMBER grouping="" name="bellow" verbnet_key="bellow#1" wn="bellow%2:32:01"/>
+  <MEMBER grouping="" name="blat" verbnet_key="blat#1" wn="blat%2:32:00"/>
+  <MEMBER grouping="" name="bleat" verbnet_key="bleat#1" wn="bleat%2:32:00"/>
+  <MEMBER grouping="" name="bray" verbnet_key="bray#1" wn="bray%2:32:00"/>
+  <MEMBER grouping="buzz.01" name="buzz" verbnet_key="buzz#1" wn="buzz%2:39:00"/>
+  <MEMBER grouping="" name="cackle" verbnet_key="cackle#1" wn="cackle%2:32:00"/>
+  <MEMBER grouping="call.08" name="call" verbnet_key="call#1" wn="call%2:32:03"/>
+  <MEMBER grouping="" name="caw" verbnet_key="caw#1" wn="caw%2:32:00"/>
+  <MEMBER grouping="chatter.01" name="chatter" verbnet_key="chatter#1" wn="chatter%2:32:02"/>
+  <MEMBER grouping="" name="cheep" verbnet_key="cheep#1" wn="cheep%2:32:00"/>
+  <MEMBER grouping="" name="chirp" verbnet_key="chirp#1" wn="chirp%2:32:00"/>
+  <MEMBER grouping="" name="chirrup" verbnet_key="chirrup#1" wn="chirrup%2:32:00"/>
+  <MEMBER grouping="" name="chitter" verbnet_key="chitter#1" wn="chitter%2:32:00"/>
+  <MEMBER grouping="" name="cluck" verbnet_key="cluck#1" wn="cluck%2:32:00"/>
+  <MEMBER grouping="" name="coo" verbnet_key="coo#1" wn="coo%2:32:00"/>
+  <MEMBER grouping="croak.02" name="croak" verbnet_key="croak#1" wn="croak%2:32:01"/>
+  <MEMBER grouping="crow.02" name="crow" verbnet_key="crow#1" wn="crow%2:32:02"/>
+  <MEMBER grouping="" name="cuckoo" verbnet_key="cuckoo#1" wn="cuckoo%2:32:00"/>
+  <MEMBER grouping="" name="drone" verbnet_key="drone#1" wn="drone%2:39:00"/>
+  <MEMBER grouping="" name="gobble" verbnet_key="gobble#1" wn="gobble%2:32:00"/>
+  <MEMBER grouping="" name="growl" verbnet_key="growl#1" wn="growl%2:32:00"/>
+  <MEMBER grouping="" name="grunt" verbnet_key="grunt#1" wn="grunt%2:32:00"/>
+  <MEMBER grouping="" name="hee-haw" verbnet_key="hee-haw#1" wn="hee-haw%2:32:00"/>
+  <MEMBER grouping="hiss.01" name="hiss" verbnet_key="hiss#1" wn="?hiss%2:32:00 ?hiss%2:32:01"/>
+  <MEMBER grouping="" name="honk" verbnet_key="honk#1" wn="honk%2:32:00"/>
+  <MEMBER grouping="" name="hoot" verbnet_key="hoot#1" wn="hoot%2:32:00"/>
+  <MEMBER grouping="howl.01" name="howl" verbnet_key="howl#1" wn="howl%2:32:03"/>
+  <MEMBER grouping="" name="ki-yi" verbnet_key="ki-yi#1" wn=""/>
+  <MEMBER grouping="" name="low" verbnet_key="low#1" wn="low%2:32:00"/>
+  <MEMBER grouping="" name="meow" verbnet_key="meow#1" wn="meow%2:32:00"/>
+  <MEMBER grouping="" name="mew" verbnet_key="mew#1" wn="mew%2:32:00"/>
+  <MEMBER grouping="" name="moo" verbnet_key="moo#1" wn="moo%2:32:00"/>
+  <MEMBER grouping="" name="neigh" verbnet_key="neigh#1" wn="neigh%2:32:00"/>
+  <MEMBER grouping="" name="oink" verbnet_key="oink#1" wn="oink%2:32:00"/>
+  <MEMBER grouping="" name="peep" verbnet_key="peep#1" wn="peep%2:32:00"/>
+  <MEMBER grouping="pipe.01" name="pipe" verbnet_key="pipe#1" wn="pipe%2:32:00"/>
+  <MEMBER grouping="purr.01" name="purr" verbnet_key="purr#1" wn="purr%2:32:00"/>
+  <MEMBER grouping="" name="quack" verbnet_key="quack#1" wn="quack%2:32:00"/>
+  <MEMBER grouping="roar.01" name="roar" verbnet_key="roar#1" wn="roar%2:32:05"/>
+  <MEMBER grouping="" name="rooroo" verbnet_key="rooroo#1" wn=""/>
+  <MEMBER grouping="" name="scrawk" verbnet_key="scrawk#1" wn=""/>
+  <MEMBER grouping="" name="squawk" verbnet_key="squawk#1" wn="squawk%2:32:01"/>
+  <MEMBER grouping="" name="squeak" verbnet_key="squeak#1" wn="squeak%2:39:00"/>
+  <MEMBER grouping="" name="squeal" verbnet_key="squeal#1" wn="squeal%2:32:01"/>
+  <MEMBER grouping="" name="stridulate" verbnet_key="stridulate#1" wn="stridulate%2:39:00"/>
+  <MEMBER grouping="" name="trill" verbnet_key="trill#1" wn="trill%2:32:00"/>
+  <MEMBER grouping="" name="tweet" verbnet_key="tweet#1" wn="tweet%2:39:00"/>
+  <MEMBER grouping="" name="twitter" verbnet_key="twitter#1" wn="twitter%2:32:00"/>
+  <MEMBER grouping="wail.01" name="wail" verbnet_key="wail#1" wn="wail%2:32:00"/>
+  <MEMBER grouping="" name="warble" verbnet_key="warble#1" wn="warble%2:32:00"/>
+  <MEMBER grouping="" name="whimper" verbnet_key="whimper#1" wn="whimper%2:29:00"/>
+  <MEMBER grouping="" name="whinny" verbnet_key="whinny#1" wn="whinny%2:32:00"/>
+  <MEMBER grouping="whistle.01" name="whistle" verbnet_key="whistle#1" wn="whistle%2:39:00"/>
+  <MEMBER grouping="" name="woof" verbnet_key="woof#1" wn=""/>
+  <MEMBER grouping="" name="yap" verbnet_key="yap#1" wn="yap%2:32:00"/>
+  <MEMBER grouping="yell.01" name="yell" verbnet_key="yell#1" wn="yell%2:32:01"/>
+  <MEMBER grouping="" name="yelp" verbnet_key="yelp#1" wn="yelp%2:32:00"/>
+  <MEMBER grouping="" name="yip" verbnet_key="yip#1" wn="yip%2:32:00"/>
+  <MEMBER grouping="" name="yowl" verbnet_key="yowl#1" wn="yowl%2:32:01 yowl%2:32:00"/>
+  <MEMBER grouping="boom.02" name="boom" verbnet_key="boom#1" wn="boom%2:39:00"/>
+  <MEMBER grouping="rattle.01" name="rattle" verbnet_key="rattle#1" wn="rattle%2:38:00"/>
+  <MEMBER grouping="" name="groan" verbnet_key="groan#1" wn="groan%2:32:00"/>
+  <MEMBER grouping="" name="ululate" verbnet_key="ululate#1" wn="ululate%2:32:00"/>
+  <MEMBER grouping="" name="moan" verbnet_key="moan#1" wn="moan%2:32:00"/>
+  <MEMBER grouping="" name="rumble" verbnet_key="rumble#1" wn="rumble%2:39:00 rumble%2:32:00"/>
+  <MEMBER grouping="" name="screech" verbnet_key="screech#1" wn=""/>
+  <MEMBER grouping="" name="snarl" verbnet_key="snarl#1" wn=""/>
+  <MEMBER grouping="" name="thunder" verbnet_key="thunder#1" wn="thunder%2:32:01"/>
+  <MEMBER grouping="" name="trumpet" verbnet_key="trumpet#1" wn=""/>
+  <MEMBER grouping="" name="wheeze" verbnet_key="wheeze#1" wn="wheeze%2:29:00"/>
+  <MEMBER grouping="whine.01" name="whine" verbnet_key="whine#1" wn="whine%2:38:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animal"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="communication"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Recipient">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+  <THEMROLE type="Stimulus">
+   <SELRESTRS/>
+  </THEMROLE>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The dog barked.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="emit">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Sound"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.recipient" secondary="PP; Recipient-PP = Stimulus-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The dog barked at the cat.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="dest_dir"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Recipient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="ThemRole" value="Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="emit">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Sound"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Recipient"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="NP; Theme Object" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The dog barked a warning.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="emit">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Sound"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The dog barked at the sight of the cat.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="at"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Stimulus">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="emit">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Sound"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

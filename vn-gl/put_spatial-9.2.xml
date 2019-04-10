@@ -1,0 +1,207 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="put_spatial-9.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <!--members specify end spatial configuration (includes orientation, support, position– intrinsic spatial properties) in has_configuration predicate-->
+        <!--All members from spatial_configuration subclass have been added here as well because they take the causative change of location + change of configuration frames as well as the causative change of configuration without change of location frames, Julia 2019-->
+        <MEMBER grouping="balance.01" name="balance" wn="balance%2:42:00 balance%2:42:01"/>
+        <MEMBER grouping="bend.02 bend.05" name="bend" wn="bend%2:38:00 bend%2:35:00"/>
+        <MEMBER grouping="" name="dangle" wn="dangle%2:42:00 dangle%2:35:00"/>
+        <MEMBER grouping="droop.01" name="droop" wn=""/>
+        <MEMBER grouping="flop.01" name="flop" wn=""/>
+        <MEMBER grouping="fly.01" name="fly" wn="fly%2:39:00"/>
+        <MEMBER grouping="hang.01" name="hang" wn="hang%2:35:03 hang%2:35:00 hang%2:42:01 hang%2:36:00 hang%2:35:04 hang%2:30:00"/>
+        <MEMBER grouping="lay.01" name="lay" wn="lay%2:35:01 lay%2:35:00"/>
+        <MEMBER grouping="lean.02" name="lean" wn="lean%2:38:00 lean%2:35:00"/>
+        <MEMBER grouping="" name="nestle" wn="nestle%2:35:00"/>
+        <MEMBER grouping="open.01" name="open" wn="open%2:35:00"/>
+        <MEMBER grouping="" name="perch" wn="perch%2:35:00 perch%2:35:10"/>
+        <MEMBER grouping="plop.01" name="plop" wn="plop%2:35:00"/>
+        <MEMBER grouping="prop.01" name="prop" wn="prop%2:35:00"/>
+        <MEMBER grouping="project.02 project.03" name="project" wn="project%2:42:00 project%2:36:03"/>
+        <MEMBER grouping="recline.01" name="recline" wn="recline%2:38:00 recline%2:35:00"/>
+        <MEMBER grouping="rest.02" name="rest" wn="rest%2:35:04 rest%2:35:01 rest%2:35:02"/>
+        <MEMBER grouping="sit.01 sit.02" name="sit" wn="sit%2:35:00 sit%2:42:00 sit%2:38:00 sit%2:35:01"/>
+        <MEMBER grouping="" name="slope" wn="slope%2:38:00"/>
+        <MEMBER grouping="" name="sprawl" wn="sprawl%2:35:00"/>
+        <MEMBER grouping="stand.01 stand.02" name="stand" wn="stand%2:42:03 stand%2:35:01"/>
+        <MEMBER grouping="straddle.01" name="straddle" wn="straddle%2:42:01" />
+        <MEMBER grouping="suspend.01" name="suspend" wn="suspend%2:35:00"/>
+        <MEMBER grouping="swing.02" name="swing" wn="swing%2:38:02 swing%2:42:00"/>
+        <MEMBER grouping="tilt.01" name="tilt" wn="tilt%2:38:00"/>
+        <MEMBER grouping="underlay.01" name="underlay" wn="underlay%2:38:00 underlay%2:35:00 underlay%2:34:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <!--Destination can also be realized as a locative adverb ("here, there")-->
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Initial_Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; locative-PP" xtag=""/>
+            <!-- many verbs cross-listed with spatial_configuration-47.6, where the change in-->
+            <!-- position of Theme is emphasized; here we emphasize change in Destination-->
+            <EXAMPLES>
+                <EXAMPLE>
+                    Cheryl stood the books on the shelf.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_configuration">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADVP" secondary="NP-ADVP-PRED; here/there" xtag=""/>
+            <!-- discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
+            <EXAMPLES>
+                <EXAMPLE>
+                    Cheryl stood the books there.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Destination">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adv_loc"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme "/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_configuration">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+</VNCLASS>

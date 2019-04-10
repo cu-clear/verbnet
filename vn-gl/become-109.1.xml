@@ -1,0 +1,150 @@
+<VNCLASS ID="become-109.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="come.03" name="come_out" wn="come_out%2:42:00"/>
+        <MEMBER grouping="get.03" name="get" wn="get%2:30:00 get%2:30:01 get%2:39:00"/>
+        <MEMBER grouping="turn.02 turn.03" name="turn" wn="turn%2:38:03"/>
+        <MEMBER grouping="turn.07" name="turn_up" wn="turn_up%2:40:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Result">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V ADJ" secondary="" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The belt came undone
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="has_state">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Result"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_state">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Result"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="become-109.1-1">
+            <MEMBERS>
+                <MEMBER grouping="come.03" name="come" wn="come%2:30:01 come%2:30:02"/>
+                <MEMBER grouping="fall.03" name="fall" wn="fall%2:30:08"/>
+                <MEMBER grouping="go.04" name="go" wn="go%2:30:04"/>
+                <MEMBER grouping="go.01" name="grow" wn="grow%2:30:03"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.attribute" secondary="" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            The matter fell into dispute.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP value="in | into">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Result">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+		                <PRED bool="!" value="has_state">
+		                    <ARGS>
+		                        <ARG type="Event" value="e1"/>
+		                        <ARG type="ThemRole" value="Patient"/>
+		                        <ARG type="ThemRole" value="Result"/>
+		                    </ARGS>
+		                </PRED>
+		                <PRED value="has_state">
+		                    <ARGS>
+		                        <ARG type="Event" value="e2"/>
+		                        <ARG type="ThemRole" value="Patient"/>
+		                        <ARG type="ThemRole" value="Result"/>
+		                    </ARGS>
+		                </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="become-109.1-1-1">
+                    <MEMBERS>
+                        <MEMBER grouping="become.01" name="become" wn="become%2:30:00"/>
+                        <MEMBER grouping="end.04" name="end_up" wn="end_up%2:30:01"/>
+                        <MEMBER grouping="" name="leave" wn=""/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    He became a banker.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Patient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Result">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="-" type="sentential"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+				                <PRED bool="!" value="has_state">
+				                    <ARGS>
+				                        <ARG type="Event" value="e1"/>
+				                        <ARG type="ThemRole" value="Patient"/>
+				                        <ARG type="ThemRole" value="Result"/>
+				                    </ARGS>
+				                </PRED>
+				                <PRED value="has_state">
+				                    <ARGS>
+				                        <ARG type="Event" value="e2"/>
+				                        <ARG type="ThemRole" value="Patient"/>
+				                        <ARG type="ThemRole" value="Result"/>
+				                    </ARGS>
+				                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

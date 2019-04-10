@@ -1,0 +1,75 @@
+<VNCLASS ID="overstate-37.12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="overstate.01" name="overstate" wn="overstate%2:32:00"/>
+        <MEMBER grouping="" name="overdraw" wn="overdraw%2:32:00"/>
+        <MEMBER grouping="" name="hyperbolize" wn="hyperbolize%2:32:00"/>
+        <MEMBER grouping="magnify.01" name="magnify" wn="magnify%2:32:00"/>
+        <MEMBER grouping="amplify.01" name="amplify" wn="amplify%2:32:00"/>
+        <MEMBER grouping="" name="overemphasize" wn="overemphasize%2:32:00"/>
+        <MEMBER grouping="" name="overrate" wn="overrate%2:31:00"/>
+        <MEMBER grouping="" name="overstress" wn="overstress%2:32:00"/>
+        <MEMBER grouping="tout.01" name="tout" wn="tout%2:32:00"/>
+        <MEMBER grouping="glorify.01" name="glorify" wn="glorify%2:32:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    He overstated the position.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_information">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Recipient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="Event" value="e2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_information">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="PredSpecific" value="Recipient"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

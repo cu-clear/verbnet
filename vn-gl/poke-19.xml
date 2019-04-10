@@ -1,0 +1,1146 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="poke-19" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <!--Some verbs add predicate indicating puncturing of Patient at end of event
+        "in" predicate used to indicate puncturing of Patient-->
+  <!--Above note is old, no such 'in' predicate existed in file as of march 2019. Julia has subdivided the class to accommodate 
+         Levin's original statements that *some* involve puncturing the surface of a thing, and *some* verbs take the conative 
+         alternation. The new hierarchy arranges verbs according to syntactic formations, thematic roles, and different combinations
+         of involvement in 2 spatial relationships: contact between Theme/Patient and Instrument, and the Instrument's penetration 
+         of a Patient's surface. 'Penetrating' is used rather than 'puncturing' because it doesn't assert structural damage to the 
+         Patient. It is intended to be topological. -->
+  <MEMBER grouping="pierce.01" name="pierce" verbnet_key="pierce#1" wn="pierce%2:35:02 pierce%2:35:01 pierce%2:35:00"/>
+  <MEMBER grouping="" name="prick" verbnet_key="prick#1" wn="prick%2:35:00 prick%2:35:04 prick%2:35:03"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="machine"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Instrument">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="pointy"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive; dropped Instrument; Instrument penetrates the surface of Patient" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Allison poked the cloth.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="exert_force">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="?Instrument"/>
+      <ARG type="VerbSpecific" value="Movement"/>
+     </ARGS>
+    </PRED>
+    <PRED value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="?Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="overlaps">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.9" primary="NP V NP PP.instrument" secondary="NP-PP; with-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Allison poked the cloth with the needle.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="exert_force">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="VerbSpecific" value="Movement"/>
+     </ARGS>
+    </PRED>
+    <PRED value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="overlaps">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.9" primary="NP V NP PP.patient" secondary="NP-PP; through-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Allison poked the needle through the cloth.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="through">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="exert_force">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="VerbSpecific" value="Movement"/>
+     </ARGS>
+    </PRED>
+    <PRED value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="overlaps">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.9" primary="NP V NP PP.patient" secondary="NP-PP; into-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Allison poked the needle into the cloth.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="into">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="exert_force">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="VerbSpecific" value="Movement"/>
+     </ARGS>
+    </PRED>
+    <PRED value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="overlaps">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The needle poked the cloth.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="exert_force">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="?Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="?Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="VerbSpecific" value="Movement"/>
+     </ARGS>
+    </PRED>
+    <PRED value="penetrating">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="overlaps">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="poke-19-1">
+   <!--This subclass adds the verb stab, which otherwise behaves like 'pierce' and 'prick', but can take conative constructions.
+       Conative constructions can involve penetration, just contact, or attempted/missed contact; only attempted/missed contact 
+       can take transitive conative constructions.-->
+   <MEMBERS>
+    <MEMBER grouping="stab.01 stab.02" name="stab" verbnet_key="stab#2" wn="stab%2:35:02 stab%2:35:00 stab%2:35:01"/>
+   </MEMBERS>
+   <THEMROLES>
+    <THEMROLE type="Theme">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="concrete"/>
+     </SELRESTRS>
+    </THEMROLE>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.3" primary="NP V PP.Theme" secondary="Conative, Intransitive, No Contact" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Allison stabbed at him.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <LEX value="at"/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="exert_force">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+        <ARG type="VerbSpecific" value="Movement"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.3" primary="NP V PP.Theme PP.Instrument" secondary="Conative, Intransitive, No Contact" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Allison stabbed at him with a knife.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <LEX value="at"/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="with">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Instrument">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="exert_force">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Instrument"/>
+        <ARG type="VerbSpecific" value="Movement"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.3" primary="NP V NP.Instrument PP.Theme" secondary="Conative, Transitive, No Contact" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Allison jabbed her finger at him.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Instrument">
+       <SYNRESTRS/>
+      </NP>
+      <LEX value="at"/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="exert_force">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Instrument"/>
+        <ARG type="VerbSpecific" value="Movement"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.3" primary="NP V PP.Theme" secondary="Conative, Intransitive, Contact" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Allison poked at him.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <LEX value="at"/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED bool="!" value="penetrating">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="exert_force">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+        <ARG type="VerbSpecific" value="Movement"/>
+       </ARGS>
+      </PRED>
+      <PRED value="contact">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+      <PRED value="overlaps">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.3" primary="NP V PP.Theme PP.Instrument" secondary="Conative, Intransitive, Contact" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Allison poked at him with her finger.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <LEX value="at"/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="with">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Instrument">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED bool="!" value="penetrating">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Instrument"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="exert_force">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Instrument"/>
+        <ARG type="VerbSpecific" value="Movement"/>
+       </ARGS>
+      </PRED>
+      <PRED value="contact">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+      <PRED value="overlaps">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.3" primary="NP V PP.Patient" secondary="Conative, Intransitive, Penetration" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Allison poked at the cloth.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <LEX value="at"/>
+      <NP value="Patient">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED bool="!" value="penetrating">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+        <ARG type="ThemRole" value="Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Patient"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="exert_force">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+        <ARG type="VerbSpecific" value="Movement"/>
+       </ARGS>
+      </PRED>
+      <PRED value="penetrating">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+        <ARG type="ThemRole" value="Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED value="contact">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
+        <ARG type="ThemRole" value="Patient"/>
+        <ARG type="ThemRole" value="?Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+      <PRED value="overlaps">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+      <PRED value="repeated_sequence">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.3" primary="NP V PP.Patient PP.Instrument" secondary="Conative, Intransitive, Penetration" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Allison poked at the cloth with the needle.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <LEX value="at"/>
+      <NP value="Patient">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="with">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Instrument">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED bool="!" value="penetrating">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Instrument"/>
+        <ARG type="ThemRole" value="Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Patient"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="exert_force">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Instrument"/>
+        <ARG type="VerbSpecific" value="Movement"/>
+       </ARGS>
+      </PRED>
+      <PRED value="penetrating">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
+        <ARG type="ThemRole" value="Instrument"/>
+        <ARG type="ThemRole" value="Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED value="contact">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
+        <ARG type="ThemRole" value="Patient"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+      <PRED value="overlaps">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+      <PRED value="repeated_sequence">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="poke-19-1-1">
+     <!-- This subclass adds the remaining 4 of Levin's verbs, which inherit all behavior from above, and also add +contact/-penetration
+          semantics.-->
+     <MEMBERS>
+      <MEMBER grouping="dig.01" name="dig" verbnet_key="dig#3" wn="dig%2:35:03"/>
+      <MEMBER grouping="" name="jab" verbnet_key="jab#2" wn="jab%2:35:00 jab%2:35:02"/>
+      <MEMBER grouping="poke.01" name="poke" verbnet_key="poke#1" wn="poke%2:35:01 poke%2:35:00"/>
+      <MEMBER grouping="stick.02" name="stick" verbnet_key="stick#1" wn="stick%2:35:03"/>
+     </MEMBERS>
+     <THEMROLES/>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="1.3" primary="NP V NP.Theme" secondary="Basic Intransitive, Contact" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         Allison poked the bundle.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Theme">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED bool="!" value="penetrating">
+         <ARGS>
+          <ARG type="Event" value="E"/>
+          <ARG type="ThemRole" value="?Instrument"/>
+          <ARG type="ThemRole" value="Theme"/>
+         </ARGS>
+        </PRED>
+        <PRED bool="!" value="contact">
+         <ARGS>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="?Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="exert_force">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="?Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="utilize">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="?Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="manner">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="?Instrument"/>
+          <ARG type="VerbSpecific" value="Movement"/>
+         </ARGS>
+        </PRED>
+        <PRED value="contact">
+         <ARGS>
+          <ARG type="Event" value="e3"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="?Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="e3"/>
+         </ARGS>
+        </PRED>
+        <PRED value="overlaps">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="e3"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="1.3" primary="NP V NP.Theme PP.Instsrument" secondary="Intransitive, Instrument, Contact" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         Allison poked the bundle with the stick.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Theme">
+         <SYNRESTRS/>
+        </NP>
+        <PREP value="with">
+         <SELRESTRS/>
+        </PREP>
+        <NP value="Instrument">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED bool="!" value="penetrating">
+         <ARGS>
+          <ARG type="Event" value="E"/>
+          <ARG type="ThemRole" value="Instrument"/>
+          <ARG type="ThemRole" value="Theme"/>
+         </ARGS>
+        </PRED>
+        <PRED bool="!" value="contact">
+         <ARGS>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="exert_force">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="utilize">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="manner">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Instrument"/>
+          <ARG type="VerbSpecific" value="Movement"/>
+         </ARGS>
+        </PRED>
+        <PRED value="contact">
+         <ARGS>
+          <ARG type="Event" value="e3"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="e3"/>
+         </ARGS>
+        </PRED>
+        <PRED value="overlaps">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="e3"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="3.3" primary="NP.Instrument V NP.Theme" secondary="Instrument subject alternation, Contact" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         The stick poked the bundle
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Instrument">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Theme">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED bool="!" value="penetrating">
+         <ARGS>
+          <ARG type="Event" value="E"/>
+          <ARG type="ThemRole" value="Instrument"/>
+          <ARG type="ThemRole" value="Theme"/>
+         </ARGS>
+        </PRED>
+        <PRED bool="!" value="contact">
+         <ARGS>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="exert_force">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="?Agent"/>
+          <ARG type="ThemRole" value="Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="utilize">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="?Agent"/>
+          <ARG type="ThemRole" value="Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="manner">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Instrument"/>
+          <ARG type="VerbSpecific" value="Movement"/>
+         </ARGS>
+        </PRED>
+        <PRED value="contact">
+         <ARGS>
+          <ARG type="Event" value="e3"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Instrument"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="e3"/>
+         </ARGS>
+        </PRED>
+        <PRED value="overlaps">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="e3"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

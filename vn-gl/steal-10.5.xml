@@ -1,0 +1,490 @@
+<VNCLASS ID="steal-10.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="abduct.01" name="abduct" wn="abduct%2:35:02"/>
+        <MEMBER grouping="" name="annex" wn="annex%2:40:00"/>
+        <MEMBER grouping="bleed.04" name="bleed" wn="bleed%2:40:09 bleed%2:30:00"/>
+        <MEMBER grouping="" name="cabbage" wn="cabbage%2:40:00"/>
+        <MEMBER grouping="" name="carjack" wn="carjack%2:35:00"/>
+        <MEMBER grouping="" name="commandeer" wn="commandeer%2:35:00"/>
+        <MEMBER grouping="confiscate.01" name="confiscate" wn="confiscate%2:40:01"/>
+        <MEMBER grouping="" name="cull" wn="cull%2:40:00"/>
+        <MEMBER grouping="" name="emancipate" wn="?emancipate%2:41:00"/>
+        <MEMBER grouping="" name="embezzle" wn="embezzle%2:40:00"/>
+        <MEMBER grouping="extort.01" name="extort" wn="extort%2:40:01 extort%2:40:00"/>
+        <MEMBER grouping="" name="filch" wn="filch%2:40:00"/>
+        <MEMBER grouping="" name="highjack" wn="highjack%2:35:00"/>
+        <MEMBER grouping="kidnap.01" name="kidnap" wn="kidnap%2:35:00"/>
+        <MEMBER grouping="" name="knock_off" wn="knock_off%2:40:00"/>
+        <MEMBER grouping="liberate.01" name="liberate" wn="liberate%2:41:02 liberate%2:41:00"/>
+        <MEMBER grouping="lift.04" name="lift" wn="lift%2:40:00 lift%2:40:03"/>
+        <MEMBER grouping="milk.01" name="milk" wn="milk%2:34:00"/>
+        <MEMBER grouping="" name="misappropriate" wn=""/>
+        <MEMBER grouping="" name="nobble" wn="nobble%2:40:00 nobble%2:35:00"/>
+        <MEMBER grouping="" name="pickpocket" wn=""/>
+        <MEMBER grouping="pinch.03" name="pinch" wn="pinch%2:40:00"/>
+        <MEMBER grouping="" name="plagiarize" wn="plagiarize%2:40:00"/>
+        <MEMBER grouping="" name="plunder" wn="plunder%2:40:00 plunder%2:35:01"/>
+        <MEMBER grouping="" name="purloin" wn="purloin%2:40:00"/>
+        <MEMBER grouping="" name="recapture" wn="recapture%2:37:00 recapture%2:36:00 recapture%2:40:00 recapture%2:35:00"/>
+        <MEMBER grouping="reclaim.01 reclaim.03" name="reclaim" wn="reclaim%2:40:00"/>
+        <MEMBER grouping="recoup.01" name="recoup" wn="recoup%2:40:00"/>
+        <MEMBER grouping="" name="redeem" wn=""/>
+        <MEMBER grouping="" name="repossess" wn="repossess%2:40:00 repossess%2:40:03"/>
+        <MEMBER grouping="rescue.01" name="rescue" wn="rescue%2:40:00"/>
+        <MEMBER grouping="rob.01 rob.02" name="rob" wn="rob%2:40:00"/>
+        <MEMBER grouping="" name="rustle" wn="rustle%2:40:00"/>
+        <MEMBER grouping="seize.03" name="seize" wn="seize%2:35:01 seize%2:40:01 seize%2:40:02 seize%2:40:07"/>
+        <MEMBER grouping="" name="snatch_away" wn=""/>
+        <MEMBER grouping="" name="sequester" wn="sequester%2:40:00"/>
+        <MEMBER grouping="take.04 take.09" name="take" wn="?take%2:38:09 take%2:40:01"/>
+        <MEMBER grouping="" name="thieve" wn="thieve%2:40:00"/>
+        <MEMBER grouping="" name="wrest" wn="wrest%2:35:01"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS logic="or">
+                <SELRESTRS>
+                    <SELRESTR Value="+" type="animate"/>
+                    <SELRESTR Value="+" type="organization"/>
+                </SELRESTRS>
+                <SELRESTRS>
+                    <SELRESTR Value="+" type="location"/>
+                    <SELRESTR Value="-" type="region"/>
+                </SELRESTRS>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Beneficiary">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The thief stole the painting.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Constant" value="Illegal"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>             
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The thief stole the painting from the museum.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Constant" value="Illegal"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>             
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; for-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The thief stole the painting for Mary.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="for">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Constant" value="Illegal"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>             
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.source PP.beneficiary" secondary="NP-PP-PP; Source-PP Beneficiary-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The thief stole the painting from John for Mary.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="for">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Constant" value="Illegal"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>             
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="steal-10.5-1">
+            <MEMBERS>
+                <MEMBER grouping="capture.01" name="cadge" wn="cadge%2:40:00 cadge%2:40:01"/>
+                <MEMBER grouping="capture.01" name="capture" wn="capture%2:36:00"/>
+                <MEMBER grouping="cop.01" name="cop" wn="cop%2:40:00"/>
+                <MEMBER grouping="" name="flog" wn=""/>
+                <MEMBER grouping="grab.01" name="grab" wn="grab%2:40:03"/>
+                <MEMBER grouping="hook.09" name="hook" wn="hook%2:40:01 hook%2:40:00"/>
+                <MEMBER grouping="" name="nab" wn="?nab%2:35:01"/>
+                <MEMBER grouping="" name="nick" wn=""/>
+                <MEMBER grouping="" name="pilfer" wn="pilfer%2:40:00"/>
+                <MEMBER grouping="" name="pirate" wn="pirate%2:35:00"/>
+                <MEMBER grouping="salvage.02" name="salvage" wn="salvage%2:41:00"/>
+                <MEMBER grouping="" name="shoplift" wn="shoplift%2:40:00"/>
+                <MEMBER grouping="" name="smuggle" wn="smuggle%2:40:00"/>
+                <MEMBER grouping="snatch.01 snatch.03" name="snatch" wn="?snatch%2:35:00 snatch%2:35:01"/>
+                <MEMBER grouping="sneak.02" name="sneak" wn="sneak%2:40:00"/>
+                <MEMBER grouping="steal.01" name="steal" wn="steal%2:40:00"/>
+                <MEMBER grouping="" name="swipe" wn="swipe%2:40:00"/>
+                <MEMBER grouping="" name="wangle" wn="wangle%2:41:00"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="2.13.5" primary="NP V NP NP" secondary="Ditransitive" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            The thief stole Mary some paint.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Beneficiary">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_possession">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="has_possession">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="transfer">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Constant" value="Illegal"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Event" value="e3"/>
+                            </ARGS>
+                        </PRED>             
+                        <PRED value="has_possession">
+                            <ARGS>
+                                <ARG type="Event" value="e3"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="has_possession">
+                            <ARGS>
+                                <ARG type="Event" value="e3"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="benefit">
+                            <ARGS>
+                                <ARG type="Event" value="e3"/>
+                                <ARG type="ThemRole" value="Beneficiary"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

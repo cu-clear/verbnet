@@ -1,0 +1,506 @@
+<VNCLASS ID="escape-51.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="cut.04" name="cut" wn="cut%2:38:13 cut%2:38:12"/>
+        <MEMBER grouping="get.04" name="get" wn="get%2:38:00 get%2:38:15"/>
+        <MEMBER grouping="" name="make_it" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Initial_Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Trajectory">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.destination" secondary="PP; destination-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    He came to Colorado.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/> 
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme"/>              
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>                
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.trajectory" secondary="PP; trajectory-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    He came through the door.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Trajectory">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/> 
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme"/>              
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED> 
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.initial_location PP.destination" secondary="PP-PP; source-PP destination-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    He came from France to Colorado.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Initial_Location">
+                    <SELRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/> 
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Theme"/>              
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED> 
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="escape-51.1-1">
+            <MEMBERS>
+                <MEMBER grouping="advance.01" name="advance" wn="advance%2:38:00"/>
+                <MEMBER grouping="approach.01" name="approach" wn="approach%2:38:00"/>
+                <MEMBER grouping="come.01" name="come" wn="come%2:38:00 come%2:38:04"/>
+                <MEMBER grouping="continue.03" name="continue" wn="continue%2:38:00"/>
+                <MEMBER grouping="" name="decamp" wn="decamp%2:38:00                        decamp%2:38:01 decamp%2:38:02"/>
+                <MEMBER grouping="fall.01" name="fall" wn="fall%2:38:03 fall%2:38:15 fall%2:38:14"/>
+                <MEMBER grouping="file.03" name="file" wn="file%2:38:00"/>
+                <MEMBER grouping="go.01 go.02" name="go" wn="go%2:38:00 go%2:38:01"/>
+                <MEMBER grouping="plunge.01 plunge.02" name="plunge" wn="plunge%2:38:05 plunge%2:38:00"/>
+                <MEMBER grouping="" name="recede" wn="recede%2:38:01 recede%2:33:00 recede%2:30:00"/>
+                <MEMBER grouping="return.01" name="return" wn="return%2:38:00"/>
+                <MEMBER grouping="rise.01 rise.03" name="rise" wn="rise%2:38:00 rise%2:38:05 rise%2:38:04 rise%2:29:08 rise%2:38:08"/>
+                <MEMBER grouping="tumble.01 tumble.02" name="tumble" wn="tumble%2:38:00 tumble%2:38:04"/>
+                <MEMBER grouping="arrive.01" name="arrive" wn="arrive%2:38:00"/>
+                <MEMBER grouping="" name="set_off" wn="set_off%2:38:00"/>
+                <MEMBER grouping="" name="set_out" wn="set_out%2:38:00"/>
+                <MEMBER grouping="" name="bolt" wn="bolt%2:38:02 bolt%2:38:01"/>
+                <MEMBER grouping="" name="emerge" wn="emerge%2:30:00"/>
+                <MEMBER grouping="" name="emigrate" wn="emigrate%2:30:00"/>
+                <MEMBER grouping="" name="retreat" wn="retreat%2:38:00 retreat%2:38:02"/>
+                <MEMBER grouping="" name="skedaddle" wn="skedaddle%2:38:00"/>
+                <MEMBER grouping="" name="vamoose" wn=""/>
+                <MEMBER grouping="" name="withdraw" wn="withdraw%2:38:00"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+                    <!-- each verb specifies the Prep_Dir (and sometimes
+		        		        		        		        the Oblique) that is it's default-->
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            The prisoners advanced.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="ë2"/> 
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Trajectory"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Destination"/>
+                            </ARGS>
+                        </PRED> 
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.initial_location" secondary="PP; initial_loc-PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            He came from France.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP>
+                            <SELRESTRS>
+                                <SELRESTR Value="+" type="path"/>
+                            </SELRESTRS>
+                        </PREP>
+                        <NP value="Initial_Location">
+                            <SELRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="ë2"/> 
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Trajectory"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Destination"/>
+                            </ARGS>
+                        </PRED> 
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="escape-51.1-1-1">
+                    <MEMBERS>
+                        <MEMBER grouping="depart.01" name="depart" wn="depart%2:38:04 depart%2:38:01"/>
+                        <MEMBER grouping="" name="disembark" wn="disembark%2:38:00"/>
+                        <MEMBER grouping="escape.01" name="escape" wn="escape%2:38:00"/>
+                        <MEMBER grouping="exit.01" name="exit" wn="exit%2:38:00"/>
+                        <MEMBER grouping="flee.01" name="flee" wn="flee%2:38:00"/>
+                        <MEMBER grouping="leave.01" name="leave" wn="leave%2:38:01 leave%2:38:00"/>
+                        <MEMBER grouping="vacate.01" name="vacate" wn="vacate%2:38:00"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="Locative Preposition Drop" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    The convict escaped the prison.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Initial_Location">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_location">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Initial_Location"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="motion">
+                                    <ARGS>
+                                        <ARG type="Event" value="ë2"/> 
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Trajectory"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED bool="!" value="has_location">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Initial_Location"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_location">
+                                    <ARGS>
+                                        <ARG type="Event" value="e3"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Destination"/>
+                                    </ARGS>
+                                </PRED> 
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+                <VNSUBCLASS ID="escape-51.1-1-2">
+                    <MEMBERS>
+                        <MEMBER grouping="enter.01" name="enter" wn="enter%2:38:00 enter%2:36:00"/>
+                        <MEMBER grouping="approach.01" name="approach" wn="approach%2:38:00"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="Locative Preposition Drop" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    He entered the room.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Destination">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_location">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Initial_Location"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="motion">
+                                    <ARGS>
+                                        <ARG type="Event" value="ë2"/> 
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Trajectory"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED bool="!" value="has_location">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Initial_Location"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_location">
+                                    <ARGS>
+                                        <ARG type="Event" value="e3"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Destination"/>
+                                    </ARGS>
+                                </PRED> 
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+                <VNSUBCLASS ID="escape-51.1-1-3">
+                    <MEMBERS>
+                        <MEMBER grouping="ascend.01 ascend.04 ascend.05" name="ascend" wn="ascend%2:38:02 ascend%2:38:04               ascend%2:38:01 ascend%2:38:03"/>
+                        <MEMBER grouping="climb.01" name="climb" wn="climb%2:38:00"/>
+                        <MEMBER grouping="cross.01" name="cross" wn="cross%2:38:00"/>
+                        <MEMBER grouping="descend.01" name="descend" wn="descend%2:38:00"/>
+                        <MEMBER grouping="pass.01" name="pass" wn="pass%2:38:00               pass%2:38:05 pass%2:38:01 pass%2:35:00"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="Locative Preposition Drop" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>
+                                    He climbed the mountain.
+                                </EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Trajectory">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_location">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Initial_Location"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="motion">
+                                    <ARGS>
+                                        <ARG type="Event" value="ë2"/> 
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Trajectory"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED bool="!" value="has_location">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Initial_Location"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_location">
+                                    <ARGS>
+                                        <ARG type="Event" value="e3"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Destination"/>
+                                    </ARGS>
+                                </PRED> 
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

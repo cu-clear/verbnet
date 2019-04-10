@@ -1,0 +1,119 @@
+<VNCLASS ID="pit-10.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="bark.03" name="bark" wn="bark%2:35:00"/>
+        <MEMBER grouping="" name="beard" wn=""/>
+        <MEMBER grouping="" name="bone" wn="bone%2:30:00"/>
+        <MEMBER grouping="" name="burl" wn="burl%2:30:00"/>
+        <MEMBER grouping="" name="core" wn="core%2:35:00"/>
+        <MEMBER grouping="" name="gill" wn=""/>
+        <MEMBER grouping="" name="gut" wn="gut%2:35:00"/>
+        <MEMBER grouping="head.05" name="head" wn="head%2:35:00"/>
+        <MEMBER grouping="" name="hull" wn="hull%2:30:00"/>
+        <MEMBER grouping="" name="husk" wn="husk%2:30:00"/>
+        <MEMBER grouping="" name="lint" wn=""/>
+        <MEMBER grouping="" name="louse" wn=""/>
+        <MEMBER grouping="milk.02" name="milk" wn="milk%2:30:00"/>
+        <MEMBER grouping="peel.01" name="peel" wn="peel%2:35:00"/>
+        <MEMBER grouping="" name="pinion" wn="pinion%2:30:00"/>
+        <MEMBER grouping="" name="pip" wn=""/>
+        <MEMBER grouping="pit.02" name="pit" wn="pit%2:30:00"/>
+        <MEMBER grouping="" name="pith" wn="pith%2:40:00"/>
+        <MEMBER grouping="" name="pod" wn="pod%2:30:00"/>
+        <MEMBER grouping="poll.03" name="poll" wn="poll%2:35:00"/>
+        <MEMBER grouping="" name="pulp" wn="pulp%2:35:01"/>
+        <MEMBER grouping="" name="rind" wn=""/>
+        <MEMBER grouping="scale.04" name="scale" wn="scale%2:35:00"/>
+        <MEMBER grouping="" name="scalp" wn="scalp%2:30:00"/>
+        <MEMBER grouping="seed.07" name="seed" wn="seed%2:30:01"/>
+        <MEMBER grouping="shell.01" name="shell" wn="shell%2:30:00"/>
+        <MEMBER grouping="" name="shuck" wn="shuck%2:30:00"/>
+        <MEMBER grouping="" name="skin" wn="skin%2:35:01 skin%2:35:00"/>
+        <MEMBER grouping="" name="snail" wn="snail%2:35:00"/>
+        <MEMBER grouping="" name="stalk" wn=""/>
+        <MEMBER grouping="stem.04" name="stem" wn="stem%2:30:01"/>
+        <MEMBER grouping="stone.02" name="stone" wn="stone%2:30:00"/>
+        <MEMBER grouping="string.04" name="string" wn="string%2:35:03"/>
+        <MEMBER grouping="tail.02 tail.03" name="tail" wn="tail%2:35:00 tail%2:35:01"/>
+        <MEMBER grouping="" name="tassel" wn=""/>
+        <MEMBER grouping="" name="vein" wn=""/>
+        <MEMBER grouping="" name="weed" wn="weed%2:30:00"/>
+        <MEMBER grouping="" name="wind" wn=""/>
+        <MEMBER grouping="" name="worm" wn="worm%2:38:00"/>
+        <MEMBER grouping="" name="zest" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <!--Theme is an inalienable possession of Source
+                                Theme is always realized in the verb-->
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The cook boned the fish.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            	<PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="VerbSpecific" value="V_Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                 <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="VerbSpecific" value="V_Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="VerbSpecific" value="V_Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+            	<PRED value="part_of">
+                    <ARGS>
+                        <ARG type="VerbSpecific" value="V_Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

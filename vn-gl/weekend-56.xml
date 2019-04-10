@@ -1,0 +1,60 @@
+<VNCLASS ID="weekend-56" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="" name="December" wn=""/>
+        <MEMBER grouping="" name="holiday" wn="holiday%2:42:00"/>
+        <MEMBER grouping="" name="honeymoon" wn="honeymoon%2:42:00"/>
+        <MEMBER grouping="junket.01" name="junket" wn="junket%2:38:00"/>
+        <MEMBER grouping="" name="overnight" wn=""/>
+        <MEMBER grouping="" name="sojourn" wn="sojourn%2:42:00"/>
+        <MEMBER grouping="" name="summer" wn="summer%2:42:00"/>
+        <MEMBER grouping="" name="vacation" wn="vacation%2:42:00"/>
+        <MEMBER grouping="" name="weekend" wn="weekend%2:42:00"/>
+        <MEMBER grouping="" name="winter" wn="winter%2:42:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; Location-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    My family always summered at the seashore.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

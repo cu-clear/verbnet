@@ -1,0 +1,158 @@
+<VNCLASS ID="bump-18.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="hit.01" name="hit" wn="hit%2:35:01"/>
+        <MEMBER grouping="run.01 run.08" name="run" wn="run%2:42:03 run%2:38:13"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; against-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    The grocery cart hit against the wall.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="against into onto">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="bump-18.4-1">
+            <MEMBERS>
+                <MEMBER grouping="bang.01" name="bang" wn="bang%2:35:00"/>
+                <MEMBER grouping="" name="bash" wn="bash%2:35:00"/>
+                <MEMBER grouping="brush.02" name="brush" wn="brush%2:35:00"/>
+                <MEMBER grouping="bump.01" name="bump" wn="bump%2:35:00"/>
+                <MEMBER grouping="butt.02" name="butt" wn="butt%2:35:00"/>
+                <MEMBER grouping="" name="clang" wn=""/>
+                <MEMBER grouping="" name="clash" wn="clash%2:35:00"/>
+                <MEMBER grouping="" name="clatter" wn=""/>
+                <MEMBER grouping="collide.01 collide.02" name="collide" wn="collide%2:35:01 collide%2:35:00"/>
+                <MEMBER grouping="crack.05" name="crack" wn="crack%2:35:00"/>
+                <MEMBER grouping="crash.01" name="crash" wn="crash%2:38:02 crash%2:35:00"/>
+                <MEMBER grouping="crunch.01" name="crunch" wn=""/>
+                <MEMBER grouping="hammer.01" name="hammer" wn="hammer%2:35:00"/>
+                <MEMBER grouping="knock.01" name="knock" wn="knock%2:35:00"/>
+                <MEMBER grouping="ram.01" name="ram" wn="ram%2:35:01"/>
+                <MEMBER grouping="" name="rap" wn="rap%2:35:00 rap%2:39:00"/>
+                <MEMBER grouping="slam.01" name="slam" wn="slam%2:35:00"/>
+                <MEMBER grouping="slap.01" name="slap" wn="slap%2:35:00"/>
+                <MEMBER grouping="smack.01" name="smack" wn="smack%2:35:02"/>
+                <MEMBER grouping="smash.01" name="smash" wn=""/>
+                <MEMBER grouping="" name="squash" wn="squash%2:35:00"/>
+                <MEMBER grouping="strike.01 strike.02" name="strike" wn="strike%2:35:00 strike%2:35:01 strike%2:35:02"/>
+                <MEMBER grouping="" name="thud" wn="thud%2:35:00"/>
+                <MEMBER grouping="" name="thump" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="2.5.5" primary="NP V together" secondary="Together Reciprocal Alternation Intransitive" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            The grocery carts thudded together.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="plural"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <VERB/>
+                        <LEX value="together"/>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="Constant" value="directedmotion"/>
+                                <ARG type="ThemRole" value="Theme_i"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Constant" value="directedmotion"/>
+                                <ARG type="ThemRole" value="Theme_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Constant" value="forceful"/>
+                                <ARG type="ThemRole" value="Theme_i"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Constant" value="forceful"/>
+                                <ARG type="ThemRole" value="Theme_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Theme_i"/>
+                                <ARG type="ThemRole" value="Theme_j"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

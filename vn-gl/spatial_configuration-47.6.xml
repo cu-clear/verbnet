@@ -1,0 +1,288 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="spatial_configuration-47.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+  <!--individual verbs specify what spatial configuration the Theme ends up in-->
+        <MEMBER grouping="bow.01 bow.02" name="bow" verbnet_key="bow#4" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
+        <MEMBER grouping="" name="crouch" verbnet_key="crouch#2" wn="crouch%2:35:00"/>
+        <MEMBER grouping="hover.02" name="hover" verbnet_key="hover#2" wn="hover%2:38:00 hover%2:38:01"/>
+        <MEMBER grouping="" name="huddle" verbnet_key="huddle#1" wn=""/>
+        <MEMBER grouping="" name="hunch" verbnet_key="hunch#3" wn=""/>
+        <MEMBER grouping="" name="jut" verbnet_key="jut#1" wn="jut%2:42:00"/>
+        <MEMBER grouping="" name="kneel" verbnet_key="kneel#3" wn="kneel%2:35:00"/>
+        <MEMBER grouping="lean.01" name="lean" verbnet_key="lean#2" wn="lean%2:38:00 lean%2:35:00"/>
+        <MEMBER grouping="lie.01" name="lie" verbnet_key="lie#2" wn="lie%2:42:00 lie%2:35:00"/>
+        <MEMBER grouping="" name="loll" verbnet_key="loll#1" wn="loll%2:42:01"/>
+        <MEMBER grouping="loom.02" name="loom" verbnet_key="loom#2" wn="loom%2:42:06"/>
+        <MEMBER grouping="" name="lounge" verbnet_key="lounge#1" wn="lounge%2:35:00"/>
+        <MEMBER grouping="" name="protrude" verbnet_key="protrude#1" wn="protrude%2:42:00"/>
+        <MEMBER grouping="" name="repose" verbnet_key="repose#1" wn=""/>
+        <MEMBER grouping="rise.01" name="rise" verbnet_key="rise#6" wn="rise%2:42:00"/>
+        <MEMBER grouping="" name="roost" verbnet_key="roost#1" wn="roost%2:35:00"/>
+        <MEMBER grouping="sag.01" name="sag" verbnet_key="sag#1" wn="sag%2:38:00 sag%2:38:01"/>
+        <MEMBER grouping="" name="slouch" verbnet_key="slouch#3" wn=""/>
+        <MEMBER grouping="slump.01" name="slump" verbnet_key="slump#2" wn=""/>
+        <MEMBER grouping="suspend.01" name="suspend" verbnet_key="" wn="suspend%2:35:00"/>
+        <MEMBER grouping="squat.01 squat.02" name="squat" verbnet_key="squat#2" wn="squat%2:35:00 squat%2:42:01"/>
+        <MEMBER grouping="" name="stoop" verbnet_key="stoop#2" wn="stoop%2:38:05"/>
+        <MEMBER grouping="swag.01" name="swag" verbnet_key="swag#3" wn="swag%2:38:02"/>
+        <MEMBER grouping="" name="tower" verbnet_key="tower#2" wn="tower%2:42:00"/>
+        <MEMBER grouping="yaw.01" name="yaw" verbnet_key="yaw#2" wn="yaw%2:42:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE>John slouched.</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_configuration">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+            <!--some verbs-->
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>The statue stood on the corner.</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_configuration">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="6.1" primary="There V PP NP" secondary="PP-NP; Expletive-there Subject" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>There stood on the corner a statue.</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <LEX value="there"/>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="definite"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_configuration">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="6.2" primary="PP.location V NP" secondary="Locative Inversion" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>On the pedestal stood a statue.</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_configuration">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="spatial_configuration-47.6-1">
+            <MEMBERS>
+                <MEMBER name="balance" wn="balance%2:42:00 balance%2:42:01" grouping="balance.01"/>
+                <MEMBER name="bend" wn="bend%2:38:00 bend%2:35:00" grouping="bend.02 bend.05"/>
+                <MEMBER name="dangle" wn="dangle%2:42:00 dangle%2:35:00" grouping=""/>
+                <MEMBER name="droop" wn="" grouping="droop.01"/>
+                <MEMBER name="flop" wn="" grouping="flop.01"/>
+                <MEMBER name="fly" wn="fly%2:39:00" grouping="fly.01"/>
+                <MEMBER name="hang" wn="hang%2:35:03 hang%2:35:00 hang%2:35:02 hang%2:42:01 hang%2:36:00 hang%2:35:05 hang%2:35:04 hang%2:30:00" grouping="hang.01"/>
+                <MEMBER name="nestle" wn="nestle%2:35:00" grouping=""/>
+                <MEMBER name="open" wn="open%2:35:00" grouping="open.01"/>
+                <MEMBER name="perch" wn="perch%2:35:00 perch%2:35:10" grouping=""/>
+                <MEMBER name="plop" wn="plop%2:35:00" grouping="plop.01"/>
+                <MEMBER name="project" wn="project%2:42:00 project%2:36:03" grouping="project.02 project.03"/>
+                <MEMBER name="recline" wn="recline%2:38:00 recline%2:35:00" grouping="recline.01"/>
+                <MEMBER name="rest" wn="rest%2:35:00 rest%2:42:12 rest%2:35:04 rest%2:35:01" grouping="rest.02"/>
+                <MEMBER name="sit" wn="sit%2:35:00 sit%2:42:00" grouping="sit.01 sit.02"/>
+                <MEMBER name="slope" wn="slope%2:38:00" grouping=""/>
+                <MEMBER name="sprawl" wn="sprawl%2:35:00" grouping=""/>
+                <MEMBER name="stand" wn="stand%2:35:00 stand%2:35:01" grouping="stand.01 stand.02"/>
+                <MEMBER name="straddle" wn="straddle%2:42:01" grouping="straddle.01"/>
+                <MEMBER name="swing" wn="swing%2:38:02 swing%2:42:00" grouping="swing.02"/>
+                <MEMBER name="tilt" wn="tilt%2:38:00" grouping="tilt.01"/>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Agent">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="animate"/>
+                    </SELRESTRS>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP.theme PP" secondary="NP; Causative variant" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>They stood the statue on the pedestal.</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP>
+                            <SELRESTRS>
+                                <SELRESTR Value="+" type="loc"/>
+                            </SELRESTRS>
+                        </PREP>
+                        <NP value="Location">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                            <SEMANTICS>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="has_configuration">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="VerbSpecific" value="V_Configuration"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="do">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="intrinsic_motion">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="PredSpecific" value="Trajectory"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_configuration">
+                            <ARGS>
+                                <ARG type="Event" value="e4"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="VerbSpecific" value="V_Configuration"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Event" value="ë3"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                    <!--These verbs should all cross reference with put-spatial-9.2. The difference between this subclass and that class is that this subclass shows a change of spatial configuration, but not a change of location. Reconfigured by Julia for spatial/GLVN, 2019-->
+                </FRAME>
+            </FRAMES>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>

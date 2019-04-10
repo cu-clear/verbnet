@@ -1,0 +1,74 @@
+<VNCLASS ID="peer-30.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="" name="attend" wn=""/>
+        <MEMBER grouping="check.01" name="check" wn="check%2:31:00"/>
+        <MEMBER grouping="" name="eavesdrop" wn=""/>
+        <MEMBER grouping="" name="gape" wn="gape%2:39:00"/>
+        <MEMBER grouping="" name="gawk" wn="gawk%2:39:00"/>
+        <MEMBER grouping="" name="gaze" wn="gaze%2:39:00"/>
+        <MEMBER grouping="glance.01" name="glance" wn="glance%2:39:00"/>
+        <MEMBER grouping="glare.01" name="glare" wn="glare%2:29:00"/>
+        <MEMBER grouping="" name="goggle" wn="goggle%2:39:00"/>
+        <MEMBER grouping="" name="leer" wn="leer%2:39:00"/>
+        <MEMBER grouping="listen.01" name="listen" wn="listen%2:39:00 listen%2:39:01"/>
+        <MEMBER grouping="look.01" name="look" wn="look%2:39:00 look%2:39:02"/>
+        <MEMBER grouping="" name="ogle" wn="ogle%2:39:00"/>
+        <MEMBER grouping="" name="peek" wn="peek%2:39:02"/>
+        <MEMBER grouping="" name="peep" wn="peep%2:39:00"/>
+        <MEMBER grouping="peer.01" name="peer" wn="peer%2:39:00"/>
+        <MEMBER grouping="sniff.01" name="sniff" wn="sniff%2:39:00"/>
+        <MEMBER grouping="" name="snoop" wn="snoop%2:32:00"/>
+        <MEMBER grouping="squint.01" name="squint" wn="squint%2:29:00"/>
+        <MEMBER grouping="stare.01" name="stare" wn="stare%2:39:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.theme" secondary="PP; Theme-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    We peered at the baby.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="spatial"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

@@ -1,0 +1,100 @@
+<VNCLASS ID="snooze-40.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER grouping="" name="catnap" wn="catnap%2:29:00"/>
+        <MEMBER grouping="" name="doze" wn="doze%2:29:00"/>
+        <MEMBER grouping="" name="drowse" wn="drowse%2:29:01"/>
+        <MEMBER grouping="" name="slumber" wn="slumber%2:29:00"/>
+        <MEMBER grouping="" name="snooze" wn="snooze%2:29:00"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+            <EXAMPLES>
+                <EXAMPLE>
+                    Gloria snoozed.
+                </EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_process">
+                    <ARGS>
+                        <ARG type="Event" value="ë"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="sleep">
+                    <ARGS>
+                        <ARG type="Event" value="ë"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="snooze-40.4-1">
+            <MEMBERS>
+                <MEMBER grouping="" name="nap" wn="nap%2:29:00"/>
+                <MEMBER grouping="sleep.01" name="sleep" wn="sleep%2:29:00"/>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Theme">
+                    <SELRESTRS/>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Transitiognate Object" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            Gloria slept the sleep of the dead.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="sleep">
+                            <ARGS>
+                                <ARG type="Event" value="ë"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="body_process">
+                            <ARGS>
+                                <ARG type="Event" value="ë"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="ë"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="Constant" value="Quality"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>
