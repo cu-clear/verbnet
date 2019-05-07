@@ -186,12 +186,18 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
+			<NP value="Patient">
+			  <SYNRESTRS/>
+			</NP>  
                         <PREP value="as">
                             <SELRESTRS/>
                         </PREP>
                         <NP value="Attribute">
                             <SYNRESTRS/>
                         </NP>
+			<PREP value="for">
+			  <SELRESTRS/>
+			</PREP>  
                         <NP value="Patient">
                             <SYNRESTRS/>
                         </NP>
