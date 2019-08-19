@@ -1,3 +1,11 @@
+# *** #
+# This repository will be moving the https://github.com/cu-clear/verbnet
+# I will still be active in maintaining VerbNet when I can, but I have accepted a new position and it doesn't make sense to keep the repository under my account.
+# Updates on the status of the move will be posted here and at the new repository
+
+# - Kevin
+<br>
+<br>
 # Verbnet
 University of Colorado VerbNet GitHub
 
