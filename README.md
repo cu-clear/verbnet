@@ -1,7 +1,5 @@
 # *** #
-# This repository has been moved to https://github.com/cu-clear/verbnet, under our CLEAR account.
-# I will still be active in maintaining VerbNet when I can, but I have accepted a new position and it doesn't make sense to keep the repository under my account.
-# - Kevin
+# This repository has been moved to https://github.com/cu-clear/verbnet, under our CLEAR account. I will still be active in maintaining VerbNet when I can, but I have accepted a new position and it doesn't make sense to keep the repository under my account. <br> Thanks! - Kevin
 
 
 # Verbnet
