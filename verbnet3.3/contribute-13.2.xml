@@ -9,15 +9,15 @@
         <MEMBER name="resign" wn="" grouping=""/>
         <MEMBER name="restore" wn="restore%2:40:00" grouping="restore.02"/>
         <MEMBER name="gift" wn="gift%2:40:00" grouping="gift.02"/>
-        <MEMBER name="give-away" wn="" grouping="give.01 give.02"/> 
-        <MEMBER name="give-out" wn="" grouping="give.01 give.02"/>
-        <MEMBER name="give-up" wn="" grouping="give.01 give.02"/>
+        <MEMBER name="give_away" wn="" grouping="give.01 give.02"/>
+        <MEMBER name="give_out" wn="" grouping="give.01 give.02"/>
+        <MEMBER name="give_up" wn="" grouping="give.01 give.02"/>
         <MEMBER name="hand_out" wn="hand_out%2:40:00" grouping=""/>
         <MEMBER name="pass_out" wn="pass_out%2:40:00" grouping=""/>
         <MEMBER name="shell_out" wn="shell_out%2:40:00" grouping=""/>
         <MEMBER name="abnegate" wn="abnegate%2:33:00" grouping=""/>
-        <MEMBER name="turn-in" wn="" grouping=""/>
-        <MEMBER name="turn-over" wn="" grouping=""/>
+        <MEMBER name="turn_in" wn="" grouping=""/>
+        <MEMBER name="turn_over" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

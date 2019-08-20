@@ -2,7 +2,7 @@
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="give-13.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="deal" wn="deal%2:40:01 deal%2:40:02 deal%2:40:07         deal%2:40:06" grouping="deal.04"/>
-        <MEMBER name="give-back" wn="" grouping="give.01 give.02"/>
+        <MEMBER name="give_back" wn="" grouping="give.01 give.02"/>
         <MEMBER name="lend" wn="lend%2:40:00" grouping="lend.02"/>
         <MEMBER name="loan" wn="loan%2:40:00" grouping=""/>
         <MEMBER name="pass" wn="pass%2:40:00 pass%2:40:01 pass%2:40:13 pass%2:38:04" grouping="pass.04"/>

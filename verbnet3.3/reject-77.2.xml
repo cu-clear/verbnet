@@ -4,7 +4,7 @@
 	<MEMBER name="decline" wn="" grouping=""/>
 	<MEMBER name="rebuff" wn="" grouping=""/>
 	<MEMBER name="refuse" wn="" grouping=""/>
-	<MEMBER name="turn-down" wn="" grouping=""/>
+	<MEMBER name="turn_down" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

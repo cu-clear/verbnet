@@ -3,8 +3,8 @@
     <MEMBERS>
         <MEMBER name="accomplish" wn="accomplish%2:36:00 accomplish%2:41:00" grouping="accomplish.01"/>
         <MEMBER name="achieve" wn="achieve%2:41:00" grouping="achieve.01"/>
-        <MEMBER name="bring-off" wn="" grouping="bring.08"/>
-        <MEMBER name="pull-off" wn="" grouping="pull.04"/>
+        <MEMBER name="bring_off" wn="" grouping="bring.08"/>
+        <MEMBER name="pull_off" wn="" grouping="pull.04"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

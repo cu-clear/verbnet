@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="interact-36.6" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="follow-up" wn="" grouping="follow.06"/>
-        <MEMBER name="follow-through" wn="" grouping="follow.06"/>
-        <MEMBER name="go-steady" wn="go_steady%2:41:00" grouping=""/>
-        <MEMBER name="go-out" wn="go_out%2:41:00" grouping=""/>
+        <MEMBER name="follow_up" wn="" grouping="follow.06"/>
+        <MEMBER name="follow_through" wn="" grouping="follow.06"/>
+        <MEMBER name="go_steady" wn="go_steady%2:41:00" grouping=""/>
+        <MEMBER name="go_out" wn="go_out%2:41:00" grouping=""/>
         <MEMBER name="interact" wn="interact%2:41:00" grouping=""/>
-        <MEMBER name="hook-up" wn="" grouping="hook.04"/>
-        <MEMBER name="split-up" wn="split_up%2:41:01" grouping="split.03"/>
+        <MEMBER name="hook_up" wn="" grouping="hook.04"/>
+        <MEMBER name="split_up" wn="split_up%2:41:01" grouping="split.03"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

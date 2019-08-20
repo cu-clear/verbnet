@@ -49,7 +49,7 @@
 		<MEMBER name="boost" wn="" grouping="boost.01 boost.02"/>
 		<MEMBER name="buttress" wn="" grouping=""/>
 		<MEMBER name="buoy" wn="" grouping="buoy.01"/>
-		<MEMBER name="hold-up" wn="" grouping="hold.03"/>
+		<MEMBER name="hold_up" wn="" grouping="hold.03"/>
 		<MEMBER name="reinforce" wn="" grouping="reinforce.01"/>
 		<MEMBER name="strengthen" wn="" grouping="strengthen.01"/>
 		<MEMBER name="support" wn="" grouping="support.01"/>

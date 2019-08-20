@@ -158,7 +158,7 @@
                 <MEMBER name="explode" wn="explode%2:30:02" grouping="explode.03" features="+increase"/>
                 <MEMBER name="fall" wn="fall%2:30:06" grouping="fall.04" features="+decrease"/>
                 <MEMBER name="fall_away" wn="fall_away%2:30:00" grouping="fall.02" features="+decrease"/>
-                <MEMBER name="fall-off" wn="" grouping="" features="+decrease"/>
+                <MEMBER name="fall_off" wn="" grouping="" features="+decrease"/>
                 <MEMBER name="fluctuate" wn="fluctuate%2:30:00" grouping="fluctuate.01" features="+fluctuate"/>
                 <MEMBER name="gain" wn="gain%2:30:00" grouping="gain.02" features="+increase"/>
                 <MEMBER name="go_down" wn="go_down%2:30:00" grouping="go.02" features="+decrease"/>
