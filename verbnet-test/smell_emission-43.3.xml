@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="smell_emission-43.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="" name="reek" verbnet_key="reek#1" wn="reek%2:39:00"/>
-  <MEMBER grouping="smell.03 smell.04 smell.06" name="smell" verbnet_key="smell#3" wn="smell%2:39:00 smell%2:39:02"/>
-  <MEMBER grouping="stink.02" name="stink" verbnet_key="stink#1" wn="stink%2:39:00"/>
+  <MEMBER fn_mapping="Chemical-sense_description" grouping="" name="reek" verbnet_key="reek#1" wn="reek%2:39:00"/>
+  <MEMBER fn_mapping="Chemical-sense_description" grouping="smell.03 smell.04 smell.06" name="smell" verbnet_key="smell#3" wn="smell%2:39:00 smell%2:39:02"/>
+  <MEMBER fn_mapping="Chemical-sense_description" grouping="stink.02" name="stink" verbnet_key="stink#1" wn="stink%2:39:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -32,7 +32,7 @@
    <SEMANTICS>
     <PRED value="emit">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë1"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="VerbSpecific" value="Odor"/>
      </ARGS>
@@ -55,14 +55,14 @@
    <SEMANTICS>
     <PRED value="emit">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë1"/>
       <ARG type="ThemRole" value="?Theme"/>
       <ARG type="VerbSpecific" value="Odor"/>
      </ARGS>
     </PRED>
-    <PRED value="location">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="VerbSpecific" value="Odor"/>
       <ARG type="ThemRole" value="Location"/>
      </ARGS>
@@ -91,14 +91,14 @@
    <SEMANTICS>
     <PRED value="emit">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë1"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="VerbSpecific" value="Odor"/>
      </ARGS>
     </PRED>
-    <PRED value="location">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="VerbSpecific" value="Odor"/>
       <ARG type="ThemRole" value="Location"/>
      </ARGS>

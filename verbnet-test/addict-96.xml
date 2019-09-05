@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="addict-96" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="" name="addict" verbnet_key="addict#1" wn="addict%2:34:00"/>
-  <MEMBER grouping="" name="bias" verbnet_key="bias#1" wn="bias%2:33:00"/>
-  <MEMBER grouping="dispose.02" name="dispose" verbnet_key="dispose#1" wn="dispose%2:31:00"/>
-  <MEMBER grouping="incline.05" name="incline" verbnet_key="incline#1" wn="incline%2:37:00 incline%2:31:03"/>
-  <MEMBER grouping="predispose.01" name="predispose" verbnet_key="predispose#1" wn="predispose%2:31:00"/>
-  <MEMBER grouping="" name="woo" verbnet_key="woo#1" wn=""/>
-  <MEMBER grouping="" name="slant" verbnet_key="slant#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="addict" verbnet_key="addict#1" wn="addict%2:34:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="bias" verbnet_key="bias#1" wn="bias%2:33:00"/>
+  <MEMBER fn_mapping="None" grouping="dispose.02" name="dispose" verbnet_key="dispose#1" wn="dispose%2:31:00"/>
+  <MEMBER fn_mapping="None" grouping="incline.05" name="incline" verbnet_key="incline#1" wn="incline%2:37:00 incline%2:31:03"/>
+  <MEMBER fn_mapping="None" grouping="predispose.01" name="predispose" verbnet_key="predispose#1" wn="predispose%2:31:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="woo" verbnet_key="woo#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="slant" verbnet_key="slant#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -50,15 +50,21 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e1"/>
      </ARGS>
     </PRED>
     <PRED value="desire">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
       <ARG type="ThemRole" value="Experiencer"/>
       <ARG type="ThemRole" value="Stimulus"/>
      </ARGS>
@@ -96,15 +102,21 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e1"/>
      </ARGS>
     </PRED>
     <PRED value="desire">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
       <ARG type="ThemRole" value="Experiencer"/>
       <ARG type="ThemRole" value="Stimulus"/>
      </ARGS>

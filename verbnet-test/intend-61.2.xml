@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="intend-61.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="" name="aim" verbnet_key="aim#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="aim" verbnet_key="aim#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -37,9 +37,9 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED bool="intent" value="attempt">
+    <PRED value="intend">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Topic"/>
      </ARGS>
@@ -71,16 +71,16 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED bool="intent" value="attempt">
+    <PRED value="intend">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Topic"/>
      </ARGS>
     </PRED>
     <PRED value="characterize">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Topic"/>
       <ARG type="ThemRole" value="Attribute"/>
      </ARGS>
@@ -91,7 +91,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="intend-61.2-1">
    <MEMBERS>
-    <MEMBER grouping="mean.01" name="mean" verbnet_key="mean#1" wn=""/>
+    <MEMBER fn_mapping="Purpose" grouping="mean.01" name="mean" verbnet_key="mean#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -114,9 +114,9 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED bool="intent" value="attempt">
+      <PRED value="intend">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Topic"/>
        </ARGS>
@@ -124,7 +124,7 @@
      </SEMANTICS>
     </FRAME>
     <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="" xtag="0.2"/>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V S" secondary="" xtag="0.2"/>
      <EXAMPLES>
       <EXAMPLE>
        I meant the criticisms for John.
@@ -142,37 +142,9 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED bool="intent" value="attempt">
+      <PRED value="intend">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Topic"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V to be NP/ADJP/PP" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I meant the criticisms to be compliments/well-taken/for John.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="Beneficiary">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="to_be"/>
-       </SYNRESTRS>
-      </PREP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED bool="intent" value="attempt">
-       <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Topic"/>
        </ARGS>
@@ -183,8 +155,8 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="intend-61.2-1-1">
      <MEMBERS>
-      <MEMBER grouping="intend.01" name="intend" verbnet_key="intend#1" wn="intend%2:31:00"/>
-      <MEMBER grouping="" name="plan" verbnet_key="plan#1" wn=""/>
+      <MEMBER fn_mapping="None" grouping="intend.01" name="intend" verbnet_key="intend#1" wn="intend%2:31:00"/>
+      <MEMBER fn_mapping="None" grouping="" name="plan" verbnet_key="plan#1" wn=""/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -207,9 +179,9 @@
         </NP>
        </SYNTAX>
        <SEMANTICS>
-        <PRED bool="intent" value="attempt">
+        <PRED value="intend">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="E"/>
           <ARG type="ThemRole" value="Agent"/>
           <ARG type="ThemRole" value="Topic"/>
          </ARGS>
@@ -217,6 +189,7 @@
        </SEMANTICS>
       </FRAME>
      </FRAMES>
+     <SUBCLASSES/>
     </VNSUBCLASS>
    </SUBCLASSES>
   </VNSUBCLASS>

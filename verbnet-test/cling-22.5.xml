@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="cling-22.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="adhere.01" name="adhere" verbnet_key="adhere#1" wn="adhere%2:35:01"/>
-  <MEMBER grouping="cleave.02" name="cleave" verbnet_key="cleave#3" wn="cleave%2:35:02"/>
-  <MEMBER grouping="cling.01" name="cling" verbnet_key="cling#1" wn="cling%2:35:00 cling%2:35:02"/>
+  <MEMBER fn_mapping="None" grouping="adhere.01" name="adhere" verbnet_key="adhere#1" wn="adhere%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="cleave.02" name="cleave" verbnet_key="cleave#4" wn="cleave%2:35:02"/>
+  <MEMBER fn_mapping="None" grouping="cling.01" name="cling" verbnet_key="cling#1" wn="cling%2:35:00 cling%2:35:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -40,7 +40,7 @@
    <SEMANTICS>
     <PRED value="together">
      <ARGS>
-      <ARG type="Event" value="end(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="Co-Theme"/>
      </ARGS>
@@ -66,7 +66,7 @@
    <SEMANTICS>
     <PRED value="together">
      <ARGS>
-      <ARG type="Event" value="end(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme_i"/>
       <ARG type="ThemRole" value="Theme_j"/>
      </ARGS>

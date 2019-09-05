@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="sustain-55.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="hold.03" name="hold" verbnet_key="hold#10" wn=""/>
-  <MEMBER grouping="maintain.01" name="maintain" verbnet_key="maintain#1" wn="maintain%2:34:00"/>
-  <MEMBER grouping="sustain.01" name="sustain" verbnet_key="sustain#1" wn="sustain%2:34:00"/>
-  <MEMBER grouping="prolong.01" name="prolong" verbnet_key="prolong#1" wn="prolong%2:42:00"/>
-  <MEMBER grouping="" name="protract" verbnet_key="protract#1" wn="protract%2:30:00"/>
-  <MEMBER grouping="" name="keep_up" verbnet_key="keep_up#1" wn="keep_up%2:42:00"/>
-  <MEMBER grouping="continue.02" name="continue" verbnet_key="continue#3" wn="continue%2:32:00"/>
-  <MEMBER grouping="" name="carry_on" verbnet_key="carry_on#1" wn="carry_on%2:32:00"/>
+  <MEMBER fn_mapping="Holding_off_on" grouping="hold.03" name="hold" verbnet_key="hold#11" wn=""/>
+  <MEMBER fn_mapping="Activity_ongoing" grouping="maintain.01" name="maintain" verbnet_key="maintain#2" wn="maintain%2:34:00"/>
+  <MEMBER fn_mapping="None" grouping="sustain.01" name="sustain" verbnet_key="sustain#1" wn="sustain%2:34:00"/>
+  <MEMBER fn_mapping="None" grouping="prolong.01" name="prolong" verbnet_key="prolong#1" wn="prolong%2:42:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="protract" verbnet_key="protract#1" wn="protract%2:30:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="keep_up" verbnet_key="keep_up#1" wn="keep_up%2:42:00"/>
+  <MEMBER fn_mapping="None" grouping="continue.02" name="continue" verbnet_key="continue#4" wn="continue%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="carry_on" verbnet_key="carry_on#1" wn="carry_on%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -52,7 +52,7 @@
    <SEMANTICS>
     <PRED value="continue">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
@@ -64,7 +64,7 @@
     </PRED>
     <PRED value="utilize">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Instrument"/>
      </ARGS>
@@ -75,8 +75,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="sustain-55.6-1">
    <MEMBERS>
-    <MEMBER grouping="keep.06" name="keep" verbnet_key="keep#4" wn="keep%2:34:00"/>
-    <MEMBER grouping="leave.02" name="leave" verbnet_key="leave#9" wn=""/>
+    <MEMBER fn_mapping="None" grouping="keep.06" name="keep" verbnet_key="keep#4" wn="keep%2:34:00"/>
+    <MEMBER fn_mapping="None" grouping="leave.02" name="leave" verbnet_key="leave#9" wn=""/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Attribute">
@@ -106,7 +106,7 @@
      <SEMANTICS>
       <PRED value="continue">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
       </PRED>

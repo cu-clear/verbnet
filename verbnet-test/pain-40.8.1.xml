@@ -2,14 +2,13 @@
 <VNCLASS ID="pain-40.8.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--moved "ache" to tingle-40.8.2 because it is only intransitive-->
-  <MEMBER grouping="" name="ail" verbnet_key="ail#1" wn=""/>
-  <MEMBER grouping="bother.02" name="bother" verbnet_key="bother#2" wn="bother%2:37:00"/>
-  <MEMBER grouping="" name="burn" verbnet_key="burn#5" wn=""/>
-  <MEMBER grouping="hurt.01" name="hurt" verbnet_key="hurt#2" wn="hurt%2:39:00"/>
-  <MEMBER grouping="" name="itch" verbnet_key="itch#2" wn="itch%2:39:00"/>
-  <MEMBER grouping="kill.02" name="kill" verbnet_key="kill#3" wn="kill%2:39:00 kill%2:30:04"/>
-  <MEMBER grouping="" name="pain" verbnet_key="pain#2" wn="pain%2:29:00"/>
-  <MEMBER grouping="wrench.04" name="wrench" verbnet_key="wrench#1" wn=""/>
+  <MEMBER fn_mapping="Perception_body" grouping="" name="ail" verbnet_key="ail#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="bother.02" name="bother" verbnet_key="bother#3" wn="bother%2:37:00"/>
+  <MEMBER fn_mapping="Perception_body" grouping="" name="burn" verbnet_key="burn#6" wn=""/>
+  <MEMBER fn_mapping="Experience_bodily_harm" grouping="hurt.01" name="hurt" verbnet_key="hurt#4" wn="hurt%2:39:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="itch" verbnet_key="itch#2" wn="itch%2:39:00"/>
+  <MEMBER fn_mapping="None" grouping="kill.02" name="kill" verbnet_key="kill#3" wn="kill%2:39:00 kill%2:30:04"/>
+  <MEMBER fn_mapping="None" grouping="" name="pain" verbnet_key="pain#2" wn="pain%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">
@@ -31,7 +30,7 @@
    <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
    <EXAMPLES>
     <EXAMPLE>
-     My eyes are itching.
+     My eyes were itching.
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
@@ -41,39 +40,21 @@
     <VERB/>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED value="experience">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="?Result"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="discomfort">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Experiencer"/>
      </ARGS>
     </PRED>
     <PRED value="discomfort">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Patient"/>
      </ARGS>
     </PRED>
-    <PRED value="experience">
+    <PRED value="part_of">
      <ARGS>
-      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Patient"/>
       <ARG type="ThemRole" value="?Experiencer"/>
      </ARGS>
     </PRED>
@@ -83,7 +64,7 @@
    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.experiencer" secondary="Transitive; Experiencer Object" xtag="0.2"/>
    <EXAMPLES>
     <EXAMPLE>
-     My eyes are itching me.
+     My eyes were itching me.
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
@@ -96,39 +77,21 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED value="experience">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="?Result"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="discomfort">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Experiencer"/>
      </ARGS>
     </PRED>
     <PRED value="discomfort">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Patient"/>
      </ARGS>
     </PRED>
-    <PRED value="experience">
+    <PRED value="part_of">
      <ARGS>
-      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Patient"/>
       <ARG type="ThemRole" value="Experiencer"/>
      </ARGS>
     </PRED>
@@ -138,7 +101,7 @@
    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
-     My eyes are itching from the smoke.
+     My eyes were itching from the smoke.
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
@@ -154,46 +117,28 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="?Result"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="discomfort">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
-     </ARGS>
-    </PRED>
-    <PRED value="discomfort">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
-     </ARGS>
-    </PRED>
     <PRED value="experience">
      <ARGS>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="?Experiencer"/>
      </ARGS>
     </PRED>
     <PRED value="in_reaction_to">
      <ARGS>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+    <PRED value="discomfort">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="part_of">
+     <ARGS>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="?Experiencer"/>
      </ARGS>
     </PRED>
    </SEMANTICS>

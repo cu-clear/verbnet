@@ -1,12 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="supervision-95.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="" name="boss" verbnet_key="boss#2" wn=""/>
-  <MEMBER grouping="direct.01" name="direct" verbnet_key="direct#2" wn="direct%2:32:00"/>
-  <MEMBER grouping="lead.04" name="lead" verbnet_key="lead#4" wn=""/>
-  <MEMBER grouping="manage.02" name="manage" verbnet_key="manage#3" wn="manage%2:41:00 manage%2:41:01"/>
-  <MEMBER grouping="" name="superintend" verbnet_key="superintend#1" wn="superintend%2:41:00"/>
-  <MEMBER grouping="supervise.01" name="supervise" verbnet_key="supervise#1" wn="supervise%2:41:00 supervise%2:39:00"/>
+  <MEMBER fn_mapping="None" grouping="rule.01" name="rule" verbnet_key="rule#2" wn="rule%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="govern.01" name="govern" verbnet_key="govern#1" wn="govern%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="reign.01" name="reign_over" verbnet_key="reign_over#1" wn="reign%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="superintend" verbnet_key="superintend#1" wn="superintend%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -15,7 +13,7 @@
     <SELRESTR Value="+" type="organization"/>
    </SELRESTRS>
   </THEMROLE>
-  <THEMROLE type="Co-Agent">
+  <THEMROLE type="Theme">
    <SELRESTRS logic="or">
     <SELRESTR Value="+" type="animate"/>
     <SELRESTR Value="+" type="organization"/>
@@ -24,10 +22,10 @@
  </THEMROLES>
  <FRAMES>
   <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP.agent" secondary="NP-PP" xtag="0.2"/>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP.theme" secondary="NP-Theme" xtag="0.2"/>
    <EXAMPLES>
     <EXAMPLE>
-     Martha supervises Kevin.
+     Martha supervised Kevin.
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
@@ -35,19 +33,175 @@
      <SYNRESTRS/>
     </NP>
     <VERB/>
-    <NP value="Co-Agent">
+    <NP value="Theme">
      <SYNRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
     <PRED value="authority_relationship">
      <ARGS>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Co-Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_role">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Attribute"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="work">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="Predicate"/>
+     </ARGS>
+    </PRED>
+    <PRED value="co-temporal">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
   </FRAME>
  </FRAMES>
- <SUBCLASSES/>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="supervision-95.2.2-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="command-01" name="command" verbnet_key="command#2" wn="command%2:32:01"/>
+    <MEMBER fn_mapping="None" grouping="direct.01" name="direct" verbnet_key="direct#2" wn="direct%2:32:00"/>
+    <MEMBER fn_mapping="Leadership" grouping="lead.04" name="lead" verbnet_key="lead#5" wn=""/>
+    <MEMBER fn_mapping="None" grouping="manage.02" name="manage" verbnet_key="manage#4" wn="manage%2:41:00 manage%2:41:01"/>
+    <MEMBER fn_mapping="None" grouping="" name="micromanage" verbnet_key="micromanage#1" wn=""/>
+    <MEMBER fn_mapping="None" grouping="oversee.01" name="oversee" verbnet_key="oversee#1" wn="oversee%2:41:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="preside_over" verbnet_key="preside_over#1" wn="preside%2:41:00"/>
+    <MEMBER fn_mapping="None" grouping="supervise.01" name="supervise" verbnet_key="supervise#1" wn="supervise%2:41:00 supervise%2:39:00"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.1" primary="NP V NP.theme PP.predicate" secondary="PP; PP-Predicate" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Martha led the students in a task
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="loc"/>
+       </SELRESTRS>
+      </PREP>
+      <NP value="Predicate">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="authority_relationship">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_role">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="VerbSpecific" value="V_Attribute"/>
+       </ARGS>
+      </PRED>
+      <PRED value="do">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="work">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Predicate"/>
+       </ARGS>
+      </PRED>
+      <PRED value="co-temporal">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.1" primary="NP V NP.predicate" secondary="NP-Predicate" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Martha led the project
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Predicate">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="authority_relationship">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_role">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="VerbSpecific" value="V_Attribute"/>
+       </ARGS>
+      </PRED>
+      <PRED value="do">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="work">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Predicate"/>
+       </ARGS>
+      </PRED>
+      <PRED value="co-temporal">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

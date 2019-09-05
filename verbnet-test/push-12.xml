@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="push-12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER features="+force_away_from_agent" grouping="heave.01" name="heave" verbnet_key="heave#2" wn="heave%2:35:01"/>
+  <MEMBER features="+force_away_from_agent" fn_mapping="None" grouping="heave.01" name="heave" verbnet_key="heave#2" wn="heave%2:35:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -41,22 +41,16 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="cause">
+    <PRED value="exert_force">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
-    <PRED value="contact">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
-    <PRED value="exert_force">
+    <PRED value="contact">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
@@ -67,10 +61,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="push-12-1">
    <MEMBERS>
-    <MEMBER features="+force_toward_agent" grouping="jerk.01" name="jerk" verbnet_key="jerk#1" wn="jerk%2:35:01"/>
-    <MEMBER features="+force_toward_agent" grouping="pull.01" name="pull" verbnet_key="pull#4" wn="pull%2:35:00 pull%2:35:04 pull%2:35:10"/>
-    <MEMBER features="+force_toward_agent" grouping="" name="tug" verbnet_key="tug#2" wn="tug%2:35:00 tug%2:35:04 tug%2:35:03 tug%2:35:02 tug%2:35:01"/>
-    <MEMBER features="+force_toward_agent" grouping="yank.01 yank.02 yank.03" name="yank" verbnet_key="yank#2" wn="yank%2:35:00"/>
+    <MEMBER features="+force_toward_agent" fn_mapping="Body_movement" grouping="jerk.01" name="jerk" verbnet_key="jerk#1" wn="jerk%2:35:01"/>
+    <MEMBER features="+force_toward_agent" fn_mapping="Cause_motion" grouping="pull.01" name="pull" verbnet_key="pull#5" wn="pull%2:35:00 pull%2:35:04 pull%2:35:10"/>
+    <MEMBER features="+force_toward_agent" fn_mapping="Manipulation" grouping="" name="tug" verbnet_key="tug#2" wn="tug%2:35:00 tug%2:35:04 tug%2:35:03 tug%2:35:02 tug%2:35:01"/>
+    <MEMBER features="+force_toward_agent" fn_mapping="Cause_motion" grouping="yank.01 yank.02 yank.03" name="yank" verbnet_key="yank#2" wn="yank%2:35:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -94,42 +88,65 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="cause">
+      <PRED value="has_location">
        <ARGS>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="Event" value="E"/>
-       </ARGS>
-      </PRED>
-      <PRED value="contact">
-       <ARGS>
-        <ARG type="Event" value="during(E)"/>
-        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Theme"/>
+        <ARG type="PredSpecific" value="Initial_Location"/>
        </ARGS>
       </PRED>
       <PRED value="exert_force">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="ë2"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
       </PRED>
-      <PRED value="path_rel">
+      <PRED value="contact">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="?Initial_State"/>
+        <ARG type="Event" value="ë2"/>
+        <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
        </ARGS>
       </PRED>
-      <PRED value="path_rel">
+      <PRED value="motion">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
-        <ARG type="ThemRole" value="Result"/>
+        <ARG type="Event" value="ë3"/>
         <ARG type="ThemRole" value="Theme"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
+        <ARG type="ThemRole" value="?Trajectory"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="has_location">
+       <ARGS>
+        <ARG type="Event" value="ë3"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="PredSpecific" value="Initial_Location"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_location">
+       <ARGS>
+        <ARG type="Event" value="e4"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="PredSpecific" value="Destination"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_state">
+       <ARGS>
+        <ARG type="Event" value="e4"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Result"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="ë2"/>
+        <ARG type="Event" value="ë3"/>
+       </ARGS>
+      </PRED>
+      <PRED value="overlaps">
+       <ARGS>
+        <ARG type="Event" value="ë2"/>
+        <ARG type="Event" value="ë3"/>
        </ARGS>
       </PRED>
      </SEMANTICS>
@@ -138,7 +155,7 @@
      <DESCRIPTION descriptionNumber="1.3" primary="NP V PP-Conative" secondary="Conative" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
-       Nora jerked at the wall.
+       Nora pushed at the wall.
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
@@ -154,22 +171,16 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="cause">
+      <PRED value="exert_force">
        <ARGS>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="Event" value="E"/>
-       </ARGS>
-      </PRED>
-      <PRED value="contact">
-       <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="ë"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
       </PRED>
-      <PRED value="exert_force">
+      <PRED value="contact">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="ë"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
@@ -180,13 +191,13 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="push-12-1-1">
      <MEMBERS>
-      <MEMBER features="+force_away_from_agent" grouping="" name="jostle" verbnet_key="jostle#1" wn="jostle%2:38:02 jostle%2:38:00"/>
-      <MEMBER features="+force_away_from_agent" grouping="" name="nudge" verbnet_key="nudge#2" wn="nudge%2:35:00"/>
-      <MEMBER features="+compression_of_patient" grouping="press.01" name="press" verbnet_key="press#1" wn="press%2:35:00 press%2:38:00"/>
-      <MEMBER features="+force_away_from_agent" grouping="push.01" name="push" verbnet_key="push#3" wn="push%2:38:00"/>
-      <MEMBER features="+force_away_from_agent" grouping="shove.01" name="shove" verbnet_key="shove#2" wn="shove%2:38:00 shove%2:35:00 shove%2:38:01"/>
-      <MEMBER features="+compression_of_patient" grouping="squeeze.03" name="squeeze" verbnet_key="squeeze#3" wn="squeeze%2:35:03"/>
-      <MEMBER features="+force_away_from_agent" grouping="thrust.01 thrust.03" name="thrust" verbnet_key="thrust#2" wn="thrust%2:38:00 thrust%2:38:02"/>
+      <MEMBER features="+force_away_from_agent" fn_mapping="None" grouping="" name="jostle" verbnet_key="jostle#1" wn="jostle%2:38:02 jostle%2:38:00"/>
+      <MEMBER features="+force_away_from_agent" fn_mapping="None" grouping="" name="nudge" verbnet_key="nudge#2" wn="nudge%2:35:00"/>
+      <MEMBER features="+compression_of_patient" fn_mapping="Cause_motion" grouping="press.01" name="press" verbnet_key="press#1" wn="press%2:35:00 press%2:38:00"/>
+      <MEMBER features="+force_away_from_agent" fn_mapping="Manipulation" grouping="push.01" name="push" verbnet_key="push#3" wn="push%2:38:00"/>
+      <MEMBER features="+force_away_from_agent" fn_mapping="None" grouping="shove.01" name="shove" verbnet_key="shove#2" wn="shove%2:38:00 shove%2:35:00 shove%2:38:01"/>
+      <MEMBER features="+compression_of_patient" fn_mapping="Cause_to_move_in_place" grouping="squeeze.03" name="squeeze" verbnet_key="squeeze#3" wn="squeeze%2:35:03"/>
+      <MEMBER features="+force_away_from_agent" fn_mapping="Cause_motion" grouping="thrust.01 thrust.03" name="thrust" verbnet_key="thrust#2" wn="thrust%2:38:00 thrust%2:38:02"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -209,57 +220,65 @@
         </PREP>
        </SYNTAX>
        <SEMANTICS>
-        <PRED value="cause">
+        <PRED value="has_location">
          <ARGS>
-          <ARG type="ThemRole" value="Agent"/>
-          <ARG type="Event" value="E"/>
-         </ARGS>
-        </PRED>
-        <PRED value="contact">
-         <ARGS>
-          <ARG type="Event" value="during(E)"/>
-          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="Event" value="e1"/>
           <ARG type="ThemRole" value="Theme"/>
+          <ARG type="PredSpecific" value="Initial_Location"/>
          </ARGS>
         </PRED>
         <PRED value="exert_force">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="ë2"/>
           <ARG type="ThemRole" value="Agent"/>
           <ARG type="ThemRole" value="Theme"/>
          </ARGS>
         </PRED>
-        <PRED value="path_rel">
+        <PRED value="contact">
          <ARGS>
-          <ARG type="Event" value="start(E)"/>
-          <ARG type="ThemRole" value="?Source"/>
+          <ARG type="Event" value="ë2"/>
+          <ARG type="ThemRole" value="Agent"/>
           <ARG type="ThemRole" value="Theme"/>
-          <ARG type="Constant" value="ch_of_loc"/>
-          <ARG type="VerbSpecific" value="prep"/>
-         </ARGS>
-        </PRED>
-        <PRED value="path_rel">
-         <ARGS>
-          <ARG type="Event" value="start(E)"/>
-          <ARG type="ThemRole" value="?Trajectory"/>
-          <ARG type="ThemRole" value="Theme"/>
-          <ARG type="Constant" value="ch_of_loc"/>
-          <ARG type="VerbSpecific" value="prep"/>
-         </ARGS>
-        </PRED>
-        <PRED value="path_rel">
-         <ARGS>
-          <ARG type="Event" value="result(E)"/>
-          <ARG type="ThemRole" value="?Goal"/>
-          <ARG type="ThemRole" value="Theme"/>
-          <ARG type="Constant" value="ch_of_loc"/>
-          <ARG type="VerbSpecific" value="prep"/>
          </ARGS>
         </PRED>
         <PRED value="motion">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="ë3"/>
           <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Trajectory"/>
+         </ARGS>
+        </PRED>
+        <PRED bool="!" value="has_location">
+         <ARGS>
+          <ARG type="Event" value="ë3"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="PredSpecific" value="Initial_Location"/>
+         </ARGS>
+        </PRED>
+        <PRED value="has_location">
+         <ARGS>
+          <ARG type="Event" value="e4"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="PredSpecific" value="Destination"/>
+         </ARGS>
+        </PRED>
+        <PRED value="has_state">
+         <ARGS>
+          <ARG type="Event" value="e4"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Result"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="Event" value="ë2"/>
+          <ARG type="Event" value="ë3"/>
+         </ARGS>
+        </PRED>
+        <PRED value="overlaps">
+         <ARGS>
+          <ARG type="Event" value="ë2"/>
+          <ARG type="Event" value="ë3"/>
          </ARGS>
         </PRED>
        </SEMANTICS>
@@ -286,57 +305,71 @@
         </NP>
        </SYNTAX>
        <SEMANTICS>
-        <PRED value="cause">
+        <PRED value="has_location">
          <ARGS>
-          <ARG type="ThemRole" value="Agent"/>
-          <ARG type="Event" value="E"/>
-         </ARGS>
-        </PRED>
-        <PRED value="contact">
-         <ARGS>
-          <ARG type="Event" value="during(E)"/>
-          <ARG type="ThemRole" value="Agent"/>
-          <ARG type="ThemRole" value="?Theme"/>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="PredSpecific" value="Initial_Location"/>
          </ARGS>
         </PRED>
         <PRED value="exert_force">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="ë2"/>
           <ARG type="ThemRole" value="Agent"/>
-          <ARG type="ThemRole" value="?Theme"/>
+          <ARG type="ThemRole" value="Theme"/>
          </ARGS>
         </PRED>
-        <PRED value="path_rel">
+        <PRED value="contact">
          <ARGS>
-          <ARG type="Event" value="start(E)"/>
-          <ARG type="ThemRole" value="?Source"/>
+          <ARG type="Event" value="ë2"/>
           <ARG type="ThemRole" value="Agent"/>
-          <ARG type="Constant" value="ch_of_loc"/>
-          <ARG type="VerbSpecific" value="prep"/>
-         </ARGS>
-        </PRED>
-        <PRED value="path_rel">
-         <ARGS>
-          <ARG type="Event" value="start(E)"/>
-          <ARG type="ThemRole" value="Trajectory"/>
-          <ARG type="ThemRole" value="Agent"/>
-          <ARG type="Constant" value="ch_of_loc"/>
-          <ARG type="VerbSpecific" value="prep"/>
-         </ARGS>
-        </PRED>
-        <PRED value="path_rel">
-         <ARGS>
-          <ARG type="Event" value="result(E)"/>
-          <ARG type="ThemRole" value="?Goal"/>
-          <ARG type="ThemRole" value="Agent"/>
-          <ARG type="Constant" value="ch_of_loc"/>
-          <ARG type="VerbSpecific" value="prep"/>
+          <ARG type="ThemRole" value="Theme"/>
          </ARGS>
         </PRED>
         <PRED value="motion">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="ë3"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Trajectory"/>
+         </ARGS>
+        </PRED>
+        <PRED bool="!" value="has_location">
+         <ARGS>
+          <ARG type="Event" value="ë3"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="PredSpecific" value="Initial_Location"/>
+         </ARGS>
+        </PRED>
+        <PRED value="has_location">
+         <ARGS>
+          <ARG type="Event" value="e4"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="PredSpecific" value="Destination"/>
+         </ARGS>
+        </PRED>
+        <PRED value="has_state">
+         <ARGS>
+          <ARG type="Event" value="e4"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="Result"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="Event" value="ë2"/>
+          <ARG type="Event" value="ë3"/>
+         </ARGS>
+        </PRED>
+        <PRED value="overlaps">
+         <ARGS>
+          <ARG type="Event" value="ë2"/>
+          <ARG type="Event" value="ë3"/>
+         </ARGS>
+        </PRED>
+        <PRED value="equals">
+         <ARGS>
           <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Theme"/>
          </ARGS>
         </PRED>
        </SEMANTICS>

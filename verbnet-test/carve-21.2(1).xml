@@ -1,0 +1,989 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="carve-21.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+	<!--class needs to be subdivided -->
+	<MEMBERS />
+	<THEMROLES>
+		<THEMROLE type="Agent">
+			<SELRESTRS>
+				<SELRESTR Value="+" type="int_control" />
+			</SELRESTRS>
+		</THEMROLE>
+		<THEMROLE type="Patient">
+			<SELRESTRS>
+				<SELRESTR Value="+" type="concrete" />
+			</SELRESTRS>
+		</THEMROLE>
+		<THEMROLE type="Instrument">
+			<SELRESTRS>
+				<SELRESTR Value="+" type="concrete" />
+			</SELRESTRS>
+		</THEMROLE>
+	</THEMROLES>
+	<FRAMES />
+	<SUBCLASSES>
+		<VNSUBCLASS ID="carve-21.2-1">
+			<!--verb is related result nominal subclass -->
+			<MEMBERS>
+				<!--Each verb specifies Form of Patient as a result of action -->
+				<MEMBER grouping="" name="bore" verbnet_key="bore#2" wn="bore%2:35:00" />
+				<MEMBER grouping="" name="bruise" verbnet_key="bruise#1" wn="bruise%2:35:00 bruise%2:30:00" />
+				<MEMBER grouping="chip.01" name="chip" verbnet_key="chip#2" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00" />
+				<MEMBER grouping="cleave.01" name="cleave" verbnet_key="cleave#2" wn="cleave%2:35:00 cleave%2:35:01" />
+				<MEMBER grouping="crumb.02" name="crumb" verbnet_key="crumb#1" wn="crumb%2:30:01" />
+				<MEMBER grouping="crumble.01" name="crumble" verbnet_key="crumble#2" wn="crumble%2:30:00" />
+				<MEMBER grouping="crumple.02" name="crumple" verbnet_key="crumple#1" wn="crumple%2:35:00" />
+				<MEMBER grouping="crunch.02 crunch.03" name="crunch" verbnet_key="crunch#2" wn="crunch%2:34:00 crunch%2:30:00" />
+				<MEMBER grouping="crush.01" name="crush" verbnet_key="crush#3" wn="crush%2:35:00 crush%2:30:00 crush%2:35:01 crush%2:30:08" />
+				<MEMBER grouping="" name="cube" verbnet_key="cube#1" wn="cube%2:35:00" />
+				<MEMBER grouping="" name="dent" verbnet_key="dent#1" wn="dent%2:35:00" />
+				<MEMBER grouping="" name="dice" verbnet_key="dice#1" wn="dice%2:35:00" />
+				<MEMBER grouping="" name="fillet" verbnet_key="fillet#1" wn="fillet%2:35:00" />
+				<MEMBER grouping="flake.01" name="flake" verbnet_key="flake#1" wn="flake%2:35:02" />
+				<MEMBER grouping="flatten.01" name="flatten" verbnet_key="flatten#1" wn="flatten%2:30:01" />
+				<MEMBER grouping="" name="gash" verbnet_key="gash#1" wn="gash%2:35:00" />
+				<MEMBER grouping="gouge.01" name="gouge" verbnet_key="gouge#1" wn="gouge%2:35:00 gouge%2:35:01" />
+				<MEMBER grouping="grate.03" name="grate" verbnet_key="grate#2" wn="grate%2:35:02" />
+				<MEMBER grouping="grind.02" name="grind" verbnet_key="grind#2" wn="grind%2:35:02 grind%2:30:00" />
+				<MEMBER grouping="mash.01" name="mash" verbnet_key="mash#1" wn="mash%2:35:00 mash%2:30:00" />
+				<MEMBER grouping="mince.03" name="mince" verbnet_key="mince#1" wn="?mince%2:35:00" />
+				<MEMBER grouping="" name="nick" verbnet_key="nick#1" wn="nick%2:35:01 nick%2:35:00" />
+				<MEMBER grouping="" name="notch" verbnet_key="notch#1" wn="notch%2:35:00" />
+				<MEMBER grouping="" name="perforate" verbnet_key="perforate#1" wn="perforate%2:35:00" />
+				<MEMBER grouping="" name="pulverize" verbnet_key="pulverize#1" wn="pulverize%2:30:00" />
+				<MEMBER grouping="quarter.03" name="quarter" verbnet_key="quarter#1" wn="quarter%2:35:01" />
+				<MEMBER grouping="scollop.01 scollop.03" name="scollop" verbnet_key="scollop#1" wn="scollop%2:35:00 scollop%2:30:00" />
+				<MEMBER grouping="" name="scrunch" verbnet_key="scrunch#1" wn="scrunch%2:35:00" />
+				<MEMBER grouping="" name="shred" verbnet_key="shred#2" wn="shred%2:35:00" />
+				<MEMBER grouping="slice.01" name="slice" verbnet_key="slice#1" wn="slice%2:35:01 slice%2:35:00" />
+				<MEMBER grouping="" name="slit" verbnet_key="slit#1" wn="slit%2:35:01 slit%2:35:00" />
+				<MEMBER grouping="smash.01" name="smash" verbnet_key="smash#3" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:08 smash%2:35:05 smash%2:30:10" />
+				<MEMBER grouping="" name="squash" verbnet_key="squash#2" wn="squash%2:35:00" />
+				<MEMBER grouping="" name="squish" verbnet_key="squish#1" wn="squish%2:35:00" />
+				<MEMBER grouping="" name="trench" verbnet_key="trench#1" wn="trench%2:35:03 trench%2:35:01" />
+			</MEMBERS>
+			<THEMROLES />
+			<FRAMES>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2" />
+					<EXAMPLES>
+						<EXAMPLE>
+							Carol crushed the ice.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Agent">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED bool="!" value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+								<ARG type="ThemRole" value="?Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Instrument" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							Carol crushed the ice with a hammer.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Agent">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+						<PREP value="with">
+							<SELRESTRS />
+						</PREP>
+						<NP value="Instrument">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED bool="!" value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+								<ARG type="ThemRole" value="Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Instrument" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							The ice crushed easily.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<ADV />
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED bool="!" value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							The hammer crushed the marble.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Instrument">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED bool="!" value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+								<ARG type="ThemRole" value="Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Instrument" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="1.2.6.2" primary="NP.instrument V ADVP" secondary="Characteristic Property of Instrument" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							That hammer crushes well.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Instrument">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<ADV />
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="?Patient" />
+							</ARGS>
+						</PRED>
+						<PRED bool="!" value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="?Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+								<ARG type="ThemRole" value="Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Instrument" />
+								<ARG type="ThemRole" value="?Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="?Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="physical_form">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="?Patient" />
+								<ARG type="VerbSpecific" value="V_Form" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+			</FRAMES>
+			<SUBCLASSES />
+		</VNSUBCLASS>
+		<VNSUBCLASS ID="carve-21.2-2">
+			<!--verb is manner subclass -->
+			<MEMBERS>
+				<!--Each member specifies Instrument and Motion of Agent -->
+				<MEMBER grouping="carve.01" name="carve" verbnet_key="carve#2" wn="carve%2:35:01 carve%2:35:02 carve%2:35:00" />
+				<MEMBER grouping="chop.01" name="chop" verbnet_key="chop#1" wn="chop%2:35:01 chop%2:35:00" />
+				<MEMBER grouping="crop.01" name="crop" verbnet_key="crop#1" wn="crop%2:35:02" />
+				<MEMBER grouping="mow.01" name="mow" verbnet_key="mow#1" wn="mow%2:35:00" />
+				<MEMBER grouping="pink.03" name="pink" verbnet_key="pink#1" wn="" />
+				<MEMBER grouping="punch.02" name="punch" verbnet_key="punch#1" wn="punch%2:35:01" />
+				<MEMBER grouping="" name="prune" verbnet_key="prune#1" wn="prune%2:35:00" />
+				<MEMBER grouping="tread.02" name="tread" verbnet_key="tread#1" wn="tread%2:40:00" />
+			</MEMBERS>
+			<THEMROLES />
+			<FRAMES>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2" />
+					<EXAMPLES>
+						<EXAMPLE>
+							Carol carved the stone.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Agent">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+								<ARG type="ThemRole" value="?Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Instrument" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="manner">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+								<ARG type="VerbSpecific" value="Movement" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							Carol carved the stone with a chisel.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Agent">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+						<PREP value="with">
+							<SELRESTRS />
+						</PREP>
+						<NP value="Instrument">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+								<ARG type="ThemRole" value="Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Instrument" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="manner">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+								<ARG type="VerbSpecific" value="Movement" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle"
+						secondary="Middle Construction" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							The marble carved easily.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<ADV />
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP"
+						secondary="Instrument Subject Alternation" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							The chisel carved the statue.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Instrument">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+								<ARG type="ThemRole" value="Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Instrument" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="manner">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+								<ARG type="VerbSpecific" value="Movement" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="1.2.6.2" primary="NP.instrument V ADVP" secondary="Characteristic Property of Instrument" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							The chisel carves well.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Instrument">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<ADV />
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="?Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+								<ARG type="ThemRole" value="Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Instrument" />
+								<ARG type="ThemRole" value="?Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="manner">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+								<ARG type="VerbSpecific" value="Movement" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="?Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+			</FRAMES>
+			<SUBCLASSES />
+		</VNSUBCLASS><VNSUBCLASS ID="carve-21.2-3">
+			<!--verb is zero-related instrument subclass -->
+			<MEMBERS>
+				<!--Each member specifies Instrument and Motion of Agent -->
+				<MEMBER grouping="drill.01" name="drill" verbnet_key="drill#1" wn="drill%2:35:00" />
+				<MEMBER grouping="file.02" name="file" verbnet_key="file#1" wn="file%2:35:00" />
+				<MEMBER grouping="" name="lance" verbnet_key="lance#1" wn="lance%2:35:01 lance%2:35:00" />
+				<MEMBER grouping="mangle.01" name="mangle" verbnet_key="mangle#1" wn="mangle%2:35:01" />
+				<MEMBER grouping="" name="mill" verbnet_key="mill#1" wn="mill%2:35:00" />
+				<MEMBER grouping="" name="sand" verbnet_key="sand#1" wn="sand%2:35:00" />
+				<MEMBER grouping="spear.01" name="spear" verbnet_key="spear#1" wn="spear%2:35:00" />
+				<MEMBER grouping="tool.02 tool.03" name="tool" verbnet_key="tool#1" wn="tool%2:40:00" />
+			</MEMBERS>
+			<THEMROLES />
+			<FRAMES>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2" />
+					<EXAMPLES>
+						<EXAMPLE>
+							Carol drilled the stone.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Agent">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+								<ARG type="VerbSpecific" value="V_Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="VerbSpecific" value="V_Instrument" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							Carol drilled the stone with a hammer drill.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Agent">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+						<PREP value="with">
+							<SELRESTRS />
+						</PREP>
+						<NP value="Instrument">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Agent" />
+								<ARG type="ThemRole" value="Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Instrument" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							The marble drilled easily.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<ADV />
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							The antique hand drill drilled the statue.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Instrument">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<NP value="Patient">
+							<SYNRESTRS />
+						</NP>
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+								<ARG type="ThemRole" value="Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Instrument" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+				<FRAME>
+					<DESCRIPTION descriptionNumber="1.2.6.2" primary="NP.instrument V ADVP" secondary="Characteristic Property of Instrument" xtag="" />
+					<EXAMPLES>
+						<EXAMPLE>
+							The antique hand drill drills well.
+						</EXAMPLE>
+					</EXAMPLES>
+					<SYNTAX>
+						<NP value="Instrument">
+							<SYNRESTRS />
+						</NP>
+						<VERB />
+						<ADV />
+					</SYNTAX>
+					<SEMANTICS>
+						<PRED bool="!" value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e1" />
+								<ARG type="ThemRole" value="?Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="do">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+							</ARGS>
+						</PRED>
+						<PRED value="utilize">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="?Agent" />
+								<ARG type="ThemRole" value="Instrument" />
+							</ARGS>
+						</PRED>
+						<PRED value="contact">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="ThemRole" value="Instrument" />
+								<ARG type="ThemRole" value="?Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="degradation_material_integrity">
+							<ARGS>
+								<ARG type="Event" value="e3" />
+								<ARG type="ThemRole" value="?Patient" />
+							</ARGS>
+						</PRED>
+						<PRED value="cause">
+							<ARGS>
+								<ARG type="Event" value="e2" />
+								<ARG type="Event" value="e3" />
+							</ARGS>
+						</PRED>
+					</SEMANTICS>
+				</FRAME>
+			</FRAMES>
+			<SUBCLASSES />
+		</VNSUBCLASS>
+	</SUBCLASSES>
+</VNCLASS>

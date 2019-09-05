@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="complete-55.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="accomplish.01" name="accomplish" verbnet_key="accomplish#1" wn="accomplish%2:36:00 accomplish%2:41:00"/>
-  <MEMBER grouping="achieve.01" name="achieve" verbnet_key="achieve#1" wn="achieve%2:41:00"/>
-  <MEMBER grouping="bring.08" name="bring_off" verbnet_key="bring_off#1" wn=""/>
-  <MEMBER grouping="pull.04" name="pull_off" verbnet_key="pull_off#1" wn=""/>
+  <MEMBER fn_mapping="Accomplishment" grouping="accomplish.01" name="accomplish" verbnet_key="accomplish#1" wn="accomplish%2:36:00 accomplish%2:41:00"/>
+  <MEMBER fn_mapping="Accomplishment" grouping="achieve.01" name="achieve" verbnet_key="achieve#1" wn="achieve%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="bring.08" name="bring-off" verbnet_key="bring-off#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="pull.04" name="pull-off" verbnet_key="pull-off#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -35,16 +35,22 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="end">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e1"/>
+     </ARGS>
+    </PRED>
+    <PRED value="end">
+     <ARGS>
       <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -53,9 +59,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="complete-55.2-1">
    <MEMBERS>
-    <MEMBER grouping="complete.01 complete.02 complete.03" name="complete" verbnet_key="complete#1" wn="complete%2:30:02 complete%2:30:00 complete%2:41:00"/>
-    <MEMBER grouping="discontinue.01" name="discontinue" verbnet_key="discontinue#1" wn="discontinue%2:42:00"/>
-    <MEMBER grouping="quit.01" name="quit" verbnet_key="quit#1" wn="quit%2:42:04"/>
+    <MEMBER fn_mapping="None" grouping="complete.01 complete.02 complete.03" name="complete" verbnet_key="complete#1" wn="complete%2:30:02 complete%2:30:00 complete%2:41:00"/>
+    <MEMBER fn_mapping="None" grouping="discontinue.01" name="discontinue" verbnet_key="discontinue#1" wn="discontinue%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="quit.01" name="quit" verbnet_key="quit#1" wn="quit%2:42:04"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -78,16 +84,22 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="end">
+      <PRED value="do">
        <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
       <PRED value="cause">
        <ARGS>
-        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e1"/>
+       </ARGS>
+      </PRED>
+      <PRED value="end">
+       <ARGS>
         <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
        </ARGS>
       </PRED>
      </SEMANTICS>

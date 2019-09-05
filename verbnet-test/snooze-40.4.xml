@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="snooze-40.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="" name="catnap" verbnet_key="catnap#1" wn="catnap%2:29:00"/>
-  <MEMBER grouping="" name="doze" verbnet_key="doze#2" wn="doze%2:29:00"/>
-  <MEMBER grouping="" name="drowse" verbnet_key="drowse#2" wn="drowse%2:29:01"/>
-  <MEMBER grouping="" name="slumber" verbnet_key="slumber#1" wn="slumber%2:29:00"/>
-  <MEMBER grouping="" name="snooze" verbnet_key="snooze#1" wn="snooze%2:29:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="catnap" verbnet_key="catnap#1" wn="catnap%2:29:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="doze" verbnet_key="doze#1" wn="doze%2:29:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="drowse" verbnet_key="drowse#1" wn="drowse%2:29:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="slumber" verbnet_key="slumber#1" wn="slumber%2:29:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="snooze" verbnet_key="snooze#1" wn="snooze%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -29,33 +29,15 @@
     <VERB/>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="?Result"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
     <PRED value="body_process">
      <ARGS>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Agent"/>
      </ARGS>
     </PRED>
     <PRED value="sleep">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Agent"/>
      </ARGS>
     </PRED>
@@ -65,8 +47,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="snooze-40.4-1">
    <MEMBERS>
-    <MEMBER grouping="" name="nap" verbnet_key="nap#1" wn="nap%2:29:00"/>
-    <MEMBER grouping="sleep.01" name="sleep" verbnet_key="sleep#1" wn="sleep%2:29:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="nap" verbnet_key="nap#1" wn="nap%2:29:00"/>
+    <MEMBER fn_mapping="None" grouping="sleep.01" name="sleep" verbnet_key="sleep#2" wn="sleep%2:29:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Theme">
@@ -91,41 +73,23 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="path_rel">
+      <PRED value="sleep">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="?Initial_State"/>
+        <ARG type="Event" value="ë"/>
         <ARG type="ThemRole" value="Agent"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
-       </ARGS>
-      </PRED>
-      <PRED value="path_rel">
-       <ARGS>
-        <ARG type="Event" value="result(E)"/>
-        <ARG type="ThemRole" value="Result"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
        </ARGS>
       </PRED>
       <PRED value="body_process">
        <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED value="sleep">
-       <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="ë"/>
         <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
       <PRED value="manner">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
-        <ARG type="Constant" value="quality"/>
+        <ARG type="Event" value="ë"/>
         <ARG type="ThemRole" value="Theme"/>
+        <ARG type="Constant" value="Quality"/>
        </ARGS>
       </PRED>
      </SEMANTICS>

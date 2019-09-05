@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="reciprocate-112" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="return.03" name="return" verbnet_key="return#3" wn="return%2:40:03 return%2:32:01"/>
+  <MEMBER fn_mapping="None" grouping="return.03" name="return" verbnet_key="return#4" wn="return%2:40:03 return%2:32:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -34,14 +34,14 @@
    <SEMANTICS>
     <PRED value="act">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="?Predicate"/>
      </ARGS>
     </PRED>
     <PRED value="in_reaction_to">
      <ARGS>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
@@ -69,14 +69,14 @@
    <SEMANTICS>
     <PRED value="act">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Predicate"/>
      </ARGS>
     </PRED>
     <PRED value="in_reaction_to">
      <ARGS>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
@@ -86,8 +86,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="reciprocate-112-1">
    <MEMBERS>
-    <MEMBER grouping="answer.01 answer.02" name="answer" verbnet_key="answer#1" wn="answer%2:32:00 answer%2:31:02 answer%2:31:00                 answer%2:31:03 answer%2:32:06 answer%2:31:05"/>
-    <MEMBER grouping="" name="reciprocate" verbnet_key="reciprocate#1" wn="reciprocate%2:41:00"/>
+    <MEMBER fn_mapping="None" grouping="answer.01 answer.02" name="answer" verbnet_key="answer#1" wn="answer%2:32:00 answer%2:31:02 answer%2:31:00                 answer%2:31:03 answer%2:32:06 answer%2:31:05"/>
+    <MEMBER fn_mapping="None" grouping="" name="reciprocate" verbnet_key="reciprocate#1" wn="reciprocate%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -107,14 +107,14 @@
      <SEMANTICS>
       <PRED value="act">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="?Predicate"/>
        </ARGS>
       </PRED>
       <PRED value="in_reaction_to">
        <ARGS>
-        <ARG type="Event" value="E"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="?Theme"/>
        </ARGS>
       </PRED>
@@ -139,7 +139,7 @@
      <SEMANTICS>
       <PRED value="act">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Predicate"/>
        </ARGS>

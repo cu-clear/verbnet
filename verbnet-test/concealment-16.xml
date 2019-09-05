@@ -1,19 +1,19 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="concealment-16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="block.01" name="block" verbnet_key="block#1" wn="block%2:39:00"/>
-  <MEMBER grouping="cloister.01 cloister.02" name="cloister" verbnet_key="cloister#1" wn="cloister%2:42:00 cloister%2:30:00"/>
-  <MEMBER grouping="conceal.01" name="conceal" verbnet_key="conceal#1" wn="conceal%2:39:01 conceal%2:39:00"/>
-  <MEMBER grouping="" name="curtain" verbnet_key="curtain#1" wn=""/>
-  <MEMBER grouping="" name="impound" verbnet_key="impound#1" wn="impound%2:35:00"/>
-  <MEMBER grouping="isolate.01" name="isolate" verbnet_key="isolate#1" wn="isolate%2:30:00"/>
-  <MEMBER grouping="" name="quarantine" verbnet_key="quarantine#1" wn="quarantine%2:30:00"/>
-  <MEMBER grouping="" name="repress" verbnet_key="repress#1" wn="repress%2:31:00"/>
-  <MEMBER grouping="screen.03" name="screen" verbnet_key="screen#1" wn="screen%2:35:00 screen%2:33:00"/>
-  <MEMBER grouping="" name="seclude" verbnet_key="seclude#1" wn="seclude%2:30:00"/>
-  <MEMBER grouping="" name="sequester" verbnet_key="sequester#1" wn="sequester%2:30:00"/>
-  <MEMBER grouping="shelter.01" name="shelter" verbnet_key="shelter#1" wn="?shelter%2:42:00"/>
-  <MEMBER grouping="suppress.03" name="suppress" verbnet_key="suppress#1" wn="suppress%2:31:00"/>
+  <MEMBER fn_mapping="Eclipse" grouping="block.01" name="block" verbnet_key="block#1" wn="block%2:39:00"/>
+  <MEMBER fn_mapping="None" grouping="cloister.01 cloister.02" name="cloister" verbnet_key="cloister#1" wn="cloister%2:42:00 cloister%2:30:00"/>
+  <MEMBER fn_mapping="Eclipse" grouping="conceal.01" name="conceal" verbnet_key="conceal#1" wn="conceal%2:39:01 conceal%2:39:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="curtain" verbnet_key="curtain#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="impound" verbnet_key="impound#1" wn="impound%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="isolate.01" name="isolate" verbnet_key="isolate#2" wn="isolate%2:30:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="quarantine" verbnet_key="quarantine#1" wn="quarantine%2:30:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="repress" verbnet_key="repress#1" wn="repress%2:31:00"/>
+  <MEMBER fn_mapping="Eclipse" grouping="screen.03" name="screen" verbnet_key="screen#1" wn="screen%2:35:00 screen%2:33:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="seclude" verbnet_key="seclude#1" wn="seclude%2:30:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="sequester" verbnet_key="sequester#1" wn="sequester%2:30:00"/>
+  <MEMBER fn_mapping="None" grouping="shelter.01" name="shelter" verbnet_key="shelter#1" wn="?shelter%2:42:00"/>
+  <MEMBER fn_mapping="None" grouping="suppress.03" name="suppress" verbnet_key="suppress#1" wn="suppress%2:31:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -57,21 +57,27 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
     <PRED value="visible">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
     <PRED bool="!" value="visible">
      <ARGS>
-      <ARG type="Event" value="end(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Patient"/>
      </ARGS>
     </PRED>
@@ -108,27 +114,33 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
     <PRED value="visible">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
     <PRED bool="!" value="visible">
      <ARGS>
-      <ARG type="Event" value="end(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Patient"/>
      </ARGS>
     </PRED>
     <PRED value="location">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Patient"/>
       <ARG type="ThemRole" value="Location"/>
      </ARGS>
@@ -154,20 +166,26 @@
    <SEMANTICS>
     <PRED value="visible">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
      </ARGS>
     </PRED>
-    <PRED bool="!" value="visible">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="visible">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -176,7 +194,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="concealment-16-1">
    <MEMBERS>
-    <MEMBER grouping="hide.01" name="hide" verbnet_key="hide#1" wn="hide%2:39:00"/>
+    <MEMBER fn_mapping="Eclipse" grouping="hide.01" name="hide" verbnet_key="hide#1" wn="hide%2:39:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -196,13 +214,13 @@
      <SEMANTICS>
       <PRED value="visible">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
       <PRED bool="!" value="visible">
        <ARGS>
-        <ARG type="Event" value="end(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
@@ -230,13 +248,13 @@
      <SEMANTICS>
       <PRED value="visible">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
       <PRED bool="!" value="visible">
        <ARGS>
-        <ARG type="Event" value="end(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
@@ -272,21 +290,21 @@
      <SEMANTICS>
       <PRED value="visible">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED bool="!" value="visible">
-       <ARGS>
-        <ARG type="Event" value="end(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
       <PRED value="location">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e2"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Location"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="visible">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
      </SEMANTICS>

@@ -51,7 +51,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="appeal-31.4-1">
    <MEMBERS>
-    <MEMBER grouping="" name="niggle" verbnet_key="niggle#1" wn="niggle%2:37:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="niggle" verbnet_key="niggle#1" wn="niggle%2:37:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -95,8 +95,8 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="appeal-31.4-2">
    <MEMBERS>
-    <MEMBER grouping="grate.02" name="grate" verbnet_key="grate#1" wn="grate%2:37:00"/>
-    <MEMBER grouping="" name="jar" verbnet_key="jar#2" wn="jar%2:37:00"/>
+    <MEMBER fn_mapping="None" grouping="grate.02" name="grate" verbnet_key="grate#1" wn="grate%2:37:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="jar" verbnet_key="jar#2" wn="jar%2:37:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -140,7 +140,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="appeal-31.4-3">
    <MEMBERS>
-    <MEMBER grouping="appeal.03" name="appeal" verbnet_key="appeal#1" wn="appeal%2:37:00"/>
+    <MEMBER fn_mapping="None" grouping="appeal.03" name="appeal" verbnet_key="appeal#1" wn="appeal%2:37:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

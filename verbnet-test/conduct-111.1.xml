@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="conduct-111.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="conduct.02" name="conduct" verbnet_key="conduct#2" wn="conduct%2:41:00"/>
-  <MEMBER grouping="give.07" name="give" verbnet_key="give#2" wn="give%2:36:02 give%2:36:12"/>
-  <MEMBER grouping="head.02" name="head" verbnet_key="head#1" wn="head%2:41:00 head%2:38:02"/>
-  <MEMBER grouping="hold.09" name="hold" verbnet_key="hold#2" wn="hold%2:36:00"/>
-  <MEMBER grouping="host.01" name="host" verbnet_key="host#2" wn="host%2:34:00"/>
-  <MEMBER grouping="run.03" name="run" verbnet_key="run#3" wn="run%2:41:02 run%2:30:07 run%2:36:00"/>
-  <MEMBER grouping="" name="spearhead" verbnet_key="spearhead#1" wn="spearhead%2:41:00"/>
-  <MEMBER grouping="throw.07" name="throw" verbnet_key="throw#2" wn="throw%2:36:08"/>
+  <MEMBER fn_mapping="None" grouping="conduct.02" name="conduct" verbnet_key="conduct#3" wn="conduct%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="give.07" name="give" verbnet_key="give#2" wn="give%2:36:02 give%2:36:12"/>
+  <MEMBER fn_mapping="None" grouping="head.02" name="head" verbnet_key="head#1" wn="head%2:41:00 head%2:38:02"/>
+  <MEMBER fn_mapping="None" grouping="hold.09" name="hold" verbnet_key="hold#2" wn="hold%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="host.01" name="host" verbnet_key="host#2" wn="host%2:34:00"/>
+  <MEMBER fn_mapping="Leadership" grouping="run.03" name="run" verbnet_key="run#3" wn="run%2:41:02 run%2:30:07 run%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="spearhead" verbnet_key="spearhead#1" wn="spearhead%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="throw.07" name="throw" verbnet_key="throw#2" wn="throw%2:36:08"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -41,16 +41,22 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="occur">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="End(E)"/>
-      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e1"/>
+     </ARGS>
+    </PRED>
+    <PRED value="occur">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -75,16 +81,22 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="occur">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="End(E)"/>
-      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e1"/>
+     </ARGS>
+    </PRED>
+    <PRED value="occur">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">

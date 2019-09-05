@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="exclude-107.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="omit.01" name="omit" verbnet_key="omit#1" wn="omit%2:31:01"/>
+  <MEMBER fn_mapping="None" grouping="omit.01" name="omit" verbnet_key="omit#1" wn="omit%2:31:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -46,7 +46,7 @@
    <SEMANTICS>
     <PRED bool="!" value="involve">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="Goal"/>
@@ -73,7 +73,7 @@
    <SEMANTICS>
     <PRED bool="!" value="involve">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="?Goal"/>
@@ -85,8 +85,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="exclude-107.3-1">
    <MEMBERS>
-    <MEMBER grouping="exclude.01" name="exclude" verbnet_key="exclude#1" wn="exclude%2:31:01"/>
-    <MEMBER grouping="preclude.01" name="preclude" verbnet_key="preclude#1" wn="preclude%2:41:00 preclude%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="exclude.01" name="exclude" verbnet_key="exclude#1" wn="exclude%2:31:01"/>
+    <MEMBER fn_mapping="None" grouping="preclude.01" name="preclude" verbnet_key="preclude#1" wn="preclude%2:41:00 preclude%2:42:00"/>
    </MEMBERS>
    <THEMROLES>
    </THEMROLES>
@@ -118,7 +118,7 @@
      <SEMANTICS>
       <PRED bool="!" value="involve">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
         <ARG type="ThemRole" value="Goal"/>

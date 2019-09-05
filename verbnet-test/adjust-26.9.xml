@@ -1,15 +1,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="adjust-26.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="adapt.01" name="adapt" verbnet_key="adapt#1" wn="adapt%2:30:02"/>
-  <MEMBER grouping="accommodate.02" name="accommodate" verbnet_key="accommodate#1" wn="accommodate%2:30:00 accommodate%2:30:01"/>
-  <MEMBER grouping="conform.02" name="conform" verbnet_key="conform#1" wn="conform%2:30:01"/>
-  <MEMBER grouping="adjust.02" name="adjust" verbnet_key="adjust#1" wn="adjust%2:30:01"/>
-  <MEMBER grouping="gear.01" name="gear" verbnet_key="gear#1" wn="gear%2:30:00"/>
-  <MEMBER grouping="fit.02" name="fit" verbnet_key="fit#1" wn="fit%2:30:02"/>
-  <MEMBER grouping="" name="readjust" verbnet_key="readjust#1" wn="readjust%2:30:00"/>
-  <MEMBER grouping="" name="readapt" verbnet_key="readapt#1" wn="readapt%2:30:03"/>
-  <MEMBER grouping="assimilate.01" name="assimilate" verbnet_key="assimilate#1" wn="assimilate%2:30:00"/>
+  <MEMBER fn_mapping="None" grouping="adapt.01" name="adapt" verbnet_key="adapt#1" wn="adapt%2:30:02"/>
+  <MEMBER fn_mapping="None" grouping="accommodate.02" name="accommodate" verbnet_key="accommodate#1" wn="accommodate%2:30:00 accommodate%2:30:01"/>
+  <MEMBER fn_mapping="Compliance" grouping="conform.02" name="conform" verbnet_key="conform#1" wn="conform%2:30:01"/>
+  <MEMBER fn_mapping="None" grouping="adjust.02" name="adjust" verbnet_key="adjust#1" wn="adjust%2:30:01"/>
+  <MEMBER fn_mapping="None" grouping="gear.01" name="gear" verbnet_key="gear#1" wn="gear%2:30:00"/>
+  <MEMBER fn_mapping="None" grouping="fit.02" name="fit" verbnet_key="fit#1" wn="fit%2:30:02"/>
+  <MEMBER fn_mapping="None" grouping="" name="readjust" verbnet_key="readjust#1" wn="readjust%2:30:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="readapt" verbnet_key="readapt#1" wn="readapt%2:30:03"/>
+  <MEMBER fn_mapping="None" grouping="assimilate.01" name="assimilate" verbnet_key="assimilate#1" wn="assimilate%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -46,17 +46,36 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="cause">
+    <PRED bool="!" value="adjusted">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
-    <PRED value="adjust">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
       <ARG type="ThemRole" value="?Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="?Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -86,28 +105,36 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="cause">
+    <PRED bool="!" value="adjusted">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="?Source"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
       <ARG type="ThemRole" value="Goal"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -137,28 +164,36 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="cause">
+    <PRED bool="!" value="adjusted">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="?Source"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
       <ARG type="ThemRole" value="Goal"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -185,28 +220,36 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
+    <PRED bool="!" value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
     <PRED value="cause">
      <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="?Source"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="Goal"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
+      <ARG type="ThemRole" value="?Patient"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -231,28 +274,36 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
+    <PRED bool="!" value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
     <PRED value="cause">
      <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="?Source"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="Goal"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
+      <ARG type="ThemRole" value="?Patient"/>
      </ARGS>
     </PRED>
    </SEMANTICS>

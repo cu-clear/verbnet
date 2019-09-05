@@ -2,13 +2,13 @@
 <VNCLASS ID="curtsey-40.3.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each verb adds a manner predicate indicating how the Agent expresses the greeting, something like manner(during(E),Gesture,Agent)-->
-  <MEMBER grouping="bob.04" name="bob" verbnet_key="bob#1" wn="bob%2:32:00"/>
-  <MEMBER grouping="bow.02" name="bow" verbnet_key="bow#3" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
-  <MEMBER grouping="" name="curtsey" verbnet_key="curtsey#1" wn="curtsey%2:38:00"/>
-  <MEMBER grouping="" name="genuflect" verbnet_key="genuflect#1" wn="genuflect%2:38:00 genuflect%2:38:01"/>
-  <MEMBER grouping="" name="kneel" verbnet_key="kneel#2" wn="kneel%2:35:00"/>
-  <MEMBER grouping="" name="salaam" verbnet_key="salaam#1" wn="salaam%2:32:00"/>
-  <MEMBER grouping="salute.02" name="salute" verbnet_key="salute#1" wn="salute%2:32:01"/>
+  <MEMBER fn_mapping="Body_movement" grouping="bob.04" name="bob" verbnet_key="bob#2" wn="bob%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="bow.02" name="bow" verbnet_key="bow#3" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="curtsey" verbnet_key="curtsey#1" wn="curtsey%2:38:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="genuflect" verbnet_key="genuflect#1" wn="genuflect%2:38:00 genuflect%2:38:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="kneel" verbnet_key="kneel#2" wn="kneel%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="salaam" verbnet_key="salaam#1" wn="salaam%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="salute.02" name="salute" verbnet_key="salute#1" wn="salute%2:32:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -41,42 +41,59 @@
     <VERB/>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED value="has_information">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Source"/>
-      <ARG type="ThemRole" value="?Topic"/>
-      <ARG type="Constant" value="tr_of_info"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="?Recipient"/>
-      <ARG type="ThemRole" value="?Topic"/>
-      <ARG type="Constant" value="tr_of_info"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="transfer">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Topic"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="?Recipient"/>
       <ARG type="ThemRole" value="?Topic"/>
      </ARGS>
     </PRED>
-    <PRED value="equals">
+    <PRED bool="!" value="has_position">
      <ARGS>
-      <ARG type="ThemRole" value="Source"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="PredSpecific" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Position"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
       <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Topic"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="body_motion">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_position">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="PredSpecific" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Position"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+      <ARG type="ThemRole" value="?Topic"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -103,42 +120,59 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED value="has_information">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Source"/>
-      <ARG type="ThemRole" value="?Topic"/>
-      <ARG type="Constant" value="tr_of_info"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="Recipient"/>
-      <ARG type="ThemRole" value="?Topic"/>
-      <ARG type="Constant" value="tr_of_info"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="transfer">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Topic"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Recipient"/>
       <ARG type="ThemRole" value="?Topic"/>
      </ARGS>
     </PRED>
-    <PRED value="equals">
+    <PRED bool="!" value="has_position">
      <ARGS>
-      <ARG type="ThemRole" value="Source"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="PredSpecific" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Position"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
       <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Topic"/>
+      <ARG type="ThemRole" value="Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="body_motion">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_position">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="PredSpecific" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Position"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Recipient"/>
+      <ARG type="ThemRole" value="?Topic"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -160,42 +194,59 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED value="has_information">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Source"/>
-      <ARG type="ThemRole" value="Topic"/>
-      <ARG type="Constant" value="tr_of_info"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="?Recipient"/>
-      <ARG type="ThemRole" value="Topic"/>
-      <ARG type="Constant" value="tr_of_info"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="transfer">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="?Recipient"/>
       <ARG type="ThemRole" value="Topic"/>
      </ARGS>
     </PRED>
-    <PRED value="equals">
+    <PRED bool="!" value="has_position">
      <ARGS>
-      <ARG type="ThemRole" value="Source"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="PredSpecific" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Position"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
       <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="body_motion">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_position">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="PredSpecific" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Position"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+      <ARG type="ThemRole" value="Topic"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -204,7 +255,7 @@
    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.recipient" secondary="NP-PP; Recipient-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
-     The princess curtseyed her assent to the queen.
+     The princess curtsied her assent to the queen.
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
@@ -223,42 +274,59 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED value="has_information">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Source"/>
-      <ARG type="ThemRole" value="Topic"/>
-      <ARG type="Constant" value="tr_of_info"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="Recipient"/>
-      <ARG type="ThemRole" value="Topic"/>
-      <ARG type="Constant" value="tr_of_info"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="transfer">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Recipient"/>
       <ARG type="ThemRole" value="Topic"/>
      </ARGS>
     </PRED>
-    <PRED value="equals">
+    <PRED bool="!" value="has_position">
      <ARGS>
-      <ARG type="ThemRole" value="Source"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="PredSpecific" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Position"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
       <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+      <ARG type="ThemRole" value="Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="body_motion">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_position">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="PredSpecific" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Position"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Recipient"/>
+      <ARG type="ThemRole" value="Topic"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>

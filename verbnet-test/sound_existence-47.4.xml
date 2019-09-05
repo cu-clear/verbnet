@@ -2,12 +2,12 @@
 <VNCLASS ID="sound_existence-47.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each member adds a predicate for the quality of the sound-->
-  <MEMBER grouping="echo.02" name="echo" verbnet_key="echo#1" wn="echo%2:39:00"/>
-  <MEMBER grouping="" name="resonate" verbnet_key="resonate#1" wn="resonate%2:39:00"/>
-  <MEMBER grouping="" name="resound" verbnet_key="resound#1" wn="resound%2:39:01"/>
-  <MEMBER grouping="reverberate.01" name="reverberate" verbnet_key="reverberate#1" wn="reverberate%2:39:00"/>
-  <MEMBER grouping="" name="roll" verbnet_key="roll#9" wn=""/>
-  <MEMBER grouping="sound.02" name="sound" verbnet_key="sound#2" wn="sound%2:39:01"/>
+  <MEMBER fn_mapping="Sound_movement" grouping="echo.02" name="echo" verbnet_key="echo#1" wn="echo%2:39:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="resonate" verbnet_key="resonate#1" wn="resonate%2:39:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="resound" verbnet_key="resound#1" wn="resound%2:39:01"/>
+  <MEMBER fn_mapping="Sound_movement" grouping="reverberate.01" name="reverberate" verbnet_key="reverberate#1" wn="reverberate%2:39:00"/>
+  <MEMBER fn_mapping="Sound_movement" grouping="" name="roll" verbnet_key="roll#11" wn=""/>
+  <MEMBER fn_mapping="Make_noise" grouping="sound.02" name="sound" verbnet_key="sound#3" wn="sound%2:39:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -37,9 +37,9 @@
     <VERB/>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="exist">
+    <PRED value="be">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
@@ -67,15 +67,15 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="exist">
+    <PRED value="be">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
-    <PRED value="location">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="Location"/>
      </ARGS>
@@ -99,10 +99,17 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="exist">
+    <PRED value="be">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -129,15 +136,15 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="exist">
+    <PRED value="be">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
-    <PRED value="location">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="Location"/>
      </ARGS>
@@ -165,15 +172,15 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="exist">
+    <PRED value="be">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
-    <PRED value="location">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="Location"/>
      </ARGS>

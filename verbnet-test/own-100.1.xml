@@ -1,0 +1,49 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="own-100.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="have.01 have.02         have.03 have.05" name="have" verbnet_key="have#3" wn="have%2:40:04"/>
+  <MEMBER fn_mapping="Change_event_time" grouping="hold.07" name="hold" verbnet_key="hold#9" wn=""/>
+  <MEMBER fn_mapping="None" grouping="own.01" name="own" verbnet_key="own#1" wn="own%2:40:00"/>
+  <MEMBER fn_mapping="None" grouping="possess.01" name="possess" verbnet_key="possess#1" wn="possess%2:40:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Pivot">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I own twelve oxen.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Pivot">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_possession">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Pivot"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

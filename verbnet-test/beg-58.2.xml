@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="beg-58.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="request.01" name="request" verbnet_key="request#1" wn="request%2:32:13 request%2:32:01 request%2:32:02"/>
-  <MEMBER grouping="" name="importune" verbnet_key="importune#1" wn="importune%2:32:00"/>
+  <MEMBER fn_mapping="Request" grouping="request.01" name="request" verbnet_key="request#1" wn="request%2:32:13 request%2:32:01 request%2:32:02"/>
+  <MEMBER fn_mapping="None" grouping="" name="importune" verbnet_key="importune#1" wn="importune%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -43,7 +43,7 @@
    <SEMANTICS>
     <PRED value="urge">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Patient"/>
       <ARG type="ThemRole" value="Result"/>
@@ -72,7 +72,7 @@
    <SEMANTICS>
     <PRED value="urge">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="?Patient"/>
       <ARG type="ThemRole" value="Result"/>
@@ -90,7 +90,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="beg-58.2-1">
    <MEMBERS>
-    <MEMBER grouping="" name="supplicate" verbnet_key="supplicate#1" wn="supplicate%2:32:00 supplicate%2:32:01 supplicate%2:32:02"/>
+    <MEMBER fn_mapping="None" grouping="" name="supplicate" verbnet_key="supplicate#1" wn="supplicate%2:32:00 supplicate%2:32:01 supplicate%2:32:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -118,7 +118,7 @@
      <SEMANTICS>
       <PRED value="urge">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="?Patient"/>
         <ARG type="ThemRole" value="Result"/>
@@ -136,7 +136,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="beg-58.2-1-1">
      <MEMBERS>
-      <MEMBER grouping="beg.01" name="beg" verbnet_key="beg#1" wn="beg%2:32:00 beg%2:32:01"/>
+      <MEMBER fn_mapping="None" grouping="beg.01" name="beg" verbnet_key="beg#1" wn="beg%2:32:00 beg%2:32:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -167,7 +167,7 @@
        <SEMANTICS>
         <PRED value="urge">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="e1"/>
           <ARG type="ThemRole" value="Agent"/>
           <ARG type="ThemRole" value="Patient"/>
           <ARG type="ThemRole" value="Result"/>

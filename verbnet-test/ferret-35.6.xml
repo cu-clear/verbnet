@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="ferret-35.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="ferret.02" name="ferret" verbnet_key="ferret#1" wn="ferret%2:31:00"/>
-  <MEMBER grouping="nose.03" name="nose" verbnet_key="nose#1" wn="nose%2:39:01"/>
-  <MEMBER grouping="tease.06" name="tease" verbnet_key="tease#2" wn=""/>
+  <MEMBER fn_mapping="None" grouping="ferret.02" name="ferret" verbnet_key="ferret#1" wn="ferret%2:31:00"/>
+  <MEMBER fn_mapping="Seeking" grouping="nose.03" name="nose" verbnet_key="nose#1" wn="nose%2:39:01"/>
+  <MEMBER fn_mapping="None" grouping="tease.06" name="tease" verbnet_key="tease#3" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -46,7 +46,7 @@
    <SEMANTICS>
     <PRED value="search">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Source"/>
       <ARG type="ThemRole" value="Theme"/>

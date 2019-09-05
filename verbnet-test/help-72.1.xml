@@ -22,8 +22,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="help-72.1-1">
    <MEMBERS>
-    <MEMBER grouping="support.02" name="support" verbnet_key="support#3" wn="support%2:41:00"/>
-    <MEMBER grouping="" name="succor" verbnet_key="succor#1" wn="succor%2:41:00"/>
+    <MEMBER fn_mapping="None" grouping="support.02" name="support" verbnet_key="support#3" wn="support%2:41:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="succor" verbnet_key="succor#1" wn="succor%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -46,7 +46,7 @@
      <SEMANTICS>
       <PRED value="help">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Beneficiary"/>
         <ARG type="ThemRole" value="?Theme"/>
@@ -81,7 +81,7 @@
      <SEMANTICS>
       <PRED value="help">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Beneficiary"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -116,7 +116,7 @@
      <SEMANTICS>
       <PRED value="help">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Beneficiary"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -148,7 +148,7 @@
      <SEMANTICS>
       <PRED value="help">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Beneficiary"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -180,7 +180,7 @@
      <SEMANTICS>
       <PRED value="help">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="?Beneficiary"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -192,10 +192,10 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="help-72.1-1-1">
      <MEMBERS>
-      <MEMBER grouping="aid.01" name="aid" verbnet_key="aid#1" wn="aid%2:41:00"/>
-      <MEMBER grouping="" name="abet" verbnet_key="abet#1" wn="abet%2:41:00"/>
-      <MEMBER grouping="assist.01" name="assist" verbnet_key="assist#1" wn="assist%2:41:02"/>
-      <MEMBER grouping="help.01" name="help" verbnet_key="help#1" wn="help%2:41:00"/>
+      <MEMBER fn_mapping="Assistance" grouping="aid.01" name="aid" verbnet_key="aid#1" wn="aid%2:41:00"/>
+      <MEMBER fn_mapping="None" grouping="" name="abet" verbnet_key="abet#1" wn="abet%2:41:00"/>
+      <MEMBER fn_mapping="Assistance" grouping="assist.01" name="assist" verbnet_key="assist#1" wn="assist%2:41:02"/>
+      <MEMBER fn_mapping="Assistance" grouping="help.01" name="help" verbnet_key="help#1" wn="help%2:41:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -223,7 +223,7 @@
        <SEMANTICS>
         <PRED value="help">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="e1"/>
           <ARG type="ThemRole" value="Agent"/>
           <ARG type="ThemRole" value="?Beneficiary"/>
           <ARG type="ThemRole" value="Theme"/>
@@ -238,8 +238,8 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="help-72.1-2">
    <MEMBERS>
-    <MEMBER grouping="" name="go" verbnet_key="go#6" wn=""/>
-    <MEMBER grouping="pull.11" name="pull" verbnet_key="pull#3" wn="pull%2:33:13"/>
+    <MEMBER fn_mapping="None" grouping="" name="go" verbnet_key="go#7" wn=""/>
+    <MEMBER fn_mapping="None" grouping="pull.11" name="pull" verbnet_key="pull#3" wn="pull%2:33:13"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -265,7 +265,7 @@
      <SEMANTICS>
       <PRED value="help">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Beneficiary"/>
         <ARG type="ThemRole" value="?Theme"/>
@@ -277,7 +277,8 @@
      <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.beneficiary PP.theme" secondary="PP-PP; beneficiary-PP theme-PP" xtag="0.1"/>
      <EXAMPLES>
       <EXAMPLE>
-       I went with the first candidate in his bid for the governor's office.
+       I went with the first candidate in the
+                                                                                                                                                                                                                                                                                                                                                                                                gubernational race.
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
@@ -291,14 +292,11 @@
       <NP value="Beneficiary">
        <SYNRESTRS/>
       </NP>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
      </SYNTAX>
      <SEMANTICS>
       <PRED value="help">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Beneficiary"/>
         <ARG type="ThemRole" value="?Theme"/>

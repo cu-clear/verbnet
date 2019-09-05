@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="absorb-39.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="absorb.01" name="absorb" verbnet_key="absorb#1" wn="absorb%2:35:00 absorb%2:43:00"/>
-  <MEMBER grouping="ingest.01" name="ingest" verbnet_key="ingest#1" wn="ingest%2:34:00"/>
-  <MEMBER grouping="take.11" name="take" verbnet_key="take#1" wn="take_in%2:34:00"/>
+  <MEMBER fn_mapping="None" grouping="absorb.01" name="absorb" verbnet_key="absorb#1" wn="absorb%2:35:00 absorb%2:43:00"/>
+  <MEMBER fn_mapping="None" grouping="ingest.01" name="ingest" verbnet_key="ingest#1" wn="ingest%2:34:00"/>
+  <MEMBER fn_mapping="Ingest_substance" grouping="take.11" name="take" verbnet_key="take#1" wn="take_in%2:34:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Goal">
@@ -36,9 +36,10 @@
    <SEMANTICS>
     <PRED value="take_in">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Goal"/>
       <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Source"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -68,9 +69,10 @@
    <SEMANTICS>
     <PRED value="take_in">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Goal"/>
       <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Source"/>
      </ARGS>
     </PRED>
    </SEMANTICS>

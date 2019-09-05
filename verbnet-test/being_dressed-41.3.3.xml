@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="being_dressed-41.3.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="" name="attire" verbnet_key="attire#1" wn="attire%2:29:00"/>
-  <MEMBER grouping="" name="clad" verbnet_key="clad#1" wn=""/>
-  <MEMBER grouping="" name="garb" verbnet_key="garb#1" wn="garb%2:29:00"/>
-  <MEMBER grouping="" name="outfit" verbnet_key="outfit#1" wn="outfit%2:40:00"/>
-  <MEMBER grouping="" name="robe" verbnet_key="robe#1" wn="robe%2:29:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="attire" verbnet_key="attire#1" wn="attire%2:29:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="clothe" verbnet_key="clothe#1" wn="clothe%2:29:00::"/>
+  <MEMBER fn_mapping="None" grouping="" name="garb" verbnet_key="garb#1" wn="garb%2:29:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="outfit" verbnet_key="outfit#1" wn="outfit%2:40:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="robe" verbnet_key="robe#1" wn="robe%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -38,27 +38,9 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="?Result"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
     <PRED value="wear">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>

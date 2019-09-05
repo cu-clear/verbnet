@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="benefit-72.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="benefit.01" name="benefit" verbnet_key="benefit#1" wn="benefit%2:40:00 benefit%2:40:01"/>
-  <MEMBER grouping="" name="profit" verbnet_key="profit#1" wn="profit%2:40:00 profit%2:40:02"/>
+  <MEMBER fn_mapping="None" grouping="benefit.01" name="benefit" verbnet_key="benefit#1" wn="benefit%2:40:00 benefit%2:40:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="profit" verbnet_key="profit#1" wn="profit%2:40:00 profit%2:40:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Causer">
@@ -30,10 +30,16 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Causer"/>
+     </ARGS>
+    </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="Causer"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">
@@ -58,10 +64,16 @@
     <VERB/>
    </SYNTAX>
    <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Causer"/>
+     </ARGS>
+    </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="?Causer"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">
@@ -92,10 +104,16 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Causer"/>
+     </ARGS>
+    </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="Causer"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">

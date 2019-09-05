@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="require-103" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="take.07" name="take" verbnet_key="take#9" wn="take%2:42:00"/>
+  <MEMBER fn_mapping="Taking_time" grouping="take.07" name="take" verbnet_key="take#12" wn="take%2:42:00"/>
  </MEMBERS>
  <THEMROLES>
-  <THEMROLE type="Pivot">
+  <THEMROLE type="Precondition">
    <SELRESTRS/>
   </THEMROLE>
   <THEMROLE type="Theme">
@@ -20,11 +20,11 @@
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
-    <NP value="Pivot">
+    <NP value="Theme">
      <SYNRESTRS/>
     </NP>
     <VERB/>
-    <NP value="Theme">
+    <NP value="Precondition">
      <SYNRESTRS/>
     </NP>
    </SYNTAX>
@@ -32,8 +32,8 @@
     <PRED value="necessitate">
      <ARGS>
       <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Pivot"/>
       <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Precondition"/>
       <ARG type="ThemRole" value="?Source"/>
      </ARGS>
     </PRED>
@@ -47,11 +47,11 @@
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
-    <NP value="Pivot">
+    <NP value="Theme">
      <SYNRESTRS/>
     </NP>
     <VERB/>
-    <NP value="Theme">
+    <NP value="Precondition">
      <SYNRESTRS>
       <SYNRESTR Value="+" type="for_comp"/>
      </SYNRESTRS>
@@ -61,8 +61,8 @@
     <PRED value="necessitate">
      <ARGS>
       <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Pivot"/>
       <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Precondition"/>
       <ARG type="ThemRole" value="?Source"/>
      </ARGS>
     </PRED>
@@ -76,11 +76,11 @@
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
-    <NP value="Pivot">
+    <NP value="Theme">
      <SYNRESTRS/>
     </NP>
     <VERB/>
-    <NP value="Theme">
+    <NP value="Precondition">
      <SYNRESTRS>
       <SYNRESTR Value="+" type="that_comp"/>
      </SYNRESTRS>
@@ -90,8 +90,8 @@
     <PRED value="necessitate">
      <ARGS>
       <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Pivot"/>
       <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Precondition"/>
       <ARG type="ThemRole" value="?Source"/>
      </ARGS>
     </PRED>
@@ -101,10 +101,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="require-103-1">
    <MEMBERS>
-    <MEMBER grouping="" name="necessitate" verbnet_key="necessitate#1" wn="necessitate%2:42:00"/>
-    <MEMBER grouping="require.01" name="require" verbnet_key="require#1" wn="require%2:34:00"/>
-    <MEMBER grouping="involve.02" name="involve" verbnet_key="involve#2" wn="involve%2:42:07"/>
-    <MEMBER grouping="demand.02" name="demand" verbnet_key="demand#1" wn="demand%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="necessitate" verbnet_key="necessitate#1" wn="necessitate%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="require.01" name="require" verbnet_key="require#2" wn="require%2:34:00"/>
+    <MEMBER fn_mapping="None" grouping="involve.02" name="involve" verbnet_key="involve#3" wn="involve%2:42:07"/>
+    <MEMBER fn_mapping="Have_as_requirement" grouping="demand.02" name="demand" verbnet_key="demand#2" wn="demand%2:42:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Source">
@@ -120,11 +120,11 @@
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
-      <NP value="Pivot">
+      <NP value="Theme">
        <SYNRESTRS/>
       </NP>
       <VERB/>
-      <NP value="Theme">
+      <NP value="Precondition">
        <SYNRESTRS/>
       </NP>
       <PREP value="from">
@@ -138,8 +138,8 @@
       <PRED value="require">
        <ARGS>
         <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Pivot"/>
         <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Precondition"/>
         <ARG type="ThemRole" value="Source"/>
        </ARGS>
       </PRED>
@@ -153,11 +153,11 @@
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
-      <NP value="Pivot">
+      <NP value="Theme">
        <SYNRESTRS/>
       </NP>
       <VERB/>
-      <NP value="Theme">
+      <NP value="Precondition">
        <SYNRESTRS>
         <SYNRESTR Value="+" type="np_to_inf"/>
        </SYNRESTRS>
@@ -167,8 +167,8 @@
       <PRED value="require">
        <ARGS>
         <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Pivot"/>
         <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Precondition"/>
         <ARG type="ThemRole" value="?Source"/>
        </ARGS>
       </PRED>
@@ -182,11 +182,11 @@
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
-      <NP value="Pivot">
+      <NP value="Theme">
        <SYNRESTRS/>
       </NP>
       <VERB/>
-      <NP value="Theme">
+      <NP value="Precondition">
        <SYNRESTRS>
         <SYNRESTR Value="+" type="ac_ing"/>
        </SYNRESTRS>
@@ -196,8 +196,8 @@
       <PRED value="require">
        <ARGS>
         <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Pivot"/>
         <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Precondition"/>
         <ARG type="ThemRole" value="?Source"/>
        </ARGS>
       </PRED>
@@ -208,7 +208,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="require-103-2">
    <MEMBERS>
-    <MEMBER grouping="need.01" name="need" verbnet_key="need#1" wn="need%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="need.01" name="need" verbnet_key="need#1" wn="need%2:42:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -220,11 +220,11 @@
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
-      <NP value="Pivot">
+      <NP value="Theme">
        <SYNRESTRS/>
       </NP>
       <VERB/>
-      <NP value="Theme">
+      <NP value="Precondition">
        <SYNRESTRS>
         <SYNRESTR Value="+" type="sc_to_inf"/>
        </SYNRESTRS>
@@ -234,8 +234,8 @@
       <PRED value="require">
        <ARGS>
         <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Pivot"/>
         <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Precondition"/>
         <ARG type="ThemRole" value="?Source"/>
        </ARGS>
       </PRED>

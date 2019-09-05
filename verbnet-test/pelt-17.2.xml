@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="pelt-17.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="bombard.01" name="bombard" verbnet_key="bombard#3" wn="bombard%2:35:00"/>
-  <MEMBER grouping="" name="buffet" verbnet_key="buffet#1" wn="buffet%2:35:00 buffet%2:35:01"/>
-  <MEMBER grouping="" name="pelt" verbnet_key="pelt#1" wn="pelt%2:35:00"/>
-  <MEMBER grouping="" name="pepperspray" verbnet_key="pepperspray#1" wn=""/>
-  <MEMBER grouping="shell.02" name="shell" verbnet_key="shell#1" wn="shell%2:33:00"/>
-  <MEMBER grouping="shower.01" name="shower" verbnet_key="shower#2" wn="shower%2:35:00"/>
-  <MEMBER grouping="stone.01" name="stone" verbnet_key="stone#1" wn="stone%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="bombard.01" name="bombard" verbnet_key="bombard#3" wn="bombard%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="buffet" verbnet_key="buffet#1" wn="buffet%2:35:00 buffet%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="pelt" verbnet_key="pelt#1" wn="pelt%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="pepperspray" verbnet_key="pepperspray#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="shell.02" name="shell" verbnet_key="shell#1" wn="shell%2:33:00"/>
+  <MEMBER fn_mapping="Placing" grouping="shower.01" name="shower" verbnet_key="shower#2" wn="shower%2:35:00"/>
+  <MEMBER fn_mapping="Cause_harm" grouping="stone.01" name="stone" verbnet_key="stone#1" wn="stone%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -16,11 +16,6 @@
    </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Theme">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Initial_Location">
    <SELRESTRS>
     <SELRESTR Value="+" type="concrete"/>
    </SELRESTRS>
@@ -55,41 +50,80 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="motion">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="exert_force">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
     <PRED value="contact">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e2"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="Trajectory"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e5"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="repeat_sequence">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="Event" value="e4"/>
+      <ARG type="Event" value="e5"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
      </ARGS>
     </PRED>
-    <PRED value="path_rel">
+    <PRED value="overlaps">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Initial_Location"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
      </ARGS>
     </PRED>
-    <PRED value="path_rel">
+    <PRED value="overlaps">
      <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="Event" value="e4"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -111,41 +145,80 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="motion">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="PredSpecific" value="Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="exert_force">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="?Theme"/>
      </ARGS>
     </PRED>
     <PRED value="contact">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e2"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="PredSpecific" value="Trajectory"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="PredSpecific" value="Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e5"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="repeat_sequence">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="Event" value="e4"/>
+      <ARG type="Event" value="e5"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
      </ARGS>
     </PRED>
-    <PRED value="path_rel">
+    <PRED value="overlaps">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Initial_Location"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
      </ARGS>
     </PRED>
-    <PRED value="path_rel">
+    <PRED value="overlaps">
      <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="Event" value="e4"/>
      </ARGS>
     </PRED>
    </SEMANTICS>

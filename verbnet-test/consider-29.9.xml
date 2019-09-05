@@ -37,7 +37,7 @@
    <SEMANTICS>
     <PRED value="consider">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
@@ -65,7 +65,7 @@
    <SEMANTICS>
     <PRED value="consider">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
@@ -76,11 +76,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="consider-29.9-1">
    <MEMBERS>
-    <MEMBER grouping="" name="acknowledge" verbnet_key="acknowledge#2" wn=""/>
-    <MEMBER grouping="deem.01" name="deem" verbnet_key="deem#1" wn="deem%2:31:00"/>
-    <MEMBER grouping="" name="esteem" verbnet_key="esteem#2" wn="esteem%2:31:00"/>
-    <MEMBER grouping="rate.02 rate.03" name="rate" verbnet_key="rate#1" wn="rate%2:31:00"/>
-    <MEMBER grouping="reckon.01" name="reckon" verbnet_key="reckon#1" wn="reckon%2:31:00"/>
+    <MEMBER fn_mapping="Statement" grouping="" name="acknowledge" verbnet_key="acknowledge#2" wn=""/>
+    <MEMBER fn_mapping="Categorization" grouping="deem.01" name="deem" verbnet_key="deem#1" wn="deem%2:31:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="esteem" verbnet_key="esteem#2" wn="esteem%2:31:00"/>
+    <MEMBER fn_mapping="None" grouping="rate.02 rate.03" name="rate" verbnet_key="rate#1" wn="rate%2:31:00"/>
+    <MEMBER fn_mapping="Awareness" grouping="reckon.01" name="reckon" verbnet_key="reckon#1" wn="reckon%2:31:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -108,14 +108,14 @@
      <SEMANTICS>
       <PRED value="characterize">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Theme"/>
         <ARG type="ThemRole" value="Attribute"/>
        </ARGS>
       </PRED>
       <PRED value="consider">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
@@ -143,7 +143,7 @@
      <SEMANTICS>
       <PRED value="consider">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
@@ -171,7 +171,7 @@
      <SEMANTICS>
       <PRED value="consider">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
@@ -182,7 +182,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="consider-29.9-1-1">
      <MEMBERS>
-      <MEMBER grouping="report.01" name="report" verbnet_key="report#2" wn="report%2:32:01"/>
+      <MEMBER fn_mapping="None" grouping="report.01" name="report" verbnet_key="report#2" wn="report%2:32:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -212,14 +212,14 @@
        <SEMANTICS>
         <PRED value="characterize">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="E"/>
           <ARG type="ThemRole" value="Theme"/>
           <ARG type="ThemRole" value="Attribute"/>
          </ARGS>
         </PRED>
         <PRED value="consider">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="E"/>
           <ARG type="ThemRole" value="Agent"/>
           <ARG type="ThemRole" value="Theme"/>
          </ARGS>
@@ -247,7 +247,7 @@
        <SEMANTICS>
         <PRED value="consider">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="E"/>
           <ARG type="ThemRole" value="Agent"/>
           <ARG type="ThemRole" value="Theme"/>
          </ARGS>
@@ -275,7 +275,7 @@
        <SEMANTICS>
         <PRED value="consider">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="E"/>
           <ARG type="ThemRole" value="Agent"/>
           <ARG type="ThemRole" value="Theme"/>
          </ARGS>
@@ -303,7 +303,7 @@
        <SEMANTICS>
         <PRED value="consider">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
+          <ARG type="Event" value="E"/>
           <ARG type="ThemRole" value="Agent"/>
           <ARG type="ThemRole" value="Theme"/>
          </ARGS>
@@ -314,7 +314,7 @@
      <SUBCLASSES>
       <VNSUBCLASS ID="consider-29.9-1-1-1">
        <MEMBERS>
-        <MEMBER grouping="consider.01 consider.02" name="consider" verbnet_key="consider#1" wn="consider%2:32:02"/>
+        <MEMBER fn_mapping="Categorization" grouping="consider.01 consider.02" name="consider" verbnet_key="consider#1" wn="consider%2:32:02"/>
        </MEMBERS>
        <THEMROLES/>
        <FRAMES>
@@ -339,7 +339,7 @@
          <SEMANTICS>
           <PRED value="consider">
            <ARGS>
-            <ARG type="Event" value="during(E)"/>
+            <ARG type="Event" value="E"/>
             <ARG type="ThemRole" value="Agent"/>
             <ARG type="ThemRole" value="Theme"/>
            </ARGS>
@@ -370,14 +370,14 @@
          <SEMANTICS>
           <PRED value="characterize">
            <ARGS>
-            <ARG type="Event" value="during(E)"/>
+            <ARG type="Event" value="E"/>
             <ARG type="ThemRole" value="Theme"/>
             <ARG type="ThemRole" value="Attribute"/>
            </ARGS>
           </PRED>
           <PRED value="consider">
            <ARGS>
-            <ARG type="Event" value="during(E)"/>
+            <ARG type="Event" value="E"/>
             <ARG type="ThemRole" value="Agent"/>
             <ARG type="ThemRole" value="Theme"/>
            </ARGS>
@@ -388,7 +388,7 @@
          <DESCRIPTION descriptionNumber="8.1" primary="NP V NP NP" secondary="NP-NP-PRED" xtag=""/>
          <EXAMPLES>
           <EXAMPLE>
-           They considered him a professor.
+           They considered him professor.
           </EXAMPLE>
          </EXAMPLES>
          <SYNTAX>
@@ -408,14 +408,14 @@
          <SEMANTICS>
           <PRED value="characterize">
            <ARGS>
-            <ARG type="Event" value="during(E)"/>
+            <ARG type="Event" value="E"/>
             <ARG type="ThemRole" value="Theme"/>
             <ARG type="ThemRole" value="Attribute"/>
            </ARGS>
           </PRED>
           <PRED value="consider">
            <ARGS>
-            <ARG type="Event" value="during(E)"/>
+            <ARG type="Event" value="E"/>
             <ARG type="ThemRole" value="Agent"/>
             <ARG type="ThemRole" value="Theme"/>
            </ARGS>
@@ -449,14 +449,14 @@
          <SEMANTICS>
           <PRED value="characterize">
            <ARGS>
-            <ARG type="Event" value="during(E)"/>
+            <ARG type="Event" value="E"/>
             <ARG type="ThemRole" value="Theme"/>
             <ARG type="ThemRole" value="Attribute"/>
            </ARGS>
           </PRED>
           <PRED value="consider">
            <ARGS>
-            <ARG type="Event" value="during(E)"/>
+            <ARG type="Event" value="E"/>
             <ARG type="ThemRole" value="Agent"/>
             <ARG type="ThemRole" value="Theme"/>
            </ARGS>
@@ -484,7 +484,7 @@
          <SEMANTICS>
           <PRED value="consider">
            <ARGS>
-            <ARG type="Event" value="during(E)"/>
+            <ARG type="Event" value="E"/>
             <ARG type="ThemRole" value="Agent"/>
             <ARG type="ThemRole" value="Theme"/>
            </ARGS>
@@ -500,10 +500,10 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="consider-29.9-2">
    <MEMBERS>
-    <MEMBER grouping="suspect.01" name="suspect" verbnet_key="suspect#1" wn=""/>
-    <MEMBER grouping="think.01" name="think" verbnet_key="think#1" wn=""/>
-    <MEMBER grouping="suppose.02" name="suppose" verbnet_key="suppose#1" wn=""/>
-    <MEMBER grouping="" name="posit" verbnet_key="posit#1" wn="postulate%2:31:00"/>
+    <MEMBER fn_mapping="Awareness" grouping="suspect.01" name="suspect" verbnet_key="suspect#1" wn=""/>
+    <MEMBER fn_mapping="Regard" grouping="think.01" name="think" verbnet_key="think#1" wn=""/>
+    <MEMBER fn_mapping="Opinion" grouping="suppose.02" name="suppose" verbnet_key="suppose#1" wn=""/>
+    <MEMBER fn_mapping="None" grouping="" name="posit" verbnet_key="posit#1" wn="postulate%2:31:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -511,7 +511,7 @@
      <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADJ" secondary="NP-ADJP-PRED" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
-       They thought him stupid.
+       They considered him stupid.
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
@@ -531,14 +531,14 @@
      <SEMANTICS>
       <PRED value="characterize">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Theme"/>
         <ARG type="ThemRole" value="Attribute"/>
        </ARGS>
       </PRED>
       <PRED value="consider">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
@@ -549,7 +549,7 @@
      <DESCRIPTION descriptionNumber="8.1" primary="NP V NP NP" secondary="NP-NP-PRED" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
-       They thought him a professor.
+       They considered him professor.
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
@@ -569,14 +569,14 @@
      <SEMANTICS>
       <PRED value="characterize">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Theme"/>
         <ARG type="ThemRole" value="Attribute"/>
        </ARGS>
       </PRED>
       <PRED value="consider">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
@@ -587,7 +587,7 @@
      <DESCRIPTION descriptionNumber="8.1" primary="NP V NP to be NP" secondary="NP-TOBE" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
-       They thought him to be the professor.
+       They considered him to be the professor.
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
@@ -604,7 +604,7 @@
      <SEMANTICS>
       <PRED value="consider">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
@@ -615,7 +615,7 @@
      <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADJ" secondary="NP-VEN-NP-OMIT" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
-       They thought the children found.
+       They considered the children found.
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
@@ -637,14 +637,14 @@
      <SEMANTICS>
       <PRED value="characterize">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Theme"/>
         <ARG type="ThemRole" value="Attribute"/>
        </ARGS>
       </PRED>
       <PRED value="consider">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
@@ -655,7 +655,7 @@
      <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
-       They thought that he was the professor.
+       They considered that he was the professor.
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
@@ -672,7 +672,7 @@
      <SEMANTICS>
       <PRED value="consider">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="E"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>

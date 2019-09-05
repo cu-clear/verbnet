@@ -2,40 +2,40 @@
 <VNCLASS ID="build-26.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--REMOVED "cook_up" and "hatch" misclassified-->
-  <MEMBER grouping="arrange.01" name="arrange" verbnet_key="arrange#1" wn="arrange%2:35:00 arrange%2:29:00 arrange%2:36:00"/>
-  <MEMBER grouping="assemble.01" name="assemble" verbnet_key="assemble#1" wn="assemble%2:36:00"/>
-  <MEMBER grouping="bake.01" name="bake" verbnet_key="bake#1" wn="bake%2:36:00"/>
-  <MEMBER grouping="bead.02" name="bead" verbnet_key="bead#1" wn="bead%2:36:00 bead%2:35:00"/>
-  <MEMBER grouping="blow.07" name="blow" verbnet_key="blow#1" wn="blow%2:30:08"/>
-  <MEMBER grouping="cast.02" name="cast" verbnet_key="cast#1" wn="cast%2:36:00"/>
-  <MEMBER grouping="" name="chisel" verbnet_key="chisel#1" wn="chisel%2:35:00"/>
-  <MEMBER grouping="" name="churn" verbnet_key="churn#1" wn="churn%2:35:00"/>
-  <MEMBER grouping="compile.01" name="compile" verbnet_key="compile#1" wn="compile%2:36:00"/>
-  <MEMBER grouping="cook.01 cook.02" name="cook" verbnet_key="cook#1" wn="cook%2:36:01 cook%2:36:00 cook%2:30:00 cook%2:30:03"/>
-  <MEMBER grouping="" name="crochet" verbnet_key="crochet#1" wn="crochet%2:36:01"/>
-  <MEMBER grouping="develop.01 develop.02 develop.03" name="develop" verbnet_key="develop#2" wn="develop%2:36:01 develop%2:30:01 develop%2:39:00"/>
-  <MEMBER grouping="" name="embroider" verbnet_key="embroider#1" wn="embroider%2:36:00"/>
-  <MEMBER grouping="erect.01" name="erect" verbnet_key="erect#1" wn=""/>
-  <MEMBER grouping="fashion.01" name="fashion" verbnet_key="fashion#1" wn="fashion%2:36:00"/>
-  <MEMBER grouping="fold.01" name="fold" verbnet_key="fold#1" wn="fold%2:35:00"/>
-  <MEMBER grouping="forge.01" name="forge" verbnet_key="forge#1" wn="forge%2:36:00 forge%2:36:03 forge%2:36:02"/>
-  <MEMBER grouping="formulate.03" name="formulate" verbnet_key="formulate#1" wn=""/>
-  <MEMBER grouping="grind.05" name="grind" verbnet_key="grind#1" wn=""/>
-  <MEMBER grouping="grow.02" name="grow" verbnet_key="grow#3" wn="grow%2:30:01 grow%2:36:00"/>
-  <MEMBER grouping="hack.01" name="hack" verbnet_key="hack#1" wn="?hack%2:35:02"/>
-  <MEMBER grouping="hammer.02" name="hammer" verbnet_key="hammer#1" wn="hammer%2:36:00"/>
-  <MEMBER grouping="knit.01" name="knit" verbnet_key="knit#1" wn="knit%2:36:00"/>
-  <MEMBER grouping="" name="mold" verbnet_key="mold#1" wn="mold%2:36:02 mold%2:36:00 mold%2:36:01"/>
-  <MEMBER grouping="" name="pound" verbnet_key="pound#1" wn=""/>
-  <MEMBER grouping="" name="reassemble" verbnet_key="reassemble#1" wn="reassemble%2:36:00"/>
-  <MEMBER grouping="" name="refashion" verbnet_key="refashion#1" wn="refashion%2:36:01"/>
-  <MEMBER grouping="roll.02" name="roll" verbnet_key="roll#1" wn="roll%2:30:10"/>
-  <MEMBER grouping="" name="sculpture" verbnet_key="sculpture#1" wn=""/>
-  <MEMBER grouping="sew.02" name="sew" verbnet_key="sew#1" wn="sew%2:36:00"/>
-  <MEMBER grouping="spin.02" name="spin" verbnet_key="spin#1" wn="spin%2:36:00 spin%2:35:00"/>
-  <MEMBER grouping="" name="stitch" verbnet_key="stitch#1" wn="stitch%2:35:00"/>
-  <MEMBER grouping="weave.02" name="weave" verbnet_key="weave#1" wn="weave%2:36:00"/>
-  <MEMBER grouping="" name="whittle" verbnet_key="whittle#1" wn="whittle%2:35:00"/>
+  <MEMBER fn_mapping="Placing" grouping="arrange.01" name="arrange" verbnet_key="arrange#1" wn="arrange%2:35:00 arrange%2:29:00 arrange%2:36:00"/>
+  <MEMBER fn_mapping="Building" grouping="assemble.01" name="assemble" verbnet_key="assemble#1" wn="assemble%2:36:00"/>
+  <MEMBER fn_mapping="Cooking_creation" grouping="bake.01" name="bake" verbnet_key="bake#1" wn="bake%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="bead.02" name="bead" verbnet_key="bead#1" wn="bead%2:36:00 bead%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="blow.07" name="blow" verbnet_key="blow#1" wn="blow%2:30:08"/>
+  <MEMBER fn_mapping="Create_physical_artwork" grouping="cast.02" name="cast" verbnet_key="cast#1" wn="cast%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="chisel" verbnet_key="chisel#1" wn="chisel%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="churn" verbnet_key="churn#1" wn="churn%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="compile.01" name="compile" verbnet_key="compile#1" wn="compile%2:36:00"/>
+  <MEMBER fn_mapping="Apply_heat" grouping="cook.01 cook.02" name="cook" verbnet_key="cook#1" wn="cook%2:36:01 cook%2:36:00 cook%2:30:00 cook%2:30:03"/>
+  <MEMBER fn_mapping="None" grouping="" name="crochet" verbnet_key="crochet#1" wn="crochet%2:36:01"/>
+  <MEMBER fn_mapping="Coming_to_be" grouping="develop.01 develop.02 develop.03" name="develop" verbnet_key="develop#2" wn="develop%2:36:01 develop%2:30:01 develop%2:39:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="embroider" verbnet_key="embroider#1" wn="embroider%2:36:00"/>
+  <MEMBER fn_mapping="Building" grouping="erect.01" name="erect" verbnet_key="erect#1" wn=""/>
+  <MEMBER fn_mapping="Building" grouping="fashion.01" name="fashion" verbnet_key="fashion#1" wn="fashion%2:36:00"/>
+  <MEMBER fn_mapping="Reshaping" grouping="fold.01" name="fold" verbnet_key="fold#2" wn="fold%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="forge.01" name="forge" verbnet_key="forge#1" wn="forge%2:36:00 forge%2:36:03 forge%2:36:02"/>
+  <MEMBER fn_mapping="None" grouping="formulate.03" name="formulate" verbnet_key="formulate#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="grind.05" name="grind" verbnet_key="grind#1" wn=""/>
+  <MEMBER fn_mapping="Cause_expansion" grouping="grow.02" name="grow" verbnet_key="grow#3" wn="grow%2:30:01 grow%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="hack.01" name="hack" verbnet_key="hack#1" wn="?hack%2:35:02"/>
+  <MEMBER fn_mapping="None" grouping="hammer.02" name="hammer" verbnet_key="hammer#1" wn="hammer%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="knit.01" name="knit" verbnet_key="knit#1" wn="knit%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="mold" verbnet_key="mold#1" wn="mold%2:36:02 mold%2:36:00 mold%2:36:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="pound" verbnet_key="pound#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="reassemble" verbnet_key="reassemble#1" wn="reassemble%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="refashion" verbnet_key="refashion#1" wn="refashion%2:36:01"/>
+  <MEMBER fn_mapping="Reshaping" grouping="roll.02" name="roll" verbnet_key="roll#2" wn="roll%2:30:10"/>
+  <MEMBER fn_mapping="None" grouping="" name="sculpture" verbnet_key="sculpture#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="sew.02" name="sew" verbnet_key="sew#1" wn="sew%2:36:00"/>
+  <MEMBER fn_mapping="Processing_materials" grouping="spin.02" name="spin" verbnet_key="spin#1" wn="spin%2:36:00 spin%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="stitch" verbnet_key="stitch#1" wn="stitch%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="weave.02" name="weave" verbnet_key="weave#1" wn="weave%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="whittle" verbnet_key="whittle#1" wn="whittle%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--Material is Patient in intersective classes-->
@@ -70,7 +70,7 @@
    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
    <EXAMPLES>
     <EXAMPLE>
-     Martha carves toys.
+     Martha carved a toy.
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
@@ -83,106 +83,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="?Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="?Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="?Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="1.2.1" primary="NP V" secondary="Unspecified Object" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Martha carves.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="?Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="?Product"/>
-      <ARG type="ThemRole" value="?Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Product"/>
-     </ARGS>
-    </PRED>
-    <PRED value="exist">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="?Product"/>
-     </ARGS>
-    </PRED>
-    <PRED value="made_of">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="?Product"/>
-      <ARG type="ThemRole" value="?Material"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -210,47 +139,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -278,47 +195,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -346,47 +251,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="?Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="?Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="?Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">
@@ -423,47 +316,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">
@@ -503,47 +384,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">
@@ -577,47 +446,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="?Product"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="?Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="?Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="?Product"/>
       <ARG type="ThemRole" value="Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">
@@ -657,47 +514,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
       <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
+      <ARG type="Event" value="e1"/>
      </ARGS>
     </PRED>
-    <PRED bool="!" value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Product"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="be">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">
@@ -726,47 +571,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="?Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -797,47 +630,35 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="?Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="?Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="?Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
     <PRED value="benefit">
@@ -849,6 +670,7 @@
     <PRED value="cost">
      <ARGS>
       <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="Asset"/>
      </ARGS>
     </PRED>
@@ -883,52 +705,41 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="path_rel">
+    <PRED bool="!" value="be">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Initial_State"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="result(E)"/>
-      <ARG type="ThemRole" value="Product"/>
-      <ARG type="ThemRole" value="Material"/>
-      <ARG type="Constant" value="ch_of_state"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="exist">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
-    <PRED value="exist">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
      </ARGS>
     </PRED>
     <PRED value="made_of">
      <ARGS>
-      <ARG type="Event" value="result(E)"/>
+      <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="Material"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
     <PRED value="cost">
      <ARGS>
       <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Product"/>
       <ARG type="ThemRole" value="Asset"/>
      </ARGS>
     </PRED>
@@ -938,13 +749,13 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="build-26.1-1">
    <MEMBERS>
-    <MEMBER grouping="build.01" name="build" verbnet_key="build#2" wn="build%2:36:00"/>
-    <MEMBER grouping="carve.01" name="carve" verbnet_key="carve#1" wn="carve%2:35:01"/>
-    <MEMBER grouping="cut.03" name="cut" verbnet_key="cut#2" wn="cut%2:36:00 cut%2:36:11"/>
-    <MEMBER grouping="make.02 make.06 make.08 make.09 make.11 make.13" name="make" verbnet_key="make#2" wn="make%2:36:01 make%2:36:05 make%2:42:05 make%2:36:13 make%2:36:07 make%2:42:09 make%2:42:13 make%2:36:10"/>
-    <MEMBER grouping="" name="remake" verbnet_key="remake#1" wn="remake%2:36:00"/>
-    <MEMBER grouping="" name="sculpt" verbnet_key="sculpt#1" wn="sculpt%2:36:00 sculpt%2:35:00"/>
-    <MEMBER grouping="shape.01" name="shape" verbnet_key="shape#1" wn="shape%2:36:00 shape%2:30:00"/>
+    <MEMBER fn_mapping="Building" grouping="build.01" name="build" verbnet_key="build#2" wn="build%2:36:00"/>
+    <MEMBER fn_mapping="Create_representation" grouping="carve.01" name="carve" verbnet_key="carve#1" wn="carve%2:35:01"/>
+    <MEMBER fn_mapping="None" grouping="cut.03" name="cut" verbnet_key="cut#3" wn="cut%2:36:00 cut%2:36:11"/>
+    <MEMBER fn_mapping="Manufacturing" grouping="make.02 make.06 make.08 make.09 make.11 make.13" name="make" verbnet_key="make#2" wn="make%2:36:01 make%2:36:05 make%2:42:05 make%2:36:13 make%2:36:07 make%2:42:09 make%2:42:13 make%2:36:10"/>
+    <MEMBER fn_mapping="None" grouping="" name="remake" verbnet_key="remake#1" wn="remake%2:36:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="sculpt" verbnet_key="sculpt#1" wn="sculpt%2:36:00 sculpt%2:35:00"/>
+    <MEMBER fn_mapping="Reshaping" grouping="shape.01" name="shape" verbnet_key="shape#1" wn="shape%2:36:00 shape%2:30:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -971,52 +782,41 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="path_rel">
+      <PRED bool="!" value="be">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="?Initial_State"/>
-        <ARG type="ThemRole" value="?Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
-       </ARGS>
-      </PRED>
-      <PRED value="path_rel">
-       <ARGS>
-        <ARG type="Event" value="result(E)"/>
-        <ARG type="ThemRole" value="Product"/>
-        <ARG type="ThemRole" value="?Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
-       </ARGS>
-      </PRED>
-      <PRED bool="!" value="exist">
-       <ARGS>
-        <ARG type="Event" value="start(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Product"/>
        </ARGS>
       </PRED>
-      <PRED value="exist">
+      <PRED value="do">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="be">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
        </ARGS>
       </PRED>
       <PRED value="made_of">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="?Material"/>
        </ARGS>
       </PRED>
       <PRED value="cause">
        <ARGS>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="Event" value="E"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
        </ARGS>
       </PRED>
       <PRED value="cost">
        <ARGS>
         <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="Asset"/>
        </ARGS>
       </PRED>
@@ -1039,52 +839,41 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="path_rel">
+      <PRED bool="!" value="be">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="?Initial_State"/>
-        <ARG type="ThemRole" value="?Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
-       </ARGS>
-      </PRED>
-      <PRED value="path_rel">
-       <ARGS>
-        <ARG type="Event" value="result(E)"/>
-        <ARG type="ThemRole" value="Product"/>
-        <ARG type="ThemRole" value="?Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
-       </ARGS>
-      </PRED>
-      <PRED bool="!" value="exist">
-       <ARGS>
-        <ARG type="Event" value="start(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Product"/>
        </ARGS>
       </PRED>
-      <PRED value="exist">
+      <PRED value="do">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="be">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
        </ARGS>
       </PRED>
       <PRED value="made_of">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="?Material"/>
        </ARGS>
       </PRED>
       <PRED value="cause">
        <ARGS>
-        <ARG type="ThemRole" value="?Agent"/>
-        <ARG type="Event" value="E"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
        </ARGS>
       </PRED>
       <PRED value="cost">
        <ARGS>
         <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="Asset"/>
        </ARGS>
       </PRED>
@@ -1110,47 +899,35 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="path_rel">
+      <PRED bool="!" value="be">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="?Initial_State"/>
-        <ARG type="ThemRole" value="?Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
-       </ARGS>
-      </PRED>
-      <PRED value="path_rel">
-       <ARGS>
-        <ARG type="Event" value="result(E)"/>
         <ARG type="ThemRole" value="Product"/>
-        <ARG type="ThemRole" value="?Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
+        <ARG type="Event" value="e1"/>
        </ARGS>
       </PRED>
-      <PRED bool="!" value="exist">
+      <PRED value="do">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="Product"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
-      <PRED value="exist">
+      <PRED value="be">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
        </ARGS>
       </PRED>
       <PRED value="made_of">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="?Material"/>
        </ARGS>
       </PRED>
       <PRED value="cause">
        <ARGS>
-        <ARG type="ThemRole" value="?Agent"/>
-        <ARG type="Event" value="E"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
        </ARGS>
       </PRED>
       <PRED value="benefit">
@@ -1162,6 +939,7 @@
       <PRED value="cost">
        <ARGS>
         <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="Asset"/>
        </ARGS>
       </PRED>
@@ -1190,52 +968,41 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="path_rel">
+      <PRED bool="!" value="be">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="?Initial_State"/>
-        <ARG type="ThemRole" value="Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
-       </ARGS>
-      </PRED>
-      <PRED value="path_rel">
-       <ARGS>
-        <ARG type="Event" value="result(E)"/>
         <ARG type="ThemRole" value="Product"/>
-        <ARG type="ThemRole" value="Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
+        <ARG type="Event" value="e1"/>
        </ARGS>
       </PRED>
-      <PRED bool="!" value="exist">
+      <PRED value="do">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="Product"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
-      <PRED value="exist">
+      <PRED value="be">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
        </ARGS>
       </PRED>
       <PRED value="made_of">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="Material"/>
        </ARGS>
       </PRED>
       <PRED value="cause">
        <ARGS>
-        <ARG type="ThemRole" value="?Agent"/>
-        <ARG type="Event" value="E"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
        </ARGS>
       </PRED>
       <PRED value="cost">
        <ARGS>
         <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="Asset"/>
        </ARGS>
       </PRED>
@@ -1267,47 +1034,35 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="path_rel">
+      <PRED bool="!" value="be">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="?Initial_State"/>
-        <ARG type="ThemRole" value="Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
-       </ARGS>
-      </PRED>
-      <PRED value="path_rel">
-       <ARGS>
-        <ARG type="Event" value="result(E)"/>
         <ARG type="ThemRole" value="Product"/>
-        <ARG type="ThemRole" value="Material"/>
-        <ARG type="Constant" value="ch_of_state"/>
-        <ARG type="VerbSpecific" value="prep"/>
+        <ARG type="Event" value="e1"/>
        </ARGS>
       </PRED>
-      <PRED bool="!" value="exist">
+      <PRED value="do">
        <ARGS>
-        <ARG type="Event" value="start(E)"/>
-        <ARG type="ThemRole" value="Product"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
        </ARGS>
       </PRED>
-      <PRED value="exist">
+      <PRED value="be">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
        </ARGS>
       </PRED>
       <PRED value="made_of">
        <ARGS>
-        <ARG type="Event" value="result(E)"/>
+        <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="Material"/>
        </ARGS>
       </PRED>
       <PRED value="cause">
        <ARGS>
-        <ARG type="ThemRole" value="?Agent"/>
-        <ARG type="Event" value="E"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
        </ARGS>
       </PRED>
       <PRED value="benefit">
@@ -1319,6 +1074,7 @@
       <PRED value="cost">
        <ARGS>
         <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Product"/>
         <ARG type="ThemRole" value="Asset"/>
        </ARGS>
       </PRED>

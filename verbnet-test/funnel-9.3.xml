@@ -2,14 +2,14 @@
 <VNCLASS ID="funnel-9.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Some members add a predicate specifying instrument-->
-  <MEMBER grouping="dip.01 dip.08" name="dip" verbnet_key="dip#2" wn="dip%2:35:00 dip%2:34:00"/>
-  <MEMBER grouping="dunk.01" name="dunk" verbnet_key="dunk#1" wn="dunk%2:35:00 dunk%2:34:00"/>
-  <MEMBER grouping="" name="ladle" verbnet_key="ladle#1" wn="ladle%2:35:01"/>
-  <MEMBER grouping="" name="hoe" verbnet_key="hoe#1" wn="hoe%2:36:00"/>
-  <MEMBER grouping="scoop.01" name="scoop" verbnet_key="scoop#1" wn="scoop%2:35:01"/>
-  <MEMBER grouping="siphon.01" name="siphon" verbnet_key="siphon#1" wn="siphon%2:35:00"/>
-  <MEMBER grouping="sop.02 sop.04" name="sop" verbnet_key="sop#1" wn="sop%2:35:00"/>
-  <MEMBER grouping="" name="channelize" verbnet_key="channelize#1" wn="channelize%2:38:03"/>
+  <MEMBER fn_mapping="None" grouping="dip.01 dip.08" name="dip" verbnet_key="dip#2" wn="dip%2:35:00 dip%2:34:00"/>
+  <MEMBER fn_mapping="None" grouping="dunk.01" name="dunk" verbnet_key="dunk#1" wn="dunk%2:35:00 dunk%2:34:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="ladle" verbnet_key="ladle#1" wn="ladle%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="hoe" verbnet_key="hoe#1" wn="hoe%2:36:00"/>
+  <MEMBER fn_mapping="None" grouping="scoop.01" name="scoop" verbnet_key="scoop#1" wn="scoop%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="siphon.01" name="siphon" verbnet_key="siphon#1" wn="siphon%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="sop.02 sop.04" name="sop" verbnet_key="sop#1" wn="sop%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="channelize" verbnet_key="channelize#1" wn="channelize%2:38:03"/>
  </MEMBERS>
  <THEMROLES>
   <!--Destination can also be realized as here, there-->
@@ -35,10 +35,15 @@
     <SELRESTR Value="-" type="region"/>
    </SELRESTRS>
   </THEMROLE>
+  <THEMROLE type="Trajectory">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+   </SELRESTRS>
+  </THEMROLE>
  </THEMROLES>
  <FRAMES>
   <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; locative-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      I funneled the mixture into the bottle.
@@ -62,34 +67,119 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
     <PRED value="motion">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë3"/>
       <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Trajectory"/>
      </ARGS>
     </PRED>
-    <PRED value="path_rel">
+    <PRED bool="!" value="has_location">
      <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="ë3"/>
       <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
      </ARGS>
     </PRED>
-    <PRED value="path_rel">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="Event" value="end(E)"/>
+      <ARG type="Event" value="e4"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="Destination"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP-PP; Initial_Location-PP, Destination-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I funneled the mixture from the measuring cup into the bottle.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="src_conf"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Initial_Location">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="dest_conf"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Trajectory"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -117,34 +207,111 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="motion">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="?Initial_Location"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
      </ARGS>
     </PRED>
-    <PRED value="path_rel">
+    <PRED value="do">
      <ARGS>
-      <ARG type="Event" value="end(E)"/>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Trajectory"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="Destination"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
      </ARGS>
     </PRED>
     <PRED value="cause">
      <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.trajectory" secondary="NP-PP; Trajectory-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I funneled the mixture through the pipe.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="spatial"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Trajectory">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Trajectory"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Initial_Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -153,17 +320,17 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="funnel-9.3-1">
    <MEMBERS>
-    <MEMBER grouping="channel.01" name="channel" verbnet_key="channel#1" wn="channel%2:38:01 channel%2:38:00 channel%2:35:00"/>
-    <MEMBER grouping="fit.02" name="fit" verbnet_key="fit#2" wn="fit%2:42:02 fit%2:42:03"/>
-    <MEMBER grouping="rake.01" name="rake" verbnet_key="rake#1" wn="rake%2:35:00"/>
-    <MEMBER grouping="" name="scrape" verbnet_key="scrape#2" wn=""/>
-    <MEMBER grouping="" name="shovel" verbnet_key="shovel#1" wn="shovel%2:35:00"/>
-    <MEMBER grouping="" name="spoon" verbnet_key="spoon#1" wn="spoon%2:35:00"/>
-    <MEMBER grouping="" name="squash" verbnet_key="squash#3" wn=""/>
-    <MEMBER grouping="" name="squish" verbnet_key="squish#2" wn="squish%2:35:00"/>
-    <MEMBER grouping="tuck.01" name="tuck" verbnet_key="tuck#1" wn="tuck%2:35:00"/>
-    <MEMBER grouping="wipe.01" name="wipe" verbnet_key="wipe#1" wn="?wipe%2:35:00"/>
-    <MEMBER grouping="wring.01" name="wring" verbnet_key="wring#2" wn="wring%2:35:02"/>
+    <MEMBER fn_mapping="None" grouping="channel.01" name="channel" verbnet_key="channel#1" wn="channel%2:38:01 channel%2:38:00 channel%2:35:00"/>
+    <MEMBER fn_mapping="None" grouping="fit.02" name="fit" verbnet_key="fit#3" wn="fit%2:42:02 fit%2:42:03"/>
+    <MEMBER fn_mapping="None" grouping="rake.01" name="rake" verbnet_key="rake#1" wn="rake%2:35:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="scrape" verbnet_key="scrape#2" wn=""/>
+    <MEMBER fn_mapping="None" grouping="" name="shovel" verbnet_key="shovel#1" wn="shovel%2:35:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="spoon" verbnet_key="spoon#1" wn="spoon%2:35:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="squash" verbnet_key="squash#4" wn=""/>
+    <MEMBER fn_mapping="None" grouping="" name="squish" verbnet_key="squish#3" wn="squish%2:35:00"/>
+    <MEMBER fn_mapping="Placing" grouping="tuck.01" name="tuck" verbnet_key="tuck#1" wn="tuck%2:35:00"/>
+    <MEMBER fn_mapping="None" grouping="wipe.01" name="wipe" verbnet_key="wipe#1" wn="?wipe%2:35:00"/>
+    <MEMBER fn_mapping="Manipulation" grouping="wring.01" name="wring" verbnet_key="wring#2" wn="wring%2:35:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -192,34 +359,44 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="motion">
+      <PRED value="has_location">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="path_rel">
-       <ARGS>
-        <ARG type="Event" value="start(E)"/>
+        <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Theme"/>
         <ARG type="ThemRole" value="?Initial_Location"/>
-        <ARG type="Constant" value="ch_of_loc"/>
-        <ARG type="VerbSpecific" value="prep"/>
        </ARGS>
       </PRED>
-      <PRED value="path_rel">
+      <PRED value="do">
        <ARGS>
-        <ARG type="Event" value="end(E)"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="ë3"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Trajectory"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="has_location">
+       <ARGS>
+        <ARG type="Event" value="ë3"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Initial_Location"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_location">
+       <ARGS>
+        <ARG type="Event" value="e4"/>
         <ARG type="ThemRole" value="Theme"/>
         <ARG type="ThemRole" value="Destination"/>
-        <ARG type="Constant" value="ch_of_loc"/>
-        <ARG type="VerbSpecific" value="prep"/>
        </ARGS>
       </PRED>
       <PRED value="cause">
        <ARGS>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="Event" value="E"/>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="ë3"/>
        </ARGS>
       </PRED>
      </SEMANTICS>
@@ -228,17 +405,17 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="funnel-9.3-1-1">
      <MEMBERS>
-      <MEMBER grouping="bang.01" name="bang" verbnet_key="bang#2" wn="bang%2:35:02"/>
-      <MEMBER grouping="dump.02" name="dump" verbnet_key="dump#1" wn="dump%2:40:00"/>
-      <MEMBER grouping="funnel.01" name="funnel" verbnet_key="funnel#1" wn="funnel%2:35:00"/>
-      <MEMBER grouping="hammer.01" name="hammer" verbnet_key="hammer#3" wn="hammer%2:35:00 hammer%2:36:00"/>
-      <MEMBER grouping="pound.01" name="pound" verbnet_key="pound#2" wn="pound%2:30:03"/>
-      <MEMBER grouping="push.01" name="push" verbnet_key="push#2" wn="push%2:38:00"/>
-      <MEMBER grouping="ram.05" name="ram" verbnet_key="ram#2" wn="ram%2:35:03"/>
-      <MEMBER grouping="shake.01" name="shake" verbnet_key="shake#4" wn="shake%2:30:01"/>
-      <MEMBER grouping="squeeze.03" name="squeeze" verbnet_key="squeeze#1" wn="squeeze%2:35:03"/>
-      <MEMBER grouping="sweep.02" name="sweep" verbnet_key="sweep#1" wn="sweep%2:35:00"/>
-      <MEMBER grouping="" name="wedge" verbnet_key="wedge#1" wn="wedge%2:35:01 wedge%2:35:00"/>
+      <MEMBER fn_mapping="Impact" grouping="bang.01" name="bang" verbnet_key="bang#2" wn="bang%2:35:02"/>
+      <MEMBER fn_mapping="None" grouping="dump.02" name="dump" verbnet_key="dump#1" wn="dump%2:40:00"/>
+      <MEMBER fn_mapping="None" grouping="funnel.01" name="funnel" verbnet_key="funnel#1" wn="funnel%2:35:00"/>
+      <MEMBER fn_mapping="Cause_harm" grouping="hammer.01" name="hammer" verbnet_key="hammer#3" wn="hammer%2:35:00 hammer%2:36:00"/>
+      <MEMBER fn_mapping="None" grouping="pound.01" name="pound" verbnet_key="pound#2" wn="pound%2:30:03"/>
+      <MEMBER fn_mapping="Cause_motion" grouping="push.01" name="push" verbnet_key="push#2" wn="push%2:38:00"/>
+      <MEMBER fn_mapping="None" grouping="ram.05" name="ram" verbnet_key="ram#2" wn="ram%2:35:03"/>
+      <MEMBER fn_mapping="Moving_in_place" grouping="shake.01" name="shake" verbnet_key="shake#4" wn="shake%2:30:01"/>
+      <MEMBER fn_mapping="Cause_to_move_in_place" grouping="squeeze.03" name="squeeze" verbnet_key="squeeze#1" wn="squeeze%2:35:03"/>
+      <MEMBER fn_mapping="None" grouping="sweep.02" name="sweep" verbnet_key="sweep#1" wn="sweep%2:35:00"/>
+      <MEMBER fn_mapping="None" grouping="" name="wedge" verbnet_key="wedge#1" wn="wedge%2:35:01 wedge%2:35:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -262,28 +439,32 @@
         </NP>
        </SYNTAX>
        <SEMANTICS>
-        <PRED value="motion">
+        <PRED value="has_location">
          <ARGS>
-          <ARG type="Event" value="during(E)"/>
-          <ARG type="ThemRole" value="Theme"/>
-         </ARGS>
-        </PRED>
-        <PRED value="path_rel">
-         <ARGS>
-          <ARG type="Event" value="start(E)"/>
+          <ARG type="Event" value="e1"/>
           <ARG type="ThemRole" value="Theme"/>
           <ARG type="ThemRole" value="?Initial_Location"/>
-          <ARG type="Constant" value="ch_of_loc"/>
-          <ARG type="VerbSpecific" value="prep"/>
          </ARGS>
         </PRED>
-        <PRED value="path_rel">
+        <PRED value="motion">
          <ARGS>
-          <ARG type="Event" value="end(E)"/>
+          <ARG type="Event" value="ë2"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="?Trajectory"/>
+         </ARGS>
+        </PRED>
+        <PRED bool="!" value="has_location">
+         <ARGS>
+          <ARG type="Event" value="ë2"/>
+          <ARG type="ThemRole" value="Theme"/>
+          <ARG type="ThemRole" value="?Initial_Location"/>
+         </ARGS>
+        </PRED>
+        <PRED value="has_location">
+         <ARGS>
+          <ARG type="Event" value="e3"/>
           <ARG type="ThemRole" value="Theme"/>
           <ARG type="ThemRole" value="Destination"/>
-          <ARG type="Constant" value="ch_of_loc"/>
-          <ARG type="VerbSpecific" value="prep"/>
          </ARGS>
         </PRED>
        </SEMANTICS>

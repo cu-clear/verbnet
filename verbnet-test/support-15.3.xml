@@ -1,17 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="support-15.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="hold.01" name="hold" verbnet_key="hold#9" wn=""/>
-  <MEMBER grouping="" name="bear" verbnet_key="bear#3" wn=""/>
+  <MEMBER fn_mapping="None" grouping="hold.01" name="hold" verbnet_key="hold#10" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="bear" verbnet_key="bear#3" wn=""/>
  </MEMBERS>
  <THEMROLES>
-  <THEMROLE type="Agent">
+  <THEMROLE type="Pivot">
    <SELRESTRS/>
   </THEMROLE>
   <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Instrument">
    <SELRESTRS/>
   </THEMROLE>
  </THEMROLES>
@@ -20,11 +17,11 @@
    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
-     This wall bears the weight of the roof.
+     This rock bears the weight of the fallen tree.
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
-    <NP value="Instrument">
+    <NP value="Pivot">
      <SYNRESTRS/>
     </NP>
     <VERB/>
@@ -35,10 +32,9 @@
    <SEMANTICS>
     <PRED value="support">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="?Agent"/>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Pivot"/>
       <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Instrument"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -47,16 +43,23 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="support-15.3-1">
    <MEMBERS>
-    <MEMBER grouping="bolster.01 bolster.02" name="bolster" verbnet_key="bolster#1" wn=""/>
-    <MEMBER grouping="boost.01 boost.02" name="boost" verbnet_key="boost#2" wn=""/>
-    <MEMBER grouping="" name="buttress" verbnet_key="buttress#1" wn=""/>
-    <MEMBER grouping="buoy.01" name="buoy" verbnet_key="buoy#1" wn=""/>
-    <MEMBER grouping="hold.03" name="hold-up" verbnet_key="hold-up#1" wn=""/>
-    <MEMBER grouping="reinforce.01" name="reinforce" verbnet_key="reinforce#1" wn=""/>
-    <MEMBER grouping="strengthen.01" name="strengthen" verbnet_key="strengthen#2" wn=""/>
-    <MEMBER grouping="support.01" name="support" verbnet_key="support#4" wn=""/>
+    <MEMBER fn_mapping="None" grouping="bolster.01 bolster.02" name="bolster" verbnet_key="bolster#1" wn=""/>
+    <MEMBER fn_mapping="None" grouping="boost.01 boost.02" name="boost" verbnet_key="boost#2" wn=""/>
+    <MEMBER fn_mapping="None" grouping="" name="buttress" verbnet_key="buttress#1" wn=""/>
+    <MEMBER fn_mapping="None" grouping="buoy.01" name="buoy" verbnet_key="buoy#1" wn=""/>
+    <MEMBER fn_mapping="None" grouping="hold.03" name="hold_up" verbnet_key="hold_up#1" wn=""/>
+    <MEMBER fn_mapping="None" grouping="reinforce.01" name="reinforce" verbnet_key="reinforce#1" wn=""/>
+    <MEMBER fn_mapping="None" grouping="strengthen.01" name="strengthen" verbnet_key="strengthen#2" wn=""/>
+    <MEMBER fn_mapping="None" grouping="support.01" name="support" verbnet_key="support#4" wn=""/>
    </MEMBERS>
-   <THEMROLES/>
+   <THEMROLES>
+    <THEMROLE type="Agent">
+     <SELRESTRS/>
+    </THEMROLE>
+    <THEMROLE type="Instrument">
+     <SELRESTRS/>
+    </THEMROLE>
+   </THEMROLES>
    <FRAMES>
     <FRAME>
      <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP PP;PP-instrument" xtag=""/>
@@ -84,12 +87,30 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
+      <PRED value="do">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="utilize">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Instrument"/>
+       </ARGS>
+      </PRED>
       <PRED value="support">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="Event" value="e2"/>
         <ARG type="ThemRole" value="Instrument"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
        </ARGS>
       </PRED>
      </SEMANTICS>

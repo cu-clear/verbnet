@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="keep-15.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER grouping="" name="hoard" verbnet_key="hoard#1" wn="hoard%2:40:01"/>
-  <MEMBER grouping="hold.03" name="hold" verbnet_key="hold#7" wn="hold%2:42:00 hold%2:40:02"/>
-  <MEMBER grouping="keep.03" name="keep" verbnet_key="keep#2" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10"/>
-  <MEMBER grouping="leave.02" name="leave" verbnet_key="leave#5" wn="leave%2:40:06 leave%2:31:02"/>
-  <MEMBER grouping="store.01" name="store" verbnet_key="store#1" wn="store%2:40:00 store%2:40:02"/>
-  <MEMBER grouping="stock.01" name="stock" verbnet_key="stock#1" wn="stock%2:40:00"/>
-  <MEMBER grouping="" name="stockpile" verbnet_key="stockpile#1" wn="stockpile%2:40:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="hoard" verbnet_key="hoard#1" wn="hoard%2:40:01"/>
+  <MEMBER fn_mapping="Inhibit_movement" grouping="hold.03" name="hold" verbnet_key="hold#8" wn="hold%2:42:00 hold%2:40:02"/>
+  <MEMBER fn_mapping="Storing" grouping="keep.03" name="keep" verbnet_key="keep#2" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10"/>
+  <MEMBER fn_mapping="Forming_relationships" grouping="leave.02" name="leave" verbnet_key="leave#5" wn="leave%2:40:06 leave%2:31:02"/>
+  <MEMBER fn_mapping="Storing" grouping="store.01" name="store" verbnet_key="store#2" wn="store%2:40:00 store%2:40:02"/>
+  <MEMBER fn_mapping="None" grouping="stock.01" name="stock" verbnet_key="stock#1" wn="stock%2:40:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="stockpile" verbnet_key="stockpile#1" wn="stockpile%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -52,17 +52,18 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="location">
+    <PRED value="has_possession">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Location"/>
      </ARGS>
     </PRED>
-    <PRED value="cause">
+    <PRED value="has_location">
      <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
       <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -86,7 +87,7 @@
    <SEMANTICS>
     <PRED value="has_possession">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>

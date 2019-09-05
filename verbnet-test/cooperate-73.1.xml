@@ -22,9 +22,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="cooperate-73.1-1">
    <MEMBERS>
-    <MEMBER grouping="collaborate.01" name="collaborate" verbnet_key="collaborate#2" wn="collaborate%2:41:00 collaborate%2:41:01"/>
-    <MEMBER grouping="cooperate.01" name="cooperate" verbnet_key="cooperate#1" wn="cooperate%2:41:00"/>
-    <MEMBER grouping="join.02 join.03" name="join" verbnet_key="join#1" wn="join%2:41:01"/>
+    <MEMBER fn_mapping="None" grouping="collaborate.01" name="collaborate" verbnet_key="collaborate#2" wn="collaborate%2:41:00 collaborate%2:41:01"/>
+    <MEMBER fn_mapping="None" grouping="cooperate.01" name="cooperate" verbnet_key="cooperate#1" wn="cooperate%2:41:00"/>
+    <MEMBER fn_mapping="None" grouping="join.02 join.03" name="join" verbnet_key="join#1" wn="join%2:41:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -54,7 +54,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent_i"/>
         <ARG type="ThemRole" value="Agent_j"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -92,7 +92,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Co-Agent"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -126,7 +126,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent_i"/>
         <ARG type="ThemRole" value="Agent_j"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -164,7 +164,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Co-Agent"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -198,7 +198,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent_i"/>
         <ARG type="ThemRole" value="Agent_j"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -211,7 +211,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="cooperate-73.1-2">
    <MEMBERS>
-    <MEMBER grouping="participate.01" name="participate" verbnet_key="participate#1" wn="participate%2:41:00 participate%2:33:00"/>
+    <MEMBER fn_mapping="None" grouping="participate.01" name="participate" verbnet_key="participate#1" wn="participate%2:41:00 participate%2:33:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -241,7 +241,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent_i"/>
         <ARG type="ThemRole" value="Agent_j"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -275,7 +275,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent_i"/>
         <ARG type="ThemRole" value="Agent_j"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -288,8 +288,8 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="cooperate-73.1-3">
    <MEMBERS>
-    <MEMBER grouping="" name="labour" verbnet_key="labour#1" wn="labour%2:41:01"/>
-    <MEMBER grouping="work.01" name="work" verbnet_key="work#1" wn="work%2:41:02"/>
+    <MEMBER fn_mapping="None" grouping="" name="labour" verbnet_key="labour#1" wn="labour%2:41:01"/>
+    <MEMBER fn_mapping="None" grouping="work.01" name="work" verbnet_key="work#1" wn="work%2:41:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -319,7 +319,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent_i"/>
         <ARG type="ThemRole" value="Agent_j"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -357,7 +357,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Co-Agent"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -391,7 +391,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent_i"/>
         <ARG type="ThemRole" value="Agent_j"/>
         <ARG type="ThemRole" value="Theme"/>
@@ -429,7 +429,7 @@
      <SEMANTICS>
       <PRED value="cooperate">
        <ARGS>
-        <ARG type="Event" value="during(E)"/>
+        <ARG type="Event" value="e"/>
         <ARG type="ThemRole" value="Agent"/>
         <ARG type="ThemRole" value="Co-Agent"/>
         <ARG type="ThemRole" value="Theme"/>
