@@ -1,185 +1,241 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="banish-10.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <MEMBER name="banish" wn="banish%2:41:01 banish%2:41:02 banish%2:41:00 banish%2:38:00" grouping="banish.01 banish.02"/>
-        <MEMBER name="deport" wn="deport%2:41:01 deport%2:41:00" grouping="deport.01"/>
-        <MEMBER name="evacuate" wn="evacuate%2:38:01 evacuate%2:38:00" grouping="evacuate.01"/>
-        <MEMBER name="exile" wn="exile%2:41:00" grouping=""/> 
-        <MEMBER name="expel" wn="expel%2:41:00 expel%2:41:01" grouping="expel.01"/>
-        <MEMBER name="extradite" wn="extradite%2:41:00" grouping=""/>
-        <MEMBER name="recall" wn="recall%2:32:02 recall%2:41:00 recall%2:40:00" grouping="recall.02 recall.03"/>
-        <MEMBER name="recuse" wn="recuse%2:32:00" grouping=""/>
-        <MEMBER name="remove" wn="remove%2:30:00 remove%2:41:00 remove%2:40:00 remove%2:41:02 remove%2:38:00" grouping="remove.01"/>
-        <MEMBER name="shanghai" wn="shanghai%2:35:00" grouping=""/>
-        <MEMBER name="turn_away" wn="" grouping=""/>
-        <MEMBER name="turn_back" wn="" grouping=""/>
-        <MEMBER name="turn_out" wn="" grouping=""/>
-        <MEMBER name="boot" wn="boot%2:35:00" grouping="boot.03"/>
-    </MEMBERS>
-    <THEMROLES>
-        <THEMROLE type="Agent">
-            <SELRESTRS logic="or">
-                <SELRESTR Value="+" type="animate"/>
-                <SELRESTR Value="+" type="organization"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Theme">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="animate"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Source">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="location"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Destination">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="location"/>
-                <SELRESTR Value="-" type="region"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <!--"recall" also allow general concrete things (products like playpens)-->
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-            <EXAMPLES>
-                <EXAMPLE>The king banished the general.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>The king banished the general from the army.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP>
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="src"/>
-                    </SELRESTRS>
-                </PREP>
-                <NP value="Source">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
-            <!--"remove"? *remove the book to the table-->
-            <EXAMPLES>
-                <EXAMPLE>The king deported the general to the isle.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP value="to">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Destination">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
-    <SUBCLASSES/>
+<VNCLASS ID="banish-10.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="banish.01 banish.02" name="banish" verbnet_key="banish#1" wn="banish%2:41:01 banish%2:41:02 banish%2:41:00 banish%2:38:00"/>
+  <MEMBER fn_mapping="None" grouping="deport.01" name="deport" verbnet_key="deport#1" wn="deport%2:41:01 deport%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="discharge.02" name="discharge" verbnet_key="discharge#1" wn="discharge%2:41:01 discharge%2:33:00"/>
+  <MEMBER fn_mapping="None" grouping="dismiss.02" name="dismiss" verbnet_key="dismiss#1" wn="dismiss%2:41:00"/>
+  <MEMBER fn_mapping="Escaping" grouping="evacuate.01" name="evacuate" verbnet_key="evacuate#1" wn="evacuate%2:38:01 evacuate%2:38:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="exile" verbnet_key="exile#1" wn="exile%2:41:00"/>
+  <MEMBER fn_mapping="Exclude_member" grouping="expel.01" name="expel" verbnet_key="expel#1" wn="expel%2:41:00 expel%2:41:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="extradite" verbnet_key="extradite#1" wn="extradite%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="recall.02 recall.03" name="recall" verbnet_key="recall#1" wn="recall%2:32:02 recall%2:41:00 recall%2:40:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="recuse" verbnet_key="recuse#1" wn="recuse%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="remove.01" name="remove" verbnet_key="remove#1" wn="remove%2:30:00 remove%2:41:00 remove%2:40:00 remove%2:41:02 remove%2:38:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="shanghai" verbnet_key="shanghai#1" wn="shanghai%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="turn-away" verbnet_key="turn-away#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="turn-back" verbnet_key="turn-back#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="turn-out" verbnet_key="turn-out#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="boot.03" name="boot" verbnet_key="boot#1" wn="boot%2:35:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Source">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Destination">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+    <SELRESTR Value="-" type="region"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <!--"recall" also allow general concrete things (products like playpens)-->
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The king banished the general.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Source"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="Trajectory"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Source"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The king banished the general from the army.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="src"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Source">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="Trajectory"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
+   <!--"remove"? *remove the book to the table-->
+   <EXAMPLES>
+    <EXAMPLE>
+     The king deported the general to the isle.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Source"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="Trajectory"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Source"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="ë3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

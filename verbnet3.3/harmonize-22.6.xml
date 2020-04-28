@@ -1,123 +1,131 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="harmonize-22.6" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <MEMBER name="alternate" wn="" grouping=""/>
-        <MEMBER name="cohere" wn="" grouping=""/>
-        <MEMBER name="couple" wn="" grouping=""/>
-        <MEMBER name="dovetail" wn="" grouping=""/>
-        <MEMBER name="go" wn="" grouping="go.14"/>
-        <MEMBER name="pair" wn="" grouping=""/>
-        <MEMBER name="harmonize" wn="" grouping=""/>
-        <MEMBER name="jibe" wn="" grouping=""/>
-        <MEMBER name="match" wn="" grouping=""/>
-        <MEMBER name="rhyme" wn="" grouping=""/>
-        <MEMBER name="square" wn="" grouping=""/>
-    </MEMBERS>
-    <THEMROLES>
-        <THEMROLE type="Theme">
-            <SELRESTRS/>
-        </THEMROLE>
-        <THEMROLE type="Co-Theme">
-            <SELRESTRS/>
-        </THEMROLE>
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V ADV" secondary="" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Peaches and cream pair well (together).</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Theme">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="plural"/>
-                    </SYNRESTRS>
-                </NP>
-                <VERB/>
-                <ADV/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="harmonize">
-                    <ARGS>
-                        <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Co-Theme"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP" secondary="" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Peaches pair with cream.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Co-Theme"> 
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="harmonize">
-                    <ARGS>
-                        <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Co-Theme"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V ADV PP" secondary="" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Peaches pair well with cream.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <ADV/>
-                <NP value="Co-Theme">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="harmonize">
-                    <ARGS>
-                        <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Co-Theme"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive; Plural Subject" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Blue and grey match.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Theme">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="plural"/>
-                    </SYNRESTRS>
-                </NP>
-                <VERB/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="harmonize">
-                    <ARGS>
-                        <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Co-Theme"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
-    <SUBCLASSES/>
+<VNCLASS ID="harmonize-22.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="" name="alternate" verbnet_key="alternate#3" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="cohere" verbnet_key="cohere#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="couple" verbnet_key="couple#2" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="dovetail" verbnet_key="dovetail#1" wn=""/>
+  <MEMBER fn_mapping="Compatibility" grouping="go.14" name="go" verbnet_key="go#6" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="pair" verbnet_key="pair#2" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="harmonize" verbnet_key="harmonize#2" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="jibe" verbnet_key="jibe#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="match" verbnet_key="match#2" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="rhyme" verbnet_key="rhyme#2" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="square" verbnet_key="square#1" wn=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Co-Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V ADV" secondary="" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Peaches and cream pair well (together).
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="plural"/>
+     </SYNRESTRS>
+    </NP>
+    <VERB/>
+    <ADV/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="harmonize">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Co-Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP" secondary="" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Peaches pair with cream.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Co-Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="harmonize">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Co-Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V ADV PP" secondary="" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Peaches pair well with cream.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <ADV/>
+    <NP value="Co-Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="harmonize">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Co-Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive; Plural Subject" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Blue and grey match.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="plural"/>
+     </SYNRESTRS>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="harmonize">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Co-Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

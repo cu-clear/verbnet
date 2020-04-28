@@ -1,489 +1,554 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="tape-22.4" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <MEMBER name="affix" wn="affix%2:35:00 affix%2:35:01 affix%2:35:02" grouping=""/>
-        <MEMBER name="anchor" wn="anchor%2:35:01" grouping=""/>
-        <MEMBER name="band" wn="band%2:35:00" grouping=""/>
-        <MEMBER name="belt" wn="belt%2:35:01" grouping="belt.03"/>
-        <MEMBER name="bond" wn="bond%2:35:00" grouping="bond.01"/>
-        <MEMBER name="bolt" wn="bolt%2:35:00" grouping="bolt.02"/>
-        <MEMBER name="bracket" wn="?bracket%2:35:00" grouping=""/>
-        <MEMBER name="buckle" wn="buckle%2:35:00" grouping="buckle.01"/>
-        <MEMBER name="button" wn="button%2:35:00" grouping=""/>
-        <MEMBER name="cable" wn="cable%2:35:00" grouping=""/>
-        <MEMBER name="cement" wn="cement%2:35:00" grouping="cement.01"/>
-        <MEMBER name="chain" wn="chain%2:35:00" grouping="chain.02"/>
-        <MEMBER name="cinch" wn="cinch%2:35:00" grouping=""/>
-        <MEMBER name="connect" wn="connect%2:35:00" grouping="connect.01"/> 
-        <MEMBER name="epoxy" wn="epoxy%2:35:00" grouping=""/>
-        <MEMBER name="fasten" wn="fasten%2:35:00 fasten%2:35:01" grouping="fasten.01"/>
-        <MEMBER name="fetter" wn="fetter%2:35:00" grouping=""/>
-        <MEMBER name="glue" wn="glue%2:35:00" grouping="glue.01"/>
-        <MEMBER name="gum" wn="gum%2:35:00" grouping="gum.01"/>
-        <MEMBER name="handcuff" wn="handcuff%2:35:00" grouping=""/>
-        <MEMBER name="harness" wn="harness%2:35:00" grouping="harness.01"/>
-        <MEMBER name="hinge" wn="hinge%2:35:00" grouping=""/>
-        <MEMBER name="hitch" wn="" grouping=""/>
-        <MEMBER name="hook" wn="hook%2:35:00" grouping="hook.01"/>
-        <MEMBER name="knot" wn="knot%2:35:00" grouping=""/>
-        <MEMBER name="lace" wn="lace%2:35:01" grouping="lace.01"/>
-        <MEMBER name="lash" wn="lash%2:35:02" grouping="lash.03"/>
-        <MEMBER name="lasso" wn="?lasso%2:35:00" grouping=""/>
-        <MEMBER name="latch" wn="latch%2:35:00" grouping=""/>
-        <MEMBER name="leash" wn="leash%2:35:00" grouping=""/>
-        <MEMBER name="link" wn="link%2:35:00 link%2:35:02" grouping="link.02"/>
-        <MEMBER name="lock" wn="lock%2:35:00" grouping="lock.01"/>
-        <MEMBER name="loop" wn="loop%2:35:01" grouping="loop.02"/>
-        <MEMBER name="manacle" wn="manacle%2:35:00" grouping=""/>
-        <MEMBER name="moor" wn="moor%2:35:01 moor%2:35:00" grouping=""/>
-        <MEMBER name="muzzle" wn="muzzle%2:40:00 muzzle%2:39:00" grouping=""/>
-        <MEMBER name="nail" wn="nail%2:35:00" grouping="nail.01"/>
-        <MEMBER name="padlock" wn="padlock%2:35:00" grouping=""/>
-        <MEMBER name="paste" wn="paste%2:35:00" grouping="paste.01"/> 
-        <MEMBER name="peg" wn="peg%2:35:00" grouping="peg.03"/>
-        <MEMBER name="pin" wn="pin%2:35:01" grouping="pin.01"/>
-        <MEMBER name="plaster" wn="plaster%2:35:10" grouping=""/>
-        <MEMBER name="rivet" wn="rivet%2:35:00" grouping=""/>
-        <MEMBER name="rope" wn="rope%2:35:00" grouping=""/>
-        <MEMBER name="screw" wn="screw%2:35:01" grouping="screw.01"/>
-        <MEMBER name="seal" wn="seal%2:35:00" grouping="seal.01"/>
-        <MEMBER name="shackle" wn="shackle%2:35:01 shackle%2:35:00" grouping=""/>
-        <MEMBER name="skewer" wn="skewer%2:35:00" grouping=""/>
-        <MEMBER name="solder" wn="solder%2:35:00" grouping=""/>
-        <MEMBER name="staple" wn="staple%2:35:00" grouping=""/>
-        <MEMBER name="stitch" wn="stitch%2:35:00" grouping=""/>
-        <MEMBER name="strap" wn="strap%2:35:00" grouping="strap.01"/>
-        <MEMBER name="string" wn="string%2:35:04" grouping="string.03"/>
-        <MEMBER name="suture" wn="suture%2:35:00" grouping=""/> 
-        <MEMBER name="tack" wn="tack%2:35:00" grouping="tack.01 tack.02"/>
-        <MEMBER name="tape" wn="tape%2:35:00" grouping="tape.01"/>
-        <MEMBER name="tether" wn="tether%2:35:00" grouping=""/>
-        <MEMBER name="thread" wn="" grouping="thread.01"/>
-        <MEMBER name="thumbtack" wn="thumbtack%2:35:00" grouping=""/>
-        <MEMBER name="tie" wn="tie%2:35:00 tie%2:35:01" grouping="tie.01"/>
-        <MEMBER name="trammel" wn="" grouping=""/>
-        <MEMBER name="truss" wn="truss%2:35:02" grouping=""/>
-        <MEMBER name="weld" wn="weld%2:35:00" grouping="weld.01"/>
-        <MEMBER name="wire" wn="wire%2:35:00" grouping="wire.02"/>
-        <MEMBER name="yoke" wn="yoke%2:35:01 yoke%2:35:00" grouping=""/>
-        <MEMBER name="zip" wn="zip%2:35:00" grouping="zip.01"/>
-    </MEMBERS>
-    <THEMROLES>
-        <!--Patient is interpreted as Figure, Co-Patient as Ground-->
-        <!--Each verb specifies an Instrument-->
-        <THEMROLE type="Agent">
-            <SELRESTRS logic="or">
-                <SELRESTR Value="+" type="animate"/>
-                <SELRESTR Value="+" type="machine"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Patient">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="solid"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Co-Patient">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="solid"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Instrument">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="concrete"/>
-                <SELRESTR Value="-" type="animate"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <!--Instrument is realized in the verb-->
-        <THEMROLE type="Result">
-            <SELRESTRS/>
-        </THEMROLE>
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-            <EXAMPLES>
-                <EXAMPLE>Linda taped the picture.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.co-patient" secondary="NP-PP; locative-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Linda taped the picture to the wall.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP value="to on onto">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Co-Patient">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="together">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Co-Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Co-Patient"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.2" primary="NP V NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Linda taped the label and the cover together.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="plural"/>
-                    </SYNRESTRS>
-                </NP>
-                <LEX value="together"/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="together">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_i"/>
-                        <ARG type="ThemRole" value="Patient_j"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_i"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_j"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle PP" secondary="Middle Construction" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>The labels taped easily to that kind of cover.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <ADV/>
-                <PREP value="to on onto">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Co-Patient">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="together">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Co-Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Co-Patient"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>The labels taped easily.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Patient">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="plural"/>
-                    </SYNRESTRS>
-                </NP>
-                <VERB/>
-                <ADV/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="together">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_i"/>
-                        <ARG type="ThemRole" value="Patient_j"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_i"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_j"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle together" secondary="Middle Construction" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>The labels and covers taped easily together.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Patient">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="plural"/>
-                    </SYNRESTRS>
-                </NP>
-                <VERB/>
-                <ADV/>
-                <LEX value="together"/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="together">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_i"/>
-                        <ARG type="ThemRole" value="Patient_j"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_i"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_j"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V together ADV-Middle" secondary="Middle Construction" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>The labels and covers taped together easily.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Patient">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="plural"/>
-                    </SYNRESTRS>
-                </NP>
-                <VERB/>
-                <LEX value="together"/>
-                <ADV/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="together">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_i"/>
-                        <ARG type="ThemRole" value="Patient_j"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_i"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient_j"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Linda taped the box shut.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <NP value="Result">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="attached">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="VerbSpecific" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="?Initial_State"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Result"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
-    <SUBCLASSES>
-        <VNSUBCLASS ID="tape-22.4-1">
-            <MEMBERS>
-                <MEMBER name="clamp" wn="clamp%2:35:00" grouping="clamp.01"/>
-                <MEMBER name="clip" wn="clip%2:35:01" grouping="clip.03"/>
-                <MEMBER name="clasp" wn="clasp%2:35:03 clasp%2:35:02" grouping="clasp.02"/>
-                <MEMBER name="gum" wn="" grouping="gum.01"/>
-                <MEMBER name="paste" wn="paste%2:35:01" grouping="paste.01"/>
-                <MEMBER name="reeve" wn="reeve%2:38:01 reeve%2:38:00 reeve%2:35:00" grouping="reeve.01 reeve.02"/>
-            </MEMBERS>
-            <THEMROLES/>
-            <FRAMES>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.co-patient" secondary="PP; locative-PP" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>It clamped on his ankle.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Patient">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <PREP value="to on onto">
-                            <SELRESTRS/>
-                        </PREP>
-                        <NP value="Co-Patient">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="together">
-                            <ARGS>
-                                <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Patient"/>
-                                <ARG type="ThemRole" value="Co-Patient"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="attached">
-                            <ARGS>
-                                <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Patient"/>
-                                <ARG type="VerbSpecific" value="Instrument"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-            </FRAMES>
-            <SUBCLASSES/>
-        </VNSUBCLASS>
-    </SUBCLASSES>
+<VNCLASS ID="tape-22.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="" name="affix" verbnet_key="affix#2" wn="affix%2:35:00 affix%2:35:01 affix%2:35:02"/>
+  <MEMBER fn_mapping="None" grouping="" name="anchor" verbnet_key="anchor#1" wn="anchor%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="band" verbnet_key="band#2" wn="band%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="belt.03" name="belt" verbnet_key="belt#3" wn="belt%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="bond.01" name="bond" verbnet_key="bond#2" wn="bond%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="bolt.02" name="bolt" verbnet_key="bolt#4" wn="bolt%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="bracket" verbnet_key="bracket#3" wn="?bracket%2:35:00"/>
+  <MEMBER fn_mapping="Closure" grouping="buckle.01" name="buckle" verbnet_key="buckle#1" wn="buckle%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="button" verbnet_key="button#1" wn="button%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="cable" verbnet_key="cable#2" wn="cable%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="cement.01" name="cement" verbnet_key="cement#1" wn="cement%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="chain.02" name="chain" verbnet_key="chain#1" wn="chain%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="cinch" verbnet_key="cinch#1" wn="cinch%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="clamp.01" name="clamp" verbnet_key="clamp#1" wn="clamp%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="clasp.02" name="clasp" verbnet_key="clasp#2" wn="clasp%2:35:03 clasp%2:35:02"/>
+  <MEMBER fn_mapping="None" grouping="clip.03" name="clip" verbnet_key="clip#3" wn="clip%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="connect.01" name="connect" verbnet_key="connect#2" wn="connect%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="epoxy" verbnet_key="epoxy#1" wn="epoxy%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="fasten.01" name="fasten" verbnet_key="fasten#2" wn="fasten%2:35:00 fasten%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="fetter" verbnet_key="fetter#1" wn="fetter%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="glue.01" name="glue" verbnet_key="glue#1" wn="glue%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="gum.01" name="gum" verbnet_key="gum#2" wn="gum%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="handcuff" verbnet_key="handcuff#1" wn="handcuff%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="harness.01" name="harness" verbnet_key="harness#2" wn="harness%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="hinge" verbnet_key="hinge#1" wn="hinge%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="" name="hitch" verbnet_key="hitch#1" wn=""/>
+  <MEMBER fn_mapping="Attaching" grouping="hook.01" name="hook" verbnet_key="hook#4" wn="hook%2:35:00"/>
+  <MEMBER fn_mapping="Rope_manipulation" grouping="" name="knot" verbnet_key="knot#1" wn="knot%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="lace.01" name="lace" verbnet_key="lace#1" wn="lace%2:35:01"/>
+  <MEMBER fn_mapping="Attaching" grouping="lash.03" name="lash" verbnet_key="lash#3" wn="lash%2:35:02"/>
+  <MEMBER fn_mapping="None" grouping="" name="lasso" verbnet_key="lasso#1" wn="?lasso%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="latch" verbnet_key="latch#1" wn="latch%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="leash" verbnet_key="leash#2" wn="leash%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="link.02" name="link" verbnet_key="link#2" wn="link%2:35:00 link%2:35:02"/>
+  <MEMBER fn_mapping="None" grouping="lock.01" name="lock" verbnet_key="lock#1" wn="lock%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="loop.02" name="loop" verbnet_key="loop#2" wn="loop%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="manacle" verbnet_key="manacle#1" wn="manacle%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="" name="moor" verbnet_key="moor#3" wn="moor%2:35:01 moor%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="muzzle" verbnet_key="muzzle#3" wn="muzzle%2:40:00 muzzle%2:39:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="nail.01" name="nail" verbnet_key="nail#1" wn="nail%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="padlock" verbnet_key="padlock#1" wn="padlock%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="paste.01" name="paste" verbnet_key="paste#1" wn="paste%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="paste.01" name="paste" verbnet_key="paste#1" wn="paste%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="peg.03" name="peg" verbnet_key="peg#3" wn="peg%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="pin.01" name="pin" verbnet_key="pin#1" wn="pin%2:35:01"/>
+  <MEMBER fn_mapping="Attaching" grouping="" name="plaster" verbnet_key="plaster#3" wn="plaster%2:35:10"/>
+  <MEMBER fn_mapping="None" grouping="reeve.01 reeve.02" name="reeve" verbnet_key="reeve#1" wn="reeve%2:38:01 reeve%2:38:00 reeve%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="" name="rivet" verbnet_key="rivet#1" wn="rivet%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="rope" verbnet_key="rope#1" wn="rope%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="screw.01" name="screw" verbnet_key="screw#1" wn="screw%2:35:01"/>
+  <MEMBER fn_mapping="Closure" grouping="seal.01" name="seal" verbnet_key="seal#2" wn="seal%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="shackle" verbnet_key="shackle#1" wn="shackle%2:35:01 shackle%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="skewer" verbnet_key="skewer#2" wn="skewer%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="solder" verbnet_key="solder#1" wn="solder%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="staple" verbnet_key="staple#1" wn="staple%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="stitch" verbnet_key="stitch#2" wn="stitch%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="strap.01" name="strap" verbnet_key="strap#2" wn="strap%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="string.03" name="string" verbnet_key="string#5" wn="string%2:35:04"/>
+  <MEMBER fn_mapping="None" grouping="" name="suture" verbnet_key="suture#1" wn="suture%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="tack.01 tack.02" name="tack" verbnet_key="tack#3" wn="tack%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="tape.01" name="tape" verbnet_key="tape#1" wn="tape%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="tether" verbnet_key="tether#1" wn="tether%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="thread.01" name="thread" verbnet_key="thread#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="thumbtack" verbnet_key="thumbtack#1" wn="thumbtack%2:35:00"/>
+  <MEMBER fn_mapping="Knot_creation" grouping="tie.01" name="tie" verbnet_key="tie#2" wn="tie%2:35:00 tie%2:35:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="trammel" verbnet_key="trammel#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="truss" verbnet_key="truss#1" wn="truss%2:35:02"/>
+  <MEMBER fn_mapping="None" grouping="weld.01" name="weld" verbnet_key="weld#3" wn="weld%2:35:00"/>
+  <MEMBER fn_mapping="Attaching" grouping="wire.02" name="wire" verbnet_key="wire#3" wn="wire%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="yoke" verbnet_key="yoke#2" wn="yoke%2:35:01 yoke%2:35:00"/>
+  <MEMBER fn_mapping="Closure" grouping="zip.01" name="zip" verbnet_key="zip#1" wn="zip%2:35:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <!--Patient is interpreted as Figure, Co-Patient as Ground-->
+  <!--Each verb specifies an Instrument-->
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="machine"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="solid"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Co-Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="solid"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Instrument">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+    <SELRESTR Value="-" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <!--Instrument is realized in the verb-->
+  <THEMROLE type="Result">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Linda taped the picture.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="attached">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient_I"/>
+      <ARG type="ThemRole" value="Patient_J"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="attached">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient_I"/>
+      <ARG type="ThemRole" value="Patient_J"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.co-patient" secondary="NP-PP; locative-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Linda taped the picture to the wall.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to on onto">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Co-Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="attached">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="attached">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.co-patient PP.instrument" secondary="NP-PP; locative-PP; Instrument-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Linda taped the picture to the wall with masking tape.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to on onto">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Co-Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="attached">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="attached">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.5.2" primary="NP V NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Linda taped the label and the cover together.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="plural"/>
+     </SYNRESTRS>
+    </NP>
+    <LEX value="together"/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="attached">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="attached">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle PP" secondary="Middle Construction" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The labels taped easily to that kind of cover.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <ADV/>
+    <PREP value="to on onto">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Co-Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="attached">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="attached">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The labels taped easily.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Patient">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="plural"/>
+     </SYNRESTRS>
+    </NP>
+    <VERB/>
+    <ADV/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="attached">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="?Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="?Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="?Agent"/>
+      <ARG type="VerbSpecific" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="attached">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="?Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.1.1" primary="NP V together ADV-Middle" secondary="Middle Construction" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The labels and covers taped together easily.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Patient">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="plural"/>
+     </SYNRESTRS>
+    </NP>
+    <VERB/>
+    <LEX value="together"/>
+    <ADV/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="attached">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="?Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="?Agent"/>
+      <ARG type="VerbSpecific" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="attached">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Co-Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Linda taped the box shut.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Result">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="attached">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient_I"/>
+      <ARG type="ThemRole" value="Patient_J"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="attached">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient_I"/>
+      <ARG type="ThemRole" value="Patient_J"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

@@ -1,0 +1,137 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="dub-29.3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="call.01 call.04 call.05" name="call" verbnet_key="call#2" wn="call%2:32:02 call%2:32:00 call%2:41:14"/>
+  <MEMBER fn_mapping="None" grouping="" name="decree" verbnet_key="decree#1" wn="decree%2:31:00"/>
+  <MEMBER fn_mapping="None" grouping="dub.01" name="dub" verbnet_key="dub#1" wn="dub%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="pronounce.02" name="pronounce" verbnet_key="pronounce#1" wn="pronounce%2:32:01 pronounce%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="rename.01" name="rename" verbnet_key="rename#1" wn="rename%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="rule.02" name="rule" verbnet_key="rule#1" wn="rule%2:31:00"/>
+  <MEMBER fn_mapping="None" grouping="stamp.05" name="stamp" verbnet_key="stamp#3" wn="stamp%2:39:00"/>
+  <MEMBER fn_mapping="None" grouping="term.01" name="term" verbnet_key="term#1" wn="term%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="vote.05" name="vote" verbnet_key="vote#1" wn="vote%2:41:12"/>
+  <MEMBER fn_mapping="None" grouping="" name="anoint" verbnet_key="anoint#1" wn="anoint%2:29:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="baptize" verbnet_key="baptize#1" wn="baptize%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="brand.02" name="brand" verbnet_key="brand#1" wn="brand%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="christen" verbnet_key="christen#1" wn="christen%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="consecrate.03" name="consecrate" verbnet_key="consecrate#1" wn="consecrate%2:41:00 consecrate%2:32:01 consecrate%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="crown.01" name="crown" verbnet_key="crown#3" wn="crown%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="label.01" name="label" verbnet_key="label#2" wn="label%2:32:01"/>
+  <MEMBER fn_mapping="None" grouping="name.01 name.03" name="name" verbnet_key="name#2" wn="name%2:32:03 name%2:41:01 name%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="nickname" verbnet_key="nickname#1" wn="nickname%2:32:00"/>
+  <MEMBER fn_mapping="None" grouping="style.03" name="style" verbnet_key="style#3" wn="style%2:32:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="concrete"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Result">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP NP" secondary="NP-NP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The captain named the ship Seafarer.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Result">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="designated">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="designated">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The captain baptized the ship.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="designated">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="designated">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

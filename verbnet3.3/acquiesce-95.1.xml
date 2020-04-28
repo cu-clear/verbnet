@@ -1,126 +1,196 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="acquiesce-95.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <MEMBER name="accede" wn="accede%2:32:00 accede%2:32:01" grouping="accede.01"/>
-        <MEMBER name="bow" wn="bow%2:32:01" grouping="bow.03"/>
-        <MEMBER name="capitulate" wn="capitulate%2:33:00" grouping=""/>
-        <MEMBER name="defer" wn="defer%2:32:00" grouping="defer.02"/>
-	<MEMBER name="fall" wn="fall%2:40:05" grouping="fall.04"/>
-        <MEMBER name="give_way" wn="give_way%2:38:01 give_way%2:30:01" grouping="give.05"/>
-        <MEMBER name="give_in" wn="give_in%2:32:02 give_in%2:32:01" grouping=""/>
-        <MEMBER name="succumb" wn="succumb%2:32:00" grouping=""/>
-        <MEMBER name="yield" wn="yield%2:30:00 yield%2:40:01 yield%2:33:00 yield%2:32:00" grouping="yield.02"/>
-    </MEMBERS>
-    <THEMROLES>
-        <THEMROLE type="Agent">
-            <SELRESTRS logic="or">
-                <SELRESTR Value="+" type="animate"/>
-                <SELRESTR Value="+" type="organization"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Co-Agent">
-            <SELRESTRS logic="or">
-                <SELRESTR Value="+" type="animate"/>
-                <SELRESTR Value="+" type="organization"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Theme">
-            <SELRESTRS/>
-        </THEMROLE>
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.co-agent" secondary="NP-PP; to-PP" xtag="0.2"/>
-            <EXAMPLES>
-                <EXAMPLE>The enemy soldiers yielded to us.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-		<PREP value="to">
-		    <SELRESTRS/>
-		</PREP>
-                <NP value="Co-Agent">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="yield">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Co-Agent"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="NP-PP; to-PP" xtag="0.2"/>
-            <EXAMPLES>
-                <EXAMPLE>The enemy soldiers submitted to demands.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-		<PREP value="to">
-		    <SELRESTRS/>
-		</PREP>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="yield">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
-    <SUBCLASSES>
-	<VNSUBCLASS ID="acquiesce-95.1-1">
-	    <MEMBERS>
-	        <MEMBER name="acquiesce" wn="acquiesce%2:32:00" grouping=""/>
-                <MEMBER name="consent" wn="consent%2:32:00" grouping="consent.01"/>
-	        <MEMBER name="submit" wn="submit%2:33:00" grouping="submit.01"/>
-	    </MEMBERS>
-	    <THEMROLES/>
-	    <FRAMES>
-		<FRAME>
-		    <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO_INF; N-SC" xtag="0.2"/>
-		    <EXAMPLES>
-			<EXAMPLE>The king acquiesced to be in the same room with the paupers</EXAMPLE>
-		    </EXAMPLES>
-		    <SYNTAX>
-			<NP value="Agent">
-			    <SYNRESTRS/>
-			</NP>
-			<VERB/>
-			<NP value="Theme">
-			    <SYNRESTRS>
-				<SYNRESTR Value="+" type="sc_to_inf"/>
-			    </SYNRESTRS>
-			</NP>
-		    </SYNTAX>
-		    <SEMANTICS>
-			<PRED value="yield">
-			    <ARGS>
-				<ARG type="Event" value="during(E)"/>
-				<ARG type="ThemRole" value="Agent"/>
-				<ARG type="ThemRole" value="Theme"/>
-			    </ARGS>
-			</PRED>
-		    </SEMANTICS>
-		</FRAME>
-	    </FRAMES>
-	    <SUBCLASSES/>
-	</VNSUBCLASS>
-    </SUBCLASSES>
+<VNCLASS ID="acquiesce-95.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="defer.02" name="defer" verbnet_key="defer#1" wn="defer%2:32:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Pivot">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The enemy soldiers yielded.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="yield">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Pivot"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="authority_relationship">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Pivot"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.pivot" secondary="NP-PP; to-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The enemy soldiers yielded to us.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="to">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Pivot">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="yield">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Pivot"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="authority_relationship">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Pivot"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="acquiesce-95.1-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="accede.01" name="accede" verbnet_key="accede#1" wn="accede%2:32:00 accede%2:32:01"/>
+    <MEMBER fn_mapping="None" grouping="bow.03" name="bow" verbnet_key="bow#1" wn="bow%2:32:01"/>
+    <MEMBER fn_mapping="None" grouping="" name="capitulate" verbnet_key="capitulate#1" wn="capitulate%2:33:00"/>  
+    <MEMBER fn_mapping="Conquering" grouping="fall.04" name="fall" verbnet_key="fall#1" wn="fall%2:40:05"/>
+    <MEMBER fn_mapping="None" grouping="give.05" name="give_way" verbnet_key="give_way#1" wn="give_way%2:38:01 give_way%2:30:01"/>
+    <MEMBER fn_mapping="None" grouping="" name="give_in" verbnet_key="give_in#1" wn="give_in%2:32:02 give_in%2:32:01"/>
+    <MEMBER fn_mapping="None" grouping="" name="succumb" verbnet_key="succumb#1" wn="succumb%2:32:00"/>
+    <MEMBER fn_mapping="None" grouping="yield.02" name="yield" verbnet_key="yield#1" wn="yield%2:30:00 yield%2:40:01 yield%2:33:00 yield%2:32:00"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="NP-PP; to-PP" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The enemy soldiers submitted to demands.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="to">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="yield">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Pivot"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="authority_relationship">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Pivot"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="acquiesce-95.1-1-1">
+     <MEMBERS>
+      <MEMBER fn_mapping="None" grouping="" name="acquiesce" verbnet_key="acquiesce#1" wn="acquiesce%2:32:00"/>
+      <MEMBER fn_mapping="None" grouping="consent.01" name="consent" verbnet_key="consent#1" wn="consent%2:32:00"/>
+      <MEMBER fn_mapping="None" grouping="submit.01" name="submit" verbnet_key="submit#1" wn="submit%2:33:00"/>
+     </MEMBERS>
+     <THEMROLES/>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO_INF; N-SC" xtag="0.2"/>
+       <EXAMPLES>
+        <EXAMPLE>
+         The king acquiesced to be in the same room with the paupers
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Theme">
+         <SYNRESTRS>
+          <SYNRESTR Value="+" type="sc_to_inf"/>
+         </SYNRESTRS>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="yield">
+         <ARGS>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="?Pivot"/>
+          <ARG type="ThemRole" value="Theme"/>
+         </ARGS>
+        </PRED>
+        <PRED value="authority_relationship">
+          <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="?Pivot"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

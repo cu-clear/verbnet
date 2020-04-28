@@ -1,236 +1,150 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="chew-39.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS/>
-    <THEMROLES>
-        <THEMROLE type="Agent">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="animate"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Patient">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="comestible"/>
-            </SELRESTRS>
-        </THEMROLE>
-    </THEMROLES>
-    <FRAMES/>
-    <SUBCLASSES>
-        <VNSUBCLASS ID="chew-39.2-1">
-            <MEMBERS>
-                <MEMBER name="chew" wn="chew%2:34:00" grouping="chew.01"/>
-                <MEMBER name="chomp" wn="chomp%2:34:00" grouping=""/>
-                <MEMBER name="crunch" wn="crunch%2:34:00" grouping="crunch.02"/>
-                <MEMBER name="gnaw" wn="gnaw%2:35:00" grouping=""/>
-                <MEMBER name="gum" wn="gum%2:34:00" grouping="gum.02"/>
-                <MEMBER name="masticate" wn="" grouping=""/>
-                <MEMBER name="munch" wn="munch%2:34:00" grouping=""/>
-                <MEMBER name="nibble" wn="nibble%2:35:00 nibble%2:35:02" grouping="nibble.01"/>
-                <MEMBER name="pick" wn="pick%2:34:00" grouping="pick.03"/>
-                <MEMBER name="peck" wn="peck%2:34:01" grouping=""/>
-                <MEMBER name="lick" wn="lick%2:35:00" grouping="lick.01"/>
-                <MEMBER name="teethe" wn="" grouping=""/>
-            </MEMBERS>
-            <THEMROLES>
-                <THEMROLE type="Patient">
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="comestible"/>
-                        <SELRESTR Value="+" type="solid"/>
-                    </SELRESTRS>
-                </THEMROLE>
-            </THEMROLES>
-            <FRAMES>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>Cynthia nibbled the carrot.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <NP value="Patient">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="take_in">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Patient"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Unspecified Object" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>Cynthia nibbled.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="take_in">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="?Patient"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP-Conative" secondary="Conative" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>Cynthia nibbled at the carrot.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <PREP value="at">
-                            <SELRESTRS/>
-                        </PREP>
-                        <NP value="Patient">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="take_in">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Patient"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.patient" secondary="PP; Patient-PP" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>Cynthia nibbled on the carrot.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <PREP value="on">
-                            <SELRESTRS/>
-                        </PREP>
-                        <NP value="Patient">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="take_in">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Patient"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-            </FRAMES>
-            <SUBCLASSES/>
-        </VNSUBCLASS>
-        <VNSUBCLASS ID="chew-39.2-2">
-            <MEMBERS>
-                <MEMBER name="lap" wn="" grouping=""/>
-                <MEMBER name="sip" wn="sip%2:34:00" grouping=""/>
-                <MEMBER name="slurp" wn="slurp%2:34:00" grouping=""/>
-                <MEMBER name="suck" wn="suck%2:34:04" grouping="suck.01"/>
-            </MEMBERS>
-            <THEMROLES>
-                <THEMROLE type="Patient">
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="comestible"/>
-                        <SELRESTR Value="-" type="solid"/>
-                    </SELRESTRS>
-                </THEMROLE>
-            </THEMROLES>
-            <FRAMES>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>Cynthia sipped the drink.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <NP value="Patient">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="take_in">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Patient"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Unspecified Object" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>Cynthia sipped.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="take_in">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="?Patient"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.patient" secondary="PP; Patient-PP" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>Cynthia sipped from the drink.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <PREP value="from">
-                            <SELRESTRS/>
-                        </PREP>
-                        <NP value="Patient">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="take_in">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Patient"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-            </FRAMES>
-            <SUBCLASSES/>
-        </VNSUBCLASS>
-    </SUBCLASSES>
+<VNCLASS ID="chew-39.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER features="+solid" fn_mapping="Grinding" grouping="chew.01" name="chew" verbnet_key="chew#1" wn="chew%2:34:00"/>
+  <MEMBER features="+solid" fn_mapping="None" grouping="" name="chomp" verbnet_key="chomp#1" wn="chomp%2:34:00"/>
+  <MEMBER features="+solid" fn_mapping="None" grouping="crunch.02" name="crunch" verbnet_key="crunch#4" wn="crunch%2:34:00"/>
+  <MEMBER features="+solid" fn_mapping="None" grouping="" name="gnaw" verbnet_key="gnaw#1" wn="gnaw%2:35:00"/>
+  <MEMBER features="+solid" fn_mapping="None" grouping="gum.02" name="gum" verbnet_key="gum#1" wn="gum%2:34:00"/>
+  <MEMBER features="+solid" fn_mapping="None" grouping="" name="masticate" verbnet_key="masticate#1" wn=""/>
+  <MEMBER features="+solid" fn_mapping="None" grouping="" name="munch" verbnet_key="munch#1" wn="munch%2:34:00"/>
+  <MEMBER features="+solid" fn_mapping="Ingestion" grouping="nibble.01" name="nibble" verbnet_key="nibble#1" wn="nibble%2:35:00 nibble%2:35:02"/>
+  <MEMBER features="+solid" fn_mapping="None" grouping="pick.03" name="pick" verbnet_key="pick#1" wn="pick%2:34:00"/>
+  <MEMBER features="+solid" fn_mapping="None" grouping="" name="peck" verbnet_key="peck#1" wn="peck%2:34:01"/>
+  <MEMBER features="+solid" fn_mapping="Manipulation" grouping="lick.01" name="lick" verbnet_key="lick#1" wn="lick%2:35:00"/>
+  <MEMBER features="+solid" fn_mapping="None" grouping="" name="teethe" verbnet_key="teethe#1" wn=""/>
+  <MEMBER features="+liquid" fn_mapping="Ingestion" grouping="" name="lap" verbnet_key="lap#1" wn=""/>
+  <MEMBER features="+liquid" fn_mapping="None" grouping="" name="sip" verbnet_key="sip#1" wn="sip%2:34:00"/>
+  <MEMBER features="+liquid" fn_mapping="None" grouping="" name="slurp" verbnet_key="slurp#1" wn="slurp%2:34:00"/>
+  <MEMBER features="+substance" fn_mapping="None" grouping="suck.01" name="suck" verbnet_key="suck#1" wn="suck%2:34:04"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="comestible"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Unspecified Object" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Cynthia nibbled.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="take_in">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Cynthia nibbled the carrot.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="take_in">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V PP" secondary="Conative" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Cynthia nibbled at the carrot.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="at on from">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="take_in">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

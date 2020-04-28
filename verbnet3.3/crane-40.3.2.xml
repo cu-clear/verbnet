@@ -1,282 +1,339 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="crane-40.3.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <MEMBER features="+shape" grouping="" name="arch" wn="arch%2:38:00" />
-        <MEMBER features="+cover" grouping="bare.01" name="bare" wn="bare%2:35:00" />
-        <MEMBER features="+bodyPartMotion_hand_palm" grouping="bat.03" name="bat" wn="bat%2:29:00" />
-        <MEMBER features="" grouping="beat.02" name="beat" wn="beat%2:35:10" />
-        <MEMBER features="" grouping="blow.01" name="blow" wn="blow%2:29:01" />
-        <MEMBER features="+bodyPartMotion_hand" grouping="" name="clench" wn="clench%2:35:02" />
-        <MEMBER features="+bodyPartMotion_tongue +bodyPartMotion_fingers" grouping="click.02" name="click" wn="click%2:35:00" />
-        <MEMBER features="" grouping="close.01" name="close" wn="close%2:35:00" />
-        <MEMBER features="+shape" grouping="cock.01" name="cock" wn="cock%2:38:01" />
-        <MEMBER features="+bodyPartMotion_neck" grouping="" name="crane" wn="crane%2:29:00" />
-        <MEMBER features="+bodyPartMotion_fingers" grouping="" name="crook" wn="crook%2:38:00" />
-        <MEMBER features="+bodyPartMotion_fingers" grouping="cross.04" name="cross" wn="cross%2:38:04" />
-        <MEMBER features="+bodyPartMotion_fingers" grouping="drum.01" name="drum" wn="" />
-        <MEMBER features="+bodyPartMotion_hands" grouping="flap.01" name="flap" wn="flap%2:38:03" />
-        <MEMBER features="" grouping="flash.02" name="flash" wn="flash%2:39:02" />
-        <MEMBER features="+bodyPartMotion_joint" grouping="flex.01" name="flex" wn="flex%2:38:01" />
-        <MEMBER features="+bodyPartMotion_fingers" grouping="flick.04" name="flick" wn="flick%2:35:02" />
-        <MEMBER features="+bodyPartMotion_eyelashes" grouping="flutter.01" name="flutter" wn="flutter%2:29:00" />
-        <MEMBER features="+bodyPartMotion_joint" grouping="fold.02" name="fold" wn="fold%2:35:00" />
-        <MEMBER features="+bodyPartMotion_teeth" grouping="" name="gnash" wn="gnash%2:29:00" />
-        <MEMBER features="+bodyPartMotion_teeth" grouping="grind.01" name="grind" wn="grind%2:35:00" />
-        <MEMBER features="+bodyPartMotion_head" grouping="hang.03" name="hang" wn="hang%2:38:03" />
-        <MEMBER features="+bodyPartMotion_shoulders" grouping="" name="hunch" wn="hunch%2:38:00" />
-        <MEMBER features="+bodyPartMotion_foot" grouping="kick.01" name="kick" wn="kick%2:38:00 kick%2:38:01" />
-        <MEMBER features="+bodyPartMotion_eyebrows" grouping="knit.03" name="knit" wn="?knit%2:35:00" />
-        <MEMBER features="+bodyPartMotion_eyes +bodyPartMotion_mouth" grouping="open.01" name="open" wn="open%2:35:00" />
-        <MEMBER features="+bodyPartMotion_face" grouping="" name="pucker" wn="pucker%2:35:00" />
-        <MEMBER features="+bodyPartMotion_lips" grouping="" name="purse" wn="purse%2:30:00 purse%2:35:00" />
-        <MEMBER features="+bodyPartMotion_hand +head" grouping="raise.02" name="raise" wn="raise%2:38:00 raise%2:38:02" />
-        <MEMBER features="+bodyPartMotion_eyes" grouping="roll.01" name="roll" wn="roll%2:38:00" />
-        <MEMBER features="+bodyPartMotion_fingers" grouping="rub.01" name="rub" wn="" />
-        <MEMBER features="+bodyPartMotion_head" grouping="shake.01" name="shake" wn="shake%2:38:00 shake%2:30:01" />
-        <MEMBER features="+cover" grouping="show.03" name="show" wn="?show%2:39:02" />
-        <MEMBER features="+bodyPartMotion_feet" grouping="shuffle.01" name="shuffle" wn="shuffle%2:38:00" />
-        <MEMBER features="+bodyPartMotion_hand_palm" grouping="smack.04" name="smack" wn="smack%2:34:00" />
-        <MEMBER features="+bodyPartMotion_mouth" grouping="snap.04" name="snap" wn="snap%2:35:02" />
-        <MEMBER features="+bodyPartMotion_foot" grouping="stamp.01" name="stamp" wn="?stamp%2:38:00" />
-        <MEMBER features="+bodyPartMotion_muscles" grouping="stretch.02" name="stretch" wn="stretch%2:29:01" />
-        <MEMBER features="+bodyPartMotion_head +bodyPartMotion_hair" grouping="toss.02" name="toss" wn="" />
-        <MEMBER features="+bodyPartMotion_head" grouping="turn.08" name="turn" wn="turn%2:38:13" />
-        <MEMBER features="+bodyPartMotion_thumbs" grouping="" name="twiddle" wn="twiddle%2:35:00" />
-        <MEMBER features="+bodyPartMotion_lips" grouping="" name="twitch" wn="?twitch%2:38:01" />
-        <MEMBER features="+bodyPartMotion_tail" grouping="" name="wag" wn="wag%2:38:00" />
-        <MEMBER features="+bodyPartMotion_limbs" grouping="" name="waggle" wn="waggle%2:38:00" />
-        <MEMBER features="" grouping="" name="wiggle" wn="wiggle%2:38:00" />
-        <MEMBER features="+bodyPartMotion_hands" grouping="wring.01" name="wring" wn="wring%2:35:00" />
-        <MEMBER features="" grouping="" name="wrinkle" wn="wrinkle%2:35:01 wrinkle%2:35:02" />
-    </MEMBERS>
-    <THEMROLES>
-        <THEMROLE type="Agent">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="animate" />
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Patient">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="body_part" />
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Topic">
-            <SELRESTRS>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Recipient">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="animate" />
-            </SELRESTRS>
-        </THEMROLE>
-        
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2" />
-            <EXAMPLES>
-                <EXAMPLE>Jennifer craned her neck.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS />
-                </NP>
-                <VERB />
-                <NP value="Patient">
-                    <SYNRESTRS />
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)" />
-                        <ARG type="ThemRole" value="Source" />
-                        <ARG type="ThemRole" value="?Topic" />
-                        <ARG type="Constant" value="tr_of_info" />
-                        <ARG type="VerbSpecific" value="prep" />
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)" />
-                        <ARG type="ThemRole" value="?Recipient" />
-                        <ARG type="ThemRole" value="?Topic" />
-                        <ARG type="Constant" value="tr_of_info" />
-                        <ARG type="VerbSpecific" value="prep" />
-                    </ARGS>
-                </PRED>
-                <PRED value="transfer">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)" />
-                        <ARG type="ThemRole" value="Agent" />
-                        <ARG type="ThemRole" value="?Recipient" />
-                        <ARG type="ThemRole" value="?Topic" />
-                    </ARGS>
-                </PRED>
-                <PRED value="equals">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Source" />
-                        <ARG type="ThemRole" value="Agent" />
-                    </ARGS>
-                </PRED> 
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent" />
-                        <ARG type="Event" value="E" />
-                    </ARGS>
-                </PRED>
-                <PRED value="body_motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)" />
-                        <ARG type="ThemRole" value="Patient" />
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient" secondary="NP-PP; Recipient-PP" xtag="" />
-            <EXAMPLES>
-                <EXAMPLE>Jennifer wagged her finger at the naughty child.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS />
-                </NP>
-                <VERB />
-                <NP value="Patient">
-                    <SYNRESTRS />
-                </NP>
-                <PREP>
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="dest_dir" />
-                    </SELRESTRS>
-                </PREP>
-                <NP value="Recipient">
-                    <SYNRESTRS />
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)" />
-                        <ARG type="ThemRole" value="Source" />
-                        <ARG type="ThemRole" value="?Topic" />
-                        <ARG type="Constant" value="tr_of_info" />
-                        <ARG type="VerbSpecific" value="prep" />
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)" />
-                        <ARG type="ThemRole" value="Recipient" />
-                        <ARG type="ThemRole" value="?Topic" />
-                        <ARG type="Constant" value="tr_of_info" />
-                        <ARG type="VerbSpecific" value="prep" />
-                    </ARGS>
-                </PRED>
-                <PRED value="transfer">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)" />
-                        <ARG type="ThemRole" value="Agent" />
-                        <ARG type="ThemRole" value="Recipient" />
-                        <ARG type="ThemRole" value="?Topic" />
-                    </ARGS>
-                </PRED>
-                <PRED value="equals">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Source" />
-                        <ARG type="ThemRole" value="Agent" />
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent" />
-                        <ARG type="Event" value="E" />
-                    </ARGS>
-                </PRED>
-                <PRED value="body_motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)" />
-                        <ARG type="ThemRole" value="Patient" />
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient PP.theme" secondary="NP-PP-PP; Recipient-PP Theme-PP" xtag="" />
-            <EXAMPLES>
-                <EXAMPLE>Jennifer wagged her finger at the naughty child in disapproval.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS />
-                </NP>
-                <VERB />
-                <NP value="Patient">
-                    <SYNRESTRS />
-                </NP>
-                <PREP>
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="dest_dir" />
-                    </SELRESTRS>
-                </PREP>
-                <NP value="Recipient">
-                    <SYNRESTRS />
-                </NP>
-                 <PREP value="in">
-                    <SELRESTRS />
-                </PREP>
-                <NP value="Topic">
-                    <SYNRESTRS />
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)" />
-                        <ARG type="ThemRole" value="Source" />
-                        <ARG type="ThemRole" value="Topic" />
-                        <ARG type="Constant" value="tr_of_info" />
-                        <ARG type="VerbSpecific" value="prep" />
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)" />
-                        <ARG type="ThemRole" value="Recipient" />
-                        <ARG type="ThemRole" value="Topic" />
-                        <ARG type="Constant" value="tr_of_info" />
-                        <ARG type="VerbSpecific" value="prep" />
-                    </ARGS>
-                </PRED>
-                <PRED value="transfer">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)" />
-                        <ARG type="ThemRole" value="Agent" />
-                        <ARG type="ThemRole" value="Recipient" />
-                        <ARG type="ThemRole" value="Topic" />
-                    </ARGS>
-                </PRED>
-                <PRED value="equals">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Source" />
-                        <ARG type="ThemRole" value="Agent" />
-                    </ARGS>
-                </PRED>  
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent" />
-                        <ARG type="Event" value="E" />
-                    </ARGS>
-                </PRED>
-                <PRED value="body_motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)" />
-                        <ARG type="ThemRole" value="Patient" />
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        </FRAMES>
-    <SUBCLASSES />
+ <MEMBERS>
+  <MEMBER features="+shape" fn_mapping="None" grouping="" name="arch" verbnet_key="arch#1" wn="arch%2:38:00" />
+  <MEMBER features="+cover" fn_mapping="Wearing" grouping="bare.01" name="bare" verbnet_key="bare#1" wn="bare%2:35:00" />
+  <MEMBER features="+bodyPartMotion_hand_palm" fn_mapping="Body_movement" grouping="bat.03" name="bat" verbnet_key="bat#1" wn="bat%2:29:00" />
+  <MEMBER features="" fn_mapping="None" grouping="beat.02" name="beat" verbnet_key="beat#1" wn="beat%2:35:10" />
+  <MEMBER features="" fn_mapping="Breathing" grouping="blow.01" name="blow" verbnet_key="blow#2" wn="blow%2:29:01" />
+  <MEMBER features="+bodyPartMotion_hand" fn_mapping="None" grouping="" name="clench" verbnet_key="clench#1" wn="clench%2:35:02" />
+  <MEMBER features="+bodyPartMotion_tongue +bodyPartMotion_fingers" fn_mapping="Make_noise" grouping="click.02" name="click" verbnet_key="click#1" wn="click%2:35:00" />
+  <MEMBER features="" fn_mapping="None" grouping="close.01" name="close" verbnet_key="close#1" wn="close%2:35:00" />
+  <MEMBER features="+shape" fn_mapping="Body_movement" grouping="cock.01" name="cock" verbnet_key="cock#1" wn="cock%2:38:01" />
+  <MEMBER features="+bodyPartMotion_neck" fn_mapping="None" grouping="" name="crane" verbnet_key="crane#1" wn="crane%2:29:00" />
+  <MEMBER features="+bodyPartMotion_fingers" fn_mapping="None" grouping="" name="crook" verbnet_key="crook#1" wn="crook%2:38:00" />
+  <MEMBER features="+bodyPartMotion_fingers" fn_mapping="Body_movement" grouping="cross.04" name="cross" verbnet_key="cross#2" wn="cross%2:38:04" />
+  <MEMBER features="+bodyPartMotion_fingers" fn_mapping="None" grouping="drum.01" name="drum" verbnet_key="drum#1" wn="" />
+  <MEMBER features="+bodyPartMotion_hands" fn_mapping="Body_movement" grouping="flap.01" name="flap" verbnet_key="flap#2" wn="flap%2:38:03" />
+  <MEMBER features="" fn_mapping="None" grouping="flash.02" name="flash" verbnet_key="flash#1" wn="flash%2:39:02" />
+  <MEMBER features="+bodyPartMotion_joint" fn_mapping="Body_movement" grouping="flex.01" name="flex" verbnet_key="flex#2" wn="flex%2:38:01" />
+  <MEMBER features="+bodyPartMotion_fingers" fn_mapping="None" grouping="flick.04" name="flick" verbnet_key="flick#1" wn="flick%2:35:02" />
+  <MEMBER features="+bodyPartMotion_eyelashes" fn_mapping="None" grouping="flutter.01" name="flutter" verbnet_key="flutter#1" wn="flutter%2:29:00" />
+  <MEMBER features="+bodyPartMotion_joint" fn_mapping="None" grouping="fold.02" name="fold" verbnet_key="fold#3" wn="fold%2:35:00" />
+  <MEMBER features="+bodyPartMotion_teeth" fn_mapping="None" grouping="" name="gnash" verbnet_key="gnash#1" wn="gnash%2:29:00" />
+  <MEMBER features="+bodyPartMotion_teeth" fn_mapping="Body_movement" grouping="grind.01" name="grind" verbnet_key="grind#4" wn="grind%2:35:00" />
+  <MEMBER features="+bodyPartMotion_head" fn_mapping="Body_movement" grouping="hang.03" name="hang" verbnet_key="hang#2" wn="hang%2:38:03" />
+  <MEMBER features="+bodyPartMotion_shoulders" fn_mapping="None" grouping="" name="hunch" verbnet_key="hunch#2" wn="hunch%2:38:00" />
+  <MEMBER features="+bodyPartMotion_foot" fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#3" wn="kick%2:38:00 kick%2:38:01" />
+  <MEMBER features="+bodyPartMotion_eyebrows" fn_mapping="None" grouping="knit.03" name="knit" verbnet_key="knit#2" wn="?knit%2:35:00" />
+  <MEMBER features="+bodyPartMotion_eyes +bodyPartMotion_mouth" fn_mapping="Body_movement" grouping="open.01" name="open" verbnet_key="open#2" wn="open%2:35:00" />
+  <MEMBER features="+bodyPartMotion_face" fn_mapping="None" grouping="" name="pucker" verbnet_key="pucker#1" wn="pucker%2:35:00" />
+  <MEMBER features="+bodyPartMotion_lips" fn_mapping="None" grouping="" name="purse" verbnet_key="purse#1" wn="purse%2:30:00 purse%2:35:00" />
+  <MEMBER features="+bodyPartMotion_hand +head" fn_mapping="Building" grouping="raise.02" name="raise" verbnet_key="raise#2" wn="raise%2:38:00 raise%2:38:02" />
+  <MEMBER features="+bodyPartMotion_eyes" fn_mapping="Body_movement" grouping="roll.01" name="roll" verbnet_key="roll#4" wn="roll%2:38:00" />
+  <MEMBER features="+bodyPartMotion_fingers" fn_mapping="Placing" grouping="rub.01" name="rub" verbnet_key="rub#1" wn="" />
+  <MEMBER features="+bodyPartMotion_head" fn_mapping="Cause_to_move_in_place" grouping="shake.01" name="shake" verbnet_key="shake#3" wn="shake%2:38:00 shake%2:30:01" />
+  <MEMBER features="+cover" fn_mapping="None" grouping="show.03" name="show" verbnet_key="show#1" wn="?show%2:39:02" />
+  <MEMBER features="+bodyPartMotion_feet" fn_mapping="Body_movement" grouping="shuffle.01" name="shuffle" verbnet_key="shuffle#1" wn="shuffle%2:38:00" />
+  <MEMBER features="+bodyPartMotion_hand_palm" fn_mapping="Body_movement" grouping="smack.04" name="smack" verbnet_key="smack#2" wn="smack%2:34:00" />
+  <MEMBER features="+bodyPartMotion_mouth" fn_mapping="None" grouping="snap.04" name="snap" verbnet_key="snap#2" wn="snap%2:35:02" />
+  <MEMBER features="+bodyPartMotion_foot" fn_mapping="Body_movement" grouping="stamp.01" name="stamp" verbnet_key="stamp#2" wn="?stamp%2:38:00" />
+  <MEMBER features="+bodyPartMotion_muscles" fn_mapping="Expansion" grouping="stretch.02" name="stretch" verbnet_key="stretch#3" wn="stretch%2:29:01" />
+  <MEMBER features="+bodyPartMotion_head +bodyPartMotion_hair" fn_mapping="Body_movement" grouping="toss.02" name="toss" verbnet_key="toss#1" wn="" />
+  <MEMBER features="+bodyPartMotion_head" fn_mapping="Change_direction" grouping="turn.08" name="turn" verbnet_key="turn#3" wn="turn%2:38:13" />
+  <MEMBER features="+bodyPartMotion_thumbs" fn_mapping="None" grouping="" name="twiddle" verbnet_key="twiddle#1" wn="twiddle%2:35:00" />
+  <MEMBER features="+bodyPartMotion_lips" fn_mapping="Body_movement" grouping="" name="twitch" verbnet_key="twitch#2" wn="?twitch%2:38:01" />
+  <MEMBER features="+bodyPartMotion_tail" fn_mapping="None" grouping="" name="wag" verbnet_key="wag#1" wn="wag%2:38:00" />
+  <MEMBER features="+bodyPartMotion_limbs" fn_mapping="None" grouping="" name="waggle" verbnet_key="waggle#2" wn="waggle%2:38:00" />
+  <MEMBER features="" fn_mapping="None" grouping="" name="wiggle" verbnet_key="wiggle#2" wn="wiggle%2:38:00" />
+  <MEMBER features="+bodyPartMotion_hands" fn_mapping="Manipulation" grouping="wring.01" name="wring" verbnet_key="wring#1" wn="wring%2:35:00" />
+  <MEMBER features="" fn_mapping="Body_movement" grouping="" name="wrinkle" verbnet_key="wrinkle#2" wn="wrinkle%2:35:01 wrinkle%2:35:02" />
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate" />
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="body_part" />
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Topic">
+   <SELRESTRS>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Recipient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate" />
+   </SELRESTRS>
+  </THEMROLE>
+  
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2" />
+   <EXAMPLES>
+    <EXAMPLE>
+     Jennifer craned her neck.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Patient">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Topic" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="?Recipient" />
+      <ARG type="ThemRole" value="?Topic" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_position">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="VerbSpecific" value="V_Position" />
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Topic" />
+      <ARG type="ThemRole" value="?Recipient" />
+     </ARGS>
+    </PRED>
+    <PRED value="body_motion">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="ThemRole" value="Agent" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="?Recipient" />
+      <ARG type="ThemRole" value="?Topic" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_position">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="VerbSpecific" value="V_Position" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="Event" value="e3" />
+     </ARGS>
+    </PRED>
+    <PRED value="part_of">
+     <ARGS>
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="ThemRole" value="Agent" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient" secondary="NP-PP; Recipient-PP" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     Jennifer wagged her finger at the naughty child.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Patient">
+     <SYNRESTRS />
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="dest_dir" />
+     </SELRESTRS>
+    </PREP>
+    <NP value="Recipient">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Topic" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Recipient" />
+      <ARG type="ThemRole" value="?Topic" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_position">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="VerbSpecific" value="V_Position" />
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Topic" />
+      <ARG type="ThemRole" value="Recipient" />
+     </ARGS>
+    </PRED>
+    <PRED value="body_motion">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="ThemRole" value="Agent" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Recipient" />
+      <ARG type="ThemRole" value="?Topic" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_position">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="VerbSpecific" value="V_Position" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="Event" value="e3" />
+     </ARGS>
+    </PRED>
+    <PRED value="part_of">
+     <ARGS>
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="ThemRole" value="Agent" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient PP.theme" secondary="NP-PP-PP; Recipient-PP Theme-PP" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     Jennifer wagged her finger at the naughty child in disapproval.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Patient">
+     <SYNRESTRS />
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="dest_dir" />
+     </SELRESTRS>
+    </PREP>
+    <NP value="Recipient">
+     <SYNRESTRS />
+    </NP>
+    <PREP value="in">
+     <SELRESTRS />
+    </PREP>
+    <NP value="Topic">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="Topic" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Recipient" />
+      <ARG type="ThemRole" value="Topic" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_position">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="VerbSpecific" value="V_Position" />
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="Topic" />
+      <ARG type="ThemRole" value="Recipient" />
+     </ARGS>
+    </PRED>
+    <PRED value="body_motion">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="ThemRole" value="Agent" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Recipient" />
+      <ARG type="ThemRole" value="Topic" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_position">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="VerbSpecific" value="V_Position" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="Event" value="e3" />
+     </ARGS>
+    </PRED>
+    <PRED value="part_of">
+     <ARGS>
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="ThemRole" value="Agent" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES />
 </VNCLASS>

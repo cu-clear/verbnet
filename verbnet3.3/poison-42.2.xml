@@ -1,284 +1,272 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="poison-42.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <!--Each member adds a manner predicate-->
-        <MEMBER name="asphyxiate" wn="asphyxiate%2:35:00" grouping=""/>
-        <MEMBER name="behead" wn="" grouping=""/>
-        <MEMBER name="bullet" wn="" grouping=""/>
-        <MEMBER name="crucify" wn="crucify%2:41:00" grouping="crucify.01"/>
-        <MEMBER name="dart" wn="" grouping="dart.04"/>
-        <MEMBER name="decapitate" wn="" grouping=""/>
-        <MEMBER name="disembowel" wn="" grouping=""/>
-        <MEMBER name="drown" wn="drown%2:30:01" grouping="drown.01"/>
-        <MEMBER name="electrocute" wn="electrocute%2:41:00" grouping=""/>
-        <MEMBER name="evicerate" wn="" grouping=""/>
-        <MEMBER name="fry" wn="fry%2:41:00" grouping="fry.03"/>
-        <MEMBER name="gas" wn="gas%2:33:00" grouping=""/>
-        <MEMBER name="garrotte" wn="garrotte%2:35:00" grouping=""/>
-        <MEMBER name="hang" wn="hang%2:41:00" grouping="hang.02"/>
-        <MEMBER name="impale" wn="" grouping=""/>
-        <MEMBER name="knife" wn="knife%2:35:00" grouping=""/>
-        <MEMBER name="pip" wn="pip%2:41:00 pip%2:33:01" grouping=""/>
-        <MEMBER name="poison" wn="poison%2:35:00" grouping="poison.01"/>
-        <MEMBER name="shoot" wn="shoot%2:41:00" grouping="shoot.01"/>
-        <MEMBER name="smother" wn="smother%2:35:00" grouping="smother.02"/>
-        <MEMBER name="stab" wn="stab%2:35:02" grouping="stab.01"/>
-        <MEMBER name="stone" wn="" grouping=""/>
-        <MEMBER name="strangle" wn="strangle%2:35:00" grouping="strangle.01"/>
-        <MEMBER name="strangulate" wn="strangulate%2:35:00" grouping="strangulate.01"/>
-        <MEMBER name="suffocate" wn="suffocate%2:35:00" grouping=""/>
-        <MEMBER name="throttle" wn="" grouping="throttle.01"/>
-    </MEMBERS>
-    <THEMROLES>
-        <THEMROLE type="Agent">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="animate"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Patient">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="animate"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Instrument">
-            <SELRESTRS/>
-        </THEMROLE>
-        <THEMROLE type="Result">
-            <SELRESTRS/>
-        </THEMROLE>
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-            <EXAMPLES>
-                <EXAMPLE>The witch poisoned Snow White.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="?Initial_State"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="?Result"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED bool="!" value="harmed">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Patient"/> 
-                    </ARGS>
-                </PRED>   
-                <PRED value="harmed">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>The Boston Strangler strangled his victims dead.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <NP value="Result">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="?Initial_State"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Result"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED bool="!" value="harmed">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="harmed">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-            <!--most verbs-->
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>The Boston Strangler strangled his victims to death.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP value="to into">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Result">
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="state"/>
-                    </SELRESTRS>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="?Initial_State"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Result"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED bool="!" value="harmed">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="harmed">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-            <!--most verbs-->
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>The queen poisoned Snow White with an apple.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP value="with">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Instrument">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="?Initial_State"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="?Result"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED bool="!" value="harmed">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="harmed">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
-    <SUBCLASSES/>
+<VNCLASS ID="poison-42.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <!--Each member adds a manner predicate-->
+  <MEMBER fn_mapping="None" grouping="" name="asphyxiate" verbnet_key="asphyxiate#1" wn="asphyxiate%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="behead" verbnet_key="behead#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="bullet" verbnet_key="bullet#1" wn=""/>
+  <MEMBER fn_mapping="Killing" grouping="crucify.01" name="crucify" verbnet_key="crucify#1" wn="crucify%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="dart.04" name="dart" verbnet_key="dart#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="decapitate" verbnet_key="decapitate#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="disembowel" verbnet_key="disembowel#2" wn=""/>
+  <MEMBER fn_mapping="Death" grouping="drown.01" name="drown" verbnet_key="drown#1" wn="drown%2:30:01"/>
+  <MEMBER fn_mapping="None" grouping="" name="electrocute" verbnet_key="electrocute#1" wn="electrocute%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="evicerate" verbnet_key="evicerate#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="fry.03" name="fry" verbnet_key="fry#2" wn="fry%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="gas" verbnet_key="gas#2" wn="gas%2:33:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="garrotte" verbnet_key="garrotte#1" wn="garrotte%2:35:00"/>
+  <MEMBER fn_mapping="Execution" grouping="hang.02" name="hang" verbnet_key="hang#3" wn="hang%2:41:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="impale" verbnet_key="impale#1" wn=""/>
+  <MEMBER fn_mapping="None" grouping="" name="knife" verbnet_key="knife#1" wn="knife%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="pip" verbnet_key="pip#2" wn="pip%2:41:00 pip%2:33:01"/>
+  <MEMBER fn_mapping="None" grouping="poison.01" name="poison" verbnet_key="poison#2" wn="poison%2:35:00"/>
+  <MEMBER fn_mapping="Shoot_projectiles" grouping="shoot.01" name="shoot" verbnet_key="shoot#1" wn="shoot%2:41:00"/>
+  <MEMBER fn_mapping="Killing" grouping="smother.02" name="smother" verbnet_key="smother#2" wn="smother%2:35:00"/>
+  <MEMBER fn_mapping="Cause_harm" grouping="stab.01" name="stab" verbnet_key="stab#1" wn="stab%2:35:02"/>
+  <MEMBER fn_mapping="Cause_harm" grouping="" name="stone" verbnet_key="stone#3" wn=""/>
+  <MEMBER fn_mapping="None" grouping="strangle.01" name="strangle" verbnet_key="strangle#1" wn="strangle%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="strangulate.01" name="strangulate" verbnet_key="strangulate#2" wn="strangulate%2:35:00"/>
+  <MEMBER fn_mapping="Killing" grouping="" name="suffocate" verbnet_key="suffocate#1" wn="suffocate%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="throttle.01" name="throttle" verbnet_key="throttle#1" wn=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Instrument">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Result">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The witch poisoned Snow White.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="harmed">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="harmed">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The Boston Strangler strangled his victims dead.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Result">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="harmed">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="harmed">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+   <!--most verbs-->
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The Boston Strangler strangled his victims to death.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to into">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Result">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="state"/>
+     </SELRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="harmed">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="harmed">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+   <!--most verbs-->
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The queen poisoned Snow White with an apple.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="harmed">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="harmed">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

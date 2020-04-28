@@ -1,155 +1,166 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="bump-18.4" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <MEMBER features="" grouping="hit.01" name="hit" wn="hit%2:35:01" />
-        <MEMBER features="" grouping="run.01 run.08" name="run" wn="run%2:42:03 run%2:38:13" />
-    </MEMBERS>
-    <THEMROLES>
-        <THEMROLE type="Location">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="concrete" />
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Theme">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="concrete" />
-            </SELRESTRS>
-        </THEMROLE>
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; against-PP" xtag="" />
-            <EXAMPLES>
-                <EXAMPLE>The grocery cart hit against the wall.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Theme">
-                    <SYNRESTRS />
-                </NP>
-                <VERB />
-                <PREP value="against into onto">
-                    <SELRESTRS />
-                </PREP>
-                <NP value="Location">
-                    <SYNRESTRS />
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="manner">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)" />
-                        <ARG type="Constant" value="directedmotion" />
-                        <ARG type="ThemRole" value="Theme" />
-                    </ARGS>
-                </PRED>
-                <PRED bool="!" value="contact">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)" />
-                        <ARG type="ThemRole" value="Theme" />
-                        <ARG type="ThemRole" value="Location" />
-                    </ARGS>
-                </PRED>
-                <PRED value="manner">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)" />
-                        <ARG type="Constant" value="forceful" />
-                        <ARG type="ThemRole" value="Theme" />
-                    </ARGS>
-                </PRED>
-                <PRED value="contact">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)" />
-                        <ARG type="ThemRole" value="Theme" />
-                        <ARG type="ThemRole" value="Location" />
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
-    <SUBCLASSES>
-        <VNSUBCLASS ID="bump-18.4-1" features="+produce_sound+manner_violent+manner_violent+manner_gentle+manner_gentle+instrument_head+instrument_head+produce_sound+produce_sound+produce_sound+produce_sound+produce_sound+produce_sound+manner_violent+manner_violent+produce_sound+produce_sound+instrument_hammer+instrument_hammer+produce_sound+produce_sound+manner_violent+manner_violent+produce_sound+produce_sound+produce_sound+produce_sound+instrument_palm+instrument_palm+instrument_palm+instrument_palm+manner_violent+manner_violent+produce_sound+produce_sound+instrument_fist+instrument_fist">
-            <MEMBERS>
-                <MEMBER grouping="bang.01" name="bang" wn="bang%2:35:00" />
-                <MEMBER grouping="" name="bash" wn="bash%2:35:00" />
-                <MEMBER grouping="brush.02" name="brush" wn="brush%2:35:00" />
-                <MEMBER grouping="bump.01" name="bump" wn="bump%2:35:00" />
-                <MEMBER grouping="butt.02" name="butt" wn="butt%2:35:00" />
-                <MEMBER grouping="" name="clang" wn="" />
-                <MEMBER grouping="" name="clash" wn="clash%2:35:00" />
-                <MEMBER grouping="" name="clatter" wn="" />
-                <MEMBER grouping="collide.01 collide.02" name="collide" wn="collide%2:35:01 collide%2:35:00" />
-                <MEMBER grouping="crack.05" name="crack" wn="crack%2:35:00" />
-                <MEMBER grouping="crash.01" name="crash" wn="crash%2:38:02 crash%2:35:00" />
-                <MEMBER grouping="crunch.01" name="crunch" wn="" />
-                <MEMBER grouping="hammer.01" name="hammer" wn="hammer%2:35:00" />
-                <MEMBER grouping="knock.01" name="knock" wn="knock%2:35:00" />
-                <MEMBER grouping="ram.01" name="ram" wn="ram%2:35:01" />
-                <MEMBER grouping="" name="rap" wn="rap%2:35:00 rap%2:39:00" />
-                <MEMBER grouping="slam.01" name="slam" wn="slam%2:35:00" />
-                <MEMBER grouping="slap.01" name="slap" wn="slap%2:35:00" />
-                <MEMBER grouping="smack.01" name="smack" wn="smack%2:35:02" />
-                <MEMBER grouping="smash.01" name="smash" wn="" />
-                <MEMBER grouping="" name="squash" wn="squash%2:35:00" />
-                <MEMBER grouping="strike.01 strike.02" name="strike" wn="strike%2:35:00 strike%2:35:01 strike%2:35:02" />
-                <MEMBER grouping="" name="thud" wn="thud%2:35:00" />
-                <MEMBER grouping="" name="thump" wn="" />
-            </MEMBERS>
-            <THEMROLES />
-            <FRAMES>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.5" primary="NP V together" secondary="Together Reciprocal Alternation Intransitive" xtag="" />
-                    <EXAMPLES>
-                        <EXAMPLE>The grocery carts thudded together.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Theme">
-                            <SYNRESTRS>
-                                <SYNRESTR Value="+" type="plural" />
-                            </SYNRESTRS>
-                        </NP>
-                        <VERB />
-                        <LEX value="together" />
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="manner">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)" />
-                                <ARG type="Constant" value="directedmotion" />
-                                <ARG type="ThemRole" value="Theme_i" />
-                            </ARGS>
-                        </PRED>
-                        <PRED value="manner">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)" />
-                                <ARG type="Constant" value="directedmotion" />
-                                <ARG type="ThemRole" value="Theme_j" />
-                            </ARGS>
-                        </PRED>
-                        <PRED value="manner">
-                            <ARGS>
-                                <ARG type="Event" value="end(E)" />
-                                <ARG type="Constant" value="forceful" />
-                                <ARG type="ThemRole" value="Theme_i" />
-                            </ARGS>
-                        </PRED>
-                        <PRED value="manner">
-                            <ARGS>
-                                <ARG type="Event" value="end(E)" />
-                                <ARG type="Constant" value="forceful" />
-                                <ARG type="ThemRole" value="Theme_j" />
-                            </ARGS>
-                        </PRED>
-                        <PRED value="contact">
-                            <ARGS>
-                                <ARG type="Event" value="end(E)" />
-                                <ARG type="ThemRole" value="Theme_i" />
-                                <ARG type="ThemRole" value="Theme_j" />
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-            </FRAMES>
-            <SUBCLASSES />
-        </VNSUBCLASS>
-    </SUBCLASSES>
+ <MEMBERS>
+  <MEMBER features="" fn_mapping="Impact" grouping="hit.01" name="hit" verbnet_key="hit#1" wn="hit%2:35:01" />
+  <MEMBER features="" fn_mapping="Self_motion" grouping="run.01 run.08" name="run" verbnet_key="run#1" wn="run%2:42:03 run%2:38:13" />
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete" />
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete" />
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; against-PP" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     The grocery cart hit against the wall.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <PREP value="against into onto">
+     <SELRESTRS />
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="PredSpecific" value="Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="Constant" value="forceful" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="bump-18.4-1" features="+produce_sound+manner_violent+manner_violent+manner_gentle+manner_gentle+instrument_head+instrument_head+produce_sound+produce_sound+produce_sound+produce_sound+produce_sound+produce_sound+manner_violent+manner_violent+produce_sound+produce_sound+instrument_hammer+instrument_hammer+produce_sound+produce_sound+manner_violent+manner_violent+produce_sound+produce_sound+produce_sound+produce_sound+instrument_palm+instrument_palm+instrument_palm+instrument_palm+manner_violent+manner_violent+produce_sound+produce_sound+instrument_fist+instrument_fist">
+   <MEMBERS>
+    <MEMBER fn_mapping="Motion_noise" grouping="bang.01" name="bang" verbnet_key="bang#1" wn="bang%2:35:00" />
+    <MEMBER fn_mapping="None" grouping="" name="bash" verbnet_key="bash#1" wn="bash%2:35:00" />
+    <MEMBER fn_mapping="None" grouping="brush.02" name="brush" verbnet_key="brush#2" wn="brush%2:35:00" />
+    <MEMBER fn_mapping="Impact" grouping="bump.01" name="bump" verbnet_key="bump#1" wn="bump%2:35:00" />
+    <MEMBER fn_mapping="Cause_harm" grouping="butt.02" name="butt" verbnet_key="butt#1" wn="butt%2:35:00" />
+    <MEMBER fn_mapping="None" grouping="" name="clang" verbnet_key="clang#1" wn="" />
+    <MEMBER fn_mapping="Impact" grouping="" name="clash" verbnet_key="clash#2" wn="clash%2:35:00" />
+    <MEMBER fn_mapping="None" grouping="" name="clatter" verbnet_key="clatter#1" wn="" />
+    <MEMBER fn_mapping="Impact" grouping="collide.01 collide.02" name="collide" verbnet_key="collide#2" wn="collide%2:35:01 collide%2:35:00" />
+    <MEMBER fn_mapping="Cause_harm" grouping="crack.05" name="crack" verbnet_key="crack#2" wn="crack%2:35:00" />
+    <MEMBER fn_mapping="Impact" grouping="crash.01" name="crash" verbnet_key="crash#2" wn="crash%2:38:02 crash%2:35:00" />
+    <MEMBER fn_mapping="Impact" grouping="crunch.01" name="crunch" verbnet_key="crunch#1" wn="" />
+    <MEMBER fn_mapping="Cause_harm" grouping="hammer.01" name="hammer" verbnet_key="hammer#2" wn="hammer%2:35:00" />
+    <MEMBER fn_mapping="Cause_motion" grouping="knock.01" name="knock" verbnet_key="knock#1" wn="knock%2:35:00" />
+    <MEMBER fn_mapping="Cause_impact" grouping="ram.01" name="ram" verbnet_key="ram#1" wn="ram%2:35:01" />
+    <MEMBER fn_mapping="None" grouping="" name="rap" verbnet_key="rap#1" wn="rap%2:35:00 rap%2:39:00" />
+    <MEMBER fn_mapping="Judgment_communication" grouping="slam.01" name="slam" verbnet_key="slam#1" wn="slam%2:35:00" />
+    <MEMBER fn_mapping="Impact" grouping="slap.01" name="slap" verbnet_key="slap#1" wn="slap%2:35:00" />
+    <MEMBER fn_mapping="Cause_harm" grouping="smack.01" name="smack" verbnet_key="smack#1" wn="smack%2:35:02" />
+    <MEMBER fn_mapping="Cause_harm" grouping="smash.01" name="smash" verbnet_key="smash#2" wn="" />
+    <MEMBER fn_mapping="None" grouping="" name="squash" verbnet_key="squash#1" wn="squash%2:35:00" />
+    <MEMBER fn_mapping="Impact" grouping="strike.01 strike.02" name="strike" verbnet_key="strike#3" wn="strike%2:35:00 strike%2:35:01 strike%2:35:02" />
+    <MEMBER fn_mapping="Impact" grouping="" name="thud" verbnet_key="thud#1" wn="thud%2:35:00" />
+    <MEMBER fn_mapping="None" grouping="" name="thump" verbnet_key="thump#1" wn="" />
+   </MEMBERS>
+   <THEMROLES />
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="2.5.5" primary="NP V together" secondary="Together Reciprocal Alternation Intransitive" xtag="" />
+     <EXAMPLES>
+      <EXAMPLE>
+       The grocery carts thudded together.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="plural" />
+       </SYNRESTRS>
+      </NP>
+      <VERB />
+      <LEX value="together" />
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="e1" />
+        <ARG type="ThemRole" value="Theme_I" />
+        <ARG type="PredSpecific" value="Trajectory" />
+       </ARGS>
+      </PRED>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="e1" />
+        <ARG type="ThemRole" value="Theme_J" />
+        <ARG type="PredSpecific" value="Trajectory" />
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="contact">
+       <ARGS>
+        <ARG type="Event" value="e1" />
+        <ARG type="ThemRole" value="Theme_I" />
+        <ARG type="ThemRole" value="Theme_J" />
+       </ARGS>
+      </PRED>
+      <PRED value="contact">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="ThemRole" value="Theme_I" />
+        <ARG type="ThemRole" value="Theme_J" />
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="ThemRole" value="Theme_I" />
+        <ARG type="Constant" value="forceful" />
+       </ARGS>
+      </PRED>
+      <PRED value="manner">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="ThemRole" value="Theme_J" />
+        <ARG type="Constant" value="forceful" />
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES />
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

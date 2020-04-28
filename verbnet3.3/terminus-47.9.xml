@@ -1,48 +1,51 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="terminus-47.9" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <MEMBER features="+begin" grouping="begin.01" name="begin" wn="begin%2:42:00" />
-        <MEMBER features="+end" grouping="end.01" name="end" wn="end%2:42:00" />
-        <MEMBER features="" grouping="lead.03" name="lead" wn="lead%2:42:00 lead%2:42:03" />
-        <MEMBER features="+begin" grouping="start.01" name="start" wn="start%2:42:00" />
-        <MEMBER features="+end" grouping="stop.04" name="stop" wn="stop%2:42:13" />
-        <MEMBER features="+end" grouping="terminate.01" name="terminate" wn="terminate%2:42:00" />
-    </MEMBERS>
-    <THEMROLES>
-        <THEMROLE type="Theme">
-            <SELRESTRS />
-        </THEMROLE>
-        <THEMROLE type="Location">
-            <SELRESTRS />
-        </THEMROLE>
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V NP ADJ" secondary="" xtag="" />
-            <EXAMPLES>
-                <EXAMPLE>His property begins at the fence.</EXAMPLE>            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Theme">
-                    <SYNRESTRS />
-                </NP>
-                <VERB />
-                <PREP value="">
-                    <SELRESTRS />
-                </PREP>
-                <NP value="Location">
-                    <SYNRESTRS />
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="contact">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)" />
-                        <ARG type="ThemRole" value="Theme" />
-                        <ARG type="ThemRole" value="Location" />
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
-    <SUBCLASSES />
+ <MEMBERS>
+  <MEMBER features="+begin" fn_mapping="None" grouping="begin.01" name="begin" verbnet_key="begin#2" wn="begin%2:42:00" />
+  <MEMBER features="+end" fn_mapping="None" grouping="end.01" name="end" verbnet_key="end#2" wn="end%2:42:00" />
+  <MEMBER features="" fn_mapping="None" grouping="lead.03" name="lead" verbnet_key="lead#6" wn="lead%2:42:00 lead%2:42:03" />
+  <MEMBER features="+begin" fn_mapping="None" grouping="start.01" name="start" verbnet_key="start#3" wn="start%2:42:00" />
+  <MEMBER features="+end" fn_mapping="None" grouping="stop.04" name="stop" verbnet_key="stop#4" wn="stop%2:42:13" />
+  <MEMBER features="+end" fn_mapping="None" grouping="terminate.01" name="terminate" verbnet_key="terminate#3" wn="terminate%2:42:00" />
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS />
+  </THEMROLE>
+  <THEMROLE type="Location">
+   <SELRESTRS />
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V NP ADJ" secondary="" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     His property begins at the fence.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <PREP value="">
+     <SELRESTRS />
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Location" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES />
 </VNCLASS>

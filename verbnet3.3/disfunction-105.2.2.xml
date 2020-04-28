@@ -1,41 +1,74 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="disfunction-105.2.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <MEMBER name="croak" wn="croak%2:30:00" grouping="croak.01"/>
-        <MEMBER name="die" wn="die%2:30:04" grouping="die.04"/>
-        <MEMBER name="fizzle_out" wn="fizzle_out%2:42:00" grouping=""/>
-        <MEMBER name="give_out" wn="give_out%2:30:00" grouping="give.05"/>
-        <MEMBER name="go_down" wn="go_down%2:30:14" grouping="go.03"/>
-        <MEMBER name="go_off" wn="go_off%2:35:00" grouping="go.03"/>
-        <MEMBER name="go_out" wn="go_out%2:30:00" grouping="go.03"/>
-        <MEMBER name="poop_out" wn="poop_out%2:29:00" grouping=""/>
-    </MEMBERS>
-    <THEMROLES>
-        <THEMROLE type="Theme">
-            <SELRESTRS/>
-        </THEMROLE>
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
-             <EXAMPLES>
-                 <EXAMPLE>The old dishwasher died.</EXAMPLE>
-             </EXAMPLES>
-             <SYNTAX>
-                 <NP value="Theme">
-                     <SYNRESTRS/>
-                 </NP>
-                 <VERB/>
-             </SYNTAX>
-             <SEMANTICS>
-                 <PRED bool="!" value="function">
-                     <ARGS>
-                         <ARG type="Event" value="during(E)"/>
-                         <ARG type="ThemRole" value="Theme"/>
-                     </ARGS>
-                 </PRED>
-             </SEMANTICS>
-        </FRAME>
-    </FRAMES>
-    <SUBCLASSES/>
+<VNCLASS ID="disfunction-105.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="die.04" name="die" verbnet_key="die#5" wn="die%2:30:04"/>
+  <MEMBER fn_mapping="None" grouping="go.03" name="go_down" verbnet_key="go_down#4" wn="go_down%2:30:14"/>
+  <MEMBER fn_mapping="None" grouping="go.03" name="go_off" verbnet_key="go_off#3" wn="go_off%2:35:00"/>
+  <MEMBER fn_mapping="None" grouping="go.03" name="go_out" verbnet_key="go_out#3" wn="go_out%2:30:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="poop_out" verbnet_key="poop_out#2" wn="poop_out%2:29:00"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     My phone died.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="function">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="function">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The lights went out.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="function">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="function">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

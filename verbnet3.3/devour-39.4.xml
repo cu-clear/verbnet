@@ -1,50 +1,64 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="devour-39.4" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS>
-        <MEMBER name="consume" wn="consume%2:34:03" grouping="consume.01"/>
-        <MEMBER name="devour" wn="devour%2:34:01 devour%2:34:00" grouping="devour.01"/>
-        <MEMBER name="down" wn="" grouping="down.01"/>
-        <MEMBER name="have" wn="" grouping=""/>
-	<MEMBER name="imbibe" wn="imbibe%2:34:00" grouping="imbibe.01"/>
-        <MEMBER name="ingest" wn="ingest%2:34:00" grouping="ingest.01"/>
-	<MEMBER name="swill" wn="swill%2:34:00" grouping=""/>
-	<MEMBER name="take" wn="" grouping=""/>
-    </MEMBERS>
-    <THEMROLES>
-	<THEMROLE type="Agent">
-		<SELRESTRS/>
-	</THEMROLE>
-        <THEMROLE type="Patient">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="biotic"/>
-            </SELRESTRS>
-        </THEMROLE>
-    </THEMROLES>
-    <FRAMES>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Cynthia devoured the pizza.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="take_in">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
-    <SUBCLASSES/>
+<VNCLASS ID="devour-39.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="Ingestion" grouping="consume.01" name="consume" verbnet_key="consume#2" wn="consume%2:34:03"/>
+  <MEMBER fn_mapping="Ingestion" grouping="devour.01" name="devour" verbnet_key="devour#1" wn="devour%2:34:01 devour%2:34:00"/>
+  <MEMBER fn_mapping="Ingestion" grouping="down.01" name="down" verbnet_key="down#1" wn=""/>
+  <MEMBER fn_mapping="Ingestion" grouping="" name="have" verbnet_key="have#2" wn=""/>
+  <MEMBER fn_mapping="Ingestion" grouping="imbibe.01" name="imbibe" verbnet_key="imbibe#1" wn="imbibe%2:34:00"/>
+  <MEMBER fn_mapping="Ingestion" grouping="ingest.01" name="ingest" verbnet_key="ingest#2" wn="ingest%2:34:00"/>
+  <MEMBER fn_mapping="None" grouping="" name="swill" verbnet_key="swill#1" wn="swill%2:34:00"/>
+  <MEMBER fn_mapping="Ingest_substance" grouping="" name="take" verbnet_key="take#7" wn=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="biotic"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Cynthia devoured the pizza.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="take_in">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>
