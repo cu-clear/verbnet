@@ -222,7 +222,7 @@ def compare_syntax(from_vn_syntax, to_vn_syntax):
 
 
 from_vn = VerbNetParser(version="3.2")
-to_vn = VerbNetParser(version="3.3")
+to_vn = VerbNetParser(version="3.4")
 
 # from_vn = to_vn
 

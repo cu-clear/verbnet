@@ -367,6 +367,6 @@ def find_themroles(themroles=[], class_ID=None, role_type=None, sel_restrictions
 def find_frames(frames):
     return True
 
-def get_verbnet_parser(version="3.3"):
+def get_verbnet_parser(version="3.4"):
     return VerbNetParser(version=version)
 

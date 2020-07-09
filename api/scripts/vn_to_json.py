@@ -6,7 +6,7 @@ sys.path.append(local_verbnet_api_path)
 import verbnet
 import json
 
-DEFAULT_VN_LOC = "../../vn3.3.1-test/"
+DEFAULT_VN_LOC = "../../vn3.4.1-test/"
 DEFAULT_OUTPUT = "semnet.json"
 
 def to_json_by_member(vn, output_file):

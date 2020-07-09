@@ -88,8 +88,8 @@ def test_changes():
 def test_member_comparisons():
     from compare_versions import compare_members
 
-    from_vn = VerbNetParser(version="3.2")
-    to_vn = VerbNetParser(version="3.3")
+    from_vn = VerbNetParser(version="3.3")
+    to_vn = VerbNetParser(version="3.4")
 
     from_vn.parse_files()
     to_vn.parse_files()

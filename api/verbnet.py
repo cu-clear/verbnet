@@ -35,8 +35,8 @@ class VerbNetParser(object):
             VERBNET_PATH = get_verbnet_directory(version)
         else:
             # If no files or version provided, look for the most up-to-date version
-            # (currently 3.3, pointed to in config.txt)
-            VERBNET_PATH = get_verbnet_directory("3.3")
+            # (currently 3.4, pointed to in config.txt)
+            VERBNET_PATH = get_verbnet_directory("3.4")
 
         fnames = [f for f in os.listdir(VERBNET_PATH) if f.endswith(".xml")]
         self.filenames = [os.path.join(VERBNET_PATH, fname) for fname in fnames]
@@ -234,7 +234,7 @@ class VerbClass(AbstractXML):
     XML file)."""
     # TODO: Check if nested subclasses have issues
 
-    def __init__(self, soup, version="3.3"):
+    def __init__(self, soup, version="3.4"):
         self.soup = soup
         try:
             self.ID = self.get_category("ID", self.soup)[0]
@@ -357,7 +357,7 @@ class Member(AbstractXML):
     """Represents a single member of a VerbClass, with associated name, WordNet
     category, and PropBank grouping."""
 
-    def __init__(self, soup, vnc, version="3.3"):
+    def __init__(self, soup, vnc, version="3.4"):
         self.soup = soup
         self.version = version
         self.name = self.get_category('name')[0]
@@ -387,7 +387,7 @@ class Frame(AbstractXML):
     """Represents a single verb frame in VerbNet, with a description, examples,
     syntax, and semantics """
 
-    def __init__(self, soup, class_ID, version="3.3"):
+    def __init__(self, soup, class_ID, version="3.4"):
         self.soup = soup
         self.version = version
         self.class_ID = class_ID
@@ -518,7 +518,7 @@ class ThematicRole(AbstractXML):
     a list of all roles for a given verb class, with possible selectional 
     restrictions"""
     
-    def __init__(self, soup, version="3.3"):
+    def __init__(self, soup, version="3.4"):
         self.soup = soup
         self.version = version
         self.role_type = self.get_category('type')[0]
@@ -594,7 +594,7 @@ class ThematicRole(AbstractXML):
 class Predicate(AbstractXML):
     """Represents the different predicates assigned to a frame"""
 
-    def __init__(self, soup, version="3.3"):
+    def __init__(self, soup, version="3.4"):
         self.soup = soup
         self.version = version
         self.value = self.get_category('value')
@@ -678,7 +678,7 @@ class Predicate(AbstractXML):
 class SyntacticRole(AbstractXML):
     """Represents a syntactic role assigned to a frame"""
 
-    def __init__(self, soup, version="3.3"):
+    def __init__(self, soup, version="3.4"):
         self.soup = soup
         self.version = version
         self.POS = self.soup.name

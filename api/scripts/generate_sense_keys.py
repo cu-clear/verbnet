@@ -42,7 +42,7 @@ def gen_sense_keys(members, count_dict):
 
 def run_script():
     # CHANGE DIRECTORY to desired verbnet version;
-    vn_directory = "../../vn3.3.1-test/"
+    vn_directory = "../../vn3.4.1-test/"
 
     vnp = VerbNetParser(directory=vn_directory)
 
