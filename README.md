@@ -9,7 +9,7 @@ The repository contains three main components:
 <li><b>api</b> : A directory containing python tools for working with VerbNet data. We're primarily focused on making the verbnet.py API useful for using VerbNet XML. Additional tools that we've found useful can be found in the <b>scripts</b> folder.
 </li>
 <li><b>vn3.4</b> : Our most current publicly availabe version of VerbNet. For more official releases, see <a href="https://verbs.colorado.edu/verbnet/">our website</a>. Comments and suggestions on improving the XML here are appreciated!</li>
-<li><b>vn3.3</b> : Previous version of VerbNet. For code access, see <a href="https://github.com/cu-clear/verbnet/tree/vn-3.3"></a>.</li>
+<li><b>vn3.3</b> : Previous version of VerbNet. For code access, see <a href="https://github.com/cu-clear/verbnet/tree/vn-3.3">here</a>.</li>
 </ul>
 
 Note that one method of pointing the API to the VerbNet XML is via a config.txt file, which you can create and into which you can enter text of the following format:
