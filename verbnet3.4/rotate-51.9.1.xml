@@ -113,7 +113,7 @@
     </NP>
     <PREP/>
     <NP value="Trajectory">
-     <SYNTRESTRS/>
+     <SYNRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -238,7 +238,7 @@
       </NP>
       <PREP/>
       <NP value="Trajectory">
-       <SYNTRESTRS/>
+       <SYNRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
