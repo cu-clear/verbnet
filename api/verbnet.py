@@ -514,18 +514,18 @@ class Frame(AbstractXML):
 
 
 class ThematicRole(AbstractXML):
-    """Represents an entry in the "Roles" section in VerbNet, which is basically 
-    a list of all roles for a given verb class, with possible selectional 
+    """Represents an entry in the "Roles" section in VerbNet, which is basically
+    a list of all roles for a given verb class, with possible selectional
     restrictions"""
-    
+
     def __init__(self, soup, version="3.4"):
         self.soup = soup
         self.version = version
         self.role_type = self.get_category('type')[0]
         self.sel_restrictions = self.sel_restrictions(self.soup.SELRESTRS)
-        
+
     def sel_restrictions(self, soup):
-        """Finds all the selectional restrictions of the thematic roles and 
+        """Finds all the selectional restrictions of the thematic roles and
         returns them as a string"""
         try:
             a = soup.contents                 # Get rid of \n noise
@@ -723,11 +723,12 @@ def search(verbclasslist, pred_type=None, themroles=None, synroles=None, semrole
 
 
 def test():
-    vnp = VerbNetParser(directory="C:/Users/Kevin/PycharmProjects/lexical_resources/verbnet_svn/")
-
-    for v in vnp.get_members():
-        print(v)
-        pass
+    # vnp = VerbNetParser(directory="C:/Users/Kevin/PycharmProjects/lexical_resources/verbnet_svn/")
+    #
+    # for v in vnp.get_members():
+    #     print(v)
+    #     pass
+    pass
 
 if __name__ == '__main__':
 

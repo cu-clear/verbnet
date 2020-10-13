@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="calibratable_cos-45.6.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER features="+increase+directionOfChenge_increase" fn_mapping="None" grouping="build.02" name="build" verbnet_key="build#3" wn="" />
-  <MEMBER features="+decrease+directionOfChenge_decrease" fn_mapping="None" grouping="die.02" name="die" verbnet_key="die#2" wn="" />
+  <MEMBER features="+increase +directionOfChenge_increase" fn_mapping="None" grouping="build.02" name="build" verbnet_key="build#3" wn="" />
+  <MEMBER features="+decrease +directionOfChenge_decrease" fn_mapping="None" grouping="die.02" name="die" verbnet_key="die#2" wn="" />
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Patient">
@@ -181,13 +181,13 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="calibratable_cos-45.6.1-1" features="+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_fluctuate+directionOfChenge_fluctuate+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_fluctuate+directionOfChenge_fluctuate+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_increase+directionOfChenge_fluctuate+directionOfChenge_fluctuate+directionOfChenge_decrease+directionOfChenge_decrease+directionOfChenge_increase+directionOfChenge_increase">
+  <VNSUBCLASS ID="calibratable_cos-45.6.1-1">
    <MEMBERS>
     <MEMBER features="+increase" fn_mapping="None" grouping="appreciate.03" name="appreciate" verbnet_key="appreciate#2" wn="appreciate%2:30:00" />
     <MEMBER features="+increase" fn_mapping="None" grouping="climb.01" name="climb" verbnet_key="climb#1" wn="climb%2:38:00 climb%2:38:01 climb%2:30:01" />
     <MEMBER features="+decrease" fn_mapping="None" grouping="decline.01" name="decline" verbnet_key="decline#1" wn="decline%2:30:01" />
     <MEMBER features="+decrease" fn_mapping="None" grouping="dip.02" name="dip" verbnet_key="dip#1" wn="dip%2:38:01" />
-    <MEMBER fn_mapping="None" grouping="dive.01" name="dive" verbnet_key="dive#1" wn="dive%2:38:00" />
+    <MEMBER features="+decrease" fn_mapping="None" grouping="dive.01" name="dive" verbnet_key="dive#1" wn="dive%2:38:00" />
     <MEMBER features="+decrease" fn_mapping="None" grouping="depreciate.02" name="depreciate" verbnet_key="depreciate#1" wn="depreciate%2:30:00" />
     <MEMBER features="+decrease" fn_mapping="None" grouping="drop.02" name="drop" verbnet_key="drop#1" wn="drop%2:30:00" />
     <MEMBER features="+decrease" fn_mapping="None" grouping="" name="dwindle" verbnet_key="dwindle#1" wn="" />

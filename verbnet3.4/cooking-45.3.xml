@@ -10,7 +10,7 @@
   <MEMBER features="+fry +stew" fn_mapping="None" grouping="" name="braise" verbnet_key="braise#1" wn="braise%2:30:00" />
   <MEMBER features="+roast" fn_mapping="Apply_heat" grouping="broil.01" name="broil" verbnet_key="broil#1" wn="broil%2:30:00" />
   <MEMBER features="+brown" fn_mapping="Apply_heat" grouping="brown.01" name="brown" verbnet_key="brown#1" wn="brown%2:30:00" />
-  <MEMBER fn_mapping="None" grouping="" name="caramelize" verbnet_key="caramelize#1" wn="caramelize%2:30:01 caramelize%2:30:00" />
+  <MEMBER features="+brown" fn_mapping="None" grouping="" name="caramelize" verbnet_key="caramelize#1" wn="caramelize%2:30:01 caramelize%2:30:00" />
   <MEMBER features="+roast" fn_mapping="None" grouping="" name="char" verbnet_key="char#1" wn="" />
   <MEMBER features="+roast" fn_mapping="None" grouping="" name="charbroil" verbnet_key="charbroil#1" wn="" />
   <MEMBER features="+roast" fn_mapping="None" grouping="" name="charcoal-broil" verbnet_key="charcoal-broil#1" wn="" />

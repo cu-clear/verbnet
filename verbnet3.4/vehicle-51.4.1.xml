@@ -543,21 +543,21 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="vehicle-51.4.1-1" features="+medium_ground +biking+medium_ground +biking+medium_ground +biking+medium_water+medium_water+medium_ground +biking+medium_ground +biking+medium_water+medium_water+medium_ground +biking+medium_ground +biking+medium_ground +biking+medium_ground +biking+medium_water+medium_water+medium_ground+medium_ground+medium_ground+medium_ground+medium_snow+medium_snow+medium_snow+medium_snow+medium_snow+medium_snow">
+  <VNSUBCLASS ID="vehicle-51.4.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="bicycle" verbnet_key="bicycle#1" wn="bicycle%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="bike" verbnet_key="bike#2" wn="bike%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="canoe" verbnet_key="canoe#1" wn="canoe%2:38:00" />
-    <MEMBER fn_mapping="Operate_vehicle" grouping="cycle.02" name="cycle" verbnet_key="cycle#1" wn="cycle%2:38:00 cycle%2:38:01" />
-    <MEMBER fn_mapping="None" grouping="" name="kayak" verbnet_key="kayak#1" wn="kayak%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="motorbike" verbnet_key="motorbike#1" wn="motorbike%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="motorcycle" verbnet_key="motorcycle#1" wn="motorcycle%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="raft" verbnet_key="raft#1" wn="raft%2:38:01 raft%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="skate" verbnet_key="skate#1" wn="skate%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="skateboard" verbnet_key="skateboard#1" wn="skateboard%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="ski" verbnet_key="ski#1" wn="ski%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="sled" verbnet_key="sled#1" wn="sled%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="toboggan" verbnet_key="toboggan#1" wn="toboggan%2:38:00" />
+    <MEMBER features="+medium_ground +biking" fn_mapping="None" grouping="" name="bicycle" verbnet_key="bicycle#1" wn="bicycle%2:38:00" />
+    <MEMBER features="+medium_ground +biking" fn_mapping="None" grouping="" name="bike" verbnet_key="bike#2" wn="bike%2:38:00" />
+    <MEMBER features="+medium_water" fn_mapping="None" grouping="" name="canoe" verbnet_key="canoe#1" wn="canoe%2:38:00" />
+    <MEMBER features="+medium_ground +biking" fn_mapping="Operate_vehicle" grouping="cycle.02" name="cycle" verbnet_key="cycle#1" wn="cycle%2:38:00 cycle%2:38:01" />
+    <MEMBER features="+medium_water" fn_mapping="None" grouping="" name="kayak" verbnet_key="kayak#1" wn="kayak%2:38:00" />
+    <MEMBER features="+medium_ground +biking" fn_mapping="None" grouping="" name="motorbike" verbnet_key="motorbike#1" wn="motorbike%2:38:00" />
+    <MEMBER features="+medium_ground +biking" fn_mapping="None" grouping="" name="motorcycle" verbnet_key="motorcycle#1" wn="motorcycle%2:38:00" />
+    <MEMBER features="+medium_water" fn_mapping="None" grouping="" name="raft" verbnet_key="raft#1" wn="raft%2:38:01 raft%2:38:00" />
+    <MEMBER features="+medium_ground" fn_mapping="None" grouping="" name="skate" verbnet_key="skate#1" wn="skate%2:38:00" />
+    <MEMBER features="+medium_ground" fn_mapping="None" grouping="" name="skateboard" verbnet_key="skateboard#1" wn="skateboard%2:38:00" />
+    <MEMBER features="+medium_snow" fn_mapping="None" grouping="" name="ski" verbnet_key="ski#1" wn="ski%2:38:00" />
+    <MEMBER features="+medium_snow" fn_mapping="None" grouping="" name="sled" verbnet_key="sled#1" wn="sled%2:38:00" />
+    <MEMBER features="+medium_snow" fn_mapping="None" grouping="" name="toboggan" verbnet_key="toboggan#1" wn="toboggan%2:38:00" />
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Location">

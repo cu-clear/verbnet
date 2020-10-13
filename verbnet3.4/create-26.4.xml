@@ -310,16 +310,16 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="create-26.4-1" features="+designing+writing+writing+writing+writing+abstract_patient+abstract_patient+abstract_patient+abstract_patient+writing+writing">
+  <VNSUBCLASS ID="create-26.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="choreograph" verbnet_key="choreograph#1" wn="choreograph%2:36:00" />
-    <MEMBER fn_mapping="None" grouping="compose.01 compose.03" name="compose" verbnet_key="compose#2" wn="compose%2:36:03 compose%2:36:01                 compose%2:36:09 compose%2:31:00" />
-    <MEMBER fn_mapping="None" grouping="draft.01" name="draft" verbnet_key="draft#1" wn="draft%2:36:00" />
-    <MEMBER fn_mapping="None" grouping="" name="improvise" verbnet_key="improvise#1" wn="improvise%2:36:00" />
-    <MEMBER fn_mapping="None" grouping="invent.01" name="invent" verbnet_key="invent#1" wn="invent%2:36:00" />
-    <MEMBER fn_mapping="None" grouping="" name="scriptwrite" verbnet_key="scriptwrite#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="silkscreen" verbnet_key="silkscreen#1" wn="silkscreen%2:36:00" />
-    <MEMBER fn_mapping="None" grouping="write.01 write.04" name="write" verbnet_key="write#1" wn="write%2:36:00 write%2:32:00 write%2:36:10" />
+    <MEMBER features="+designing" fn_mapping="None" grouping="" name="choreograph" verbnet_key="choreograph#1" wn="choreograph%2:36:00" />
+    <MEMBER features="+writing" fn_mapping="None" grouping="compose.01 compose.03" name="compose" verbnet_key="compose#2" wn="compose%2:36:03 compose%2:36:01                 compose%2:36:09 compose%2:31:00" />
+    <MEMBER features="+writing" fn_mapping="None" grouping="draft.01" name="draft" verbnet_key="draft#1" wn="draft%2:36:00" />
+    <MEMBER features="+abstract_patient" fn_mapping="None" grouping="" name="improvise" verbnet_key="improvise#1" wn="improvise%2:36:00" />
+    <MEMBER features="+abstract_patient" fn_mapping="None" grouping="invent.01" name="invent" verbnet_key="invent#1" wn="invent%2:36:00" />
+    <MEMBER features="+writing" fn_mapping="None" grouping="" name="scriptwrite" verbnet_key="scriptwrite#1" wn="" />
+    <MEMBER features="" fn_mapping="None" grouping="" name="silkscreen" verbnet_key="silkscreen#1" wn="silkscreen%2:36:00" />
+    <MEMBER features="+writing" fn_mapping="None" grouping="write.01 write.04" name="write" verbnet_key="write#1" wn="write%2:36:00 write%2:32:00 write%2:36:10" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>
@@ -367,13 +367,13 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="create-26.4-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="conjure.01" name="conjure" verbnet_key="conjure#1" wn="conjure%2:36:00" />
-      <MEMBER fn_mapping="None" grouping="" name="craft" verbnet_key="craft#1" wn="craft%2:36:00" />
-      <MEMBER fn_mapping="None" grouping="design.01 design.03" name="design" verbnet_key="design#1" wn="design%2:31:00 design%2:36:01                     design%2:36:00" />
-      <MEMBER fn_mapping="None" grouping="dig.02" name="dig" verbnet_key="dig#1" wn="dig%2:35:01" />
-      <MEMBER fn_mapping="None" grouping="draw.05" name="draw" verbnet_key="draw#2" wn="draw%2:35:01 draw%2:36:00 draw%2:36:02" />
-      <MEMBER fn_mapping="None" grouping="paint.01" name="paint" verbnet_key="paint#4" wn="paint%2:36:01 paint%2:36:00" />
-      <MEMBER fn_mapping="None" grouping="spin.02 spin.03" name="spin" verbnet_key="spin#3" wn="spin%2:36:01 spin%2:32:00" />
+      <MEMBER features="" fn_mapping="None" grouping="conjure.01" name="conjure" verbnet_key="conjure#1" wn="conjure%2:36:00" />
+      <MEMBER features="+craft" fn_mapping="None" grouping="" name="craft" verbnet_key="craft#1" wn="craft%2:36:00" />
+      <MEMBER features="+designing" fn_mapping="None" grouping="design.01 design.03" name="design" verbnet_key="design#1" wn="design%2:31:00 design%2:36:01                     design%2:36:00" />
+      <MEMBER features="" fn_mapping="None" grouping="dig.02" name="dig" verbnet_key="dig#1" wn="dig%2:35:01" />
+      <MEMBER features="+visual_patient +designing" fn_mapping="None" grouping="draw.05" name="draw" verbnet_key="draw#2" wn="draw%2:35:01 draw%2:36:00 draw%2:36:02" />
+      <MEMBER features="+visual_patient +designing" fn_mapping="None" grouping="paint.01" name="paint" verbnet_key="paint#4" wn="paint%2:36:01 paint%2:36:00" />
+      <MEMBER features="+craft" fn_mapping="None" grouping="spin.02 spin.03" name="spin" verbnet_key="spin#3" wn="spin%2:36:01 spin%2:32:00" />
      </MEMBERS>
      <THEMROLES />
      <FRAMES>

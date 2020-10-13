@@ -278,28 +278,28 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="meander-47.7-1" features="+directionOfMotion+path_shape+path_shape+directionOfMotion+directionOfMotion+path_shape+path_shape+path_shape+path_shape+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+manner +path_shape+manner +path_shape+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+manner+manner+directionOfMotion+directionOfMotion+path_shape +manner+path_shape +manner+path_shape+path_shape+path_shape+path_shape+path_shape +manner+path_shape +manner+directionOfMotion+directionOfMotion+path_shape+path_shape">
+  <VNSUBCLASS ID="meander-47.7-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="ascend" verbnet_key="ascend#2" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="bend" verbnet_key="bend#4" wn="" />
-    <MEMBER fn_mapping="None" grouping="climb.02" name="climb" verbnet_key="climb#3" wn="climb%2:38:06" />
-    <MEMBER fn_mapping="None" grouping="converge.01" name="converge" verbnet_key="converge#2" wn="converge%2:42:00" />
-    <MEMBER fn_mapping="None" grouping="" name="crisscross" verbnet_key="crisscross#2" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="descend" verbnet_key="descend#2" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="dip" verbnet_key="dip#3" wn="" />
-    <MEMBER fn_mapping="None" grouping="drop.07" name="drop" verbnet_key="drop#3" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="meander" verbnet_key="meander#1" wn="meander%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="plummit" verbnet_key="plummit#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="plunge" verbnet_key="plunge#3" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="rise" verbnet_key="rise#5" wn="" />
-    <MEMBER fn_mapping="Fluidic_motion" grouping="run.02" name="run" verbnet_key="run#5" wn="run%2:42:00" />
-    <MEMBER fn_mapping="None" grouping="" name="slant" verbnet_key="slant#2" wn="" />
-    <MEMBER fn_mapping="None" grouping="snake.02" name="snake" verbnet_key="snake#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="turn" verbnet_key="turn#5" wn="" />
-    <MEMBER fn_mapping="None" grouping="twist.05" name="twist" verbnet_key="twist#4" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="undulate" verbnet_key="undulate#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="swerve" verbnet_key="swerve#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="zigzag" verbnet_key="zigzag#1" wn="zigzag%2:38:00" />
+    <MEMBER features="+directionOfMotion_up" fn_mapping="None" grouping="" name="ascend" verbnet_key="ascend#2" wn="" />
+    <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="bend" verbnet_key="bend#4" wn="" />
+    <MEMBER features="+directionOfMotion_up" fn_mapping="None" grouping="climb.02" name="climb" verbnet_key="climb#3" wn="climb%2:38:06" />
+    <MEMBER features="+path_shape" fn_mapping="None" grouping="converge.01" name="converge" verbnet_key="converge#2" wn="converge%2:42:00" />
+    <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="crisscross" verbnet_key="crisscross#2" wn="" />
+    <MEMBER features="+directionOfMotion_down" fn_mapping="None" grouping="" name="descend" verbnet_key="descend#2" wn="" />
+    <MEMBER features="+directionOfMotion_down" fn_mapping="None" grouping="" name="dip" verbnet_key="dip#3" wn="" />
+    <MEMBER features="+directionOfMotion_down" fn_mapping="None" grouping="drop.07" name="drop" verbnet_key="drop#3" wn="" />
+    <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="meander" verbnet_key="meander#1" wn="meander%2:38:00" />
+    <MEMBER features="+directionOfMotion_down" fn_mapping="None" grouping="" name="plummit" verbnet_key="plummit#1" wn="" />
+    <MEMBER features="+directionOfMotion_down" fn_mapping="None" grouping="" name="plunge" verbnet_key="plunge#3" wn="" />
+    <MEMBER features="+directionOfMotion_up" fn_mapping="None" grouping="" name="rise" verbnet_key="rise#5" wn="" />
+    <MEMBER features="" fn_mapping="Fluidic_motion" grouping="run.02" name="run" verbnet_key="run#5" wn="run%2:42:00" />
+    <MEMBER features="+directionOfMotion" fn_mapping="None" grouping="" name="slant" verbnet_key="slant#2" wn="" />
+    <MEMBER features="+path_shape" fn_mapping="None" grouping="snake.02" name="snake" verbnet_key="snake#1" wn="" />
+    <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="turn" verbnet_key="turn#5" wn="" />
+    <MEMBER features="+path_shape" fn_mapping="None" grouping="twist.05" name="twist" verbnet_key="twist#4" wn="" />
+    <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="undulate" verbnet_key="undulate#1" wn="" />
+    <MEMBER features="+directionOfMotion_change" fn_mapping="None" grouping="" name="swerve" verbnet_key="swerve#1" wn="" />
+    <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="zigzag" verbnet_key="zigzag#1" wn="zigzag%2:38:00" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>

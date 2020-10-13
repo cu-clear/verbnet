@@ -249,50 +249,50 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="fill-9.8-1" features="+decorate+soak+soak+cover +purpose +specific_patient+cover +purpose +specific_patient+cover +specific_form+cover +specific_form+block+block+cover +specific_patient +substance_type+cover +specific_patient +substance_type+cover +cover_type+cover +cover_type+cover+cover+cover+cover+stain+stain+decorate+decorate+decorate+decorate+cover +purpose+cover +purpose+substance_type+substance_type+soak +substance_type+soak +substance_type+surround+surround+cover +specific_form+cover +specific_form+mix+mix+cover+cover+decorate+decorate+decorate+decorate+surround+surround+soak+soak+cover +cover_type+cover +cover_type+cover +substance_type+cover +substance_type+decorate+decorate+cover +cover_type+cover +cover_type+cover +cover_type+cover +cover_type+cover+cover+soak+soak+stain+stain+stain+stain+surround+surround+cover +substance_type+cover +substance_type+cover +substance_type+cover +substance_type+cover +cover_type+cover +cover_type+decorate +specific_patient+decorate +specific_patient+decorate+decorate+cover +cover_type+cover +cover_type+cover +cover_type+cover +cover_type+stain+stain">
+  <VNSUBCLASS ID="fill-9.8-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Distributed_position" grouping="adorn.01 adorn.02" name="adorn" verbnet_key="adorn#1" wn="adorn%2:36:00 adorn%2:42:00" />
-    <MEMBER fn_mapping="None" grouping="bathe.02" name="bathe" verbnet_key="bathe#2" wn="bathe%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="bind.02" name="bind" verbnet_key="bind#1" wn="bind%2:35:00 bind%2:35:08 bind%2:35:07 bind%2:35:01" />
-    <MEMBER fn_mapping="None" grouping="" name="blanket" verbnet_key="blanket#3" wn="blanket%2:35:00 blanket%2:42:00" />
-    <MEMBER fn_mapping="Eclipse" grouping="block.01" name="block" verbnet_key="block#2" wn="block%2:35:00 block%2:39:00 block%2:33:00" />
-    <MEMBER fn_mapping="None" grouping="carpet.01 carpet.02" name="carpet" verbnet_key="carpet#2" wn="?carpet%2:42:00 carpet%2:35:01 carpet%2:35:00" />
-    <MEMBER fn_mapping="Distributed_position" grouping="cloak.02" name="cloak" verbnet_key="cloak#3" wn="" />
-    <MEMBER fn_mapping="Distributed_position" grouping="coat.01" name="coat" verbnet_key="coat#1" wn="coat%2:35:00 coat%2:29:00 coat%2:35:01" />
-    <MEMBER fn_mapping="Filling" grouping="cover.01" name="cover" verbnet_key="cover#2" wn="cover%2:35:00 cover%2:35:01 cover%2:35:14 cover%2:29:15" />
-    <MEMBER fn_mapping="None" grouping="" name="dapple" verbnet_key="dapple#1" wn="dapple%2:30:00" />
-    <MEMBER fn_mapping="Distributed_position" grouping="deck.01" name="deck" verbnet_key="deck#1" wn="deck%2:42:00 deck%2:36:00" />
-    <MEMBER fn_mapping="Distributed_position" grouping="decorate.01" name="decorate" verbnet_key="decorate#1" wn="decorate%2:36:00 decorate%2:42:00 decorate%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="" name="disguise" verbnet_key="disguise#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="douse.01 douse.02" name="douse" verbnet_key="douse#1" wn="douse%2:43:00 douse%2:42:09 douse%2:38:00 douse%2:35:00 douse%2:30:00" />
-    <MEMBER fn_mapping="None" grouping="drench.01" name="drench" verbnet_key="drench#1" wn="drench%2:30:00" />
-    <MEMBER fn_mapping="None" grouping="edge.02" name="edge" verbnet_key="edge#2" wn="edge%2:40:00" />
-    <MEMBER fn_mapping="None" grouping="" name="encrust" verbnet_key="encrust#1" wn="encrust%2:35:00 encrust%2:35:01 encrust%2:30:00" />
-    <MEMBER fn_mapping="None" grouping="" name="entangle" verbnet_key="entangle#2" wn="entangle%2:42:00 entangle%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="face.03" name="face" verbnet_key="face#2" wn="face%2:35:00 face%2:35:01" />
-    <MEMBER fn_mapping="None" grouping="" name="festoon" verbnet_key="festoon#1" wn="festoon%2:36:00" />
-    <MEMBER fn_mapping="None" grouping="frame.01" name="frame" verbnet_key="frame#3" wn="frame%2:35:00 frame%2:42:00" />
-    <MEMBER fn_mapping="Distributed_position" grouping="line.03" name="line" verbnet_key="line#2" wn="line%2:35:00 line%2:30:00 line%2:30:01" />
-    <MEMBER fn_mapping="None" grouping="" name="marinate" verbnet_key="marinate#1" wn="marinate%2:30:00" />
-    <MEMBER fn_mapping="None" grouping="" name="panel" verbnet_key="panel#2" wn="panel%2:36:00" />
-    <MEMBER fn_mapping="Filling" grouping="pave.01" name="pave" verbnet_key="pave#1" wn="pave%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="" name="redecorate" verbnet_key="redecorate#1" wn="redecorate%2:36:00" />
-    <MEMBER fn_mapping="None" grouping="" name="robe" verbnet_key="robe#3" wn="robe%2:29:00" />
-    <MEMBER fn_mapping="Cause_to_be_wet" grouping="saturate.01" name="saturate" verbnet_key="saturate#1" wn="saturate%2:30:04" />
-    <MEMBER fn_mapping="Hiding_objects" grouping="" name="shroud" verbnet_key="shroud#1" wn="shroud%2:42:02 shroud%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="smother.01" name="smother" verbnet_key="smother#1" wn="smother%2:35:02 smother%2:42:00" />
-    <MEMBER fn_mapping="Cause_to_be_wet" grouping="soak.01" name="soak" verbnet_key="soak#1" wn="soak%2:30:01 soak%2:30:00" />
-    <MEMBER fn_mapping="None" grouping="" name="speckle" verbnet_key="speckle#1" wn="speckle%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="spot.02" name="spot" verbnet_key="spot#1" wn="spot%2:35:01 spot%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="surround.01 surround.02" name="surround" verbnet_key="surround#2" wn="surround%2:35:00 surround%2:35:01 surround%2:33:00 surround%2:33:01" />
-    <MEMBER fn_mapping="None" grouping="" name="swaddle" verbnet_key="swaddle#1" wn="swaddle%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="" name="swathe" verbnet_key="swathe#1" wn="swathe%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="" name="tile" verbnet_key="tile#2" wn="tile%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="tool.02 tool.03" name="tool" verbnet_key="tool#4" wn="tool%2:40:00" />
-    <MEMBER fn_mapping="None" grouping="trim.03" name="trim" verbnet_key="trim#2" wn="trim%2:36:01 trim%2:36:00" />
-    <MEMBER fn_mapping="None" grouping="" name="veil" verbnet_key="veil#3" wn="veil%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="" name="vein" verbnet_key="vein#1" wn="vein%2:36:00" />
-    <MEMBER fn_mapping="Processing_materials" grouping="stain.01 stain.02 stain.03" name="stain" verbnet_key="stain#3" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04" />
+    <MEMBER features="+decorate" fn_mapping="Distributed_position" grouping="adorn.01 adorn.02" name="adorn" verbnet_key="adorn#1" wn="adorn%2:36:00 adorn%2:42:00" />
+    <MEMBER features="+soak" fn_mapping="None" grouping="bathe.02" name="bathe" verbnet_key="bathe#2" wn="bathe%2:35:00" />
+    <MEMBER features="+cover +purpose +specific_patient" fn_mapping="None" grouping="bind.02" name="bind" verbnet_key="bind#1" wn="bind%2:35:00 bind%2:35:08 bind%2:35:07 bind%2:35:01" />
+    <MEMBER features="+cover +specific_form" fn_mapping="None" grouping="" name="blanket" verbnet_key="blanket#3" wn="blanket%2:35:00 blanket%2:42:00" />
+    <MEMBER features="+block" fn_mapping="Eclipse" grouping="block.01" name="block" verbnet_key="block#2" wn="block%2:35:00 block%2:39:00 block%2:33:00" />
+    <MEMBER features="+cover +specific_patient" fn_mapping="None" grouping="carpet.01 carpet.02" name="carpet" verbnet_key="carpet#2" wn="?carpet%2:42:00 carpet%2:35:01 carpet%2:35:00" />
+    <MEMBER features="+cover +cover_type" fn_mapping="Distributed_position" grouping="cloak.02" name="cloak" verbnet_key="cloak#3" wn="" />
+    <MEMBER features="+cover" fn_mapping="Distributed_position" grouping="coat.01" name="coat" verbnet_key="coat#1" wn="coat%2:35:00 coat%2:29:00 coat%2:35:01" />
+    <MEMBER features="+cover" fn_mapping="Filling" grouping="cover.01" name="cover" verbnet_key="cover#2" wn="cover%2:35:00 cover%2:35:01 cover%2:35:14 cover%2:29:15" />
+    <MEMBER features="+stain" fn_mapping="None" grouping="" name="dapple" verbnet_key="dapple#1" wn="dapple%2:30:00" />
+    <MEMBER features="+decorate" fn_mapping="Distributed_position" grouping="deck.01" name="deck" verbnet_key="deck#1" wn="deck%2:42:00 deck%2:36:00" />
+    <MEMBER features="+decorate" fn_mapping="Distributed_position" grouping="decorate.01" name="decorate" verbnet_key="decorate#1" wn="decorate%2:36:00 decorate%2:42:00 decorate%2:35:00" />
+    <MEMBER features="+cover +purpose" fn_mapping="None" grouping="" name="disguise" verbnet_key="disguise#1" wn="" />
+    <MEMBER features="+substance_type" fn_mapping="None" grouping="douse.01 douse.02" name="douse" verbnet_key="douse#1" wn="douse%2:43:00 douse%2:42:09 douse%2:38:00 douse%2:35:00 douse%2:30:00" />
+    <MEMBER features="+soak +substance_type" fn_mapping="None" grouping="drench.01" name="drench" verbnet_key="drench#1" wn="drench%2:30:00" />
+    <MEMBER features="+surround" fn_mapping="None" grouping="edge.02" name="edge" verbnet_key="edge#2" wn="edge%2:40:00" />
+    <MEMBER features="+cover +specific_form" fn_mapping="None" grouping="" name="encrust" verbnet_key="encrust#1" wn="encrust%2:35:00 encrust%2:35:01 encrust%2:30:00" />
+    <MEMBER features="+mix" fn_mapping="None" grouping="" name="entangle" verbnet_key="entangle#2" wn="entangle%2:42:00 entangle%2:35:00" />
+    <MEMBER features="+cover" fn_mapping="None" grouping="face.03" name="face" verbnet_key="face#2" wn="face%2:35:00 face%2:35:01" />
+    <MEMBER features="+decorate" fn_mapping="None" grouping="" name="festoon" verbnet_key="festoon#1" wn="festoon%2:36:00" />
+    <MEMBER features="+decorate" fn_mapping="None" grouping="frame.01" name="frame" verbnet_key="frame#3" wn="frame%2:35:00 frame%2:42:00" />
+    <MEMBER features="+surround" fn_mapping="Distributed_position" grouping="line.03" name="line" verbnet_key="line#2" wn="line%2:35:00 line%2:30:00 line%2:30:01" />
+    <MEMBER features="+soak" fn_mapping="None" grouping="" name="marinate" verbnet_key="marinate#1" wn="marinate%2:30:00" />
+    <MEMBER features="+cover +cover_type" fn_mapping="None" grouping="" name="panel" verbnet_key="panel#2" wn="panel%2:36:00" />
+    <MEMBER features="+cover +substance_type" fn_mapping="Filling" grouping="pave.01" name="pave" verbnet_key="pave#1" wn="pave%2:35:00" />
+    <MEMBER features="+decorate" fn_mapping="None" grouping="" name="redecorate" verbnet_key="redecorate#1" wn="redecorate%2:36:00" />
+    <MEMBER features="+cover +cover_type" fn_mapping="None" grouping="" name="robe" verbnet_key="robe#3" wn="robe%2:29:00" />
+    <MEMBER features="+fill" fn_mapping="Cause_to_be_wet" grouping="saturate.01" name="saturate" verbnet_key="saturate#1" wn="saturate%2:30:04" />
+    <MEMBER features="+cover +cover_type" fn_mapping="Hiding_objects" grouping="" name="shroud" verbnet_key="shroud#1" wn="shroud%2:42:02 shroud%2:35:00" />
+    <MEMBER features="+cover" fn_mapping="None" grouping="smother.01" name="smother" verbnet_key="smother#1" wn="smother%2:35:02 smother%2:42:00" />
+    <MEMBER features="+soak" fn_mapping="Cause_to_be_wet" grouping="soak.01" name="soak" verbnet_key="soak#1" wn="soak%2:30:01 soak%2:30:00" />
+    <MEMBER features="+stain" fn_mapping="None" grouping="" name="speckle" verbnet_key="speckle#1" wn="speckle%2:35:00" />
+    <MEMBER features="+stain" fn_mapping="None" grouping="spot.02" name="spot" verbnet_key="spot#1" wn="spot%2:35:01 spot%2:35:00" />
+    <MEMBER features="+surround" fn_mapping="None" grouping="surround.01 surround.02" name="surround" verbnet_key="surround#2" wn="surround%2:35:00 surround%2:35:01 surround%2:33:00 surround%2:33:01" />
+    <MEMBER features="+cover +substance_type" fn_mapping="None" grouping="" name="swaddle" verbnet_key="swaddle#1" wn="swaddle%2:35:00" />
+    <MEMBER features="+cover +substance_type" fn_mapping="None" grouping="" name="swathe" verbnet_key="swathe#1" wn="swathe%2:35:00" />
+    <MEMBER features="+cover +cover_type" fn_mapping="None" grouping="" name="tile" verbnet_key="tile#2" wn="tile%2:35:00" />
+    <MEMBER features="+decorate +specific_patient" fn_mapping="None" grouping="tool.02 tool.03" name="tool" verbnet_key="tool#4" wn="tool%2:40:00" />
+    <MEMBER features="+decorate" fn_mapping="None" grouping="trim.03" name="trim" verbnet_key="trim#2" wn="trim%2:36:01 trim%2:36:00" />
+    <MEMBER features="+cover +cover_type" fn_mapping="None" grouping="" name="veil" verbnet_key="veil#3" wn="veil%2:35:00" />
+    <MEMBER features="+cover +cover_type" fn_mapping="None" grouping="" name="vein" verbnet_key="vein#1" wn="vein%2:36:00" />
+    <MEMBER features="+stain" fn_mapping="Processing_materials" grouping="stain.01 stain.02 stain.03" name="stain" verbnet_key="stain#3" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>

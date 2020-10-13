@@ -317,7 +317,7 @@
  <FRAMES>
   <FRAME>
    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic Transitive; Causative" xtag="0.2" />
-   
+
    <EXAMPLES>
     <EXAMPLE>
      Bill dried the clothes.
@@ -451,7 +451,7 @@
   </FRAME>
   <FRAME>
    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag="" />
-   
+
    <EXAMPLES>
     <EXAMPLE>
      The cotton clothes dried easily.
@@ -535,15 +535,15 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="other_cos-45.4-1" features="+change_behavior+change_behavior+change_behavior+dry+dry+decrease +change_temperature+decrease +change_temperature+change_of_constitution+change_of_constitution+change_of_constitution+change_of_constitution+change_of_constitution +change_temperature+change_of_constitution +change_temperature">
+  <VNSUBCLASS ID="other_cos-45.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="awake" verbnet_key="awake#2" wn="awake%2:29:00" />
-    <MEMBER fn_mapping="Cause_to_wake" grouping="awaken.01" name="awaken" verbnet_key="awaken#2" wn="awaken%2:29:00 awaken%2:29:01" />
-    <MEMBER fn_mapping="Cause_to_be_dry" grouping="dry.01" name="dry" verbnet_key="dry#1" wn="dry%2:30:01 dry%2:30:00" />
-    <MEMBER fn_mapping="None" grouping="freeze.02" name="freeze" verbnet_key="freeze#1" wn="freeze%2:30:00 freeze%2:30:02 freeze%2:30:04" />
-    <MEMBER fn_mapping="Cause_change_of_phase" grouping="melt.01" name="melt" verbnet_key="melt#2" wn="melt%2:30:01 melt%2:30:00" />
-    <MEMBER fn_mapping="Change_of_consistency" grouping="set.03" name="set" verbnet_key="set#3" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="thaw" verbnet_key="thaw#1" wn="thaw%2:30:00" />
+    <MEMBER features="+positive_change" fn_mapping="None" grouping="" name="awake" verbnet_key="awake#2" wn="awake%2:29:00" />
+    <MEMBER features="+positive_change" fn_mapping="Cause_to_wake" grouping="awaken.01" name="awaken" verbnet_key="awaken#2" wn="awaken%2:29:00 awaken%2:29:01" />
+    <MEMBER features="+dry" fn_mapping="Cause_to_be_dry" grouping="dry.01" name="dry" verbnet_key="dry#1" wn="dry%2:30:01 dry%2:30:00" />
+    <MEMBER features="+change_temperature +decrease" fn_mapping="None" grouping="freeze.02" name="freeze" verbnet_key="freeze#1" wn="freeze%2:30:00 freeze%2:30:02 freeze%2:30:04" />
+    <MEMBER features="+change_of_constitution" fn_mapping="Cause_change_of_phase" grouping="melt.01" name="melt" verbnet_key="melt#2" wn="melt%2:30:01 melt%2:30:00" />
+    <MEMBER features="" fn_mapping="Change_of_consistency" grouping="set.03" name="set" verbnet_key="set#3" wn="" />
+    <MEMBER features="+change_of_constitution" fn_mapping="None" grouping="" name="thaw" verbnet_key="thaw#1" wn="thaw%2:30:00" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>

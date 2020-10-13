@@ -429,13 +429,13 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="nonvehicle-51.4.2-1" features="+medium_water+medium_ground+medium_ground+medium_air+medium_air+medium_water+medium_water+medium_water+medium_water+medium_air+medium_air">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="cruise.01 cruise.02" name="cruise" verbnet_key="cruise#1" wn="cruise%2:38:03 cruise%2:38:01" />
-    <MEMBER fn_mapping="None" grouping="drive.01" name="drive" verbnet_key="drive#3" wn="drive%2:38:00 drive%2:38:02 drive%2:38:11" />
-    <MEMBER fn_mapping="None" grouping="fly.01" name="fly" verbnet_key="fly#2" wn="fly%2:35:00 fly%2:38:05 fly%2:38:04" />
-    <MEMBER fn_mapping="None" grouping="navigate.01 navigate.02" name="navigate" verbnet_key="navigate#1" wn="navigate%2:38:00 navigate%2:38:03" />
-    <MEMBER fn_mapping="None" grouping="sail.01" name="sail" verbnet_key="sail#1" wn="sail%2:38:03 sail%2:38:00 sail%2:38:02" />
-    <MEMBER fn_mapping="None" grouping="tack.03" name="tack" verbnet_key="tack#1" wn="tack%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="wing" verbnet_key="wing#1" wn="wing%2:38:00" />
+    <MEMBER features="+medium_water" fn_mapping="None" grouping="cruise.01 cruise.02" name="cruise" verbnet_key="cruise#1" wn="cruise%2:38:03 cruise%2:38:01" />
+    <MEMBER features="+medium_ground" fn_mapping="None" grouping="drive.01" name="drive" verbnet_key="drive#3" wn="drive%2:38:00 drive%2:38:02 drive%2:38:11" />
+    <MEMBER features="+medium_air" fn_mapping="None" grouping="fly.01" name="fly" verbnet_key="fly#2" wn="fly%2:35:00 fly%2:38:05 fly%2:38:04" />
+    <MEMBER features="" fn_mapping="None" grouping="navigate.01 navigate.02" name="navigate" verbnet_key="navigate#1" wn="navigate%2:38:00 navigate%2:38:03" />
+    <MEMBER features="+medium_water" fn_mapping="None" grouping="sail.01" name="sail" verbnet_key="sail#1" wn="sail%2:38:03 sail%2:38:00 sail%2:38:02" />
+    <MEMBER features="+medium_water" fn_mapping="None" grouping="tack.03" name="tack" verbnet_key="tack#1" wn="tack%2:38:00" />
+    <MEMBER features="+medium_air" fn_mapping="None" grouping="" name="wing" verbnet_key="wing#1" wn="wing%2:38:00" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>

@@ -196,7 +196,7 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="caused_calibratable_cos-45.6.2-1" features="+directionOfChange_increase+directionOfChange_increase+directionOfChange_increase+directionOfChange_increase+directionOfChange_increase+directionOfChange_decrease+directionOfChange_decrease+directionOfChange_decrease+directionOfChange_decrease+directionOfChange_increase+directionOfChange_increase+directionOfChange_increase+directionOfChange_increase+directionOfChange_decrease+directionOfChange_decrease">
+  <VNSUBCLASS ID="caused_calibratable_cos-45.6.2-1">
    <MEMBERS>
     <MEMBER features="+increase" fn_mapping="None" grouping="" name="advance" verbnet_key="advance#1" wn="" />
     <MEMBER features="+increase" fn_mapping="None" grouping="balloon.01 balloon.02" name="balloon" verbnet_key="balloon#1" wn="" />

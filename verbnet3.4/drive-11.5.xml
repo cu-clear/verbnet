@@ -550,15 +550,15 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="drive-11.5-1" features="+medium_water+medium_ground +driving+medium_ground +driving+medium_ground +driving+medium_ground +driving+medium_water+medium_water+medium_air+medium_air+manner+manner+medium_ground +driving+medium_ground +driving">
+  <VNSUBCLASS ID="drive-11.5-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="barge" verbnet_key="barge#1" wn="barge%2:38:01" />
-    <MEMBER fn_mapping="None" grouping="" name="bus" verbnet_key="bus#1" wn="bus%2:38:01" />
-    <MEMBER fn_mapping="None" grouping="" name="cart" verbnet_key="cart#1" wn="cart%2:35:01" />
-    <MEMBER fn_mapping="Bringing" grouping="ferry.01" name="ferry" verbnet_key="ferry#1" wn="ferry%2:38:02 ferry%2:38:01" />
-    <MEMBER fn_mapping="Self_motion" grouping="fly.01" name="fly" verbnet_key="fly#1" wn="fly%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="" name="shuttle" verbnet_key="shuttle#1" wn="shuttle%2:38:00" />
-    <MEMBER fn_mapping="None" grouping="" name="truck" verbnet_key="truck#1" wn="truck%2:38:00" />
+    <MEMBER features="+medium_water" fn_mapping="None" grouping="" name="barge" verbnet_key="barge#1" wn="barge%2:38:01" />
+    <MEMBER features="+medium_ground +driving" fn_mapping="None" grouping="" name="bus" verbnet_key="bus#1" wn="bus%2:38:01" />
+    <MEMBER features="+medium_ground +driving" fn_mapping="None" grouping="" name="cart" verbnet_key="cart#1" wn="cart%2:35:01" />
+    <MEMBER features="+medium_water" fn_mapping="Bringing" grouping="ferry.01" name="ferry" verbnet_key="ferry#1" wn="ferry%2:38:02 ferry%2:38:01" />
+    <MEMBER features="+medium_air" fn_mapping="Self_motion" grouping="fly.01" name="fly" verbnet_key="fly#1" wn="fly%2:35:00" />
+    <MEMBER features="+medium_ground +driving" fn_mapping="None" grouping="" name="shuttle" verbnet_key="shuttle#1" wn="shuttle%2:38:00" />
+    <MEMBER features="+medium_ground +driving" fn_mapping="None" grouping="" name="truck" verbnet_key="truck#1" wn="truck%2:38:00" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>

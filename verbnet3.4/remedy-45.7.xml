@@ -272,19 +272,19 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="remedy-45.7-1" features="+divide+mix+mix+change_character +abstract_change+change_character +abstract_change+decrease +change_intensity+decrease +change_intensity+decrease +change_size+decrease +change_size+positive_change +change_character +physical_change+positive_change +change_character +physical_change+change_appearance+change_appearance+change_character +physical_change+change_character +physical_change+increase +change_size+increase +change_size+remove_part+remove_part">
+  <VNSUBCLASS ID="remedy-45.7-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="categorize" verbnet_key="categorize#2" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="conflate" verbnet_key="conflate#2" wn="" />
-    <MEMBER fn_mapping="None" grouping="domesticate.01" name="domesticate" verbnet_key="domesticate#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="extinguish.02" name="extinguish" verbnet_key="extinguish#1" wn="extinguish%2:43:00 extinguish%2:30:05" />
-    <MEMBER fn_mapping="None" grouping="" name="halve" verbnet_key="halve#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="homogenize" verbnet_key="homogenize#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="lighten.02 lighten.03" name="lighten" verbnet_key="lighten#1" wn="lighten%2:35:00" />
-    <MEMBER fn_mapping="None" grouping="" name="magnetize" verbnet_key="magnetize#1" wn="magnetize%2:30:00" />
-    <MEMBER fn_mapping="None" grouping="magnify.01" name="magnify" verbnet_key="magnify#2" wn="magnify%2:30:00 magnify%2:30:01" />
-    <MEMBER fn_mapping="None" grouping="" name="transplant" verbnet_key="transplant#1" wn="" />
-    <MEMBER fn_mapping="None" grouping="" name="upload" verbnet_key="upload#2" wn="" />
+    <MEMBER features="+divide" fn_mapping="None" grouping="" name="categorize" verbnet_key="categorize#2" wn="" />
+    <MEMBER features="+mix" fn_mapping="None" grouping="" name="conflate" verbnet_key="conflate#2" wn="" />
+    <MEMBER features="+change_character" fn_mapping="None" grouping="domesticate.01" name="domesticate" verbnet_key="domesticate#1" wn="" />
+    <MEMBER features="+decrease +change_intensity" fn_mapping="None" grouping="extinguish.02" name="extinguish" verbnet_key="extinguish#1" wn="extinguish%2:43:00 extinguish%2:30:05" />
+    <MEMBER features="+decrease +change_size" fn_mapping="None" grouping="" name="halve" verbnet_key="halve#1" wn="" />
+    <MEMBER features="+positive_change +change_character" fn_mapping="None" grouping="" name="homogenize" verbnet_key="homogenize#1" wn="" />
+    <MEMBER features="+change_appearance" fn_mapping="None" grouping="lighten.02 lighten.03" name="lighten" verbnet_key="lighten#1" wn="lighten%2:35:00" />
+    <MEMBER features="+change_character +physical_change" fn_mapping="None" grouping="" name="magnetize" verbnet_key="magnetize#1" wn="magnetize%2:30:00" />
+    <MEMBER features="+increase +change_size" fn_mapping="None" grouping="magnify.01" name="magnify" verbnet_key="magnify#2" wn="magnify%2:30:00 magnify%2:30:01" />
+    <MEMBER features="+remove_part" fn_mapping="None" grouping="" name="transplant" verbnet_key="transplant#1" wn="" />
+    <MEMBER features="" fn_mapping="None" grouping="" name="upload" verbnet_key="upload#2" wn="" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>

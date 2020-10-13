@@ -13,14 +13,14 @@
   <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="carom" verbnet_key="carom#1" wn="carom%2:38:00 carom%2:35:00"/>
   <MEMBER features="+path_shape +attitude" fn_mapping="None" grouping="" name="cavort" verbnet_key="cavort#1" wn="cavort%2:38:00"/>
   <MEMBER features="+speed +orientation" fn_mapping="Attack" grouping="charge.05" name="charge" verbnet_key="charge#5" wn="charge%2:33:00 charge%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="chunter" verbnet_key="chunter#1" wn=""/>
+  <MEMBER features="" fn_mapping="None" grouping="" name="chunter" verbnet_key="chunter#1" wn=""/>
   <MEMBER features="+bodily_manner +orientation" fn_mapping="Self_motion" grouping="clamber.01" name="clamber" verbnet_key="clamber#1" wn="clamber%2:38:00"/>
   <MEMBER features="+bodily_manner +orientation" fn_mapping="Self_motion" grouping="climb.01 climb.03" name="climb" verbnet_key="climb#4" wn="climb%2:38:00 climb%2:38:01"/>
   <MEMBER features="+bodily_manner" fn_mapping="Motion_noise" grouping="clump.03" name="clump" verbnet_key="clump#1" wn="clump%2:38:00"/>
   <MEMBER features="+speed +bodily_manner +orientation" fn_mapping="Self_motion" grouping="crawl.01" name="crawl" verbnet_key="crawl#2" wn="crawl%2:38:00"/>
   <MEMBER features="+speed +bodily_manner +purpose" fn_mapping="Self_motion" grouping="creep.01" name="creep" verbnet_key="creep#2" wn="creep%2:38:00 creep%2:38:04"/>
   <MEMBER features="+speed +bodily_manner" fn_mapping="None" grouping="" name="dodder" verbnet_key="dodder#1" wn="dodder%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="falter.01" name="falter" verbnet_key="falter#2" wn="falter%2:38:01 falter%2:38:00"/>
+  <MEMBER features="" fn_mapping="None" grouping="falter.01" name="falter" verbnet_key="falter#2" wn="falter%2:38:01 falter%2:38:00"/>
   <MEMBER features="+speed +path_shape" fn_mapping="None" grouping="" name="flit" verbnet_key="flit#1" wn="flit%2:38:00"/>
   <MEMBER features="+attitude" fn_mapping="None" grouping="" name="flounce" verbnet_key="flounce#1" wn="flounce%2:38:00"/>
   <MEMBER features="+attitude" fn_mapping="None" grouping="" name="frolic" verbnet_key="frolic#2" wn="frolic%2:38:00"/>
@@ -30,7 +30,7 @@
   <MEMBER features="+purpose" fn_mapping="None" grouping="" name="globetrot" verbnet_key="globetrot#1" wn=""/>
   <MEMBER features="+bodily_manner" fn_mapping="None" grouping="" name="goose_step" verbnet_key="goose_step#1" wn="goose_step%2:38:00"/>
   <MEMBER features="+path_shape +purpose" fn_mapping="Self_motion" grouping="hike.01" name="hike" verbnet_key="hike#1" wn="hike%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hitchhike" verbnet_key="hitchhike#1" wn="hitchhike%2:38:00"/>
+  <MEMBER features="" fn_mapping="None" grouping="" name="hitchhike" verbnet_key="hitchhike#1" wn="hitchhike%2:38:00"/>
   <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="hopscotch" verbnet_key="hopscotch#1" wn=""/>
   <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="jounce" verbnet_key="jounce#1" wn=""/>
   <MEMBER features="+bodily_manner" fn_mapping="None" grouping="" name="limp" verbnet_key="limp#1" wn="limp%2:38:00 limp%2:38:01"/>
@@ -63,7 +63,7 @@
   <MEMBER features="+speed +attitude" fn_mapping="None" grouping="" name="skedaddle" verbnet_key="skedaddle#2" wn="skedaddle%2:38:00"/>
   <MEMBER features="+bodily_manner" fn_mapping="None" grouping="" name="skid" verbnet_key="skid#1" wn=""/>
   <MEMBER features="+attitude" fn_mapping="None" grouping="" name="skulk" verbnet_key="skulk#1" wn="skulk%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sleepwalk" verbnet_key="sleepwalk#1" wn="sleepwalk%2:38:00"/>
+  <MEMBER features="" fn_mapping="None" grouping="" name="sleepwalk" verbnet_key="sleepwalk#1" wn="sleepwalk%2:38:00"/>
   <MEMBER features="+attitude" fn_mapping="None" grouping="" name="slink" verbnet_key="slink#1" wn="slink%2:38:00"/>
   <MEMBER features="+path_shape +orientation" fn_mapping="None" grouping="" name="slither" verbnet_key="slither#1" wn="slither%2:38:00"/>
   <MEMBER features="+speed" fn_mapping="Self_motion" grouping="" name="slog" verbnet_key="slog#1" wn="slog%2:38:00"/>
@@ -72,24 +72,24 @@
   <MEMBER features="+speed" fn_mapping="None" grouping="" name="sprint" verbnet_key="sprint#1" wn="sprint%2:38:00"/>
   <MEMBER features="+speed +path_shape" fn_mapping="Self_motion" grouping="spring.02" name="spring" verbnet_key="spring#1" wn="spring%2:38:01"/>
   <MEMBER features="+bodily_manner" fn_mapping="Self_motion" grouping="stagger.01" name="stagger" verbnet_key="stagger#2" wn="stagger%2:38:00 stagger%2:38:01"/>
-  <MEMBER fn_mapping="Quitting" grouping="step.01" name="step" verbnet_key="step#1" wn=""/>
+  <MEMBER features="" fn_mapping="Quitting" grouping="step.01" name="step" verbnet_key="step#1" wn=""/>
   <MEMBER features="+purpose +bodily_manner +attitude +orientation" fn_mapping="None" grouping="" name="stomp" verbnet_key="stomp#2" wn="stomp%2:38:00"/>
   <MEMBER features="+path_shape +orientation" fn_mapping="None" grouping="stray.01" name="stray" verbnet_key="stray#1" wn="stray%2:38:01 stray%2:38:00"/>
   <MEMBER features="+speed" fn_mapping="None" grouping="streak.01 streak.02" name="streak" verbnet_key="streak#1" wn="streak%2:38:00 streak%2:38:01"/>
   <MEMBER features="+bodily_manner" fn_mapping="Self_motion" grouping="stumble.01" name="stumble" verbnet_key="stumble#1" wn="stumble%2:38:01 stumble%2:38:00"/>
   <MEMBER features="+speed +bodily_manner" fn_mapping="None" grouping="stump.02" name="stump" verbnet_key="stump#2" wn="stump%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="swag.02" name="swag" verbnet_key="swag#2" wn="swag%2:38:01"/>
+  <MEMBER features="" fn_mapping="None" grouping="swag.02" name="swag" verbnet_key="swag#2" wn="swag%2:38:01"/>
   <MEMBER features="+attitude" fn_mapping="Self_motion" grouping="" name="swagger" verbnet_key="swagger#1" wn="swagger%2:38:00"/>
   <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="swan" verbnet_key="swan#1" wn=""/>
   <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="swerve" verbnet_key="swerve#2" wn=""/>
   <MEMBER features="+speed" fn_mapping="None" grouping="tear.02" name="tear" verbnet_key="tear#3" wn="tear%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tiptoe" verbnet_key="tiptoe#1" wn="tiptoe%2:38:00"/>
+  <MEMBER features="" fn_mapping="None" grouping="" name="tiptoe" verbnet_key="tiptoe#1" wn="tiptoe%2:38:00"/>
   <MEMBER features="+bodily_manner" fn_mapping="None" grouping="" name="toddle" verbnet_key="toddle#1" wn="toddle%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="toil" verbnet_key="toil#1" wn=""/>
+  <MEMBER features="" fn_mapping="None" grouping="" name="toil" verbnet_key="toil#1" wn=""/>
   <MEMBER features="+speed +attitude" fn_mapping="None" grouping="" name="tootle" verbnet_key="tootle#1" wn=""/>
   <MEMBER features="+bodily_manner" fn_mapping="None" grouping="" name="totter" verbnet_key="totter#3" wn="totter%2:38:02 totter%2:38:01 totter%2:38:00"/>
-  <MEMBER fn_mapping="Self_motion" grouping="tread.01" name="tread" verbnet_key="tread#3" wn="tread%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="troop" verbnet_key="troop#1" wn="troop%2:38:00"/>
+  <MEMBER features="" fn_mapping="Self_motion" grouping="tread.01" name="tread" verbnet_key="tread#3" wn="tread%2:38:00"/>
+  <MEMBER features="" fn_mapping="None" grouping="" name="troop" verbnet_key="troop#1" wn="troop%2:38:00"/>
   <MEMBER features="+bodily_manner" fn_mapping="None" grouping="" name="trundle" verbnet_key="trundle#2" wn="trundle%2:38:00"/>
   <MEMBER features="+bodily_manner" fn_mapping="None" grouping="" name="waddle" verbnet_key="waddle#1" wn="waddle%2:38:00"/>
   <MEMBER features="+path_shape +purpose" fn_mapping="Motion" grouping="" name="weave" verbnet_key="weave#3" wn=""/>
@@ -419,10 +419,10 @@
   <VNSUBCLASS ID="run-51.3.2-1">
    <MEMBERS>
     <MEMBER features="+speed +path_shape" fn_mapping="Self_motion" grouping="hop.01 hop.02" name="hop" verbnet_key="hop#1" wn="hop%2:38:00 hop%2:38:04 hop%2:38:02 hop%2:38:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="journey" verbnet_key="journey#1" wn="journey%2:38:00 journey%2:38:01"/>
+    <MEMBER features="" fn_mapping="None" grouping="" name="journey" verbnet_key="journey#1" wn="journey%2:38:00 journey%2:38:01"/>
     <MEMBER features="+bodily_manner +orientation" fn_mapping="Traversing" grouping="leap.01 leap.02" name="leap" verbnet_key="leap#1" wn="leap%2:38:00 leap%2:38:10"/>
     <MEMBER features="+speed" fn_mapping="Self_motion" grouping="pad.02" name="pad" verbnet_key="pad#2" wn="pad%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="perambulate" verbnet_key="perambulate#1" wn="perambulate%2:38:00"/>
+    <MEMBER features="" fn_mapping="None" grouping="" name="perambulate" verbnet_key="perambulate#1" wn="perambulate%2:38:00"/>
     <MEMBER features="+speed +bodily_manner" fn_mapping="None" grouping="" name="plod" verbnet_key="plod#1" wn="plod%2:38:00"/>
     <MEMBER features="+attitude" fn_mapping="None" grouping="" name="prowl" verbnet_key="prowl#1" wn="prowl%2:38:00"/>
     <MEMBER features="+speed +purpose" fn_mapping="None" grouping="ramble.02" name="ramble" verbnet_key="ramble#1" wn="ramble%2:38:01"/>
@@ -431,10 +431,10 @@
     <MEMBER features="+bodily_manner" fn_mapping="Self_motion" grouping="stride.01" name="stride" verbnet_key="stride#1" wn="stride%2:38:00 stride%2:38:03"/>
     <MEMBER features="+purpose" fn_mapping="None" grouping="" name="stroll" verbnet_key="stroll#1" wn="stroll%2:38:00"/>
     <MEMBER features="+speed" fn_mapping="None" grouping="sweep.01" name="sweep" verbnet_key="sweep#3" wn="sweep%2:38:00 sweep%2:35:03"/>
-    <MEMBER fn_mapping="Self_motion" grouping="swim.01" name="swim" verbnet_key="swim#1" wn="swim%2:38:00"/>
+    <MEMBER features="" fn_mapping="Self_motion" grouping="swim.01" name="swim" verbnet_key="swim#1" wn="swim%2:38:00"/>
     <MEMBER features="+purpose +bodily_manner" fn_mapping="None" grouping="" name="traipse" verbnet_key="traipse#1" wn="traipse%2:38:00"/>
-    <MEMBER fn_mapping="Self_motion" grouping="" name="tramp" verbnet_key="tramp#1" wn="tramp%2:38:00 tramp%2:38:01 tramp%2:38:03 tramp%2:38:02"/>
-    <MEMBER fn_mapping="Travel" grouping="travel.01 travel.02" name="travel" verbnet_key="travel#1" wn="travel%2:38:00 travel%2:38:02"/>
+    <MEMBER features="" fn_mapping="Self_motion" grouping="" name="tramp" verbnet_key="tramp#1" wn="tramp%2:38:00 tramp%2:38:01 tramp%2:38:03 tramp%2:38:02"/>
+    <MEMBER features="" fn_mapping="Travel" grouping="travel.01 travel.02" name="travel" verbnet_key="travel#1" wn="travel%2:38:00 travel%2:38:02"/>
     <MEMBER features="+speed +bodily_manner" fn_mapping="None" grouping="" name="trek" verbnet_key="trek#1" wn="trek%2:38:01"/>
     <MEMBER features="+speed +bodily_manner" fn_mapping="None" grouping="" name="trudge" verbnet_key="trudge#1" wn="trudge%2:38:01"/>
     <MEMBER features="+bodily_manner" fn_mapping="None" grouping="" name="vault" verbnet_key="vault#1" wn="vault%2:38:01 vault%2:38:00"/>
@@ -507,7 +507,7 @@
     <MEMBER features="+speed" fn_mapping="None" grouping="dart.01" name="dart" verbnet_key="dart#2" wn="dart%2:38:01 dart%2:38:00"/>
     <MEMBER features="+speed" fn_mapping="None" grouping="dash.01" name="dash" verbnet_key="dash#2" wn="dash%2:38:00"/>
     <MEMBER features="+speed +path_shape +purpose" fn_mapping="None" grouping="drift.01 drift.02 drift.04" name="drift" verbnet_key="drift#3" wn="drift%2:38:02 drift%2:38:04 drift%2:38:05 drift%2:38:06 drift%2:35:03"/>
-    <MEMBER fn_mapping="Motion" grouping="float.01" name="float" verbnet_key="float#3" wn="float%2:38:00 float%2:38:01"/>
+    <MEMBER features="" fn_mapping="Motion" grouping="float.01" name="float" verbnet_key="float#3" wn="float%2:38:00 float%2:38:01"/>
     <MEMBER features="+speed +bodily_manner" fn_mapping="None" grouping="gallop.01" name="gallop" verbnet_key="gallop#1" wn="gallop%2:38:00 gallop%2:38:01 gallop%2:38:03"/>
     <MEMBER features="+speed +bodily_manner" fn_mapping="None" grouping="glide.01" name="glide" verbnet_key="glide#2" wn="glide%2:38:00 glide%2:38:02"/>
     <MEMBER features="+speed" fn_mapping="Self_motion" grouping="hasten.01" name="hasten" verbnet_key="hasten#2" wn="?hasten%2:30:00 hasten%2:38:00"/>
@@ -1108,7 +1108,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="run-51.3.2-2-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="fly.01 fly.02" name="fly" verbnet_key="fly#4" wn="fly%2:38:00 fly%2:38:02 fly%2:38:07 fly%2:38:03"/>
+      <MEMBER features="" fn_mapping="None" grouping="fly.01 fly.02" name="fly" verbnet_key="fly#4" wn="fly%2:38:00 fly%2:38:02 fly%2:38:07 fly%2:38:03"/>
       <MEMBER features="+speed +purpose +bodily_manner" fn_mapping="Self_motion" grouping="" name="jog" verbnet_key="jog#1" wn="jog%2:38:01"/>
       <MEMBER features="+bodily_manner" fn_mapping="Change_position_on_a_scale" grouping="jump.01" name="jump" verbnet_key="jump#3" wn="jump%2:38:00 jump%2:38:01"/>
       <MEMBER features="+bodily_manner" fn_mapping="Self_motion" grouping="march.01" name="march" verbnet_key="march#1" wn="march%2:38:01 march%2:38:00"/>
