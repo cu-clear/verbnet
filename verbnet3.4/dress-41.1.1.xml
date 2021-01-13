@@ -233,7 +233,7 @@
         </NP>
         <VERB/>
         <PREP value="in">
-         <SELRESTRS/>
+         <SYNRESTRS/>
         </PREP>
         <NP value="Theme">
          <SYNRESTRS/>
