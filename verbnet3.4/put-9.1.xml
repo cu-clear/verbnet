@@ -1,19 +1,19 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="put-9.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Arranging" grouping="arrange.01" name="arrange" verbnet_key="arrange#3" wn="arrange%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="emplace" verbnet_key="emplace#1" wn="emplace%2:35:00"/>
-  <MEMBER fn_mapping="Placing" grouping="immerse.01" name="immerse" verbnet_key="immerse#1" wn="immerse%2:35:00"/>
-  <MEMBER fn_mapping="Placing" grouping="implant.01 implant.02" name="implant" verbnet_key="implant#1" wn="implant%2:35:00 implant%2:35:02 implant%2:31:00"/>
-  <MEMBER fn_mapping="Placing" grouping="lodge.02 lodge.03" name="lodge" verbnet_key="lodge#3" wn="lodge%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="mount.01" name="mount" verbnet_key="mount#3" wn="mount%2:35:00 mount%2:30:01"/>
-  <MEMBER fn_mapping="Placing" grouping="position.01" name="position" verbnet_key="position#1" wn="position%2:35:00"/>
-  <MEMBER fn_mapping="Placing" grouping="situate.01" name="situate" verbnet_key="situate#1" wn="situate%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="sling.01" name="sling" verbnet_key="sling#1" wn="sling%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="station" verbnet_key="station#1" wn="station%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="superimpose" verbnet_key="superimpose#1" wn="superimpose%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="tack.01" name="tack_on" verbnet_key="tack_on#1" wn="tack%2:35:00 tack%2:35:06"/>
-  <MEMBER fn_mapping="None" grouping="wharf.04" name="wharf" verbnet_key="wharf#3" wn="wharf%2:35:03 wharf%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Arranging" grouping="arrange.01" name="arrange" verbnet_key="arrange#3" wn="arrange%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="emplace" verbnet_key="emplace#1" wn="emplace%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="immerse.01" name="immerse" verbnet_key="immerse#1" wn="immerse%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="implant.01 implant.02" name="implant" verbnet_key="implant#1" wn="implant%2:35:00 implant%2:35:02 implant%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="lodge.02 lodge.03" name="lodge" verbnet_key="lodge#3" wn="lodge%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="mount.01" name="mount" verbnet_key="mount#3" wn="mount%2:35:00 mount%2:30:01"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="position.01" name="position" verbnet_key="position#1" wn="position%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="situate.01" name="situate" verbnet_key="situate#1" wn="situate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sling.01" name="sling" verbnet_key="sling#1" wn="sling%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="station" verbnet_key="station#1" wn="station%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="superimpose" verbnet_key="superimpose#1" wn="superimpose%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tack.01" name="tack_on" verbnet_key="tack_on#1" wn="tack%2:35:00 tack%2:35:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wharf.04" name="wharf" verbnet_key="wharf#3" wn="wharf%2:35:03 wharf%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--Destination can also be realized locative adverb (here, there)-->
@@ -172,18 +172,18 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="put-9.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="apply.03" name="apply" verbnet_key="apply#1" wn="apply%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="bury.01                 bury.02" name="bury" verbnet_key="bury#1" wn="bury%2:39:00 bury%2:41:00                 bury%2:35:00 bury%2:35:02 bury%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="build.05" name="build-in" verbnet_key="build-in#1" wn="build_in%2:30:00"/>
-    <MEMBER fn_mapping="Placing" grouping="deposit.02" name="deposit" verbnet_key="deposit#1" wn="deposit%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="embed.01" name="embed" verbnet_key="embed#1" wn="embed%2:35:00"/>
-    <MEMBER fn_mapping="Placing" grouping="insert.01" name="insert" verbnet_key="insert#1" wn="insert%2:35:00"/>
-    <MEMBER fn_mapping="Installing" grouping="install.01 install.02" name="install" verbnet_key="install#2" wn="install%2:35:00"/>
-    <MEMBER fn_mapping="Placing" grouping="park.01 park.02" name="park" verbnet_key="park#1" wn="park%2:35:00 park%2:38:00"/>
-    <MEMBER fn_mapping="Filling" grouping="plant.01 plant.03 plant.04" name="plant" verbnet_key="plant#2" wn="plant%2:35:00 plant%2:40:00 plant%2:35:06 plant%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="reinstall" verbnet_key="reinstall#1" wn="reinstall%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="stash" verbnet_key="stash#1" wn="stash%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="stow" verbnet_key="stow#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="apply.03" name="apply" verbnet_key="apply#1" wn="apply%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bury.01                 bury.02" name="bury" verbnet_key="bury#1" wn="bury%2:39:00 bury%2:41:00                 bury%2:35:00 bury%2:35:02 bury%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="build.05" name="build-in" verbnet_key="build-in#1" wn="build_in%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="deposit.02" name="deposit" verbnet_key="deposit#1" wn="deposit%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="embed.01" name="embed" verbnet_key="embed#1" wn="embed%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="insert.01" name="insert" verbnet_key="insert#1" wn="insert%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Installing" grouping="install.01 install.02" name="install" verbnet_key="install#2" wn="install%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="park.01 park.02" name="park" verbnet_key="park#1" wn="park%2:35:00 park%2:38:00"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="plant.01 plant.03 plant.04" name="plant" verbnet_key="plant#2" wn="plant%2:35:00 plant%2:40:00 plant%2:35:06 plant%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="reinstall" verbnet_key="reinstall#1" wn="reinstall%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="stash" verbnet_key="stash#1" wn="stash%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="stow" verbnet_key="stow#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -252,13 +252,14 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="put-9.1-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Placing" grouping="place.01" name="place" verbnet_key="place#1" wn="place%2:35:00 place%2:40:00"/>
-    <MEMBER fn_mapping="Change_event_time" grouping="put.01" name="put" verbnet_key="put#3" wn="put%2:35:00"/>
-    <MEMBER fn_mapping="Placing" grouping="set.01 set.07" name="set" verbnet_key="set#5" wn="set%2:35:00 set%2:35:02 set%2:35:09 set%2:35:05"/>
-    <MEMBER fn_mapping="Attaching" grouping="stick.01 stick.02" name="stick" verbnet_key="stick#2" wn="stick%2:35:02 stick%2:36:03 stick%2:35:08 stick%2:35:09"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="place.01" name="place" verbnet_key="place#1" wn="place%2:35:00 place%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Change_event_time" grouping="put.01" name="put" verbnet_key="put#3" wn="put%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="set.01 set.07" name="set" verbnet_key="set#5" wn="set%2:35:00 set%2:35:02 set%2:35:09 set%2:35:05"/>
+    <MEMBER features="None" fn_mapping="Attaching" grouping="stick.01 stick.02" name="stick" verbnet_key="stick#2" wn="stick%2:35:02 stick%2:36:03 stick%2:35:08 stick%2:35:09"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Theme">
+      <SELRESTRS/>
     </THEMROLE>
    </THEMROLES>
    <FRAMES>

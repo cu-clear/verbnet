@@ -2,36 +2,36 @@
 <VNCLASS ID="break-45.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each verb specifies Form of Patient as a result of the breaking action-->
-  <MEMBER fn_mapping="None" grouping="" name="atomize" verbnet_key="atomize#1" wn=""/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="break.01 break.02" name="break" verbnet_key="break#2" wn="break%2:30:00 break%2:30:10 break%2:30:05 break%2:38:11 break%2:35:05 break%2:30:15 break%2:29:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="break_apart" verbnet_key="break_apart#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="break_down" verbnet_key="break_down#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="break_up" verbnet_key="break_up#1" wn=""/>
-  <MEMBER fn_mapping="Damaging" grouping="chip.01" name="chip" verbnet_key="chip#1" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="cleave.01" name="cleave" verbnet_key="cleave#1" wn=""/>
-  <MEMBER fn_mapping="Cause_harm" grouping="crack.01" name="crack" verbnet_key="crack#1" wn="crack%2:30:01 crack%2:30:02 crack%2:30:00 crack%2:30:05"/>
-  <MEMBER fn_mapping="Impact" grouping="crash.01" name="crash" verbnet_key="crash#1" wn="crash%2:38:02 crash%2:35:00 crash%2:35:01 crash%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="crumble.01 crumble.02" name="crumble" verbnet_key="crumble#1" wn="crumble%2:30:00 crumble%2:38:00"/>
-  <MEMBER fn_mapping="Reshaping" grouping="crush.01" name="crush" verbnet_key="crush#2" wn="crush%2:35:00 crush%2:30:00 crush%2:35:01 crush%2:30:08"/>
-  <MEMBER fn_mapping="Dispersal" grouping="" name="dissolve" verbnet_key="dissolve#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="fissure" verbnet_key="fissure#1" wn="fissure%2:30:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="fracture.02" name="fracture" verbnet_key="fracture#1" wn="fracture%2:30:10 fracture%2:29:02 fracture%2:29:01 fracture%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fragment" verbnet_key="fragment#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="granulate" verbnet_key="granulate#1" wn="granulate%2:30:00 granulate%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="pop.01" name="pop" verbnet_key="pop#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="rend" verbnet_key="rend#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="rive" verbnet_key="rive#1" wn=""/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="rip.01" name="rip" verbnet_key="rip#1" wn="rip%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rupture" verbnet_key="rupture#1" wn="rupture%2:35:00"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="shatter.01" name="shatter" verbnet_key="shatter#1" wn="shatter%2:30:00 shatter%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="shred" verbnet_key="shred#1" wn=""/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="" name="sliver" verbnet_key="sliver#1" wn=""/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="smash.01" name="smash" verbnet_key="smash#1" wn="smash%2:30:00 smash%2:35:08"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="snap.01" name="snap" verbnet_key="snap#1" wn="snap%2:35:01 snap%2:30:00"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="splinter.01" name="splinter" verbnet_key="splinter#1" wn="splinter%2:41:01 splinter%2:30:00"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="split.01 split.02" name="split" verbnet_key="split#1" wn="split%2:35:00 split%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="tatter" verbnet_key="tatter#1" wn=""/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="tear.01" name="tear" verbnet_key="tear#1" wn="tear%2:35:00 tear%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="atomize" verbnet_key="atomize#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="break.01 break.02" name="break" verbnet_key="break#2" wn="break%2:30:00 break%2:30:10 break%2:30:05 break%2:38:11 break%2:35:05 break%2:30:15 break%2:29:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="break_apart" verbnet_key="break_apart#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="break_down" verbnet_key="break_down#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="break_up" verbnet_key="break_up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Damaging" grouping="chip.01" name="chip" verbnet_key="chip#1" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="cleave.01" name="cleave" verbnet_key="cleave#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="crack.01" name="crack" verbnet_key="crack#1" wn="crack%2:30:01 crack%2:30:02 crack%2:30:00 crack%2:30:05"/>
+  <MEMBER features="None" fn_mapping="Impact" grouping="crash.01" name="crash" verbnet_key="crash#1" wn="crash%2:38:02 crash%2:35:00 crash%2:35:01 crash%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="crumble.01 crumble.02" name="crumble" verbnet_key="crumble#1" wn="crumble%2:30:00 crumble%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Reshaping" grouping="crush.01" name="crush" verbnet_key="crush#2" wn="crush%2:35:00 crush%2:30:00 crush%2:35:01 crush%2:30:08"/>
+  <MEMBER features="None" fn_mapping="Dispersal" grouping="" name="dissolve" verbnet_key="dissolve#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fissure" verbnet_key="fissure#1" wn="fissure%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="fracture.02" name="fracture" verbnet_key="fracture#1" wn="fracture%2:30:10 fracture%2:29:02 fracture%2:29:01 fracture%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fragment" verbnet_key="fragment#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="granulate" verbnet_key="granulate#1" wn="granulate%2:30:00 granulate%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pop.01" name="pop" verbnet_key="pop#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rend" verbnet_key="rend#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rive" verbnet_key="rive#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="rip.01" name="rip" verbnet_key="rip#1" wn="rip%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rupture" verbnet_key="rupture#1" wn="rupture%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="shatter.01" name="shatter" verbnet_key="shatter#1" wn="shatter%2:30:00 shatter%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shred" verbnet_key="shred#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="" name="sliver" verbnet_key="sliver#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="smash.01" name="smash" verbnet_key="smash#1" wn="smash%2:30:00 smash%2:35:08"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="snap.01" name="snap" verbnet_key="snap#1" wn="snap%2:35:01 snap%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="splinter.01" name="splinter" verbnet_key="splinter#1" wn="splinter%2:41:01 splinter%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="split.01 split.02" name="split" verbnet_key="split#1" wn="split%2:35:00 split%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tatter" verbnet_key="tatter#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="tear.01" name="tear" verbnet_key="tear#1" wn="tear%2:35:00 tear%2:35:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

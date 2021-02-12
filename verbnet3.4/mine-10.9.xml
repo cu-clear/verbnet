@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="mine-10.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="mine.01" name="mine" verbnet_key="mine#2" wn="mine%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="quarry" verbnet_key="quarry#1" wn="quarry%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mine.01" name="mine" verbnet_key="mine#2" wn="mine%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quarry" verbnet_key="quarry#1" wn="quarry%2:34:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

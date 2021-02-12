@@ -75,22 +75,22 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="lecture-37.11-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="gush.02" name="gush" verbnet_key="gush#2" wn="gush%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="lecture.01" name="lecture" verbnet_key="lecture#1" wn="lecture%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="moralize" verbnet_key="moralize#1" wn="moralize%2:32:00"/>
-    <MEMBER fn_mapping="Statement" grouping="preach.01 preach.02" name="preach" verbnet_key="preach#1" wn="preach%2:32:02 preach%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="rant" verbnet_key="rant#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="rave.01" name="rave" verbnet_key="rave#1" wn="rave%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="remark.01" name="remark" verbnet_key="remark#1" wn="remark%2:32:00 remark%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="rhapsodize" verbnet_key="rhapsodize#1" wn="rhapsodize%2:32:00"/>
-    <MEMBER fn_mapping="Statement" grouping="speak.01" name="speak" verbnet_key="speak#1" wn="speak%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="speak.05" name="speak_out" verbnet_key="speak_out#1" wn="speak_out%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="speak.05" name="speak_up" verbnet_key="speak_up#1" wn="speak_up%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="talk.03" name="talk" verbnet_key="talk#1" wn="talk%2:32:01"/>
-    <MEMBER fn_mapping="Evidence" grouping="testify.01 testify.02" name="testify" verbnet_key="testify#1" wn="testify%2:32:01 testify%2:32:02"/>
-    <MEMBER fn_mapping="None" grouping="theorize.01 theorize.02" name="theorize" verbnet_key="theorize#1" wn="theorize%2:31:02 theorize%2:31:01"/>
-    <MEMBER fn_mapping="Text_creation" grouping="write.01" name="write" verbnet_key="write#2" wn="write%2:36:00 write%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="pontificate" verbnet_key="pontificate#1" wn="pontificate%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="gush.02" name="gush" verbnet_key="gush#2" wn="gush%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="lecture.01" name="lecture" verbnet_key="lecture#1" wn="lecture%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="moralize" verbnet_key="moralize#1" wn="moralize%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Statement" grouping="preach.01 preach.02" name="preach" verbnet_key="preach#1" wn="preach%2:32:02 preach%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="rant" verbnet_key="rant#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="rave.01" name="rave" verbnet_key="rave#1" wn="rave%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="remark.01" name="remark" verbnet_key="remark#1" wn="remark%2:32:00 remark%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="rhapsodize" verbnet_key="rhapsodize#1" wn="rhapsodize%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Statement" grouping="speak.01" name="speak" verbnet_key="speak#1" wn="speak%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="speak.05" name="speak_out" verbnet_key="speak_out#1" wn="speak_out%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="speak.05" name="speak_up" verbnet_key="speak_up#1" wn="speak_up%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="talk.03" name="talk" verbnet_key="talk#1" wn="talk%2:32:01"/>
+    <MEMBER features="None" fn_mapping="Evidence" grouping="testify.01 testify.02" name="testify" verbnet_key="testify#1" wn="testify%2:32:01 testify%2:32:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="theorize.01 theorize.02" name="theorize" verbnet_key="theorize#1" wn="theorize%2:31:02 theorize%2:31:01"/>
+    <MEMBER features="None" fn_mapping="Text_creation" grouping="write.01" name="write" verbnet_key="write#2" wn="write%2:36:00 write%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pontificate" verbnet_key="pontificate#1" wn="pontificate%2:32:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -252,8 +252,8 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="lecture-37.11-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="elaborate.01" name="elaborate" verbnet_key="elaborate#1" wn="elaborate%2:32:00"/>
-      <MEMBER fn_mapping="Statement" grouping="comment.01 comment.02 comment.03" name="comment" verbnet_key="comment#1" wn="comment%2:32:00 comment%2:32:10 comment%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="elaborate.01" name="elaborate" verbnet_key="elaborate#1" wn="elaborate%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="comment.01 comment.02 comment.03" name="comment" verbnet_key="comment#1" wn="comment%2:32:00 comment%2:32:10 comment%2:32:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -316,7 +316,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="lecture-37.11-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Cogitation" grouping="dwell.01" name="dwell" verbnet_key="dwell#3" wn="dwell%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Cogitation" grouping="dwell.01" name="dwell" verbnet_key="dwell#3" wn="dwell%2:31:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

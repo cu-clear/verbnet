@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="say-37.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="be_like" verbnet_key="be_like#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="continue.02" name="continue" verbnet_key="continue#3" wn="continue%2:32:00"/>
-  <MEMBER fn_mapping="Speak_on_topic" grouping="go.06" name="go" verbnet_key="go#11" wn=""/>
-  <MEMBER fn_mapping="None" grouping="go.06" name="go_like" verbnet_key="go_like#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="go_on" verbnet_key="go_on#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="be_like" verbnet_key="be_like#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="continue.02" name="continue" verbnet_key="continue#3" wn="continue%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Speak_on_topic" grouping="go.06" name="go" verbnet_key="go#11" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="go.06" name="go_like" verbnet_key="go_like#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_on" verbnet_key="go_on#4" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -80,25 +80,25 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="say-37.7-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="add" verbnet_key="add#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="allege" verbnet_key="allege#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="blabber.01" name="blabber" verbnet_key="blabber#1" wn="blabber%2:32:00"/>
-    <MEMBER fn_mapping="Reveal_secret" grouping="" name="disclose" verbnet_key="disclose#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="divulge" verbnet_key="divulge#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="exclaim.01" name="exclaim" verbnet_key="exclaim#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="insinuate.02" name="insinuate" verbnet_key="insinuate#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="insist" verbnet_key="insist#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="intimate" verbnet_key="intimate#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="leak" verbnet_key="leak#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="reply" verbnet_key="reply#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="respond" verbnet_key="respond#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="retort" verbnet_key="retort#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="promulgate" verbnet_key="promulgate#1" wn=""/>
-    <MEMBER fn_mapping="Text_creation" grouping="utter.01" name="utter" verbnet_key="utter#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="venture" verbnet_key="venture#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="vocalize.01" name="vocalize" verbnet_key="vocalize#2" wn="vocalize%2:32:02 vocalize%2:32:04"/>
-    <MEMBER fn_mapping="None" grouping="voice.01" name="voice" verbnet_key="voice#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="write" verbnet_key="write#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="add" verbnet_key="add#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="allege" verbnet_key="allege#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="blabber.01" name="blabber" verbnet_key="blabber#1" wn="blabber%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Reveal_secret" grouping="" name="disclose" verbnet_key="disclose#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="divulge" verbnet_key="divulge#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="exclaim.01" name="exclaim" verbnet_key="exclaim#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="insinuate.02" name="insinuate" verbnet_key="insinuate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="insist" verbnet_key="insist#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="intimate" verbnet_key="intimate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="leak" verbnet_key="leak#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="reply" verbnet_key="reply#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="respond" verbnet_key="respond#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="retort" verbnet_key="retort#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="promulgate" verbnet_key="promulgate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Text_creation" grouping="utter.01" name="utter" verbnet_key="utter#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="venture" verbnet_key="venture#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="vocalize.01" name="vocalize" verbnet_key="vocalize#2" wn="vocalize%2:32:02 vocalize%2:32:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="voice.01" name="voice" verbnet_key="voice#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="write" verbnet_key="write#3" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -457,33 +457,33 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="say-37.7-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="advise.01 advise.02" name="advise" verbnet_key="advise#2" wn="advise%2:32:01"/>
-      <MEMBER fn_mapping="Statement" grouping="announce.01 announce.02" name="announce" verbnet_key="announce#3" wn="announce%2:32:00 announce%2:32:07"/>
-      <MEMBER fn_mapping="None" grouping="articulate.01" name="articulate" verbnet_key="articulate#1" wn="articulate%2:32:02 articulate%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="blab" verbnet_key="blab#1" wn="blab%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="blurt" verbnet_key="blurt#1" wn="blurt%2:32:00"/>
-      <MEMBER fn_mapping="Statement" grouping="claim.01" name="claim" verbnet_key="claim#1" wn="claim%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="confess.03" name="confess" verbnet_key="confess#3" wn="confess%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="confide" verbnet_key="confide#1" wn="confide%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="convey.01" name="convey" verbnet_key="convey#1" wn="convey%2:32:00"/>
-      <MEMBER fn_mapping="Statement" grouping="declare.01" name="declare" verbnet_key="declare#4" wn="declare%2:32:00 declare%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="interject" verbnet_key="interject#1" wn="interject%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="interpose" verbnet_key="interpose#1" wn="interpose%2:32:00"/>
-      <MEMBER fn_mapping="Statement" grouping="mention.01" name="mention" verbnet_key="mention#1" wn="mention%2:32:02 mention%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="observe.04" name="observe" verbnet_key="observe#2" wn="observe%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="proclaim.02" name="proclaim" verbnet_key="proclaim#4" wn="proclaim%2:32:00"/>
-      <MEMBER fn_mapping="Statement" grouping="propose.01" name="propose" verbnet_key="propose#2" wn="?propose%2:32:00"/>
-      <MEMBER fn_mapping="Statement" grouping="recount.01" name="recount" verbnet_key="recount#1" wn="recount%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="reiterate.01" name="reiterate" verbnet_key="reiterate#1" wn="reiterate%2:32:00"/>
-      <MEMBER fn_mapping="Statement" grouping="relate.04" name="relate" verbnet_key="relate#3" wn="relate%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="reveal.02" name="reveal" verbnet_key="reveal#5" wn="reveal%2:32:00"/>
-      <MEMBER fn_mapping="Statement" grouping="say.01" name="say" verbnet_key="say#3" wn="say%2:32:00 say%2:32:01 say%2:32:15 say%2:32:04"/>
-      <MEMBER fn_mapping="None" grouping="state.01" name="state" verbnet_key="state#1" wn="state%2:32:00"/>
-      <MEMBER fn_mapping="Commitment" grouping="" name="volunteer" verbnet_key="volunteer#2" wn="volunteer%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="repeat.01 repeat.02" name="repeat" verbnet_key="repeat#2" wn="repeat%2:32:00 repeat%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="remark.01" name="remark" verbnet_key="remark#2" wn="remark%2:32:00 remark%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="note.02" name="note" verbnet_key="note#1" wn="note%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="report.01" name="report" verbnet_key="report#4" wn="report%2:32:00 report%2:32:04"/>
+      <MEMBER features="None" fn_mapping="None" grouping="advise.01 advise.02" name="advise" verbnet_key="advise#2" wn="advise%2:32:01"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="announce.01 announce.02" name="announce" verbnet_key="announce#3" wn="announce%2:32:00 announce%2:32:07"/>
+      <MEMBER features="None" fn_mapping="None" grouping="articulate.01" name="articulate" verbnet_key="articulate#1" wn="articulate%2:32:02 articulate%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="blab" verbnet_key="blab#1" wn="blab%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="blurt" verbnet_key="blurt#1" wn="blurt%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="claim.01" name="claim" verbnet_key="claim#1" wn="claim%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="confess.03" name="confess" verbnet_key="confess#3" wn="confess%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="confide" verbnet_key="confide#1" wn="confide%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="convey.01" name="convey" verbnet_key="convey#1" wn="convey%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="declare.01" name="declare" verbnet_key="declare#4" wn="declare%2:32:00 declare%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="interject" verbnet_key="interject#1" wn="interject%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="interpose" verbnet_key="interpose#1" wn="interpose%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="mention.01" name="mention" verbnet_key="mention#1" wn="mention%2:32:02 mention%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="observe.04" name="observe" verbnet_key="observe#2" wn="observe%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="proclaim.02" name="proclaim" verbnet_key="proclaim#4" wn="proclaim%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="propose.01" name="propose" verbnet_key="propose#2" wn="?propose%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="recount.01" name="recount" verbnet_key="recount#1" wn="recount%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="reiterate.01" name="reiterate" verbnet_key="reiterate#1" wn="reiterate%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="relate.04" name="relate" verbnet_key="relate#3" wn="relate%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="reveal.02" name="reveal" verbnet_key="reveal#5" wn="reveal%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="say.01" name="say" verbnet_key="say#3" wn="say%2:32:00 say%2:32:01 say%2:32:15 say%2:32:04"/>
+      <MEMBER features="None" fn_mapping="None" grouping="state.01" name="state" verbnet_key="state#1" wn="state%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Commitment" grouping="" name="volunteer" verbnet_key="volunteer#2" wn="volunteer%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="repeat.01 repeat.02" name="repeat" verbnet_key="repeat#2" wn="repeat%2:32:00 repeat%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="remark.01" name="remark" verbnet_key="remark#2" wn="remark%2:32:00 remark%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="note.02" name="note" verbnet_key="note#1" wn="note%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="report.01" name="report" verbnet_key="report#4" wn="report%2:32:00 report%2:32:04"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -590,9 +590,9 @@
      <SUBCLASSES>
       <VNSUBCLASS ID="say-37.7-1-1-1">
        <MEMBERS>
-        <MEMBER fn_mapping="None" grouping="" name="purpose" verbnet_key="purpose#1" wn=""/>
-        <MEMBER fn_mapping="None" grouping="suggest.01 suggest.02" name="suggest" verbnet_key="suggest#3" wn="suggest%2:32:00 suggest%2:32:04"/>
-        <MEMBER fn_mapping="None" grouping="" name="recommend" verbnet_key="recommend#3" wn=""/>
+        <MEMBER features="None" fn_mapping="None" grouping="" name="purpose" verbnet_key="purpose#1" wn=""/>
+        <MEMBER features="None" fn_mapping="None" grouping="suggest.01 suggest.02" name="suggest" verbnet_key="suggest#3" wn="suggest%2:32:00 suggest%2:32:04"/>
+        <MEMBER features="None" fn_mapping="None" grouping="" name="recommend" verbnet_key="recommend#3" wn=""/>
        </MEMBERS>
        <THEMROLES/>
        <FRAMES>
@@ -989,7 +989,7 @@
     </VNSUBCLASS>
     <VNSUBCLASS ID="say-37.7-1-2">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="hint.01" name="hint" verbnet_key="hint#1" wn="hint%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="hint.01" name="hint" verbnet_key="hint#1" wn="hint%2:32:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

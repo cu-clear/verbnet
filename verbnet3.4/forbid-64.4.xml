@@ -1,11 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="forbid-64.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="dissuade" verbnet_key="dissuade#1" wn="dissuade%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="keep.03" name="keep" verbnet_key="keep#1" wn="keep%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dissuade" verbnet_key="dissuade#1" wn="dissuade%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="keep.03" name="keep" verbnet_key="keep#1" wn="keep%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Causer">
+    <SELRESTRS/>
   </THEMROLE>
   <THEMROLE type="Predicate">
    <SELRESTRS/>
@@ -52,23 +53,23 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="forbid-64.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="ban.01" name="ban" verbnet_key="ban#1" wn="ban%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="bar.01" name="bar" verbnet_key="bar#1" wn="bar%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="block.02" name="block" verbnet_key="block#3" wn="block%2:41:00 block%2:41:01"/>
-    <MEMBER fn_mapping="None" grouping="deter.01" name="deter" verbnet_key="deter#1" wn="deter%2:32:01 deter%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="discourage.02" name="discourage" verbnet_key="discourage#2" wn="discourage%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="exclude.01" name="exclude" verbnet_key="exclude#2" wn="exclude%2:31:01 exclude%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="forbid.01 forbid.02" name="forbid" verbnet_key="forbid#1" wn="forbid%2:32:00 forbid%2:41:03"/>
-    <MEMBER fn_mapping="None" grouping="hamper.01" name="hamper" verbnet_key="hamper#1" wn="hamper%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="hinder.01" name="hinder" verbnet_key="hinder#1" wn="hinder%2:41:01 hinder%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="impede.01" name="impede" verbnet_key="impede#1" wn="impede%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="inhibit.01" name="inhibit" verbnet_key="inhibit#1" wn="inhibit%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="obstruct.01" name="obstruct" verbnet_key="obstruct#1" wn="obstruct%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="preclude.01" name="preclude" verbnet_key="preclude#2" wn="preclude%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="prevent.01" name="prevent" verbnet_key="prevent#1" wn="prevent%2:41:01 prevent%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="prohibit.01" name="prohibit" verbnet_key="prohibit#1" wn="prohibit%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="restrain.01" name="restrain" verbnet_key="restrain#1" wn="restrain%2:37:00"/>
-    <MEMBER fn_mapping="None" grouping="stop.02" name="stop" verbnet_key="stop#1" wn="stop%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="ban.01" name="ban" verbnet_key="ban#1" wn="ban%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bar.01" name="bar" verbnet_key="bar#1" wn="bar%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="block.02" name="block" verbnet_key="block#3" wn="block%2:41:00 block%2:41:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="deter.01" name="deter" verbnet_key="deter#1" wn="deter%2:32:01 deter%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="discourage.02" name="discourage" verbnet_key="discourage#2" wn="discourage%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="exclude.01" name="exclude" verbnet_key="exclude#2" wn="exclude%2:31:01 exclude%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="forbid.01 forbid.02" name="forbid" verbnet_key="forbid#1" wn="forbid%2:32:00 forbid%2:41:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="hamper.01" name="hamper" verbnet_key="hamper#1" wn="hamper%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="hinder.01" name="hinder" verbnet_key="hinder#1" wn="hinder%2:41:01 hinder%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="impede.01" name="impede" verbnet_key="impede#1" wn="impede%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="inhibit.01" name="inhibit" verbnet_key="inhibit#1" wn="inhibit%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="obstruct.01" name="obstruct" verbnet_key="obstruct#1" wn="obstruct%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="preclude.01" name="preclude" verbnet_key="preclude#2" wn="preclude%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="prevent.01" name="prevent" verbnet_key="prevent#1" wn="prevent%2:41:01 prevent%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="prohibit.01" name="prohibit" verbnet_key="prohibit#1" wn="prohibit%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="restrain.01" name="restrain" verbnet_key="restrain#1" wn="restrain%2:37:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="stop.02" name="stop" verbnet_key="stop#1" wn="stop%2:41:00"/>
    </MEMBERS>
    <THEMROLES>
    </THEMROLES>
@@ -139,7 +140,7 @@
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
-      <NP value="Cuaser">
+      <NP value="Causer">
        <SYNRESTRS/>
       </NP>
       <VERB/>

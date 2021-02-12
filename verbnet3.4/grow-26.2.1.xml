@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="grow-26.2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="develop.01 develop.02" name="develop" verbnet_key="develop#3" wn="develop%2:30:00 develop%2:30:01 develop%2:36:09 develop%2:30:10"/>
-  <MEMBER fn_mapping="None" grouping="evolve.01 evolve.02" name="evolve" verbnet_key="evolve#2" wn="evolve%2:30:00 evolve%2:30:03"/>
-  <MEMBER fn_mapping="None" grouping="generate.01" name="generate" verbnet_key="generate#3" wn="generate%2:36:02 generate%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="grow.02 grow.03" name="grow" verbnet_key="grow#5" wn="grow%2:30:02 grow%2:30:01 grow%2:30:04 grow%2:36:00 grow%2:30:10"/>
-  <MEMBER fn_mapping="None" grouping="hatch.01 hatch.02" name="hatch" verbnet_key="hatch#1" wn="hatch%2:29:01 hatch%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="maturate.01" name="maturate" verbnet_key="maturate#1" wn="maturate%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="mature.01" name="mature" verbnet_key="mature#1" wn="mature%2:30:00 mature%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="redevelop" verbnet_key="redevelop#1" wn="redevelop%2:39:00 redevelop%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="develop.01 develop.02" name="develop" verbnet_key="develop#3" wn="develop%2:30:00 develop%2:30:01 develop%2:36:09 develop%2:30:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="evolve.01 evolve.02" name="evolve" verbnet_key="evolve#2" wn="evolve%2:30:00 evolve%2:30:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="generate.01" name="generate" verbnet_key="generate#3" wn="generate%2:36:02 generate%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="grow.02 grow.03" name="grow" verbnet_key="grow#5" wn="grow%2:30:02 grow%2:30:01 grow%2:30:04 grow%2:36:00 grow%2:30:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hatch.01 hatch.02" name="hatch" verbnet_key="hatch#1" wn="hatch%2:29:01 hatch%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="maturate.01" name="maturate" verbnet_key="maturate#1" wn="maturate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mature.01" name="mature" verbnet_key="mature#1" wn="mature%2:30:00 mature%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="redevelop" verbnet_key="redevelop#1" wn="redevelop%2:39:00 redevelop%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

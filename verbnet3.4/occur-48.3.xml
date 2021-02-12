@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="occur-48.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="go_on" verbnet_key="go_on#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="fall.05" name="fall" verbnet_key="fall#9" wn="fall%2:40:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="recur" verbnet_key="recur#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="take_place" verbnet_key="take_place#1" wn="take_place%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_on" verbnet_key="go_on#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="fall.05" name="fall" verbnet_key="fall#9" wn="fall%2:40:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="recur" verbnet_key="recur#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="take_place" verbnet_key="take_place#1" wn="take_place%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -101,17 +101,17 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="occur-48.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="befall.01" name="befall" verbnet_key="befall#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="chance.01" name="chance" verbnet_key="chance#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="develop.01" name="develop" verbnet_key="develop#4" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="ensue" verbnet_key="ensue#1" wn="ensue%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="eventuate" verbnet_key="eventuate#1" wn="eventuate%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="follow" verbnet_key="follow#6" wn=""/>
-    <MEMBER fn_mapping="None" grouping="happen.01" name="happen" verbnet_key="happen#1" wn="happen%2:30:00 happen%2:30:01"/>
-    <MEMBER fn_mapping="None" grouping="occur.01" name="occur" verbnet_key="occur#1" wn="occur%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="pass.03" name="pass" verbnet_key="pass#5" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="result" verbnet_key="result#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="transpire" verbnet_key="transpire#1" wn="transpire%2:30:09"/>
+    <MEMBER features="None" fn_mapping="None" grouping="befall.01" name="befall" verbnet_key="befall#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="chance.01" name="chance" verbnet_key="chance#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="develop.01" name="develop" verbnet_key="develop#4" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="ensue" verbnet_key="ensue#1" wn="ensue%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="eventuate" verbnet_key="eventuate#1" wn="eventuate%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="follow" verbnet_key="follow#6" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="happen.01" name="happen" verbnet_key="happen#1" wn="happen%2:30:00 happen%2:30:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="occur.01" name="occur" verbnet_key="occur#1" wn="occur%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="pass.03" name="pass" verbnet_key="pass#5" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="result" verbnet_key="result#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="transpire" verbnet_key="transpire#1" wn="transpire%2:30:09"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -145,11 +145,11 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="occur-48.3-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="go" verbnet_key="go#9" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="go_over" verbnet_key="go_over#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="go_off" verbnet_key="go_off#4" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="go_down" verbnet_key="go_down#5" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="come_off" verbnet_key="come_off#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="go" verbnet_key="go#9" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="go_over" verbnet_key="go_over#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="go_off" verbnet_key="go_off#4" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="go_down" verbnet_key="go_down#5" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="come_off" verbnet_key="come_off#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

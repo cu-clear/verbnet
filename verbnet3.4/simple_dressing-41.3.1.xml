@@ -14,7 +14,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="simple_dressing-41.3.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Wearing" grouping="wear.01" name="wear" verbnet_key="wear#1" wn="wear%2:29:00 wear%2:29:04 wear%2:29:01"/>
+    <MEMBER features="None" fn_mapping="Wearing" grouping="wear.01" name="wear" verbnet_key="wear#1" wn="wear%2:29:00 wear%2:29:04 wear%2:29:01"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Pivot">
@@ -55,8 +55,8 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="simple_dressing-41.3.1-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="don" verbnet_key="don#1" wn="don%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="doff" verbnet_key="doff#1" wn="doff%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="don" verbnet_key="don#1" wn="don%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="doff" verbnet_key="doff#1" wn="doff%2:35:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Agent">

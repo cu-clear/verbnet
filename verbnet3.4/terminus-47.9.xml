@@ -3,7 +3,7 @@
  <MEMBERS>
   <MEMBER features="+begin" fn_mapping="None" grouping="begin.01" name="begin" verbnet_key="begin#2" wn="begin%2:42:00" />
   <MEMBER features="+end" fn_mapping="None" grouping="end.01" name="end" verbnet_key="end#2" wn="end%2:42:00" />
-  <MEMBER features="" fn_mapping="None" grouping="lead.03" name="lead" verbnet_key="lead#6" wn="lead%2:42:00 lead%2:42:03" />
+  <MEMBER features="None" fn_mapping="None" grouping="lead.03" name="lead" verbnet_key="lead#6" wn="lead%2:42:00 lead%2:42:03" />
   <MEMBER features="+begin" fn_mapping="None" grouping="start.01" name="start" verbnet_key="start#3" wn="start%2:42:00" />
   <MEMBER features="+end" fn_mapping="None" grouping="stop.04" name="stop" verbnet_key="stop#4" wn="stop%2:42:13" />
   <MEMBER features="+end" fn_mapping="None" grouping="terminate.01" name="terminate" verbnet_key="terminate#3" wn="terminate%2:42:00" />

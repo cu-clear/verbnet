@@ -3,50 +3,50 @@
  <MEMBERS>
   <!--Removed "miss" from the class-->
   <!--Verbs may add more specific description of the spatial relationship between Theme and Co-Theme-->
-  <MEMBER fn_mapping="None" grouping="" name="bestride" verbnet_key="bestride#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="blanket" verbnet_key="blanket#2" wn="blanket%2:35:00 blanket%2:42:00"/>
-  <MEMBER fn_mapping="Locative_relation" grouping="border.01" name="border" verbnet_key="border#1" wn="border%2:35:01 border%2:42:00 border%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="bound.02" name="bound" verbnet_key="bound#1" wn="bound%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bracket" verbnet_key="bracket#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="bridge.01" name="bridge" verbnet_key="bridge#1" wn="bridge%2:42:00"/>
-  <MEMBER fn_mapping="Closure" grouping="cap.01" name="cap" verbnet_key="cap#2" wn="cap%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="circle.02" name="circle" verbnet_key="circle#1" wn=""/>
-  <MEMBER fn_mapping="Eclipse" grouping="cloak.02" name="cloak" verbnet_key="cloak#2" wn=""/>
-  <MEMBER fn_mapping="Distributed_position" grouping="cover.01" name="cover" verbnet_key="cover#1" wn="cover%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="edge.03" name="edge" verbnet_key="edge#1" wn="edge%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="encircle" verbnet_key="encircle#1" wn="encircle%2:35:12"/>
-  <MEMBER fn_mapping="None" grouping="enclose.01" name="enclose" verbnet_key="enclose#1" wn="enclose%2:35:01 enclose%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="encompass" verbnet_key="encompass#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="engulf" verbnet_key="engulf#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="envelop" verbnet_key="envelop#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="fence.01" name="fence" verbnet_key="fence#3" wn="?fence%2:35:00"/>
-  <MEMBER fn_mapping="Filling" grouping="fill.01" name="fill" verbnet_key="fill#1" wn="fill%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="flank" verbnet_key="flank#1" wn="flank%2:42:00"/>
-  <MEMBER fn_mapping="Cotheme" grouping="follow.01" name="follow" verbnet_key="follow#5" wn=""/>
-  <MEMBER fn_mapping="None" grouping="forgo.02 forgo.03" name="forgo" verbnet_key="forgo#2" wn="forgo%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="frame.01" name="frame" verbnet_key="frame#2" wn="frame%2:35:00 frame%2:42:00"/>
-  <MEMBER fn_mapping="Leadership" grouping="head.02" name="head" verbnet_key="head#2" wn="head%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="hug.02" name="hug" verbnet_key="hug#1" wn="hug%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="line.01" name="line" verbnet_key="line#1" wn="line%2:42:00"/>
-  <MEMBER fn_mapping="Adjacency" grouping="" name="neighbor" verbnet_key="neighbor#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="overcast" verbnet_key="overcast#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="overhang" verbnet_key="overhang#1" wn="overhang%2:42:01 overhang%2:42:00"/>
-  <MEMBER fn_mapping="Relative_time" grouping="precede.01" name="precede" verbnet_key="precede#1" wn="precede%2:42:01 precede%2:38:00"/>
-  <MEMBER fn_mapping="Relative_time" grouping="predate.01" name="predate" verbnet_key="predate#1" wn="predate%2:42:00 predate%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="rim.01" name="rim" verbnet_key="rim#1" wn="rim%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="ring.02" name="ring" verbnet_key="ring#1" wn="ring%2:35:03"/>
-  <MEMBER fn_mapping="Path_shape" grouping="skirt.02" name="skirt" verbnet_key="skirt#1" wn="skirt%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="span" verbnet_key="span#1" wn="span%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="straddle.01 straddle.02" name="straddle" verbnet_key="straddle#2" wn="straddle%2:42:01 straddle%2:42:02"/>
-  <MEMBER fn_mapping="None" grouping="support.01" name="support" verbnet_key="support#2" wn="support%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="surmount" verbnet_key="surmount#1" wn="surmount%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="surround.01" name="surround" verbnet_key="surround#1" wn="surround%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="top.03" name="top" verbnet_key="top#2" wn="top%2:40:00"/>
-  <MEMBER fn_mapping="Traversing" grouping="traverse.01" name="traverse" verbnet_key="traverse#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="underlie.01" name="underlie" verbnet_key="underlie#1" wn="underlie%2:42:00 underlie%2:42:01 underlay%2:35:00 underlay%2:34:00"/>
-  <MEMBER fn_mapping="Distributed_position" grouping="" name="wreathe" verbnet_key="wreathe#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="enshroud" verbnet_key="enshroud#1" wn="enshroud%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="veil" verbnet_key="veil#2" wn="veil%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bestride" verbnet_key="bestride#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blanket" verbnet_key="blanket#2" wn="blanket%2:35:00 blanket%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Locative_relation" grouping="border.01" name="border" verbnet_key="border#1" wn="border%2:35:01 border%2:42:00 border%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bound.02" name="bound" verbnet_key="bound#1" wn="bound%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bracket" verbnet_key="bracket#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="bridge.01" name="bridge" verbnet_key="bridge#1" wn="bridge%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Closure" grouping="cap.01" name="cap" verbnet_key="cap#2" wn="cap%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="circle.02" name="circle" verbnet_key="circle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Eclipse" grouping="cloak.02" name="cloak" verbnet_key="cloak#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Distributed_position" grouping="cover.01" name="cover" verbnet_key="cover#1" wn="cover%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="edge.03" name="edge" verbnet_key="edge#1" wn="edge%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="encircle" verbnet_key="encircle#1" wn="encircle%2:35:12"/>
+  <MEMBER features="None" fn_mapping="None" grouping="enclose.01" name="enclose" verbnet_key="enclose#1" wn="enclose%2:35:01 enclose%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="encompass" verbnet_key="encompass#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="engulf" verbnet_key="engulf#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="envelop" verbnet_key="envelop#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="fence.01" name="fence" verbnet_key="fence#3" wn="?fence%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Filling" grouping="fill.01" name="fill" verbnet_key="fill#1" wn="fill%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flank" verbnet_key="flank#1" wn="flank%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="follow.01" name="follow" verbnet_key="follow#5" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="forgo.02 forgo.03" name="forgo" verbnet_key="forgo#2" wn="forgo%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="frame.01" name="frame" verbnet_key="frame#2" wn="frame%2:35:00 frame%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Leadership" grouping="head.02" name="head" verbnet_key="head#2" wn="head%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hug.02" name="hug" verbnet_key="hug#1" wn="hug%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="line.01" name="line" verbnet_key="line#1" wn="line%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Adjacency" grouping="" name="neighbor" verbnet_key="neighbor#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overcast" verbnet_key="overcast#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overhang" verbnet_key="overhang#1" wn="overhang%2:42:01 overhang%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Relative_time" grouping="precede.01" name="precede" verbnet_key="precede#1" wn="precede%2:42:01 precede%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Relative_time" grouping="predate.01" name="predate" verbnet_key="predate#1" wn="predate%2:42:00 predate%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="rim.01" name="rim" verbnet_key="rim#1" wn="rim%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ring.02" name="ring" verbnet_key="ring#1" wn="ring%2:35:03"/>
+  <MEMBER features="None" fn_mapping="Path_shape" grouping="skirt.02" name="skirt" verbnet_key="skirt#1" wn="skirt%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="span" verbnet_key="span#1" wn="span%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="straddle.01 straddle.02" name="straddle" verbnet_key="straddle#2" wn="straddle%2:42:01 straddle%2:42:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="support.01" name="support" verbnet_key="support#2" wn="support%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="surmount" verbnet_key="surmount#1" wn="surmount%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="surround.01" name="surround" verbnet_key="surround#1" wn="surround%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="top.03" name="top" verbnet_key="top#2" wn="top%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Traversing" grouping="traverse.01" name="traverse" verbnet_key="traverse#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="underlie.01" name="underlie" verbnet_key="underlie#1" wn="underlie%2:42:00 underlie%2:42:01 underlay%2:35:00 underlay%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Distributed_position" grouping="" name="wreathe" verbnet_key="wreathe#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="enshroud" verbnet_key="enshroud#1" wn="enshroud%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="veil" verbnet_key="veil#2" wn="veil%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -91,13 +91,13 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="contiguous_location-47.8-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="abut" verbnet_key="abut#1" wn="abut%2:35:00"/>
-    <MEMBER fn_mapping="Adjacency" grouping="adjoin.01" name="adjoin" verbnet_key="adjoin#1" wn="adjoin%2:35:02 adjoin%2:35:03"/>
-    <MEMBER fn_mapping="Body_movement" grouping="cross.02" name="cross" verbnet_key="cross#1" wn="cross%2:38:03"/>
-    <MEMBER fn_mapping="None" grouping="" name="hit" verbnet_key="hit#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="intersect" verbnet_key="intersect#1" wn="intersect%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="meet.03" name="meet" verbnet_key="meet#1" wn="meet%2:42:02 meet%2:35:00"/>
-    <MEMBER fn_mapping="Impact" grouping="touch.02" name="touch" verbnet_key="touch#2" wn="touch%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="abut" verbnet_key="abut#1" wn="abut%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Adjacency" grouping="adjoin.01" name="adjoin" verbnet_key="adjoin#1" wn="adjoin%2:35:02 adjoin%2:35:03"/>
+    <MEMBER features="None" fn_mapping="Body_movement" grouping="cross.02" name="cross" verbnet_key="cross#1" wn="cross%2:38:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="hit" verbnet_key="hit#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="intersect" verbnet_key="intersect#1" wn="intersect%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="meet.03" name="meet" verbnet_key="meet#1" wn="meet%2:42:02 meet%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Impact" grouping="touch.02" name="touch" verbnet_key="touch#2" wn="touch%2:35:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -133,7 +133,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="contiguous_location-47.8-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="dominate" verbnet_key="dominate#1" wn="?dominate%2:42:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="dominate" verbnet_key="dominate#1" wn="?dominate%2:42:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

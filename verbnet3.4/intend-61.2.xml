@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="intend-61.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="aim" verbnet_key="aim#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="aim" verbnet_key="aim#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -91,7 +91,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="intend-61.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Purpose" grouping="mean.01" name="mean" verbnet_key="mean#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Purpose" grouping="mean.01" name="mean" verbnet_key="mean#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -155,8 +155,8 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="intend-61.2-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="intend.01" name="intend" verbnet_key="intend#1" wn="intend%2:31:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="plan" verbnet_key="plan#1" wn=""/>
+      <MEMBER features="None" fn_mapping="None" grouping="intend.01" name="intend" verbnet_key="intend#1" wn="intend%2:31:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="plan" verbnet_key="plan#1" wn=""/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

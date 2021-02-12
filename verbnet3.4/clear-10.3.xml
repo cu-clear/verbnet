@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="clear-10.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="clean.01 clean.02 clean.04" name="clean" verbnet_key="clean#1" wn="clean%2:30:01 clean%2:42:00 clean%2:35:04       clean%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="hollow" verbnet_key="hollow#1" wn="hollow%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="clean.01 clean.02 clean.04" name="clean" verbnet_key="clean#1" wn="clean%2:30:01 clean%2:42:00 clean%2:35:04       clean%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hollow" verbnet_key="hollow#1" wn="hollow%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -264,14 +264,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="clear-10.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Removing" grouping="clear.01 clear.06" name="clear" verbnet_key="clear#1" wn="clear%2:30:02 clear%2:43:00 clear%2:30:01 clear%2:39:05 clear%2:30:11 clear%2:30:10 clear%2:30:08"/>
-    <MEMBER fn_mapping="Removing" grouping="drain.01" name="drain" verbnet_key="drain#1" wn="drain%2:38:00 drain%2:30:01"/>
-    <MEMBER fn_mapping="Removing" grouping="empty.01" name="empty" verbnet_key="empty#1" wn="empty%2:30:01 empty%2:30:00 empty%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Removing" grouping="clear.01 clear.06" name="clear" verbnet_key="clear#1" wn="clear%2:30:02 clear%2:43:00 clear%2:30:01 clear%2:39:05 clear%2:30:11 clear%2:30:10 clear%2:30:08"/>
+    <MEMBER features="None" fn_mapping="Removing" grouping="drain.01" name="drain" verbnet_key="drain#1" wn="drain%2:38:00 drain%2:30:01"/>
+    <MEMBER features="None" fn_mapping="Removing" grouping="empty.01" name="empty" verbnet_key="empty#1" wn="empty%2:30:01 empty%2:30:00 empty%2:35:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
     <FRAME>
-     <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP.Source V" secondary="Intransitive; Inchoative" xtag=""/>
+     <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP.source V" secondary="Intransitive; Inchoative" xtag=""/>
      <!-- "empty" and "clean" might not allow this frame (empty is fine, 'clean' less so; JB)-->
      <EXAMPLES>
       <EXAMPLE>

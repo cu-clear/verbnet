@@ -13,12 +13,12 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="comprise-107.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="comprise.02" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:03"/>
-    <MEMBER fn_mapping="None" grouping="compose.02" name="compose" verbnet_key="compose#1" wn="compose%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="make.06" name="make" verbnet_key="make#3" wn="make%2:36:05"/>
-    <MEMBER fn_mapping="None" grouping="make.06" name="make_up" verbnet_key="make_up#1" wn="make_up%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="constitute.01" name="constitute" verbnet_key="constitute#1" wn="constitute%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="form" verbnet_key="form#2" wn="form%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="comprise.02" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="compose.02" name="compose" verbnet_key="compose#1" wn="compose%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="make.06" name="make" verbnet_key="make#3" wn="make%2:36:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="make.06" name="make_up" verbnet_key="make_up#1" wn="make_up%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="constitute.01" name="constitute" verbnet_key="constitute#1" wn="constitute%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="form" verbnet_key="form#2" wn="form%2:42:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -53,10 +53,10 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="comprise-107.2-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="comprise.01" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:01"/>
-    <MEMBER fn_mapping="None" grouping="consist.02" name="consist_of" verbnet_key="consist_of#1" wn="consist%2:42:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="encompass" verbnet_key="encompass#1" wn="encompass%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="contain.01" name="contain" verbnet_key="contain#1" wn="contain%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="comprise.01" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="consist.02" name="consist_of" verbnet_key="consist_of#1" wn="consist%2:42:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="encompass" verbnet_key="encompass#1" wn="encompass%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="contain.01" name="contain" verbnet_key="contain#1" wn="contain%2:42:00"/>
    </MEMBERS>
    <THEMROLES>
    </THEMROLES>

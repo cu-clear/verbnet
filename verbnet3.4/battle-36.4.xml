@@ -1,33 +1,33 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="battle-36.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="argue.01" name="argue" verbnet_key="argue#1" wn="argue%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bargain" verbnet_key="bargain#1" wn="bargain%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bicker" verbnet_key="bicker#1" wn="bicker%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="brawl" verbnet_key="brawl#1" wn="brawl%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="clash" verbnet_key="clash#1" wn="clash%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="collide.02" name="collide" verbnet_key="collide#1" wn="collide%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="compete.01" name="compete" verbnet_key="compete#1" wn="compete%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="contend.02" name="contend" verbnet_key="contend#1" wn="contend%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="dicker" verbnet_key="dicker#1" wn="dicker%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="dispute.02" name="dispute" verbnet_key="dispute#1" wn="dispute%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="fence.02" name="fence" verbnet_key="fence#1" wn="fence%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="feud" verbnet_key="feud#1" wn="feud%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="joust" verbnet_key="joust#1" wn="joust%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="quarrel" verbnet_key="quarrel#1" wn="quarrel%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="quibble" verbnet_key="quibble#1" wn="quibble%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="scrap.02" name="scrap" verbnet_key="scrap#1" wn="scrap%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="scuffle" verbnet_key="scuffle#1" wn="scuffle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="skirmish" verbnet_key="skirmish#1" wn="skirmish%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="spar" verbnet_key="spar#1" wn="spar%2:35:01 spar%2:35:00 spar%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="spat" verbnet_key="spat#1" wn="spat%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="squabble" verbnet_key="squabble#1" wn="squabble%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="struggle.01" name="struggle" verbnet_key="struggle#1" wn="struggle%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="tilt.02" name="tilt" verbnet_key="tilt#1" wn="tilt%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tussle" verbnet_key="tussle#1" wn="tussle%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="vie" verbnet_key="vie#1" wn="vie%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="war" verbnet_key="war#1" wn="war%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wrangle" verbnet_key="wrangle#1" wn="wrangle%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="argue.01" name="argue" verbnet_key="argue#1" wn="argue%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bargain" verbnet_key="bargain#1" wn="bargain%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bicker" verbnet_key="bicker#1" wn="bicker%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="brawl" verbnet_key="brawl#1" wn="brawl%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clash" verbnet_key="clash#1" wn="clash%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="collide.02" name="collide" verbnet_key="collide#1" wn="collide%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="compete.01" name="compete" verbnet_key="compete#1" wn="compete%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="contend.02" name="contend" verbnet_key="contend#1" wn="contend%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dicker" verbnet_key="dicker#1" wn="dicker%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dispute.02" name="dispute" verbnet_key="dispute#1" wn="dispute%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fence.02" name="fence" verbnet_key="fence#1" wn="fence%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="feud" verbnet_key="feud#1" wn="feud%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="joust" verbnet_key="joust#1" wn="joust%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quarrel" verbnet_key="quarrel#1" wn="quarrel%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quibble" verbnet_key="quibble#1" wn="quibble%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="scrap.02" name="scrap" verbnet_key="scrap#1" wn="scrap%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="scuffle" verbnet_key="scuffle#1" wn="scuffle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="skirmish" verbnet_key="skirmish#1" wn="skirmish%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="spar" verbnet_key="spar#1" wn="spar%2:35:01 spar%2:35:00 spar%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="spat" verbnet_key="spat#1" wn="spat%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squabble" verbnet_key="squabble#1" wn="squabble%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="struggle.01" name="struggle" verbnet_key="struggle#1" wn="struggle%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tilt.02" name="tilt" verbnet_key="tilt#1" wn="tilt%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tussle" verbnet_key="tussle#1" wn="tussle%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="vie" verbnet_key="vie#1" wn="vie%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="war" verbnet_key="war#1" wn="war%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wrangle" verbnet_key="wrangle#1" wn="wrangle%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -852,14 +852,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="battle-36.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Hostile_encounter" grouping="battle.01" name="battle" verbnet_key="battle#1" wn="battle%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="box" verbnet_key="box#1" wn="box%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="combat.01" name="combat" verbnet_key="combat#1" wn="combat%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="debate.02" name="debate" verbnet_key="debate#1" wn="debate%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="duel" verbnet_key="duel#1" wn="duel%2:33:00"/>
-    <MEMBER fn_mapping="Hostile_encounter" grouping="fight.02" name="fight" verbnet_key="fight#1" wn="fight%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="refight" verbnet_key="refight#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="wrestle.01 wrestle.02" name="wrestle" verbnet_key="wrestle#1" wn="wrestle%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Hostile_encounter" grouping="battle.01" name="battle" verbnet_key="battle#1" wn="battle%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="box" verbnet_key="box#1" wn="box%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="combat.01" name="combat" verbnet_key="combat#1" wn="combat%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="debate.02" name="debate" verbnet_key="debate#1" wn="debate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="duel" verbnet_key="duel#1" wn="duel%2:33:00"/>
+    <MEMBER features="None" fn_mapping="Hostile_encounter" grouping="fight.02" name="fight" verbnet_key="fight#1" wn="fight%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="refight" verbnet_key="refight#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="wrestle.01 wrestle.02" name="wrestle" verbnet_key="wrestle#1" wn="wrestle%2:35:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

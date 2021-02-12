@@ -2,23 +2,23 @@
 <VNCLASS ID="correspond-36.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--REMOVED "pair" misclassified-->
-  <MEMBER fn_mapping="None" grouping="" name="banter" verbnet_key="banter#1" wn="banter%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bargain" verbnet_key="bargain#2" wn="bargain%2:32:00"/>
-  <MEMBER fn_mapping="Collaboration" grouping="collaborate.01" name="collaborate" verbnet_key="collaborate#3" wn="collaborate%2:41:00 collaborate%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="collide.02" name="collide" verbnet_key="collide#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="commiserate" verbnet_key="commiserate#1" wn="commiserate%2:37:00"/>
-  <MEMBER fn_mapping="Communication" grouping="communicate.01" name="communicate" verbnet_key="communicate#1" wn="communicate%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="compromise.01" name="compromise" verbnet_key="compromise#1" wn=""/>
-  <MEMBER fn_mapping="Be_in_agreement_on_assessment" grouping="concur.01" name="concur" verbnet_key="concur#1" wn="concur%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="confer" verbnet_key="confer#2" wn=""/>
-  <MEMBER fn_mapping="Collaboration" grouping="cooperate.01" name="cooperate" verbnet_key="cooperate#2" wn="cooperate%2:41:00"/>
-  <MEMBER fn_mapping="Communication" grouping="correspond.02" name="correspond" verbnet_key="correspond#1" wn="correspond%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="deliberate" verbnet_key="deliberate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="differ.02" name="differ" verbnet_key="differ#1" wn="differ%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="disagree.01" name="disagree" verbnet_key="disagree#1" wn="disagree%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="interact" verbnet_key="interact#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="negotiate.01" name="negotiate" verbnet_key="negotiate#1" wn="negotiate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="plot.01" name="plot" verbnet_key="plot#1" wn="plot%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="banter" verbnet_key="banter#1" wn="banter%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bargain" verbnet_key="bargain#2" wn="bargain%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Collaboration" grouping="collaborate.01" name="collaborate" verbnet_key="collaborate#3" wn="collaborate%2:41:00 collaborate%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="collide.02" name="collide" verbnet_key="collide#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="commiserate" verbnet_key="commiserate#1" wn="commiserate%2:37:00"/>
+  <MEMBER features="None" fn_mapping="Communication" grouping="communicate.01" name="communicate" verbnet_key="communicate#1" wn="communicate%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="compromise.01" name="compromise" verbnet_key="compromise#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Be_in_agreement_on_assessment" grouping="concur.01" name="concur" verbnet_key="concur#1" wn="concur%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="confer" verbnet_key="confer#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Collaboration" grouping="cooperate.01" name="cooperate" verbnet_key="cooperate#2" wn="cooperate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Communication" grouping="correspond.02" name="correspond" verbnet_key="correspond#1" wn="correspond%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deliberate" verbnet_key="deliberate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="differ.02" name="differ" verbnet_key="differ#1" wn="differ%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="disagree.01" name="disagree" verbnet_key="disagree#1" wn="disagree%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="interact" verbnet_key="interact#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="negotiate.01" name="negotiate" verbnet_key="negotiate#1" wn="negotiate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="plot.01" name="plot" verbnet_key="plot#1" wn="plot%2:31:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -558,7 +558,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="correspond-36.1.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Compatibility" grouping="agree.01 agree.02 agree.03" name="agree" verbnet_key="agree#1" wn="agree%2:32:00 agree%2:32:01 agree%2:42:00"/>
+    <MEMBER features="None" fn_mapping="Compatibility" grouping="agree.01 agree.02 agree.03" name="agree" verbnet_key="agree#1" wn="agree%2:32:00 agree%2:32:01 agree%2:42:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -682,8 +682,8 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="correspond-36.1.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="debate.01" name="debate" verbnet_key="debate#3" wn="debate%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="argue.01" name="argue" verbnet_key="argue#3" wn="argue%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="debate.01" name="debate" verbnet_key="debate#3" wn="debate%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="argue.01" name="argue" verbnet_key="argue#3" wn="argue%2:32:00"/>
      </MEMBERS>
      <THEMROLES>
      </THEMROLES>

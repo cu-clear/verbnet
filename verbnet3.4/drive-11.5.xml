@@ -2,14 +2,14 @@
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="drive-11.5" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  
  <MEMBERS>
-  <MEMBER features="+medium_ground +biking" fn_mapping="None" grouping="" name="bike" verbnet_key="bike#1" wn="bike%2:38:00" />
-  <MEMBER features="+medium_ground +driving" fn_mapping="Bringing" grouping="drive.01" name="drive" verbnet_key="drive#2" wn="drive%2:38:02" />
+  <MEMBER features="+medium_ground+biking" fn_mapping="None" grouping="" name="bike" verbnet_key="bike#1" wn="bike%2:38:00" />
+  <MEMBER features="+medium_ground+driving" fn_mapping="Bringing" grouping="drive.01" name="drive" verbnet_key="drive#2" wn="drive%2:38:02" />
   <MEMBER features="+medium_water" fn_mapping="None" grouping="" name="row" verbnet_key="row#1" wn="row%2:38:00" />
-  <MEMBER features="+medium_ground +biking" fn_mapping="None" grouping="" name="motor" verbnet_key="motor#1" wn="motor%2:38:00" />
+  <MEMBER features="+medium_ground+biking" fn_mapping="None" grouping="" name="motor" verbnet_key="motor#1" wn="motor%2:38:00" />
   <MEMBER features="+medium_water" fn_mapping="Operate_vehicle" grouping="paddle.01" name="paddle" verbnet_key="paddle#1" wn="paddle%2:38:00" />
   <MEMBER features="+manner" fn_mapping="None" grouping="tool.01" name="tool" verbnet_key="tool#3" wn="tool%2:38:01 tool%2:38:00" />
   <MEMBER features="+manner" fn_mapping="None" grouping="" name="tool_around" verbnet_key="tool_around#1" wn="tool_around%2:38:00" />
-  <MEMBER features="+medium_ground +manner" fn_mapping="None" grouping="" name="trundle" verbnet_key="trundle#1" wn="trundle%2:38:00" />
+  <MEMBER features="+medium_ground+manner" fn_mapping="None" grouping="" name="trundle" verbnet_key="trundle#1" wn="trundle%2:38:00" />
   <MEMBER features="+medium_air" fn_mapping="Bringing" grouping="wheel.03" name="wheel" verbnet_key="wheel#1" wn="wheel%2:38:04" />
  </MEMBERS>
  <THEMROLES>
@@ -553,12 +553,12 @@
   <VNSUBCLASS ID="drive-11.5-1">
    <MEMBERS>
     <MEMBER features="+medium_water" fn_mapping="None" grouping="" name="barge" verbnet_key="barge#1" wn="barge%2:38:01" />
-    <MEMBER features="+medium_ground +driving" fn_mapping="None" grouping="" name="bus" verbnet_key="bus#1" wn="bus%2:38:01" />
-    <MEMBER features="+medium_ground +driving" fn_mapping="None" grouping="" name="cart" verbnet_key="cart#1" wn="cart%2:35:01" />
+    <MEMBER features="+medium_ground+driving" fn_mapping="None" grouping="" name="bus" verbnet_key="bus#1" wn="bus%2:38:01" />
+    <MEMBER features="+medium_ground+driving" fn_mapping="None" grouping="" name="cart" verbnet_key="cart#1" wn="cart%2:35:01" />
     <MEMBER features="+medium_water" fn_mapping="Bringing" grouping="ferry.01" name="ferry" verbnet_key="ferry#1" wn="ferry%2:38:02 ferry%2:38:01" />
     <MEMBER features="+medium_air" fn_mapping="Self_motion" grouping="fly.01" name="fly" verbnet_key="fly#1" wn="fly%2:35:00" />
-    <MEMBER features="+medium_ground +driving" fn_mapping="None" grouping="" name="shuttle" verbnet_key="shuttle#1" wn="shuttle%2:38:00" />
-    <MEMBER features="+medium_ground +driving" fn_mapping="None" grouping="" name="truck" verbnet_key="truck#1" wn="truck%2:38:00" />
+    <MEMBER features="+medium_ground+driving" fn_mapping="None" grouping="" name="shuttle" verbnet_key="shuttle#1" wn="shuttle%2:38:00" />
+    <MEMBER features="+medium_ground+driving" fn_mapping="None" grouping="" name="truck" verbnet_key="truck#1" wn="truck%2:38:00" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>

@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="inquire-37.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Questioning" grouping="ask.01" name="ask" verbnet_key="ask#1" wn="ask%2:32:00 ask%2:32:02 ask%2:32:04"/>
-  <MEMBER fn_mapping="None" grouping="enquire.01" name="enquire" verbnet_key="enquire#1" wn="enquire%2:32:00"/>
-  <MEMBER fn_mapping="Questioning" grouping="inquire.01" name="inquire" verbnet_key="inquire#1" wn="inquire%2:32:01 inquire%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="consult.01 consult.02" name="consult" verbnet_key="consult#2" wn="consult%2:32:02 consult%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="pry.02" name="pry" verbnet_key="pry#1" wn="pry%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Questioning" grouping="ask.01" name="ask" verbnet_key="ask#1" wn="ask%2:32:00 ask%2:32:02 ask%2:32:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="enquire.01" name="enquire" verbnet_key="enquire#1" wn="enquire%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Questioning" grouping="inquire.01" name="inquire" verbnet_key="inquire#1" wn="inquire%2:32:01 inquire%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="consult.01 consult.02" name="consult" verbnet_key="consult#2" wn="consult%2:32:02 consult%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pry.02" name="pry" verbnet_key="pry#1" wn="pry%2:39:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

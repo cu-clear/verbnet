@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="satisfy-55.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="exceed" verbnet_key="exceed#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="fulfill" verbnet_key="fulfill#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="meet.04" name="meet" verbnet_key="meet#4" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="sate" verbnet_key="sate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="satiate" verbnet_key="satiate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="satisfy" verbnet_key="satisfy#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="exceed" verbnet_key="exceed#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fulfill" verbnet_key="fulfill#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="meet.04" name="meet" verbnet_key="meet#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sate" verbnet_key="sate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="satiate" verbnet_key="satiate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="satisfy" verbnet_key="satisfy#2" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

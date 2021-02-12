@@ -2,15 +2,15 @@
 <VNCLASS ID="wipe_instr-10.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--individual verbs will each add a "use" predicate-->
-  <MEMBER fn_mapping="None" grouping="file.02" name="file" verbnet_key="file#6" wn="file%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="filter.01" name="filter" verbnet_key="filter#1" wn="filter%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hoover" verbnet_key="hoover#1" wn="hoover%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="iron" verbnet_key="iron#2" wn="iron%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="plough" verbnet_key="plough#1" wn="plough%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sandpaper" verbnet_key="sandpaper#1" wn="sandpaper%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sponge" verbnet_key="sponge#2" wn="sponge%2:35:00 sponge%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="squeegee" verbnet_key="squeegee#1" wn="squeegee%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="towel" verbnet_key="towel#2" wn="towel%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="file.02" name="file" verbnet_key="file#6" wn="file%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="filter.01" name="filter" verbnet_key="filter#1" wn="filter%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hoover" verbnet_key="hoover#1" wn="hoover%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="iron" verbnet_key="iron#2" wn="iron%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="plough" verbnet_key="plough#1" wn="plough%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sandpaper" verbnet_key="sandpaper#1" wn="sandpaper%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sponge" verbnet_key="sponge#2" wn="sponge%2:35:00 sponge%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squeegee" verbnet_key="squeegee#1" wn="squeegee%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="towel" verbnet_key="towel#2" wn="towel%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--Instrument is realized in the verb; when it appears explicitly in a with-PP, it is further constrained by the specific verb-->
@@ -414,16 +414,16 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="wipe_instr-10.4.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Grooming" grouping="brush.01" name="brush" verbnet_key="brush#5" wn="brush%2:35:01 brush%2:35:02 brush%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="comb.01" name="comb" verbnet_key="comb#3" wn="?comb%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="hose" verbnet_key="hose#1" wn="hose%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="mop" verbnet_key="mop#1" wn="mop%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="plow.01 plow.03" name="plow" verbnet_key="plow#1" wn="plow%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="rake.01 rake.02" name="rake" verbnet_key="rake#3" wn="rake%2:35:01 rake%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="shear" verbnet_key="shear#1" wn="shear%2:35:00 shear%2:35:02 shear%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="shovel" verbnet_key="shovel#2" wn="shovel%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="siphon.01 siphon.02" name="siphon" verbnet_key="siphon#2" wn="siphon%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="vacuum" verbnet_key="vacuum#1" wn="vacuum%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Grooming" grouping="brush.01" name="brush" verbnet_key="brush#5" wn="brush%2:35:01 brush%2:35:02 brush%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="comb.01" name="comb" verbnet_key="comb#3" wn="?comb%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="hose" verbnet_key="hose#1" wn="hose%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="mop" verbnet_key="mop#1" wn="mop%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="plow.01 plow.03" name="plow" verbnet_key="plow#1" wn="plow%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="rake.01 rake.02" name="rake" verbnet_key="rake#3" wn="rake%2:35:01 rake%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="shear" verbnet_key="shear#1" wn="shear%2:35:00 shear%2:35:02 shear%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="shovel" verbnet_key="shovel#2" wn="shovel%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="siphon.01 siphon.02" name="siphon" verbnet_key="siphon#2" wn="siphon%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="vacuum" verbnet_key="vacuum#1" wn="vacuum%2:35:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

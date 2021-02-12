@@ -14,11 +14,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="relate-86.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="involve.02" name="involve" verbnet_key="involve#2" wn="involve%2:42:00"/>
-    <MEMBER fn_mapping="Topic" grouping="concern.01" name="concern" verbnet_key="concern#2" wn="concern%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="touch.04" name="touch" verbnet_key="touch#3" wn="touch%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="bear_on" verbnet_key="bear_on#1" wn="bear_on%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="touch_on" verbnet_key="touch_on#1" wn="touch_on%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="involve.02" name="involve" verbnet_key="involve#2" wn="involve%2:42:00"/>
+    <MEMBER features="None" fn_mapping="Topic" grouping="concern.01" name="concern" verbnet_key="concern#2" wn="concern%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="touch.04" name="touch" verbnet_key="touch#3" wn="touch%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="bear_on" verbnet_key="bear_on#1" wn="bear_on%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="touch_on" verbnet_key="touch_on#1" wn="touch_on%2:42:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -53,9 +53,9 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="relate-86.2-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Referring_by_name" grouping="refer.02" name="refer" verbnet_key="refer#2" wn="refer%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="pertain.01" name="pertain" verbnet_key="pertain#1" wn="pertain%2:42:01"/>
-    <MEMBER fn_mapping="None" grouping="relate.02" name="relate" verbnet_key="relate#2" wn="relate%2:42:00"/>
+    <MEMBER features="None" fn_mapping="Referring_by_name" grouping="refer.02" name="refer" verbnet_key="refer#2" wn="refer%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="pertain.01" name="pertain" verbnet_key="pertain#1" wn="pertain%2:42:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="relate.02" name="relate" verbnet_key="relate#2" wn="relate%2:42:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

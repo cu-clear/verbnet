@@ -2,36 +2,36 @@
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="nonverbal_expression-40.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   
-  <MEMBER features="+pos_feeling +act_smiling" fn_mapping="None" grouping="beam.01" name="beam" verbnet_key="beam#2" wn="beam%2:29:00 beam%2:32:01" />
-  <MEMBER features="+neg_feeling +act_sobbing" fn_mapping="None" grouping="" name="blubber" verbnet_key="blubber#2" wn="blubber%2:29:00" />
-  <MEMBER features="+act_smiling +manner_harsh" fn_mapping="None" grouping="" name="cackle" verbnet_key="cackle#3" wn="cackle%2:29:00" />
-  <MEMBER features="+act_smiling +pos_feeling" fn_mapping="None" grouping="" name="chortle" verbnet_key="chortle#2" wn="chortle%2:29:00" />
+  <MEMBER features="+pos_feeling+act_smiling" fn_mapping="None" grouping="beam.01" name="beam" verbnet_key="beam#2" wn="beam%2:29:00 beam%2:32:01" />
+  <MEMBER features="+neg_feeling+act_sobbing" fn_mapping="None" grouping="" name="blubber" verbnet_key="blubber#2" wn="blubber%2:29:00" />
+  <MEMBER features="+act_smiling+manner_harsh" fn_mapping="None" grouping="" name="cackle" verbnet_key="cackle#3" wn="cackle%2:29:00" />
+  <MEMBER features="+pos_feeling+act_smiling" fn_mapping="None" grouping="" name="chortle" verbnet_key="chortle#2" wn="chortle%2:29:00" />
   <MEMBER features="+act_smiling" fn_mapping="None" grouping="" name="chuckle" verbnet_key="chuckle#2" wn="chuckle%2:29:00" />
   <MEMBER features="+manner_harsh" fn_mapping="None" grouping="" name="cough" verbnet_key="cough#2" wn="cough%2:29:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="cry.01" name="cry" verbnet_key="cry#4" wn="cry%2:32:01 cry%2:29:00 cry%2:29:02" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="frown" verbnet_key="frown#1" wn="frown%2:29:00" />
   <MEMBER features="+feeling_astonished" fn_mapping="None" grouping="" name="gape" verbnet_key="gape#1" wn="gape%2:39:00" />
   <MEMBER features="+feeling_astonished" fn_mapping="None" grouping="" name="gasp" verbnet_key="gasp#2" wn="gasp%2:29:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="gawk" verbnet_key="gawk#1" wn="gawk%2:39:00" />
-  <MEMBER features="+neg_feeling +act_smiling" fn_mapping="None" grouping="" name="giggle" verbnet_key="giggle#1" wn="giggle%2:29:00" />
-  <MEMBER features="+neg_feeling +feeling_anger" fn_mapping="None" grouping="glare.01" name="glare" verbnet_key="glare#2" wn="glare%2:29:00" />
-  <MEMBER features="+neg_feeling +feeling_anger" fn_mapping="None" grouping="" name="glower" verbnet_key="glower#1" wn="glower%2:29:01 glower%2:29:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gawk" verbnet_key="gawk#1" wn="gawk%2:39:00" />
+  <MEMBER features="+neg_feeling+act_smiling" fn_mapping="None" grouping="" name="giggle" verbnet_key="giggle#1" wn="giggle%2:29:00" />
+  <MEMBER features="+neg_feeling+feeling_anger" fn_mapping="None" grouping="glare.01" name="glare" verbnet_key="glare#2" wn="glare%2:29:00" />
+  <MEMBER features="+neg_feeling+feeling_anger" fn_mapping="None" grouping="" name="glower" verbnet_key="glower#1" wn="glower%2:29:01 glower%2:29:00" />
   <MEMBER features="+feeling_astonished" fn_mapping="None" grouping="" name="goggle" verbnet_key="goggle#1" wn="goggle%2:39:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="grimace" verbnet_key="grimace#1" wn="grimace%2:29:00" />
   <MEMBER features="+act_smiling" fn_mapping="None" grouping="" name="grin" verbnet_key="grin#1" wn="grin%2:29:00" />
-  <MEMBER features="+neg_feeling +feeling_despair" fn_mapping="None" grouping="" name="groan" verbnet_key="groan#3" wn="groan%2:32:00" />
-  <MEMBER features="+neg_feeling +intention_threatening" fn_mapping="None" grouping="" name="growl" verbnet_key="growl#3" wn="growl%2:32:00" />
+  <MEMBER features="+neg_feeling+feeling_despair" fn_mapping="None" grouping="" name="groan" verbnet_key="groan#3" wn="groan%2:32:00" />
+  <MEMBER features="+neg_feeling+intention_threatening" fn_mapping="None" grouping="" name="growl" verbnet_key="growl#3" wn="growl%2:32:00" />
   <MEMBER features="+act_smiling" fn_mapping="None" grouping="" name="guffaw" verbnet_key="guffaw#1" wn="guffaw%2:29:00" />
   <MEMBER features="+neg_feeling" fn_mapping="Motion_noise" grouping="howl.01" name="howl" verbnet_key="howl#3" wn="howl%2:32:02 howl%2:29:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="jeer" verbnet_key="jeer#1" wn="jeer%2:32:00" />
   <MEMBER features="+act_smiling" fn_mapping="Make_noise" grouping="laugh.01" name="laugh" verbnet_key="laugh#1" wn="laugh%2:29:00" />
-  <MEMBER features="+neg_feeling +feeling_anger" fn_mapping="None" grouping="lour.02" name="lour" verbnet_key="lour#1" wn="lour%2:29:00" />
+  <MEMBER features="+neg_feeling+feeling_anger" fn_mapping="None" grouping="lour.02" name="lour" verbnet_key="lour#1" wn="lour%2:29:00" />
   <MEMBER features="+intention_scornful" fn_mapping="None" grouping="" name="moan" verbnet_key="moan#4" wn="moan%2:32:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="pout" verbnet_key="pout#1" wn="pout%2:42:00 pout%2:29:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pout" verbnet_key="pout#1" wn="pout%2:42:00 pout%2:29:00" />
   <MEMBER features="+intention_scornful" fn_mapping="None" grouping="scoff.01" name="scoff" verbnet_key="scoff#1" wn="" />
-  <MEMBER features="+neg_feeling +feeling_anger" fn_mapping="None" grouping="" name="scowl" verbnet_key="scowl#1" wn="scowl%2:29:00" />
-  <MEMBER features="+neg_feeling +manner_breathy" fn_mapping="Breathing" grouping="sigh.01" name="sigh" verbnet_key="sigh#2" wn="sigh%2:29:00" />
-  <MEMBER features="+pos_feeling +act_smiling" fn_mapping="None" grouping="" name="simper" verbnet_key="simper#2" wn="simper%2:29:00" />
+  <MEMBER features="+neg_feeling+feeling_anger" fn_mapping="None" grouping="" name="scowl" verbnet_key="scowl#1" wn="scowl%2:29:00" />
+  <MEMBER features="+neg_feeling+manner_breathy" fn_mapping="Breathing" grouping="sigh.01" name="sigh" verbnet_key="sigh#2" wn="sigh%2:29:00" />
+  <MEMBER features="+pos_feeling+act_smiling" fn_mapping="None" grouping="" name="simper" verbnet_key="simper#2" wn="simper%2:29:00" />
   <MEMBER features="+act_smiling" fn_mapping="Making_faces" grouping="smile.01" name="smile" verbnet_key="smile#2" wn="smile%2:29:00" />
   <MEMBER features="+act_smiling" fn_mapping="None" grouping="" name="smirk" verbnet_key="smirk#1" wn="smirk%2:29:00" />
   <MEMBER features="+intention_scornful" fn_mapping="None" grouping="" name="sneer" verbnet_key="sneer#1" wn="" />
@@ -39,14 +39,14 @@
   <MEMBER features="+intention_involuntary" fn_mapping="None" grouping="sniff.03" name="sniff" verbnet_key="sniff#1" wn="sniff%2:29:00" />
   <MEMBER features="+act_smiling" fn_mapping="None" grouping="" name="snigger" verbnet_key="snigger#1" wn="snigger%2:29:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="snivel" verbnet_key="snivel#2" wn="snivel%2:29:01" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="snore" verbnet_key="snore#2" wn="snore%2:29:00" />
-  <MEMBER features="" fn_mapping="Communication_noise" grouping="" name="snort" verbnet_key="snort#2" wn="snort%2:32:00" />
-  <MEMBER features="+neg_feeling +act_sobbing" fn_mapping="None" grouping="" name="sob" verbnet_key="sob#1" wn="sob%2:29:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="snore" verbnet_key="snore#2" wn="snore%2:29:00" />
+  <MEMBER features="None" fn_mapping="Communication_noise" grouping="" name="snort" verbnet_key="snort#2" wn="snort%2:32:00" />
+  <MEMBER features="+neg_feeling+act_sobbing" fn_mapping="None" grouping="" name="sob" verbnet_key="sob#1" wn="sob%2:29:00" />
   <MEMBER features="+act_smiling" fn_mapping="None" grouping="" name="titter" verbnet_key="titter#1" wn="titter%2:29:00" />
-  <MEMBER features="+neg_feeling +act_sobbing" fn_mapping="None" grouping="" name="weep" verbnet_key="weep#3" wn="weep%2:29:00" />
+  <MEMBER features="+neg_feeling+act_sobbing" fn_mapping="None" grouping="" name="weep" verbnet_key="weep#3" wn="weep%2:29:00" />
   <MEMBER features="+manner_singing" fn_mapping="Make_noise" grouping="whistle.01" name="whistle" verbnet_key="whistle#3" wn="whistle%2:32:00" />
   <MEMBER features="+intention_involuntary" fn_mapping="None" grouping="" name="yawn" verbnet_key="yawn#2" wn="yawn%2:29:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="hem" verbnet_key="hem#1" wn="hem%2:32:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hem" verbnet_key="hem#1" wn="hem%2:32:00" />
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

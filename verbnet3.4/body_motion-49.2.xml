@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="body_motion-49.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Manipulation" grouping="" name="hold" verbnet_key="hold#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="" name="hold" verbnet_key="hold#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -35,9 +35,10 @@
     <NP value="Theme">
      <SYNRESTRS/>
     </NP>
-    <ADV value="Path">
+    <!-- <ADV value="Path">
      <SYNRESTRS/>
-    </ADV>
+    </ADV> -->
+    <ADV/>
    </SYNTAX>
    <SEMANTICS>
     <PRED bool="!" value="has_position">
@@ -107,9 +108,10 @@
      <SYNRESTRS/>
     </NP>
     <VERB/>
-    <ADV value="Path">
+    <!-- <ADV value="Path">
      <SYNRESTRS/>
-    </ADV>
+    </ADV> -->
+    <ADV/>
     <NP value="Theme">
      <SYNRESTRS/>
     </NP>
@@ -185,10 +187,13 @@
     <NP value="Theme">
      <SYNRESTRS/>
     </NP>
-    <ADV value="Path">
+    <!-- <ADV value="Path">
      <SYNRESTRS/>
-    </ADV>
-    <PREP/>
+    </ADV> -->
+    <ADV/>
+    <PREP>
+      <SELRESTRS/>
+    </PREP>
     <NP value="Goal">
      <SYNRESTRS/>
     </NP>
@@ -253,7 +258,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="body_motion-49.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="extend" verbnet_key="extend#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="extend" verbnet_key="extend#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -272,7 +277,9 @@
       <NP value="Theme">
        <SYNRESTRS/>
       </NP>
-      <PREP/>
+      <PREP>
+        <SELRESTRS/>
+      </PREP>
       <NP value="Goal">
        <SYNRESTRS/>
       </NP>
@@ -345,7 +352,9 @@
        <SYNRESTRS/>
       </NP>
       <VERB/>
-      <PREP/>
+      <PREP>
+        <SELRESTRS/>
+      </PREP>
       <NP value="Goal">
        <SYNRESTRS/>
       </NP>
@@ -488,11 +497,15 @@
        <SYNRESTRS/>
       </NP>
       <VERB/>
-      <PREP/>
+      <PREP>
+        <SELRESTRS/>
+      </PREP>
       <NP value="Path">
        <SYNRESTRS/>
       </NP>
-      <PREP/>
+      <PREP>
+        <SELRESTRS/>
+      </PREP>
       <NP value="Theme">
        <SYNRESTRS/>
       </NP>
@@ -550,8 +563,8 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="body_motion-49.2-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="reach.04" name="reach" verbnet_key="reach#1" wn=""/>
-      <MEMBER fn_mapping="None" grouping="" name="stretch" verbnet_key="stretch#2" wn=""/>
+      <MEMBER features="None" fn_mapping="None" grouping="reach.04" name="reach" verbnet_key="reach#1" wn=""/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="stretch" verbnet_key="stretch#2" wn=""/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

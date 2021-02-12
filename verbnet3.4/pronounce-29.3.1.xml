@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="pronounce-29.3.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="pronounce.01" name="pronounce" verbnet_key="pronounce#2" wn="pronounce%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="say.05" name="say" verbnet_key="say#2" wn="say%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="spell.01" name="spell" verbnet_key="spell#1" wn="spell%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pronounce.01" name="pronounce" verbnet_key="pronounce#2" wn="pronounce%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="say.05" name="say" verbnet_key="say#2" wn="say%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="spell.01" name="spell" verbnet_key="spell#1" wn="spell%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

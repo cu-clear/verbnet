@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="allow-64.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="approve.01 approve.02" name="approve" verbnet_key="approve#1" wn="approve%2:32:00 approve%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="authorize" verbnet_key="authorize#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="endorse" verbnet_key="endorse#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="okay" verbnet_key="okay#1" wn="okay%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="sanction.01" name="sanction" verbnet_key="sanction#1" wn="sanction%2:32:01 sanction%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="tolerate.01" name="tolerate" verbnet_key="tolerate#2" wn="tolerate%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="approve.01 approve.02" name="approve" verbnet_key="approve#1" wn="approve%2:32:00 approve%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="authorize" verbnet_key="authorize#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="endorse" verbnet_key="endorse#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="okay" verbnet_key="okay#1" wn="okay%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sanction.01" name="sanction" verbnet_key="sanction#1" wn="sanction%2:32:01 sanction%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tolerate.01" name="tolerate" verbnet_key="tolerate#2" wn="tolerate%2:32:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Causer">
@@ -109,8 +109,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="allow-64.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="allow.01" name="allow" verbnet_key="allow#2" wn="allow%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="permit.01" name="permit" verbnet_key="permit#2" wn="permit%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="allow.01" name="allow" verbnet_key="allow#2" wn="allow%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="permit.01" name="permit" verbnet_key="permit#2" wn="permit%2:32:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

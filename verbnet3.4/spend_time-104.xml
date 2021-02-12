@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="spend_time-104" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="kill" verbnet_key="kill#5" wn=""/>
-  <MEMBER fn_mapping="None" grouping="lead.06" name="lead" verbnet_key="lead#4" wn=""/>
-  <MEMBER fn_mapping="Process_end" grouping="pass.03" name="pass" verbnet_key="pass#7" wn="pass%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="serve.05" name="serve" verbnet_key="serve#5" wn="serve%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="misspend" verbnet_key="misspend#2" wn="misspend%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="spend.01" name="spend" verbnet_key="spend#3" wn="spend%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="use.03" name="use" verbnet_key="use#3" wn="use%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="waste.01" name="waste" verbnet_key="waste#4" wn="waste%2:40:00 waste%2:34:05"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="kill" verbnet_key="kill#5" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="lead.06" name="lead" verbnet_key="lead#4" wn=""/>
+  <MEMBER features="None" fn_mapping="Process_end" grouping="pass.03" name="pass" verbnet_key="pass#7" wn="pass%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="serve.05" name="serve" verbnet_key="serve#5" wn="serve%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="misspend" verbnet_key="misspend#2" wn="misspend%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="spend.01" name="spend" verbnet_key="spend#3" wn="spend%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="use.03" name="use" verbnet_key="use#3" wn="use%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="waste.01" name="waste" verbnet_key="waste#4" wn="waste%2:40:00 waste%2:34:05"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -1,17 +1,17 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="performance-26.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="belt.01" name="belt" verbnet_key="belt#1" wn="belt%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="chant.01" name="chant" verbnet_key="chant#2" wn="chant%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="direct.01" name="direct" verbnet_key="direct#1" wn="direct%2:36:00 direct%2:36:02"/>
-  <MEMBER fn_mapping="None" grouping="enact.02" name="enact" verbnet_key="enact#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="heel.03" name="heel" verbnet_key="heel#2" wn="heel%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="improvise" verbnet_key="improvise#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="intone" verbnet_key="intone#1" wn="intone%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="model.03" name="model" verbnet_key="model#3" wn="model%2:39:01"/>
-  <MEMBER fn_mapping="None" grouping="perform.02" name="perform" verbnet_key="perform#3" wn="perform%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="rap.03" name="rap" verbnet_key="rap#4" wn="rap%2:36:10"/>
-  <MEMBER fn_mapping="None" grouping="vocalize.02" name="vocalize" verbnet_key="vocalize#1" wn="vocalize%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="belt.01" name="belt" verbnet_key="belt#1" wn="belt%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="chant.01" name="chant" verbnet_key="chant#2" wn="chant%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="direct.01" name="direct" verbnet_key="direct#1" wn="direct%2:36:00 direct%2:36:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="enact.02" name="enact" verbnet_key="enact#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="heel.03" name="heel" verbnet_key="heel#2" wn="heel%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="improvise" verbnet_key="improvise#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="intone" verbnet_key="intone#1" wn="intone%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="model.03" name="model" verbnet_key="model#3" wn="model%2:39:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="perform.02" name="perform" verbnet_key="perform#3" wn="perform%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="rap.03" name="rap" verbnet_key="rap#4" wn="rap%2:36:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="vocalize.02" name="vocalize" verbnet_key="vocalize#1" wn="vocalize%2:36:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -120,14 +120,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="performance-26.7-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="dance.01" name="dance" verbnet_key="dance#2" wn="dance%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="hum.01" name="hum" verbnet_key="hum#3" wn="hum%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="play.02 play.04" name="play" verbnet_key="play#2" wn="play%2:36:12 play%2:36:02 play%2:36:00 play%2:36:01 play%2:36:11 play%2:36:05 play%2:36:10 play%2:36:04"/>
-    <MEMBER fn_mapping="None" grouping="recite.01" name="recite" verbnet_key="recite#1" wn="recite%2:32:02 recite%2:32:00                 recite%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="replay" verbnet_key="replay#1" wn="replay%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="stage.01                 stage.02 stage.03" name="stage" verbnet_key="stage#2" wn="stage%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="sing.01" name="sing" verbnet_key="sing#2" wn="sing%2:36:01 sing%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="whistle.01" name="whistle" verbnet_key="whistle#4" wn="whistle%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="dance.01" name="dance" verbnet_key="dance#2" wn="dance%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="hum.01" name="hum" verbnet_key="hum#3" wn="hum%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="play.02 play.04" name="play" verbnet_key="play#2" wn="play%2:36:12 play%2:36:02 play%2:36:00 play%2:36:01 play%2:36:11 play%2:36:05 play%2:36:10 play%2:36:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="recite.01" name="recite" verbnet_key="recite#1" wn="recite%2:32:02 recite%2:32:00                 recite%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="replay" verbnet_key="replay#1" wn="replay%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="stage.01                 stage.02 stage.03" name="stage" verbnet_key="stage#2" wn="stage%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="sing.01" name="sing" verbnet_key="sing#2" wn="sing%2:36:01 sing%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="whistle.01" name="whistle" verbnet_key="whistle#4" wn="whistle%2:32:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

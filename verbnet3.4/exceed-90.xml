@@ -1,26 +1,26 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="exceed-90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="overcome.01" name="overcome" verbnet_key="overcome#1" wn="overcome%2:33:01"/>
-  <MEMBER fn_mapping="None" grouping="overleap.02" name="overleap" verbnet_key="overleap#1" wn="overleap%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="transcend.01" name="transcend" verbnet_key="transcend#1" wn="transcend%2:42:00 transcend%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="better" verbnet_key="better#1" wn="better%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="exceed.01" name="exceed" verbnet_key="exceed#1" wn="exceed%2:42:01 exceed%2:42:00         exceed%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="lap.04" name="lap" verbnet_key="lap#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="outbid" verbnet_key="outbid#1" wn="outbid%2:40:01 outbid%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="outdo" verbnet_key="outdo#1" wn="outdo%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="outmatch" verbnet_key="outmatch#1" wn="outmatch%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="outnumber.01" name="outnumber" verbnet_key="outnumber#1" wn="outnumber%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="outrace" verbnet_key="outrace#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="outshine" verbnet_key="outshine#1" wn="outshine%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="outsmart" verbnet_key="outsmart#1" wn="outsmart%2:33:00 outsmart%2:33:01"/>
-  <MEMBER fn_mapping="None" grouping="outstrip.01" name="outstrip" verbnet_key="outstrip#1" wn="outstrip%2:33:00 outstrip%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="outweigh.01 outweigh.02" name="outweigh" verbnet_key="outweigh#1" wn="outweigh%2:33:00 outweigh%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="outwit" verbnet_key="outwit#1" wn="outwit%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="overreach" verbnet_key="overreach#1" wn="overreach%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="overstep" verbnet_key="overstep#1" wn="overstep%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="surpass.01" name="surpass" verbnet_key="surpass#1" wn="surpass%2:33:00 surpass%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="top.01         top.02" name="top" verbnet_key="top#3" wn="top%2:42:00 top%2:42:11"/>
+  <MEMBER features="None" fn_mapping="None" grouping="overcome.01" name="overcome" verbnet_key="overcome#1" wn="overcome%2:33:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="overleap.02" name="overleap" verbnet_key="overleap#1" wn="overleap%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="transcend.01" name="transcend" verbnet_key="transcend#1" wn="transcend%2:42:00 transcend%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="better" verbnet_key="better#1" wn="better%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="exceed.01" name="exceed" verbnet_key="exceed#1" wn="exceed%2:42:01 exceed%2:42:00         exceed%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="lap.04" name="lap" verbnet_key="lap#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="outbid" verbnet_key="outbid#1" wn="outbid%2:40:01 outbid%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="outdo" verbnet_key="outdo#1" wn="outdo%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="outmatch" verbnet_key="outmatch#1" wn="outmatch%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="outnumber.01" name="outnumber" verbnet_key="outnumber#1" wn="outnumber%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="outrace" verbnet_key="outrace#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="outshine" verbnet_key="outshine#1" wn="outshine%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="outsmart" verbnet_key="outsmart#1" wn="outsmart%2:33:00 outsmart%2:33:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="outstrip.01" name="outstrip" verbnet_key="outstrip#1" wn="outstrip%2:33:00 outstrip%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="outweigh.01 outweigh.02" name="outweigh" verbnet_key="outweigh#1" wn="outweigh%2:33:00 outweigh%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="outwit" verbnet_key="outwit#1" wn="outwit%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overreach" verbnet_key="overreach#1" wn="overreach%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overstep" verbnet_key="overstep#1" wn="overstep%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="surpass.01" name="surpass" verbnet_key="surpass#1" wn="surpass%2:33:00 surpass%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="top.01         top.02" name="top" verbnet_key="top#3" wn="top%2:42:00 top%2:42:11"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Pivot">

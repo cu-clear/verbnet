@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="feeding-39.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="bottlefeed" verbnet_key="bottlefeed#1" wn="bottlefeed%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="breastfeed" verbnet_key="breastfeed#1" wn="breastfeed%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="feed.01" name="feed" verbnet_key="feed#1" wn="feed%2:34:04 feed%2:34:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="force-feed" verbnet_key="force-feed#1" wn="force-feed%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="handfeed" verbnet_key="handfeed#1" wn=""/>
-  <MEMBER fn_mapping="Ingestion" grouping="" name="nurse" verbnet_key="nurse#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="spoonfeed" verbnet_key="spoonfeed#1" wn="spoonfeed%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="suckle" verbnet_key="suckle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bottlefeed" verbnet_key="bottlefeed#1" wn="bottlefeed%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="breastfeed" verbnet_key="breastfeed#1" wn="breastfeed%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="feed.01" name="feed" verbnet_key="feed#1" wn="feed%2:34:04 feed%2:34:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="force-feed" verbnet_key="force-feed#1" wn="force-feed%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="handfeed" verbnet_key="handfeed#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Ingestion" grouping="" name="nurse" verbnet_key="nurse#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="spoonfeed" verbnet_key="spoonfeed#1" wn="spoonfeed%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="suckle" verbnet_key="suckle#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

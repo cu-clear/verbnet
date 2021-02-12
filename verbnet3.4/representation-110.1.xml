@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="representation-110.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="be.01" name="be" verbnet_key="be#1" wn="be%2:42:08 be%2:42:06"/>
-  <MEMBER fn_mapping="None" grouping="denote.01" name="denote" verbnet_key="denote#2" wn="denote%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="mean.02" name="mean" verbnet_key="mean#2" wn="mean%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="represent.01" name="represent" verbnet_key="represent#2" wn="represent%2:42:02 represent%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="signify.01" name="signify" verbnet_key="signify#1" wn="signify%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="symbolize" verbnet_key="symbolize#1" wn="symbolize%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="be.01" name="be" verbnet_key="be#1" wn="be%2:42:08 be%2:42:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="denote.01" name="denote" verbnet_key="denote#2" wn="denote%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mean.02" name="mean" verbnet_key="mean#2" wn="mean%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="represent.01" name="represent" verbnet_key="represent#2" wn="represent%2:42:02 represent%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="signify.01" name="signify" verbnet_key="signify#1" wn="signify%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="symbolize" verbnet_key="symbolize#1" wn="symbolize%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

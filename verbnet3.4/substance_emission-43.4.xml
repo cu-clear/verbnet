@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="substance_emission-43.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Emitting" grouping="give.09" name="give" verbnet_key="give#4" wn=""/>
-  <MEMBER fn_mapping="None" grouping="give.09" name="give_off" verbnet_key="give_off#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="give.09" name="give_out" verbnet_key="give_out#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="give.09" name="give_forth" verbnet_key="give_forth#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="emit" verbnet_key="emit#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Emitting" grouping="give.09" name="give" verbnet_key="give#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="give.09" name="give_off" verbnet_key="give_off#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="give.09" name="give_out" verbnet_key="give_out#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="give.09" name="give_forth" verbnet_key="give_forth#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="emit" verbnet_key="emit#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -46,37 +46,37 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="substance_emission-43.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="bead.01" name="bead" verbnet_key="bead#3" wn="bead%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="belch" verbnet_key="belch#2" wn="belch%2:29:00 belch%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="bubble.02" name="bubble" verbnet_key="bubble#2" wn="bubble%2:30:00 bubble%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="dribble.04" name="dribble" verbnet_key="dribble#3" wn="dribble%2:35:10 dribble%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="drip.01" name="drip" verbnet_key="drip#2" wn="drip%2:38:00 drip%2:35:10"/>
-    <MEMBER fn_mapping="None" grouping="drool.01" name="drool" verbnet_key="drool#2" wn="drool%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="emanate" verbnet_key="emanate#2" wn="emanate%2:30:00 emanate%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="exrete" verbnet_key="exrete#1" wn="excrete%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="exude" verbnet_key="exude#2" wn="exude%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="foam" verbnet_key="foam#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="gush.01" name="gush" verbnet_key="gush#3" wn="gush%2:38:00 gush%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="jet" verbnet_key="jet#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="leak.01 leak.02" name="leak" verbnet_key="leak#2" wn="leak%2:30:04"/>
-    <MEMBER fn_mapping="None" grouping="" name="ooze" verbnet_key="ooze#1" wn="ooze%2:38:00 ooze%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="percolate" verbnet_key="percolate#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="pour.01 pour.02" name="pour" verbnet_key="pour#3" wn="pour%2:38:03 pour%2:38:04 pour%2:38:02"/>
-    <MEMBER fn_mapping="None" grouping="" name="puff" verbnet_key="puff#1" wn="?puff%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="radiate.01 radiate.02" name="radiate" verbnet_key="radiate#1" wn="radiate%2:43:00 radiate%2:30:00 radiate%2:39:00 radiate%2:30:02"/>
-    <MEMBER fn_mapping="None" grouping="" name="seep" verbnet_key="seep#1" wn="seep%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="shed.01 shed.03" name="shed" verbnet_key="shed#1" wn="shed%2:35:02 shed%2:35:00 shed%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="slop" verbnet_key="slop#2" wn="slop%2:35:00 slop%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="spew.01 spew.02" name="spew" verbnet_key="spew#2" wn="spew%2:29:01 spew%2:29:02 spew%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="spill.01" name="spill" verbnet_key="spill#3" wn="spill%2:35:04 spill%2:38:00 spill%2:35:00 spill%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="spout.01" name="spout" verbnet_key="spout#1" wn="spout%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="sprout" verbnet_key="sprout#4" wn="sprout%2:30:00 sprout%2:29:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="spurt" verbnet_key="spurt#2" wn="spurt%2:38:01"/>
-    <MEMBER fn_mapping="None" grouping="squirt.01" name="squirt" verbnet_key="squirt#2" wn="squirt%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="steam.02" name="steam" verbnet_key="steam#2" wn="steam%2:43:00"/>
-    <MEMBER fn_mapping="None" grouping="stream.05" name="stream" verbnet_key="stream#2" wn="stream%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="sweat" verbnet_key="sweat#2" wn="sweat%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="trickle" verbnet_key="trickle#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="bead.01" name="bead" verbnet_key="bead#3" wn="bead%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="belch" verbnet_key="belch#2" wn="belch%2:29:00 belch%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bubble.02" name="bubble" verbnet_key="bubble#2" wn="bubble%2:30:00 bubble%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="dribble.04" name="dribble" verbnet_key="dribble#3" wn="dribble%2:35:10 dribble%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="drip.01" name="drip" verbnet_key="drip#2" wn="drip%2:38:00 drip%2:35:10"/>
+    <MEMBER features="None" fn_mapping="None" grouping="drool.01" name="drool" verbnet_key="drool#2" wn="drool%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="emanate" verbnet_key="emanate#2" wn="emanate%2:30:00 emanate%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="exrete" verbnet_key="exrete#1" wn="excrete%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="exude" verbnet_key="exude#2" wn="exude%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="foam" verbnet_key="foam#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="gush.01" name="gush" verbnet_key="gush#3" wn="gush%2:38:00 gush%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="jet" verbnet_key="jet#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="leak.01 leak.02" name="leak" verbnet_key="leak#2" wn="leak%2:30:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="ooze" verbnet_key="ooze#1" wn="ooze%2:38:00 ooze%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="percolate" verbnet_key="percolate#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="pour.01 pour.02" name="pour" verbnet_key="pour#3" wn="pour%2:38:03 pour%2:38:04 pour%2:38:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="puff" verbnet_key="puff#1" wn="?puff%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="radiate.01 radiate.02" name="radiate" verbnet_key="radiate#1" wn="radiate%2:43:00 radiate%2:30:00 radiate%2:39:00 radiate%2:30:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="seep" verbnet_key="seep#1" wn="seep%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="shed.01 shed.03" name="shed" verbnet_key="shed#1" wn="shed%2:35:02 shed%2:35:00 shed%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="slop" verbnet_key="slop#2" wn="slop%2:35:00 slop%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="spew.01 spew.02" name="spew" verbnet_key="spew#2" wn="spew%2:29:01 spew%2:29:02 spew%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="spill.01" name="spill" verbnet_key="spill#3" wn="spill%2:35:04 spill%2:38:00 spill%2:35:00 spill%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="spout.01" name="spout" verbnet_key="spout#1" wn="spout%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="sprout" verbnet_key="sprout#4" wn="sprout%2:30:00 sprout%2:29:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="spurt" verbnet_key="spurt#2" wn="spurt%2:38:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="squirt.01" name="squirt" verbnet_key="squirt#2" wn="squirt%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="steam.02" name="steam" verbnet_key="steam#2" wn="steam%2:43:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="stream.05" name="stream" verbnet_key="stream#2" wn="stream%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="sweat" verbnet_key="sweat#2" wn="sweat%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="trickle" verbnet_key="trickle#2" wn=""/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Location">
@@ -317,7 +317,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="substance_emission-43.4-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="bleed.01 bleed.03 bleed.05 bleed.06" name="bleed" verbnet_key="bleed#6" wn="bleed%2:29:00 bleed%2:29:01 bleed%2:38:00 bleed%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="bleed.01 bleed.03 bleed.05 bleed.06" name="bleed" verbnet_key="bleed#6" wn="bleed%2:29:00 bleed%2:29:01 bleed%2:38:00 bleed%2:30:00"/>
      </MEMBERS>
      <THEMROLES>
       <THEMROLE type="Agent">

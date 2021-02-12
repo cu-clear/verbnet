@@ -1,15 +1,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="hunt-35.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="dig.01 dig.03" name="dig" verbnet_key="dig#2" wn="dig%2:35:00 dig%2:35:02"/>
-  <MEMBER fn_mapping="Perception_active" grouping="feel.02" name="feel" verbnet_key="feel#2" wn="feel%2:39:10 feel%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="fish.02" name="fish" verbnet_key="fish#2" wn="fish%2:33:00"/>
-  <MEMBER fn_mapping="Seeking" grouping="hunt.01 hunt.02 hunt.03" name="hunt" verbnet_key="hunt#1" wn="hunt%2:33:00 hunt%2:38:00 hunt%2:35:03 hunt%2:33:02"/>
-  <MEMBER fn_mapping="None" grouping="mine.01" name="mine" verbnet_key="mine#1" wn="mine%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pan" verbnet_key="pan#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="poach" verbnet_key="poach#2" wn="poach%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="scrounge" verbnet_key="scrounge#1" wn="scrounge%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="seek.01" name="seek" verbnet_key="seek#1" wn="seek%2:40:00 seek%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dig.01 dig.03" name="dig" verbnet_key="dig#2" wn="dig%2:35:00 dig%2:35:02"/>
+  <MEMBER features="None" fn_mapping="Perception_active" grouping="feel.02" name="feel" verbnet_key="feel#2" wn="feel%2:39:10 feel%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fish.02" name="fish" verbnet_key="fish#2" wn="fish%2:33:00"/>
+  <MEMBER features="None" fn_mapping="Seeking" grouping="hunt.01 hunt.02 hunt.03" name="hunt" verbnet_key="hunt#1" wn="hunt%2:33:00 hunt%2:38:00 hunt%2:35:03 hunt%2:33:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mine.01" name="mine" verbnet_key="mine#1" wn="mine%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pan" verbnet_key="pan#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="poach" verbnet_key="poach#2" wn="poach%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="scrounge" verbnet_key="scrounge#1" wn="scrounge%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="seek.01" name="seek" verbnet_key="seek#1" wn="seek%2:40:00 seek%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

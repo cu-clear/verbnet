@@ -1,26 +1,26 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="investigate-35.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="canvass" verbnet_key="canvass#1" wn="canvass%2:41:01 canvass%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="explore.01" name="explore" verbnet_key="explore#1" wn="explore%2:31:02"/>
-  <MEMBER fn_mapping="None" grouping="examine.01 examine.02 examine.03" name="examine" verbnet_key="examine#2" wn="examine%2:31:00 examine%2:39:00 examine%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="frisk" verbnet_key="frisk#1" wn="frisk%2:35:00"/>
-  <MEMBER fn_mapping="Inspecting" grouping="inspect.01" name="inspect" verbnet_key="inspect#2" wn="inspect%2:39:00 inspect%2:38:00"/>
-  <MEMBER fn_mapping="Criminal_investigation" grouping="investigate.01" name="investigate" verbnet_key="investigate#2" wn="investigate%2:32:00 investigate%2:32:01"/>
-  <MEMBER fn_mapping="Scrutiny" grouping="monitor.01" name="monitor" verbnet_key="monitor#2" wn="monitor%2:39:00"/>
-  <MEMBER fn_mapping="Becoming_aware" grouping="observe.01" name="observe" verbnet_key="observe#1" wn="observe%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="picket" verbnet_key="picket#1" wn="picket%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="quiz" verbnet_key="quiz#1" wn="quiz%2:32:00"/>
-  <MEMBER fn_mapping="Attack" grouping="raid.01" name="raid" verbnet_key="raid#2" wn="raid%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="ransack" verbnet_key="ransack#1" wn="ransack%2:40:00 ransack%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="riffle" verbnet_key="riffle#1" wn="riffle%2:39:10"/>
-  <MEMBER fn_mapping="Scrutiny" grouping="scan.01" name="scan" verbnet_key="scan#2" wn="scan%2:39:01 scan%2:39:00 scan%2:35:00"/>
-  <MEMBER fn_mapping="Scrutiny" grouping="scrutinize.01" name="scrutinize" verbnet_key="scrutinize#2" wn="scrutinize%2:39:00 scrutinize%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="surveil" verbnet_key="surveil#2" wn="surveil%2:39:00"/>
-  <MEMBER fn_mapping="Scrutiny" grouping="survey.01" name="survey" verbnet_key="survey#2" wn="survey%2:31:00 survey%2:39:00 survey%2:39:13"/>
-  <MEMBER fn_mapping="None" grouping="tap.01" name="tap" verbnet_key="tap#2" wn="tap%2:39:00"/>
-  <MEMBER fn_mapping="Operational_testing" grouping="test.01 test.02" name="test" verbnet_key="test#2" wn="test%2:41:01"/>
-  <MEMBER fn_mapping="Travel" grouping="tour.01" name="tour" verbnet_key="tour#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="canvass" verbnet_key="canvass#1" wn="canvass%2:41:01 canvass%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="explore.01" name="explore" verbnet_key="explore#1" wn="explore%2:31:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="examine.01 examine.02 examine.03" name="examine" verbnet_key="examine#2" wn="examine%2:31:00 examine%2:39:00 examine%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="frisk" verbnet_key="frisk#1" wn="frisk%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Inspecting" grouping="inspect.01" name="inspect" verbnet_key="inspect#2" wn="inspect%2:39:00 inspect%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Criminal_investigation" grouping="investigate.01" name="investigate" verbnet_key="investigate#2" wn="investigate%2:32:00 investigate%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Scrutiny" grouping="monitor.01" name="monitor" verbnet_key="monitor#2" wn="monitor%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Becoming_aware" grouping="observe.01" name="observe" verbnet_key="observe#1" wn="observe%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="picket" verbnet_key="picket#1" wn="picket%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quiz" verbnet_key="quiz#1" wn="quiz%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Attack" grouping="raid.01" name="raid" verbnet_key="raid#2" wn="raid%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ransack" verbnet_key="ransack#1" wn="ransack%2:40:00 ransack%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="riffle" verbnet_key="riffle#1" wn="riffle%2:39:10"/>
+  <MEMBER features="None" fn_mapping="Scrutiny" grouping="scan.01" name="scan" verbnet_key="scan#2" wn="scan%2:39:01 scan%2:39:00 scan%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Scrutiny" grouping="scrutinize.01" name="scrutinize" verbnet_key="scrutinize#2" wn="scrutinize%2:39:00 scrutinize%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="surveil" verbnet_key="surveil#2" wn="surveil%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Scrutiny" grouping="survey.01" name="survey" verbnet_key="survey#2" wn="survey%2:31:00 survey%2:39:00 survey%2:39:13"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tap.01" name="tap" verbnet_key="tap#2" wn="tap%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Operational_testing" grouping="test.01 test.02" name="test" verbnet_key="test#2" wn="test%2:41:01"/>
+  <MEMBER features="None" fn_mapping="Travel" grouping="tour.01" name="tour" verbnet_key="tour#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="risk-94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="bet.01" name="bet" verbnet_key="bet#3" wn="bet%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="gamble.01" name="gamble" verbnet_key="gamble#2" wn="gamble%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="punt.03" name="punt" verbnet_key="punt#1" wn="punt%2:33:00"/>
-  <MEMBER fn_mapping="Daring" grouping="venture.01" name="venture" verbnet_key="venture#1" wn="venture%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wager" verbnet_key="wager#3" wn="wager%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bet.01" name="bet" verbnet_key="bet#3" wn="bet%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="gamble.01" name="gamble" verbnet_key="gamble#2" wn="gamble%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="punt.03" name="punt" verbnet_key="punt#1" wn="punt%2:33:00"/>
+  <MEMBER features="None" fn_mapping="Daring" grouping="venture.01" name="venture" verbnet_key="venture#1" wn="venture%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wager" verbnet_key="wager#3" wn="wager%2:33:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -77,9 +77,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="risk-94-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Daring" grouping="chance.02" name="chance" verbnet_key="chance#2" wn="chance%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="risk.01 risk.02" name="risk" verbnet_key="risk#1" wn="risk%2:41:00 risk%2:41:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="hazard" verbnet_key="hazard#1" wn="hazard%2:41:00"/>
+    <MEMBER features="None" fn_mapping="Daring" grouping="chance.02" name="chance" verbnet_key="chance#2" wn="chance%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="risk.01 risk.02" name="risk" verbnet_key="risk#1" wn="risk%2:41:00 risk%2:41:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="hazard" verbnet_key="hazard#1" wn="hazard%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="empathize-88.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="empathize" verbnet_key="empathize#1" wn="empathize%2:31:00"/>
-  <MEMBER fn_mapping="Emotion_directed" grouping="sympathize.02" name="sympathize" verbnet_key="sympathize#1" wn="sympathize%2:31:00 sympathize%2:37:00"/>
-  <MEMBER fn_mapping="None" grouping="identify.02" name="identify" verbnet_key="identify#2" wn="identify%2:31:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="commiserate" verbnet_key="commiserate#2" wn="commiserate%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="empathize" verbnet_key="empathize#1" wn="empathize%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Emotion_directed" grouping="sympathize.02" name="sympathize" verbnet_key="sympathize#1" wn="sympathize%2:31:00 sympathize%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="identify.02" name="identify" verbnet_key="identify#2" wn="identify%2:31:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="commiserate" verbnet_key="commiserate#2" wn="commiserate%2:37:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">

@@ -1,19 +1,19 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="convert-26.6.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="advert" verbnet_key="advert#1" wn="advert%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="come_around" verbnet_key="come_around#1" wn="come_around%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="fall.02" name="fall" verbnet_key="fall#4" wn="fall%2:30:08"/>
-  <MEMBER fn_mapping="None" grouping="get.02 get.03" name="get" verbnet_key="get#4" wn="get%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="get_around" verbnet_key="get_around#1" wn="get_around%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="get_down" verbnet_key="get_down#1" wn="get_down%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="go_back" verbnet_key="go_back#1" wn="go_back%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="resort" verbnet_key="resort#1" wn="resort%2:41:11"/>
-  <MEMBER fn_mapping="Resurrection" grouping="return.01" name="return" verbnet_key="return#1" wn="return%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="revert.01" name="revert" verbnet_key="revert#1" wn="revert%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="settle_down" verbnet_key="settle_down#1" wn="settle_down%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="take.06" name="take" verbnet_key="take#5" wn="take%2:41:13"/>
-  <MEMBER fn_mapping="Becoming" grouping="turn.01" name="turn" verbnet_key="turn#2" wn="turn%2:38:14"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="advert" verbnet_key="advert#1" wn="advert%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="come_around" verbnet_key="come_around#1" wn="come_around%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fall.02" name="fall" verbnet_key="fall#4" wn="fall%2:30:08"/>
+  <MEMBER features="None" fn_mapping="None" grouping="get.02 get.03" name="get" verbnet_key="get#4" wn="get%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="get_around" verbnet_key="get_around#1" wn="get_around%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="get_down" verbnet_key="get_down#1" wn="get_down%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_back" verbnet_key="go_back#1" wn="go_back%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="resort" verbnet_key="resort#1" wn="resort%2:41:11"/>
+  <MEMBER features="None" fn_mapping="Resurrection" grouping="return.01" name="return" verbnet_key="return#1" wn="return%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="revert.01" name="revert" verbnet_key="revert#1" wn="revert%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="settle_down" verbnet_key="settle_down#1" wn="settle_down%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="take.06" name="take" verbnet_key="take#5" wn="take%2:41:13"/>
+  <MEMBER features="None" fn_mapping="Becoming" grouping="turn.01" name="turn" verbnet_key="turn#2" wn="turn%2:38:14"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Patient">
@@ -117,10 +117,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="convert-26.6.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Resurrection" grouping="return.06" name="return" verbnet_key="return#1" wn="return%2:38:00 return%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="revert.01" name="revert" verbnet_key="revert#1" wn="revert%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="shift.02" name="shift" verbnet_key="shift#2" wn="shift%2:30:04 shift%2:30:03 shift%2:30:02"/>
-    <MEMBER fn_mapping="Becoming" grouping="turn.03" name="turn" verbnet_key="turn#2" wn="turn%2:38:00 turn%2:30:04"/>
+    <MEMBER features="None" fn_mapping="Resurrection" grouping="return.06" name="return" verbnet_key="return#1" wn="return%2:38:00 return%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="revert.01" name="revert" verbnet_key="revert#1" wn="revert%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="shift.02" name="shift" verbnet_key="shift#2" wn="shift%2:30:04 shift%2:30:03 shift%2:30:02"/>
+    <MEMBER features="None" fn_mapping="Becoming" grouping="turn.03" name="turn" verbnet_key="turn#2" wn="turn%2:38:00 turn%2:30:04"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -176,11 +176,11 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="convert-26.6.2-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="" name="change_over" verbnet_key="change_over#1" wn="change_over%2:30:02"/>
-      <MEMBER fn_mapping="None" grouping="convert.02" name="convert" verbnet_key="convert#1" wn="convert%2:30:07"/>
-      <MEMBER fn_mapping="None" grouping="" name="move_over" verbnet_key="move_over#1" wn=""/>
-      <MEMBER fn_mapping="None" grouping="switch.01" name="switch" verbnet_key="switch#1" wn="switch%2:30:02 switch%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="switch_over" verbnet_key="switch_over#1" wn="switch_over%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="change_over" verbnet_key="change_over#1" wn="change_over%2:30:02"/>
+      <MEMBER features="None" fn_mapping="None" grouping="convert.02" name="convert" verbnet_key="convert#1" wn="convert%2:30:07"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="move_over" verbnet_key="move_over#1" wn=""/>
+      <MEMBER features="None" fn_mapping="None" grouping="switch.01" name="switch" verbnet_key="switch#1" wn="switch%2:30:02 switch%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="switch_over" verbnet_key="switch_over#1" wn="switch_over%2:30:00"/>
      </MEMBERS>
      <THEMROLES>
       <THEMROLE type="Agent">

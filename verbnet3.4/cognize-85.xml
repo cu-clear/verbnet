@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="cognize-85" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="cognise" verbnet_key="cognise#1" wn="cognise%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cognize" verbnet_key="cognize#1" wn="cognize%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cognise" verbnet_key="cognise#1" wn="cognise%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cognize" verbnet_key="cognize#1" wn="cognize%2:31:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">

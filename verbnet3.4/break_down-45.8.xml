@@ -1,21 +1,21 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="break_down-45.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="break_down" verbnet_key="break_down#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="croak" verbnet_key="croak#2" wn=""/>
-  <MEMBER fn_mapping="Death" grouping="" name="die" verbnet_key="die#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="expire" verbnet_key="expire#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="fall.10" name="fall_apart" verbnet_key="fall_apart#1" wn="fall_apart%2:37:00 fall_apart%2:35:00         fall_apart%2:30:00 fall_apart%2:30:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="go_out" verbnet_key="go_out#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="go_down" verbnet_key="go_down#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="go_off" verbnet_key="go_off#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="give_out" verbnet_key="give_out#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="give.06" name="give_way" verbnet_key="give_way#2" wn=""/>
-  <MEMBER fn_mapping="Giving_in" grouping="give.06" name="give" verbnet_key="give#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="kick_the_bucket" verbnet_key="kick_the_bucket#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="perish" verbnet_key="perish#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="poop_out" verbnet_key="poop_out#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="fizzle_out" verbnet_key="fizzle_out#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="break_down" verbnet_key="break_down#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="croak" verbnet_key="croak#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Death" grouping="" name="die" verbnet_key="die#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="expire" verbnet_key="expire#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="fall.10" name="fall_apart" verbnet_key="fall_apart#1" wn="fall_apart%2:37:00 fall_apart%2:35:00         fall_apart%2:30:00 fall_apart%2:30:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_out" verbnet_key="go_out#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_down" verbnet_key="go_down#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_off" verbnet_key="go_off#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="give_out" verbnet_key="give_out#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="give.06" name="give_way" verbnet_key="give_way#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Giving_in" grouping="give.06" name="give" verbnet_key="give#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="kick_the_bucket" verbnet_key="kick_the_bucket#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="perish" verbnet_key="perish#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="poop_out" verbnet_key="poop_out#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fizzle_out" verbnet_key="fizzle_out#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Patient">

@@ -22,19 +22,19 @@
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="enthuse" verbnet_key="enthuse#2" wn="enthuse%2:32:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="exult" verbnet_key="exult#1" wn="exult%2:37:00 exult%2:32:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="fear.02" name="fear" verbnet_key="fear#2" wn="?fear%2:37:03" />
-  <MEMBER features="" fn_mapping="None" grouping="feel.01" name="feel" verbnet_key="feel#3" wn="" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="flip_out" verbnet_key="flip_out#1" wn="flip_out%2:31:00 flip_out%2:30:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="feel.01" name="feel" verbnet_key="feel#3" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flip_out" verbnet_key="flip_out#1" wn="flip_out%2:31:00 flip_out%2:30:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="freak_out" verbnet_key="freak_out#1" wn="freak_out%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="fret.01" name="fret" verbnet_key="fret#1" wn="fret%2:37:03 fret%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="fume.01" name="fume" verbnet_key="fume#1" wn="fume%2:37:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="gladden" verbnet_key="gladden#2" wn="gladden%2:37:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="gloat" verbnet_key="gloat#1" wn="gloat%2:32:00 gloat%2:39:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="glory" verbnet_key="glory#1" wn="glory%2:32:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="go_apeshit" verbnet_key="go_apeshit#1" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_apeshit" verbnet_key="go_apeshit#1" wn="" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="go_ballistic" verbnet_key="go_ballistic#1" wn="go_ballistic%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="grieve" verbnet_key="grieve#2" wn="grieve%2:37:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="groove" verbnet_key="groove#2" wn="" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="hallucinate" verbnet_key="hallucinate#1" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hallucinate" verbnet_key="hallucinate#1" wn="" />
   <MEMBER features="+desire" fn_mapping="None" grouping="hunger.01" name="hunger" verbnet_key="hunger#2" wn="hunger%2:34:01" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="hurt.01" name="hurt" verbnet_key="hurt#3" wn="hurt%2:29:02" />
   <MEMBER features="+neg_feeling" fn_mapping="Losing_it" grouping="" name="lose_it" verbnet_key="lose_it#1" wn="lose_it%2:37:00" />
@@ -59,7 +59,7 @@
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="seethe.02" name="seethe" verbnet_key="seethe#3" wn="seethe%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="sicken.01" name="sicken" verbnet_key="sicken#3" wn="sicken%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="sorrow" verbnet_key="sorrow#1" wn="sorrow%2:37:00" />
-  <MEMBER features="" fn_mapping="None" grouping="start.07" name="start" verbnet_key="start#2" wn="start%2:38:04" />
+  <MEMBER features="None" fn_mapping="None" grouping="start.07" name="start" verbnet_key="start#2" wn="start%2:38:04" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="stew.01" name="stew" verbnet_key="stew#2" wn="stew%2:37:01 stew%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="stress" verbnet_key="stress#2" wn="" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="suffer.01" name="suffer" verbnet_key="suffer#2" wn="suffer%2:37:00 suffer%2:29:00 suffer%2:29:03" />

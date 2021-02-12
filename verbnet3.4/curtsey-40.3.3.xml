@@ -2,13 +2,13 @@
 <VNCLASS ID="curtsey-40.3.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each verb adds a manner predicate indicating how the Agent expresses the greeting, something like manner(during(E),Gesture,Agent)-->
-  <MEMBER fn_mapping="Body_movement" grouping="bob.04" name="bob" verbnet_key="bob#2" wn="bob%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="bow.02" name="bow" verbnet_key="bow#3" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="curtsey" verbnet_key="curtsey#1" wn="curtsey%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="genuflect" verbnet_key="genuflect#1" wn="genuflect%2:38:00 genuflect%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="kneel" verbnet_key="kneel#2" wn="kneel%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="salaam" verbnet_key="salaam#1" wn="salaam%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="salute.02" name="salute" verbnet_key="salute#1" wn="salute%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="bob.04" name="bob" verbnet_key="bob#2" wn="bob%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bow.02" name="bow" verbnet_key="bow#3" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="curtsey" verbnet_key="curtsey#1" wn="curtsey%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="genuflect" verbnet_key="genuflect#1" wn="genuflect%2:38:00 genuflect%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="kneel" verbnet_key="kneel#2" wn="kneel%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="salaam" verbnet_key="salaam#1" wn="salaam%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="salute.02" name="salute" verbnet_key="salute#1" wn="salute%2:32:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

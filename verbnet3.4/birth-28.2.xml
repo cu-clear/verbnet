@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="birth-28.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="reproduce.01" name="reproduce" verbnet_key="reproduce#1" wn="reproduce%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="multiply.02" name="multiply" verbnet_key="multiply#1" wn="multiply%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="procreate" verbnet_key="procreate#1" wn="procreate%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="reproduce.01" name="reproduce" verbnet_key="reproduce#1" wn="reproduce%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="multiply.02" name="multiply" verbnet_key="multiply#1" wn="multiply%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="procreate" verbnet_key="procreate#1" wn="procreate%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -62,18 +62,18 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="birth-28.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="bear.02" name="bear" verbnet_key="bear#2" wn="bear%2:29:01 bear%2:42:14"/>
-    <MEMBER fn_mapping="None" grouping="" name="beget" verbnet_key="beget#1" wn="beget%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="birth" verbnet_key="birth#1" wn="birth%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="bring.02" name="bring_forth" verbnet_key="bring_forth#1" wn="bring_forth%2:36:01"/>
-    <MEMBER fn_mapping="None" grouping="deliver.05" name="deliver" verbnet_key="deliver#1" wn="deliver%2:29:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="father" verbnet_key="father#1" wn="father%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="generate.01" name="generate" verbnet_key="generate#1" wn="generate%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="get.10" name="get" verbnet_key="get#2" wn="get%2:29:08"/>
-    <MEMBER fn_mapping="None" grouping="have.09" name="have" verbnet_key="have#1" wn="have%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="mother" verbnet_key="mother#1" wn="mother%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="sire" verbnet_key="sire#1" wn="sire%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="spawn.02" name="spawn" verbnet_key="spawn#1" wn="spawn%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bear.02" name="bear" verbnet_key="bear#2" wn="bear%2:29:01 bear%2:42:14"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="beget" verbnet_key="beget#1" wn="beget%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="birth" verbnet_key="birth#1" wn="birth%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bring.02" name="bring_forth" verbnet_key="bring_forth#1" wn="bring_forth%2:36:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="deliver.05" name="deliver" verbnet_key="deliver#1" wn="deliver%2:29:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="father" verbnet_key="father#1" wn="father%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="generate.01" name="generate" verbnet_key="generate#1" wn="generate%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="get.10" name="get" verbnet_key="get#2" wn="get%2:29:08"/>
+    <MEMBER features="None" fn_mapping="None" grouping="have.09" name="have" verbnet_key="have#1" wn="have%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="mother" verbnet_key="mother#1" wn="mother%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="sire" verbnet_key="sire#1" wn="sire%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="spawn.02" name="spawn" verbnet_key="spawn#1" wn="spawn%2:29:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

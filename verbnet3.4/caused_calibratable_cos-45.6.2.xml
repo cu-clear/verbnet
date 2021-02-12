@@ -2,9 +2,9 @@
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="caused_calibratable_cos-45.6.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <MEMBER features="+decrease" fn_mapping="None" grouping="" name="commute" verbnet_key="commute#1" wn="commute%2:30:01" />
-  <MEMBER features="+decrease+directionOfChange_decrease" fn_mapping="None" grouping="cut.02" name="cut" verbnet_key="cut#4" wn="" />
-  <MEMBER features="+increase+directionOfChange_increase" fn_mapping="Cause_change_of_position_on_a_scale" grouping="" name="raise" verbnet_key="raise#1" wn="" />
-  <MEMBER features="+decrease+directionOfChange_decrease" fn_mapping="None" grouping="" name="reduce" verbnet_key="reduce#1" wn="" />
+  <MEMBER features="+directionOfChange_decrease" fn_mapping="None" grouping="cut.02" name="cut" verbnet_key="cut#4" wn="" />
+  <MEMBER features="+directionOfChange_increase" fn_mapping="Cause_change_of_position_on_a_scale" grouping="" name="raise" verbnet_key="raise#1" wn="" />
+  <MEMBER features="+directionOfChange_decrease" fn_mapping="None" grouping="" name="reduce" verbnet_key="reduce#1" wn="" />
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Causer">
@@ -204,9 +204,9 @@
     <MEMBER features="+decrease" fn_mapping="None" grouping="decrease.01" name="decrease" verbnet_key="decrease#1" wn="" />
     <MEMBER features="+decrease" fn_mapping="None" grouping="diminish.01" name="diminish" verbnet_key="diminish#1" wn="" />
     <MEMBER features="+increase" fn_mapping="None" grouping="increase.01" name="increase" verbnet_key="increase#1" wn="" />
-    <MEMBER features="+direction_neutral_variation" fn_mapping="None" grouping="" name="move" verbnet_key="move#3" wn="" />
-    <MEMBER features="+direction_neutral_variation" fn_mapping="None" grouping="" name="shift" verbnet_key="shift#1" wn="" />
-    <MEMBER features="+direction_neutral_variation" fn_mapping="None" grouping="vary.01" name="vary" verbnet_key="vary#1" wn="" />
+    <MEMBER features="None" fn_mapping="None" grouping="" name="move" verbnet_key="move#3" wn="" />
+    <MEMBER features="None" fn_mapping="None" grouping="" name="shift" verbnet_key="shift#1" wn="" />
+    <MEMBER features="None" fn_mapping="None" grouping="vary.01" name="vary" verbnet_key="vary#1" wn="" />
     <MEMBER features="+decrease" fn_mapping="None" grouping="lower.02" name="lower" verbnet_key="lower#1" wn="" />
    </MEMBERS>
    <THEMROLES />
@@ -729,7 +729,7 @@
       <PREP value="from">
        <SELRESTRS />
       </PREP>
-      <NP value="Intial_State">
+      <NP value="Initial_State">
        <SYNRESTRS />
       </NP>
       <PREP value="to">

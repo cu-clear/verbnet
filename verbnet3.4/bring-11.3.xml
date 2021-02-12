@@ -2,7 +2,7 @@
 <VNCLASS ID="bring-11.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--We should also specify deictic predicates, where direction is either towards or away from the "place of speaking" or the "point from which the action is regarded"-->
  <MEMBERS>
-  <MEMBER fn_mapping="Bringing" grouping="take.04" name="take" verbnet_key="take#3" wn="take%2:38:09 take%2:38:10 take%2:42:10"/>
+  <MEMBER features="None" fn_mapping="Bringing" grouping="take.04" name="take" verbnet_key="take#3" wn="take%2:38:09 take%2:38:10 take%2:42:10"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -642,7 +642,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="bring-11.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Bringing" grouping="bring.01" name="bring" verbnet_key="bring#1" wn="bring%2:38:00 bring%2:35:00 bring%2:35:02"/>
+    <MEMBER features="None" fn_mapping="Bringing" grouping="bring.01" name="bring" verbnet_key="bring#1" wn="bring%2:38:00 bring%2:35:00 bring%2:35:02"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Destination">

@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="ensure-99" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="ensure.01" name="ensure" verbnet_key="ensure#1" wn="ensure%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="assure.02" name="assure" verbnet_key="assure#2" wn="assure%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="guarantee.02" name="guarantee" verbnet_key="guarantee#1" wn="guarantee%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="insure.02" name="insure" verbnet_key="insure#2" wn="insure%2:32:04"/>
-  <MEMBER fn_mapping="Getting" grouping="secure.01" name="secure" verbnet_key="secure#1" wn="secure%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="ascertain.02" name="ascertain" verbnet_key="ascertain#2" wn="ascertain%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="reinsure" verbnet_key="reinsure#1" wn="reinsure%2:40:00 reinsure%2:32:00         reinsure%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="provide.03" name="provide" verbnet_key="provide#1" wn="provide%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ensure.01" name="ensure" verbnet_key="ensure#1" wn="ensure%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="assure.02" name="assure" verbnet_key="assure#2" wn="assure%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="guarantee.02" name="guarantee" verbnet_key="guarantee#1" wn="guarantee%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="insure.02" name="insure" verbnet_key="insure#2" wn="insure%2:32:04"/>
+  <MEMBER features="None" fn_mapping="Getting" grouping="secure.01" name="secure" verbnet_key="secure#1" wn="secure%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ascertain.02" name="ascertain" verbnet_key="ascertain#2" wn="ascertain%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reinsure" verbnet_key="reinsure#1" wn="reinsure%2:40:00 reinsure%2:32:00         reinsure%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="provide.03" name="provide" verbnet_key="provide#1" wn="provide%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Precondition">

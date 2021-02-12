@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="rehearse-26.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="walk_through" verbnet_key="walk_through#1" wn="walk_through%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="repeat.01" name="repeat" verbnet_key="repeat#1" wn="repeat%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="walk_through" verbnet_key="walk_through#1" wn="walk_through%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="repeat.01" name="repeat" verbnet_key="repeat#1" wn="repeat%2:36:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -74,9 +74,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="rehearse-26.8-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="exercise.01" name="exercise" verbnet_key="exercise#2" wn="exercise%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="practice.02" name="practice" verbnet_key="practice#1" wn="practice%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="rehearse" verbnet_key="rehearse#1" wn="rehearse%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="exercise.01" name="exercise" verbnet_key="exercise#2" wn="exercise%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="practice.02" name="practice" verbnet_key="practice#1" wn="practice%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="rehearse" verbnet_key="rehearse#1" wn="rehearse%2:36:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

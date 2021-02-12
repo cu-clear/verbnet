@@ -2,13 +2,13 @@
 <VNCLASS ID="chase-51.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--Should include a predicate to distinguish this accompanied motion from others (waltz with a partner, carry).  It should include some notion of distance/contact between the Agent and Theme-->
  <MEMBERS>
-  <MEMBER fn_mapping="Cotheme" grouping="chase.01 chase.02" name="chase" verbnet_key="chase#1" wn="chase%2:38:00 chase%2:41:00"/>
-  <MEMBER fn_mapping="Cotheme" grouping="follow.01" name="follow" verbnet_key="follow#3" wn="follow%2:38:00 follow%2:38:13"/>
-  <MEMBER fn_mapping="None" grouping="pursue.02" name="pursue" verbnet_key="pursue#1" wn="pursue%2:38:00"/>
-  <MEMBER fn_mapping="Cotheme" grouping="shadow.01" name="shadow" verbnet_key="shadow#1" wn="shadow%2:38:00"/>
-  <MEMBER fn_mapping="Cotheme" grouping="tail.01" name="tail" verbnet_key="tail#1" wn="tail%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="track.02" name="track" verbnet_key="track#1" wn="track%2:38:00"/>
-  <MEMBER fn_mapping="Cotheme" grouping="trail.03" name="trail" verbnet_key="trail#1" wn="trail%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="chase.01 chase.02" name="chase" verbnet_key="chase#1" wn="chase%2:38:00 chase%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="follow.01" name="follow" verbnet_key="follow#3" wn="follow%2:38:00 follow%2:38:13"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pursue.02" name="pursue" verbnet_key="pursue#1" wn="pursue%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="shadow.01" name="shadow" verbnet_key="shadow#1" wn="shadow%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="tail.01" name="tail" verbnet_key="tail#1" wn="tail%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="track.02" name="track" verbnet_key="track#1" wn="track%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="trail.03" name="trail" verbnet_key="trail#1" wn="trail%2:38:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

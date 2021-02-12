@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="enforce-63" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="control.01" name="control" verbnet_key="control#1" wn="control%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="enforce.01" name="enforce" verbnet_key="enforce#1" wn="enforce%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="impose.01" name="impose" verbnet_key="impose#1" wn="impose%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="control.01" name="control" verbnet_key="control#1" wn="control%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="enforce.01" name="enforce" verbnet_key="enforce#1" wn="enforce%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="impose.01" name="impose" verbnet_key="impose#1" wn="impose%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

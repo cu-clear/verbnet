@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="let-64.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="let.01" name="let" verbnet_key="let#3" wn="let%2:41:00 let%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="let.01" name="let" verbnet_key="let#3" wn="let%2:41:00 let%2:32:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

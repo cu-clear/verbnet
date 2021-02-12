@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="orbit-51.9.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="orbit" verbnet_key="orbit#1" wn="orbit%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="revolve.01" name="revolve" verbnet_key="revolve#2" wn="revolve%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="rotate.01" name="rotate" verbnet_key="rotate#3" wn="rotate%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="twirl" verbnet_key="twirl#3" wn="twirl%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="orbit" verbnet_key="orbit#1" wn="orbit%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="revolve.01" name="revolve" verbnet_key="revolve#2" wn="revolve%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="rotate.01" name="rotate" verbnet_key="rotate#3" wn="rotate%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="twirl" verbnet_key="twirl#3" wn="twirl%2:38:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

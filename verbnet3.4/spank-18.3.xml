@@ -1,49 +1,49 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="spank-18.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Cause_harm" grouping="belt.02" name="belt" verbnet_key="belt#2" wn="belt%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="biff" verbnet_key="biff#1" wn="biff%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="birch" verbnet_key="birch#1" wn="birch%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bludgeon" verbnet_key="bludgeon#1" wn="bludgeon%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bonk" verbnet_key="bonk#1" wn="bonk%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="brain" verbnet_key="brain#1" wn="brain%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="cane" verbnet_key="cane#1" wn="cane%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="clobber.01" name="clobber" verbnet_key="clobber#1" wn="clobber%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="clout" verbnet_key="clout#1" wn="clout%2:35:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="club.02" name="club" verbnet_key="club#1" wn="club%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="conk" verbnet_key="conk#2" wn="conk%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cosh" verbnet_key="cosh#1" wn="cosh%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cudgel" verbnet_key="cudgel#1" wn="cudgel%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cuff" verbnet_key="cuff#1" wn="cuff%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="elbow" verbnet_key="elbow#1" wn="elbow%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="flagellate" verbnet_key="flagellate#1" wn="flagellate%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="flail" verbnet_key="flail#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="flog" verbnet_key="flog#1" wn="flog%2:35:00 flog%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="fustigate" verbnet_key="fustigate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="knee" verbnet_key="knee#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="knife" verbnet_key="knife#2" wn="knife%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="k.o." verbnet_key="k.o.#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="lam" verbnet_key="lam#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="larrup" verbnet_key="larrup#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="lather" verbnet_key="lather#2" wn=""/>
-  <MEMBER fn_mapping="Corporal_punishment" grouping="paddle.03" name="paddle" verbnet_key="paddle#3" wn="paddle%2:35:07"/>
-  <MEMBER fn_mapping="None" grouping="" name="pommel" verbnet_key="pommel#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="pummel" verbnet_key="pummel#1" wn="pummel%2:35:00"/>
-  <MEMBER fn_mapping="Cause_impact" grouping="slam.01" name="slam" verbnet_key="slam#2" wn="slam%2:35:01 slam%2:35:00 slam%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="sock" verbnet_key="sock#1" wn="sock%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="spank" verbnet_key="spank#1" wn="spank%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="strap.03" name="strap" verbnet_key="strap#1" wn="strap%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="thrash.02" name="thrash" verbnet_key="thrash#1" wn="thrash%2:35:00 thrash%2:35:01"/>
-  <MEMBER fn_mapping="Impact" grouping="" name="thump" verbnet_key="thump#4" wn="thump%2:39:00 thump%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="truncheon" verbnet_key="truncheon#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="wallop" verbnet_key="wallop#1" wn="wallop%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wham" verbnet_key="wham#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="whap" verbnet_key="whap#2" wn=""/>
-  <MEMBER fn_mapping="Cause_harm" grouping="whip.01" name="whip" verbnet_key="whip#3" wn="whip%2:35:00 whip%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="whisk" verbnet_key="whisk#2" wn="whisk%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="whomp" verbnet_key="whomp#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="whop" verbnet_key="whop#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="horsewhip" verbnet_key="horsewhip#1" wn="horsewhip%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="belt.02" name="belt" verbnet_key="belt#2" wn="belt%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="biff" verbnet_key="biff#1" wn="biff%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="birch" verbnet_key="birch#1" wn="birch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bludgeon" verbnet_key="bludgeon#1" wn="bludgeon%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bonk" verbnet_key="bonk#1" wn="bonk%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="brain" verbnet_key="brain#1" wn="brain%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cane" verbnet_key="cane#1" wn="cane%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="clobber.01" name="clobber" verbnet_key="clobber#1" wn="clobber%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clout" verbnet_key="clout#1" wn="clout%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="club.02" name="club" verbnet_key="club#1" wn="club%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="conk" verbnet_key="conk#2" wn="conk%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cosh" verbnet_key="cosh#1" wn="cosh%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cudgel" verbnet_key="cudgel#1" wn="cudgel%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cuff" verbnet_key="cuff#1" wn="cuff%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="elbow" verbnet_key="elbow#1" wn="elbow%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flagellate" verbnet_key="flagellate#1" wn="flagellate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flail" verbnet_key="flail#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flog" verbnet_key="flog#1" wn="flog%2:35:00 flog%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fustigate" verbnet_key="fustigate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="knee" verbnet_key="knee#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="knife" verbnet_key="knife#2" wn="knife%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="k.o." verbnet_key="k.o.#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lam" verbnet_key="lam#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="larrup" verbnet_key="larrup#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lather" verbnet_key="lather#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Corporal_punishment" grouping="paddle.03" name="paddle" verbnet_key="paddle#3" wn="paddle%2:35:07"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pommel" verbnet_key="pommel#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pummel" verbnet_key="pummel#1" wn="pummel%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_impact" grouping="slam.01" name="slam" verbnet_key="slam#2" wn="slam%2:35:01 slam%2:35:00 slam%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sock" verbnet_key="sock#1" wn="sock%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="spank" verbnet_key="spank#1" wn="spank%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="strap.03" name="strap" verbnet_key="strap#1" wn="strap%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="thrash.02" name="thrash" verbnet_key="thrash#1" wn="thrash%2:35:00 thrash%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Impact" grouping="" name="thump" verbnet_key="thump#4" wn="thump%2:39:00 thump%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="truncheon" verbnet_key="truncheon#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wallop" verbnet_key="wallop#1" wn="wallop%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wham" verbnet_key="wham#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whap" verbnet_key="whap#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="whip.01" name="whip" verbnet_key="whip#3" wn="whip%2:35:00 whip%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whisk" verbnet_key="whisk#2" wn="whisk%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whomp" verbnet_key="whomp#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whop" verbnet_key="whop#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="horsewhip" verbnet_key="horsewhip#1" wn="horsewhip%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

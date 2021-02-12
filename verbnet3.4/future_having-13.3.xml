@@ -1,34 +1,34 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="future_having-13.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="accord" verbnet_key="accord#1" wn="accord%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="advance.05" name="advance" verbnet_key="advance#3" wn="advance%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="allocate.01" name="allocate" verbnet_key="allocate#1" wn="allocate%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="allot.01 allot.02" name="allot" verbnet_key="allot#1" wn="allot%2:40:01 allot%2:40:00 allot%2:40:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="allow" verbnet_key="allow#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="apportion" verbnet_key="apportion#1" wn="apportion%2:40:01 apportion%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="assign.02" name="assign" verbnet_key="assign#1" wn="assign%2:40:01"/>
-  <MEMBER fn_mapping="None" grouping="award.01" name="award" verbnet_key="award#1" wn="award%2:40:00 award%2:40:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="bequeath" verbnet_key="bequeath#1" wn="bequeath%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="cede.01" name="cede" verbnet_key="cede#1" wn="cede%2:40:01 cede%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="concede.02" name="concede" verbnet_key="concede#1" wn="concede%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="devolve.01" name="devolve" verbnet_key="devolve#1" wn="devolve%2:41:02"/>
-  <MEMBER fn_mapping="None" grouping="extend.03" name="extend" verbnet_key="extend#4" wn="extend%2:40:05"/>
-  <MEMBER fn_mapping="None" grouping="grant.01 grant.03" name="grant" verbnet_key="grant#1" wn="grant%2:40:01 grant%2:40:03 grant%2:40:00 grant%2:40:05 grant%2:40:04 grant%2:40:02"/>
-  <MEMBER fn_mapping="None" grouping="guarantee.01" name="guarantee" verbnet_key="guarantee#2" wn="guarantee%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="issue.01" name="issue" verbnet_key="issue#3" wn="issue%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="leave.02" name="leave" verbnet_key="leave#4" wn="leave%2:31:05 leave%2:40:01 leave%2:40:02"/>
-  <MEMBER fn_mapping="None" grouping="offer.01 offer.04" name="offer" verbnet_key="offer#1" wn="offer%2:40:00 offer%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="owe.01 owe.02" name="owe" verbnet_key="owe#1" wn="owe%2:40:01 owe%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="portion-out" verbnet_key="portion-out#1" wn="portion%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="proffer" verbnet_key="proffer#2" wn="proffer%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="promise.01" name="promise" verbnet_key="promise#1" wn="promise%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="ration" verbnet_key="ration#1" wn="ration%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="reallocate" verbnet_key="reallocate#1" wn="reallocate%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="reassign" verbnet_key="reassign#1" wn="reassign%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="vote.05" name="vote" verbnet_key="vote#2" wn="?vote%2:41:12"/>
-  <MEMBER fn_mapping="None" grouping="will.02" name="will" verbnet_key="will#1" wn="will%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="yield.02" name="yield" verbnet_key="yield#2" wn="yield%2:40:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="accord" verbnet_key="accord#1" wn="accord%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="advance.05" name="advance" verbnet_key="advance#3" wn="advance%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="allocate.01" name="allocate" verbnet_key="allocate#1" wn="allocate%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="allot.01 allot.02" name="allot" verbnet_key="allot#1" wn="allot%2:40:01 allot%2:40:00 allot%2:40:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="allow" verbnet_key="allow#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="apportion" verbnet_key="apportion#1" wn="apportion%2:40:01 apportion%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="assign.02" name="assign" verbnet_key="assign#1" wn="assign%2:40:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="award.01" name="award" verbnet_key="award#1" wn="award%2:40:00 award%2:40:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bequeath" verbnet_key="bequeath#1" wn="bequeath%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="cede.01" name="cede" verbnet_key="cede#1" wn="cede%2:40:01 cede%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="concede.02" name="concede" verbnet_key="concede#1" wn="concede%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="devolve.01" name="devolve" verbnet_key="devolve#1" wn="devolve%2:41:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="extend.03" name="extend" verbnet_key="extend#4" wn="extend%2:40:05"/>
+  <MEMBER features="None" fn_mapping="None" grouping="grant.01 grant.03" name="grant" verbnet_key="grant#1" wn="grant%2:40:01 grant%2:40:03 grant%2:40:00 grant%2:40:05 grant%2:40:04 grant%2:40:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="guarantee.01" name="guarantee" verbnet_key="guarantee#2" wn="guarantee%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="issue.01" name="issue" verbnet_key="issue#3" wn="issue%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="leave.02" name="leave" verbnet_key="leave#4" wn="leave%2:31:05 leave%2:40:01 leave%2:40:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="offer.01 offer.04" name="offer" verbnet_key="offer#1" wn="offer%2:40:00 offer%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="owe.01 owe.02" name="owe" verbnet_key="owe#1" wn="owe%2:40:01 owe%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="portion-out" verbnet_key="portion-out#1" wn="portion%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="proffer" verbnet_key="proffer#2" wn="proffer%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="promise.01" name="promise" verbnet_key="promise#1" wn="promise%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ration" verbnet_key="ration#1" wn="ration%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reallocate" verbnet_key="reallocate#1" wn="reallocate%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reassign" verbnet_key="reassign#1" wn="reassign%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="vote.05" name="vote" verbnet_key="vote#2" wn="?vote%2:41:12"/>
+  <MEMBER features="None" fn_mapping="None" grouping="will.02" name="will" verbnet_key="will#1" wn="will%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="yield.02" name="yield" verbnet_key="yield#2" wn="yield%2:40:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="want-32.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="covet" verbnet_key="covet#1" wn="covet%2:37:00"/>
-  <MEMBER fn_mapping="Desiring" grouping="crave.01" name="crave" verbnet_key="crave#2" wn="crave%2:34:00"/>
-  <MEMBER fn_mapping="Desiring" grouping="desire.01 desire.02" name="desire" verbnet_key="desire#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="fancy" verbnet_key="fancy#3" wn="fancy%2:37:00"/>
-  <MEMBER fn_mapping="None" grouping="love.02" name="love" verbnet_key="love#2" wn="love%2:37:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="covet" verbnet_key="covet#1" wn="covet%2:37:00"/>
+  <MEMBER features="None" fn_mapping="Desiring" grouping="crave.01" name="crave" verbnet_key="crave#2" wn="crave%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Desiring" grouping="desire.01 desire.02" name="desire" verbnet_key="desire#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fancy" verbnet_key="fancy#3" wn="fancy%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="love.02" name="love" verbnet_key="love#2" wn="love%2:37:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Pivot">
@@ -48,7 +48,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="want-32.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="enjoy.02" name="enjoy" verbnet_key="enjoy#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="enjoy.02" name="enjoy" verbnet_key="enjoy#2" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -277,11 +277,11 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="want-32.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Possession" grouping="want.01 want.02" name="want" verbnet_key="want#2" wn="want%2:37:00 want%2:34:00 want%2:31:01 want%2:35:00 want%2:42:01"/>
-      <MEMBER fn_mapping="Needing" grouping="need.01" name="need" verbnet_key="need#2" wn="need%2:34:00 need%2:34:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="like" verbnet_key="like#2" wn=""/>
-      <MEMBER fn_mapping="Partiality" grouping="" name="prefer" verbnet_key="prefer#2" wn=""/>
-      <MEMBER fn_mapping="Desiring" grouping="desire.01 desire.02 desire.03" name="desire" verbnet_key="desire#1" wn="desire%2:37:00 desire%2:37:01"/>
+      <MEMBER features="None" fn_mapping="Possession" grouping="want.01 want.02" name="want" verbnet_key="want#2" wn="want%2:37:00 want%2:34:00 want%2:31:01 want%2:35:00 want%2:42:01"/>
+      <MEMBER features="None" fn_mapping="Needing" grouping="need.01" name="need" verbnet_key="need#2" wn="need%2:34:00 need%2:34:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="like" verbnet_key="like#2" wn=""/>
+      <MEMBER features="None" fn_mapping="Partiality" grouping="" name="prefer" verbnet_key="prefer#2" wn=""/>
+      <MEMBER features="None" fn_mapping="Desiring" grouping="desire.01 desire.02 desire.03" name="desire" verbnet_key="desire#1" wn="desire%2:37:00 desire%2:37:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

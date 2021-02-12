@@ -1,30 +1,30 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="knead-26.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="ball.01" name="ball" verbnet_key="ball#1" wn="ball%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="beat.06" name="beat" verbnet_key="beat#3" wn="beat%2:36:00"/>
-  <MEMBER fn_mapping="Reshaping" grouping="bend.02" name="bend" verbnet_key="bend#3" wn="bend%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="coil.02" name="coil" verbnet_key="coil#2" wn="?coil%2:35:00"/>
-  <MEMBER fn_mapping="Gathering_up" grouping="collect.01" name="collect" verbnet_key="collect#2" wn="collect%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="compress.01" name="compress" verbnet_key="compress#2" wn="compress%2:35:01 compress%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="contort" verbnet_key="contort#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="curve.02" name="curve" verbnet_key="curve#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="distort.01" name="distort" verbnet_key="distort#1" wn=""/>
-  <MEMBER fn_mapping="Reshaping" grouping="fold.03" name="fold" verbnet_key="fold#4" wn="fold%2:35:00 fold%2:30:10"/>
-  <MEMBER fn_mapping="None" grouping="flex.03" name="flex" verbnet_key="flex#3" wn="flex%2:35:02"/>
-  <MEMBER fn_mapping="Cause_change_of_phase" grouping="flux.02" name="flux" verbnet_key="flux#2" wn="flux%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="knead" verbnet_key="knead#1" wn="knead%2:35:00"/>
-  <MEMBER fn_mapping="Cause_change_of_phase" grouping="melt.01" name="melt" verbnet_key="melt#1" wn="melt%2:30:01 melt%2:30:00"/>
-  <MEMBER fn_mapping="Cause_to_move_in_place" grouping="shake.01" name="shake" verbnet_key="shake#5" wn="shake%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="squash" verbnet_key="squash#6" wn="squash%2:35:00"/>
-  <MEMBER fn_mapping="Manipulation" grouping="squeeze.01" name="squeeze" verbnet_key="squeeze#2" wn="squeeze%2:35:05"/>
-  <MEMBER fn_mapping="None" grouping="" name="squish" verbnet_key="squish#4" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="twirl" verbnet_key="twirl#2" wn="twirl%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="twist.02" name="twist" verbnet_key="twist#3" wn="twist%2:35:02 twist%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="wad" verbnet_key="wad#1" wn="wad%2:35:01"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="whip.01 whip.03" name="whip" verbnet_key="whip#1" wn="whip%2:35:01"/>
-  <MEMBER fn_mapping="Motion" grouping="wind.02" name="wind" verbnet_key="wind#2" wn="wind%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="work.03" name="work" verbnet_key="work#4" wn="work%2:36:12 work%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ball.01" name="ball" verbnet_key="ball#1" wn="ball%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="beat.06" name="beat" verbnet_key="beat#3" wn="beat%2:36:00"/>
+  <MEMBER features="None" fn_mapping="Reshaping" grouping="bend.02" name="bend" verbnet_key="bend#3" wn="bend%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="coil.02" name="coil" verbnet_key="coil#2" wn="?coil%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Gathering_up" grouping="collect.01" name="collect" verbnet_key="collect#2" wn="collect%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="compress.01" name="compress" verbnet_key="compress#2" wn="compress%2:35:01 compress%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="contort" verbnet_key="contort#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="curve.02" name="curve" verbnet_key="curve#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="distort.01" name="distort" verbnet_key="distort#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Reshaping" grouping="fold.03" name="fold" verbnet_key="fold#4" wn="fold%2:35:00 fold%2:30:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="flex.03" name="flex" verbnet_key="flex#3" wn="flex%2:35:02"/>
+  <MEMBER features="None" fn_mapping="Cause_change_of_phase" grouping="flux.02" name="flux" verbnet_key="flux#2" wn="flux%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="knead" verbnet_key="knead#1" wn="knead%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_change_of_phase" grouping="melt.01" name="melt" verbnet_key="melt#1" wn="melt%2:30:01 melt%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_move_in_place" grouping="shake.01" name="shake" verbnet_key="shake#5" wn="shake%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squash" verbnet_key="squash#6" wn="squash%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="squeeze.01" name="squeeze" verbnet_key="squeeze#2" wn="squeeze%2:35:05"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squish" verbnet_key="squish#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="twirl" verbnet_key="twirl#2" wn="twirl%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="twist.02" name="twist" verbnet_key="twist#3" wn="twist%2:35:02 twist%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wad" verbnet_key="wad#1" wn="wad%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="whip.01 whip.03" name="whip" verbnet_key="whip#1" wn="whip%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Motion" grouping="wind.02" name="wind" verbnet_key="wind#2" wn="wind%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="work.03" name="work" verbnet_key="work#4" wn="work%2:36:12 work%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

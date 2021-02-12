@@ -1,15 +1,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="adjust-26.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="adapt.01" name="adapt" verbnet_key="adapt#1" wn="adapt%2:30:02"/>
-  <MEMBER fn_mapping="None" grouping="accommodate.02" name="accommodate" verbnet_key="accommodate#1" wn="accommodate%2:30:00 accommodate%2:30:01"/>
-  <MEMBER fn_mapping="Compliance" grouping="conform.02" name="conform" verbnet_key="conform#1" wn="conform%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="adjust.02" name="adjust" verbnet_key="adjust#1" wn="adjust%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="gear.01" name="gear" verbnet_key="gear#1" wn="gear%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="fit.02" name="fit" verbnet_key="fit#1" wn="fit%2:30:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="readjust" verbnet_key="readjust#1" wn="readjust%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="readapt" verbnet_key="readapt#1" wn="readapt%2:30:03"/>
-  <MEMBER fn_mapping="None" grouping="assimilate.01" name="assimilate" verbnet_key="assimilate#1" wn="assimilate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="adapt.01" name="adapt" verbnet_key="adapt#1" wn="adapt%2:30:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="accommodate.02" name="accommodate" verbnet_key="accommodate#1" wn="accommodate%2:30:00 accommodate%2:30:01"/>
+  <MEMBER features="None" fn_mapping="Compliance" grouping="conform.02" name="conform" verbnet_key="conform#1" wn="conform%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="adjust.02" name="adjust" verbnet_key="adjust#1" wn="adjust%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="gear.01" name="gear" verbnet_key="gear#1" wn="gear%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fit.02" name="fit" verbnet_key="fit#1" wn="fit%2:30:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="readjust" verbnet_key="readjust#1" wn="readjust%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="readapt" verbnet_key="readapt#1" wn="readapt%2:30:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="assimilate.01" name="assimilate" verbnet_key="assimilate#1" wn="assimilate%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

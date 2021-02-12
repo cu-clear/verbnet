@@ -2,25 +2,25 @@
 <VNCLASS ID="instr_communication-37.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each verb adds a predicate specifying the instrument used to transfer the information-->
-  <MEMBER fn_mapping="None" grouping="broadcast.01" name="broadcast" verbnet_key="broadcast#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="cable" verbnet_key="cable#1" wn="cable%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="e-mail" verbnet_key="e-mail#1" wn="e-mail%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fax" verbnet_key="fax#1" wn="fax%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="modem" verbnet_key="modem#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="netmail" verbnet_key="netmail#1" wn="netmail%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="phone.01" name="phone" verbnet_key="phone#3" wn="phone%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="radio" verbnet_key="radio#1" wn="radio%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="relay.01" name="relay" verbnet_key="relay#1" wn="relay%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="satellite" verbnet_key="satellite#1" wn="satellite%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="semaphore" verbnet_key="semaphore#1" wn="semaphore%2:32:01 semaphore%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="sign.02" name="sign" verbnet_key="sign#3" wn="sign%2:32:01 sign%2:32:04"/>
-  <MEMBER fn_mapping="None" grouping="signal.01" name="signal" verbnet_key="signal#1" wn="signal%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="telecast" verbnet_key="telecast#1" wn="telecast%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="telegraph" verbnet_key="telegraph#1" wn="telegraph%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="telephone" verbnet_key="telephone#2" wn="telephone%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="telex" verbnet_key="telex#1" wn="telex%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="wire.03" name="wire" verbnet_key="wire#1" wn="wire%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wireless" verbnet_key="wireless#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="broadcast.01" name="broadcast" verbnet_key="broadcast#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cable" verbnet_key="cable#1" wn="cable%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="e-mail" verbnet_key="e-mail#1" wn="e-mail%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fax" verbnet_key="fax#1" wn="fax%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="modem" verbnet_key="modem#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="netmail" verbnet_key="netmail#1" wn="netmail%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="phone.01" name="phone" verbnet_key="phone#3" wn="phone%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="radio" verbnet_key="radio#1" wn="radio%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="relay.01" name="relay" verbnet_key="relay#1" wn="relay%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="satellite" verbnet_key="satellite#1" wn="satellite%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="semaphore" verbnet_key="semaphore#1" wn="semaphore%2:32:01 semaphore%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sign.02" name="sign" verbnet_key="sign#3" wn="sign%2:32:01 sign%2:32:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="signal.01" name="signal" verbnet_key="signal#1" wn="signal%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="telecast" verbnet_key="telecast#1" wn="telecast%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="telegraph" verbnet_key="telegraph#1" wn="telegraph%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="telephone" verbnet_key="telephone#2" wn="telephone%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="telex" verbnet_key="telex#1" wn="telex%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wire.03" name="wire" verbnet_key="wire#1" wn="wire%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wireless" verbnet_key="wireless#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

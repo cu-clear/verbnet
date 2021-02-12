@@ -1,32 +1,32 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="compel-59.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="arm-twist" verbnet_key="arm-twist#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="bait" verbnet_key="bait#2" wn="bait%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="bribe.01" name="bribe" verbnet_key="bribe#1" wn="bribe%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="compel.01" name="compel" verbnet_key="compel#1" wn="compel%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="convince.01" name="convince" verbnet_key="convince#2" wn="convince%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="commandeer" verbnet_key="commandeer#1" wn="commandeer%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="dragoon" verbnet_key="dragoon#1" wn="dragoon%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="drive" verbnet_key="drive#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="goad.01" name="goad" verbnet_key="goad#1" wn="goad%2:37:00 goad%2:35:00 goad%2:35:01 goad%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="hound" verbnet_key="hound#1" wn="hound%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="impel" verbnet_key="impel#1" wn="impel%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="induce.02" name="induce" verbnet_key="induce#1" wn="induce%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="influence" verbnet_key="influence#1" wn=""/>
-  <MEMBER fn_mapping="Causation" grouping="lead.01" name="lead" verbnet_key="lead#2" wn="lead%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="motivate.01" name="motivate" verbnet_key="motivate#1" wn="motivate%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="obligate.01" name="obligate" verbnet_key="obligate#1" wn="obligate%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="oblige.02" name="oblige" verbnet_key="oblige#1" wn="oblige%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="palaver.02" name="palaver" verbnet_key="palaver#2" wn="palaver%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="persuade.01" name="persuade" verbnet_key="persuade#1" wn="persuade%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="railroad" verbnet_key="railroad#1" wn="railroad%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="rush.02" name="rush" verbnet_key="rush#1" wn="rush%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="sandbag" verbnet_key="sandbag#1" wn="sandbag%2:41:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="steamroller" verbnet_key="steamroller#1" wn="steamroller%2:41:01 steamroller%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="suborn.01" name="suborn" verbnet_key="suborn#1" wn="suborn%2:41:00 suborn%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="sway.01" name="sway" verbnet_key="sway#2" wn="sway%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wheedle" verbnet_key="wheedle#1" wn="wheedle%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="arm-twist" verbnet_key="arm-twist#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bait" verbnet_key="bait#2" wn="bait%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bribe.01" name="bribe" verbnet_key="bribe#1" wn="bribe%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="compel.01" name="compel" verbnet_key="compel#1" wn="compel%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="convince.01" name="convince" verbnet_key="convince#2" wn="convince%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="commandeer" verbnet_key="commandeer#1" wn="commandeer%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dragoon" verbnet_key="dragoon#1" wn="dragoon%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="drive" verbnet_key="drive#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="goad.01" name="goad" verbnet_key="goad#1" wn="goad%2:37:00 goad%2:35:00 goad%2:35:01 goad%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hound" verbnet_key="hound#1" wn="hound%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="impel" verbnet_key="impel#1" wn="impel%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="induce.02" name="induce" verbnet_key="induce#1" wn="induce%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="influence" verbnet_key="influence#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Causation" grouping="lead.01" name="lead" verbnet_key="lead#2" wn="lead%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="motivate.01" name="motivate" verbnet_key="motivate#1" wn="motivate%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="obligate.01" name="obligate" verbnet_key="obligate#1" wn="obligate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="oblige.02" name="oblige" verbnet_key="oblige#1" wn="oblige%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="palaver.02" name="palaver" verbnet_key="palaver#2" wn="palaver%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="persuade.01" name="persuade" verbnet_key="persuade#1" wn="persuade%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="railroad" verbnet_key="railroad#1" wn="railroad%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="rush.02" name="rush" verbnet_key="rush#1" wn="rush%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sandbag" verbnet_key="sandbag#1" wn="sandbag%2:41:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="steamroller" verbnet_key="steamroller#1" wn="steamroller%2:41:01 steamroller%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="suborn.01" name="suborn" verbnet_key="suborn#1" wn="suborn%2:41:00 suborn%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sway.01" name="sway" verbnet_key="sway#2" wn="sway%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wheedle" verbnet_key="wheedle#1" wn="wheedle%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

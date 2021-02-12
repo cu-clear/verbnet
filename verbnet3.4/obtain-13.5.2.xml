@@ -1,30 +1,30 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="obtain-13.5.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Receiving" grouping="accept.01" name="accept" verbnet_key="accept#3" wn="accept%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="accrue.01" name="accrue" verbnet_key="accrue#1" wn="accrue%2:30:00 accrue%2:40:10"/>
-  <MEMBER fn_mapping="None" grouping="accumulate.01" name="accumulate" verbnet_key="accumulate#2" wn="?accumulate%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="appropriate" verbnet_key="appropriate#1" wn="appropriate%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="borrow.01" name="borrow" verbnet_key="borrow#1" wn="borrow%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cadge" verbnet_key="cadge#1" wn="cadge%2:40:00 cadge%2:40:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="commandeer" verbnet_key="commandeer#2" wn="commandeer%2:35:00"/>
-  <MEMBER fn_mapping="Commerce_collect" grouping="collect.01 collect.02 collect.03" name="collect" verbnet_key="collect#3" wn="collect%2:40:00 collect%2:40:01 collect%2:35:00 collect%2:35:01 collect%2:40:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="exact" verbnet_key="exact#1" wn="exact%2:32:00"/>
-  <MEMBER fn_mapping="Taking" grouping="grab.01 grab.02" name="grab" verbnet_key="grab#2" wn="grab%2:35:00 grab%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="inherit.01 inherit.02 inherit.03" name="inherit" verbnet_key="inherit#1" wn="inherit%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="make.07" name="make" verbnet_key="make#4" wn="make%2:40:01"/>
-  <MEMBER fn_mapping="Receiving" grouping="receive.01" name="receive" verbnet_key="receive#2" wn="receive%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="recoup.01 recoup.02" name="recoup" verbnet_key="recoup#1" wn="recoup%2:40:02 recoup%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="recover.01" name="recover" verbnet_key="recover#1" wn="recover%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="regain.01" name="regain" verbnet_key="regain#1" wn="regain%2:40:00 regain%2:40:01"/>
-  <MEMBER fn_mapping="None" grouping="retrieve.01" name="retrieve" verbnet_key="retrieve#1" wn="retrieve%2:40:00 retrieve%2:35:00"/>
-  <MEMBER fn_mapping="Taking" grouping="seize.01 seize.03" name="seize" verbnet_key="seize#2" wn="seize%2:35:00 seize%2:35:01 seize%2:40:01 seize%2:40:02"/>
-  <MEMBER fn_mapping="None" grouping="select.01" name="select" verbnet_key="select#2" wn="select%2:31:00"/>
-  <MEMBER fn_mapping="Removing" grouping="snatch.01" name="snatch" verbnet_key="snatch#1" wn="snatch%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="source" verbnet_key="source#1" wn="source%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="subselect" verbnet_key="subselect#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="arrogate" verbnet_key="arrogate#1" wn="arrogate%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="hijack.01" name="hijack" verbnet_key="hijack#1" wn="hijack%2:35:00 hijack%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Receiving" grouping="accept.01" name="accept" verbnet_key="accept#3" wn="accept%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="accrue.01" name="accrue" verbnet_key="accrue#1" wn="accrue%2:30:00 accrue%2:40:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="accumulate.01" name="accumulate" verbnet_key="accumulate#2" wn="?accumulate%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="appropriate" verbnet_key="appropriate#1" wn="appropriate%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="borrow.01" name="borrow" verbnet_key="borrow#1" wn="borrow%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cadge" verbnet_key="cadge#1" wn="cadge%2:40:00 cadge%2:40:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="commandeer" verbnet_key="commandeer#2" wn="commandeer%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Commerce_collect" grouping="collect.01 collect.02 collect.03" name="collect" verbnet_key="collect#3" wn="collect%2:40:00 collect%2:40:01 collect%2:35:00 collect%2:35:01 collect%2:40:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="exact" verbnet_key="exact#1" wn="exact%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Taking" grouping="grab.01 grab.02" name="grab" verbnet_key="grab#2" wn="grab%2:35:00 grab%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="inherit.01 inherit.02 inherit.03" name="inherit" verbnet_key="inherit#1" wn="inherit%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="make.07" name="make" verbnet_key="make#4" wn="make%2:40:01"/>
+  <MEMBER features="None" fn_mapping="Receiving" grouping="receive.01" name="receive" verbnet_key="receive#2" wn="receive%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="recoup.01 recoup.02" name="recoup" verbnet_key="recoup#1" wn="recoup%2:40:02 recoup%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="recover.01" name="recover" verbnet_key="recover#1" wn="recover%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="regain.01" name="regain" verbnet_key="regain#1" wn="regain%2:40:00 regain%2:40:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="retrieve.01" name="retrieve" verbnet_key="retrieve#1" wn="retrieve%2:40:00 retrieve%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Taking" grouping="seize.01 seize.03" name="seize" verbnet_key="seize#2" wn="seize%2:35:00 seize%2:35:01 seize%2:40:01 seize%2:40:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="select.01" name="select" verbnet_key="select#2" wn="select%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="snatch.01" name="snatch" verbnet_key="snatch#1" wn="snatch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="source" verbnet_key="source#1" wn="source%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="subselect" verbnet_key="subselect#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="arrogate" verbnet_key="arrogate#1" wn="arrogate%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hijack.01" name="hijack" verbnet_key="hijack#1" wn="hijack%2:35:00 hijack%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -175,9 +175,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="obtain-13.5.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Getting" grouping="acquire.03" name="acquire" verbnet_key="acquire#1" wn="acquire%2:40:00"/>
-    <MEMBER fn_mapping="Getting" grouping="obtain.01" name="obtain" verbnet_key="obtain#1" wn="obtain%2:40:00"/>
-    <MEMBER fn_mapping="Commerce_buy" grouping="purchase.01" name="purchase" verbnet_key="purchase#1" wn="purchase%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Getting" grouping="acquire.03" name="acquire" verbnet_key="acquire#1" wn="acquire%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Getting" grouping="obtain.01" name="obtain" verbnet_key="obtain#1" wn="obtain%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Commerce_buy" grouping="purchase.01" name="purchase" verbnet_key="purchase#1" wn="purchase%2:40:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Asset">

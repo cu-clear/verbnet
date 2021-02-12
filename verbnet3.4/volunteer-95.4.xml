@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="volunteer-95.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="offer.03" name="offer" verbnet_key="offer#3" wn="offer%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="offer.03" name="offer" verbnet_key="offer#3" wn="offer%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -220,11 +220,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="volunteer-95.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="enlist.01" name="enlist" verbnet_key="enlist#2" wn="enlist%2:40:00"/>
-    <MEMBER fn_mapping="Get_a_job" grouping="" name="hire_on" verbnet_key="hire_on#1" wn=""/>
-    <MEMBER fn_mapping="Get_a_job" grouping="" name="sign_on" verbnet_key="sign_on#1" wn="sign_on%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="sign_up" verbnet_key="sign_up#2" wn="sign_up%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="volunteer.03" name="volunteer" verbnet_key="volunteer#3" wn="volunteer%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="enlist.01" name="enlist" verbnet_key="enlist#2" wn="enlist%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Get_a_job" grouping="" name="hire_on" verbnet_key="hire_on#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Get_a_job" grouping="" name="sign_on" verbnet_key="sign_on#1" wn="sign_on%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="sign_up" verbnet_key="sign_up#2" wn="sign_up%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="volunteer.03" name="volunteer" verbnet_key="volunteer#3" wn="volunteer%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="cope-83" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Resolve_problem" grouping="deal.01" name="deal" verbnet_key="deal#1" wn="deal%2:41:09"/>
+  <MEMBER features="None" fn_mapping="Resolve_problem" grouping="deal.01" name="deal" verbnet_key="deal#1" wn="deal%2:41:09"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -50,7 +50,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="cope-83-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="cope.01" name="cope" verbnet_key="cope#1" wn="cope%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="cope.01" name="cope" verbnet_key="cope#1" wn="cope%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -81,10 +81,10 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="cope-83-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Success_or_failure" grouping="manage.03" name="manage" verbnet_key="manage#2" wn="manage%2:41:03"/>
-      <MEMBER fn_mapping="None" grouping="" name="grapple" verbnet_key="grapple#1" wn="grapple%2:41:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="get_by" verbnet_key="get_by#1" wn="get_by%2:41:00"/>
-      <MEMBER fn_mapping="None" grouping="get.11" name="get_through" verbnet_key="get_through#1" wn="get_through%2:30:00 get_through%2:42:00 get_through%2:38:00"/>
+      <MEMBER features="None" fn_mapping="Success_or_failure" grouping="manage.03" name="manage" verbnet_key="manage#2" wn="manage%2:41:03"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="grapple" verbnet_key="grapple#1" wn="grapple%2:41:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="get_by" verbnet_key="get_by#1" wn="get_by%2:41:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="get.11" name="get_through" verbnet_key="get_through#1" wn="get_through%2:30:00 get_through%2:42:00 get_through%2:38:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

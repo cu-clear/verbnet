@@ -1,19 +1,19 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="fit-54.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Bearing_arms" grouping="carry.02 carry.03" name="carry" verbnet_key="carry#3" wn="carry%2:42:03 carry%2:31:12 carry%2:36:08 carry%2:34:01"/>
-  <MEMBER fn_mapping="Containing" grouping="contain.01" name="contain" verbnet_key="contain#3" wn="contain%2:42:14"/>
-  <MEMBER fn_mapping="None" grouping="fit.02" name="fit" verbnet_key="fit#2" wn="fit%2:42:02 fit%2:42:03"/>
-  <MEMBER fn_mapping="None" grouping="feed.03" name="feed" verbnet_key="feed#2" wn="feed%2:34:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="hibernate" verbnet_key="hibernate#1" wn=""/>
-  <MEMBER fn_mapping="Containing" grouping="hold.01 hold.04" name="hold" verbnet_key="hold#6" wn="hold%2:42:05 hold%2:42:14"/>
-  <MEMBER fn_mapping="Provide_lodging" grouping="house.01" name="house" verbnet_key="house#1" wn="house%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="reseat.01" name="reseat" verbnet_key="reseat#1" wn="reseat%2:40:01 reseat%2:40:00 reseat%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="seat.01 seat.02" name="seat" verbnet_key="seat#1" wn="seat%2:42:00"/>
-  <MEMBER fn_mapping="Assistance" grouping="serve.01" name="serve" verbnet_key="serve#1" wn="serve%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="sleep.03" name="sleep" verbnet_key="sleep#1" wn="sleep%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="store.01" name="store" verbnet_key="store#1" wn="store%2:40:02"/>
-  <MEMBER fn_mapping="Capacity" grouping="take.10" name="take" verbnet_key="take#8" wn="take%2:42:15"/>
+  <MEMBER features="None" fn_mapping="Bearing_arms" grouping="carry.02 carry.03" name="carry" verbnet_key="carry#3" wn="carry%2:42:03 carry%2:31:12 carry%2:36:08 carry%2:34:01"/>
+  <MEMBER features="None" fn_mapping="Containing" grouping="contain.01" name="contain" verbnet_key="contain#3" wn="contain%2:42:14"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fit.02" name="fit" verbnet_key="fit#2" wn="fit%2:42:02 fit%2:42:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="feed.03" name="feed" verbnet_key="feed#2" wn="feed%2:34:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hibernate" verbnet_key="hibernate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Containing" grouping="hold.01 hold.04" name="hold" verbnet_key="hold#6" wn="hold%2:42:05 hold%2:42:14"/>
+  <MEMBER features="None" fn_mapping="Provide_lodging" grouping="house.01" name="house" verbnet_key="house#1" wn="house%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="reseat.01" name="reseat" verbnet_key="reseat#1" wn="reseat%2:40:01 reseat%2:40:00 reseat%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="seat.01 seat.02" name="seat" verbnet_key="seat#1" wn="seat%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Assistance" grouping="serve.01" name="serve" verbnet_key="serve#1" wn="serve%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sleep.03" name="sleep" verbnet_key="sleep#1" wn="sleep%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="store.01" name="store" verbnet_key="store#1" wn="store%2:40:02"/>
+  <MEMBER features="None" fn_mapping="Capacity" grouping="take.10" name="take" verbnet_key="take#8" wn="take%2:42:15"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="comprehend-87.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="appreciate" verbnet_key="appreciate#3" wn="appreciate%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="misconstrue" verbnet_key="misconstrue#1" wn="misconstrue%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="misinterpret.01" name="misinterpret" verbnet_key="misinterpret#1" wn="misinterpret%2:31:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="misunderstand" verbnet_key="misunderstand#1" wn="misunderstand%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="misapprehend" verbnet_key="misapprehend#1" wn="misapprehend%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="appreciate" verbnet_key="appreciate#3" wn="appreciate%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="misconstrue" verbnet_key="misconstrue#1" wn="misconstrue%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="misinterpret.01" name="misinterpret" verbnet_key="misinterpret#1" wn="misinterpret%2:31:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="misunderstand" verbnet_key="misunderstand#1" wn="misunderstand%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="misapprehend" verbnet_key="misapprehend#1" wn="misapprehend%2:31:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">
@@ -232,16 +232,16 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="comprehend-87.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Grasp" grouping="grasp.02" name="grasp" verbnet_key="grasp#1" wn="grasp%2:31:00"/>
-    <MEMBER fn_mapping="Grasp" grouping="comprehend.01" name="comprehend" verbnet_key="comprehend#1" wn="comprehend%2:31:00"/>
-    <MEMBER fn_mapping="Grasp" grouping="apprehend.01" name="apprehend" verbnet_key="apprehend#1" wn="apprehend%2:31:00"/>
-    <MEMBER fn_mapping="Cotheme" grouping="follow.01" name="follow" verbnet_key="follow#4" wn="follow%2:31:14"/>
-    <MEMBER fn_mapping="None" grouping="" name="fathom" verbnet_key="fathom#1" wn="fathom%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="get" verbnet_key="get#3" wn="get%2:31:09"/>
-    <MEMBER fn_mapping="Reading_perception" grouping="read.03" name="read" verbnet_key="read#1" wn="read%2:31:02 read%2:31:09"/>
-    <MEMBER fn_mapping="None" grouping="" name="realize" verbnet_key="realize#1" wn="realize%2:31:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="recognise" verbnet_key="recognise#1" wn="recognise%2:31:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="recognize" verbnet_key="recognize#1" wn="recognize%2:31:01"/>
+    <MEMBER features="None" fn_mapping="Grasp" grouping="grasp.02" name="grasp" verbnet_key="grasp#1" wn="grasp%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Grasp" grouping="comprehend.01" name="comprehend" verbnet_key="comprehend#1" wn="comprehend%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Grasp" grouping="apprehend.01" name="apprehend" verbnet_key="apprehend#1" wn="apprehend%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Cotheme" grouping="follow.01" name="follow" verbnet_key="follow#4" wn="follow%2:31:14"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="fathom" verbnet_key="fathom#1" wn="fathom%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="get" verbnet_key="get#3" wn="get%2:31:09"/>
+    <MEMBER features="None" fn_mapping="Reading_perception" grouping="read.03" name="read" verbnet_key="read#1" wn="read%2:31:02 read%2:31:09"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="realize" verbnet_key="realize#1" wn="realize%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="recognise" verbnet_key="recognise#1" wn="recognise%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="recognize" verbnet_key="recognize#1" wn="recognize%2:31:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -333,7 +333,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="comprehend-87.2-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="" name="see" verbnet_key="see#1" wn="see%2:31:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="see" verbnet_key="see#1" wn="see%2:31:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -364,8 +364,8 @@
      <SUBCLASSES>
       <VNSUBCLASS ID="comprehend-87.2-1-1-1">
        <MEMBERS>
-        <MEMBER fn_mapping="None" grouping="know.03" name="know" verbnet_key="know#1" wn="know%2:31:15"/>
-        <MEMBER fn_mapping="None" grouping="understand.01                     understand.02 understand.03" name="understand" verbnet_key="understand#2" wn="understand%2:31:00                     understand%2:31:01 undertand%2:31:02 understand%2:31:03"/>
+        <MEMBER features="None" fn_mapping="None" grouping="know.03" name="know" verbnet_key="know#1" wn="know%2:31:15"/>
+        <MEMBER features="None" fn_mapping="None" grouping="understand.01                     understand.02 understand.03" name="understand" verbnet_key="understand#2" wn="understand%2:31:00                     understand%2:31:01 undertand%2:31:02 understand%2:31:03"/>
        </MEMBERS>
        <THEMROLES/>
        <FRAMES>

@@ -1,16 +1,16 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="encounter-30.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="chance_across" verbnet_key="chance_across#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="chance_upon" verbnet_key="chance_upon#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="come_across" verbnet_key="come_across#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="encounter" verbnet_key="encounter#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="happen_on" verbnet_key="happen_on#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="happen_upon" verbnet_key="happen_upon#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="meet" verbnet_key="meet#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="meet_with" verbnet_key="meet_with#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="stumble_on" verbnet_key="stumble_on#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="stumble_upon" verbnet_key="stumble_upon#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chance_across" verbnet_key="chance_across#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chance_upon" verbnet_key="chance_upon#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="come_across" verbnet_key="come_across#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="encounter" verbnet_key="encounter#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="happen_on" verbnet_key="happen_on#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="happen_upon" verbnet_key="happen_upon#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="meet" verbnet_key="meet#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="meet_with" verbnet_key="meet_with#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stumble_on" verbnet_key="stumble_on#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stumble_upon" verbnet_key="stumble_upon#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">

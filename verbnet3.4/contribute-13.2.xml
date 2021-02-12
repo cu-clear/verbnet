@@ -1,23 +1,23 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="contribute-13.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="betroth.01" name="betroth" verbnet_key="betroth#1" wn="betroth%2:32:00"/>
-  <MEMBER fn_mapping="Avoiding" grouping="forgo.02 forgo.03" name="forgo" verbnet_key="forgo#3" wn="forgo%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="refer.03" name="refer" verbnet_key="refer#1" wn="refer%2:38:00"/>
-  <MEMBER fn_mapping="Surrendering_possession" grouping="relinquish.01 relinquish.02" name="relinquish" verbnet_key="relinquish#1" wn="relinquish%2:40:01 relinquish%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="remit.01" name="remit" verbnet_key="remit#1" wn="remit%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="resign" verbnet_key="resign#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="restore.02" name="restore" verbnet_key="restore#1" wn="restore%2:40:00"/>
-  <MEMBER fn_mapping="Giving" grouping="gift.02" name="gift" verbnet_key="gift#1" wn="gift%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="give.01 give.02" name="give-away" verbnet_key="give-away#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="give.01 give.02" name="give-out" verbnet_key="give-out#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="give.01 give.02" name="give-up" verbnet_key="give-up#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="hand_out" verbnet_key="hand_out#1" wn="hand_out%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pass_out" verbnet_key="pass_out#2" wn="pass_out%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shell_out" verbnet_key="shell_out#1" wn="shell_out%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="abnegate" verbnet_key="abnegate#1" wn="abnegate%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="turn-in" verbnet_key="turn-in#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="turn-over" verbnet_key="turn-over#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="betroth.01" name="betroth" verbnet_key="betroth#1" wn="betroth%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Avoiding" grouping="forgo.02 forgo.03" name="forgo" verbnet_key="forgo#3" wn="forgo%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="refer.03" name="refer" verbnet_key="refer#1" wn="refer%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Surrendering_possession" grouping="relinquish.01 relinquish.02" name="relinquish" verbnet_key="relinquish#1" wn="relinquish%2:40:01 relinquish%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="remit.01" name="remit" verbnet_key="remit#1" wn="remit%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="resign" verbnet_key="resign#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="restore.02" name="restore" verbnet_key="restore#1" wn="restore%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Giving" grouping="gift.02" name="gift" verbnet_key="gift#1" wn="gift%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="give.01 give.02" name="give-away" verbnet_key="give-away#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="give.01 give.02" name="give-out" verbnet_key="give-out#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="give.01 give.02" name="give-up" verbnet_key="give-up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hand_out" verbnet_key="hand_out#1" wn="hand_out%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pass_out" verbnet_key="pass_out#2" wn="pass_out%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shell_out" verbnet_key="shell_out#1" wn="shell_out%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="abnegate" verbnet_key="abnegate#1" wn="abnegate%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="turn-in" verbnet_key="turn-in#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="turn-over" verbnet_key="turn-over#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -236,8 +236,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="contribute-13.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="disseminate" verbnet_key="disseminate#1" wn=""/>
-    <MEMBER fn_mapping="Dispersal" grouping="distribute.01 distribute.02 distribute.03" name="distribute" verbnet_key="distribute#1" wn="distribute%2:40:00 distribute%2:35:01 distribute%2:41:00 distribute%2:40:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="disseminate" verbnet_key="disseminate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Dispersal" grouping="distribute.01 distribute.02 distribute.03" name="distribute" verbnet_key="distribute#1" wn="distribute%2:40:00 distribute%2:35:01 distribute%2:41:00 distribute%2:40:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -378,15 +378,15 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="contribute-13.2-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="administer.02 administer.03" name="administer" verbnet_key="administer#1" wn="administer%2:40:01 administer%2:40:00 administer%2:29:00"/>
-      <MEMBER fn_mapping="None" grouping="circularize.01" name="circularize" verbnet_key="circularize#1" wn="circularize%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="contribute.01" name="contribute" verbnet_key="contribute#1" wn="contribute%2:40:00 contribute%2:40:02"/>
-      <MEMBER fn_mapping="Giving" grouping="donate.01" name="donate" verbnet_key="donate#1" wn="donate%2:40:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="forfeit" verbnet_key="forfeit#1" wn="forfeit%2:40:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="resubmit" verbnet_key="resubmit#1" wn="resubmit%2:40:00"/>
-      <MEMBER fn_mapping="None" grouping="sacrifice.01" name="sacrifice" verbnet_key="sacrifice#1" wn="?sacrifice%2:40:00 ?sacrifice%2:40:02 ?sacrifice%2:40:01"/>
-      <MEMBER fn_mapping="Submitting_documents" grouping="submit.01 submit.02" name="submit" verbnet_key="submit#2" wn="submit%2:33:00 submit%2:40:00 submit%2:33:02 submit%2:40:01"/>
-      <MEMBER fn_mapping="Surrendering_possession" grouping="surrender.02" name="surrender" verbnet_key="surrender#1" wn="surrender%2:33:00 surrender%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="administer.02 administer.03" name="administer" verbnet_key="administer#1" wn="administer%2:40:01 administer%2:40:00 administer%2:29:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="circularize.01" name="circularize" verbnet_key="circularize#1" wn="circularize%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="contribute.01" name="contribute" verbnet_key="contribute#1" wn="contribute%2:40:00 contribute%2:40:02"/>
+      <MEMBER features="None" fn_mapping="Giving" grouping="donate.01" name="donate" verbnet_key="donate#1" wn="donate%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="forfeit" verbnet_key="forfeit#1" wn="forfeit%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="resubmit" verbnet_key="resubmit#1" wn="resubmit%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="sacrifice.01" name="sacrifice" verbnet_key="sacrifice#1" wn="?sacrifice%2:40:00 ?sacrifice%2:40:02 ?sacrifice%2:40:01"/>
+      <MEMBER features="None" fn_mapping="Submitting_documents" grouping="submit.01 submit.02" name="submit" verbnet_key="submit#2" wn="submit%2:33:00 submit%2:40:00 submit%2:33:02 submit%2:40:01"/>
+      <MEMBER features="None" fn_mapping="Surrendering_possession" grouping="surrender.02" name="surrender" verbnet_key="surrender#1" wn="surrender%2:33:00 surrender%2:40:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -455,10 +455,10 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="contribute-13.2-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="disburse" verbnet_key="disburse#1" wn="disburse%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="extend.03" name="extend" verbnet_key="extend#2" wn="extend%2:40:05"/>
-    <MEMBER fn_mapping="None" grouping="" name="proffer" verbnet_key="proffer#1" wn="proffer%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="transfer.01" name="transfer" verbnet_key="transfer#1" wn="transfer%2:40:00 transfer%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="disburse" verbnet_key="disburse#1" wn="disburse%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="extend.03" name="extend" verbnet_key="extend#2" wn="extend%2:40:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="proffer" verbnet_key="proffer#1" wn="proffer%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="transfer.01" name="transfer" verbnet_key="transfer#1" wn="transfer%2:40:00 transfer%2:35:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -530,7 +530,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="contribute-13.2-2-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="reimburse.01" name="reimburse" verbnet_key="reimburse#1" wn="reimburse%2:40:00 reimburse%2:40:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="reimburse.01" name="reimburse" verbnet_key="reimburse#1" wn="reimburse%2:40:00 reimburse%2:40:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

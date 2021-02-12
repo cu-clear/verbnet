@@ -1,23 +1,23 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="hire-13.5.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="commission.03" name="commission" verbnet_key="commission#1" wn="commission%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="contract.01" name="contract" verbnet_key="contract#2" wn="contract%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="draft.02" name="draft" verbnet_key="draft#2" wn="draft%2:33:00"/>
-  <MEMBER fn_mapping="Employing" grouping="employ.01" name="employ" verbnet_key="employ#1" wn="employ%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="engage.02" name="engage" verbnet_key="engage#3" wn="engage%2:41:01"/>
-  <MEMBER fn_mapping="Becoming_a_member" grouping="enlist.01 enlist.02" name="enlist" verbnet_key="enlist#1" wn="enlist%2:40:00 enlist%2:33:01"/>
-  <MEMBER fn_mapping="None" grouping="groom.02" name="groom" verbnet_key="groom#2" wn="groom%2:41:00"/>
-  <MEMBER fn_mapping="Hiring" grouping="hire.01" name="hire" verbnet_key="hire#2" wn="hire%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="prepare.02" name="prepare" verbnet_key="prepare#2" wn="prepare%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="recruit" verbnet_key="recruit#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="reinstate.01" name="reinstate" verbnet_key="reinstate#1" wn="reinstate%2:41:00"/>
-  <MEMBER fn_mapping="Sign_agreement" grouping="sign.01" name="sign" verbnet_key="sign#1" wn="sign%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="sign_on" verbnet_key="sign_on#1" wn="sign_on%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sign_up" verbnet_key="sign_up#1" wn="sign_up%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="subcontract" verbnet_key="subcontract#2" wn="subcontract%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="take.05" name="take_on" verbnet_key="take_on#3" wn="take_on%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="train.01" name="train" verbnet_key="train#1" wn="train%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="commission.03" name="commission" verbnet_key="commission#1" wn="commission%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="contract.01" name="contract" verbnet_key="contract#2" wn="contract%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="draft.02" name="draft" verbnet_key="draft#2" wn="draft%2:33:00"/>
+  <MEMBER features="None" fn_mapping="Employing" grouping="employ.01" name="employ" verbnet_key="employ#1" wn="employ%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="engage.02" name="engage" verbnet_key="engage#3" wn="engage%2:41:01"/>
+  <MEMBER features="None" fn_mapping="Becoming_a_member" grouping="enlist.01 enlist.02" name="enlist" verbnet_key="enlist#1" wn="enlist%2:40:00 enlist%2:33:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="groom.02" name="groom" verbnet_key="groom#2" wn="groom%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Hiring" grouping="hire.01" name="hire" verbnet_key="hire#2" wn="hire%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="prepare.02" name="prepare" verbnet_key="prepare#2" wn="prepare%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="recruit" verbnet_key="recruit#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="reinstate.01" name="reinstate" verbnet_key="reinstate#1" wn="reinstate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Sign_agreement" grouping="sign.01" name="sign" verbnet_key="sign#1" wn="sign%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sign_on" verbnet_key="sign_on#1" wn="sign_on%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sign_up" verbnet_key="sign_up#1" wn="sign_up%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="subcontract" verbnet_key="subcontract#2" wn="subcontract%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="take.05" name="take_on" verbnet_key="take_on#3" wn="take_on%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="train.01" name="train" verbnet_key="train#1" wn="train%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

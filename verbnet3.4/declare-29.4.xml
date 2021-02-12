@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="declare-29.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="avow" verbnet_key="avow#1" wn="avow%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="confess.01" name="confess" verbnet_key="confess#2" wn="confess%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="avow" verbnet_key="avow#1" wn="avow%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="confess.01" name="confess" verbnet_key="confess#2" wn="confess%2:32:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -178,9 +178,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="declare-29.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="adjudge" verbnet_key="adjudge#1" wn="adjudge%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="assume.02" name="assume" verbnet_key="assume#2" wn="assume%2:31:00"/>
-    <MEMBER fn_mapping="Statement" grouping="maintain.02" name="maintain" verbnet_key="maintain#1" wn="maintain%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="adjudge" verbnet_key="adjudge#1" wn="adjudge%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="assume.02" name="assume" verbnet_key="assume#2" wn="assume%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Statement" grouping="maintain.02" name="maintain" verbnet_key="maintain#1" wn="maintain%2:32:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -252,7 +252,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="declare-29.4-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Evidence" grouping="prove.01" name="prove" verbnet_key="prove#1" wn="prove%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Evidence" grouping="prove.01" name="prove" verbnet_key="prove#1" wn="prove%2:32:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -319,7 +319,7 @@
      <SUBCLASSES>
       <VNSUBCLASS ID="declare-29.4-1-1-1">
        <MEMBERS>
-        <MEMBER fn_mapping="Statement" grouping="declare.01" name="declare" verbnet_key="declare#1" wn="declare%2:32:04"/>
+        <MEMBER features="None" fn_mapping="Statement" grouping="declare.01" name="declare" verbnet_key="declare#1" wn="declare%2:32:04"/>
        </MEMBERS>
        <THEMROLES/>
        <FRAMES>
@@ -385,8 +385,8 @@
       </VNSUBCLASS>
       <VNSUBCLASS ID="declare-29.4-1-1-2">
        <MEMBERS>
-        <MEMBER fn_mapping="Coming_to_believe" grouping="find.03" name="find" verbnet_key="find#1" wn="find%2:31:10"/>
-        <MEMBER fn_mapping="None" grouping="judge.02" name="judge" verbnet_key="judge#2" wn="judge%2:31:00 judge%2:32:00"/>
+        <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="find.03" name="find" verbnet_key="find#1" wn="find%2:31:10"/>
+        <MEMBER features="None" fn_mapping="None" grouping="judge.02" name="judge" verbnet_key="judge#2" wn="judge%2:31:00 judge%2:32:00"/>
        </MEMBERS>
        <THEMROLES/>
        <FRAMES>
@@ -454,7 +454,7 @@
       </VNSUBCLASS>
       <VNSUBCLASS ID="declare-29.4-1-1-3">
        <MEMBERS>
-        <MEMBER fn_mapping="Statement" grouping="profess.01" name="profess" verbnet_key="profess#1" wn="profess%2:32:10 profess%2:32:04"/>
+        <MEMBER features="None" fn_mapping="Statement" grouping="profess.01" name="profess" verbnet_key="profess#1" wn="profess%2:32:10 profess%2:32:04"/>
        </MEMBERS>
        <THEMROLES/>
        <FRAMES>
@@ -497,7 +497,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="declare-29.4-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Statement" grouping="proclaim.02" name="proclaim" verbnet_key="proclaim#3" wn="proclaim%2:32:02"/>
+    <MEMBER features="None" fn_mapping="Statement" grouping="proclaim.02" name="proclaim" verbnet_key="proclaim#3" wn="proclaim%2:32:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

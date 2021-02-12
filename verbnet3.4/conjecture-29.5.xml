@@ -1,19 +1,19 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="conjecture-29.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Reveal_secret" grouping="admit.01" name="admit" verbnet_key="admit#3" wn="admit%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="affirm.01" name="affirm" verbnet_key="affirm#2" wn="affirm%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="assert.01" name="assert" verbnet_key="assert#1" wn="assert%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="conjecture" verbnet_key="conjecture#1" wn="conjecture%2:31:00"/>
-  <MEMBER fn_mapping="Affirm_or_deny" grouping="deny.01 deny.03" name="deny" verbnet_key="deny#1" wn="?deny%2:32:04"/>
-  <MEMBER fn_mapping="None" grouping="determine.02 determine.03" name="determine" verbnet_key="determine#1" wn="determine%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="doubt.01" name="doubt" verbnet_key="doubt#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="hold.02 hold.05" name="hold" verbnet_key="hold#3" wn="hold%2:31:01 hold%2:32:11"/>
-  <MEMBER fn_mapping="None" grouping="" name="prognosticate" verbnet_key="prognosticate#1" wn="prognosticate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="repute" verbnet_key="repute#1" wn="repute%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="speculate.01" name="spectulate" verbnet_key="spectulate#1" wn="speculate%2:31:01 speculate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="surmise" verbnet_key="surmise#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="swear.03" name="swear" verbnet_key="swear#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Reveal_secret" grouping="admit.01" name="admit" verbnet_key="admit#3" wn="admit%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="affirm.01" name="affirm" verbnet_key="affirm#2" wn="affirm%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="assert.01" name="assert" verbnet_key="assert#1" wn="assert%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="conjecture" verbnet_key="conjecture#1" wn="conjecture%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Affirm_or_deny" grouping="deny.01 deny.03" name="deny" verbnet_key="deny#1" wn="?deny%2:32:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="determine.02 determine.03" name="determine" verbnet_key="determine#1" wn="determine%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="doubt.01" name="doubt" verbnet_key="doubt#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="hold.02 hold.05" name="hold" verbnet_key="hold#3" wn="hold%2:31:01 hold%2:32:11"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="prognosticate" verbnet_key="prognosticate#1" wn="prognosticate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="repute" verbnet_key="repute#1" wn="repute%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="speculate.01" name="spectulate" verbnet_key="spectulate#1" wn="speculate%2:31:01 speculate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="surmise" verbnet_key="surmise#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="swear.03" name="swear" verbnet_key="swear#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -95,18 +95,18 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="conjecture-29.5-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Expectation" grouping="anticipate.01" name="anticipate" verbnet_key="anticipate#1" wn="anticipate%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="believe.01" name="believe" verbnet_key="believe#2" wn="believe%2:31:04 believe%2:31:03"/>
-    <MEMBER fn_mapping="None" grouping="expect.01" name="expect" verbnet_key="expect#1" wn="expect%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="foreknow" verbnet_key="foreknow#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="foresee.01" name="foresee" verbnet_key="foresee#1" wn="foresee%2:31:00"/>
-    <MEMBER fn_mapping="Predicting" grouping="foretell.01" name="foretell" verbnet_key="foretell#1" wn="foretell%2:32:00"/>
-    <MEMBER fn_mapping="Coming_to_believe" grouping="guess.02" name="guess" verbnet_key="guess#1" wn="guess%2:31:01"/>
-    <MEMBER fn_mapping="Coming_to_believe" grouping="infer.01" name="infer" verbnet_key="infer#1" wn="infer%2:31:00 infer%2:32:00"/>
-    <MEMBER fn_mapping="Awareness" grouping="presume.01" name="presume" verbnet_key="presume#1" wn="presume%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="prophesy" verbnet_key="prophesy#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="trust.01" name="trust" verbnet_key="trust#2" wn="trust%2:31:02"/>
-    <MEMBER fn_mapping="None" grouping="" name="vaticinate" verbnet_key="vaticinate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Expectation" grouping="anticipate.01" name="anticipate" verbnet_key="anticipate#1" wn="anticipate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="believe.01" name="believe" verbnet_key="believe#2" wn="believe%2:31:04 believe%2:31:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="expect.01" name="expect" verbnet_key="expect#1" wn="expect%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="foreknow" verbnet_key="foreknow#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="foresee.01" name="foresee" verbnet_key="foresee#1" wn="foresee%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Predicting" grouping="foretell.01" name="foretell" verbnet_key="foretell#1" wn="foretell%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="guess.02" name="guess" verbnet_key="guess#1" wn="guess%2:31:01"/>
+    <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="infer.01" name="infer" verbnet_key="infer#1" wn="infer%2:31:00 infer%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Awareness" grouping="presume.01" name="presume" verbnet_key="presume#1" wn="presume%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="prophesy" verbnet_key="prophesy#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="trust.01" name="trust" verbnet_key="trust#2" wn="trust%2:31:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="vaticinate" verbnet_key="vaticinate#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -144,7 +144,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="conjecture-29.5-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="feel.03" name="feel" verbnet_key="feel#1" wn="feel%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="feel.03" name="feel" verbnet_key="feel#1" wn="feel%2:31:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

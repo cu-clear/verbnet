@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="establish-55.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="bring.02" name="bring" verbnet_key="bring#4" wn=""/>
-  <MEMBER fn_mapping="None" grouping="constitute.02" name="constitute" verbnet_key="constitute#2" wn="constitute%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="constitutionalize.01" name="constitutionalize" verbnet_key="constitutionalize#1" wn="constitutionalize%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="innovate" verbnet_key="innovate#1" wn="innovate%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="machinate" verbnet_key="machinate#1" wn="machinate%2:36:00"/>
-  <MEMBER fn_mapping="Achieving_first" grouping="pioneer.01" name="pioneer" verbnet_key="pioneer#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="stage.02" name="stage" verbnet_key="stage#1" wn="stage%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bring.02" name="bring" verbnet_key="bring#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="constitute.02" name="constitute" verbnet_key="constitute#2" wn="constitute%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="constitutionalize.01" name="constitutionalize" verbnet_key="constitutionalize#1" wn="constitutionalize%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="innovate" verbnet_key="innovate#1" wn="innovate%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="machinate" verbnet_key="machinate#1" wn="machinate%2:36:00"/>
+  <MEMBER features="None" fn_mapping="Achieving_first" grouping="pioneer.01" name="pioneer" verbnet_key="pioneer#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="stage.02" name="stage" verbnet_key="stage#1" wn="stage%2:36:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -68,32 +68,32 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="establish-55.5-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="initiate.01" name="initiate" verbnet_key="initiate#1" wn="initiate%2:30:00 initiate%2:36:01"/>
-    <MEMBER fn_mapping="Intentionally_create" grouping="establish.01" name="establish" verbnet_key="establish#2" wn="establish%2:41:00 establish%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="fake" verbnet_key="fake#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="feign" verbnet_key="feign#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="format" verbnet_key="format#1" wn=""/>
-    <MEMBER fn_mapping="Intentionally_create" grouping="found.01" name="found" verbnet_key="found#2" wn="found%2:41:00 found%2:36:00"/>
-    <MEMBER fn_mapping="Placing" grouping="plant.04" name="plant" verbnet_key="plant#1" wn="plant%2:36:00"/>
-    <MEMBER fn_mapping="Execute_plan" grouping="" name="implement" verbnet_key="implement#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="instigate" verbnet_key="instigate#2" wn="instigate%2:32:01"/>
-    <MEMBER fn_mapping="Execute_plan" grouping="institute.01" name="institute" verbnet_key="institute#1" wn="institute%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="organize.02" name="organize" verbnet_key="organize#2" wn="organize%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="originate.02" name="originate" verbnet_key="originate#1" wn="originate%2:36:00"/>
-    <MEMBER fn_mapping="Cooking_creation" grouping="prepare.01" name="prepare" verbnet_key="prepare#1" wn="prepare%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="premise.01" name="premise" verbnet_key="premise#1" wn="premise%2:32:00 premise%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="devise.01" name="devise" verbnet_key="devise#1" wn="devise%2:36:01"/>
-    <MEMBER fn_mapping="None" grouping="mount.03" name="mount" verbnet_key="mount#1" wn="mount%2:36:00 mount%2:36:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="bring_about" verbnet_key="bring_about#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="arrange.02" name="arrange" verbnet_key="arrange#2" wn="arrange%2:36:03"/>
-    <MEMBER fn_mapping="None" grouping="" name="introduce" verbnet_key="introduce#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="set.03" name="set" verbnet_key="set#2" wn=""/>
-    <MEMBER fn_mapping="Feigning" grouping="" name="simulate" verbnet_key="simulate#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="strike_up" verbnet_key="strike_up#1" wn="strike_up%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="synthesise" verbnet_key="synthesise#1" wn=""/>
-    <MEMBER fn_mapping="Launch_process" grouping="launch.02" name="launch" verbnet_key="launch#1" wn="launch%2:41:01"/>
-    <MEMBER fn_mapping="None" grouping="open.02" name="open" verbnet_key="open#3" wn="open%2:41:00 open%2:41:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="open_up" verbnet_key="open_up#1" wn="open_up%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="initiate.01" name="initiate" verbnet_key="initiate#1" wn="initiate%2:30:00 initiate%2:36:01"/>
+    <MEMBER features="None" fn_mapping="Intentionally_create" grouping="establish.01" name="establish" verbnet_key="establish#2" wn="establish%2:41:00 establish%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="fake" verbnet_key="fake#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="feign" verbnet_key="feign#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="format" verbnet_key="format#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Intentionally_create" grouping="found.01" name="found" verbnet_key="found#2" wn="found%2:41:00 found%2:36:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="plant.04" name="plant" verbnet_key="plant#1" wn="plant%2:36:00"/>
+    <MEMBER features="None" fn_mapping="Execute_plan" grouping="" name="implement" verbnet_key="implement#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="instigate" verbnet_key="instigate#2" wn="instigate%2:32:01"/>
+    <MEMBER features="None" fn_mapping="Execute_plan" grouping="institute.01" name="institute" verbnet_key="institute#1" wn="institute%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="organize.02" name="organize" verbnet_key="organize#2" wn="organize%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="originate.02" name="originate" verbnet_key="originate#1" wn="originate%2:36:00"/>
+    <MEMBER features="None" fn_mapping="Cooking_creation" grouping="prepare.01" name="prepare" verbnet_key="prepare#1" wn="prepare%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="premise.01" name="premise" verbnet_key="premise#1" wn="premise%2:32:00 premise%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="devise.01" name="devise" verbnet_key="devise#1" wn="devise%2:36:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="mount.03" name="mount" verbnet_key="mount#1" wn="mount%2:36:00 mount%2:36:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="bring_about" verbnet_key="bring_about#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="arrange.02" name="arrange" verbnet_key="arrange#2" wn="arrange%2:36:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="introduce" verbnet_key="introduce#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="set.03" name="set" verbnet_key="set#2" wn=""/>
+    <MEMBER features="None" fn_mapping="Feigning" grouping="" name="simulate" verbnet_key="simulate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="strike_up" verbnet_key="strike_up#1" wn="strike_up%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="synthesise" verbnet_key="synthesise#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Launch_process" grouping="launch.02" name="launch" verbnet_key="launch#1" wn="launch%2:41:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="open.02" name="open" verbnet_key="open#3" wn="open%2:41:00 open%2:41:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="open_up" verbnet_key="open_up#1" wn="open_up%2:41:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Instrument">

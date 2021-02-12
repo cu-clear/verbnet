@@ -4,41 +4,41 @@
   <MEMBER features="+illegal +manner_violent +human_patient" fn_mapping="Kidnapping" grouping="abduct.01" name="abduct" verbnet_key="abduct#1" wn="abduct%2:35:02" />
   <MEMBER features="+misappropriate" fn_mapping="None" grouping="" name="annex" verbnet_key="annex#1" wn="annex%2:40:00" />
   <MEMBER features="+monetory_patient" fn_mapping="None" grouping="bleed.04" name="bleed" verbnet_key="bleed#5" wn="bleed%2:40:09 bleed%2:30:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="cabbage" verbnet_key="cabbage#1" wn="cabbage%2:40:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cabbage" verbnet_key="cabbage#1" wn="cabbage%2:40:00" />
   <MEMBER features="+illegal +manner_violent" fn_mapping="None" grouping="" name="carjack" verbnet_key="carjack#1" wn="carjack%2:35:00" />
   <MEMBER features="+purpose +misappropriate" fn_mapping="None" grouping="" name="commandeer" verbnet_key="commandeer#3" wn="commandeer%2:35:00" />
   <MEMBER features="+legal" fn_mapping="Removing" grouping="confiscate.01" name="confiscate" verbnet_key="confiscate#1" wn="confiscate%2:40:01" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="cull" verbnet_key="cull#4" wn="cull%2:40:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cull" verbnet_key="cull#4" wn="cull%2:40:00" />
   <MEMBER features="+free" fn_mapping="None" grouping="" name="emancipate" verbnet_key="emancipate#2" wn="?emancipate%2:41:00" />
   <MEMBER features="+misappropriate +monetory_patient" fn_mapping="None" grouping="" name="embezzle" verbnet_key="embezzle#1" wn="embezzle%2:40:00" />
   <MEMBER features="+manner_violent" fn_mapping="None" grouping="extort.01" name="extort" verbnet_key="extort#1" wn="extort%2:40:01 extort%2:40:00" />
   <MEMBER features="+manner +small_value_patient" fn_mapping="None" grouping="" name="filch" verbnet_key="filch#1" wn="filch%2:40:00" />
   <MEMBER features="+illegal +manner_violent" fn_mapping="None" grouping="" name="highjack" verbnet_key="highjack#1" wn="highjack%2:35:00" />
   <MEMBER features="+illegal +manner_violent +human_patient" fn_mapping="Kidnapping" grouping="kidnap.01" name="kidnap" verbnet_key="kidnap#1" wn="kidnap%2:35:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="knock_off" verbnet_key="knock_off#1" wn="knock_off%2:40:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="knock_off" verbnet_key="knock_off#1" wn="knock_off%2:40:00" />
   <MEMBER features="+free" fn_mapping="None" grouping="liberate.01" name="liberate" verbnet_key="liberate#2" wn="liberate%2:41:02 liberate%2:41:00" />
   <MEMBER features="+small_value_patient" fn_mapping="Theft" grouping="lift.04" name="lift" verbnet_key="lift#2" wn="lift%2:40:00 lift%2:40:03" />
   <MEMBER features="+monetory_patient +manner" fn_mapping="None" grouping="milk.01" name="milk" verbnet_key="milk#4" wn="milk%2:34:00" />
   <MEMBER features="+misappropriate" fn_mapping="None" grouping="" name="misappropriate" verbnet_key="misappropriate#1" wn="" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="nobble" verbnet_key="nobble#1" wn="nobble%2:40:00 nobble%2:35:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="pickpocket" verbnet_key="pickpocket#1" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="nobble" verbnet_key="nobble#1" wn="nobble%2:40:00 nobble%2:35:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pickpocket" verbnet_key="pickpocket#1" wn="" />
   <MEMBER features="+arrest" fn_mapping="Theft" grouping="pinch.03" name="pinch" verbnet_key="pinch#1" wn="pinch%2:40:00" />
   <MEMBER features="+abstract_patient +illegal" fn_mapping="None" grouping="" name="plagiarize" verbnet_key="plagiarize#1" wn="plagiarize%2:40:00" />
   <MEMBER features="+manner_violent" fn_mapping="None" grouping="" name="plunder" verbnet_key="plunder#2" wn="plunder%2:40:00 plunder%2:35:01" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="purloin" verbnet_key="purloin#1" wn="purloin%2:40:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="purloin" verbnet_key="purloin#1" wn="purloin%2:40:00" />
   <MEMBER features="+arrest" fn_mapping="None" grouping="" name="recapture" verbnet_key="recapture#1" wn="recapture%2:37:00 recapture%2:36:00 recapture%2:40:00 recapture%2:35:00" />
   <MEMBER features="+regain" fn_mapping="None" grouping="reclaim.01 reclaim.03" name="reclaim" verbnet_key="reclaim#1" wn="reclaim%2:40:00" />
   <MEMBER features="+regain +monetory_patient" fn_mapping="None" grouping="recoup.01" name="recoup" verbnet_key="recoup#2" wn="recoup%2:40:00" />
   <MEMBER features="+regain" fn_mapping="None" grouping="" name="redeem" verbnet_key="redeem#1" wn="" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="repossess" verbnet_key="repossess#1" wn="repossess%2:40:00 repossess%2:40:03" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="repossess" verbnet_key="repossess#1" wn="repossess%2:40:00 repossess%2:40:03" />
   <MEMBER features="+save" fn_mapping="None" grouping="rescue.01" name="rescue" verbnet_key="rescue#1" wn="rescue%2:40:00" />
   <MEMBER features="+illegal" fn_mapping="None" grouping="rob.01 rob.02" name="rob" verbnet_key="rob#3" wn="rob%2:40:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="rustle" verbnet_key="rustle#2" wn="rustle%2:40:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rustle" verbnet_key="rustle#2" wn="rustle%2:40:00" />
   <MEMBER features="+legal" fn_mapping="Taking" grouping="seize.03" name="seize" verbnet_key="seize#3" wn="seize%2:35:01 seize%2:40:01 seize%2:40:02 seize%2:40:07" />
   <MEMBER features="+manner" fn_mapping="None" grouping="" name="snatch_away" verbnet_key="snatch_away#1" wn="" />
   <MEMBER features="+legal" fn_mapping="None" grouping="" name="sequester" verbnet_key="sequester#2" wn="sequester%2:40:00" />
-  <MEMBER features="" fn_mapping="Taking" grouping="take.04 take.09" name="take" verbnet_key="take#14" wn="?take%2:38:09 take%2:40:01" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="thieve" verbnet_key="thieve#1" wn="thieve%2:40:00" />
+  <MEMBER features="None" fn_mapping="Taking" grouping="take.04 take.09" name="take" verbnet_key="take#14" wn="?take%2:38:09 take%2:40:01" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="thieve" verbnet_key="thieve#1" wn="thieve%2:40:00" />
   <MEMBER features="+manner_violent" fn_mapping="None" grouping="" name="wrest" verbnet_key="wrest#1" wn="wrest%2:35:01" />
  </MEMBERS>
  <THEMROLES>
@@ -386,12 +386,12 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="steal-10.5-1">
    <MEMBERS>
-    <MEMBER features="" fn_mapping="None" grouping="" name="cadge" verbnet_key="cadge#2" wn="cadge%2:40:00 cadge%2:40:01" />
+    <MEMBER features="None" fn_mapping="None" grouping="" name="cadge" verbnet_key="cadge#2" wn="cadge%2:40:00 cadge%2:40:01" />
     <MEMBER features="+manner_violent" fn_mapping="None" grouping="capture.01" name="capture" verbnet_key="capture#1" wn="capture%2:36:00" />
     <MEMBER features="+arrest" fn_mapping="None" grouping="cop.01" name="cop" verbnet_key="cop#1" wn="cop%2:40:00" />
-    <MEMBER features="" fn_mapping="None" grouping="" name="flog" verbnet_key="flog#2" wn="" />
-    <MEMBER features="" fn_mapping="Taking" grouping="grab.01" name="grab" verbnet_key="grab#3" wn="grab%2:40:03" />
-    <MEMBER features="" fn_mapping="None" grouping="hook.09" name="hook" verbnet_key="hook#3" wn="hook%2:40:01 hook%2:40:00" />
+    <MEMBER features="None" fn_mapping="None" grouping="" name="flog" verbnet_key="flog#2" wn="" />
+    <MEMBER features="None" fn_mapping="Taking" grouping="grab.01" name="grab" verbnet_key="grab#3" wn="grab%2:40:03" />
+    <MEMBER features="None" fn_mapping="None" grouping="hook.09" name="hook" verbnet_key="hook#3" wn="hook%2:40:01 hook%2:40:00" />
     <MEMBER features="+misappropriate" fn_mapping="Kidnapping" grouping="" name="nab" verbnet_key="nab#2" wn="?nab%2:35:01" />
     <MEMBER features="+steal +monetory_patient" fn_mapping="Theft" grouping="" name="nick" verbnet_key="nick#4" wn="" />
     <MEMBER features="+steal +small_value_patient" fn_mapping="None" grouping="" name="pilfer" verbnet_key="pilfer#1" wn="pilfer%2:40:00" />

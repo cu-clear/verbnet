@@ -20,14 +20,14 @@
   <VNSUBCLASS ID="swarm-47.5.1-1">
    <MEMBERS>
     <!--Each member adds a predicate for the motion of the Theme-->
-    <MEMBER fn_mapping="None" grouping="" name="bustle" verbnet_key="bustle#2" wn="bustle%2:38:00"/>
-    <MEMBER fn_mapping="Self_motion" grouping="crawl.01 crawl.02" name="crawl" verbnet_key="crawl#3" wn="crawl%2:38:00 crawl%2:42:00"/>
-    <MEMBER fn_mapping="Self_motion" grouping="creep.01" name="creep" verbnet_key="creep#3" wn="creep%2:38:00"/>
-    <MEMBER fn_mapping="Self_motion" grouping="hop.02" name="hop" verbnet_key="hop#2" wn="hop%2:38:04"/>
-    <MEMBER fn_mapping="None" grouping="" name="swarm" verbnet_key="swarm#1" wn="swarm%2:42:00 swarm%2:38:00"/>
-    <MEMBER fn_mapping="Self_motion" grouping="swim.01" name="swim" verbnet_key="swim#2" wn="swim%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="teem" verbnet_key="teem#1" wn="teem%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="pullulate" verbnet_key="pullulate#2" wn="pullulate%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="bustle" verbnet_key="bustle#2" wn="bustle%2:38:00"/>
+    <MEMBER features="None" fn_mapping="Self_motion" grouping="crawl.01 crawl.02" name="crawl" verbnet_key="crawl#3" wn="crawl%2:38:00 crawl%2:42:00"/>
+    <MEMBER features="None" fn_mapping="Self_motion" grouping="creep.01" name="creep" verbnet_key="creep#3" wn="creep%2:38:00"/>
+    <MEMBER features="None" fn_mapping="Self_motion" grouping="hop.02" name="hop" verbnet_key="hop#2" wn="hop%2:38:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="swarm" verbnet_key="swarm#1" wn="swarm%2:42:00 swarm%2:38:00"/>
+    <MEMBER features="None" fn_mapping="Self_motion" grouping="swim.01" name="swim" verbnet_key="swim#2" wn="swim%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="teem" verbnet_key="teem#1" wn="teem%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pullulate" verbnet_key="pullulate#2" wn="pullulate%2:42:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -243,8 +243,8 @@
   <VNSUBCLASS ID="swarm-47.5.1-2">
    <!--no motion-->
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="abound.01" name="abound" verbnet_key="abound#1" wn="abound%2:42:00 abound%2:42:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="throng" verbnet_key="throng#1" wn="throng%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="abound.01" name="abound" verbnet_key="abound#1" wn="abound%2:42:00 abound%2:42:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="throng" verbnet_key="throng#1" wn="throng%2:38:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

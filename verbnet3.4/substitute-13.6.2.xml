@@ -2,10 +2,10 @@
 <VNCLASS ID="substitute-13.6.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--This mirrors the Exchange class, but has ch_of_loc instead of ch_of_poss.-->
  <MEMBERS>
-  <MEMBER fn_mapping="Replacing" grouping="substitute.01" name="substitute" verbnet_key="substitute#1" wn="substitute%2:40:00"/>
-  <MEMBER fn_mapping="Replacing" grouping="swap.01" name="swap" verbnet_key="swap#2" wn="swap%2:40:00"/>
-  <MEMBER fn_mapping="Exchange" grouping="swap.01" name="swap_out" verbnet_key="swap_out#1" wn=""/>
-  <MEMBER fn_mapping="Replacing" grouping="switch.01 switch.02" name="switch" verbnet_key="switch#2" wn="switch%2:30:03 switch%2:40:00  switch%2:30:01 switch%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Replacing" grouping="substitute.01" name="substitute" verbnet_key="substitute#1" wn="substitute%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Replacing" grouping="swap.01" name="swap" verbnet_key="swap#2" wn="swap%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Exchange" grouping="swap.01" name="swap_out" verbnet_key="swap_out#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Replacing" grouping="switch.01 switch.02" name="switch" verbnet_key="switch#2" wn="switch%2:30:03 switch%2:40:00  switch%2:30:01 switch%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -282,8 +282,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="substitute-13.6.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Take_place_of" grouping="replace.01" name="replace" verbnet_key="replace#1" wn="replace%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="supplant" verbnet_key="supplant#1" wn="supplant%2:41:00"/>
+    <MEMBER features="None" fn_mapping="Take_place_of" grouping="replace.01" name="replace" verbnet_key="replace#1" wn="replace%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="supplant" verbnet_key="supplant#1" wn="supplant%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

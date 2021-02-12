@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="estimate-34.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="put.06" name="put" verbnet_key="put#1" wn="put%2:31:13"/>
+  <MEMBER features="None" fn_mapping="None" grouping="put.06" name="put" verbnet_key="put#1" wn="put%2:31:13"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -55,16 +55,16 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="estimate-34.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="estimate.01" name="estimate" verbnet_key="estimate#1" wn="estimate%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="gauge.01" name="gauge" verbnet_key="gauge#1" wn="gauge%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="approximate" verbnet_key="approximate#1" wn="approximate%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="guess.02" name="guess" verbnet_key="guess#3" wn="guess%2:31:01"/>
-    <MEMBER fn_mapping="None" grouping="judge.02" name="judge" verbnet_key="judge#3" wn="judge%2:31:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="count" verbnet_key="count#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="quantize" verbnet_key="quantize#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="assess.01" name="assess" verbnet_key="assess#2" wn="assess%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="guesstimate" verbnet_key="guesstimate#1" wn="guesstimate%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="project" verbnet_key="project#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="estimate.01" name="estimate" verbnet_key="estimate#1" wn="estimate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="gauge.01" name="gauge" verbnet_key="gauge#1" wn="gauge%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="approximate" verbnet_key="approximate#1" wn="approximate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="guess.02" name="guess" verbnet_key="guess#3" wn="guess%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="judge.02" name="judge" verbnet_key="judge#3" wn="judge%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="count" verbnet_key="count#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="quantize" verbnet_key="quantize#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="assess.01" name="assess" verbnet_key="assess#2" wn="assess%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="guesstimate" verbnet_key="guesstimate#1" wn="guesstimate%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="project" verbnet_key="project#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

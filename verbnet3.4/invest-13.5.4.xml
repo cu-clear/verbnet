@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="invest-13.5.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="buy.04" name="buy" verbnet_key="buy#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="speculate.03" name="speculate" verbnet_key="speculate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="buy.04" name="buy" verbnet_key="buy#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="speculate.03" name="speculate" verbnet_key="speculate#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -140,10 +140,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="invest-13.5.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="invest.01" name="invest" verbnet_key="invest#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="put.05" name="put" verbnet_key="put#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="commit" verbnet_key="commit#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="allocate" verbnet_key="allocate#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="invest.01" name="invest" verbnet_key="invest#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="put.05" name="put" verbnet_key="put#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="commit" verbnet_key="commit#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="allocate" verbnet_key="allocate#2" wn=""/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Theme">

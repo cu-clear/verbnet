@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="limit-76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="confine.01" name="confine" verbnet_key="confine#2" wn="confine%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="limit.01" name="limit" verbnet_key="limit#1" wn="limit%2:30:01"/>
-  <MEMBER fn_mapping="Cause_change_of_position_on_a_scale" grouping="reduce.01 reduce.02" name="reduce" verbnet_key="reduce#2" wn="reduce%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="restrict.01" name="restrict" verbnet_key="restrict#1" wn="restrict%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="restrain.02" name="restrain" verbnet_key="restrain#2" wn="restrain%2:30:00"/>
-  <MEMBER fn_mapping="Hindering" grouping="constrain.01" name="constrain" verbnet_key="constrain#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="confine.01" name="confine" verbnet_key="confine#2" wn="confine%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="limit.01" name="limit" verbnet_key="limit#1" wn="limit%2:30:01"/>
+  <MEMBER features="None" fn_mapping="Cause_change_of_position_on_a_scale" grouping="reduce.01 reduce.02" name="reduce" verbnet_key="reduce#2" wn="reduce%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="restrict.01" name="restrict" verbnet_key="restrict#1" wn="restrict%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="restrain.02" name="restrain" verbnet_key="restrain#2" wn="restrain%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Hindering" grouping="constrain.01" name="constrain" verbnet_key="constrain#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Causer">

@@ -2,60 +2,60 @@
 <VNCLASS ID="debone-10.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--Perhaps combine pit-10.7 and debone-10.8-->
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="deaccent" verbnet_key="deaccent#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="debark" verbnet_key="debark#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="debone" verbnet_key="debone#1" wn="debone%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="debowel" verbnet_key="debowel#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="debug" verbnet_key="debug#1" wn="debug%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="debur" verbnet_key="debur#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="declaw" verbnet_key="declaw#1" wn="declaw%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="decontaminate" verbnet_key="decontaminate#1" wn="decontaminate%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="defang" verbnet_key="defang#1" wn="defang%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="defat" verbnet_key="defat#1" wn="defat%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="defeather" verbnet_key="defeather#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="deflea" verbnet_key="deflea#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="deflesh" verbnet_key="deflesh#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="deflower" verbnet_key="deflower#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="defoam" verbnet_key="defoam#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="defog" verbnet_key="defog#1" wn="defog%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="deforest" verbnet_key="deforest#1" wn="deforest%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="defrost" verbnet_key="defrost#1" wn="defrost%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="defuzz" verbnet_key="defuzz#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="degas" verbnet_key="degas#1" wn="degas%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="degerm" verbnet_key="degerm#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="deglaze" verbnet_key="deglaze#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="degrease" verbnet_key="degrease#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="degrit" verbnet_key="degrit#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="degum" verbnet_key="degum#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="degut" verbnet_key="degut#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="dehair" verbnet_key="dehair#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="dehead" verbnet_key="dehead#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="dehorn" verbnet_key="dehorn#1" wn="dehorn%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="dehull" verbnet_key="dehull#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="dehusk" verbnet_key="dehusk#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="deice" verbnet_key="deice#1" wn="deice%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="deink" verbnet_key="deink#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="delint" verbnet_key="delint#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="delouse" verbnet_key="delouse#1" wn="delouse%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="deluster" verbnet_key="deluster#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="demast" verbnet_key="demast#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="derat" verbnet_key="derat#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="derib" verbnet_key="derib#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="derind" verbnet_key="derind#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="desalt" verbnet_key="desalt#1" wn="desalt%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="descale" verbnet_key="descale#1" wn="descale%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="desex" verbnet_key="desex#1" wn="desex%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="desprout" verbnet_key="desprout#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="destarch" verbnet_key="destarch#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="destress" verbnet_key="destress#1" wn="destress%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="detassel" verbnet_key="detassel#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="detusk" verbnet_key="detusk#1" wn="detusk%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="devein" verbnet_key="devein#1" wn="devein%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="dewater" verbnet_key="dewater#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="dewax" verbnet_key="dewax#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="deworm" verbnet_key="deworm#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="disembowel" verbnet_key="disembowel#1" wn="disembowel%2:30:00"/>
-  <MEMBER fn_mapping="Emptying" grouping="eviscerate.01" name="eviscerate" verbnet_key="eviscerate#1" wn="eviscerate%2:35:01 eviscerate%2:30:02 eviscerate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deaccent" verbnet_key="deaccent#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="debark" verbnet_key="debark#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="debone" verbnet_key="debone#1" wn="debone%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="debowel" verbnet_key="debowel#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="debug" verbnet_key="debug#1" wn="debug%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="debur" verbnet_key="debur#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="declaw" verbnet_key="declaw#1" wn="declaw%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="decontaminate" verbnet_key="decontaminate#1" wn="decontaminate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="defang" verbnet_key="defang#1" wn="defang%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="defat" verbnet_key="defat#1" wn="defat%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="defeather" verbnet_key="defeather#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deflea" verbnet_key="deflea#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deflesh" verbnet_key="deflesh#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deflower" verbnet_key="deflower#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="defoam" verbnet_key="defoam#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="defog" verbnet_key="defog#1" wn="defog%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deforest" verbnet_key="deforest#1" wn="deforest%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="defrost" verbnet_key="defrost#1" wn="defrost%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="defuzz" verbnet_key="defuzz#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="degas" verbnet_key="degas#1" wn="degas%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="degerm" verbnet_key="degerm#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deglaze" verbnet_key="deglaze#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="degrease" verbnet_key="degrease#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="degrit" verbnet_key="degrit#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="degum" verbnet_key="degum#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="degut" verbnet_key="degut#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dehair" verbnet_key="dehair#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dehead" verbnet_key="dehead#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dehorn" verbnet_key="dehorn#1" wn="dehorn%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dehull" verbnet_key="dehull#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dehusk" verbnet_key="dehusk#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deice" verbnet_key="deice#1" wn="deice%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deink" verbnet_key="deink#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="delint" verbnet_key="delint#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="delouse" verbnet_key="delouse#1" wn="delouse%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deluster" verbnet_key="deluster#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="demast" verbnet_key="demast#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="derat" verbnet_key="derat#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="derib" verbnet_key="derib#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="derind" verbnet_key="derind#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="desalt" verbnet_key="desalt#1" wn="desalt%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="descale" verbnet_key="descale#1" wn="descale%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="desex" verbnet_key="desex#1" wn="desex%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="desprout" verbnet_key="desprout#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="destarch" verbnet_key="destarch#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="destress" verbnet_key="destress#1" wn="destress%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="detassel" verbnet_key="detassel#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="detusk" verbnet_key="detusk#1" wn="detusk%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="devein" verbnet_key="devein#1" wn="devein%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dewater" verbnet_key="dewater#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dewax" verbnet_key="dewax#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deworm" verbnet_key="deworm#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="disembowel" verbnet_key="disembowel#1" wn="disembowel%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Emptying" grouping="eviscerate.01" name="eviscerate" verbnet_key="eviscerate#1" wn="eviscerate%2:35:01 eviscerate%2:30:02 eviscerate%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

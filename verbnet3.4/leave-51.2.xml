@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="leave-51.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="abandon.01" name="abandon" verbnet_key="abandon#1" wn="abandon%2:40:00 abandon%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="abandon.01" name="abandon" verbnet_key="abandon#1" wn="abandon%2:40:00 abandon%2:38:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -10,8 +10,7 @@
    </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Source">
-   <SELRESTRS>
-    logic="or"&gt;
+   <SELRESTRS logic="or">    
     <SELRESTR Value="+" type="location"/>
     <SELRESTR Value="+" type="animate"/>
    </SELRESTRS>
@@ -128,8 +127,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="leave-51.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="desert.01" name="desert" verbnet_key="desert#1" wn="desert%2:31:00"/>
-    <MEMBER fn_mapping="Departing" grouping="leave.01" name="leave" verbnet_key="leave#6" wn="leave%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="desert.01" name="desert" verbnet_key="desert#1" wn="desert%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Departing" grouping="leave.01" name="leave" verbnet_key="leave#6" wn="leave%2:38:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

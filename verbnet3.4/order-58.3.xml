@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="order-58.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="announce.01" name="announce" verbnet_key="announce#1" wn="announce%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="demand.01" name="demand" verbnet_key="demand#1" wn="demand%2:32:02 demand%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="mandate.01" name="mandate" verbnet_key="mandate#1" wn="mandate%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="announce.01" name="announce" verbnet_key="announce#1" wn="announce%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="demand.01" name="demand" verbnet_key="demand#1" wn="demand%2:32:02 demand%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mandate.01" name="mandate" verbnet_key="mandate#1" wn="mandate%2:32:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -109,11 +109,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="order-58.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="authorize.01 authorize.02" name="authorize" verbnet_key="authorize#2" wn="authorize%2:32:00                 authorize%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="command.02" name="command" verbnet_key="command#1" wn="command%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="commission.03" name="commission" verbnet_key="commission#2" wn="commission%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="order.01" name="order" verbnet_key="order#2" wn="order%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="require.01 require.02" name="require" verbnet_key="require#1" wn="require%2:32:01 require%2:32:00                 require%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="authorize.01 authorize.02" name="authorize" verbnet_key="authorize#2" wn="authorize%2:32:00                 authorize%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="command.02" name="command" verbnet_key="command#1" wn="command%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="commission.03" name="commission" verbnet_key="commission#2" wn="commission%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="order.01" name="order" verbnet_key="order#2" wn="order%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="require.01 require.02" name="require" verbnet_key="require#1" wn="require%2:32:01 require%2:32:00                 require%2:34:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

@@ -1,20 +1,20 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="conspire-71" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="ally.01" name="ally" verbnet_key="ally#1" wn="ally%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="collaborate.02" name="collaborate" verbnet_key="collaborate#1" wn="collaborate%2:41:00 collaborate%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="collude" verbnet_key="collude#1" wn="collude%2:31:00"/>
-  <MEMBER fn_mapping="Collaboration" grouping="conspire.01" name="conspire" verbnet_key="conspire#1" wn="conspire%2:31:00 conspire%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="discriminate.01" name="discriminate" verbnet_key="discriminate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="legislate" verbnet_key="legislate#1" wn="legislate%2:41:00"/>
-  <MEMBER fn_mapping="Collaboration" grouping="partner.01" name="partner" verbnet_key="partner#2" wn="partner%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="protest.01" name="protest" verbnet_key="protest#1" wn="protest%2:32:00 protest%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rebel" verbnet_key="rebel#1" wn="rebel%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="retaliate" verbnet_key="retaliate#1" wn="retaliate%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="scheme" verbnet_key="scheme#1" wn="scheme%2:31:00"/>
-  <MEMBER fn_mapping="Misdeed" grouping="sin.01" name="sin" verbnet_key="sin#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="team_up" verbnet_key="team_up#1" wn="team_up%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="befriend" verbnet_key="befriend#1" wn="befriend%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ally.01" name="ally" verbnet_key="ally#1" wn="ally%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="collaborate.02" name="collaborate" verbnet_key="collaborate#1" wn="collaborate%2:41:00 collaborate%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="collude" verbnet_key="collude#1" wn="collude%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Collaboration" grouping="conspire.01" name="conspire" verbnet_key="conspire#1" wn="conspire%2:31:00 conspire%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="discriminate.01" name="discriminate" verbnet_key="discriminate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="legislate" verbnet_key="legislate#1" wn="legislate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Collaboration" grouping="partner.01" name="partner" verbnet_key="partner#2" wn="partner%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="protest.01" name="protest" verbnet_key="protest#1" wn="protest%2:32:00 protest%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rebel" verbnet_key="rebel#1" wn="rebel%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="retaliate" verbnet_key="retaliate#1" wn="retaliate%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="scheme" verbnet_key="scheme#1" wn="scheme%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Misdeed" grouping="sin.01" name="sin" verbnet_key="sin#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="team_up" verbnet_key="team_up#1" wn="team_up%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="befriend" verbnet_key="befriend#1" wn="befriend%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

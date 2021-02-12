@@ -16,11 +16,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="caring-75.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="babysit" verbnet_key="babysit#2" wn="babysit%2:41:01"/>
-    <MEMBER fn_mapping="None" grouping="look.04" name="look_after" verbnet_key="look_after#1" wn="look_after%2:39:00"/>
-    <MEMBER fn_mapping="None" grouping="manage.02" name="manage" verbnet_key="manage#1" wn="manage%2:41:01"/>
-    <MEMBER fn_mapping="None" grouping="mind.02" name="mind" verbnet_key="mind#2" wn="mind%2:31:02 mind%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="wait.02" name="wait_on" verbnet_key="wait_on#1" wn="wait_on%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="babysit" verbnet_key="babysit#2" wn="babysit%2:41:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="look.04" name="look_after" verbnet_key="look_after#1" wn="look_after%2:39:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="manage.02" name="manage" verbnet_key="manage#1" wn="manage%2:41:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="mind.02" name="mind" verbnet_key="mind#2" wn="mind%2:31:02 mind%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="wait.02" name="wait_on" verbnet_key="wait_on#1" wn="wait_on%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -54,8 +54,8 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="caring-75.2-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="attend.02" name="attend" verbnet_key="attend#2" wn="attend%2:41:12"/>
-      <MEMBER fn_mapping="None" grouping="tend.02" name="tend" verbnet_key="tend#1" wn="tend%2:41:00 tend%2:41:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="attend.02" name="attend" verbnet_key="attend#2" wn="attend%2:41:12"/>
+      <MEMBER features="None" fn_mapping="None" grouping="tend.02" name="tend" verbnet_key="tend#1" wn="tend%2:41:00 tend%2:41:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -95,8 +95,8 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="caring-75.2-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="care.02" name="care" verbnet_key="care#2" wn="care%2:41:11"/>
-    <MEMBER fn_mapping="None" grouping="look.04" name="look_out" verbnet_key="look_out#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="care.02" name="care" verbnet_key="care#2" wn="care%2:41:11"/>
+    <MEMBER features="None" fn_mapping="None" grouping="look.04" name="look_out" verbnet_key="look_out#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

@@ -2,14 +2,14 @@
 <VNCLASS ID="accompany-51.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--Should include a predicate to distinguish this accompanied motion from "chase".  It should include some notion of distance/contact between the Agent and Theme-->
  <MEMBERS>
-  <MEMBER fn_mapping="Cotheme" grouping="accompany.01" name="accompany" verbnet_key="accompany#1" wn="accompany%2:38:00 ?accompany%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="conduct.04" name="conduct" verbnet_key="conduct#1" wn="conduct%2:38:01"/>
-  <MEMBER fn_mapping="Cotheme" grouping="escort.01" name="escort" verbnet_key="escort#1" wn="escort%2:38:00 escort%2:38:01"/>
-  <MEMBER fn_mapping="Cotheme" grouping="guide.01" name="guide" verbnet_key="guide#1" wn="?guide%2:38:01 guide%2:38:00 guide%2:35:00"/>
-  <MEMBER fn_mapping="Cotheme" grouping="lead.05" name="lead" verbnet_key="lead#1" wn="lead%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="misdirect.02" name="misdirect" verbnet_key="misdirect#1" wn="misdirect%2:38:00 misdirect%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shepherd" verbnet_key="shepherd#1" wn="shepherd%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="steer.01" name="steer" verbnet_key="steer#1" wn="steer%2:38:00 steer%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="accompany.01" name="accompany" verbnet_key="accompany#1" wn="accompany%2:38:00 ?accompany%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="conduct.04" name="conduct" verbnet_key="conduct#1" wn="conduct%2:38:01"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="escort.01" name="escort" verbnet_key="escort#1" wn="escort%2:38:00 escort%2:38:01"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="guide.01" name="guide" verbnet_key="guide#1" wn="?guide%2:38:01 guide%2:38:00 guide%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="lead.05" name="lead" verbnet_key="lead#1" wn="lead%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="misdirect.02" name="misdirect" verbnet_key="misdirect#1" wn="misdirect%2:38:00 misdirect%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shepherd" verbnet_key="shepherd#1" wn="shepherd%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="steer.01" name="steer" verbnet_key="steer#1" wn="steer%2:38:00 steer%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -1,17 +1,17 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="avoid-52" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Preventing_or_letting" grouping="avoid.01" name="avoid" verbnet_key="avoid#1" wn="avoid%2:32:00 avoid%2:41:01 avoid%2:41:03 avoid%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="boycott" verbnet_key="boycott#1" wn=""/>
-  <MEMBER fn_mapping="Compliance" grouping="circumvent.03" name="circumvent" verbnet_key="circumvent#1" wn="circumvent%2:32:00"/>
-  <MEMBER fn_mapping="Dodging" grouping="dodge.01" name="dodge" verbnet_key="dodge#1" wn="dodge%2:38:00 dodge%2:32:00"/>
-  <MEMBER fn_mapping="Avoiding" grouping="duck.03" name="duck" verbnet_key="duck#1" wn="duck%2:32:00"/>
-  <MEMBER fn_mapping="Elusive_goal" grouping="elude.01" name="elude" verbnet_key="elude#1" wn="elude%2:38:00 elude%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="eschew" verbnet_key="eschew#1" wn="eschew%2:32:00"/>
-  <MEMBER fn_mapping="Avoiding" grouping="evade.01" name="evade" verbnet_key="evade#1" wn="evade%2:32:00 evade%2:38:00"/>
-  <MEMBER fn_mapping="Avoiding" grouping="forgo.01" name="forgo" verbnet_key="forgo#1" wn=""/>
-  <MEMBER fn_mapping="Avoiding" grouping="shun.01" name="shun" verbnet_key="shun#1" wn="shun%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sidestep" verbnet_key="sidestep#1" wn="sidestep%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Preventing_or_letting" grouping="avoid.01" name="avoid" verbnet_key="avoid#1" wn="avoid%2:32:00 avoid%2:41:01 avoid%2:41:03 avoid%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="boycott" verbnet_key="boycott#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Compliance" grouping="circumvent.03" name="circumvent" verbnet_key="circumvent#1" wn="circumvent%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Dodging" grouping="dodge.01" name="dodge" verbnet_key="dodge#1" wn="dodge%2:38:00 dodge%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Avoiding" grouping="duck.03" name="duck" verbnet_key="duck#1" wn="duck%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Elusive_goal" grouping="elude.01" name="elude" verbnet_key="elude#1" wn="elude%2:38:00 elude%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="eschew" verbnet_key="eschew#1" wn="eschew%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Avoiding" grouping="evade.01" name="evade" verbnet_key="evade#1" wn="evade%2:32:00 evade%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Avoiding" grouping="forgo.01" name="forgo" verbnet_key="forgo#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Avoiding" grouping="shun.01" name="shun" verbnet_key="shun#1" wn="shun%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sidestep" verbnet_key="sidestep#1" wn="sidestep%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

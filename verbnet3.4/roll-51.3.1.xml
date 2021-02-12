@@ -7,7 +7,7 @@
   <MEMBER features="+directionOfMotion" fn_mapping="Change_position_on_a_scale" grouping="drop.01 drop.02" name="drop" verbnet_key="drop#5" wn="drop%2:38:01 drop%2:38:00" />
   <MEMBER features="+manner" fn_mapping="Motion" grouping="float.01 float.03" name="float" verbnet_key="float#2" wn="float%2:38:00 float%2:38:02 float%2:38:04" />
   <MEMBER features="+manner" fn_mapping="Motion" grouping="glide.01" name="glide" verbnet_key="glide#1" wn="glide%2:38:00 glide%2:38:02" />
-  <MEMBER features="" fn_mapping="Cause_change_of_position_on_a_scale" grouping="move.01" name="move" verbnet_key="move#4" wn="move%2:38:03 move%2:38:01 move%2:38:00" />
+  <MEMBER features="None" fn_mapping="Cause_change_of_position_on_a_scale" grouping="move.01" name="move" verbnet_key="move#4" wn="move%2:38:03 move%2:38:01 move%2:38:00" />
   <MEMBER features="+directionOfMotion" fn_mapping="None" grouping="nose.02" name="nose" verbnet_key="nose#2" wn="nose%2:38:00" />
   <MEMBER features="+manner" fn_mapping="Cause_motion" grouping="roll.01" name="roll" verbnet_key="roll#6" wn="roll%2:38:00 roll%2:29:06" />
   <MEMBER features="+manner" fn_mapping="Cause_motion" grouping="slide.01 slide.02" name="slide" verbnet_key="slide#2" wn="slide%2:38:01 slide%2:38:00 slide%2:38:02" />

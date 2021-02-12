@@ -1,28 +1,28 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="light_emission-43.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="beam.02" name="beam" verbnet_key="beam#1" wn="beam%2:43:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="blaze" verbnet_key="blaze#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="blink.03" name="blink" verbnet_key="blink#2" wn="blink%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="burn.02" name="burn" verbnet_key="burn#4" wn="burn%2:43:01"/>
-  <MEMBER fn_mapping="Location_of_light" grouping="flame.01" name="flame" verbnet_key="flame#1" wn="flame%2:43:00"/>
-  <MEMBER fn_mapping="Light_movement" grouping="flare.01" name="flare" verbnet_key="flare#1" wn="flare%2:43:00 flare%2:43:01"/>
-  <MEMBER fn_mapping="Light_movement" grouping="flash.01" name="flash" verbnet_key="flash#2" wn="flash%2:39:00 flash%2:30:04"/>
-  <MEMBER fn_mapping="None" grouping="flicker.01" name="flicker" verbnet_key="flicker#1" wn="flicker%2:38:00 flicker%2:43:00 flicker%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fluoresce" verbnet_key="fluoresce#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="glare.02" name="glare" verbnet_key="glare#1" wn="glare%2:43:01 glare%2:39:01"/>
-  <MEMBER fn_mapping="Location_of_light" grouping="gleam.01" name="gleam" verbnet_key="gleam#1" wn="gleam%2:39:01 gleam%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="glimmer" verbnet_key="glimmer#1" wn="glimmer%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="glint" verbnet_key="glint#1" wn="glint%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="glisten" verbnet_key="glisten#1" wn="glisten%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="glitter" verbnet_key="glitter#1" wn="glitter%2:39:00"/>
-  <MEMBER fn_mapping="Location_of_light" grouping="glow.01" name="glow" verbnet_key="glow#1" wn="glow%2:39:00 glow%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="incandesce" verbnet_key="incandesce#1" wn="incandesce%2:30:01 incandesce%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="scintillate" verbnet_key="scintillate#1" wn="scintillate%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shimmer" verbnet_key="shimmer#1" wn="shimmer%2:43:00"/>
-  <MEMBER fn_mapping="Light_movement" grouping="shine.01 shine.02" name="shine" verbnet_key="shine#1" wn="shine%2:43:01 shine%2:43:00 shine%2:39:01 shine%2:42:00"/>
-  <MEMBER fn_mapping="Light_movement" grouping="" name="sparkle" verbnet_key="sparkle#1" wn="sparkle%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="twinkle" verbnet_key="twinkle#1" wn="twinkle%2:39:00 twinkle%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="beam.02" name="beam" verbnet_key="beam#1" wn="beam%2:43:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blaze" verbnet_key="blaze#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="blink.03" name="blink" verbnet_key="blink#2" wn="blink%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="burn.02" name="burn" verbnet_key="burn#4" wn="burn%2:43:01"/>
+  <MEMBER features="None" fn_mapping="Location_of_light" grouping="flame.01" name="flame" verbnet_key="flame#1" wn="flame%2:43:00"/>
+  <MEMBER features="None" fn_mapping="Light_movement" grouping="flare.01" name="flare" verbnet_key="flare#1" wn="flare%2:43:00 flare%2:43:01"/>
+  <MEMBER features="None" fn_mapping="Light_movement" grouping="flash.01" name="flash" verbnet_key="flash#2" wn="flash%2:39:00 flash%2:30:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="flicker.01" name="flicker" verbnet_key="flicker#1" wn="flicker%2:38:00 flicker%2:43:00 flicker%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fluoresce" verbnet_key="fluoresce#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="glare.02" name="glare" verbnet_key="glare#1" wn="glare%2:43:01 glare%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Location_of_light" grouping="gleam.01" name="gleam" verbnet_key="gleam#1" wn="gleam%2:39:01 gleam%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="glimmer" verbnet_key="glimmer#1" wn="glimmer%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="glint" verbnet_key="glint#1" wn="glint%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="glisten" verbnet_key="glisten#1" wn="glisten%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="glitter" verbnet_key="glitter#1" wn="glitter%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Location_of_light" grouping="glow.01" name="glow" verbnet_key="glow#1" wn="glow%2:39:00 glow%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="incandesce" verbnet_key="incandesce#1" wn="incandesce%2:30:01 incandesce%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="scintillate" verbnet_key="scintillate#1" wn="scintillate%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shimmer" verbnet_key="shimmer#1" wn="shimmer%2:43:00"/>
+  <MEMBER features="None" fn_mapping="Light_movement" grouping="shine.01 shine.02" name="shine" verbnet_key="shine#1" wn="shine%2:43:01 shine%2:43:00 shine%2:39:01 shine%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Light_movement" grouping="" name="sparkle" verbnet_key="sparkle#1" wn="sparkle%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="twinkle" verbnet_key="twinkle#1" wn="twinkle%2:39:00 twinkle%2:43:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

@@ -3,8 +3,8 @@
  <!--Also split class based on manner(illegal)-->
  <MEMBERS>
   <!--REMOVED "void" from class, misclassified-->
-  <MEMBER fn_mapping="Manipulate_into_doing" grouping="cheat.01" name="cheat" verbnet_key="cheat#1" wn="cheat%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gull" verbnet_key="gull#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Manipulate_into_doing" grouping="cheat.01" name="cheat" verbnet_key="cheat#1" wn="cheat%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gull" verbnet_key="gull#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <!--Theme is inalienable possession of Source-->
@@ -160,11 +160,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="cheat-10.6.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Manipulate_into_doing" grouping="con.01" name="con" verbnet_key="con#1" wn="con%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="cozen.01" name="cozen" verbnet_key="cozen#1" wn="cozen%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="fleece" verbnet_key="fleece#1" wn="fleece%2:40:00"/>
-    <MEMBER fn_mapping="Manipulate_into_doing" grouping="defraud.01" name="defraud" verbnet_key="defraud#1" wn="defraud%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="swindle" verbnet_key="swindle#1" wn="swindle%2:41:00"/>
+    <MEMBER features="None" fn_mapping="Manipulate_into_doing" grouping="con.01" name="con" verbnet_key="con#1" wn="con%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="cozen.01" name="cozen" verbnet_key="cozen#1" wn="cozen%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="fleece" verbnet_key="fleece#1" wn="fleece%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Manipulate_into_doing" grouping="defraud.01" name="defraud" verbnet_key="defraud#1" wn="defraud%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="swindle" verbnet_key="swindle#1" wn="swindle%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -239,11 +239,11 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="cheat-10.6.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="rob.01 rob.02" name="rob" verbnet_key="rob#1" wn="rob%2:40:00"/>
-      <MEMBER fn_mapping="None" grouping="bleed.04" name="bleed" verbnet_key="bleed#2" wn="bleed%2:40:09 bleed%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="strip.01 strip.03 strip.04" name="strip" verbnet_key="strip#1" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12"/>
-      <MEMBER fn_mapping="None" grouping="milk.01" name="milk" verbnet_key="milk#1" wn="milk%2:34:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="cull" verbnet_key="cull#1" wn="cull%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="rob.01 rob.02" name="rob" verbnet_key="rob#1" wn="rob%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="bleed.04" name="bleed" verbnet_key="bleed#2" wn="bleed%2:40:09 bleed%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="strip.01 strip.03 strip.04" name="strip" verbnet_key="strip#1" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12"/>
+      <MEMBER features="None" fn_mapping="None" grouping="milk.01" name="milk" verbnet_key="milk#1" wn="milk%2:34:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="cull" verbnet_key="cull#1" wn="cull%2:40:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

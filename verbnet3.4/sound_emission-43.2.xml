@@ -1,135 +1,135 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="sound_emission-43.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Make_noise" grouping="babble.02" name="babble" verbnet_key="babble#2" wn="babble%2:39:00"/>
-  <MEMBER fn_mapping="Cause_impact" grouping="bang.01" name="bang" verbnet_key="bang#4" wn="bang%2:39:00 bang%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="beat.02" name="beat" verbnet_key="beat#5" wn="beat%2:39:00 beat%2:39:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="beep" verbnet_key="beep#1" wn="beep%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bellow" verbnet_key="bellow#3" wn="bellow%2:32:00 bellow%2:32:01"/>
-  <MEMBER fn_mapping="Make_noise" grouping="blare.01" name="blare" verbnet_key="blare#2" wn="blare%2:39:01 blare%2:39:00"/>
-  <MEMBER fn_mapping="Sound_movement" grouping="blast.01" name="blast" verbnet_key="blast#3" wn="blast%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="blat" verbnet_key="blat#2" wn="blat%2:32:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="boom.01" name="boom" verbnet_key="boom#3" wn="boom%2:39:00 boom%2:39:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="bubble" verbnet_key="bubble#1" wn="bubble%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="burble" verbnet_key="burble#2" wn="burble%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="burr" verbnet_key="burr#1" wn=""/>
-  <MEMBER fn_mapping="Motion_noise" grouping="buzz.01" name="buzz" verbnet_key="buzz#4" wn="buzz%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="caterwaul" verbnet_key="caterwaul#2" wn="caterwaul%2:32:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="chatter.01" name="chatter" verbnet_key="chatter#4" wn="chatter%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="chime" verbnet_key="chime#1" wn="chime%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="chink.01" name="chink" verbnet_key="chink#1" wn="chink%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="chir" verbnet_key="chir#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="chitter" verbnet_key="chitter#2" wn="chitter%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="chug" verbnet_key="chug#1" wn="chug%2:39:00"/>
-  <MEMBER fn_mapping="Motion_noise" grouping="clack.01 clack.02" name="clack" verbnet_key="clack#1" wn="clack%2:39:00 clack%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="clang" verbnet_key="clang#2" wn="clang%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="clank" verbnet_key="clank#1" wn="clank%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="clap.04" name="clap" verbnet_key="clap#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="clash" verbnet_key="clash#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="clatter" verbnet_key="clatter#2" wn="clatter%2:39:00"/>
-  <MEMBER fn_mapping="Impact" grouping="click.01 click.02" name="click" verbnet_key="click#3" wn="click%2:38:00 click%2:32:01 click%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="cling.03" name="cling" verbnet_key="cling#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="clink" verbnet_key="clink#1" wn="clink%2:39:01 clink%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="clomp" verbnet_key="clomp#1" wn=""/>
-  <MEMBER fn_mapping="Motion_noise" grouping="clump.01" name="clump" verbnet_key="clump#2" wn="clump%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="clunk" verbnet_key="clunk#1" wn="clunk%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="crack.02" name="crack" verbnet_key="crack#3" wn="crack%2:39:01"/>
-  <MEMBER fn_mapping="Motion_noise" grouping="crackle.01" name="crackle" verbnet_key="crackle#1" wn="crackle%2:39:00 crackle%2:32:00"/>
-  <MEMBER fn_mapping="Motion_noise" grouping="crash.02" name="crash" verbnet_key="crash#3" wn="crash%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="creak" verbnet_key="creak#1" wn="creak%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="crepitate" verbnet_key="crepitate#1" wn="crepitate%2:39:00"/>
-  <MEMBER fn_mapping="Motion_noise" grouping="crunch.01 crunch.02" name="crunch" verbnet_key="crunch#5" wn="crunch%2:32:00 crunch%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="cry.01" name="cry" verbnet_key="cry#5" wn="cry%2:32:01 cry%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="ding" verbnet_key="ding#1" wn="ding%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="dong" verbnet_key="dong#1" wn="dong%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="drone" verbnet_key="drone#3" wn=""/>
-  <MEMBER fn_mapping="Change_position_on_a_scale" grouping="explode.03" name="explode" verbnet_key="explode#3" wn="explode%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fizz" verbnet_key="fizz#2" wn="fizz%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fizzle" verbnet_key="fizzle#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="groan" verbnet_key="groan#4" wn="groan%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="growl" verbnet_key="growl#4" wn="growl%2:32:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="gurgle.01 gurgle.02" name="gurgle" verbnet_key="gurgle#2" wn="gurgle%2:39:02 gurgle%2:34:00"/>
-  <MEMBER fn_mapping="Fluidic_motion" grouping="hiss.02" name="hiss" verbnet_key="hiss#3" wn="hiss%2:32:00 hiss%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hoot" verbnet_key="hoot#3" wn="hoot%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="honk" verbnet_key="honk#2" wn="honk%2:39:00 honk%2:32:01 honk%2:32:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="howl.01" name="howl" verbnet_key="howl#4" wn="howl%2:32:02 howl%2:32:03 howl%2:32:01"/>
-  <MEMBER fn_mapping="Make_noise" grouping="hum.01" name="hum" verbnet_key="hum#4" wn="hum%2:39:00 hum%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="jangle" verbnet_key="jangle#1" wn="jangle%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="jingle" verbnet_key="jingle#1" wn="jingle%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="keen" verbnet_key="keen#2" wn="keen%2:37:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="knell" verbnet_key="knell#1" wn="knell%2:39:00 knell%2:39:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="knock" verbnet_key="knock#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="lilt" verbnet_key="lilt#2" wn="lilt%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="mewl" verbnet_key="mewl#2" wn="mewl%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="moan" verbnet_key="moan#5" wn="moan%2:32:00"/>
-  <MEMBER fn_mapping="Communication_noise" grouping="murmur.01" name="murmur" verbnet_key="murmur#2" wn="murmur%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="patter" verbnet_key="patter#1" wn="patter%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="peal" verbnet_key="peal#1" wn="peal%2:39:01"/>
-  <MEMBER fn_mapping="None" grouping="ping.01" name="ping" verbnet_key="ping#2" wn="ping%2:35:00 ping%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="pink.01" name="pink" verbnet_key="pink#5" wn="?pink%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="pipe.01" name="pipe" verbnet_key="pipe#2" wn="pipe%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="plash" verbnet_key="plash#1" wn="plash%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="plink" verbnet_key="plink#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="plonk" verbnet_key="plonk#1" wn=""/>
-  <MEMBER fn_mapping="Impact" grouping="plop.01" name="plop" verbnet_key="plop#4" wn="plop%2:38:01 plop%2:38:00"/>
-  <MEMBER fn_mapping="Impact" grouping="" name="plunk" verbnet_key="plunk#1" wn="plunk%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="pop.02" name="pop" verbnet_key="pop#2" wn="pop%2:39:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="purr.01" name="purr" verbnet_key="purr#3" wn="purr%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="putter" verbnet_key="putter#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="rap" verbnet_key="rap#5" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="rasp" verbnet_key="rasp#2" wn="?rasp%2:32:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="rattle.01" name="rattle" verbnet_key="rattle#2" wn="rattle%2:39:00 rattle%2:38:00"/>
-  <MEMBER fn_mapping="Cause_to_make_noise" grouping="ring.01" name="ring" verbnet_key="ring#4" wn="ring%2:39:00 ring%2:39:01"/>
-  <MEMBER fn_mapping="Communication_noise" grouping="roar.01 roar.02" name="roar" verbnet_key="roar#4" wn="roar%2:32:01 roar%2:32:05"/>
-  <MEMBER fn_mapping="Sound_movement" grouping="roll.05" name="roll" verbnet_key="roll#10" wn="roll%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rumble" verbnet_key="rumble#3" wn="rumble%2:39:00 rumble%2:32:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="" name="rustle" verbnet_key="rustle#1" wn="rustle%2:39:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="scream.02" name="scream" verbnet_key="scream#2" wn="scream%2:32:01 scream%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="screech" verbnet_key="screech#3" wn="screech%2:39:00 screech%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="shriek" verbnet_key="shriek#2" wn="shriek%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shrill" verbnet_key="shrill#1" wn="shrill%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="sing.02" name="sing" verbnet_key="sing#3" wn="sing%2:32:08 sing%2:32:00"/>
-  <MEMBER fn_mapping="Absorb_heat" grouping="" name="sizzle" verbnet_key="sizzle#1" wn="sizzle%2:32:00 sizzle%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="snap.02 snap.04" name="snap" verbnet_key="snap#4" wn="snap%2:38:00 snap%2:30:01 snap%2:38:01 snap%2:35:02"/>
-  <MEMBER fn_mapping="Make_noise" grouping="" name="sound" verbnet_key="sound#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="sough" verbnet_key="sough#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="sploosh" verbnet_key="sploosh#1" wn=""/>
-  <MEMBER fn_mapping="Filling" grouping="splash.01 splash.02" name="splash" verbnet_key="splash#1" wn="splash%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="splutter" verbnet_key="splutter#2" wn="splutter%2:32:00"/>
-  <MEMBER fn_mapping="Communication_noise" grouping="" name="sputter" verbnet_key="sputter#1" wn="sputter%2:39:00 sputter%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="squawk" verbnet_key="squawk#3" wn="squawk%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="squeak" verbnet_key="squeak#3" wn="squeak%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="squeal" verbnet_key="squeal#3" wn="squeal%2:32:01"/>
-  <MEMBER fn_mapping="Motion_noise" grouping="" name="squelch" verbnet_key="squelch#2" wn="squelch%2:39:00"/>
-  <MEMBER fn_mapping="Impact" grouping="strike.01 strike.04 strike.10" name="strike" verbnet_key="strike#5" wn="strike%2:32:00 strike%2:35:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="swish" verbnet_key="swish#1" wn="swish%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="swoosh" verbnet_key="swoosh#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="thrum.03" name="thrum" verbnet_key="thrum#1" wn="thrum%2:39:00"/>
-  <MEMBER fn_mapping="Motion_noise" grouping="" name="thud" verbnet_key="thud#2" wn="thud%2:39:00 thud%2:35:00 thud%2:39:01"/>
-  <MEMBER fn_mapping="Make_noise" grouping="" name="thump" verbnet_key="thump#3" wn="thump%2:39:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="" name="thunder" verbnet_key="thunder#3" wn="thunder%2:38:00 thunder%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="thunk" verbnet_key="thunk#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="tick.01" name="tick" verbnet_key="tick#1" wn="tick%2:39:00 tick%2:39:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="ting" verbnet_key="ting#1" wn="ting%2:39:01 ting%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tinkle" verbnet_key="tinkle#1" wn="tinkle%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="toll" verbnet_key="toll#1" wn="toll%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="toot" verbnet_key="toot#1" wn="toot%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tootle" verbnet_key="tootle#2" wn="tootle%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="trill" verbnet_key="trill#3" wn="trill%2:32:01 trill%2:32:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="trumpet.03" name="trumpet" verbnet_key="trumpet#3" wn="trumpet%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="twang.01 twang.02" name="twang" verbnet_key="twang#2" wn="twang%2:39:01 twang%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="ululate" verbnet_key="ululate#2" wn="ululate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="vroom" verbnet_key="vroom#1" wn="vroom%2:32:00"/>
-  <MEMBER fn_mapping="Communication_noise" grouping="wail.01 wail.02" name="wail" verbnet_key="wail#3" wn="wail%2:32:00 wail%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wheeze" verbnet_key="wheeze#4" wn=""/>
-  <MEMBER fn_mapping="Motion_noise" grouping="whine.01" name="whine" verbnet_key="whine#4" wn="whine%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="whir" verbnet_key="whir#1" wn="whir%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="whish" verbnet_key="whish#1" wn="whish%2:39:00 whish%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="whisper" verbnet_key="whisper#2" wn=""/>
-  <MEMBER fn_mapping="Make_noise" grouping="whistle.02" name="whistle" verbnet_key="whistle#5" wn="whistle%2:39:00 whistle%2:38:00 whistle%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="whoosh" verbnet_key="whoosh#1" wn="whoosh%2:38:02 whoosh%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="whump" verbnet_key="whump#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="zing" verbnet_key="zing#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="babble.02" name="babble" verbnet_key="babble#2" wn="babble%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Cause_impact" grouping="bang.01" name="bang" verbnet_key="bang#4" wn="bang%2:39:00 bang%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="beat.02" name="beat" verbnet_key="beat#5" wn="beat%2:39:00 beat%2:39:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="beep" verbnet_key="beep#1" wn="beep%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bellow" verbnet_key="bellow#3" wn="bellow%2:32:00 bellow%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="blare.01" name="blare" verbnet_key="blare#2" wn="blare%2:39:01 blare%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Sound_movement" grouping="blast.01" name="blast" verbnet_key="blast#3" wn="blast%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blat" verbnet_key="blat#2" wn="blat%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="boom.01" name="boom" verbnet_key="boom#3" wn="boom%2:39:00 boom%2:39:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bubble" verbnet_key="bubble#1" wn="bubble%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="burble" verbnet_key="burble#2" wn="burble%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="burr" verbnet_key="burr#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="buzz.01" name="buzz" verbnet_key="buzz#4" wn="buzz%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="caterwaul" verbnet_key="caterwaul#2" wn="caterwaul%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="chatter.01" name="chatter" verbnet_key="chatter#4" wn="chatter%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chime" verbnet_key="chime#1" wn="chime%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="chink.01" name="chink" verbnet_key="chink#1" wn="chink%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chir" verbnet_key="chir#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chitter" verbnet_key="chitter#2" wn="chitter%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chug" verbnet_key="chug#1" wn="chug%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="clack.01 clack.02" name="clack" verbnet_key="clack#1" wn="clack%2:39:00 clack%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clang" verbnet_key="clang#2" wn="clang%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clank" verbnet_key="clank#1" wn="clank%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="clap.04" name="clap" verbnet_key="clap#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clash" verbnet_key="clash#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clatter" verbnet_key="clatter#2" wn="clatter%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Impact" grouping="click.01 click.02" name="click" verbnet_key="click#3" wn="click%2:38:00 click%2:32:01 click%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="cling.03" name="cling" verbnet_key="cling#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clink" verbnet_key="clink#1" wn="clink%2:39:01 clink%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clomp" verbnet_key="clomp#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="clump.01" name="clump" verbnet_key="clump#2" wn="clump%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clunk" verbnet_key="clunk#1" wn="clunk%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="crack.02" name="crack" verbnet_key="crack#3" wn="crack%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="crackle.01" name="crackle" verbnet_key="crackle#1" wn="crackle%2:39:00 crackle%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="crash.02" name="crash" verbnet_key="crash#3" wn="crash%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="creak" verbnet_key="creak#1" wn="creak%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crepitate" verbnet_key="crepitate#1" wn="crepitate%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="crunch.01 crunch.02" name="crunch" verbnet_key="crunch#5" wn="crunch%2:32:00 crunch%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="cry.01" name="cry" verbnet_key="cry#5" wn="cry%2:32:01 cry%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ding" verbnet_key="ding#1" wn="ding%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dong" verbnet_key="dong#1" wn="dong%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="drone" verbnet_key="drone#3" wn=""/>
+  <MEMBER features="None" fn_mapping="Change_position_on_a_scale" grouping="explode.03" name="explode" verbnet_key="explode#3" wn="explode%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fizz" verbnet_key="fizz#2" wn="fizz%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fizzle" verbnet_key="fizzle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="groan" verbnet_key="groan#4" wn="groan%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="growl" verbnet_key="growl#4" wn="growl%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="gurgle.01 gurgle.02" name="gurgle" verbnet_key="gurgle#2" wn="gurgle%2:39:02 gurgle%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Fluidic_motion" grouping="hiss.02" name="hiss" verbnet_key="hiss#3" wn="hiss%2:32:00 hiss%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hoot" verbnet_key="hoot#3" wn="hoot%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="honk" verbnet_key="honk#2" wn="honk%2:39:00 honk%2:32:01 honk%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="howl.01" name="howl" verbnet_key="howl#4" wn="howl%2:32:02 howl%2:32:03 howl%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="hum.01" name="hum" verbnet_key="hum#4" wn="hum%2:39:00 hum%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jangle" verbnet_key="jangle#1" wn="jangle%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jingle" verbnet_key="jingle#1" wn="jingle%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="keen" verbnet_key="keen#2" wn="keen%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="knell" verbnet_key="knell#1" wn="knell%2:39:00 knell%2:39:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="knock" verbnet_key="knock#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lilt" verbnet_key="lilt#2" wn="lilt%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="mewl" verbnet_key="mewl#2" wn="mewl%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="moan" verbnet_key="moan#5" wn="moan%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Communication_noise" grouping="murmur.01" name="murmur" verbnet_key="murmur#2" wn="murmur%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="patter" verbnet_key="patter#1" wn="patter%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="peal" verbnet_key="peal#1" wn="peal%2:39:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ping.01" name="ping" verbnet_key="ping#2" wn="ping%2:35:00 ping%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pink.01" name="pink" verbnet_key="pink#5" wn="?pink%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pipe.01" name="pipe" verbnet_key="pipe#2" wn="pipe%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="plash" verbnet_key="plash#1" wn="plash%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="plink" verbnet_key="plink#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="plonk" verbnet_key="plonk#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Impact" grouping="plop.01" name="plop" verbnet_key="plop#4" wn="plop%2:38:01 plop%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Impact" grouping="" name="plunk" verbnet_key="plunk#1" wn="plunk%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pop.02" name="pop" verbnet_key="pop#2" wn="pop%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="purr.01" name="purr" verbnet_key="purr#3" wn="purr%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="putter" verbnet_key="putter#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rap" verbnet_key="rap#5" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rasp" verbnet_key="rasp#2" wn="?rasp%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="rattle.01" name="rattle" verbnet_key="rattle#2" wn="rattle%2:39:00 rattle%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_make_noise" grouping="ring.01" name="ring" verbnet_key="ring#4" wn="ring%2:39:00 ring%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Communication_noise" grouping="roar.01 roar.02" name="roar" verbnet_key="roar#4" wn="roar%2:32:01 roar%2:32:05"/>
+  <MEMBER features="None" fn_mapping="Sound_movement" grouping="roll.05" name="roll" verbnet_key="roll#10" wn="roll%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rumble" verbnet_key="rumble#3" wn="rumble%2:39:00 rumble%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="" name="rustle" verbnet_key="rustle#1" wn="rustle%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="scream.02" name="scream" verbnet_key="scream#2" wn="scream%2:32:01 scream%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="screech" verbnet_key="screech#3" wn="screech%2:39:00 screech%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shriek" verbnet_key="shriek#2" wn="shriek%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shrill" verbnet_key="shrill#1" wn="shrill%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sing.02" name="sing" verbnet_key="sing#3" wn="sing%2:32:08 sing%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Absorb_heat" grouping="" name="sizzle" verbnet_key="sizzle#1" wn="sizzle%2:32:00 sizzle%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="snap.02 snap.04" name="snap" verbnet_key="snap#4" wn="snap%2:38:00 snap%2:30:01 snap%2:38:01 snap%2:35:02"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="" name="sound" verbnet_key="sound#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sough" verbnet_key="sough#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sploosh" verbnet_key="sploosh#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Filling" grouping="splash.01 splash.02" name="splash" verbnet_key="splash#1" wn="splash%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="splutter" verbnet_key="splutter#2" wn="splutter%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Communication_noise" grouping="" name="sputter" verbnet_key="sputter#1" wn="sputter%2:39:00 sputter%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squawk" verbnet_key="squawk#3" wn="squawk%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squeak" verbnet_key="squeak#3" wn="squeak%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squeal" verbnet_key="squeal#3" wn="squeal%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="" name="squelch" verbnet_key="squelch#2" wn="squelch%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Impact" grouping="strike.01 strike.04 strike.10" name="strike" verbnet_key="strike#5" wn="strike%2:32:00 strike%2:35:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="swish" verbnet_key="swish#1" wn="swish%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="swoosh" verbnet_key="swoosh#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="thrum.03" name="thrum" verbnet_key="thrum#1" wn="thrum%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="" name="thud" verbnet_key="thud#2" wn="thud%2:39:00 thud%2:35:00 thud%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="" name="thump" verbnet_key="thump#3" wn="thump%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="" name="thunder" verbnet_key="thunder#3" wn="thunder%2:38:00 thunder%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="thunk" verbnet_key="thunk#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="tick.01" name="tick" verbnet_key="tick#1" wn="tick%2:39:00 tick%2:39:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ting" verbnet_key="ting#1" wn="ting%2:39:01 ting%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tinkle" verbnet_key="tinkle#1" wn="tinkle%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="toll" verbnet_key="toll#1" wn="toll%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="toot" verbnet_key="toot#1" wn="toot%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tootle" verbnet_key="tootle#2" wn="tootle%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="trill" verbnet_key="trill#3" wn="trill%2:32:01 trill%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="trumpet.03" name="trumpet" verbnet_key="trumpet#3" wn="trumpet%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="twang.01 twang.02" name="twang" verbnet_key="twang#2" wn="twang%2:39:01 twang%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ululate" verbnet_key="ululate#2" wn="ululate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="vroom" verbnet_key="vroom#1" wn="vroom%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Communication_noise" grouping="wail.01 wail.02" name="wail" verbnet_key="wail#3" wn="wail%2:32:00 wail%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wheeze" verbnet_key="wheeze#4" wn=""/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="whine.01" name="whine" verbnet_key="whine#4" wn="whine%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whir" verbnet_key="whir#1" wn="whir%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whish" verbnet_key="whish#1" wn="whish%2:39:00 whish%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whisper" verbnet_key="whisper#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="whistle.02" name="whistle" verbnet_key="whistle#5" wn="whistle%2:39:00 whistle%2:38:00 whistle%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whoosh" verbnet_key="whoosh#1" wn="whoosh%2:38:02 whoosh%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whump" verbnet_key="whump#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="zing" verbnet_key="zing#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="die-42.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="buy_the_farm" verbnet_key="buy_the_farm#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="decease" verbnet_key="decease#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="fall" verbnet_key="fall#5" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="give_up_the_ghost" verbnet_key="give_up_the_ghost#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="kick_the_bucket" verbnet_key="kick_the_bucket#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="pass" verbnet_key="pass#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="pop_off" verbnet_key="pop_off#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="snuff_it" verbnet_key="snuff_it#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="buy_the_farm" verbnet_key="buy_the_farm#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="decease" verbnet_key="decease#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fall" verbnet_key="fall#5" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="give_up_the_ghost" verbnet_key="give_up_the_ghost#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="kick_the_bucket" verbnet_key="kick_the_bucket#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pass" verbnet_key="pass#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pop_off" verbnet_key="pop_off#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="snuff_it" verbnet_key="snuff_it#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Patient">
@@ -50,14 +50,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="die-42.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="choke" verbnet_key="choke#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="conk" verbnet_key="conk#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="croak" verbnet_key="croak#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="die" verbnet_key="die#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="drop_dead" verbnet_key="drop_dead#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="expire" verbnet_key="expire#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="pass_away" verbnet_key="pass_away#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="perish" verbnet_key="perish#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="choke" verbnet_key="choke#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="conk" verbnet_key="conk#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="croak" verbnet_key="croak#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="die" verbnet_key="die#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="drop_dead" verbnet_key="drop_dead#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="expire" verbnet_key="expire#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pass_away" verbnet_key="pass_away#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="perish" verbnet_key="perish#2" wn=""/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Causer">

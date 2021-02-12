@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="prosecute-33.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="book.02" name="book" verbnet_key="book#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="bust.02" name="bust" verbnet_key="bust#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="collar" verbnet_key="collar#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="impeach.02" name="impeach" verbnet_key="impeach#1" wn="impeach%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="nab.02" name="nab" verbnet_key="nab#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="penalize" verbnet_key="penalize#1" wn="penalize%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="report.02" name="report" verbnet_key="report#3" wn="wn%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="sanction.02" name="sanction" verbnet_key="sanction#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="book.02" name="book" verbnet_key="book#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="bust.02" name="bust" verbnet_key="bust#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="collar" verbnet_key="collar#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="impeach.02" name="impeach" verbnet_key="impeach#1" wn="impeach%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="nab.02" name="nab" verbnet_key="nab#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="penalize" verbnet_key="penalize#1" wn="penalize%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="report.02" name="report" verbnet_key="report#3" wn="wn%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sanction.02" name="sanction" verbnet_key="sanction#2" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -91,13 +91,13 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="prosecute-33.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="arrest.01" name="arrest" verbnet_key="arrest#1" wn=""/>
-    <MEMBER fn_mapping="Notification_of_charges" grouping="charge.03" name="charge" verbnet_key="charge#7" wn="charge%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="indict.01" name="indict" verbnet_key="indict#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="persecute" verbnet_key="persecute#1" wn="persecute%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="prosecute.01" name="prosecute" verbnet_key="prosecute#1" wn="prosecute%2:41:01"/>
-    <MEMBER fn_mapping="Rewards_and_punishments" grouping="punish.01" name="punish" verbnet_key="punish#1" wn="punish%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="try.03" name="try" verbnet_key="try#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="arrest.01" name="arrest" verbnet_key="arrest#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Notification_of_charges" grouping="charge.03" name="charge" verbnet_key="charge#7" wn="charge%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="indict.01" name="indict" verbnet_key="indict#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="persecute" verbnet_key="persecute#1" wn="persecute%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="prosecute.01" name="prosecute" verbnet_key="prosecute#1" wn="prosecute%2:41:01"/>
+    <MEMBER features="None" fn_mapping="Rewards_and_punishments" grouping="punish.01" name="punish" verbnet_key="punish#1" wn="punish%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="try.03" name="try" verbnet_key="try#3" wn=""/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Attribute">
@@ -162,11 +162,11 @@
        <SYNRESTRS/>
       </NP>
       <PREP value="for with">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </PREP>
-      <PREP value="Theme">
+      <NP value="Theme">
        <SYNRESTRS/>
-      </PREP>
+      </NP>
       <PREP value="as">
        <SELRESTRS/>
       </PREP>

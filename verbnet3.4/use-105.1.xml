@@ -1,16 +1,16 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="use-105.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Using" grouping="use.01" name="use" verbnet_key="use#4" wn="use%2:34:01"/>
-  <MEMBER fn_mapping="None" grouping="utilize.01" name="utilize" verbnet_key="utilize#1" wn="utilize%2:34:00"/>
-  <MEMBER fn_mapping="Using" grouping="apply.01" name="apply" verbnet_key="apply#2" wn="apply%2:34:00"/>
-  <MEMBER fn_mapping="Using" grouping="employ.02" name="employ" verbnet_key="employ#2" wn="employ%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="exert.01" name="exert" verbnet_key="exert#1" wn="exert%2:34:00 exert%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="exploit.01" name="exploit" verbnet_key="exploit#1" wn="exploit%2:34:00 exploit%2:34:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="play" verbnet_key="play#5" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="reuse" verbnet_key="reuse#2" wn="reuse%2:34:00"/>
-  <MEMBER fn_mapping="Leadership" grouping="run.03" name="run" verbnet_key="run#8" wn="run%2:35:04 run%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="work.06" name="work" verbnet_key="work#5" wn="work%2:41:11 work%2:41:12"/>
+  <MEMBER features="None" fn_mapping="Using" grouping="use.01" name="use" verbnet_key="use#4" wn="use%2:34:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="utilize.01" name="utilize" verbnet_key="utilize#1" wn="utilize%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Using" grouping="apply.01" name="apply" verbnet_key="apply#2" wn="apply%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Using" grouping="employ.02" name="employ" verbnet_key="employ#2" wn="employ%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="exert.01" name="exert" verbnet_key="exert#1" wn="exert%2:34:00 exert%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="exploit.01" name="exploit" verbnet_key="exploit#1" wn="exploit%2:34:00 exploit%2:34:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="play" verbnet_key="play#5" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reuse" verbnet_key="reuse#2" wn="reuse%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Leadership" grouping="run.03" name="run" verbnet_key="run#8" wn="run%2:35:04 run%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="work.06" name="work" verbnet_key="work#5" wn="work%2:41:11 work%2:41:12"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

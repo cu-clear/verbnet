@@ -340,7 +340,7 @@
     <VERB />
     <NP value="Theme">
      <SYNRESTRS>
-      <SYNRESTR Value="+" type="vehicle_part" />
+      <SYNRESTR Value="+" type="genitive" />
      </SYNRESTRS>
     </NP>
     <NP value="Result">
@@ -445,7 +445,7 @@
     <VERB />
     <NP value="Theme">
      <SYNRESTRS>
-      <SYNRESTR Value="+" type="vehicle_part" />
+      <SYNRESTR Value="+" type="genitive" />
      </SYNRESTRS>
     </NP>
     <PREP value="to into">

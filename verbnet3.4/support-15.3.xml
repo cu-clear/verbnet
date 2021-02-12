@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="support-15.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="hold.01" name="hold" verbnet_key="hold#10" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="bear" verbnet_key="bear#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="hold.01" name="hold" verbnet_key="hold#10" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bear" verbnet_key="bear#3" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Pivot">
@@ -43,14 +43,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="support-15.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="bolster.01 bolster.02" name="bolster" verbnet_key="bolster#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="boost.01 boost.02" name="boost" verbnet_key="boost#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="buttress" verbnet_key="buttress#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="buoy.01" name="buoy" verbnet_key="buoy#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="hold.03" name="hold_up" verbnet_key="hold_up#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="reinforce.01" name="reinforce" verbnet_key="reinforce#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="strengthen.01" name="strengthen" verbnet_key="strengthen#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="support.01" name="support" verbnet_key="support#4" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="bolster.01 bolster.02" name="bolster" verbnet_key="bolster#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="boost.01 boost.02" name="boost" verbnet_key="boost#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="buttress" verbnet_key="buttress#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="buoy.01" name="buoy" verbnet_key="buoy#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="hold.03" name="hold_up" verbnet_key="hold_up#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="reinforce.01" name="reinforce" verbnet_key="reinforce#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="strengthen.01" name="strengthen" verbnet_key="strengthen#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="support.01" name="support" verbnet_key="support#4" wn=""/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Agent">

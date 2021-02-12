@@ -1,43 +1,43 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="subjugate-42.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="disenfranchise" verbnet_key="disenfranchise#1" wn="disenfranchise%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="enslave" verbnet_key="enslave#1" wn="enslave%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="mob" verbnet_key="mob#1" wn="mob%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="nourish" verbnet_key="nourish#1" wn="nourish%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="suppress" verbnet_key="suppress#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="stamp_down" verbnet_key="stamp_down#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="subdue" verbnet_key="subdue#1" wn=""/>
-  <MEMBER fn_mapping="Conquering" grouping="conquer.01" name="conquer" verbnet_key="conquer#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="curb" verbnet_key="curb#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="crush.02 crush.03" name="crush" verbnet_key="crush#5" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="stifle" verbnet_key="stifle#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="dampen" verbnet_key="dampen#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="suffocate" verbnet_key="suffocate#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="choke" verbnet_key="choke#3" wn=""/>
-  <MEMBER fn_mapping="Silencing" grouping="hush.01" name="hush" verbnet_key="hush#2" wn=""/>
-  <MEMBER fn_mapping="Silencing" grouping="silence.01" name="silence" verbnet_key="silence#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="still.01 still.02" name="still" verbnet_key="still#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="shut_up" verbnet_key="shut_up#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="hush_up" verbnet_key="hush_up#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="lull" verbnet_key="lull#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="calm_down" verbnet_key="calm_down#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="gag.01 gag.02" name="gag" verbnet_key="gag#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="muzzle" verbnet_key="muzzle#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="squelch" verbnet_key="squelch#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="quell" verbnet_key="quell#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="quench" verbnet_key="quench#2" wn=""/>
-  <MEMBER fn_mapping="Killing" grouping="" name="smother" verbnet_key="smother#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="muffle" verbnet_key="muffle#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="repress" verbnet_key="repress#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="quash" verbnet_key="quash#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="keep_down" verbnet_key="keep_down#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="subjugate" verbnet_key="subjugate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="reduce" verbnet_key="reduce#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="slake.01" name="slake" verbnet_key="slake#1" wn="slake%2:34:00 slake%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="strangle" verbnet_key="strangle#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="kill" verbnet_key="kill#7" wn=""/>
-  <MEMBER fn_mapping="None" grouping="walk.08" name="walk_over" verbnet_key="walk_over#1" wn="walk_over%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="disenfranchise" verbnet_key="disenfranchise#1" wn="disenfranchise%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="enslave" verbnet_key="enslave#1" wn="enslave%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="mob" verbnet_key="mob#1" wn="mob%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="nourish" verbnet_key="nourish#1" wn="nourish%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="suppress" verbnet_key="suppress#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stamp_down" verbnet_key="stamp_down#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="subdue" verbnet_key="subdue#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Conquering" grouping="conquer.01" name="conquer" verbnet_key="conquer#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="curb" verbnet_key="curb#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="crush.02 crush.03" name="crush" verbnet_key="crush#5" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stifle" verbnet_key="stifle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dampen" verbnet_key="dampen#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="suffocate" verbnet_key="suffocate#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="choke" verbnet_key="choke#3" wn=""/>
+  <MEMBER features="None" fn_mapping="Silencing" grouping="hush.01" name="hush" verbnet_key="hush#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Silencing" grouping="silence.01" name="silence" verbnet_key="silence#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="still.01 still.02" name="still" verbnet_key="still#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shut_up" verbnet_key="shut_up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hush_up" verbnet_key="hush_up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lull" verbnet_key="lull#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="calm_down" verbnet_key="calm_down#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="gag.01 gag.02" name="gag" verbnet_key="gag#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="muzzle" verbnet_key="muzzle#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squelch" verbnet_key="squelch#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quell" verbnet_key="quell#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quench" verbnet_key="quench#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Killing" grouping="" name="smother" verbnet_key="smother#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="muffle" verbnet_key="muffle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="repress" verbnet_key="repress#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quash" verbnet_key="quash#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="keep_down" verbnet_key="keep_down#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="subjugate" verbnet_key="subjugate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reduce" verbnet_key="reduce#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="slake.01" name="slake" verbnet_key="slake#1" wn="slake%2:34:00 slake%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="strangle" verbnet_key="strangle#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="kill" verbnet_key="kill#7" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="walk.08" name="walk_over" verbnet_key="walk_over#1" wn="walk_over%2:33:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

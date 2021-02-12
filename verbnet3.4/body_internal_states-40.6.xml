@@ -2,15 +2,15 @@
 <VNCLASS ID="body_internal_states-40.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each verb adds a manner predicate-->
-  <MEMBER fn_mapping="None" grouping="convulse.02" name="convulse" verbnet_key="convulse#1" wn="convulse%2:38:00 convulse%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cower" verbnet_key="cower#1" wn="cower%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="quake" verbnet_key="quake#1" wn="quake%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="quiver" verbnet_key="quiver#1" wn="quiver%2:38:00"/>
-  <MEMBER fn_mapping="Cause_to_move_in_place" grouping="shake.01" name="shake" verbnet_key="shake#2" wn="shake%2:38:00 shake%2:29:00"/>
-  <MEMBER fn_mapping="Body_movement" grouping="shiver.01" name="shiver" verbnet_key="shiver#1" wn="shiver%2:38:00 shiver%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shudder" verbnet_key="shudder#1" wn="shudder%2:29:00 shudder%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tremble" verbnet_key="tremble#1" wn="tremble%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="writhe" verbnet_key="writhe#1" wn="writhe%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="convulse.02" name="convulse" verbnet_key="convulse#1" wn="convulse%2:38:00 convulse%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cower" verbnet_key="cower#1" wn="cower%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quake" verbnet_key="quake#1" wn="quake%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quiver" verbnet_key="quiver#1" wn="quiver%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_move_in_place" grouping="shake.01" name="shake" verbnet_key="shake#2" wn="shake%2:38:00 shake%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="shiver.01" name="shiver" verbnet_key="shiver#1" wn="shiver%2:38:00 shiver%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shudder" verbnet_key="shudder#1" wn="shudder%2:29:00 shudder%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tremble" verbnet_key="tremble#1" wn="tremble%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="writhe" verbnet_key="writhe#1" wn="writhe%2:38:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">

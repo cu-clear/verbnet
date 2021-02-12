@@ -4,10 +4,10 @@
   <MEMBER features="+cognitive +negative_change +abstract_change" fn_mapping="None" grouping="" name="abase" verbnet_key="abase#1" wn="" />
   <MEMBER features="+change_character +abstract_change" fn_mapping="None" grouping="" name="africanize" verbnet_key="africanize#1" wn="" />
   <MEMBER features="+chemical +change_character +physical_change" fn_mapping="None" grouping="wet.01" name="alcoholize" verbnet_key="alcoholize#1" wn="alcoholize%2:30:00 alcoholize%2:30:01" />
-  <MEMBER features="+decrease +change_intensity +positive_change" fn_mapping="None" grouping="" name="alleviate" verbnet_key="alleviate#2" wn="" />
+  <MEMBER features="+change_intensity_decrease +positive_change" fn_mapping="None" grouping="" name="alleviate" verbnet_key="alleviate#2" wn="" />
   <MEMBER features="+physical_change +change_consciouseness" fn_mapping="None" grouping="" name="anesthetize" verbnet_key="anesthetize#1" wn="" />
   <MEMBER features="+change_appearance +change_feeling +positive_change" fn_mapping="None" grouping="animate.01" name="animate" verbnet_key="animate#1" wn="" />
-  <MEMBER features="+change_aperture" fn_mapping="None" grouping="" name="backfill" verbnet_key="backfill#1" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="backfill" verbnet_key="backfill#1" wn="" />
   <MEMBER features="+cognitive +abstract_change" fn_mapping="None" grouping="" name="bastardize" verbnet_key="bastardize#1" wn="" />
   <MEMBER features="+cover +add_substance +physical_change" fn_mapping="None" grouping="" name="bedew" verbnet_key="bedew#1" wn="" />
   <MEMBER features="+disintegration" fn_mapping="None" grouping="blast.01" name="blast" verbnet_key="blast#2" wn="blast%2:39:00" />
@@ -32,11 +32,11 @@
   <MEMBER features="+abstract_change +change_character" fn_mapping="None" grouping="" name="commercialize" verbnet_key="commercialize#1" wn="" />
   <MEMBER features="+change_appearance" fn_mapping="None" grouping="" name="configure" verbnet_key="configure#1" wn="" />
   <MEMBER features="+physical_change +change_health +negative_change" fn_mapping="None" grouping="" name="constipate" verbnet_key="constipate#1" wn="" />
-  <MEMBER features="+change_aperture" fn_mapping="None" grouping="" name="constringe" verbnet_key="constringe#1" wn="" />
-  <MEMBER features="" fn_mapping="None" grouping="construct.01 construct.02 construct.03" name="construct" verbnet_key="construct#2" wn="" />
+  <MEMBER features="+change_aperture_close" fn_mapping="None" grouping="" name="constringe" verbnet_key="constringe#1" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="construct.01 construct.02 construct.03" name="construct" verbnet_key="construct#2" wn="" />
   <MEMBER features="+abstract_change" fn_mapping="None" grouping="" name="contextualize" verbnet_key="contextualize#1" wn="" />
   <MEMBER features="+positive_change" fn_mapping="None" grouping="correct.02" name="correct" verbnet_key="correct#1" wn="" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="counteract" verbnet_key="counteract#1" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="counteract" verbnet_key="counteract#1" wn="" />
   <MEMBER features="+disintegration" fn_mapping="None" grouping="" name="cremate" verbnet_key="cremate#1" wn="" />
   <MEMBER features="+negative_change +change_health +change_ability" fn_mapping="None" grouping="deafen.03" name="deafen" verbnet_key="deafen#1" wn="" />
   <MEMBER features="+negative_change +cognitive +abstract_change" fn_mapping="None" grouping="" name="debase" verbnet_key="debase#1" wn="" />
@@ -62,8 +62,8 @@
   <MEMBER features="+change_health +add_substance" fn_mapping="None" grouping="" name="embrocate" verbnet_key="embrocate#1" wn="" />
   <MEMBER features="+positive_change" fn_mapping="Cause_change_of_position_on_a_scale" grouping="enhance.01" name="enhance" verbnet_key="enhance#1" wn="" />
   <MEMBER features="+positive_change +change_clarity" fn_mapping="None" grouping="" name="enunciate" verbnet_key="enunciate#1" wn="" />
-  <MEMBER features="+positive_change +change_influence" fn_mapping="None" grouping="" name="eternalize" verbnet_key="eternalize#1" wn="" />
-  <MEMBER features="+positive_change +change_influence" fn_mapping="None" grouping="" name="eternize" verbnet_key="eternize#1" wn="" />
+  <MEMBER features="+positive_change +change_influence_increase" fn_mapping="None" grouping="" name="eternalize" verbnet_key="eternalize#1" wn="" />
+  <MEMBER features="+positive_change +change_influence_increase" fn_mapping="None" grouping="" name="eternize" verbnet_key="eternize#1" wn="" />
   <MEMBER features="+change_character +abstract_change" fn_mapping="None" grouping="" name="europeanize" verbnet_key="europeanize#1" wn="" />
   <MEMBER features="+negative_change" fn_mapping="None" grouping="" name="exacerbate" verbnet_key="exacerbate#1" wn="" />
   <MEMBER features="+cover" fn_mapping="None" grouping="" name="exhume" verbnet_key="exhume#1" wn="" />
@@ -72,13 +72,13 @@
   <MEMBER features="+abstract_change" fn_mapping="None" grouping="federalize.01" name="federalize" verbnet_key="federalize#1" wn="federalize%2:30:00 federalize%2:30:02" />
   <MEMBER features="+positive_change +add_substance" fn_mapping="None" grouping="fertilize.01 fertilize.02 fertilize.03" name="fertilize" verbnet_key="fertilize#1" wn="" />
   <MEMBER features="+add_substance +physical_change" fn_mapping="None" grouping="" name="flouridate" verbnet_key="flouridate#1" wn="" />
-  <MEMBER features="+increase +change_strength" fn_mapping="None" grouping="fortify.02 fortify.04" name="fortify" verbnet_key="fortify#2" wn="fortify%2:30:01 fortify%2:35:00" />
+  <MEMBER features="+change_strength_increase" fn_mapping="None" grouping="fortify.02 fortify.04" name="fortify" verbnet_key="fortify#2" wn="fortify%2:30:01 fortify%2:35:00" />
   <MEMBER features="+change_appearance" fn_mapping="None" grouping="grade.02" name="grade" verbnet_key="grade#2" wn="grade%2:35:00" />
   <MEMBER features="+change_character +abstract_change" fn_mapping="None" grouping="" name="humanize" verbnet_key="humanize#1" wn="" />
   <MEMBER features="+add_substance" fn_mapping="None" grouping="" name="humidify" verbnet_key="humidify#1" wn="humidify%2:30:00" />
   <MEMBER features="+add_substance" fn_mapping="None" grouping="" name="hydrogenate" verbnet_key="hydrogenate#1" wn="" />
-  <MEMBER features="+add_substance +decrease +change_temperature" fn_mapping="None" grouping="ice.02" name="ice" verbnet_key="ice#3" wn="ice%2:30:03 ice%2:30:00" />
-  <MEMBER features="+positive_change +change_influence" fn_mapping="None" grouping="" name="immortalize" verbnet_key="immortalize#1" wn="" />
+  <MEMBER features="+add_substance +change_temperature_decrease" fn_mapping="None" grouping="ice.02" name="ice" verbnet_key="ice#3" wn="ice%2:30:03 ice%2:30:00" />
+  <MEMBER features="+positive_change +change_influence_increase" fn_mapping="None" grouping="" name="immortalize" verbnet_key="immortalize#1" wn="" />
   <MEMBER features="+negative_change +change_ability" fn_mapping="None" grouping="" name="inactivate" verbnet_key="inactivate#1" wn="" />
   <MEMBER features="+disintegration" fn_mapping="None" grouping="" name="incinerate" verbnet_key="incinerate#1" wn="" />
   <MEMBER features="+add_substance" fn_mapping="None" grouping="" name="inseminate" verbnet_key="inseminate#1" wn="" />
@@ -92,45 +92,45 @@
   <MEMBER features="+positive_change +change_health +add_substance" fn_mapping="None" grouping="" name="medicate" verbnet_key="medicate#1" wn="" />
   <MEMBER features="+change_character +abstract_change" fn_mapping="None" grouping="" name="militarize" verbnet_key="militarize#1" wn="" />
   <MEMBER features="+add_substance +physical_change" fn_mapping="None" grouping="" name="mineralize" verbnet_key="mineralize#1" wn="" />
-  <MEMBER features="+decrease +change_size" fn_mapping="None" grouping="" name="miniaturize" verbnet_key="miniaturize#1" wn="" />
-  <MEMBER features="+decrease +change_size" fn_mapping="None" grouping="" name="minimize" verbnet_key="minimize#1" wn="" />
+  <MEMBER features="+change_size_decrease" fn_mapping="None" grouping="" name="miniaturize" verbnet_key="miniaturize#1" wn="" />
+  <MEMBER features="+change_size_decrease" fn_mapping="None" grouping="" name="minimize" verbnet_key="minimize#1" wn="" />
   <MEMBER features="+negative_change" fn_mapping="None" grouping="" name="mishandle" verbnet_key="mishandle#1" wn="" />
   <MEMBER features="+negative_change" fn_mapping="None" grouping="" name="mismanage" verbnet_key="mismanage#1" wn="" />
   <MEMBER features="+positive_change +add_part" fn_mapping="None" grouping="motorize.02" name="motorize" verbnet_key="motorize#1" wn="" />
   <MEMBER features="+cover +add_substance" fn_mapping="None" grouping="" name="muddy" verbnet_key="muddy#1" wn="muddy%2:35:00 muddy%2:30:00" />
   <MEMBER features="+change_age +change_appearance +cover" fn_mapping="None" grouping="" name="mummify" verbnet_key="mummify#2" wn="" />
-  <MEMBER features="+change_intensity +reduce +change_intensity" fn_mapping="None" grouping="" name="mute" verbnet_key="mute#1" wn="" />
+  <MEMBER features="+change_intensity_decrease" fn_mapping="None" grouping="" name="mute" verbnet_key="mute#1" wn="" />
   <MEMBER features="+change_character +physical_change" fn_mapping="None" grouping="" name="nasalize" verbnet_key="nasalize#1" wn="" />
   <MEMBER features="+chemical +change_character +physical_change" fn_mapping="None" grouping="" name="nitrify" verbnet_key="nitrify#1" wn="nitrify%2:30:02" />
   <MEMBER features="+negative_change +abstract_change" fn_mapping="None" grouping="" name="objectify" verbnet_key="objectify#1" wn="" />
   <MEMBER features="+decrease +change_clarity" fn_mapping="Eclipse" grouping="obscure.01 obscure.02" name="obscure" verbnet_key="obscure#1" wn="" />
-  <MEMBER features="+remove" fn_mapping="None" grouping="" name="obviate" verbnet_key="obviate#1" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="obviate" verbnet_key="obviate#1" wn="" />
   <MEMBER features="+cover" fn_mapping="None" grouping="" name="overshadow" verbnet_key="overshadow#1" wn="" />
   <MEMBER features="+chemical +change_character +physical_change" fn_mapping="None" grouping="" name="oxygenate" verbnet_key="oxygenate#1" wn="" />
   <MEMBER features="+negative_change +change_ability" fn_mapping="None" grouping="" name="paralyze" verbnet_key="paralyze#1" wn="" />
   <MEMBER features="+positive_change +change_character +change_health +physical_change" fn_mapping="None" grouping="" name="pasteurize" verbnet_key="pasteurize#1" wn="" />
   <MEMBER features="+positive_change" fn_mapping="None" grouping="" name="perfect" verbnet_key="perfect#1" wn="" />
-  <MEMBER features="+change_influence" fn_mapping="None" grouping="" name="perpetuate" verbnet_key="perpetuate#1" wn="" />
-  <MEMBER features="+change_appearance" fn_mapping="None" grouping="pink.02" name="pink" verbnet_key="pink#4" wn="pink%2:35:00" />
-  <MEMBER features="+change_appearance +remove_part" fn_mapping="None" grouping="" name="pollard" verbnet_key="pollard#1" wn="" />
-  <MEMBER features="+abstract_change +change_influence +positive_change" fn_mapping="None" grouping="" name="popularize" verbnet_key="popularize#1" wn="" />
+  <MEMBER features="+change_influence_increase" fn_mapping="None" grouping="" name="perpetuate" verbnet_key="perpetuate#1" wn="" />
+  <MEMBER features="+change_appearance +change_color" fn_mapping="None" grouping="pink.02" name="pink" verbnet_key="pink#4" wn="pink%2:35:00" />
+  <MEMBER features="+remove_part" fn_mapping="None" grouping="" name="pollard" verbnet_key="pollard#1" wn="" />
+  <MEMBER features="+abstract_change +change_influence_increase +positive_change" fn_mapping="None" grouping="" name="popularize" verbnet_key="popularize#1" wn="" />
   <MEMBER features="+abstract_change +change_belief" fn_mapping="None" grouping="" name="prejudge" verbnet_key="prejudge#1" wn="" />
   <MEMBER features="+positive_change +change_appearance" fn_mapping="None" grouping="" name="prettify" verbnet_key="prettify#1" wn="" />
   <MEMBER features="+abstract_change +change_influence" fn_mapping="None" grouping="publicize.01" name="publicize" verbnet_key="publicize#1" wn="" />
   <MEMBER features="+increase" fn_mapping="None" grouping="raise.07" name="raise" verbnet_key="raise#7" wn="raise%2:30:02 raise%2:41:04 raise%2:30:03" />
-  <MEMBER features="+change_strength +change_feeling" fn_mapping="None" grouping="" name="reanimate" verbnet_key="reanimate#1" wn="" />
+  <MEMBER features="+change_strength_increase +change_feeling +positive_change" fn_mapping="None" grouping="" name="reanimate" verbnet_key="reanimate#1" wn="" />
   <MEMBER features="+positive_change" fn_mapping="None" grouping="" name="rectify" verbnet_key="rectify#1" wn="" />
   <MEMBER features="+remove_part" fn_mapping="None" grouping="" name="redact" verbnet_key="redact#1" wn="" />
   <MEMBER features="+physical_change +change_direction" fn_mapping="None" grouping="" name="refract" verbnet_key="refract#1" wn="" />
   <MEMBER features="+abstract_change +change_influence" fn_mapping="None" grouping="" name="regularize" verbnet_key="regularize#1" wn="regularize%2:30:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="remaster" verbnet_key="remaster#1" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="remaster" verbnet_key="remaster#1" wn="" />
   <MEMBER features="+positive_change" fn_mapping="None" grouping="" name="remedy" verbnet_key="remedy#1" wn="" />
   <MEMBER features="+positive_change" fn_mapping="None" grouping="" name="repair" verbnet_key="repair#1" wn="" />
   <MEMBER features="+positive_change" fn_mapping="None" grouping="" name="revise" verbnet_key="revise#1" wn="" />
   <MEMBER features="+abstract_change +change_character" fn_mapping="None" grouping="" name="secularize" verbnet_key="secularize#1" wn="" />
   <MEMBER features="+abstract_change +change_character +change_feeling" fn_mapping="None" grouping="" name="sensationalize" verbnet_key="sensationalize#1" wn="" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="shortchange" verbnet_key="shortchange#1" wn="" />
-  <MEMBER features="+decrease +change_intensity" fn_mapping="Killing" grouping="silence.01" name="silence" verbnet_key="silence#1" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shortchange" verbnet_key="shortchange#1" wn="" />
+  <MEMBER features="+change_intensity_decrease" fn_mapping="Killing" grouping="silence.01" name="silence" verbnet_key="silence#1" wn="" />
   <MEMBER features="+disintegration" fn_mapping="None" grouping="" name="singe" verbnet_key="singe#1" wn="singe%2:30:00" />
   <MEMBER features="+change_of_constitution" fn_mapping="None" grouping="" name="sinter" verbnet_key="sinter#1" wn="" />
   <MEMBER features="+abstract_change +change_character" fn_mapping="None" grouping="" name="sovietize" verbnet_key="sovietize#1" wn="" />
@@ -143,8 +143,8 @@
   <MEMBER features="+positive_change +change_appearance" fn_mapping="None" grouping="" name="tart up" verbnet_key="tart up#1" wn="" />
   <MEMBER features="+negative_change +change_appearance" fn_mapping="None" grouping="" name="tousle" verbnet_key="tousle#1" wn="" />
   <MEMBER features="+negative_change +change_feeling" fn_mapping="None" grouping="" name="traumatize" verbnet_key="traumatize#1" wn="" />
-  <MEMBER features="+decrease +change_size" fn_mapping="None" grouping="" name="truncate" verbnet_key="truncate#1" wn="" />
-  <MEMBER features="+decrease +change_influence" fn_mapping="None" grouping="" name="trivialize" verbnet_key="trivialize#1" wn="trivialize%2:32:00" />
+  <MEMBER features="+change_size_decrease" fn_mapping="None" grouping="" name="truncate" verbnet_key="truncate#1" wn="" />
+  <MEMBER features="+change_influence_decrease" fn_mapping="None" grouping="" name="trivialize" verbnet_key="trivialize#1" wn="trivialize%2:32:00" />
   <MEMBER features="+increase" fn_mapping="None" grouping="" name="turn-up" verbnet_key="turn-up#1" wn="" />
   <MEMBER features="+decrease" fn_mapping="None" grouping="" name="turn-down" verbnet_key="turn-down#2" wn="" />
   <MEMBER features="+deprive" fn_mapping="None" grouping="" name="underfeed" verbnet_key="underfeed#1" wn="" />
@@ -277,14 +277,14 @@
     <MEMBER features="+divide" fn_mapping="None" grouping="" name="categorize" verbnet_key="categorize#2" wn="" />
     <MEMBER features="+mix" fn_mapping="None" grouping="" name="conflate" verbnet_key="conflate#2" wn="" />
     <MEMBER features="+change_character" fn_mapping="None" grouping="domesticate.01" name="domesticate" verbnet_key="domesticate#1" wn="" />
-    <MEMBER features="+decrease +change_intensity" fn_mapping="None" grouping="extinguish.02" name="extinguish" verbnet_key="extinguish#1" wn="extinguish%2:43:00 extinguish%2:30:05" />
-    <MEMBER features="+decrease +change_size" fn_mapping="None" grouping="" name="halve" verbnet_key="halve#1" wn="" />
+    <MEMBER features="+change_intensity_decrease" fn_mapping="None" grouping="extinguish.02" name="extinguish" verbnet_key="extinguish#1" wn="extinguish%2:43:00 extinguish%2:30:05" />
+    <MEMBER features="+change_size_decrease" fn_mapping="None" grouping="" name="halve" verbnet_key="halve#1" wn="" />
     <MEMBER features="+positive_change +change_character" fn_mapping="None" grouping="" name="homogenize" verbnet_key="homogenize#1" wn="" />
     <MEMBER features="+change_appearance" fn_mapping="None" grouping="lighten.02 lighten.03" name="lighten" verbnet_key="lighten#1" wn="lighten%2:35:00" />
     <MEMBER features="+change_character +physical_change" fn_mapping="None" grouping="" name="magnetize" verbnet_key="magnetize#1" wn="magnetize%2:30:00" />
-    <MEMBER features="+increase +change_size" fn_mapping="None" grouping="magnify.01" name="magnify" verbnet_key="magnify#2" wn="magnify%2:30:00 magnify%2:30:01" />
+    <MEMBER features="+change_size_increase" fn_mapping="None" grouping="magnify.01" name="magnify" verbnet_key="magnify#2" wn="magnify%2:30:00 magnify%2:30:01" />
     <MEMBER features="+remove_part" fn_mapping="None" grouping="" name="transplant" verbnet_key="transplant#1" wn="" />
-    <MEMBER features="" fn_mapping="None" grouping="" name="upload" verbnet_key="upload#2" wn="" />
+    <MEMBER features="None" fn_mapping="None" grouping="" name="upload" verbnet_key="upload#2" wn="" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>

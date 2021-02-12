@@ -1,22 +1,22 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="lure-59.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="allure" verbnet_key="allure#1" wn="allure%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="attract" verbnet_key="attract#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="bewitch" verbnet_key="bewitch#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="cajole" verbnet_key="cajole#1" wn="cajole%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="coax" verbnet_key="coax#1" wn="coax%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="coerce" verbnet_key="coerce#1" wn="coerce%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="draw.01" name="draw" verbnet_key="draw#3" wn="draw%2:35:03"/>
-  <MEMBER fn_mapping="None" grouping="entice.01" name="entice" verbnet_key="entice#2" wn="entice%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="flatter" verbnet_key="flatter#2" wn="flatter%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="inveigle" verbnet_key="inveigle#1" wn="inveigle%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="lure.01" name="lure" verbnet_key="lure#1" wn="lure%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="seduce.01" name="seduce" verbnet_key="seduce#1" wn="seduce%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="soothe" verbnet_key="soothe#2" wn="soothe%2:37:00"/>
-  <MEMBER fn_mapping="None" grouping="talk.04" name="talk" verbnet_key="talk#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="sweet-talk" verbnet_key="sweet-talk#1" wn="sweet-talk%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="win.03" name="win_over" verbnet_key="win_over#1" wn="win_over%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="allure" verbnet_key="allure#1" wn="allure%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="attract" verbnet_key="attract#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bewitch" verbnet_key="bewitch#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cajole" verbnet_key="cajole#1" wn="cajole%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="coax" verbnet_key="coax#1" wn="coax%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="coerce" verbnet_key="coerce#1" wn="coerce%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="draw.01" name="draw" verbnet_key="draw#3" wn="draw%2:35:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="entice.01" name="entice" verbnet_key="entice#2" wn="entice%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flatter" verbnet_key="flatter#2" wn="flatter%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="inveigle" verbnet_key="inveigle#1" wn="inveigle%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="lure.01" name="lure" verbnet_key="lure#1" wn="lure%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="seduce.01" name="seduce" verbnet_key="seduce#1" wn="seduce%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="soothe" verbnet_key="soothe#2" wn="soothe%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="talk.04" name="talk" verbnet_key="talk#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sweet-talk" verbnet_key="sweet-talk#1" wn="sweet-talk%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="win.03" name="win_over" verbnet_key="win_over#1" wn="win_over%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

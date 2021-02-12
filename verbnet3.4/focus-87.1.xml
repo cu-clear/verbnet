@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="focus-87.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Emphasizing" grouping="focus.02" name="focus" verbnet_key="focus#1" wn="focus%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="focalize.01" name="focalize" verbnet_key="focalize#1" wn="focalize%2:42:00 focalize%2:31:00 focalize%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="center.02" name="center" verbnet_key="center#1" wn="center%2:42:00 center%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="concentrate.01" name="concentrate" verbnet_key="concentrate#1" wn="concentrate%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="contemplate.01" name="contemplate" verbnet_key="contemplate#1" wn="contemplate%2:31:02         contemplate%2:31:00 contemplate%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="converge.01" name="converge" verbnet_key="converge#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="dwell.01" name="dwell" verbnet_key="dwell#2" wn="dwell%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="fixate.01" name="fixate" verbnet_key="fixate#1" wn="fixate%2:41:00 fixate%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Emphasizing" grouping="focus.02" name="focus" verbnet_key="focus#1" wn="focus%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="focalize.01" name="focalize" verbnet_key="focalize#1" wn="focalize%2:42:00 focalize%2:31:00 focalize%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="center.02" name="center" verbnet_key="center#1" wn="center%2:42:00 center%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="concentrate.01" name="concentrate" verbnet_key="concentrate#1" wn="concentrate%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="contemplate.01" name="contemplate" verbnet_key="contemplate#1" wn="contemplate%2:31:02         contemplate%2:31:00 contemplate%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="converge.01" name="converge" verbnet_key="converge#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="dwell.01" name="dwell" verbnet_key="dwell#2" wn="dwell%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fixate.01" name="fixate" verbnet_key="fixate#1" wn="fixate%2:41:00 fixate%2:39:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -197,15 +197,15 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="focus-87.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="brood" verbnet_key="brood#1" wn="brood%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="deliberate" verbnet_key="deliberate#2" wn="deliberate%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="meditate" verbnet_key="meditate#1" wn="meditate%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="muse" verbnet_key="muse#1" wn="muse%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="ponder.01" name="ponder" verbnet_key="ponder#1" wn="ponder%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="reflect.03" name="reflect" verbnet_key="reflect#1" wn="reflect%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="ruminate" verbnet_key="ruminate#1" wn="ruminate%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="think.02" name="think" verbnet_key="think#2" wn="think%2:31:13"/>
-    <MEMBER fn_mapping="None" grouping="wonder.01" name="wonder" verbnet_key="wonder#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="brood" verbnet_key="brood#1" wn="brood%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="deliberate" verbnet_key="deliberate#2" wn="deliberate%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="meditate" verbnet_key="meditate#1" wn="meditate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="muse" verbnet_key="muse#1" wn="muse%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="ponder.01" name="ponder" verbnet_key="ponder#1" wn="ponder%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="reflect.03" name="reflect" verbnet_key="reflect#1" wn="reflect%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="ruminate" verbnet_key="ruminate#1" wn="ruminate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="think.02" name="think" verbnet_key="think#2" wn="think%2:31:13"/>
+    <MEMBER features="None" fn_mapping="None" grouping="wonder.01" name="wonder" verbnet_key="wonder#2" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

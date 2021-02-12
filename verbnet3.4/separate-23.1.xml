@@ -2,9 +2,9 @@
 <VNCLASS ID="separate-23.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--REMOVED "dismember" misclassified-->
-  <MEMBER fn_mapping="None" grouping="" name="disassociate" verbnet_key="disassociate#1" wn="disassociate%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="sever.01 sever.02" name="sever" verbnet_key="sever#2" wn="sever%2:35:01 sever%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="uncoil" verbnet_key="uncoil#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="disassociate" verbnet_key="disassociate#1" wn="disassociate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sever.01 sever.02" name="sever" verbnet_key="sever#2" wn="sever%2:35:01 sever%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="uncoil" verbnet_key="uncoil#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <!--Patient is interpreted as Figure, Co-Patient as Ground
@@ -227,13 +227,13 @@
   <VNSUBCLASS ID="separate-23.1-1">
    <MEMBERS>
     <!--REMOVED "distinguish" misclassified-->
-    <MEMBER fn_mapping="None" grouping="" name="decouple" verbnet_key="decouple#1" wn="decouple%2:31:00"/>
-    <MEMBER fn_mapping="Differentiation" grouping="differentiate.01 differentiate.03" name="differentiate" verbnet_key="differentiate#2" wn="differentiate%2:31:01 differentiate%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="disentangle" verbnet_key="disentangle#1" wn="disentangle%2:35:02 disentangle%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="dissimilate.01" name="dissimilate" verbnet_key="dissimilate#1" wn="dissimilate%2:30:02 dissimilate%2:30:01 dissimilate%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="divide.01 divide.02 divide.04" name="divide" verbnet_key="divide#3" wn="divide%2:42:00 divide%2:35:00 divide%2:35:01"/>
-    <MEMBER fn_mapping="Forming_relationships" grouping="divorce.01 divorce.02" name="divorce" verbnet_key="divorce#2" wn="divorce%2:41:01 divorce%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="segregate" verbnet_key="segregate#2" wn="segregate%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="decouple" verbnet_key="decouple#1" wn="decouple%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Differentiation" grouping="differentiate.01 differentiate.03" name="differentiate" verbnet_key="differentiate#2" wn="differentiate%2:31:01 differentiate%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="disentangle" verbnet_key="disentangle#1" wn="disentangle%2:35:02 disentangle%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="dissimilate.01" name="dissimilate" verbnet_key="dissimilate#1" wn="dissimilate%2:30:02 dissimilate%2:30:01 dissimilate%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="divide.01 divide.02 divide.04" name="divide" verbnet_key="divide#3" wn="divide%2:42:00 divide%2:35:00 divide%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Forming_relationships" grouping="divorce.01 divorce.02" name="divorce" verbnet_key="divorce#2" wn="divorce%2:41:01 divorce%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="segregate" verbnet_key="segregate#2" wn="segregate%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -278,10 +278,10 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="separate-23.1-1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="disconnect.01 disconnect.02" name="disconnect" verbnet_key="disconnect#2" wn="disconnect%2:35:03 disconnect%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="dissociate" verbnet_key="dissociate#1" wn="dissociate%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="part.01 part.02 part.03 part.04" name="part" verbnet_key="part#2" wn="part%2:38:02 part%2:41:00 part%2:35:00 part%2:35:01"/>
-    <MEMBER fn_mapping="Forming_relationships" grouping="separate.01" name="separate" verbnet_key="separate#3" wn="separate%2:42:00 separate%2:35:01 separate%2:35:00 separate%2:35:02 separate%2:41:02 separate%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="disconnect.01 disconnect.02" name="disconnect" verbnet_key="disconnect#2" wn="disconnect%2:35:03 disconnect%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="dissociate" verbnet_key="dissociate#1" wn="dissociate%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="part.01 part.02 part.03 part.04" name="part" verbnet_key="part#2" wn="part%2:38:02 part%2:41:00 part%2:35:00 part%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Forming_relationships" grouping="separate.01" name="separate" verbnet_key="separate#3" wn="separate%2:42:00 separate%2:35:01 separate%2:35:00 separate%2:35:02 separate%2:41:02 separate%2:38:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="multiply-108" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="sum.02" name="sum" verbnet_key="sum#1" wn="sum%2:32:00"/>
-  <MEMBER fn_mapping="Adding_up" grouping="add.02" name="add" verbnet_key="add#2" wn="add%2:32:00 add%2:31:00"/>
-  <MEMBER fn_mapping="Adding_up" grouping="tally.01" name="tally" verbnet_key="tally#1" wn="tally%2:32:00"/>
-  <MEMBER fn_mapping="Being_in_category" grouping="count.01 count.03" name="count" verbnet_key="count#5" wn="count%2:32:00 count%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sum.02" name="sum" verbnet_key="sum#1" wn="sum%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Adding_up" grouping="add.02" name="add" verbnet_key="add#2" wn="add%2:32:00 add%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Adding_up" grouping="tally.01" name="tally" verbnet_key="tally#1" wn="tally%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Being_in_category" grouping="count.01 count.03" name="count" verbnet_key="count#5" wn="count%2:32:00 count%2:31:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -54,8 +54,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="multiply-108-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="multiply" verbnet_key="multiply#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="divide" verbnet_key="divide#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="multiply" verbnet_key="multiply#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="divide" verbnet_key="divide#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -97,11 +97,11 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="multiply-108-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="deduct.01" name="deduct" verbnet_key="deduct#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="factor_out" verbnet_key="factor_out#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="interpolate" verbnet_key="interpolate#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="extrapolate.01" name="extrapolate" verbnet_key="extrapolate#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="subtract" verbnet_key="subtract#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="deduct.01" name="deduct" verbnet_key="deduct#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="factor_out" verbnet_key="factor_out#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="interpolate" verbnet_key="interpolate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="extrapolate.01" name="extrapolate" verbnet_key="extrapolate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="subtract" verbnet_key="subtract#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -143,7 +143,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="multiply-108-3">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="average" verbnet_key="average#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="average" verbnet_key="average#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

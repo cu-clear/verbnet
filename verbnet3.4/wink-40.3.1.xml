@@ -3,16 +3,16 @@
  <MEMBERS>
   <!--Each verb adds a manner predicate indicating how the Patient is moved by the Agent-->
   <!--"blink, squint, wink" can also be used in involuntary action, which we are not considering in this class-->
-  <MEMBER fn_mapping="None" grouping="beckon.01" name="beckon" verbnet_key="beckon#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="point.01" name="blink" verbnet_key="blink#3" wn="blink%2:29:00 blink%2:29:01"/>
-  <MEMBER fn_mapping="None" grouping="clap.03" name="clap" verbnet_key="clap#2" wn="clap%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gesture" verbnet_key="gesture#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="nod.01" name="nod" verbnet_key="nod#1" wn="nod%2:32:00 nod%2:29:03"/>
-  <MEMBER fn_mapping="None" grouping="point.01" name="point" verbnet_key="point#1" wn="?point%2:32:00 ?point%2:33:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="shrug" verbnet_key="shrug#1" wn="shrug%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="squint.01" name="squint" verbnet_key="squint#2" wn="squint%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="wave.01" name="wave" verbnet_key="wave#3" wn="wave%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="wink.01 wink.03" name="wink" verbnet_key="wink#1" wn="wink%2:29:02 wink%2:29:00 wink%2:29:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="beckon.01" name="beckon" verbnet_key="beckon#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="point.01" name="blink" verbnet_key="blink#3" wn="blink%2:29:00 blink%2:29:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="clap.03" name="clap" verbnet_key="clap#2" wn="clap%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gesture" verbnet_key="gesture#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="nod.01" name="nod" verbnet_key="nod#1" wn="nod%2:32:00 nod%2:29:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="point.01" name="point" verbnet_key="point#1" wn="?point%2:32:00 ?point%2:33:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shrug" verbnet_key="shrug#1" wn="shrug%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="squint.01" name="squint" verbnet_key="squint#2" wn="squint%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wave.01" name="wave" verbnet_key="wave#3" wn="wave%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wink.01 wink.03" name="wink" verbnet_key="wink#1" wn="wink%2:29:02 wink%2:29:00 wink%2:29:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

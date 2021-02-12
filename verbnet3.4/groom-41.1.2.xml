@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="groom-41.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="cleanse" verbnet_key="cleanse#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="curry" verbnet_key="curry#1" wn="curry%2:29:00"/>
-  <MEMBER fn_mapping="Grooming" grouping="groom.01" name="groom" verbnet_key="groom#1" wn="groom%2:29:03 groom%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="neaten" verbnet_key="neaten#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cleanse" verbnet_key="cleanse#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="curry" verbnet_key="curry#1" wn="curry%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Grooming" grouping="groom.01" name="groom" verbnet_key="groom#1" wn="groom%2:29:03 groom%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="neaten" verbnet_key="neaten#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

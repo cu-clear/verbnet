@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="initiate_communication-37.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="buzz.03" name="buzz" verbnet_key="buzz#3" wn="buzz%2:32:00"/>
-  <MEMBER fn_mapping="Contacting" grouping="get.06" name="get" verbnet_key="get#7" wn="get%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="get.06" name="get_ahold_of" verbnet_key="get_ahold_of#1" wn="get%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="get.06" name="get_hold_of" verbnet_key="get_hold_of#1" wn="get%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="ping.03" name="ping" verbnet_key="ping#1" wn="ping%2:32:01"/>
-  <MEMBER fn_mapping="Contacting" grouping="reach.02" name="reach" verbnet_key="reach#3" wn="reach%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="buzz.03" name="buzz" verbnet_key="buzz#3" wn="buzz%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Contacting" grouping="get.06" name="get" verbnet_key="get#7" wn="get%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="get.06" name="get_ahold_of" verbnet_key="get_ahold_of#1" wn="get%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="get.06" name="get_hold_of" verbnet_key="get_hold_of#1" wn="get%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ping.03" name="ping" verbnet_key="ping#1" wn="ping%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Contacting" grouping="reach.02" name="reach" verbnet_key="reach#3" wn="reach%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -74,10 +74,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="initiate_communication-37.4.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="call.04" name="call" verbnet_key="call#4" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="phone" verbnet_key="phone#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="ring.04" name="ring" verbnet_key="ring#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="telephone" verbnet_key="telephone#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="call.04" name="call" verbnet_key="call#4" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="phone" verbnet_key="phone#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="ring.04" name="ring" verbnet_key="ring#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="telephone" verbnet_key="telephone#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

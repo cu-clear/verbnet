@@ -1,31 +1,31 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="exist-47.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="coexist" verbnet_key="coexist#1" wn="coexist%2:42:01 coexist%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="dwell.02" name="dwell" verbnet_key="dwell#1" wn="dwell%2:42:01 dwell%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="exist.01 exist.02" name="exist" verbnet_key="exist#1" wn="exist%2:42:00 exist%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="extend.01 extend.02" name="extend" verbnet_key="extend#3" wn="extend%2:42:03 extend%2:42:01 extend%2:30:06"/>
-  <MEMBER fn_mapping="None" grouping="flourish.01" name="flourish" verbnet_key="flourish#1" wn="flourish%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="hold.05" name="hold" verbnet_key="hold#5" wn=""/>
-  <MEMBER fn_mapping="Thriving" grouping="languish.01" name="languish" verbnet_key="languish#1" wn="languish%2:30:00 languish%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="linger.01" name="linger" verbnet_key="linger#1" wn="linger%2:42:02 linger%2:42:00"/>
-  <MEMBER fn_mapping="Residence" grouping="live.01 live.02 live.03" name="live" verbnet_key="live#1" wn="live%2:42:08 live%2:42:04 live%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="loom.01 loom.02" name="loom" verbnet_key="loom#1" wn="loom%2:42:02 loom%2:42:06"/>
-  <MEMBER fn_mapping="None" grouping="lurk.01" name="lurk" verbnet_key="lurk#1" wn="lurk%2:42:01 lurk%2:42:00 lurk%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="persist.01" name="persist" verbnet_key="persist#1" wn="persist%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="predominate" verbnet_key="predominate#1" wn="predominate%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="prevail.02" name="prevail" verbnet_key="prevail#1" wn="prevail%2:42:02 prevail%2:42:01 prevail%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="prosper" verbnet_key="prosper#1" wn="prosper%2:40:00"/>
-  <MEMBER fn_mapping="Remainder" grouping="remain.01 remain.02" name="remain" verbnet_key="remain#1" wn="remain%2:30:00 remain%2:42:03 remain%2:42:05"/>
-  <MEMBER fn_mapping="Residence" grouping="reside.01" name="reside" verbnet_key="reside#1" wn="reside%2:42:00 reside%2:42:01 reside%2:42:12"/>
-  <MEMBER fn_mapping="None" grouping="" name="shelter" verbnet_key="shelter#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="stand.03" name="stand" verbnet_key="stand#3" wn="stand%2:42:04"/>
-  <MEMBER fn_mapping="None" grouping="stay.01" name="stay" verbnet_key="stay#1" wn="stay%2:30:00 stay%2:38:00 stay%2:42:02 stay%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="thrive.01" name="thrive" verbnet_key="thrive#1" wn="thrive%2:30:00 thrive%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tower" verbnet_key="tower#1" wn="tower%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="vegetate.01" name="vegetate" verbnet_key="vegetate#1" wn="vegetate%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="wait.01" name="wait" verbnet_key="wait#1" wn="wait%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="persevere" verbnet_key="persevere#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="coexist" verbnet_key="coexist#1" wn="coexist%2:42:01 coexist%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dwell.02" name="dwell" verbnet_key="dwell#1" wn="dwell%2:42:01 dwell%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="exist.01 exist.02" name="exist" verbnet_key="exist#1" wn="exist%2:42:00 exist%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="extend.01 extend.02" name="extend" verbnet_key="extend#3" wn="extend%2:42:03 extend%2:42:01 extend%2:30:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="flourish.01" name="flourish" verbnet_key="flourish#1" wn="flourish%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hold.05" name="hold" verbnet_key="hold#5" wn=""/>
+  <MEMBER features="None" fn_mapping="Thriving" grouping="languish.01" name="languish" verbnet_key="languish#1" wn="languish%2:30:00 languish%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="linger.01" name="linger" verbnet_key="linger#1" wn="linger%2:42:02 linger%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Residence" grouping="live.01 live.02 live.03" name="live" verbnet_key="live#1" wn="live%2:42:08 live%2:42:04 live%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="loom.01 loom.02" name="loom" verbnet_key="loom#1" wn="loom%2:42:02 loom%2:42:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="lurk.01" name="lurk" verbnet_key="lurk#1" wn="lurk%2:42:01 lurk%2:42:00 lurk%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="persist.01" name="persist" verbnet_key="persist#1" wn="persist%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="predominate" verbnet_key="predominate#1" wn="predominate%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="prevail.02" name="prevail" verbnet_key="prevail#1" wn="prevail%2:42:02 prevail%2:42:01 prevail%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="prosper" verbnet_key="prosper#1" wn="prosper%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Remainder" grouping="remain.01 remain.02" name="remain" verbnet_key="remain#1" wn="remain%2:30:00 remain%2:42:03 remain%2:42:05"/>
+  <MEMBER features="None" fn_mapping="Residence" grouping="reside.01" name="reside" verbnet_key="reside#1" wn="reside%2:42:00 reside%2:42:01 reside%2:42:12"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shelter" verbnet_key="shelter#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="stand.03" name="stand" verbnet_key="stand#3" wn="stand%2:42:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stay.01" name="stay" verbnet_key="stay#1" wn="stay%2:30:00 stay%2:38:00 stay%2:42:02 stay%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="thrive.01" name="thrive" verbnet_key="thrive#1" wn="thrive%2:30:00 thrive%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tower" verbnet_key="tower#1" wn="tower%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="vegetate.01" name="vegetate" verbnet_key="vegetate#1" wn="vegetate%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wait.01" name="wait" verbnet_key="wait#1" wn="wait%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="persevere" verbnet_key="persevere#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -99,9 +99,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="exist-47.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="endure.01" name="endure" verbnet_key="endure#1" wn="endure%2:42:00 endure%2:42:08"/>
-    <MEMBER fn_mapping="Residence" grouping="live.03" name="live" verbnet_key="live#1" wn="live%2:42:04"/>
-    <MEMBER fn_mapping="None" grouping="survive.01" name="survive" verbnet_key="survive#1" wn="survive%2:42:01 survive%2:42:02 survive%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="endure.01" name="endure" verbnet_key="endure#1" wn="endure%2:42:00 endure%2:42:08"/>
+    <MEMBER features="None" fn_mapping="Residence" grouping="live.03" name="live" verbnet_key="live#1" wn="live%2:42:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="survive.01" name="survive" verbnet_key="survive#1" wn="survive%2:42:01 survive%2:42:02 survive%2:42:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Circumstance">

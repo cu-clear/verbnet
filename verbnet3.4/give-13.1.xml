@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="give-13.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="deal.04" name="deal" verbnet_key="deal#2" wn="deal%2:40:01 deal%2:40:02 deal%2:40:07         deal%2:40:06"/>
-  <MEMBER fn_mapping="None" grouping="give.01 give.02" name="give-back" verbnet_key="give-back#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="lend.02" name="lend" verbnet_key="lend#1" wn="lend%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="loan" verbnet_key="loan#1" wn="loan%2:40:00"/>
-  <MEMBER fn_mapping="Giving" grouping="pass.04" name="pass" verbnet_key="pass#3" wn="pass%2:40:00 pass%2:40:01 pass%2:40:13 pass%2:38:04"/>
-  <MEMBER fn_mapping="None" grouping="peddle.01" name="peddle" verbnet_key="peddle#1" wn="peddle%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="refund.01" name="refund" verbnet_key="refund#1" wn="refund%2:40:00"/>
-  <MEMBER fn_mapping="Categorization" grouping="render.02" name="render" verbnet_key="render#1" wn="render%2:40:02 render%2:40:01 render%2:40:00 render%2:40:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="deal.04" name="deal" verbnet_key="deal#2" wn="deal%2:40:01 deal%2:40:02 deal%2:40:07         deal%2:40:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="give.01 give.02" name="give-back" verbnet_key="give-back#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="lend.02" name="lend" verbnet_key="lend#1" wn="lend%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="loan" verbnet_key="loan#1" wn="loan%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Giving" grouping="pass.04" name="pass" verbnet_key="pass#3" wn="pass%2:40:00 pass%2:40:01 pass%2:40:13 pass%2:38:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="peddle.01" name="peddle" verbnet_key="peddle#1" wn="peddle%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="refund.01" name="refund" verbnet_key="refund#1" wn="refund%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Categorization" grouping="render.02" name="render" verbnet_key="render#1" wn="render%2:40:02 render%2:40:01 render%2:40:00 render%2:40:03"/>
   <!--removed "trade" from class because doesn't take "to-PP"-->
   <!--removed "volunteer "from class because doesn't fit dative or-->
   <!--PP recipient PP frames-->
@@ -291,14 +291,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="give-13.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Giving" grouping="give.01 give.08" name="give" verbnet_key="give#3" wn="give%2:40:03 give%2:40:00 give%2:40:01 give%2:40:02 give%2:40:06 give%2:40:13 give%2:34:00 give%2:40:12"/>
-    <MEMBER fn_mapping="None" grouping="" name="hock" verbnet_key="hock#1" wn="hock%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="hawk.01" name="hawk" verbnet_key="hawk#3" wn="hawk%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="let.02" name="let" verbnet_key="let#2" wn="let%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="rent.01" name="rent" verbnet_key="rent#2" wn="rent%2:41:01 rent%2:40:01"/>
-    <MEMBER fn_mapping="Commerce_sell" grouping="sell.01 sell.02" name="sell" verbnet_key="sell#1" wn="sell%2:40:00 sell%2:40:01"/>
-    <MEMBER fn_mapping="None" grouping="lease.02" name="lease" verbnet_key="lease#2" wn="lease%2:41:00 lease%2:40:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="pawn" verbnet_key="pawn#1" wn="pawn%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Giving" grouping="give.01 give.08" name="give" verbnet_key="give#3" wn="give%2:40:03 give%2:40:00 give%2:40:01 give%2:40:02 give%2:40:06 give%2:40:13 give%2:34:00 give%2:40:12"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="hock" verbnet_key="hock#1" wn="hock%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="hawk.01" name="hawk" verbnet_key="hawk#3" wn="hawk%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="let.02" name="let" verbnet_key="let#2" wn="let%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="rent.01" name="rent" verbnet_key="rent#2" wn="rent%2:41:01 rent%2:40:01"/>
+    <MEMBER features="None" fn_mapping="Commerce_sell" grouping="sell.01 sell.02" name="sell" verbnet_key="sell#1" wn="sell%2:40:00 sell%2:40:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="lease.02" name="lease" verbnet_key="lease#2" wn="lease%2:41:00 lease%2:40:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pawn" verbnet_key="pawn#1" wn="pawn%2:40:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Asset">

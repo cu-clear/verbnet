@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="matter-91" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="matter.01" name="matter" verbnet_key="matter#1" wn="count%2:42:00"/>
-  <MEMBER fn_mapping="Importance" grouping="count.02" name="count" verbnet_key="count#4" wn="matter%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="matter.01" name="matter" verbnet_key="matter#1" wn="count%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Importance" grouping="count.02" name="count" verbnet_key="count#4" wn="matter%2:42:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">

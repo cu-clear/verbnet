@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="throw-17.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Cause_motion" grouping="cast.01" name="cast" verbnet_key="cast#3" wn="cast%2:36:02 cast%2:35:00"/>
-  <MEMBER fn_mapping="Removing" grouping="discard.01" name="discard" verbnet_key="discard#1" wn="discard%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="drive.04" name="drive" verbnet_key="drive#7" wn="drive%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="cast.01" name="cast" verbnet_key="cast#3" wn="cast%2:36:02 cast%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="discard.01" name="discard" verbnet_key="discard#1" wn="discard%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="drive.04" name="drive" verbnet_key="drive#7" wn="drive%2:35:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -504,31 +504,31 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="throw-17.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="bash" verbnet_key="bash#3" wn="bash%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="bat.01" name="bat" verbnet_key="bat#2" wn="bat%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="bunt" verbnet_key="bunt#1" wn="bunt%2:35:01"/>
-    <MEMBER fn_mapping="Cause_motion" grouping="chuck.01" name="chuck" verbnet_key="chuck#1" wn="chuck%2:35:00"/>
-    <MEMBER fn_mapping="Shoot_projectiles" grouping="fire.01" name="fire" verbnet_key="fire#2" wn="fire%2:33:01 fire%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="flick.04" name="flick" verbnet_key="flick#2" wn="flick%2:35:03"/>
-    <MEMBER fn_mapping="Cause_motion" grouping="fling.01" name="fling" verbnet_key="fling#1" wn="fling%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="flip.01" name="flip" verbnet_key="flip#1" wn="flip%2:38:00 flip%2:38:02 flip%2:35:05 flip%2:35:03"/>
-    <MEMBER fn_mapping="Hit_target" grouping="hit.01" name="hit" verbnet_key="hit#6" wn="hit%2:35:03"/>
-    <MEMBER fn_mapping="Cause_motion" grouping="hurl.01" name="hurl" verbnet_key="hurl#1" wn="hurl%2:35:00"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="knock.01" name="knock" verbnet_key="knock#5" wn="knock%2:35:04"/>
-    <MEMBER fn_mapping="None" grouping="" name="lob" verbnet_key="lob#1" wn="lob%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="loft" verbnet_key="loft#1" wn="loft%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="nudge" verbnet_key="nudge#3" wn="nudge%2:35:00"/>
-    <MEMBER fn_mapping="Giving" grouping="pass.04" name="pass" verbnet_key="pass#8" wn="pass%2:40:01"/>
-    <MEMBER fn_mapping="Cause_motion" grouping="pitch.01 pitch.02 pitch.07 pitch.08" name="pitch" verbnet_key="pitch#1" wn="pitch%2:35:00 pitch%2:35:13"/>
-    <MEMBER fn_mapping="Cause_motion" grouping="punt.01" name="punt" verbnet_key="punt#2" wn="punt%2:35:01"/>
-    <MEMBER fn_mapping="Shoot_projectiles" grouping="shoot.02" name="shoot" verbnet_key="shoot#2" wn="shoot%2:35:01"/>
-    <MEMBER fn_mapping="Cause_motion" grouping="shove.02" name="shove" verbnet_key="shove#4" wn="shove%2:38:01"/>
-    <MEMBER fn_mapping="Judgment_communication" grouping="slam.01" name="slam" verbnet_key="slam#3" wn="slam%2:35:02"/>
-    <MEMBER fn_mapping="Cause_impact" grouping="slap.04" name="slap" verbnet_key="slap#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="sling.01" name="sling" verbnet_key="sling#2" wn="sling%2:35:00"/>
-    <MEMBER fn_mapping="Cause_to_fragment" grouping="smash.01" name="smash" verbnet_key="smash#6" wn="smash%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="tap" verbnet_key="tap#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="boot.02" name="boot" verbnet_key="boot#2" wn="boot%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="bash" verbnet_key="bash#3" wn="bash%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bat.01" name="bat" verbnet_key="bat#2" wn="bat%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="bunt" verbnet_key="bunt#1" wn="bunt%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Cause_motion" grouping="chuck.01" name="chuck" verbnet_key="chuck#1" wn="chuck%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Shoot_projectiles" grouping="fire.01" name="fire" verbnet_key="fire#2" wn="fire%2:33:01 fire%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="flick.04" name="flick" verbnet_key="flick#2" wn="flick%2:35:03"/>
+    <MEMBER features="None" fn_mapping="Cause_motion" grouping="fling.01" name="fling" verbnet_key="fling#1" wn="fling%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="flip.01" name="flip" verbnet_key="flip#1" wn="flip%2:38:00 flip%2:38:02 flip%2:35:05 flip%2:35:03"/>
+    <MEMBER features="None" fn_mapping="Hit_target" grouping="hit.01" name="hit" verbnet_key="hit#6" wn="hit%2:35:03"/>
+    <MEMBER features="None" fn_mapping="Cause_motion" grouping="hurl.01" name="hurl" verbnet_key="hurl#1" wn="hurl%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="knock.01" name="knock" verbnet_key="knock#5" wn="knock%2:35:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="lob" verbnet_key="lob#1" wn="lob%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="loft" verbnet_key="loft#1" wn="loft%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="nudge" verbnet_key="nudge#3" wn="nudge%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Giving" grouping="pass.04" name="pass" verbnet_key="pass#8" wn="pass%2:40:01"/>
+    <MEMBER features="None" fn_mapping="Cause_motion" grouping="pitch.01 pitch.02 pitch.07 pitch.08" name="pitch" verbnet_key="pitch#1" wn="pitch%2:35:00 pitch%2:35:13"/>
+    <MEMBER features="None" fn_mapping="Cause_motion" grouping="punt.01" name="punt" verbnet_key="punt#2" wn="punt%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Shoot_projectiles" grouping="shoot.02" name="shoot" verbnet_key="shoot#2" wn="shoot%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Cause_motion" grouping="shove.02" name="shove" verbnet_key="shove#4" wn="shove%2:38:01"/>
+    <MEMBER features="None" fn_mapping="Judgment_communication" grouping="slam.01" name="slam" verbnet_key="slam#3" wn="slam%2:35:02"/>
+    <MEMBER features="None" fn_mapping="Cause_impact" grouping="slap.04" name="slap" verbnet_key="slap#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="sling.01" name="sling" verbnet_key="sling#2" wn="sling%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="smash.01" name="smash" verbnet_key="smash#6" wn="smash%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="tap" verbnet_key="tap#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="boot.02" name="boot" verbnet_key="boot#2" wn="boot%2:35:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Destination">
@@ -631,12 +631,12 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="throw-17.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="" name="catapult" verbnet_key="catapult#1" wn="catapult%2:35:00 catapult%2:35:01"/>
-      <MEMBER fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#7" wn="kick%2:35:01"/>
-      <MEMBER fn_mapping="Shoot_projectiles" grouping="launch.01 launch.02" name="launch" verbnet_key="launch#2" wn="launch%2:35:00 launch%2:35:04"/>
-      <MEMBER fn_mapping="Body_movement" grouping="throw.01 throw.03" name="throw" verbnet_key="throw#3" wn="throw%2:35:00 throw%2:38:00 throw%2:35:02 throw%2:38:03"/>
-      <MEMBER fn_mapping="None" grouping="tip.01 tip.07" name="tip" verbnet_key="tip#2" wn=""/>
-      <MEMBER fn_mapping="Cause_motion" grouping="toss.01 toss.04" name="toss" verbnet_key="toss#3" wn="toss%2:35:04 toss%2:38:00 toss%2:35:05"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="catapult" verbnet_key="catapult#1" wn="catapult%2:35:00 catapult%2:35:01"/>
+      <MEMBER features="None" fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#7" wn="kick%2:35:01"/>
+      <MEMBER features="None" fn_mapping="Shoot_projectiles" grouping="launch.01 launch.02" name="launch" verbnet_key="launch#2" wn="launch%2:35:00 launch%2:35:04"/>
+      <MEMBER features="None" fn_mapping="Body_movement" grouping="throw.01 throw.03" name="throw" verbnet_key="throw#3" wn="throw%2:35:00 throw%2:38:00 throw%2:35:02 throw%2:38:03"/>
+      <MEMBER features="None" fn_mapping="None" grouping="tip.01 tip.07" name="tip" verbnet_key="tip#2" wn=""/>
+      <MEMBER features="None" fn_mapping="Cause_motion" grouping="toss.01 toss.04" name="toss" verbnet_key="toss#3" wn="toss%2:35:04 toss%2:38:00 toss%2:35:05"/>
      </MEMBERS>
      <THEMROLES>
       <THEMROLE type="Causer">

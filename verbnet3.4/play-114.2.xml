@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="play-114.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="frolic" verbnet_key="frolic#1" wn="frolic%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="recreate" verbnet_key="recreate#1" wn="recreate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="frolic" verbnet_key="frolic#1" wn="frolic%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="recreate" verbnet_key="recreate#1" wn="recreate%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -138,7 +138,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="play-114.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="play.01 play.02" name="play" verbnet_key="play#3" wn="play%2:33:00 play%2:41:03 play%2:41:00 play%2:36:06 play%2:33:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="play.01 play.02" name="play" verbnet_key="play#3" wn="play%2:33:00 play%2:41:03 play%2:41:00 play%2:36:06 play%2:33:02"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Theme">

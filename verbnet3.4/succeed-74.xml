@@ -16,8 +16,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="succeed-74-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Successful_action" grouping="succeed.01" name="succeed" verbnet_key="succeed#1" wn="succeed%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="excel" verbnet_key="excel#1" wn="excel%2:42:00"/>
+    <MEMBER features="None" fn_mapping="Successful_action" grouping="succeed.01" name="succeed" verbnet_key="succeed#1" wn="succeed%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="excel" verbnet_key="excel#1" wn="excel%2:42:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -110,7 +110,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="succeed-74-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Successful_action" grouping="manage.01" name="manage" verbnet_key="manage#3" wn="manage%2:41:09 manage%2:41:08"/>
+      <MEMBER features="None" fn_mapping="Successful_action" grouping="manage.01" name="manage" verbnet_key="manage#3" wn="manage%2:41:09 manage%2:41:08"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -149,7 +149,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="succeed-74-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="win.01" name="win" verbnet_key="win#2" wn="win%2:33:00 win%2:33:01 win%2:41:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="win.01" name="win" verbnet_key="win#2" wn="win%2:33:00 win%2:33:01 win%2:41:04"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -240,9 +240,9 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="succeed-74-3">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="fall.04" name="fall" verbnet_key="fall#10" wn="fall%2:41:02"/>
-    <MEMBER fn_mapping="None" grouping="fall.04" name="fall_off" verbnet_key="fall_off#1" wn="fall_off%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="fall.04" name="fall_by_the_wayside" verbnet_key="fall_by_the_wayside#1" wn="fall_by_the_wayside%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="fall.04" name="fall" verbnet_key="fall#10" wn="fall%2:41:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="fall.04" name="fall_off" verbnet_key="fall_off#1" wn="fall_off%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="fall.04" name="fall_by_the_wayside" verbnet_key="fall_by_the_wayside#1" wn="fall_by_the_wayside%2:33:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -273,8 +273,8 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="succeed-74-3-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="lose.01" name="lose" verbnet_key="lose#2" wn="lose%2:33:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="flub" verbnet_key="flub#1" wn="flub%2:41:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="lose.01" name="lose" verbnet_key="lose#2" wn="lose%2:33:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="flub" verbnet_key="flub#1" wn="flub%2:41:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -341,7 +341,7 @@
      <SUBCLASSES>
       <VNSUBCLASS ID="succeed-74-3-1-1">
        <MEMBERS>
-        <MEMBER fn_mapping="None" grouping="fail.01" name="fail" verbnet_key="fail#2" wn="fail%2:41:00"/>
+        <MEMBER features="None" fn_mapping="None" grouping="fail.01" name="fail" verbnet_key="fail#2" wn="fail%2:41:00"/>
        </MEMBERS>
        <THEMROLES/>
        <FRAMES>

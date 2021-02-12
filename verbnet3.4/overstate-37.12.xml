@@ -1,16 +1,16 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="overstate-37.12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="overstate.01" name="overstate" verbnet_key="overstate#1" wn="overstate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="overdraw" verbnet_key="overdraw#1" wn="overdraw%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hyperbolize" verbnet_key="hyperbolize#1" wn="hyperbolize%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="magnify.01" name="magnify" verbnet_key="magnify#1" wn="magnify%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="amplify.01" name="amplify" verbnet_key="amplify#2" wn="amplify%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="overemphasize" verbnet_key="overemphasize#1" wn="overemphasize%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="overrate" verbnet_key="overrate#1" wn="overrate%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="overstress" verbnet_key="overstress#1" wn="overstress%2:32:00"/>
-  <MEMBER fn_mapping="Judgment_communication" grouping="tout.01" name="tout" verbnet_key="tout#1" wn="tout%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="glorify.01" name="glorify" verbnet_key="glorify#2" wn="glorify%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="overstate.01" name="overstate" verbnet_key="overstate#1" wn="overstate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overdraw" verbnet_key="overdraw#1" wn="overdraw%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hyperbolize" verbnet_key="hyperbolize#1" wn="hyperbolize%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="magnify.01" name="magnify" verbnet_key="magnify#1" wn="magnify%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="amplify.01" name="amplify" verbnet_key="amplify#2" wn="amplify%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overemphasize" verbnet_key="overemphasize#1" wn="overemphasize%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overrate" verbnet_key="overrate#1" wn="overrate%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overstress" verbnet_key="overstress#1" wn="overstress%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Judgment_communication" grouping="tout.01" name="tout" verbnet_key="tout#1" wn="tout%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="glorify.01" name="glorify" verbnet_key="glorify#2" wn="glorify%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

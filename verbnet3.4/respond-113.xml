@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="respond-113" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="react.01" name="react" verbnet_key="react#2" wn="react%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rebel" verbnet_key="rebel#2" wn="rebel%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="reply.01" name="reply" verbnet_key="reply#1" wn="reply%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="respond.01 respond.02" name="respond" verbnet_key="respond#1" wn="respond%2:31:00 respond%2:32:00 respond%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="retaliate" verbnet_key="retaliate#2" wn="retaliate%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="react.01" name="react" verbnet_key="react#2" wn="react%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rebel" verbnet_key="rebel#2" wn="rebel%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="reply.01" name="reply" verbnet_key="reply#1" wn="reply%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="respond.01 respond.02" name="respond" verbnet_key="respond#1" wn="respond%2:31:00 respond%2:32:00 respond%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="retaliate" verbnet_key="retaliate#2" wn="retaliate%2:33:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

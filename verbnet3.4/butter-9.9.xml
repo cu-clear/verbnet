@@ -1,142 +1,142 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="butter-9.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="aromatize" verbnet_key="aromatize#1" wn="aromatize%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="asphalt" verbnet_key="asphalt#1" wn="asphalt%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bait" verbnet_key="bait#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="black" verbnet_key="black#1" wn="black%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="blanket" verbnet_key="blanket#1" wn="blanket%2:35:00 blanket%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="blindfold" verbnet_key="blindfold#1" wn="blindfold%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="board.04" name="board" verbnet_key="board#1" wn="board%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bread" verbnet_key="bread#1" wn="bread%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="brick" verbnet_key="brick#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="bridle" verbnet_key="bridle#1" wn="bridle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bronze" verbnet_key="bronze#1" wn="bronze%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="butter" verbnet_key="butter#1" wn="butter%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="buttonhole" verbnet_key="buttonhole#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="calk.01" name="calk" verbnet_key="calk#1" wn="calk%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="camouflage" verbnet_key="camouflage#1" wn="camouflage%2:39:00"/>
-  <MEMBER fn_mapping="Closure" grouping="cap.01" name="cap" verbnet_key="cap#1" wn="cap%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="carpet.01 carpet.02" name="carpet" verbnet_key="carpet#1" wn="carpet%2:42:00 carpet%2:35:01 carpet%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="caulk" verbnet_key="caulk#1" wn="caulk%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="chrome" verbnet_key="chrome#1" wn="chrome%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="clay" verbnet_key="clay#1" wn=""/>
-  <MEMBER fn_mapping="Distributed_position" grouping="cloak.02" name="cloak" verbnet_key="cloak#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="coal.02" name="coal" verbnet_key="coal#1" wn="coal%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cork" verbnet_key="cork#1" wn="cork%2:35:00"/>
-  <MEMBER fn_mapping="Change_of_leadership" grouping="crown.01 crown.02 crown.03 crown.04" name="crown" verbnet_key="crown#2" wn="crown%2:41:00 crown%2:30:01 crown%2:42:00 crown%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="crumb.01" name="crumb" verbnet_key="crumb#1" wn="crumb%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="diaper" verbnet_key="diaper#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="dope.02" name="dope" verbnet_key="dope#1" wn="dope%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="drug" verbnet_key="drug#1" wn="drug%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="feather.02" name="feather" verbnet_key="feather#1" wn="feather%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="fence.01" name="fence" verbnet_key="fence#2" wn="fence%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="flour" verbnet_key="flour#1" wn="flour%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="forest" verbnet_key="forest#1" wn="forest%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="frame.01" name="frame" verbnet_key="frame#1" wn="frame%2:35:00 frame%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="frost.01" name="frost" verbnet_key="frost#1" wn="frost%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="fuel.01" name="fuel" verbnet_key="fuel#1" wn="fuel%2:40:00"/>
-  <MEMBER fn_mapping="Filling" grouping="glaze.01" name="glaze" verbnet_key="glaze#1" wn="glaze%2:35:00 glaze%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="gag.01" name="gag" verbnet_key="gag#1" wn="gag%2:39:00 gag%2:35:07"/>
-  <MEMBER fn_mapping="None" grouping="" name="garland" verbnet_key="garland#1" wn="garland%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gas" verbnet_key="gas#1" wn="gas%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gild" verbnet_key="gild#1" wn="gild%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="glass.01" name="glass" verbnet_key="glass#1" wn="glass%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="glove" verbnet_key="glove#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="graffiti" verbnet_key="graffiti#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="grass.02" name="grass" verbnet_key="grass#1" wn="grass%2:35:00 grass%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="gravel" verbnet_key="gravel#1" wn="gravel%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="grease" verbnet_key="grease#1" wn="grease%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="groove" verbnet_key="groove#1" wn="groove%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="halter" verbnet_key="halter#1" wn="halter%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="harness.01" name="harness" verbnet_key="harness#1" wn="harness%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hat" verbnet_key="hat#1" wn="hat%2:29:00 hat%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="heel.05" name="heel" verbnet_key="heel#1" wn="heel%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="ice.01" name="ice" verbnet_key="ice#1" wn="ice%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="ink.03" name="ink" verbnet_key="ink#1" wn="ink%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="label.02" name="label" verbnet_key="label#1" wn="label%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="leash" verbnet_key="leash#1" wn="leash%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="leaven" verbnet_key="leaven#1" wn="leaven%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="lipstick" verbnet_key="lipstick#1" wn="lipstick%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="lubricate.02" name="lubricate" verbnet_key="lubricate#1" wn="lubricate%2:30:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="mantle" verbnet_key="mantle#1" wn="mantle%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="mulch" verbnet_key="mulch#1" wn="mulch%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="muzzle" verbnet_key="muzzle#1" wn="muzzle%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="nickel" verbnet_key="nickel#1" wn="nickel%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="oil" verbnet_key="oil#1" wn="oil%2:35:00 oil%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="ornament" verbnet_key="ornament#1" wn="ornament%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="panel" verbnet_key="panel#1" wn="panel%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="paper" verbnet_key="paper#1" wn="paper%2:35:00 paper%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="parquet" verbnet_key="parquet#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="patch.01" name="patch" verbnet_key="patch#1" wn="patch%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pepper" verbnet_key="pepper#1" wn="pepper%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="perfume" verbnet_key="perfume#1" wn="perfume%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="plank" verbnet_key="plank#1" wn="plank%2:35:00"/>
-  <MEMBER fn_mapping="Filling" grouping="" name="plaster" verbnet_key="plaster#1" wn="plaster%2:35:02 plaster%2:35:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="poison.02" name="poison" verbnet_key="poison#1" wn="poison%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="polish.01" name="polish" verbnet_key="polish#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="pomade" verbnet_key="pomade#1" wn="pomade%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="poster" verbnet_key="poster#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="postmark" verbnet_key="postmark#1" wn="postmark%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="powder" verbnet_key="powder#2" wn="powder%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="punctuate" verbnet_key="punctuate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="putty" verbnet_key="putty#1" wn="putty%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="robe" verbnet_key="robe#2" wn="robe%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="roof" verbnet_key="roof#1" wn="roof%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rosin" verbnet_key="rosin#1" wn="rosin%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rouge" verbnet_key="rouge#2" wn="rouge%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rut" verbnet_key="rut#1" wn="?rut%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="saddle" verbnet_key="saddle#1" wn="saddle%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="salt.01" name="salt" verbnet_key="salt#1" wn="salt%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="salve" verbnet_key="salve#1" wn="salve%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sand" verbnet_key="sand#1" wn="sand%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="scent.01" name="scent" verbnet_key="scent#1" wn="scent%2:39:02 scent%2:29:00"/>
-  <MEMBER fn_mapping="Filling" grouping="seed.03" name="seed" verbnet_key="seed#1" wn="seed%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="sequin" verbnet_key="sequin#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="shawl" verbnet_key="shawl#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="shingle" verbnet_key="shingle#1" wn="shingle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shoe" verbnet_key="shoe#1" wn="shoe%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shutter" verbnet_key="shutter#1" wn="shutter%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="side" verbnet_key="side#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="silver" verbnet_key="silver#1" wn="silver%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="slate.03" name="slate" verbnet_key="slate#1" wn="slate%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="slime" verbnet_key="slime#1" wn="slime%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="slipcover" verbnet_key="slipcover#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="sod" verbnet_key="sod#1" wn="sod%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="soil" verbnet_key="soil#1" wn="soil%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sole" verbnet_key="sole#1" wn="sole%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="spice" verbnet_key="spice#1" wn="spice%2:39:00"/>
-  <MEMBER fn_mapping="Processing_materials" grouping="stain.01" name="stain" verbnet_key="stain#1" wn="stain%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="starch" verbnet_key="starch#1" wn="starch%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="stopper" verbnet_key="stopper#1" wn="stopper%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="stress.03" name="stress" verbnet_key="stress#1" wn="stress%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="string.03" name="string" verbnet_key="string#1" wn="string%2:35:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="stucco" verbnet_key="stucco#1" wn="stucco%2:36:00 stucco%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sugar" verbnet_key="sugar#1" wn="sugar%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sulphur" verbnet_key="sulphur#1" wn="sulphur%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="tag.01 tag.04" name="tag" verbnet_key="tag#1" wn="tag%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tar" verbnet_key="tar#1" wn="tar%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tarmac" verbnet_key="tarmac#1" wn="tarmac%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tassel" verbnet_key="tassel#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="thatch" verbnet_key="thatch#1" wn="thatch%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="ticket" verbnet_key="ticket#1" wn="?ticket%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tile" verbnet_key="tile#1" wn="tile%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="tinsel.01" name="tinsel" verbnet_key="tinsel#1" wn="tinsel%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="top.04" name="top" verbnet_key="top#1" wn="top%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="turf" verbnet_key="turf#1" wn="turf%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="varnish" verbnet_key="varnish#1" wn="varnish%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="veil" verbnet_key="veil#1" wn="veil%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="veneer" verbnet_key="veneer#1" wn="veneer%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wallpaper" verbnet_key="wallpaper#1" wn="wallpaper%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="water.01" name="water" verbnet_key="water#1" wn="water%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="wax.01" name="wax" verbnet_key="wax#3" wn="wax%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="wharf.01" name="wharf" verbnet_key="wharf#1" wn="wharf%2:40:01"/>
-  <MEMBER fn_mapping="None" grouping="whitewash.01" name="whitewash" verbnet_key="whitewash#1" wn="whitewash%2:35:00"/>
-  <MEMBER fn_mapping="Distributed_position" grouping="" name="wreathe" verbnet_key="wreathe#1" wn="wreathe%2:35:01 wreathe%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="yoke" verbnet_key="yoke#1" wn="yoke%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="zipcode" verbnet_key="zipcode#1" wn=""/>
-  <MEMBER fn_mapping="Protecting" grouping="insulate.01" name="insulate" verbnet_key="insulate#1" wn="insulate%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="sauce" verbnet_key="sauce#1" wn="sauce%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="aromatize" verbnet_key="aromatize#1" wn="aromatize%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="asphalt" verbnet_key="asphalt#1" wn="asphalt%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bait" verbnet_key="bait#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="black" verbnet_key="black#1" wn="black%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blanket" verbnet_key="blanket#1" wn="blanket%2:35:00 blanket%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blindfold" verbnet_key="blindfold#1" wn="blindfold%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="board.04" name="board" verbnet_key="board#1" wn="board%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bread" verbnet_key="bread#1" wn="bread%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="brick" verbnet_key="brick#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bridle" verbnet_key="bridle#1" wn="bridle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bronze" verbnet_key="bronze#1" wn="bronze%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="butter" verbnet_key="butter#1" wn="butter%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="buttonhole" verbnet_key="buttonhole#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="calk.01" name="calk" verbnet_key="calk#1" wn="calk%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="camouflage" verbnet_key="camouflage#1" wn="camouflage%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Closure" grouping="cap.01" name="cap" verbnet_key="cap#1" wn="cap%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="carpet.01 carpet.02" name="carpet" verbnet_key="carpet#1" wn="carpet%2:42:00 carpet%2:35:01 carpet%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="caulk" verbnet_key="caulk#1" wn="caulk%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chrome" verbnet_key="chrome#1" wn="chrome%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clay" verbnet_key="clay#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Distributed_position" grouping="cloak.02" name="cloak" verbnet_key="cloak#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="coal.02" name="coal" verbnet_key="coal#1" wn="coal%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cork" verbnet_key="cork#1" wn="cork%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Change_of_leadership" grouping="crown.01 crown.02 crown.03 crown.04" name="crown" verbnet_key="crown#2" wn="crown%2:41:00 crown%2:30:01 crown%2:42:00 crown%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="crumb.01" name="crumb" verbnet_key="crumb#1" wn="crumb%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="diaper" verbnet_key="diaper#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="dope.02" name="dope" verbnet_key="dope#1" wn="dope%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="drug" verbnet_key="drug#1" wn="drug%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="feather.02" name="feather" verbnet_key="feather#1" wn="feather%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fence.01" name="fence" verbnet_key="fence#2" wn="fence%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flour" verbnet_key="flour#1" wn="flour%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="forest" verbnet_key="forest#1" wn="forest%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="frame.01" name="frame" verbnet_key="frame#1" wn="frame%2:35:00 frame%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="frost.01" name="frost" verbnet_key="frost#1" wn="frost%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fuel.01" name="fuel" verbnet_key="fuel#1" wn="fuel%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Filling" grouping="glaze.01" name="glaze" verbnet_key="glaze#1" wn="glaze%2:35:00 glaze%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="gag.01" name="gag" verbnet_key="gag#1" wn="gag%2:39:00 gag%2:35:07"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="garland" verbnet_key="garland#1" wn="garland%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gas" verbnet_key="gas#1" wn="gas%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gild" verbnet_key="gild#1" wn="gild%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="glass.01" name="glass" verbnet_key="glass#1" wn="glass%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="glove" verbnet_key="glove#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="graffiti" verbnet_key="graffiti#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="grass.02" name="grass" verbnet_key="grass#1" wn="grass%2:35:00 grass%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gravel" verbnet_key="gravel#1" wn="gravel%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="grease" verbnet_key="grease#1" wn="grease%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="groove" verbnet_key="groove#1" wn="groove%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="halter" verbnet_key="halter#1" wn="halter%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="harness.01" name="harness" verbnet_key="harness#1" wn="harness%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hat" verbnet_key="hat#1" wn="hat%2:29:00 hat%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="heel.05" name="heel" verbnet_key="heel#1" wn="heel%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ice.01" name="ice" verbnet_key="ice#1" wn="ice%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ink.03" name="ink" verbnet_key="ink#1" wn="ink%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="label.02" name="label" verbnet_key="label#1" wn="label%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="leash" verbnet_key="leash#1" wn="leash%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="leaven" verbnet_key="leaven#1" wn="leaven%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lipstick" verbnet_key="lipstick#1" wn="lipstick%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="lubricate.02" name="lubricate" verbnet_key="lubricate#1" wn="lubricate%2:30:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="mantle" verbnet_key="mantle#1" wn="mantle%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="mulch" verbnet_key="mulch#1" wn="mulch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="muzzle" verbnet_key="muzzle#1" wn="muzzle%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="nickel" verbnet_key="nickel#1" wn="nickel%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="oil" verbnet_key="oil#1" wn="oil%2:35:00 oil%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ornament" verbnet_key="ornament#1" wn="ornament%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="panel" verbnet_key="panel#1" wn="panel%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="paper" verbnet_key="paper#1" wn="paper%2:35:00 paper%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="parquet" verbnet_key="parquet#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="patch.01" name="patch" verbnet_key="patch#1" wn="patch%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pepper" verbnet_key="pepper#1" wn="pepper%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="perfume" verbnet_key="perfume#1" wn="perfume%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="plank" verbnet_key="plank#1" wn="plank%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Filling" grouping="" name="plaster" verbnet_key="plaster#1" wn="plaster%2:35:02 plaster%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="poison.02" name="poison" verbnet_key="poison#1" wn="poison%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="polish.01" name="polish" verbnet_key="polish#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pomade" verbnet_key="pomade#1" wn="pomade%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="poster" verbnet_key="poster#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="postmark" verbnet_key="postmark#1" wn="postmark%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="powder" verbnet_key="powder#2" wn="powder%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="punctuate" verbnet_key="punctuate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="putty" verbnet_key="putty#1" wn="putty%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="robe" verbnet_key="robe#2" wn="robe%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="roof" verbnet_key="roof#1" wn="roof%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rosin" verbnet_key="rosin#1" wn="rosin%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rouge" verbnet_key="rouge#2" wn="rouge%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rut" verbnet_key="rut#1" wn="?rut%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="saddle" verbnet_key="saddle#1" wn="saddle%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="salt.01" name="salt" verbnet_key="salt#1" wn="salt%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="salve" verbnet_key="salve#1" wn="salve%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sand" verbnet_key="sand#1" wn="sand%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="scent.01" name="scent" verbnet_key="scent#1" wn="scent%2:39:02 scent%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Filling" grouping="seed.03" name="seed" verbnet_key="seed#1" wn="seed%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sequin" verbnet_key="sequin#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shawl" verbnet_key="shawl#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shingle" verbnet_key="shingle#1" wn="shingle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shoe" verbnet_key="shoe#1" wn="shoe%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shutter" verbnet_key="shutter#1" wn="shutter%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="side" verbnet_key="side#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="silver" verbnet_key="silver#1" wn="silver%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="slate.03" name="slate" verbnet_key="slate#1" wn="slate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="slime" verbnet_key="slime#1" wn="slime%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="slipcover" verbnet_key="slipcover#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sod" verbnet_key="sod#1" wn="sod%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="soil" verbnet_key="soil#1" wn="soil%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sole" verbnet_key="sole#1" wn="sole%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="spice" verbnet_key="spice#1" wn="spice%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Processing_materials" grouping="stain.01" name="stain" verbnet_key="stain#1" wn="stain%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="starch" verbnet_key="starch#1" wn="starch%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stopper" verbnet_key="stopper#1" wn="stopper%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stress.03" name="stress" verbnet_key="stress#1" wn="stress%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="string.03" name="string" verbnet_key="string#1" wn="string%2:35:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stucco" verbnet_key="stucco#1" wn="stucco%2:36:00 stucco%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sugar" verbnet_key="sugar#1" wn="sugar%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sulphur" verbnet_key="sulphur#1" wn="sulphur%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tag.01 tag.04" name="tag" verbnet_key="tag#1" wn="tag%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tar" verbnet_key="tar#1" wn="tar%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tarmac" verbnet_key="tarmac#1" wn="tarmac%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tassel" verbnet_key="tassel#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="thatch" verbnet_key="thatch#1" wn="thatch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ticket" verbnet_key="ticket#1" wn="?ticket%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tile" verbnet_key="tile#1" wn="tile%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tinsel.01" name="tinsel" verbnet_key="tinsel#1" wn="tinsel%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="top.04" name="top" verbnet_key="top#1" wn="top%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="turf" verbnet_key="turf#1" wn="turf%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="varnish" verbnet_key="varnish#1" wn="varnish%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="veil" verbnet_key="veil#1" wn="veil%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="veneer" verbnet_key="veneer#1" wn="veneer%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wallpaper" verbnet_key="wallpaper#1" wn="wallpaper%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="water.01" name="water" verbnet_key="water#1" wn="water%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wax.01" name="wax" verbnet_key="wax#3" wn="wax%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wharf.01" name="wharf" verbnet_key="wharf#1" wn="wharf%2:40:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="whitewash.01" name="whitewash" verbnet_key="whitewash#1" wn="whitewash%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Distributed_position" grouping="" name="wreathe" verbnet_key="wreathe#1" wn="wreathe%2:35:01 wreathe%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="yoke" verbnet_key="yoke#1" wn="yoke%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="zipcode" verbnet_key="zipcode#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Protecting" grouping="insulate.01" name="insulate" verbnet_key="insulate#1" wn="insulate%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sauce" verbnet_key="sauce#1" wn="sauce%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

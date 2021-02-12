@@ -2,26 +2,26 @@
 <VNCLASS ID="waltz-51.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each member also adds a manner predicate-->
-  <MEMBER fn_mapping="None" grouping="" name="boogie" verbnet_key="boogie#1" wn="boogie%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bop" verbnet_key="bop#2" wn="bop%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cancan" verbnet_key="cancan#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="clog.04" name="clog" verbnet_key="clog#3" wn="clog%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="conga" verbnet_key="conga#1" wn="conga%2:38:00"/>
-  <MEMBER fn_mapping="Self_motion" grouping="dance.01" name="dance" verbnet_key="dance#3" wn="dance%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="foxtrot" verbnet_key="foxtrot#1" wn="foxtrot%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="jig" verbnet_key="jig#1" wn="jig%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="jitterbug" verbnet_key="jitterbug#1" wn="jitterbug%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="jive" verbnet_key="jive#1" wn="jive%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pirouette" verbnet_key="pirouette#1" wn="pirouette%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="polka" verbnet_key="polka#1" wn="polka%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="quickstep" verbnet_key="quickstep#1" wn="quickstep%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rumba" verbnet_key="rumba#1" wn="rumba%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="samba" verbnet_key="samba#1" wn="samba%2:38:00"/>
-  <MEMBER fn_mapping="Self_motion" grouping="shuffle.01" name="shuffle" verbnet_key="shuffle#4" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="squaredance" verbnet_key="squaredance#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="tango" verbnet_key="tango#1" wn="tango%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tapdance" verbnet_key="tapdance#1" wn="tapdance%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="waltz" verbnet_key="waltz#1" wn="waltz%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="boogie" verbnet_key="boogie#1" wn="boogie%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bop" verbnet_key="bop#2" wn="bop%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cancan" verbnet_key="cancan#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="clog.04" name="clog" verbnet_key="clog#3" wn="clog%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="conga" verbnet_key="conga#1" wn="conga%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Self_motion" grouping="dance.01" name="dance" verbnet_key="dance#3" wn="dance%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="foxtrot" verbnet_key="foxtrot#1" wn="foxtrot%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jig" verbnet_key="jig#1" wn="jig%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jitterbug" verbnet_key="jitterbug#1" wn="jitterbug%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jive" verbnet_key="jive#1" wn="jive%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pirouette" verbnet_key="pirouette#1" wn="pirouette%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="polka" verbnet_key="polka#1" wn="polka%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quickstep" verbnet_key="quickstep#1" wn="quickstep%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rumba" verbnet_key="rumba#1" wn="rumba%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="samba" verbnet_key="samba#1" wn="samba%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Self_motion" grouping="shuffle.01" name="shuffle" verbnet_key="shuffle#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squaredance" verbnet_key="squaredance#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tango" verbnet_key="tango#1" wn="tango%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tapdance" verbnet_key="tapdance#1" wn="tapdance%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="waltz" verbnet_key="waltz#1" wn="waltz%2:38:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -2,23 +2,23 @@
 <VNCLASS ID="tingle-40.8.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--added "ache" from pain-40.8.1-->
-  <MEMBER fn_mapping="Perception_body" grouping="ache.01" name="ache" verbnet_key="ache#3" wn="ache%2:39:00"/>
-  <MEMBER fn_mapping="Perception_body" grouping="burn.06" name="burn" verbnet_key="burn#7" wn="burn%2:39:04"/>
-  <MEMBER fn_mapping="None" grouping="hum.01" name="hum" verbnet_key="hum#5" wn="?hum%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="palpitate.01" name="palpitate" verbnet_key="palpitate#1" wn="palpitate%2:38:02 palpitate%2:38:01 palpitate%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="pound.02" name="pound" verbnet_key="pound#4" wn="pound%2:38:00"/>
-  <MEMBER fn_mapping="Perception_body" grouping="prickle.01" name="prickle" verbnet_key="prickle#1" wn="prickle%2:39:01 prickle%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pucker" verbnet_key="pucker#2" wn="pucker%2:35:00 ?pucker%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="reel.01" name="reel" verbnet_key="reel#1" wn="reel%2:38:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="smart" verbnet_key="smart#1" wn="smart%2:39:00"/>
-  <MEMBER fn_mapping="Moving_in_place" grouping="spin.01" name="spin" verbnet_key="spin#6" wn="spin%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="split.02" name="split" verbnet_key="split#4" wn="split%2:30:01"/>
-  <MEMBER fn_mapping="Perception_body" grouping="sting.01" name="sting" verbnet_key="sting#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="swim.03" name="swim" verbnet_key="swim#3" wn="swim%2:42:02"/>
-  <MEMBER fn_mapping="None" grouping="throb.01" name="throb" verbnet_key="throb#2" wn="throb%2:39:00"/>
-  <MEMBER fn_mapping="Perception_body" grouping="tickle.01" name="tickle" verbnet_key="tickle#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="tingle" verbnet_key="tingle#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="twinge.01" name="twinge" verbnet_key="twinge#1" wn="twinge%2:39:00 twinge%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Perception_body" grouping="ache.01" name="ache" verbnet_key="ache#3" wn="ache%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Perception_body" grouping="burn.06" name="burn" verbnet_key="burn#7" wn="burn%2:39:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hum.01" name="hum" verbnet_key="hum#5" wn="?hum%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="palpitate.01" name="palpitate" verbnet_key="palpitate#1" wn="palpitate%2:38:02 palpitate%2:38:01 palpitate%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pound.02" name="pound" verbnet_key="pound#4" wn="pound%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Perception_body" grouping="prickle.01" name="prickle" verbnet_key="prickle#1" wn="prickle%2:39:01 prickle%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pucker" verbnet_key="pucker#2" wn="pucker%2:35:00 ?pucker%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="reel.01" name="reel" verbnet_key="reel#1" wn="reel%2:38:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="smart" verbnet_key="smart#1" wn="smart%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="spin.01" name="spin" verbnet_key="spin#6" wn="spin%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="split.02" name="split" verbnet_key="split#4" wn="split%2:30:01"/>
+  <MEMBER features="None" fn_mapping="Perception_body" grouping="sting.01" name="sting" verbnet_key="sting#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="swim.03" name="swim" verbnet_key="swim#3" wn="swim%2:42:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="throb.01" name="throb" verbnet_key="throb#2" wn="throb%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Perception_body" grouping="tickle.01" name="tickle" verbnet_key="tickle#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tingle" verbnet_key="tingle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="twinge.01" name="twinge" verbnet_key="twinge#1" wn="twinge%2:39:00 twinge%2:39:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Patient">

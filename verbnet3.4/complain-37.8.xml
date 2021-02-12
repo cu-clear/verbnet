@@ -2,21 +2,21 @@
 <VNCLASS ID="complain-37.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--verbs add a manner predicate describing the tone of the communication-->
-  <MEMBER fn_mapping="None" grouping="" name="bellyache" verbnet_key="bellyache#1" wn="bellyache%2:32:00"/>
-  <MEMBER fn_mapping="Complaining" grouping="" name="bitch" verbnet_key="bitch#1" wn="bitch%2:32:01"/>
-  <MEMBER fn_mapping="Bragging" grouping="boast.01" name="boast" verbnet_key="boast#1" wn="boast%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="brag" verbnet_key="brag#1" wn="brag%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="caterwaul" verbnet_key="caterwaul#1" wn="caterwaul%2:32:00"/>
-  <MEMBER fn_mapping="Complaining" grouping="complain.01" name="complain" verbnet_key="complain#1" wn="complain%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="crab" verbnet_key="crab#2" wn="crab%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gripe" verbnet_key="gripe#1" wn="gripe%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="grouch" verbnet_key="grouch#1" wn="grouch%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="grouse" verbnet_key="grouse#2" wn="grouse%2:33:00"/>
-  <MEMBER fn_mapping="Complaining" grouping="grumble.01" name="grumble" verbnet_key="grumble#1" wn="grumble%2:32:01 grumble%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="kvetch" verbnet_key="kvetch#1" wn="kvetch%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="moan" verbnet_key="moan#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="object.01" name="object" verbnet_key="object#1" wn="object%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="whine" verbnet_key="whine#2" wn="whine%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bellyache" verbnet_key="bellyache#1" wn="bellyache%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Complaining" grouping="" name="bitch" verbnet_key="bitch#1" wn="bitch%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Bragging" grouping="boast.01" name="boast" verbnet_key="boast#1" wn="boast%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="brag" verbnet_key="brag#1" wn="brag%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="caterwaul" verbnet_key="caterwaul#1" wn="caterwaul%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Complaining" grouping="complain.01" name="complain" verbnet_key="complain#1" wn="complain%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crab" verbnet_key="crab#2" wn="crab%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gripe" verbnet_key="gripe#1" wn="gripe%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="grouch" verbnet_key="grouch#1" wn="grouch%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="grouse" verbnet_key="grouse#2" wn="grouse%2:33:00"/>
+  <MEMBER features="None" fn_mapping="Complaining" grouping="grumble.01" name="grumble" verbnet_key="grumble#1" wn="grumble%2:32:01 grumble%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="kvetch" verbnet_key="kvetch#1" wn="kvetch%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="moan" verbnet_key="moan#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="object.01" name="object" verbnet_key="object#1" wn="object%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whine" verbnet_key="whine#2" wn="whine%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

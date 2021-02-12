@@ -25,12 +25,12 @@
   <VNSUBCLASS ID="mix-22.1-1">
    <MEMBERS>
     <!--physical, change of integrity of Patients (but note alternate interpretation when both Patients are plural and countable - "mixed eggs and marbles")-->
-    <MEMBER fn_mapping="None" grouping="" name="admix" verbnet_key="admix#1" wn="admix%2:30:00"/>
-    <MEMBER fn_mapping="Cause_to_amalgamate" grouping="consolidate.01 consolidate.02" name="consolidate" verbnet_key="consolidate#2" wn="consolidate%2:30:00 consolidate%2:30:01 consolidate%2:30:04 consolidate%2:30:03"/>
-    <MEMBER fn_mapping="None" grouping="" name="intermix" verbnet_key="intermix#1" wn="intermix%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="scramble.02" name="scramble" verbnet_key="scramble#1" wn="scramble%2:35:00 scramble%2:35:02"/>
-    <MEMBER fn_mapping="None" grouping="tumble.03" name="tumble" verbnet_key="tumble#4" wn="tumble%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="cream.01" name="cream" verbnet_key="cream#1" wn="cream%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="admix" verbnet_key="admix#1" wn="admix%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="consolidate.01 consolidate.02" name="consolidate" verbnet_key="consolidate#2" wn="consolidate%2:30:00 consolidate%2:30:01 consolidate%2:30:04 consolidate%2:30:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="intermix" verbnet_key="intermix#1" wn="intermix%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="scramble.02" name="scramble" verbnet_key="scramble#1" wn="scramble%2:35:00 scramble%2:35:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="tumble.03" name="tumble" verbnet_key="tumble#4" wn="tumble%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="cream.01" name="cream" verbnet_key="cream#1" wn="cream%2:35:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -521,17 +521,17 @@
     <VNSUBCLASS ID="mix-22.1-1-1">
      <MEMBERS>
       <!--physical, change of integrity of Patients (but note alternate interpretation when both Patients are plural and countable - "mixed eggs and marbles")-->
-      <MEMBER fn_mapping="Amalgamation" grouping="blend.01" name="blend" verbnet_key="blend#1" wn="blend%2:35:00"/>
-      <MEMBER fn_mapping="Cause_to_amalgamate" grouping="combine.01" name="combine" verbnet_key="combine#1" wn="combine%2:35:01"/>
-      <MEMBER fn_mapping="Cause_to_amalgamate" grouping="compound.02" name="compound" verbnet_key="compound#1" wn="compound%2:30:00 compound%2:36:00 compound%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="commingle" verbnet_key="commingle#1" wn="?commingle%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="decoct.01" name="decoct" verbnet_key="decoct#1" wn="decoct%2:30:00 decoct%2:30:02 decoct%2:30:02 decoct%2:30:01"/>
-      <MEMBER fn_mapping="Cause_to_amalgamate" grouping="fuse.01" name="fuse" verbnet_key="fuse#1" wn="fuse%2:30:00"/>
-      <MEMBER fn_mapping="Cause_to_amalgamate" grouping="" name="meld" verbnet_key="meld#1" wn="meld%2:30:00"/>
-      <MEMBER fn_mapping="Amalgamation" grouping="merge.02" name="merge" verbnet_key="merge#1" wn="merge%2:30:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="mingle" verbnet_key="mingle#1" wn="mingle%2:35:00"/>
-      <MEMBER fn_mapping="Cause_to_amalgamate" grouping="mix.01" name="mix" verbnet_key="mix#1" wn="mix%2:30:00 mix%2:30:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="recombine" verbnet_key="recombine#1" wn="recombine%2:30:00                         recombine%2:30:01 recombine%2:30:03"/>
+      <MEMBER features="None" fn_mapping="Amalgamation" grouping="blend.01" name="blend" verbnet_key="blend#1" wn="blend%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="combine.01" name="combine" verbnet_key="combine#1" wn="combine%2:35:01"/>
+      <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="compound.02" name="compound" verbnet_key="compound#1" wn="compound%2:30:00 compound%2:36:00 compound%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="commingle" verbnet_key="commingle#1" wn="?commingle%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="decoct.01" name="decoct" verbnet_key="decoct#1" wn="decoct%2:30:00 decoct%2:30:02 decoct%2:30:02 decoct%2:30:01"/>
+      <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="fuse.01" name="fuse" verbnet_key="fuse#1" wn="fuse%2:30:00"/>
+      <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="" name="meld" verbnet_key="meld#1" wn="meld%2:30:00"/>
+      <MEMBER features="None" fn_mapping="Amalgamation" grouping="merge.02" name="merge" verbnet_key="merge#1" wn="merge%2:30:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="mingle" verbnet_key="mingle#1" wn="mingle%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="mix.01" name="mix" verbnet_key="mix#1" wn="mix%2:30:00 mix%2:30:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="recombine" verbnet_key="recombine#1" wn="recombine%2:30:00                         recombine%2:30:01 recombine%2:30:03"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -664,8 +664,8 @@
   <VNSUBCLASS ID="mix-22.1-2">
    <MEMBERS>
     <!--physical, no change of integrity of Patients-->
-    <MEMBER fn_mapping="None" grouping="add.01 add.02" name="add" verbnet_key="add#1" wn="add%2:30:00"/>
-    <MEMBER fn_mapping="Rope_manipulation" grouping="tie.01" name="tie" verbnet_key="tie#1" wn="tie%2:35:01 tie%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="add.01 add.02" name="add" verbnet_key="add#1" wn="add%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Rope_manipulation" grouping="tie.01" name="tie" verbnet_key="tie#1" wn="tie%2:35:01 tie%2:36:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -924,14 +924,14 @@
     <VNSUBCLASS ID="mix-22.1-2-1">
      <MEMBERS>
       <!--REMOVED "concatenate" misclassified-->
-      <MEMBER fn_mapping="Attaching" grouping="connect.01" name="connect" verbnet_key="connect#1" wn="connect%2:35:00"/>
-      <MEMBER fn_mapping="Cause_to_amalgamate" grouping="join.01" name="join" verbnet_key="join#2" wn="join%2:35:01 join%2:35:00 join%2:42:01"/>
-      <MEMBER fn_mapping="None" grouping="link.02" name="link" verbnet_key="link#1" wn="link%2:35:00 link%2:42:01 link%2:35:02"/>
-      <MEMBER fn_mapping="Cause_to_amalgamate" grouping="pair.01" name="pair" verbnet_key="pair#3" wn="pair%2:35:01 pair%2:35:03"/>
-      <MEMBER fn_mapping="None" grouping="" name="pool" verbnet_key="pool#1" wn="pool%2:40:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="network" verbnet_key="network#1" wn="network%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="rejoin.01" name="rejoin" verbnet_key="rejoin#1" wn="rejoin%2:41:00"/>
-      <MEMBER fn_mapping="None" grouping="unite.01" name="unite" verbnet_key="unite#2" wn="unite%2:30:00 unite%2:42:01 unite%2:42:02 unite%2:30:02"/>
+      <MEMBER features="None" fn_mapping="Attaching" grouping="connect.01" name="connect" verbnet_key="connect#1" wn="connect%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="join.01" name="join" verbnet_key="join#2" wn="join%2:35:01 join%2:35:00 join%2:42:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="link.02" name="link" verbnet_key="link#1" wn="link%2:35:00 link%2:42:01 link%2:35:02"/>
+      <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="pair.01" name="pair" verbnet_key="pair#3" wn="pair%2:35:01 pair%2:35:03"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="pool" verbnet_key="pool#1" wn="pool%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="network" verbnet_key="network#1" wn="network%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="rejoin.01" name="rejoin" verbnet_key="rejoin#1" wn="rejoin%2:41:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="unite.01" name="unite" verbnet_key="unite#2" wn="unite%2:30:00 unite%2:42:01 unite%2:42:02 unite%2:30:02"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

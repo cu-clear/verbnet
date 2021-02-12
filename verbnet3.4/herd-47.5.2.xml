@@ -1,21 +1,21 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="herd-47.5.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Amassing" grouping="accumulate.01 accumulate.02" name="accumulate" verbnet_key="accumulate#1" wn="accumulate%2:40:00 accumulate%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="aggregate" verbnet_key="aggregate#1" wn="aggregate%2:35:00"/>
-  <MEMBER fn_mapping="Gathering_up" grouping="amass.01" name="amass" verbnet_key="amass#1" wn="amass%2:30:00 amass%2:40:00"/>
-  <MEMBER fn_mapping="Gathering_up" grouping="assemble.02" name="assemble" verbnet_key="assemble#2" wn="assemble%2:41:00 assemble%2:41:03"/>
-  <MEMBER fn_mapping="None" grouping="cluster.01" name="cluster" verbnet_key="cluster#1" wn="cluster%2:38:00 cluster%2:35:00"/>
-  <MEMBER fn_mapping="Gathering_up" grouping="collect.01" name="collect" verbnet_key="collect#1" wn="collect%2:40:00 collect%2:35:00 collect%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="congregate" verbnet_key="congregate#1" wn="congregate%2:38:00"/>
-  <MEMBER fn_mapping="Gathering_up" grouping="convene.01" name="convene" verbnet_key="convene#1" wn="convene%2:38:00 convene%2:32:00"/>
-  <MEMBER fn_mapping="Mass_motion" grouping="flock.01" name="flock" verbnet_key="flock#1" wn="flock%2:38:01 flock%2:38:00"/>
-  <MEMBER fn_mapping="Gathering_up" grouping="gather.01 gather.02 gather.03" name="gather" verbnet_key="gather#3" wn="gather%2:35:00 gather%2:41:00 gather%2:30:00 gather%2:41:02"/>
-  <MEMBER fn_mapping="None" grouping="group.01" name="group" verbnet_key="group#2" wn="group%2:31:00 group%2:33:00"/>
-  <MEMBER fn_mapping="Gathering_up" grouping="herd.01" name="herd" verbnet_key="herd#1" wn="herd%2:38:01 herd%2:38:00 herd%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="huddle" verbnet_key="huddle#1" wn="huddle%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="mass.01" name="mass" verbnet_key="mass#1" wn="mass%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="reconvene" verbnet_key="reconvene#1" wn="reconvene%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Amassing" grouping="accumulate.01 accumulate.02" name="accumulate" verbnet_key="accumulate#1" wn="accumulate%2:40:00 accumulate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="aggregate" verbnet_key="aggregate#1" wn="aggregate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Gathering_up" grouping="amass.01" name="amass" verbnet_key="amass#1" wn="amass%2:30:00 amass%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Gathering_up" grouping="assemble.02" name="assemble" verbnet_key="assemble#2" wn="assemble%2:41:00 assemble%2:41:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="cluster.01" name="cluster" verbnet_key="cluster#1" wn="cluster%2:38:00 cluster%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Gathering_up" grouping="collect.01" name="collect" verbnet_key="collect#1" wn="collect%2:40:00 collect%2:35:00 collect%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="congregate" verbnet_key="congregate#1" wn="congregate%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Gathering_up" grouping="convene.01" name="convene" verbnet_key="convene#1" wn="convene%2:38:00 convene%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Mass_motion" grouping="flock.01" name="flock" verbnet_key="flock#1" wn="flock%2:38:01 flock%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Gathering_up" grouping="gather.01 gather.02 gather.03" name="gather" verbnet_key="gather#3" wn="gather%2:35:00 gather%2:41:00 gather%2:30:00 gather%2:41:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="group.01" name="group" verbnet_key="group#2" wn="group%2:31:00 group%2:33:00"/>
+  <MEMBER features="None" fn_mapping="Gathering_up" grouping="herd.01" name="herd" verbnet_key="herd#1" wn="herd%2:38:01 herd%2:38:00 herd%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="huddle" verbnet_key="huddle#1" wn="huddle%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mass.01" name="mass" verbnet_key="mass#1" wn="mass%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reconvene" verbnet_key="reconvene#1" wn="reconvene%2:38:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

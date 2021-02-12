@@ -1,28 +1,28 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="wipe_manner-10.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="buff" verbnet_key="buff#1" wn="?buff%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="distill.01" name="distill" verbnet_key="distill#1" wn="distill%2:30:03"/>
-  <MEMBER fn_mapping="None" grouping="distil.01" name="distil" verbnet_key="distil#1" wn="distil%2:30:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="exorcise" verbnet_key="exorcise#1" wn="exorcise%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="expunge" verbnet_key="expunge#1" wn="expunge%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="expurgate" verbnet_key="expurgate#1" wn="expurgate%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="flush.04" name="flush" verbnet_key="flush#2" wn="flush%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="leach" verbnet_key="leach#1" wn="leach%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="offload" verbnet_key="offload#1" wn="offload%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="polish.01" name="polish" verbnet_key="polish#2" wn="polish%2:35:00"/>
-  <MEMBER fn_mapping="Removing" grouping="purge.01" name="purge" verbnet_key="purge#2" wn="purge%2:30:00 purge%2:29:00"/>
-  <MEMBER fn_mapping="Removing" grouping="shave.02" name="shave" verbnet_key="shave#3" wn="shave%2:29:00 shave%2:35:01 shave%2:35:02 shave%2:35:03"/>
-  <MEMBER fn_mapping="None" grouping="smooth.01" name="smooth" verbnet_key="smooth#2" wn="smooth%2:35:00"/>
-  <MEMBER fn_mapping="Removing" grouping="skim.04" name="skim" verbnet_key="skim#1" wn="skim%2:35:01"/>
-  <MEMBER fn_mapping="Cause_to_be_wet" grouping="soak.01" name="soak" verbnet_key="soak#3" wn="soak%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="strain.03" name="strain" verbnet_key="strain#2" wn="strain%2:35:01 strain%2:35:00 strain%2:35:10"/>
-  <MEMBER fn_mapping="None" grouping="trim.01 trim.02" name="trim" verbnet_key="trim#3" wn="trim%2:35:03 trim%2:30:00 trim%2:35:02 trim%2:35:01"/>
-  <MEMBER fn_mapping="Removing" grouping="unload.01" name="unload" verbnet_key="unload#1" wn="unload%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="weed" verbnet_key="weed#2" wn="weed%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="whisk" verbnet_key="whisk#3" wn="whisk%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="winnow" verbnet_key="winnow#1" wn="winnow%2:35:05 winnow%2:30:00"/>
-  <MEMBER fn_mapping="Manipulation" grouping="wring.01" name="wring" verbnet_key="wring#4" wn="wring%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="buff" verbnet_key="buff#1" wn="?buff%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="distill.01" name="distill" verbnet_key="distill#1" wn="distill%2:30:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="distil.01" name="distil" verbnet_key="distil#1" wn="distil%2:30:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="exorcise" verbnet_key="exorcise#1" wn="exorcise%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="expunge" verbnet_key="expunge#1" wn="expunge%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="expurgate" verbnet_key="expurgate#1" wn="expurgate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="flush.04" name="flush" verbnet_key="flush#2" wn="flush%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="leach" verbnet_key="leach#1" wn="leach%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="offload" verbnet_key="offload#1" wn="offload%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="polish.01" name="polish" verbnet_key="polish#2" wn="polish%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="purge.01" name="purge" verbnet_key="purge#2" wn="purge%2:30:00 purge%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="shave.02" name="shave" verbnet_key="shave#3" wn="shave%2:29:00 shave%2:35:01 shave%2:35:02 shave%2:35:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="smooth.01" name="smooth" verbnet_key="smooth#2" wn="smooth%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="skim.04" name="skim" verbnet_key="skim#1" wn="skim%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Cause_to_be_wet" grouping="soak.01" name="soak" verbnet_key="soak#3" wn="soak%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="strain.03" name="strain" verbnet_key="strain#2" wn="strain%2:35:01 strain%2:35:00 strain%2:35:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="trim.01 trim.02" name="trim" verbnet_key="trim#3" wn="trim%2:35:03 trim%2:30:00 trim%2:35:02 trim%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="unload.01" name="unload" verbnet_key="unload#1" wn="unload%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="weed" verbnet_key="weed#2" wn="weed%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whisk" verbnet_key="whisk#3" wn="whisk%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="winnow" verbnet_key="winnow#1" wn="winnow%2:35:05 winnow%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="wring.01" name="wring" verbnet_key="wring#4" wn="wring%2:35:02"/>
  </MEMBERS>
  <!--individual verbs will each add a manner predicate-->
  <THEMROLES>
@@ -260,28 +260,28 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="wipe_manner-10.4.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="bail.03" name="bail" verbnet_key="bail#1" wn="bail%2:30:02 bail%2:30:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="dab" verbnet_key="dab#2" wn="dab%2:35:01 dab%2:35:00"/>
-    <MEMBER fn_mapping="Removing" grouping="dust.01" name="dust" verbnet_key="dust#2" wn="dust%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="erase.02" name="erase" verbnet_key="erase#1" wn="erase%2:35:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="lick.01" name="lick" verbnet_key="lick#3" wn="lick%2:35:00"/>
-    <MEMBER fn_mapping="Removing" grouping="pluck.01" name="pluck" verbnet_key="pluck#3" wn="pluck%2:35:00 pluck%2:35:03 pluck%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="prune" verbnet_key="prune#3" wn="prune%2:35:00"/>
-    <MEMBER fn_mapping="Removing" grouping="rinse.01" name="rinse" verbnet_key="rinse#2" wn="rinse%2:35:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="rub.01" name="rub" verbnet_key="rub#4" wn="rub%2:35:00"/>
-    <MEMBER fn_mapping="Scouring" grouping="scour.01" name="scour" verbnet_key="scour#2" wn="scour%2:35:01 scour%2:35:00"/>
-    <MEMBER fn_mapping="Removing" grouping="scrape.01" name="scrape" verbnet_key="scrape#3" wn="scrape%2:35:02"/>
-    <MEMBER fn_mapping="Damaging" grouping="scratch.01" name="scratch" verbnet_key="scratch#6" wn="scratch%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="scrub.01" name="scrub" verbnet_key="scrub#1" wn="scrub%2:35:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="squeeze.01" name="squeeze" verbnet_key="squeeze#5" wn="squeeze%2:35:05"/>
-    <MEMBER fn_mapping="Emptying" grouping="strip.01 strip.02 strip.03 strip.04" name="strip" verbnet_key="strip#5" wn="strip%2:35:00 strip%2:30:06 strip%2:30:05 strip%2:35:01 strip%2:30:02 strip%2:30:12"/>
-    <MEMBER fn_mapping="None" grouping="suck.01" name="suck" verbnet_key="suck#2" wn="suck%2:34:04"/>
-    <MEMBER fn_mapping="None" grouping="" name="suction" verbnet_key="suction#1" wn="suction%2:38:00 suction%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="swab" verbnet_key="swab#2" wn="swab%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="sweep.02" name="sweep" verbnet_key="sweep#5" wn="sweep%2:35:00 sweep%2:35:01"/>
-    <MEMBER fn_mapping="Grooming" grouping="wash.01 wash.02" name="wash" verbnet_key="wash#4" wn="wash%2:35:00 wash%2:35:01 wash%2:30:05"/>
-    <MEMBER fn_mapping="None" grouping="wear.02" name="wear" verbnet_key="wear#2" wn="wear%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="wipe.01" name="wipe" verbnet_key="wipe#2" wn="wipe%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bail.03" name="bail" verbnet_key="bail#1" wn="bail%2:30:02 bail%2:30:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="dab" verbnet_key="dab#2" wn="dab%2:35:01 dab%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Removing" grouping="dust.01" name="dust" verbnet_key="dust#2" wn="dust%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="erase.02" name="erase" verbnet_key="erase#1" wn="erase%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="lick.01" name="lick" verbnet_key="lick#3" wn="lick%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Removing" grouping="pluck.01" name="pluck" verbnet_key="pluck#3" wn="pluck%2:35:00 pluck%2:35:03 pluck%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="prune" verbnet_key="prune#3" wn="prune%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Removing" grouping="rinse.01" name="rinse" verbnet_key="rinse#2" wn="rinse%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="rub.01" name="rub" verbnet_key="rub#4" wn="rub%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Scouring" grouping="scour.01" name="scour" verbnet_key="scour#2" wn="scour%2:35:01 scour%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Removing" grouping="scrape.01" name="scrape" verbnet_key="scrape#3" wn="scrape%2:35:02"/>
+    <MEMBER features="None" fn_mapping="Damaging" grouping="scratch.01" name="scratch" verbnet_key="scratch#6" wn="scratch%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="scrub.01" name="scrub" verbnet_key="scrub#1" wn="scrub%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="squeeze.01" name="squeeze" verbnet_key="squeeze#5" wn="squeeze%2:35:05"/>
+    <MEMBER features="None" fn_mapping="Emptying" grouping="strip.01 strip.02 strip.03 strip.04" name="strip" verbnet_key="strip#5" wn="strip%2:35:00 strip%2:30:06 strip%2:30:05 strip%2:35:01 strip%2:30:02 strip%2:30:12"/>
+    <MEMBER features="None" fn_mapping="None" grouping="suck.01" name="suck" verbnet_key="suck#2" wn="suck%2:34:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="suction" verbnet_key="suction#1" wn="suction%2:38:00 suction%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="swab" verbnet_key="swab#2" wn="swab%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="sweep.02" name="sweep" verbnet_key="sweep#5" wn="sweep%2:35:00 sweep%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Grooming" grouping="wash.01 wash.02" name="wash" verbnet_key="wash#4" wn="wash%2:35:00 wash%2:35:01 wash%2:30:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="wear.02" name="wear" verbnet_key="wear#2" wn="wear%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="wipe.01" name="wipe" verbnet_key="wipe#2" wn="wipe%2:35:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Source">

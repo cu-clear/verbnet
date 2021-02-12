@@ -43,21 +43,21 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="long-32.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Desiring" grouping="ache.02" name="ache" verbnet_key="ache#1" wn="ache%2:37:06"/>
-    <MEMBER fn_mapping="Desiring" grouping="crave.01" name="crave" verbnet_key="crave#1" wn="crave%2:34:00"/>
-    <MEMBER fn_mapping="None" grouping="die.03" name="die" verbnet_key="die#6" wn="die%2:37:00 die%2:37:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="fall" verbnet_key="fall#7" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="hanker" verbnet_key="hanker#1" wn="hanker%2:37:00"/>
-    <MEMBER fn_mapping="Desiring" grouping="hope.01" name="hope" verbnet_key="hope#1" wn="hope%2:37:01"/>
-    <MEMBER fn_mapping="Desiring" grouping="hunger.01" name="hunger" verbnet_key="hunger#1" wn="hunger%2:34:01"/>
-    <MEMBER fn_mapping="Desiring" grouping="itch.03" name="itch" verbnet_key="itch#1" wn="itch%2:37:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="long" verbnet_key="long#1" wn="long%2:37:02"/>
-    <MEMBER fn_mapping="None" grouping="" name="lust" verbnet_key="lust#1" wn="lust%2:34:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="pine" verbnet_key="pine#1" wn="pine%2:37:00"/>
-    <MEMBER fn_mapping="Rite" grouping="pray.01" name="pray" verbnet_key="pray#1" wn="pray%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="thirst" verbnet_key="thirst#1" wn="thirst%2:34:00"/>
-    <MEMBER fn_mapping="Desiring" grouping="wish.01 wish.02" name="wish" verbnet_key="wish#1" wn="?wish%2:37:00 ?wish%2:32:01"/>
-    <MEMBER fn_mapping="Desiring" grouping="" name="yearn" verbnet_key="yearn#1" wn="yearn%2:37:00 yearn%2:37:01"/>
+    <MEMBER features="None" fn_mapping="Desiring" grouping="ache.02" name="ache" verbnet_key="ache#1" wn="ache%2:37:06"/>
+    <MEMBER features="None" fn_mapping="Desiring" grouping="crave.01" name="crave" verbnet_key="crave#1" wn="crave%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="die.03" name="die" verbnet_key="die#6" wn="die%2:37:00 die%2:37:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="fall" verbnet_key="fall#7" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="hanker" verbnet_key="hanker#1" wn="hanker%2:37:00"/>
+    <MEMBER features="None" fn_mapping="Desiring" grouping="hope.01" name="hope" verbnet_key="hope#1" wn="hope%2:37:01"/>
+    <MEMBER features="None" fn_mapping="Desiring" grouping="hunger.01" name="hunger" verbnet_key="hunger#1" wn="hunger%2:34:01"/>
+    <MEMBER features="None" fn_mapping="Desiring" grouping="itch.03" name="itch" verbnet_key="itch#1" wn="itch%2:37:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="long" verbnet_key="long#1" wn="long%2:37:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="lust" verbnet_key="lust#1" wn="lust%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pine" verbnet_key="pine#1" wn="pine%2:37:00"/>
+    <MEMBER features="None" fn_mapping="Rite" grouping="pray.01" name="pray" verbnet_key="pray#1" wn="pray%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="thirst" verbnet_key="thirst#1" wn="thirst%2:34:00"/>
+    <MEMBER features="None" fn_mapping="Desiring" grouping="wish.01 wish.02" name="wish" verbnet_key="wish#1" wn="?wish%2:37:00 ?wish%2:32:01"/>
+    <MEMBER features="None" fn_mapping="Desiring" grouping="" name="yearn" verbnet_key="yearn#1" wn="yearn%2:37:00 yearn%2:37:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -95,10 +95,10 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="long-32.2-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="hanker" verbnet_key="hanker#1" wn="hanker%2:37:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="lust" verbnet_key="lust#1" wn="lust%2:34:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="thirst" verbnet_key="thirst#1" wn="thirst%2:34:00"/>
-    <MEMBER fn_mapping="Desiring" grouping="" name="yearn" verbnet_key="yearn#1" wn="yearn%2:37:00 yearn%2:37:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="hanker" verbnet_key="hanker#1" wn="hanker%2:37:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="lust" verbnet_key="lust#1" wn="lust%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="thirst" verbnet_key="thirst#1" wn="thirst%2:34:00"/>
+    <MEMBER features="None" fn_mapping="Desiring" grouping="" name="yearn" verbnet_key="yearn#1" wn="yearn%2:37:00 yearn%2:37:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

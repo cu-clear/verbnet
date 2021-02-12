@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="care-88.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="mind.01" name="mind" verbnet_key="mind#1" wn="mind%2:32:00 mind%2:31:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mind.01" name="mind" verbnet_key="mind#1" wn="mind%2:32:00 mind%2:31:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">
@@ -110,9 +110,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="care-88.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="care.01" name="care" verbnet_key="care#1" wn="care%2:37:02 care%2:37:12"/>
-    <MEMBER fn_mapping="Emotion_active" grouping="worry.01" name="worry" verbnet_key="worry#2" wn="worry%2:37:00 worry%2:37:12"/>
-    <MEMBER fn_mapping="Cogitation" grouping="wonder.01" name="wonder" verbnet_key="wonder#1" wn="wonder%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="care.01" name="care" verbnet_key="care#1" wn="care%2:37:02 care%2:37:12"/>
+    <MEMBER features="None" fn_mapping="Emotion_active" grouping="worry.01" name="worry" verbnet_key="worry#2" wn="worry%2:37:00 worry%2:37:12"/>
+    <MEMBER features="None" fn_mapping="Cogitation" grouping="wonder.01" name="wonder" verbnet_key="wonder#1" wn="wonder%2:32:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

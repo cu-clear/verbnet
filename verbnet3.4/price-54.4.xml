@@ -1,21 +1,21 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="price-54.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="appraise" verbnet_key="appraise#2" wn="appraise%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="approximate" verbnet_key="approximate#2" wn="approximate%2:31:00"/>
-  <MEMBER fn_mapping="Assessing" grouping="assess.01" name="assess" verbnet_key="assess#3" wn="assess%2:31:00 assess%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="auction" verbnet_key="auction#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="calibrate.02" name="calibrate" verbnet_key="calibrate#1" wn=""/>
-  <MEMBER fn_mapping="Estimating" grouping="estimate.01" name="estimate" verbnet_key="estimate#2" wn="estimate%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="fix.03" name="fix" verbnet_key="fix#2" wn="fix%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="gauge.01" name="gauge" verbnet_key="gauge#2" wn="gauge%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="meter" verbnet_key="meter#1" wn="meter%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="overestimate" verbnet_key="overestimate#1" wn="overestimate%2:31:00 overestimate%2:31:02"/>
-  <MEMBER fn_mapping="None" grouping="peg.01" name="peg" verbnet_key="peg#2" wn="peg%2:30:03"/>
-  <MEMBER fn_mapping="None" grouping="price.01 price.02" name="price" verbnet_key="price#1" wn="price%2:40:00 price%2:31:00"/>
-  <MEMBER fn_mapping="Assessing" grouping="rate.01" name="rate" verbnet_key="rate#2" wn="rate%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="reappraise" verbnet_key="reappraise#1" wn="reappraise%2:31:00"/>
-  <MEMBER fn_mapping="Assessing" grouping="value.01" name="value" verbnet_key="value#2" wn="value%2:31:03 value%2:31:00 value%2:31:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="appraise" verbnet_key="appraise#2" wn="appraise%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="approximate" verbnet_key="approximate#2" wn="approximate%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Assessing" grouping="assess.01" name="assess" verbnet_key="assess#3" wn="assess%2:31:00 assess%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="auction" verbnet_key="auction#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="calibrate.02" name="calibrate" verbnet_key="calibrate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Estimating" grouping="estimate.01" name="estimate" verbnet_key="estimate#2" wn="estimate%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fix.03" name="fix" verbnet_key="fix#2" wn="fix%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="gauge.01" name="gauge" verbnet_key="gauge#2" wn="gauge%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="meter" verbnet_key="meter#1" wn="meter%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overestimate" verbnet_key="overestimate#1" wn="overestimate%2:31:00 overestimate%2:31:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="peg.01" name="peg" verbnet_key="peg#2" wn="peg%2:30:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="price.01 price.02" name="price" verbnet_key="price#1" wn="price%2:40:00 price%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Assessing" grouping="rate.01" name="rate" verbnet_key="rate#2" wn="rate%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reappraise" verbnet_key="reappraise#1" wn="reappraise%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Assessing" grouping="value.01" name="value" verbnet_key="value#2" wn="value%2:31:03 value%2:31:00 value%2:31:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

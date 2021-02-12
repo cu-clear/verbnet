@@ -1,39 +1,39 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="assessment-34.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Scrutiny" grouping="" name="analyse" verbnet_key="analyse#1" wn="analyse%2:31:00 analyse%2:31:04 analyse%2:31:01 analyse%2:31:02"/>
-  <MEMBER fn_mapping="None" grouping="analyze.01" name="analyze" verbnet_key="analyze#1" wn="analyze%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="appraise" verbnet_key="appraise#1" wn="assess%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="assay" verbnet_key="assay#1" wn="assay%2:31:00"/>
-  <MEMBER fn_mapping="Assessing" grouping="assess.01" name="assess" verbnet_key="assess#1" wn="assess%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="audit.01" name="audit" verbnet_key="audit#1" wn="audit%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="check.01" name="check" verbnet_key="check#1" wn="check%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="consult.01" name="consult" verbnet_key="consult#1" wn="consult%2:32:02 consult%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="examine.01 examine.02" name="examine" verbnet_key="examine#1" wn="examine%2:31:00 examine%2:39:00"/>
-  <MEMBER fn_mapping="Assessing" grouping="evaluate.01 evaluate.02" name="evaluate" verbnet_key="evaluate#1" wn="evaluate%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="feel.04" name="feel_out" verbnet_key="feel_out#1" wn="feel_out%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="follow.04" name="follow" verbnet_key="follow#2" wn="follow%2:41:02 follow%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="go_over" verbnet_key="go_over#1" wn="go_over%2:31:01"/>
-  <MEMBER fn_mapping="Inspecting" grouping="inspect.01" name="inspect" verbnet_key="inspect#1" wn="inspect%2:39:00 inspect%2:38:00 inspect%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="investigate.01" name="investigate" verbnet_key="investigate#1" wn="investigate%2:32:00 investigate%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="monitor.01" name="monitor" verbnet_key="monitor#1" wn="monitor%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="peruse" verbnet_key="peruse#1" wn="peruse%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="proofread" verbnet_key="proofread#1" wn="proofread%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="regard.02" name="regard" verbnet_key="regard#1" wn="regard%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="research.01" name="research" verbnet_key="research#1" wn="research%2:32:00 research%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="review.02" name="review" verbnet_key="review#1" wn="review%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sample" verbnet_key="sample#1" wn="sample%2:34:00"/>
-  <MEMBER fn_mapping="Reading_perception" grouping="scan.01" name="scan" verbnet_key="scan#1" wn="scan%2:39:01 scan%2:39:00"/>
-  <MEMBER fn_mapping="Scrutiny" grouping="scrutinize.01" name="scrutinize" verbnet_key="scrutinize#1" wn="scrutinize%2:39:00 scrutinize%2:31:00"/>
-  <MEMBER fn_mapping="Scrutiny" grouping="study.01" name="study" verbnet_key="study#1" wn="study%2:31:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="surveil" verbnet_key="surveil#1" wn="surveil%2:39:00"/>
-  <MEMBER fn_mapping="Scrutiny" grouping="" name="survey" verbnet_key="survey#1" wn="survey%2:39:00 survey%2:39:13"/>
-  <MEMBER fn_mapping="None" grouping="" name="taste" verbnet_key="taste#1" wn="taste%2:34:00 taste%2:39:01"/>
-  <MEMBER fn_mapping="None" grouping="test.02" name="test" verbnet_key="test#1" wn="test%2:41:00 test%2:41:01 test%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="try.02" name="try" verbnet_key="try#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="try.02" name="try_on" verbnet_key="try_on#1" wn="try_on%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="try.02" name="try_out" verbnet_key="try_out#1" wn="try_out%2:41:00 try_out%2:41:05 try_out%2:34:00"/>
-  <MEMBER fn_mapping="Seeking" grouping="watch.01 watch.02 watch.03" name="watch" verbnet_key="watch#1" wn="watch%2:39:00 watch%2:41:00 watch%2:39:05 watch%2:39:02 watch%2:39:01 watch%2:39:03"/>
+  <MEMBER features="None" fn_mapping="Scrutiny" grouping="" name="analyse" verbnet_key="analyse#1" wn="analyse%2:31:00 analyse%2:31:04 analyse%2:31:01 analyse%2:31:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="analyze.01" name="analyze" verbnet_key="analyze#1" wn="analyze%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="appraise" verbnet_key="appraise#1" wn="assess%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="assay" verbnet_key="assay#1" wn="assay%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Assessing" grouping="assess.01" name="assess" verbnet_key="assess#1" wn="assess%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="audit.01" name="audit" verbnet_key="audit#1" wn="audit%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="check.01" name="check" verbnet_key="check#1" wn="check%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="consult.01" name="consult" verbnet_key="consult#1" wn="consult%2:32:02 consult%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="examine.01 examine.02" name="examine" verbnet_key="examine#1" wn="examine%2:31:00 examine%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Assessing" grouping="evaluate.01 evaluate.02" name="evaluate" verbnet_key="evaluate#1" wn="evaluate%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="feel.04" name="feel_out" verbnet_key="feel_out#1" wn="feel_out%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="follow.04" name="follow" verbnet_key="follow#2" wn="follow%2:41:02 follow%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_over" verbnet_key="go_over#1" wn="go_over%2:31:01"/>
+  <MEMBER features="None" fn_mapping="Inspecting" grouping="inspect.01" name="inspect" verbnet_key="inspect#1" wn="inspect%2:39:00 inspect%2:38:00 inspect%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="investigate.01" name="investigate" verbnet_key="investigate#1" wn="investigate%2:32:00 investigate%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="monitor.01" name="monitor" verbnet_key="monitor#1" wn="monitor%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="peruse" verbnet_key="peruse#1" wn="peruse%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="proofread" verbnet_key="proofread#1" wn="proofread%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="regard.02" name="regard" verbnet_key="regard#1" wn="regard%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="research.01" name="research" verbnet_key="research#1" wn="research%2:32:00 research%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="review.02" name="review" verbnet_key="review#1" wn="review%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sample" verbnet_key="sample#1" wn="sample%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Reading_perception" grouping="scan.01" name="scan" verbnet_key="scan#1" wn="scan%2:39:01 scan%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Scrutiny" grouping="scrutinize.01" name="scrutinize" verbnet_key="scrutinize#1" wn="scrutinize%2:39:00 scrutinize%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Scrutiny" grouping="study.01" name="study" verbnet_key="study#1" wn="study%2:31:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="surveil" verbnet_key="surveil#1" wn="surveil%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Scrutiny" grouping="" name="survey" verbnet_key="survey#1" wn="survey%2:39:00 survey%2:39:13"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="taste" verbnet_key="taste#1" wn="taste%2:34:00 taste%2:39:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="test.02" name="test" verbnet_key="test#1" wn="test%2:41:00 test%2:41:01 test%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="try.02" name="try" verbnet_key="try#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="try.02" name="try_on" verbnet_key="try_on#1" wn="try_on%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="try.02" name="try_out" verbnet_key="try_out#1" wn="try_out%2:41:00 try_out%2:41:05 try_out%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Seeking" grouping="watch.01 watch.02 watch.03" name="watch" verbnet_key="watch#1" wn="watch%2:39:00 watch%2:41:00 watch%2:39:05 watch%2:39:02 watch%2:39:01 watch%2:39:03"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

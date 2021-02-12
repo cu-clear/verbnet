@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="suffocate-40.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="asphyxiate" verbnet_key="asphyxiate#2" wn="asphyxiate%2:35:00 asphyxiate%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="choke.01 choke.02" name="choke" verbnet_key="choke#4" wn="choke%2:29:00 choke%2:35:00 choke%2:35:02 choke%2:29:04 choke%2:29:03 choke%2:35:03 choke%2:29:01"/>
-  <MEMBER fn_mapping="None" grouping="stifle.02" name="stifle" verbnet_key="stifle#2" wn="stifle%2:35:00"/>
-  <MEMBER fn_mapping="Death" grouping="" name="suffocate" verbnet_key="suffocate#3" wn="suffocate%2:35:00 suffocate%2:35:01 suffocate%2:30:02 suffocate%2:29:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="asphyxiate" verbnet_key="asphyxiate#2" wn="asphyxiate%2:35:00 asphyxiate%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="choke.01 choke.02" name="choke" verbnet_key="choke#4" wn="choke%2:29:00 choke%2:35:00 choke%2:35:02 choke%2:29:04 choke%2:29:03 choke%2:35:03 choke%2:29:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stifle.02" name="stifle" verbnet_key="stifle#2" wn="stifle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Death" grouping="" name="suffocate" verbnet_key="suffocate#3" wn="suffocate%2:35:00 suffocate%2:35:01 suffocate%2:30:02 suffocate%2:29:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -39,7 +39,7 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED bool="!" value="suffocated">
+    <PRED bool="!" value="suffocate">
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
@@ -52,7 +52,7 @@
       <ARG type="ThemRole" value="Agent"/>
      </ARGS>
     </PRED>
-    <PRED value="suffocated">
+    <PRED value="suffocate">
      <ARGS>
       <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Patient"/>
@@ -81,14 +81,14 @@
     <VERB/>
    </SYNTAX>
    <SEMANTICS>
-    <PRED bool="!" value="suffocated">
+    <PRED bool="!" value="suffocate">
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
       <ARG type="VerbSpecific" value="V_Final_State"/>
      </ARGS>
     </PRED>
-    <PRED value="suffocated">
+    <PRED value="suffocate">
      <ARGS>
       <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Patient"/>
@@ -119,14 +119,14 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED bool="!" value="suffocated">
+    <PRED bool="!" value="suffocate">
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
       <ARG type="VerbSpecific" value="V_Final_State"/>
      </ARGS>
     </PRED>
-    <PRED value="suffocated">
+    <PRED value="suffocate">
      <ARGS>
       <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Patient"/>
@@ -167,7 +167,7 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED bool="!" value="suffocated">
+    <PRED bool="!" value="suffocate">
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>

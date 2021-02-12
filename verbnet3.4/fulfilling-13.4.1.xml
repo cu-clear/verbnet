@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="fulfilling-13.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="issue.01" name="issue" verbnet_key="issue#2" wn="issue%2:41:00"/>
-  <MEMBER fn_mapping="Forming_relationships" grouping="leave.02" name="leave" verbnet_key="leave#3" wn="?leave%2:31:05 leave%2:40:01 leave%2:40:02"/>
-  <MEMBER fn_mapping="None" grouping="present.01" name="present" verbnet_key="present#1" wn="present%2:39:00 present%2:32:00 present%2:32:06"/>
-  <MEMBER fn_mapping="None" grouping="trust.02" name="trust" verbnet_key="trust#3" wn="trust%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="issue.01" name="issue" verbnet_key="issue#2" wn="issue%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Forming_relationships" grouping="leave.02" name="leave" verbnet_key="leave#3" wn="?leave%2:31:05 leave%2:40:01 leave%2:40:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="present.01" name="present" verbnet_key="present#1" wn="present%2:39:00 present%2:32:00 present%2:32:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="trust.02" name="trust" verbnet_key="trust#3" wn="trust%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -223,12 +223,12 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="fulfilling-13.4.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="credit.01 credit.03" name="credit" verbnet_key="credit#1" wn="credit%2:31:01 credit%2:31:12"/>
-    <MEMBER fn_mapping="None" grouping="entrust.01" name="entrust" verbnet_key="entrust#1" wn="entrust%2:40:00 entrust%2:40:01"/>
-    <MEMBER fn_mapping="None" grouping="furnish.01" name="furnish" verbnet_key="furnish#1" wn="furnish%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="resupply" verbnet_key="resupply#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="serve.04" name="serve" verbnet_key="serve#2" wn="serve%2:34:01 serve%2:34:00 serve%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="supply.01" name="supply" verbnet_key="supply#1" wn="supply%2:40:00 supply%2:41:00 supply%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="credit.01 credit.03" name="credit" verbnet_key="credit#1" wn="credit%2:31:01 credit%2:31:12"/>
+    <MEMBER features="None" fn_mapping="None" grouping="entrust.01" name="entrust" verbnet_key="entrust#1" wn="entrust%2:40:00 entrust%2:40:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="furnish.01" name="furnish" verbnet_key="furnish#1" wn="furnish%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="resupply" verbnet_key="resupply#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="serve.04" name="serve" verbnet_key="serve#2" wn="serve%2:34:01 serve%2:34:00 serve%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="supply.01" name="supply" verbnet_key="supply#1" wn="supply%2:40:00 supply%2:41:00 supply%2:34:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -298,7 +298,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="fulfilling-13.4.1-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Supply" grouping="provide.01" name="provide" verbnet_key="provide#2" wn="provide%2:40:00 provide%2:34:00"/>
+    <MEMBER features="None" fn_mapping="Supply" grouping="provide.01" name="provide" verbnet_key="provide#2" wn="provide%2:40:00 provide%2:34:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Recipient">

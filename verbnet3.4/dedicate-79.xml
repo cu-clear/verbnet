@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="dedicate-79" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="dedicate.01" name="dedicate" verbnet_key="dedicate#1" wn="dedicate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="devote.01" name="devote" verbnet_key="devote#1" wn="devote%2:32:00"/>
-  <MEMBER fn_mapping="Commitment" grouping="commit.02" name="commit" verbnet_key="commit#2" wn="commit%2:32:01 commit%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dedicate.01" name="dedicate" verbnet_key="dedicate#1" wn="dedicate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="devote.01" name="devote" verbnet_key="devote#1" wn="devote%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Commitment" grouping="commit.02" name="commit" verbnet_key="commit#2" wn="commit%2:32:01 commit%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

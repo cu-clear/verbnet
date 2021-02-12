@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="flinch-40.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="balk.01" name="balk" verbnet_key="balk#1" wn="?balk%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cower" verbnet_key="cower#2" wn="cower%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="cringe" verbnet_key="cringe#1" wn="cringe%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="flinch" verbnet_key="flinch#1" wn="flinch%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="quail" verbnet_key="quail#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="recoil" verbnet_key="recoil#1" wn="recoil%2:38:00"/>
-  <MEMBER fn_mapping="Avoiding" grouping="shrink.02" name="shrink" verbnet_key="shrink#2" wn="shrink%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wince" verbnet_key="wince#1" wn="wince%2:38:00 wince%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="balk.01" name="balk" verbnet_key="balk#1" wn="?balk%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cower" verbnet_key="cower#2" wn="cower%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cringe" verbnet_key="cringe#1" wn="cringe%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flinch" verbnet_key="flinch#1" wn="flinch%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quail" verbnet_key="quail#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="recoil" verbnet_key="recoil#1" wn="recoil%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Avoiding" grouping="shrink.02" name="shrink" verbnet_key="shrink#2" wn="shrink%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wince" verbnet_key="wince#1" wn="wince%2:38:00 wince%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">

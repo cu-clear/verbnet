@@ -118,7 +118,7 @@
   <MEMBER features="+neg_feeling" fn_mapping="Experiencer_obj" grouping="frustrate.01" name="frustrate" verbnet_key="frustrate#1" wn="frustrate%2:37:00" />
   <MEMBER features="+confused" fn_mapping="None" grouping="fuddle.02" name="fuddle" verbnet_key="fuddle#1" wn="fuddle%2:31:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="gall" verbnet_key="gall#1" wn="gall%2:37:00" />
-  <MEMBER features="+surprised +neg_feeling" fn_mapping="None" grouping="galvanize.01" name="galvanize" verbnet_key="galvanize#1" wn="galvanize%2:37:00" />
+  <MEMBER features="+neg_feeling +surprised" fn_mapping="None" grouping="galvanize.01" name="galvanize" verbnet_key="galvanize#1" wn="galvanize%2:37:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="gladden" verbnet_key="gladden#1" wn="gladden%2:37:01 gladden%2:37:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="gratify" verbnet_key="gratify#1" wn="gratify%2:37:00 gratify%2:34:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="grieve" verbnet_key="grieve#1" wn="grieve%2:37:01" />
@@ -127,7 +127,7 @@
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="haunt.01" name="haunt" verbnet_key="haunt#1" wn="haunt%2:37:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="hearten" verbnet_key="hearten#1" wn="hearten%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="horrify" verbnet_key="horrify#1" wn="horrify%2:37:01" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="humble" verbnet_key="humble#1" wn="humble%2:37:01 humble%2:37:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="humble" verbnet_key="humble#1" wn="humble%2:37:01 humble%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="humiliate" verbnet_key="humiliate#1" wn="humiliate%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="hurt.02" name="hurt" verbnet_key="hurt#1" wn="hurt%2:30:04" />
   <MEMBER features="+attention" fn_mapping="None" grouping="" name="hypnotize" verbnet_key="hypnotize#1" wn="" />
@@ -155,7 +155,7 @@
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="menace.02" name="menace" verbnet_key="menace#1" wn="" />
   <MEMBER features="+attention" fn_mapping="None" grouping="" name="mesmerize" verbnet_key="mesmerize#1" wn="mesmerize%2:32:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="miff" verbnet_key="miff#1" wn="miff%2:37:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="misguide" verbnet_key="misguide#1" wn="misguide%2:38:00 misguide%2:32:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="misguide" verbnet_key="misguide#1" wn="misguide%2:38:00 misguide%2:32:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="molest" verbnet_key="molest#1" wn="" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="mollify" verbnet_key="mollify#1" wn="mollify%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="mortify" verbnet_key="mortify#1" wn="mortify%2:37:02" />
@@ -218,7 +218,7 @@
   <MEMBER features="+surprised" fn_mapping="None" grouping="" name="startle" verbnet_key="startle#1" wn="startle%2:37:00" />
   <MEMBER features="+produce_feeling" fn_mapping="Experiencer_obj" grouping="stimulate.01" name="stimulate" verbnet_key="stimulate#1" wn="stimulate%2:37:00 stimulate%2:29:00 stimulate%2:39:00" />
   <MEMBER features="+neg_feeling" fn_mapping="Experiencer_obj" grouping="sting.03" name="sting" verbnet_key="sting#1" wn="sting%2:37:00" />
-  <MEMBER features="" fn_mapping="Experiencer_obj" grouping="stir.02" name="stir" verbnet_key="stir#1" wn="stir%2:37:01 stir%2:36:00" />
+  <MEMBER features="None" fn_mapping="Experiencer_obj" grouping="stir.02" name="stir" verbnet_key="stir#1" wn="stir%2:37:01 stir%2:36:00" />
   <MEMBER features="+surprised" fn_mapping="Cause_harm" grouping="strike.01" name="strike" verbnet_key="strike#1" wn="strike%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="stump.01" name="stump" verbnet_key="stump#1" wn="stump%2:31:00" />
   <MEMBER features="+surprised" fn_mapping="Experiencer_obj" grouping="stun.02" name="stun" verbnet_key="stun#1" wn="stun%2:39:00" />
@@ -230,14 +230,14 @@
   <MEMBER features="+neg_feeling +fear" fn_mapping="Cause_to_experience" grouping="terrorize.01" name="terrorize" verbnet_key="terrorize#1" wn="terrorize%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="threaten.02" name="threaten" verbnet_key="threaten#1" wn="threaten%2:42:00" />
   <MEMBER features="+pos_feeling" fn_mapping="Experiencer_obj" grouping="thrill.01" name="thrill" verbnet_key="thrill#1" wn="thrill%2:39:00 thrill%2:37:02 thrill%2:37:01" />
-  <MEMBER features="" fn_mapping="None" grouping="throw.05" name="throw" verbnet_key="throw#1" wn="throw%2:37:00 throw%2:31:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="throw.05" name="throw" verbnet_key="throw#1" wn="throw%2:37:00 throw%2:31:00" />
   <MEMBER features="+pos_feeling" fn_mapping="Experiencer_obj" grouping="tickle.02" name="tickle" verbnet_key="tickle#1" wn="tickle%2:37:01" />
   <MEMBER features="+neg_feeling +attention" fn_mapping="None" grouping="tire.02" name="tire" verbnet_key="tire#1" wn="tire%2:37:01" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="titillate" verbnet_key="titillate#1" wn="titillate%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="Cause_to_experience" grouping="torment.01" name="torment" verbnet_key="torment#1" wn="torment%2:37:00 torment%2:37:01" />
   <MEMBER features="+neg_feeling" fn_mapping="Cause_harm" grouping="torture.01 torture.02" name="torture" verbnet_key="torture#1" wn="" />
   <MEMBER features="+produce_feeling" fn_mapping="None" grouping="touch.03" name="touch" verbnet_key="touch#1" wn="touch%2:37:00" />
-  <MEMBER features="+surprised +fear" fn_mapping="None" grouping="" name="transfix" verbnet_key="transfix#1" wn="" />
+  <MEMBER features="+surprised" fn_mapping="None" grouping="" name="transfix" verbnet_key="transfix#1" wn="" />
   <MEMBER features="+produce_feeling" fn_mapping="Bringing" grouping="transport.02" name="transport" verbnet_key="transport#1" wn="transport%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="trouble.01" name="trouble" verbnet_key="trouble#1" wn="trouble%2:37:01 trouble%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="try.04" name="try" verbnet_key="try#1" wn="try%2:37:01" />

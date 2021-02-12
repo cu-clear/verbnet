@@ -1,26 +1,26 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="hit-18.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Motion_noise" grouping="bang.01 bang.04" name="bang" verbnet_key="bang#3" wn="bang%2:35:00 bang%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="bash" verbnet_key="bash#2" wn="bash%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="blast" verbnet_key="blast#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="bop" verbnet_key="bop#1" wn=""/>
-  <MEMBER fn_mapping="Motion_noise" grouping="click.02" name="click" verbnet_key="click#2" wn="click%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="dash.02" name="dash" verbnet_key="dash#1" wn="dash%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="knap" verbnet_key="knap#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="pink.03" name="pink" verbnet_key="pink#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="squash" verbnet_key="squash#5" wn="squash%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="squelch.01" name="squelch" verbnet_key="squelch#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="tamp" verbnet_key="tamp#1" wn="tamp%2:35:00"/>
-  <MEMBER fn_mapping="Cause_impact" grouping="" name="thump" verbnet_key="thump#2" wn="thump%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="thwack" verbnet_key="thwack#1" wn="thwack%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="trounce" verbnet_key="trounce#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="whack.01" name="whack" verbnet_key="whack#1" wn="whack%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wham" verbnet_key="wham#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="whang" verbnet_key="whang#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="whap" verbnet_key="whap#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="whop" verbnet_key="whop#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="smite.01" name="smite" verbnet_key="smite#2" wn="smite%2:35:00 smite%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="bang.01 bang.04" name="bang" verbnet_key="bang#3" wn="bang%2:35:00 bang%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bash" verbnet_key="bash#2" wn="bash%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blast" verbnet_key="blast#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bop" verbnet_key="bop#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="click.02" name="click" verbnet_key="click#2" wn="click%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dash.02" name="dash" verbnet_key="dash#1" wn="dash%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="knap" verbnet_key="knap#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="pink.03" name="pink" verbnet_key="pink#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squash" verbnet_key="squash#5" wn="squash%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="squelch.01" name="squelch" verbnet_key="squelch#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tamp" verbnet_key="tamp#1" wn="tamp%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_impact" grouping="" name="thump" verbnet_key="thump#2" wn="thump%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="thwack" verbnet_key="thwack#1" wn="thwack%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="trounce" verbnet_key="trounce#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="whack.01" name="whack" verbnet_key="whack#1" wn="whack%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wham" verbnet_key="wham#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whang" verbnet_key="whang#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whap" verbnet_key="whap#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whop" verbnet_key="whop#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="smite.01" name="smite" verbnet_key="smite#2" wn="smite%2:35:00 smite%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -897,26 +897,26 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="hit-18.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Abusing" grouping="batter.01 batter.02" name="batter" verbnet_key="batter#1" wn="batter%2:35:01 batter%2:35:00 batter%2:30:00"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="beat.03 beat.11" name="beat" verbnet_key="beat#2" wn="beat%2:35:01 beat%2:36:00 beat%2:35:03 beat%2:35:10 beat%2:35:12"/>
-    <MEMBER fn_mapping="Impact" grouping="bump.01" name="bump" verbnet_key="bump#2" wn="bump%2:35:00"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="butt.02" name="butt" verbnet_key="butt#2" wn="butt%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="drum.01" name="drum" verbnet_key="drum#2" wn="drum%2:39:00"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="hammer.01" name="hammer" verbnet_key="hammer#4" wn="hammer%2:35:00"/>
-    <MEMBER fn_mapping="Impact" grouping="hit.01 hit.02 hit.03" name="hit" verbnet_key="hit#3" wn="hit%2:35:01 hit%2:35:00 hit%2:33:01 hit%2:33:03"/>
-    <MEMBER fn_mapping="None" grouping="" name="jab" verbnet_key="jab#1" wn="jab%2:35:00 jab%2:35:01 jab%2:35:02"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#4" wn="kick%2:35:00"/>
-    <MEMBER fn_mapping="Cause_motion" grouping="knock.01 knock.02" name="knock" verbnet_key="knock#2" wn="knock%2:35:01 knock%2:35:00 knock%2:39:00"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="lash.01" name="lash" verbnet_key="lash#2" wn="lash%2:35:01 lash%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="pound.01 pound.03" name="pound" verbnet_key="pound#3" wn="pound%2:35:00 pound%2:35:01 pound%2:30:03"/>
-    <MEMBER fn_mapping="None" grouping="" name="rap" verbnet_key="rap#3" wn="rap%2:35:00 rap%2:39:00"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="slap.01" name="slap" verbnet_key="slap#2" wn="slap%2:35:00"/>
-    <MEMBER fn_mapping="Experience_bodily_harm" grouping="smack.01" name="smack" verbnet_key="smack#3" wn="smack%2:35:02"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="smash.01" name="smash" verbnet_key="smash#5" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:05 smash%2:30:10"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="strike.01 strike.02" name="strike" verbnet_key="strike#4" wn="strike%2:35:01 strike%2:35:00 strike%2:35:09"/>
-    <MEMBER fn_mapping="None" grouping="" name="stomp" verbnet_key="stomp#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="whang.01" name="whang" verbnet_key="whang#1" wn="whang%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="tap.02" name="tap" verbnet_key="tap#1" wn="tap%2:35:00 tap%2:39:01"/>
+    <MEMBER features="None" fn_mapping="Abusing" grouping="batter.01 batter.02" name="batter" verbnet_key="batter#1" wn="batter%2:35:01 batter%2:35:00 batter%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="beat.03 beat.11" name="beat" verbnet_key="beat#2" wn="beat%2:35:01 beat%2:36:00 beat%2:35:03 beat%2:35:10 beat%2:35:12"/>
+    <MEMBER features="None" fn_mapping="Impact" grouping="bump.01" name="bump" verbnet_key="bump#2" wn="bump%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="butt.02" name="butt" verbnet_key="butt#2" wn="butt%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="drum.01" name="drum" verbnet_key="drum#2" wn="drum%2:39:00"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="hammer.01" name="hammer" verbnet_key="hammer#4" wn="hammer%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Impact" grouping="hit.01 hit.02 hit.03" name="hit" verbnet_key="hit#3" wn="hit%2:35:01 hit%2:35:00 hit%2:33:01 hit%2:33:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="jab" verbnet_key="jab#1" wn="jab%2:35:00 jab%2:35:01 jab%2:35:02"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#4" wn="kick%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Cause_motion" grouping="knock.01 knock.02" name="knock" verbnet_key="knock#2" wn="knock%2:35:01 knock%2:35:00 knock%2:39:00"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="lash.01" name="lash" verbnet_key="lash#2" wn="lash%2:35:01 lash%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="pound.01 pound.03" name="pound" verbnet_key="pound#3" wn="pound%2:35:00 pound%2:35:01 pound%2:30:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="rap" verbnet_key="rap#3" wn="rap%2:35:00 rap%2:39:00"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="slap.01" name="slap" verbnet_key="slap#2" wn="slap%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="smack.01" name="smack" verbnet_key="smack#3" wn="smack%2:35:02"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="smash.01" name="smash" verbnet_key="smash#5" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:05 smash%2:30:10"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="strike.01 strike.02" name="strike" verbnet_key="strike#4" wn="strike%2:35:01 strike%2:35:00 strike%2:35:09"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="stomp" verbnet_key="stomp#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="whang.01" name="whang" verbnet_key="whang#1" wn="whang%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="tap.02" name="tap" verbnet_key="tap#1" wn="tap%2:35:00 tap%2:39:01"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Instrument">

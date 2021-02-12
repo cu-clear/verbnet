@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="turn-26.6.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="alter.01" name="alter" verbnet_key="alter#2" wn="alter%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="deform.02" name="deform" verbnet_key="deform#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="metamorphose" verbnet_key="metamorphose#1" wn="metamorphose%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="morph" verbnet_key="morph#1" wn="morph%2:30:01 morph%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="mutate" verbnet_key="mutate#1" wn=""/>
-  <MEMBER fn_mapping="Cause_change" grouping="transform.01" name="transform" verbnet_key="transform#1" wn="transform%2:30:00 transform%2:30:03"/>
-  <MEMBER fn_mapping="Have_as_translation_equivalent" grouping="" name="translate" verbnet_key="translate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="transmute" verbnet_key="transmute#1" wn="transmute%2:30:01 transmute%2:30:00 transmute%2:30:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="alter.01" name="alter" verbnet_key="alter#2" wn="alter%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="deform.02" name="deform" verbnet_key="deform#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="metamorphose" verbnet_key="metamorphose#1" wn="metamorphose%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="morph" verbnet_key="morph#1" wn="morph%2:30:01 morph%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="mutate" verbnet_key="mutate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_change" grouping="transform.01" name="transform" verbnet_key="transform#1" wn="transform%2:30:00 transform%2:30:03"/>
+  <MEMBER features="None" fn_mapping="Have_as_translation_equivalent" grouping="" name="translate" verbnet_key="translate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="transmute" verbnet_key="transmute#1" wn="transmute%2:30:01 transmute%2:30:00 transmute%2:30:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -329,9 +329,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="turn-26.6.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Undergo_change" grouping="change.01" name="change" verbnet_key="change#4" wn="change%2:30:00 change%2:30:01 change%2:30:08"/>
-    <MEMBER fn_mapping="Cause_change" grouping="convert.01 convert.02" name="convert" verbnet_key="convert#2" wn="convert%2:30:03 convert%2:30:00 convert%2:30:01 convert%2:30:02 convert%2:30:07 convert%2:30:04"/>
-    <MEMBER fn_mapping="Undergo_change" grouping="turn.01 turn.03 turn.09" name="turn" verbnet_key="turn#8" wn="turn%2:42:00 turn%2:30:03 turn%2:30:09 turn%2:42:13"/>
+    <MEMBER features="None" fn_mapping="Undergo_change" grouping="change.01" name="change" verbnet_key="change#4" wn="change%2:30:00 change%2:30:01 change%2:30:08"/>
+    <MEMBER features="None" fn_mapping="Cause_change" grouping="convert.01 convert.02" name="convert" verbnet_key="convert#2" wn="convert%2:30:03 convert%2:30:00 convert%2:30:01 convert%2:30:02 convert%2:30:07 convert%2:30:04"/>
+    <MEMBER features="None" fn_mapping="Undergo_change" grouping="turn.01 turn.03 turn.09" name="turn" verbnet_key="turn#8" wn="turn%2:42:00 turn%2:30:03 turn%2:30:09 turn%2:42:13"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -450,7 +450,7 @@
      </SEMANTICS>
     </FRAME>
     <FRAME>
-     <DESCRIPTION descriptionNumber="" primary="NP V PP.result  PP.material" secondary="PP-PP; w/ end state w/ beginning state" xtag=""/>
+     <DESCRIPTION descriptionNumber="" primary="NP V PP.result PP.material" secondary="PP-PP; w/ end state w/ beginning state" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
        The thrift converted to a stock form of ownership from a mutual form in April 1986.

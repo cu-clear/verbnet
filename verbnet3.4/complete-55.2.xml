@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="complete-55.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Accomplishment" grouping="accomplish.01" name="accomplish" verbnet_key="accomplish#1" wn="accomplish%2:36:00 accomplish%2:41:00"/>
-  <MEMBER fn_mapping="Accomplishment" grouping="achieve.01" name="achieve" verbnet_key="achieve#1" wn="achieve%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="bring.08" name="bring-off" verbnet_key="bring-off#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="pull.04" name="pull-off" verbnet_key="pull-off#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Accomplishment" grouping="accomplish.01" name="accomplish" verbnet_key="accomplish#1" wn="accomplish%2:36:00 accomplish%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Accomplishment" grouping="achieve.01" name="achieve" verbnet_key="achieve#1" wn="achieve%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bring.08" name="bring-off" verbnet_key="bring-off#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="pull.04" name="pull-off" verbnet_key="pull-off#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -59,9 +59,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="complete-55.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="complete.01 complete.02 complete.03" name="complete" verbnet_key="complete#1" wn="complete%2:30:02 complete%2:30:00 complete%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="discontinue.01" name="discontinue" verbnet_key="discontinue#1" wn="discontinue%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="quit.01" name="quit" verbnet_key="quit#1" wn="quit%2:42:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="complete.01 complete.02 complete.03" name="complete" verbnet_key="complete#1" wn="complete%2:30:02 complete%2:30:00 complete%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="discontinue.01" name="discontinue" verbnet_key="discontinue#1" wn="discontinue%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="quit.01" name="quit" verbnet_key="quit#1" wn="quit%2:42:04"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

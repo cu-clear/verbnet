@@ -1138,21 +1138,21 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="cut-21.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Damaging" grouping="chip.01" name="chip" verbnet_key="chip#4" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00"/>
-    <MEMBER fn_mapping="Cutting" grouping="chop.01" name="chop" verbnet_key="chop#3" wn="chop%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="clip.01" name="clip" verbnet_key="clip#2" wn="clip%2:35:03 clip%2:35:04"/>
-    <MEMBER fn_mapping="Experience_bodily_harm" grouping="cut.01" name="cut" verbnet_key="cut#5" wn="cut%2:35:00 cut%2:35:12 cut%2:35:11 cut%2:35:14 cut%2:30:14"/>
-    <MEMBER fn_mapping="None" grouping="hack.01" name="hack" verbnet_key="hack#2" wn="hack%2:35:02 hack%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="hew" verbnet_key="hew#1" wn="hew%2:35:00"/>
-    <MEMBER fn_mapping="Cause_to_fragment" grouping="rip.01" name="rip" verbnet_key="rip#2" wn="rip%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="saw.01" name="saw" verbnet_key="saw#1" wn="saw%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="scarify.01" name="scarify" verbnet_key="scarify#1" wn="scarify%2:35:00 scarify%2:35:02 scarify%2:35:01"/>
-    <MEMBER fn_mapping="Removing" grouping="scrape.01" name="scrape" verbnet_key="scrape#1" wn="scrape%2:35:00 scrape%2:35:02 scrape%2:35:01"/>
-    <MEMBER fn_mapping="Damaging" grouping="scratch.01" name="scratch" verbnet_key="scratch#1" wn="scratch%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="slash.01" name="slash" verbnet_key="slash#1" wn="slash%2:35:01 slash%2:35:00"/>
-    <MEMBER fn_mapping="Cutting" grouping="slice.01" name="slice" verbnet_key="slice#3" wn="slice%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="snip.01" name="snip" verbnet_key="snip#1" wn="snip%2:35:07 snip%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="ream" verbnet_key="ream#1" wn="ream%2:30:01 ream%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Damaging" grouping="chip.01" name="chip" verbnet_key="chip#4" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Cutting" grouping="chop.01" name="chop" verbnet_key="chop#3" wn="chop%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="clip.01" name="clip" verbnet_key="clip#2" wn="clip%2:35:03 clip%2:35:04"/>
+    <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="cut.01" name="cut" verbnet_key="cut#5" wn="cut%2:35:00 cut%2:35:12 cut%2:35:11 cut%2:35:14 cut%2:30:14"/>
+    <MEMBER features="None" fn_mapping="None" grouping="hack.01" name="hack" verbnet_key="hack#2" wn="hack%2:35:02 hack%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="hew" verbnet_key="hew#1" wn="hew%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="rip.01" name="rip" verbnet_key="rip#2" wn="rip%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="saw.01" name="saw" verbnet_key="saw#1" wn="saw%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="scarify.01" name="scarify" verbnet_key="scarify#1" wn="scarify%2:35:00 scarify%2:35:02 scarify%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Removing" grouping="scrape.01" name="scrape" verbnet_key="scrape#1" wn="scrape%2:35:00 scrape%2:35:02 scrape%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Damaging" grouping="scratch.01" name="scratch" verbnet_key="scratch#1" wn="scratch%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="slash.01" name="slash" verbnet_key="slash#1" wn="slash%2:35:01 slash%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Cutting" grouping="slice.01" name="slice" verbnet_key="slice#3" wn="slice%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="snip.01" name="snip" verbnet_key="snip#1" wn="snip%2:35:07 snip%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="ream" verbnet_key="ream#1" wn="ream%2:30:01 ream%2:30:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Patient">
@@ -1200,7 +1200,7 @@
         <ARG type="VerbSpecific" value="?Causer"/>
        </ARGS>
       </PRED>
-      <PRED value="Experience">
+      <PRED value="experience">
        <ARGS>
         <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Experiencer"/>
@@ -1257,7 +1257,7 @@
         <ARG type="VerbSpecific" value="Causer"/>
        </ARGS>
       </PRED>
-      <PRED value="Experience">
+      <PRED value="experience">
        <ARGS>
         <ARG type="Event" value="e3"/>
         <ARG type="ThemRole" value="Experiencer"/>

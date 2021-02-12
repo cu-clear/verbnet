@@ -2,12 +2,12 @@
 <VNCLASS ID="sound_existence-47.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each member adds a predicate for the quality of the sound-->
-  <MEMBER fn_mapping="Sound_movement" grouping="echo.02" name="echo" verbnet_key="echo#1" wn="echo%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="resonate" verbnet_key="resonate#1" wn="resonate%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="resound" verbnet_key="resound#1" wn="resound%2:39:01"/>
-  <MEMBER fn_mapping="Sound_movement" grouping="reverberate.01" name="reverberate" verbnet_key="reverberate#1" wn="reverberate%2:39:00"/>
-  <MEMBER fn_mapping="Sound_movement" grouping="" name="roll" verbnet_key="roll#11" wn=""/>
-  <MEMBER fn_mapping="Make_noise" grouping="sound.02" name="sound" verbnet_key="sound#3" wn="sound%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Sound_movement" grouping="echo.02" name="echo" verbnet_key="echo#1" wn="echo%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="resonate" verbnet_key="resonate#1" wn="resonate%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="resound" verbnet_key="resound#1" wn="resound%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Sound_movement" grouping="reverberate.01" name="reverberate" verbnet_key="reverberate#1" wn="reverberate%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Sound_movement" grouping="" name="roll" verbnet_key="roll#11" wn=""/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="sound.02" name="sound" verbnet_key="sound#3" wn="sound%2:39:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

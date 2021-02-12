@@ -16,12 +16,12 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="withdraw-82-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="back_out" verbnet_key="back_out#1" wn="back_out%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="chicken_out" verbnet_key="chicken_out#1" wn="chicken_out%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="get_out" verbnet_key="get_out#1" wn="get_out%2:32:03"/>
-    <MEMBER fn_mapping="None" grouping="" name="wriggle_out" verbnet_key="wriggle_out#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="bow_out" verbnet_key="bow_out#1" wn="bow_out%2:41:01 bow_out%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="pull_out" verbnet_key="pull_out#1" wn="pull_out%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="back_out" verbnet_key="back_out#1" wn="back_out%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="chicken_out" verbnet_key="chicken_out#1" wn="chicken_out%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="get_out" verbnet_key="get_out#1" wn="get_out%2:32:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="wriggle_out" verbnet_key="wriggle_out#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="bow_out" verbnet_key="bow_out#1" wn="bow_out%2:41:01 bow_out%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pull_out" verbnet_key="pull_out#1" wn="pull_out%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -113,9 +113,9 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="withdraw-82-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="get_away" verbnet_key="get_away#1" wn="get_away%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="back_off" verbnet_key="back_off#1" wn="back_off%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="back_down" verbnet_key="back_down#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="get_away" verbnet_key="get_away#1" wn="get_away%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="back_off" verbnet_key="back_off#1" wn="back_off%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="back_down" verbnet_key="back_down#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -208,10 +208,10 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="withdraw-82-3">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="withdraw.01" name="withdraw" verbnet_key="withdraw#4" wn="withdraw%2:41:01 withdraw%2:32:00"/>
-    <MEMBER fn_mapping="Quitting_a_place" grouping="retreat.01 retreat.04" name="retreat" verbnet_key="retreat#3" wn="retreat%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="pull_away" verbnet_key="pull_away#1" wn="pull_away%2:38:00"/>
-    <MEMBER fn_mapping="Quitting" grouping="retire.01" name="retire" verbnet_key="retire#2" wn="retire%2:41:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="withdraw.01" name="withdraw" verbnet_key="withdraw#4" wn="withdraw%2:41:01 withdraw%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Quitting_a_place" grouping="retreat.01 retreat.04" name="retreat" verbnet_key="retreat#3" wn="retreat%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pull_away" verbnet_key="pull_away#1" wn="pull_away%2:38:00"/>
+    <MEMBER features="None" fn_mapping="Quitting" grouping="retire.01" name="retire" verbnet_key="retire#2" wn="retire%2:41:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

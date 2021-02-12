@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="masquerade-29.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Conduct" grouping="behave.01" name="behave" verbnet_key="behave#1" wn="behave%2:29:00"/>
-  <MEMBER fn_mapping="Categorization" grouping="count.03" name="count" verbnet_key="count#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="function.01" name="function" verbnet_key="function#2" wn="function%2:42:12"/>
-  <MEMBER fn_mapping="None" grouping="" name="masquerade" verbnet_key="masquerade#1" wn="masquerade%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="officiate" verbnet_key="officiate#1" wn="officiate%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="qualify.01" name="qualify" verbnet_key="qualify#1" wn="qualify%2:42:00"/>
-  <MEMBER fn_mapping="Occupy_rank" grouping="rank.01" name="rank" verbnet_key="rank#2" wn="rank%2:31:13"/>
+  <MEMBER features="None" fn_mapping="Conduct" grouping="behave.01" name="behave" verbnet_key="behave#1" wn="behave%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Categorization" grouping="count.03" name="count" verbnet_key="count#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="function.01" name="function" verbnet_key="function#2" wn="function%2:42:12"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="masquerade" verbnet_key="masquerade#1" wn="masquerade%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="officiate" verbnet_key="officiate#1" wn="officiate%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="qualify.01" name="qualify" verbnet_key="qualify#1" wn="qualify%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Occupy_rank" grouping="rank.01" name="rank" verbnet_key="rank#2" wn="rank%2:31:13"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -51,8 +51,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="masquerade-29.6-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="act.01 act.02" name="act" verbnet_key="act#2" wn="act%2:29:00 act%2:33:00"/>
-    <MEMBER fn_mapping="Conduct" grouping="behave.01" name="behave" verbnet_key="behave#1" wn="behave%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="act.01 act.02" name="act" verbnet_key="act#2" wn="act%2:29:00 act%2:33:00"/>
+    <MEMBER features="None" fn_mapping="Conduct" grouping="behave.01" name="behave" verbnet_key="behave#1" wn="behave%2:29:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -88,8 +88,8 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="masquerade-29.6-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Assistance" grouping="serve.01 serve.03" name="serve" verbnet_key="serve#3" wn="serve%2:42:03 serve%2:33:00"/>
-    <MEMBER fn_mapping="Posing_as" grouping="pose.03" name="pose" verbnet_key="pose#1" wn="pose%2:32:13"/>
+    <MEMBER features="None" fn_mapping="Assistance" grouping="serve.01 serve.03" name="serve" verbnet_key="serve#3" wn="serve%2:42:03 serve%2:33:00"/>
+    <MEMBER features="None" fn_mapping="Posing_as" grouping="pose.03" name="pose" verbnet_key="pose#1" wn="pose%2:32:13"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

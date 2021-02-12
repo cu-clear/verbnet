@@ -1,21 +1,21 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="deprive-10.6.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="burgle" verbnet_key="burgle#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="despoil" verbnet_key="despoil#1" wn="despoil%2:40:00 despoil%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="disabuse" verbnet_key="disabuse#1" wn="disabuse%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="plunder" verbnet_key="plunder#1" wn="plunder%2:40:00 plunder%2:35:01"/>
-  <MEMBER fn_mapping="Emptying" grouping="rid.01" name="rid" verbnet_key="rid#1" wn="rid%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="depopulate" verbnet_key="depopulate#1" wn="depopulate%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bereave" verbnet_key="bereave#1" wn="bereave%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="denude" verbnet_key="denude#1" wn="denude%2:30:00"/>
-  <MEMBER fn_mapping="Emptying" grouping="disarm.01" name="disarm" verbnet_key="disarm#2" wn="disarm%2:33:01"/>
-  <MEMBER fn_mapping="Emptying" grouping="drain.01 drain.02" name="drain" verbnet_key="drain#2" wn="drain%2:34:00 drain%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="dispossess" verbnet_key="dispossess#1" wn="dispossess%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="deplete" verbnet_key="deplete#1" wn="deplete%2:34:00"/>
-  <MEMBER fn_mapping="Emptying" grouping="divest.01 divest.02" name="divest" verbnet_key="divest#1" wn="divest%2:40:01 divest%2:41:00 divest%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="deprive.01" name="deprive" verbnet_key="deprive#1" wn="deprive%2:40:01 deprive%2:40:00 deprive%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sap" verbnet_key="sap#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="burgle" verbnet_key="burgle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="despoil" verbnet_key="despoil#1" wn="despoil%2:40:00 despoil%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="disabuse" verbnet_key="disabuse#1" wn="disabuse%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="plunder" verbnet_key="plunder#1" wn="plunder%2:40:00 plunder%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Emptying" grouping="rid.01" name="rid" verbnet_key="rid#1" wn="rid%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="depopulate" verbnet_key="depopulate#1" wn="depopulate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bereave" verbnet_key="bereave#1" wn="bereave%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="denude" verbnet_key="denude#1" wn="denude%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Emptying" grouping="disarm.01" name="disarm" verbnet_key="disarm#2" wn="disarm%2:33:01"/>
+  <MEMBER features="None" fn_mapping="Emptying" grouping="drain.01 drain.02" name="drain" verbnet_key="drain#2" wn="drain%2:34:00 drain%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dispossess" verbnet_key="dispossess#1" wn="dispossess%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deplete" verbnet_key="deplete#1" wn="deplete%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Emptying" grouping="divest.01 divest.02" name="divest" verbnet_key="divest#1" wn="divest%2:40:01 divest%2:41:00 divest%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="deprive.01" name="deprive" verbnet_key="deprive#1" wn="deprive%2:40:01 deprive%2:40:00 deprive%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sap" verbnet_key="sap#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

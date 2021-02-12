@@ -169,11 +169,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="learn-14-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Education_teaching" grouping="cram.02" name="cram" verbnet_key="cram#1" wn="cram%2:31:00 cram%2:30:00"/>
-    <MEMBER fn_mapping="Reading_perception" grouping="read.01" name="read" verbnet_key="read#2" wn="read%2:31:00 read%2:31:04"/>
-    <MEMBER fn_mapping="None" grouping="" name="relearn" verbnet_key="relearn#2" wn="relearn%2:31:00"/>
-    <MEMBER fn_mapping="Scrutiny" grouping="study.01 study.02" name="study" verbnet_key="study#3" wn="study%2:31:02 study%2:31:00 study%2:31:01"/>
-    <MEMBER fn_mapping="None" grouping="learn.01 learn.02" name="learn" verbnet_key="learn#2" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
+    <MEMBER features="None" fn_mapping="Education_teaching" grouping="cram.02" name="cram" verbnet_key="cram#1" wn="cram%2:31:00 cram%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Reading_perception" grouping="read.01" name="read" verbnet_key="read#2" wn="read%2:31:00 read%2:31:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="relearn" verbnet_key="relearn#2" wn="relearn%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Scrutiny" grouping="study.01 study.02" name="study" verbnet_key="study#3" wn="study%2:31:02 study%2:31:00 study%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="learn.01 learn.02" name="learn" verbnet_key="learn#2" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -226,10 +226,10 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="learn-14-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="absorb.02" name="absorb" verbnet_key="absorb#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="assimilate.02" name="assimilate" verbnet_key="assimilate#2" wn="assimilate%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="glean" verbnet_key="glean#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="memorize" verbnet_key="memorize#1" wn="memorize%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="absorb.02" name="absorb" verbnet_key="absorb#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="assimilate.02" name="assimilate" verbnet_key="assimilate#2" wn="assimilate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="glean" verbnet_key="glean#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="memorize" verbnet_key="memorize#1" wn="memorize%2:31:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -445,8 +445,8 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="learn-14-2-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="learn.01 learn.02" name="learn" verbnet_key="learn#2" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
-      <MEMBER fn_mapping="Reading_perception" grouping="read.01" name="read" verbnet_key="read#2" wn="read%2:31:00 read%2:31:04"/>
+      <MEMBER features="None" fn_mapping="None" grouping="learn.01 learn.02" name="learn" verbnet_key="learn#2" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
+      <MEMBER features="None" fn_mapping="Reading_perception" grouping="read.01" name="read" verbnet_key="read#2" wn="read%2:31:00 read%2:31:04"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

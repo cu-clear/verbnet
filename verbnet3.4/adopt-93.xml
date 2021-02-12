@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="adopt-93" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="abide.03" name="abide-by" verbnet_key="abide-by#1" wn="abide_by%2:41:00"/>
-  <MEMBER fn_mapping="Adopt_selection" grouping="assume.02" name="assume" verbnet_key="assume#1" wn="assume%2:41:00 assume%2:30:00 assume%2:38:00"/>
-  <MEMBER fn_mapping="Adopt_selection" grouping="adopt.01" name="adopt" verbnet_key="adopt#1" wn="adopt%2:40:02"/>
-  <MEMBER fn_mapping="Compliance" grouping="follow.03" name="follow" verbnet_key="follow#1" wn="follow%2:41:00 follow%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="take_over" verbnet_key="take_over#1" wn="take_over%2:40:07 take_over%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="take_on" verbnet_key="take_on#1" wn="take_on%2:30:00 take_on%2:41:01"/>
-  <MEMBER fn_mapping="Conquering" grouping="take.08" name="take" verbnet_key="take#2" wn="take%2:40:05"/>
+  <MEMBER features="None" fn_mapping="None" grouping="abide.03" name="abide-by" verbnet_key="abide-by#1" wn="abide_by%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Adopt_selection" grouping="assume.02" name="assume" verbnet_key="assume#1" wn="assume%2:41:00 assume%2:30:00 assume%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Adopt_selection" grouping="adopt.01" name="adopt" verbnet_key="adopt#1" wn="adopt%2:40:02"/>
+  <MEMBER features="None" fn_mapping="Compliance" grouping="follow.03" name="follow" verbnet_key="follow#1" wn="follow%2:41:00 follow%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="take_over" verbnet_key="take_over#1" wn="take_over%2:40:07 take_over%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="take_on" verbnet_key="take_on#1" wn="take_on%2:30:00 take_on%2:41:01"/>
+  <MEMBER features="None" fn_mapping="Conquering" grouping="take.08" name="take" verbnet_key="take#2" wn="take%2:40:05"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

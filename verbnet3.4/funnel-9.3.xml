@@ -2,14 +2,14 @@
 <VNCLASS ID="funnel-9.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Some members add a predicate specifying instrument-->
-  <MEMBER fn_mapping="None" grouping="dip.01 dip.08" name="dip" verbnet_key="dip#2" wn="dip%2:35:00 dip%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="dunk.01" name="dunk" verbnet_key="dunk#1" wn="dunk%2:35:00 dunk%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="ladle" verbnet_key="ladle#1" wn="ladle%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="hoe" verbnet_key="hoe#1" wn="hoe%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="scoop.01" name="scoop" verbnet_key="scoop#1" wn="scoop%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="siphon.01" name="siphon" verbnet_key="siphon#1" wn="siphon%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="sop.02 sop.04" name="sop" verbnet_key="sop#1" wn="sop%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="channelize" verbnet_key="channelize#1" wn="channelize%2:38:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dip.01 dip.08" name="dip" verbnet_key="dip#2" wn="dip%2:35:00 dip%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dunk.01" name="dunk" verbnet_key="dunk#1" wn="dunk%2:35:00 dunk%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ladle" verbnet_key="ladle#1" wn="ladle%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hoe" verbnet_key="hoe#1" wn="hoe%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="scoop.01" name="scoop" verbnet_key="scoop#1" wn="scoop%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="siphon.01" name="siphon" verbnet_key="siphon#1" wn="siphon%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sop.02 sop.04" name="sop" verbnet_key="sop#1" wn="sop%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="channelize" verbnet_key="channelize#1" wn="channelize%2:38:03"/>
  </MEMBERS>
  <THEMROLES>
   <!--Destination can also be realized as here, there-->
@@ -320,17 +320,17 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="funnel-9.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="channel.01" name="channel" verbnet_key="channel#1" wn="channel%2:38:01 channel%2:38:00 channel%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="fit.02" name="fit" verbnet_key="fit#3" wn="fit%2:42:02 fit%2:42:03"/>
-    <MEMBER fn_mapping="None" grouping="rake.01" name="rake" verbnet_key="rake#1" wn="rake%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="scrape" verbnet_key="scrape#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="shovel" verbnet_key="shovel#1" wn="shovel%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="spoon" verbnet_key="spoon#1" wn="spoon%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="squash" verbnet_key="squash#4" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="squish" verbnet_key="squish#3" wn="squish%2:35:00"/>
-    <MEMBER fn_mapping="Placing" grouping="tuck.01" name="tuck" verbnet_key="tuck#1" wn="tuck%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="wipe.01" name="wipe" verbnet_key="wipe#1" wn="?wipe%2:35:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="wring.01" name="wring" verbnet_key="wring#2" wn="wring%2:35:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="channel.01" name="channel" verbnet_key="channel#1" wn="channel%2:38:01 channel%2:38:00 channel%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="fit.02" name="fit" verbnet_key="fit#3" wn="fit%2:42:02 fit%2:42:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="rake.01" name="rake" verbnet_key="rake#1" wn="rake%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="scrape" verbnet_key="scrape#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="shovel" verbnet_key="shovel#1" wn="shovel%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="spoon" verbnet_key="spoon#1" wn="spoon%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="squash" verbnet_key="squash#4" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="squish" verbnet_key="squish#3" wn="squish%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="tuck.01" name="tuck" verbnet_key="tuck#1" wn="tuck%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="wipe.01" name="wipe" verbnet_key="wipe#1" wn="?wipe%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="wring.01" name="wring" verbnet_key="wring#2" wn="wring%2:35:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -405,17 +405,17 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="funnel-9.3-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Impact" grouping="bang.01" name="bang" verbnet_key="bang#2" wn="bang%2:35:02"/>
-      <MEMBER fn_mapping="None" grouping="dump.02" name="dump" verbnet_key="dump#1" wn="dump%2:40:00"/>
-      <MEMBER fn_mapping="None" grouping="funnel.01" name="funnel" verbnet_key="funnel#1" wn="funnel%2:35:00"/>
-      <MEMBER fn_mapping="Cause_harm" grouping="hammer.01" name="hammer" verbnet_key="hammer#3" wn="hammer%2:35:00 hammer%2:36:00"/>
-      <MEMBER fn_mapping="None" grouping="pound.01" name="pound" verbnet_key="pound#2" wn="pound%2:30:03"/>
-      <MEMBER fn_mapping="Cause_motion" grouping="push.01" name="push" verbnet_key="push#2" wn="push%2:38:00"/>
-      <MEMBER fn_mapping="None" grouping="ram.05" name="ram" verbnet_key="ram#2" wn="ram%2:35:03"/>
-      <MEMBER fn_mapping="Moving_in_place" grouping="shake.01" name="shake" verbnet_key="shake#4" wn="shake%2:30:01"/>
-      <MEMBER fn_mapping="Cause_to_move_in_place" grouping="squeeze.03" name="squeeze" verbnet_key="squeeze#1" wn="squeeze%2:35:03"/>
-      <MEMBER fn_mapping="None" grouping="sweep.02" name="sweep" verbnet_key="sweep#1" wn="sweep%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="wedge" verbnet_key="wedge#1" wn="wedge%2:35:01 wedge%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Impact" grouping="bang.01" name="bang" verbnet_key="bang#2" wn="bang%2:35:02"/>
+      <MEMBER features="None" fn_mapping="None" grouping="dump.02" name="dump" verbnet_key="dump#1" wn="dump%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="funnel.01" name="funnel" verbnet_key="funnel#1" wn="funnel%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Cause_harm" grouping="hammer.01" name="hammer" verbnet_key="hammer#3" wn="hammer%2:35:00 hammer%2:36:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="pound.01" name="pound" verbnet_key="pound#2" wn="pound%2:30:03"/>
+      <MEMBER features="None" fn_mapping="Cause_motion" grouping="push.01" name="push" verbnet_key="push#2" wn="push%2:38:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="ram.05" name="ram" verbnet_key="ram#2" wn="ram%2:35:03"/>
+      <MEMBER features="None" fn_mapping="Moving_in_place" grouping="shake.01" name="shake" verbnet_key="shake#4" wn="shake%2:30:01"/>
+      <MEMBER features="None" fn_mapping="Cause_to_move_in_place" grouping="squeeze.03" name="squeeze" verbnet_key="squeeze#1" wn="squeeze%2:35:03"/>
+      <MEMBER features="None" fn_mapping="None" grouping="sweep.02" name="sweep" verbnet_key="sweep#1" wn="sweep%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="wedge" verbnet_key="wedge#1" wn="wedge%2:35:01 wedge%2:35:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

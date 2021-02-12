@@ -1,15 +1,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="captain-29.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="butcher" verbnet_key="butcher#1" wn="butcher%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="judge" verbnet_key="judge#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="lawyer" verbnet_key="lawyer#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="midwife" verbnet_key="midwife#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="model.03" name="model" verbnet_key="model#1" wn="model%2:39:01 model%2:39:00 model%2:36:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="prostitute" verbnet_key="prostitute#1" wn="prostitute%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="soldier" verbnet_key="soldier#1" wn="soldier%2:33:00"/>
-  <MEMBER fn_mapping="Commitment" grouping="volunteer.01 volunteer.02" name="volunteer" verbnet_key="volunteer#1" wn="volunteer%2:41:01 volunteer%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="whore.01" name="whore" verbnet_key="whore#2" wn="whore%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="butcher" verbnet_key="butcher#1" wn="butcher%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="judge" verbnet_key="judge#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lawyer" verbnet_key="lawyer#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="midwife" verbnet_key="midwife#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="model.03" name="model" verbnet_key="model#1" wn="model%2:39:01 model%2:39:00 model%2:36:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="prostitute" verbnet_key="prostitute#1" wn="prostitute%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="soldier" verbnet_key="soldier#1" wn="soldier%2:33:00"/>
+  <MEMBER features="None" fn_mapping="Commitment" grouping="volunteer.01 volunteer.02" name="volunteer" verbnet_key="volunteer#1" wn="volunteer%2:41:01 volunteer%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="whore.01" name="whore" verbnet_key="whore#2" wn="whore%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -63,41 +63,41 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="captain-29.8-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="babysit" verbnet_key="babysit#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="boss" verbnet_key="boss#1" wn=""/>
-    <MEMBER fn_mapping="Manipulate_into_doing" grouping="bully.01" name="bully" verbnet_key="bully#2" wn="bully%2:37:00 bully%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="butler" verbnet_key="butler#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="caddy" verbnet_key="caddy#1" wn="caddy%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="captain" verbnet_key="captain#1" wn="captain%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="champion" verbnet_key="champion#1" wn="champion%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="chaperone" verbnet_key="chaperone#1" wn="chaperone%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="chauffeur" verbnet_key="chauffeur#1" wn="chauffeur%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="clerk" verbnet_key="clerk#1" wn="clerk%2:41:00"/>
-    <MEMBER fn_mapping="Education_teaching" grouping="coach.01" name="coach" verbnet_key="coach#1" wn="coach%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="cox" verbnet_key="cox#1" wn="cox%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="crew" verbnet_key="crew#1" wn="crew%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="doctor.02" name="doctor" verbnet_key="doctor#1" wn="doctor%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="emcee" verbnet_key="emcee#1" wn="emcee%2:41:00"/>
-    <MEMBER fn_mapping="Cotheme" grouping="escort.01" name="escort" verbnet_key="escort#2" wn="escort%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="guard.01 guard.02" name="guard" verbnet_key="guard#1" wn="guard%2:41:00 guard%2:33:00 guard%2:33:03"/>
-    <MEMBER fn_mapping="Guest_and_host" grouping="host.01" name="host" verbnet_key="host#1" wn="host%2:34:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="mother" verbnet_key="mother#2" wn="mother%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="nurse.03 nurse.04" name="nurse" verbnet_key="nurse#1" wn="nurse%2:41:00 nurse%2:34:00"/>
-    <MEMBER fn_mapping="Collaboration" grouping="partner.01" name="partner" verbnet_key="partner#1" wn="partner%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="pilot" verbnet_key="pilot#1" wn="pilot%2:38:00 pilot%2:38:01"/>
-    <MEMBER fn_mapping="Achieving_first" grouping="pioneer.01" name="pioneer" verbnet_key="pioneer#1" wn="pioneer%2:36:00 pioneer%2:36:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="police" verbnet_key="police#1" wn="police%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="referee" verbnet_key="referee#1" wn="referee%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="shepherd" verbnet_key="shepherd#2" wn="shepherd%2:41:01 shepherd%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="skipper" verbnet_key="skipper#1" wn="skipper%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="sponsor.01" name="sponsor" verbnet_key="sponsor#1" wn="sponsor%2:40:00 sponsor%2:40:01 sponsor%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="tailor.01 tailor.02" name="tailor" verbnet_key="tailor#1" wn="tailor%2:30:00 tailor%2:36:01 tailor%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="tutor" verbnet_key="tutor#1" wn="tutor%2:32:00 tutor%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="umpire" verbnet_key="umpire#1" wn="umpire%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="understudy" verbnet_key="understudy#1" wn="understudy%2:31:00"/>
-    <MEMBER fn_mapping="Cotheme" grouping="usher.01" name="usher" verbnet_key="usher#1" wn="usher%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="valet" verbnet_key="valet#1" wn="valet%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="witness.01" name="witness" verbnet_key="witness#1" wn="witness%2:39:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="babysit" verbnet_key="babysit#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="boss" verbnet_key="boss#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Manipulate_into_doing" grouping="bully.01" name="bully" verbnet_key="bully#2" wn="bully%2:37:00 bully%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="butler" verbnet_key="butler#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="caddy" verbnet_key="caddy#1" wn="caddy%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="captain" verbnet_key="captain#1" wn="captain%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="champion" verbnet_key="champion#1" wn="champion%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="chaperone" verbnet_key="chaperone#1" wn="chaperone%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="chauffeur" verbnet_key="chauffeur#1" wn="chauffeur%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="clerk" verbnet_key="clerk#1" wn="clerk%2:41:00"/>
+    <MEMBER features="None" fn_mapping="Education_teaching" grouping="coach.01" name="coach" verbnet_key="coach#1" wn="coach%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="cox" verbnet_key="cox#1" wn="cox%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="crew" verbnet_key="crew#1" wn="crew%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="doctor.02" name="doctor" verbnet_key="doctor#1" wn="doctor%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="emcee" verbnet_key="emcee#1" wn="emcee%2:41:00"/>
+    <MEMBER features="None" fn_mapping="Cotheme" grouping="escort.01" name="escort" verbnet_key="escort#2" wn="escort%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="guard.01 guard.02" name="guard" verbnet_key="guard#1" wn="guard%2:41:00 guard%2:33:00 guard%2:33:03"/>
+    <MEMBER features="None" fn_mapping="Guest_and_host" grouping="host.01" name="host" verbnet_key="host#1" wn="host%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="mother" verbnet_key="mother#2" wn="mother%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="nurse.03 nurse.04" name="nurse" verbnet_key="nurse#1" wn="nurse%2:41:00 nurse%2:34:00"/>
+    <MEMBER features="None" fn_mapping="Collaboration" grouping="partner.01" name="partner" verbnet_key="partner#1" wn="partner%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pilot" verbnet_key="pilot#1" wn="pilot%2:38:00 pilot%2:38:01"/>
+    <MEMBER features="None" fn_mapping="Achieving_first" grouping="pioneer.01" name="pioneer" verbnet_key="pioneer#1" wn="pioneer%2:36:00 pioneer%2:36:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="police" verbnet_key="police#1" wn="police%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="referee" verbnet_key="referee#1" wn="referee%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="shepherd" verbnet_key="shepherd#2" wn="shepherd%2:41:01 shepherd%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="skipper" verbnet_key="skipper#1" wn="skipper%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="sponsor.01" name="sponsor" verbnet_key="sponsor#1" wn="sponsor%2:40:00 sponsor%2:40:01 sponsor%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="tailor.01 tailor.02" name="tailor" verbnet_key="tailor#1" wn="tailor%2:30:00 tailor%2:36:01 tailor%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="tutor" verbnet_key="tutor#1" wn="tutor%2:32:00 tutor%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="umpire" verbnet_key="umpire#1" wn="umpire%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="understudy" verbnet_key="understudy#1" wn="understudy%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Cotheme" grouping="usher.01" name="usher" verbnet_key="usher#1" wn="usher%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="valet" verbnet_key="valet#1" wn="valet%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="witness.01" name="witness" verbnet_key="witness#1" wn="witness%2:39:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -137,7 +137,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="captain-29.8-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Performers_and_roles" grouping="star.01" name="star" verbnet_key="star#1" wn="star%2:36:00"/>
+      <MEMBER features="None" fn_mapping="Performers_and_roles" grouping="star.01" name="star" verbnet_key="star#1" wn="star%2:36:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

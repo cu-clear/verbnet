@@ -1,60 +1,60 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="remove-10.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="abolish.01" name="abolish" verbnet_key="abolish#1" wn="abolish%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="abstract.02" name="abstract" verbnet_key="abstract#1" wn="abstract%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cull" verbnet_key="cull#2" wn="cull%2:40:00 cull%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="cut.06" name="cut-off" verbnet_key="cut-off#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="deburr" verbnet_key="deburr#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="deduct.01" name="deduct" verbnet_key="deduct#3" wn="deduct%2:31:01 deduct%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="delete.01" name="delete" verbnet_key="delete#1" wn="delete%2:35:00 delete%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="depose" verbnet_key="depose#1" wn="depose%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="disgorge" verbnet_key="disgorge#1" wn="disgorge%2:35:00"/>
-  <MEMBER fn_mapping="Removing" grouping="dislodge.01" name="dislodge" verbnet_key="dislodge#1" wn="dislodge%2:35:00 dislodge%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="disengage.01" name="disengage" verbnet_key="disengage#1" wn="disengage%2:35:00"/>
-  <MEMBER fn_mapping="Cause_motion" grouping="draw.03" name="draw" verbnet_key="draw#4" wn="draw%2:38:01 draw%2:38:00 draw%2:31:13 draw%2:40:01 draw%2:33:01 draw%2:38:07"/>
-  <MEMBER fn_mapping="Removing" grouping="eject.02" name="eject" verbnet_key="eject#1" wn="eject%2:35:01"/>
-  <MEMBER fn_mapping="Removing" grouping="eliminate.01 eliminate.02 eliminate.03" name="eliminate" verbnet_key="eliminate#2" wn="eliminate%2:30:01 eliminate%2:42:01 eliminate%2:31:00 eliminate%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="eradicate.01" name="eradicate" verbnet_key="eradicate#1" wn="eradicate%2:30:00 eradicate%2:36:00"/>
-  <MEMBER fn_mapping="Removing" grouping="excise.01 excise.03" name="excise" verbnet_key="excise#1" wn="excise%2:35:00 excise%2:30:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="excommunicate" verbnet_key="excommunicate#1" wn="excommunicate%2:32:00"/>
-  <MEMBER fn_mapping="Exclude_member" grouping="expel.01 expel.02" name="expel" verbnet_key="expel#3" wn="expel%2:41:00 expel%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="extirpate" verbnet_key="extirpate#2" wn="extirpate%2:35:00"/>
-  <MEMBER fn_mapping="Removing" grouping="extract.01 extract.02 extract.03 extract.04" name="extract" verbnet_key="extract#1" wn="extract%2:35:04 extract%2:40:00 extract%2:30:00 extract%2:35:07 extract%2:35:05 extract%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="extrude" verbnet_key="extrude#1" wn="extrude%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="kill.03" name="kill" verbnet_key="kill#4" wn="kill%2:30:08 kill%2:30:00 kill%2:30:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="lop" verbnet_key="lop#1" wn="lop%2:35:01 lop%2:35:00"/>
-  <MEMBER fn_mapping="Losing_it" grouping="" name="lose" verbnet_key="lose#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="omit.01" name="omit" verbnet_key="omit#3" wn="omit%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="ostracize" verbnet_key="ostracize#1" wn="ostracize%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="partition" verbnet_key="partition#2" wn="partition%2:35:00 partition%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="pry.01" name="pry" verbnet_key="pry#2" wn="pry%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="pull.02" name="pull" verbnet_key="pull#6" wn="pull%2:38:03"/>
-  <MEMBER fn_mapping="None" grouping="reap.01 reap.02" name="reap" verbnet_key="reap#1" wn="reap%2:35:00 reap%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="ream.02" name="ream" verbnet_key="ream#2" wn="ream%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="render.04" name="render" verbnet_key="render#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="retract.01" name="retract" verbnet_key="retract#1" wn="retract%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="roust" verbnet_key="roust#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="separate.01" name="separate" verbnet_key="separate#2" wn="separate%2:42:00 separate%2:35:01 separate%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="shoo" verbnet_key="shoo#1" wn="shoo%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="strip.01 strip.03 strip.04" name="strip" verbnet_key="strip#3" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12"/>
-  <MEMBER fn_mapping="None" grouping="subtract.01" name="subtract" verbnet_key="subtract#2" wn="subtract%2:31:00"/>
-  <MEMBER fn_mapping="Undressing" grouping="take.10" name="take" verbnet_key="take#10" wn=""/>
-  <MEMBER fn_mapping="None" grouping="take.10" name="take_away" verbnet_key="take_away#1" wn="take_away%2:30:01 take_away%2:30:00 take_away%2:40:01 take_away%2:30:02"/>
-  <MEMBER fn_mapping="None" grouping="take.10" name="take_out" verbnet_key="take_out#1" wn="take_out%2:41:01 take_out%2:35:01 take_out%2:30:00 take_out%2:35:00 take_out%2:40:00 take_out%2:38:10 take_out%2:38:00 take_out%2:35:09 take_out%2:31:01 take_out%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="take.10" name="take_off" verbnet_key="take_off#1" wn="take_off%2:30:00 take_off%2:41:00 take_off%2:29:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="uproot" verbnet_key="uproot#1" wn="uproot%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="winkle" verbnet_key="winkle#1" wn="winkle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="wrench.01" name="wrench" verbnet_key="wrench#2" wn="wrench%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="withdraw.02 withdraw.03 withdraw.04" name="withdraw" verbnet_key="withdraw#2" wn="withdraw%2:40:01 withdraw%2:30:01 withdraw%2:40:00"/>
-  <MEMBER fn_mapping="Change_of_leadership" grouping="oust.01" name="oust" verbnet_key="oust#2" wn="oust%2:41:00"/>
-  <MEMBER fn_mapping="Emitting" grouping="discharge.01" name="discharge" verbnet_key="discharge#3" wn="discharge%2:35:00 discharge%2:29:00 discharge%2:35:06"/>
-  <MEMBER fn_mapping="Firing" grouping="dismiss.02" name="dismiss" verbnet_key="dismiss#4" wn="dismiss%2:41:00"/>
-  <MEMBER fn_mapping="Removing" grouping="evict.01" name="evict" verbnet_key="evict#1" wn="evict%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="remove.01" name="remove" verbnet_key="remove#3" wn="remove%2:30:00 remove%2:41:00 remove%2:41:02"/>
-  <MEMBER fn_mapping="None" grouping="sever.01" name="sever" verbnet_key="sever#1" wn="sever%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="extinguish.01 extinguish.02" name="extinguish" verbnet_key="extinguish#2" wn="extinguish%2:30:00 extinguish%2:43:00 extinguish%2:30:05 extinguish%2:30:03 extinguish%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="prise" verbnet_key="prise#1" wn="prise%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="abolish.01" name="abolish" verbnet_key="abolish#1" wn="abolish%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="abstract.02" name="abstract" verbnet_key="abstract#1" wn="abstract%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cull" verbnet_key="cull#2" wn="cull%2:40:00 cull%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="cut.06" name="cut-off" verbnet_key="cut-off#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deburr" verbnet_key="deburr#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="deduct.01" name="deduct" verbnet_key="deduct#3" wn="deduct%2:31:01 deduct%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="delete.01" name="delete" verbnet_key="delete#1" wn="delete%2:35:00 delete%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="depose" verbnet_key="depose#1" wn="depose%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="disgorge" verbnet_key="disgorge#1" wn="disgorge%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="dislodge.01" name="dislodge" verbnet_key="dislodge#1" wn="dislodge%2:35:00 dislodge%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="disengage.01" name="disengage" verbnet_key="disengage#1" wn="disengage%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="draw.03" name="draw" verbnet_key="draw#4" wn="draw%2:38:01 draw%2:38:00 draw%2:31:13 draw%2:40:01 draw%2:33:01 draw%2:38:07"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="eject.02" name="eject" verbnet_key="eject#1" wn="eject%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="eliminate.01 eliminate.02 eliminate.03" name="eliminate" verbnet_key="eliminate#2" wn="eliminate%2:30:01 eliminate%2:42:01 eliminate%2:31:00 eliminate%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="eradicate.01" name="eradicate" verbnet_key="eradicate#1" wn="eradicate%2:30:00 eradicate%2:36:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="excise.01 excise.03" name="excise" verbnet_key="excise#1" wn="excise%2:35:00 excise%2:30:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="excommunicate" verbnet_key="excommunicate#1" wn="excommunicate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Exclude_member" grouping="expel.01 expel.02" name="expel" verbnet_key="expel#3" wn="expel%2:41:00 expel%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="extirpate" verbnet_key="extirpate#2" wn="extirpate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="extract.01 extract.02 extract.03 extract.04" name="extract" verbnet_key="extract#1" wn="extract%2:35:04 extract%2:40:00 extract%2:30:00 extract%2:35:07 extract%2:35:05 extract%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="extrude" verbnet_key="extrude#1" wn="extrude%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="kill.03" name="kill" verbnet_key="kill#4" wn="kill%2:30:08 kill%2:30:00 kill%2:30:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lop" verbnet_key="lop#1" wn="lop%2:35:01 lop%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Losing_it" grouping="" name="lose" verbnet_key="lose#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="omit.01" name="omit" verbnet_key="omit#3" wn="omit%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ostracize" verbnet_key="ostracize#1" wn="ostracize%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="partition" verbnet_key="partition#2" wn="partition%2:35:00 partition%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pry.01" name="pry" verbnet_key="pry#2" wn="pry%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pull.02" name="pull" verbnet_key="pull#6" wn="pull%2:38:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="reap.01 reap.02" name="reap" verbnet_key="reap#1" wn="reap%2:35:00 reap%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ream.02" name="ream" verbnet_key="ream#2" wn="ream%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="render.04" name="render" verbnet_key="render#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="retract.01" name="retract" verbnet_key="retract#1" wn="retract%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="roust" verbnet_key="roust#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="separate.01" name="separate" verbnet_key="separate#2" wn="separate%2:42:00 separate%2:35:01 separate%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shoo" verbnet_key="shoo#1" wn="shoo%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="strip.01 strip.03 strip.04" name="strip" verbnet_key="strip#3" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12"/>
+  <MEMBER features="None" fn_mapping="None" grouping="subtract.01" name="subtract" verbnet_key="subtract#2" wn="subtract%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Undressing" grouping="take.10" name="take" verbnet_key="take#10" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="take.10" name="take_away" verbnet_key="take_away#1" wn="take_away%2:30:01 take_away%2:30:00 take_away%2:40:01 take_away%2:30:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="take.10" name="take_out" verbnet_key="take_out#1" wn="take_out%2:41:01 take_out%2:35:01 take_out%2:30:00 take_out%2:35:00 take_out%2:40:00 take_out%2:38:10 take_out%2:38:00 take_out%2:35:09 take_out%2:31:01 take_out%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="take.10" name="take_off" verbnet_key="take_off#1" wn="take_off%2:30:00 take_off%2:41:00 take_off%2:29:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="uproot" verbnet_key="uproot#1" wn="uproot%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="winkle" verbnet_key="winkle#1" wn="winkle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wrench.01" name="wrench" verbnet_key="wrench#2" wn="wrench%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="withdraw.02 withdraw.03 withdraw.04" name="withdraw" verbnet_key="withdraw#2" wn="withdraw%2:40:01 withdraw%2:30:01 withdraw%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Change_of_leadership" grouping="oust.01" name="oust" verbnet_key="oust#2" wn="oust%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Emitting" grouping="discharge.01" name="discharge" verbnet_key="discharge#3" wn="discharge%2:35:00 discharge%2:29:00 discharge%2:35:06"/>
+  <MEMBER features="None" fn_mapping="Firing" grouping="dismiss.02" name="dismiss" verbnet_key="dismiss#4" wn="dismiss%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="evict.01" name="evict" verbnet_key="evict#1" wn="evict%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="remove.01" name="remove" verbnet_key="remove#3" wn="remove%2:30:00 remove%2:41:00 remove%2:41:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sever.01" name="sever" verbnet_key="sever#1" wn="sever%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="extinguish.01 extinguish.02" name="extinguish" verbnet_key="extinguish#2" wn="extinguish%2:30:00 extinguish%2:43:00 extinguish%2:30:05 extinguish%2:30:03 extinguish%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="prise" verbnet_key="prise#1" wn="prise%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -67,6 +67,7 @@
    <SELRESTRS/>
   </THEMROLE>
   <THEMROLE type="Initial_Location">
+    <SELRESTRS/>
   </THEMROLE>
  </THEMROLES>
  <FRAMES>

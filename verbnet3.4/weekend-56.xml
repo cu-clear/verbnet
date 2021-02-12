@@ -2,13 +2,13 @@
 <VNCLASS ID="weekend-56" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <MEMBER features="+V_Duration" fn_mapping="None" grouping="" name="December" verbnet_key="December#1" wn=""/>
-  <MEMBER features="" fn_mapping="None" grouping="" name="holiday" verbnet_key="holiday#1" wn="holiday%2:42:00"/>
-  <MEMBER features="" fn_mapping="None" grouping="" name="honeymoon" verbnet_key="honeymoon#1" wn="honeymoon%2:42:00"/>
-  <MEMBER features="" fn_mapping="None" grouping="junket.01" name="junket" verbnet_key="junket#2" wn="junket%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="holiday" verbnet_key="holiday#1" wn="holiday%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="honeymoon" verbnet_key="honeymoon#1" wn="honeymoon%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="junket.01" name="junket" verbnet_key="junket#2" wn="junket%2:38:00"/>
   <MEMBER features="+V_Duration" fn_mapping="None" grouping="" name="overnight" verbnet_key="overnight#2" wn=""/>
-  <MEMBER features="" fn_mapping="None" grouping="" name="sojourn" verbnet_key="sojourn#1" wn="sojourn%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sojourn" verbnet_key="sojourn#1" wn="sojourn%2:42:00"/>
   <MEMBER features="+V_Duration" fn_mapping="None" grouping="" name="summer" verbnet_key="summer#1" wn="summer%2:42:00"/>
-  <MEMBER features="" fn_mapping="None" grouping="" name="vacation" verbnet_key="vacation#1" wn="vacation%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="vacation" verbnet_key="vacation#1" wn="vacation%2:42:00"/>
   <MEMBER features="+V_Duration" fn_mapping="None" grouping="" name="weekend" verbnet_key="weekend#1" wn="weekend%2:42:00"/>
   <MEMBER features="+V_Duration" fn_mapping="None" grouping="" name="winter" verbnet_key="winter#1" wn="winter%2:42:00"/>
  </MEMBERS>
@@ -54,7 +54,7 @@
       <ARG type="ThemRole" value="Location"/>
      </ARGS>
     </PRED>
-    <PRED value="Duration">
+    <PRED value="duration">
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="PredSpecific" value="Duration"/>

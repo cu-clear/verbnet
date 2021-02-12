@@ -1,21 +1,21 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="bully-59.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="annoy" verbnet_key="annoy#2" wn="annoy%2:37:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="badger" verbnet_key="badger#1" wn="badger%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bullock" verbnet_key="bullock#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="bully.01" name="bully" verbnet_key="bully#1" wn="bully%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="frighten.01" name="frighten" verbnet_key="frighten#2" wn="frighten%2:37:00"/>
-  <MEMBER fn_mapping="None" grouping="harass.01 harass.02" name="harass" verbnet_key="harass#2" wn="harass%2:37:00 harass%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="harry" verbnet_key="harry#1" wn="harry%2:37:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hustle" verbnet_key="hustle#1" wn="hustle%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="nag" verbnet_key="nag#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="panic.01" name="panic" verbnet_key="panic#1" wn="panic%2:37:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="shame" verbnet_key="shame#2" wn="shame%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="shock.01" name="shock" verbnet_key="shock#2" wn="shock%2:37:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="taunt" verbnet_key="taunt#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="tease.01" name="tease" verbnet_key="tease#2" wn="tease%2:37:00 tease%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="terrify" verbnet_key="terrify#2" wn="terrify%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="annoy" verbnet_key="annoy#2" wn="annoy%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="badger" verbnet_key="badger#1" wn="badger%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bullock" verbnet_key="bullock#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="bully.01" name="bully" verbnet_key="bully#1" wn="bully%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="frighten.01" name="frighten" verbnet_key="frighten#2" wn="frighten%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="harass.01 harass.02" name="harass" verbnet_key="harass#2" wn="harass%2:37:00 harass%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="harry" verbnet_key="harry#1" wn="harry%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hustle" verbnet_key="hustle#1" wn="hustle%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="nag" verbnet_key="nag#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="panic.01" name="panic" verbnet_key="panic#1" wn="panic%2:37:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shame" verbnet_key="shame#2" wn="shame%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="shock.01" name="shock" verbnet_key="shock#2" wn="shock%2:37:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="taunt" verbnet_key="taunt#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="tease.01" name="tease" verbnet_key="tease#2" wn="tease%2:37:00 tease%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="terrify" verbnet_key="terrify#2" wn="terrify%2:37:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

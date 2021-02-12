@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="require-103" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Taking_time" grouping="take.07" name="take" verbnet_key="take#12" wn="take%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Taking_time" grouping="take.07" name="take" verbnet_key="take#12" wn="take%2:42:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Precondition">
@@ -101,10 +101,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="require-103-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="necessitate" verbnet_key="necessitate#1" wn="necessitate%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="require.01" name="require" verbnet_key="require#2" wn="require%2:34:00"/>
-    <MEMBER fn_mapping="None" grouping="involve.02" name="involve" verbnet_key="involve#3" wn="involve%2:42:07"/>
-    <MEMBER fn_mapping="Have_as_requirement" grouping="demand.02" name="demand" verbnet_key="demand#2" wn="demand%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="necessitate" verbnet_key="necessitate#1" wn="necessitate%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="require.01" name="require" verbnet_key="require#2" wn="require%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="involve.02" name="involve" verbnet_key="involve#3" wn="involve%2:42:07"/>
+    <MEMBER features="None" fn_mapping="Have_as_requirement" grouping="demand.02" name="demand" verbnet_key="demand#2" wn="demand%2:42:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Source">
@@ -208,7 +208,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="require-103-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="need.01" name="need" verbnet_key="need#1" wn="need%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="need.01" name="need" verbnet_key="need#1" wn="need%2:42:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

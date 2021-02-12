@@ -1,22 +1,22 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="banish-10.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="banish.01 banish.02" name="banish" verbnet_key="banish#1" wn="banish%2:41:01 banish%2:41:02 banish%2:41:00 banish%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="deport.01" name="deport" verbnet_key="deport#1" wn="deport%2:41:01 deport%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="discharge.02" name="discharge" verbnet_key="discharge#1" wn="discharge%2:41:01 discharge%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="dismiss.02" name="dismiss" verbnet_key="dismiss#1" wn="dismiss%2:41:00"/>
-  <MEMBER fn_mapping="Escaping" grouping="evacuate.01" name="evacuate" verbnet_key="evacuate#1" wn="evacuate%2:38:01 evacuate%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="exile" verbnet_key="exile#1" wn="exile%2:41:00"/>
-  <MEMBER fn_mapping="Exclude_member" grouping="expel.01" name="expel" verbnet_key="expel#1" wn="expel%2:41:00 expel%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="extradite" verbnet_key="extradite#1" wn="extradite%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="recall.02 recall.03" name="recall" verbnet_key="recall#1" wn="recall%2:32:02 recall%2:41:00 recall%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="recuse" verbnet_key="recuse#1" wn="recuse%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="remove.01" name="remove" verbnet_key="remove#1" wn="remove%2:30:00 remove%2:41:00 remove%2:40:00 remove%2:41:02 remove%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shanghai" verbnet_key="shanghai#1" wn="shanghai%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="turn-away" verbnet_key="turn-away#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="turn-back" verbnet_key="turn-back#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="turn-out" verbnet_key="turn-out#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="boot.03" name="boot" verbnet_key="boot#1" wn="boot%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="banish.01 banish.02" name="banish" verbnet_key="banish#1" wn="banish%2:41:01 banish%2:41:02 banish%2:41:00 banish%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="deport.01" name="deport" verbnet_key="deport#1" wn="deport%2:41:01 deport%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="discharge.02" name="discharge" verbnet_key="discharge#1" wn="discharge%2:41:01 discharge%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dismiss.02" name="dismiss" verbnet_key="dismiss#1" wn="dismiss%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Escaping" grouping="evacuate.01" name="evacuate" verbnet_key="evacuate#1" wn="evacuate%2:38:01 evacuate%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="exile" verbnet_key="exile#1" wn="exile%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Exclude_member" grouping="expel.01" name="expel" verbnet_key="expel#1" wn="expel%2:41:00 expel%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="extradite" verbnet_key="extradite#1" wn="extradite%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="recall.02 recall.03" name="recall" verbnet_key="recall#1" wn="recall%2:32:02 recall%2:41:00 recall%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="recuse" verbnet_key="recuse#1" wn="recuse%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="remove.01" name="remove" verbnet_key="remove#1" wn="remove%2:30:00 remove%2:41:00 remove%2:40:00 remove%2:41:02 remove%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shanghai" verbnet_key="shanghai#1" wn="shanghai%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="turn-away" verbnet_key="turn-away#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="turn-back" verbnet_key="turn-back#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="turn-out" verbnet_key="turn-out#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="boot.03" name="boot" verbnet_key="boot#1" wn="boot%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

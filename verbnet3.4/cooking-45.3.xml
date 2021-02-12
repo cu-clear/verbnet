@@ -7,7 +7,7 @@
   <MEMBER features="+barbecue" fn_mapping="None" grouping="" name="barbeque" verbnet_key="barbeque#1" wn="barbeque%2:30:00" />
   <MEMBER features="+prepare" fn_mapping="None" grouping="" name="blanch" verbnet_key="blanch#2" wn="blanch%2:30:00" />
   <MEMBER features="+boil" fn_mapping="Apply_heat" grouping="boil.01 boil.02" name="boil" verbnet_key="boil#1" wn="boil%2:30:01 boil%2:30:00" />
-  <MEMBER features="+fry +stew" fn_mapping="None" grouping="" name="braise" verbnet_key="braise#1" wn="braise%2:30:00" />
+  <MEMBER features="+stew" fn_mapping="None" grouping="" name="braise" verbnet_key="braise#1" wn="braise%2:30:00" />
   <MEMBER features="+roast" fn_mapping="Apply_heat" grouping="broil.01" name="broil" verbnet_key="broil#1" wn="broil%2:30:00" />
   <MEMBER features="+brown" fn_mapping="Apply_heat" grouping="brown.01" name="brown" verbnet_key="brown#1" wn="brown%2:30:00" />
   <MEMBER features="+brown" fn_mapping="None" grouping="" name="caramelize" verbnet_key="caramelize#1" wn="caramelize%2:30:01 caramelize%2:30:00" />
@@ -15,8 +15,8 @@
   <MEMBER features="+roast" fn_mapping="None" grouping="" name="charbroil" verbnet_key="charbroil#1" wn="" />
   <MEMBER features="+roast" fn_mapping="None" grouping="" name="charcoal-broil" verbnet_key="charcoal-broil#1" wn="" />
   <MEMBER features="+boil" fn_mapping="None" grouping="" name="coddle" verbnet_key="coddle#1" wn="coddle%2:30:00" />
-  <MEMBER features="" fn_mapping="Apply_heat" grouping="cook.01" name="cook" verbnet_key="cook#2" wn="cook%2:36:00 cook%2:30:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="crisp" verbnet_key="crisp#1" wn="crisp%2:30:00" />
+  <MEMBER features="None" fn_mapping="Apply_heat" grouping="cook.01" name="cook" verbnet_key="cook#2" wn="cook%2:36:00 cook%2:30:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crisp" verbnet_key="crisp#1" wn="crisp%2:30:00" />
   <MEMBER features="+fry" fn_mapping="None" grouping="" name="deep-fry" verbnet_key="deep-fry#1" wn="deep-fry%2:30:00" />
   <MEMBER features="+fry" fn_mapping="None" grouping="" name="french-fry" verbnet_key="french-fry#1" wn="french-fry%2:30:00" />
   <MEMBER features="+fry" fn_mapping="Apply_heat" grouping="fry.02" name="fry" verbnet_key="fry#1" wn="fry%2:30:00" />
@@ -27,7 +27,7 @@
   <MEMBER features="+fry" fn_mapping="None" grouping="" name="oven-fry" verbnet_key="oven-fry#1" wn="" />
   <MEMBER features="+boil" fn_mapping="None" grouping="" name="oven-poach" verbnet_key="oven-poach#1" wn="" />
   <MEMBER features="+bake" fn_mapping="None" grouping="" name="overbake" verbnet_key="overbake#1" wn="" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="overcook" verbnet_key="overcook#1" wn="overcook%2:30:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overcook" verbnet_key="overcook#1" wn="overcook%2:30:00" />
   <MEMBER features="+heat" fn_mapping="None" grouping="" name="overheat" verbnet_key="overheat#1" wn="" />
   <MEMBER features="+fry" fn_mapping="None" grouping="" name="pan-broil" verbnet_key="pan-broil#1" wn="pan-broil%2:30:00" />
   <MEMBER features="+fry" fn_mapping="None" grouping="" name="pan-fry" verbnet_key="pan-fry#1" wn="pan-fry%2:30:00" />
@@ -47,9 +47,9 @@
   <MEMBER features="+bake" fn_mapping="None" grouping="" name="scallop" verbnet_key="scallop#1" wn="" />
   <MEMBER features="+brown" fn_mapping="None" grouping="" name="sear" verbnet_key="sear#1" wn="" />
   <MEMBER features="+bake" fn_mapping="None" grouping="" name="shirr" verbnet_key="shirr#1" wn="shirr%2:30:00" />
-  <MEMBER features="" fn_mapping="Apply_heat" grouping="simmer.01" name="simmer" verbnet_key="simmer#1" wn="simmer%2:30:00" />
+  <MEMBER features="None" fn_mapping="Apply_heat" grouping="simmer.01" name="simmer" verbnet_key="simmer#1" wn="simmer%2:30:00" />
   <MEMBER features="+boil" fn_mapping="None" grouping="" name="softboil" verbnet_key="softboil#1" wn="" />
-  <MEMBER features="" fn_mapping="None" grouping="steam.03" name="steam" verbnet_key="steam#1" wn="steam%2:30:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="steam.03" name="steam" verbnet_key="steam#1" wn="steam%2:30:00" />
   <MEMBER features="+bake" fn_mapping="None" grouping="" name="steam-bake" verbnet_key="steam-bake#1" wn="" />
   <MEMBER features="+prepare" fn_mapping="None" grouping="" name="steep" verbnet_key="steep#1" wn="" />
   <MEMBER features="+stew" fn_mapping="Absorb_heat" grouping="stew.02" name="stew" verbnet_key="stew#1" wn="stew%2:30:00" />

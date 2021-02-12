@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="coil-9.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="loop.02" name="loop" verbnet_key="loop#1" wn="loop%2:36:00 loop%2:35:00"/>
-  <MEMBER fn_mapping="Reshaping" grouping="roll.02" name="roll" verbnet_key="roll#3" wn="roll%2:35:00"/>
-  <MEMBER fn_mapping="Moving_in_place" grouping="rotate.01" name="rotate" verbnet_key="rotate#1" wn="rotate%2:38:01"/>
-  <MEMBER fn_mapping="Perception_body" grouping="spin.01" name="spin" verbnet_key="spin#2" wn="spin%2:38:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="swirl" verbnet_key="swirl#1" wn="swirl%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="twine" verbnet_key="twine#1" wn="twine%2:35:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="whirl" verbnet_key="whirl#1" wn="whirl%2:38:02"/>
-  <MEMBER fn_mapping="Motion" grouping="wind.02" name="wind" verbnet_key="wind#1" wn="wind%2:35:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="loop.02" name="loop" verbnet_key="loop#1" wn="loop%2:36:00 loop%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Reshaping" grouping="roll.02" name="roll" verbnet_key="roll#3" wn="roll%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="rotate.01" name="rotate" verbnet_key="rotate#1" wn="rotate%2:38:01"/>
+  <MEMBER features="None" fn_mapping="Perception_body" grouping="spin.01" name="spin" verbnet_key="spin#2" wn="spin%2:38:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="swirl" verbnet_key="swirl#1" wn="swirl%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="twine" verbnet_key="twine#1" wn="twine%2:35:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whirl" verbnet_key="whirl#1" wn="whirl%2:38:02"/>
+  <MEMBER features="None" fn_mapping="Motion" grouping="wind.02" name="wind" verbnet_key="wind#1" wn="wind%2:35:06"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -292,12 +292,12 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="coil-9.6-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Hair_configuration" grouping="curl.01" name="curl" verbnet_key="curl#2" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="coil" verbnet_key="coil#1" wn="coil%2:35:00"/>
-    <MEMBER fn_mapping="Attaching" grouping="hook.01" name="hook" verbnet_key="hook#1" wn=""/>
-    <MEMBER fn_mapping="Cause_to_move_in_place" grouping="swing.01" name="swing" verbnet_key="swing#2" wn="swing%2:38:02 swing%2:38:03"/>
-    <MEMBER fn_mapping="None" grouping="" name="twirl" verbnet_key="twirl#1" wn="twirl%2:38:01"/>
-    <MEMBER fn_mapping="None" grouping="twist.02" name="twist" verbnet_key="twist#1" wn="twist%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Hair_configuration" grouping="curl.01" name="curl" verbnet_key="curl#2" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="coil" verbnet_key="coil#1" wn="coil%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Attaching" grouping="hook.01" name="hook" verbnet_key="hook#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Cause_to_move_in_place" grouping="swing.01" name="swing" verbnet_key="swing#2" wn="swing%2:38:02 swing%2:38:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="twirl" verbnet_key="twirl#1" wn="twirl%2:38:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="twist.02" name="twist" verbnet_key="twist#1" wn="twist%2:30:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

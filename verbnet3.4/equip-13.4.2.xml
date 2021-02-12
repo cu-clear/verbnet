@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="equip-13.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="charge.02" name="charge" verbnet_key="charge#4" wn="charge%2:41:00 charge%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="invest.02 invest.03" name="invest" verbnet_key="invest#1" wn="invest%2:41:03 invest%2:41:02 invest%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="ply" verbnet_key="ply#1" wn="ply%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="charge.02" name="charge" verbnet_key="charge#4" wn="charge%2:41:00 charge%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="invest.02 invest.03" name="invest" verbnet_key="invest#1" wn="invest%2:41:03 invest%2:41:02 invest%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ply" verbnet_key="ply#1" wn="ply%2:34:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -94,18 +94,18 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="equip-13.4.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="arm.01" name="arm" verbnet_key="arm#1" wn="arm%2:33:00 arm%2:40:00"/>
-    <MEMBER fn_mapping="Supply" grouping="equip.01" name="equip" verbnet_key="equip#1" wn="equip%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="outfit" verbnet_key="outfit#2" wn="outfit%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="rearm" verbnet_key="rearm#1" wn="rearm%2:40:00 rearm%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="recompense" verbnet_key="recompense#1" wn="recompense%2:40:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="redress" verbnet_key="redress#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="regale" verbnet_key="regale#1" wn="regale%2:34:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="remunerate" verbnet_key="remunerate#1" wn="remunerate%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="repay" verbnet_key="repay#1" wn="repay%2:40:02"/>
-    <MEMBER fn_mapping="Rewards_and_punishments" grouping="reward.01" name="reward" verbnet_key="reward#1" wn="reward%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="saddle" verbnet_key="saddle#2" wn="saddle%2:35:10 saddle%2:32:00"/>
-    <MEMBER fn_mapping="Giving" grouping="treat.02" name="treat" verbnet_key="treat#2" wn="treat%2:40:00 treat%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="arm.01" name="arm" verbnet_key="arm#1" wn="arm%2:33:00 arm%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Supply" grouping="equip.01" name="equip" verbnet_key="equip#1" wn="equip%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="outfit" verbnet_key="outfit#2" wn="outfit%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="rearm" verbnet_key="rearm#1" wn="rearm%2:40:00 rearm%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="recompense" verbnet_key="recompense#1" wn="recompense%2:40:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="redress" verbnet_key="redress#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="regale" verbnet_key="regale#1" wn="regale%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="remunerate" verbnet_key="remunerate#1" wn="remunerate%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="repay" verbnet_key="repay#1" wn="repay%2:40:02"/>
+    <MEMBER features="None" fn_mapping="Rewards_and_punishments" grouping="reward.01" name="reward" verbnet_key="reward#1" wn="reward%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="saddle" verbnet_key="saddle#2" wn="saddle%2:35:10 saddle%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Giving" grouping="treat.02" name="treat" verbnet_key="treat#2" wn="treat%2:40:00 treat%2:34:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -174,13 +174,13 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="equip-13.4.2-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="" name="armor" verbnet_key="armor#1" wn="armor%2:40:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="encumber" verbnet_key="encumber#1" wn=""/>
-      <MEMBER fn_mapping="None" grouping="fortify.03" name="fortify" verbnet_key="fortify#1" wn="fortify%2:33:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="overburden" verbnet_key="overburden#1" wn="overburden%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="weight.01" name="weight" verbnet_key="weight#1" wn="weight%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="burden" verbnet_key="burden#1" wn="burden%2:35:00 burden%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="compensate.01 compensate.02" name="compensate" verbnet_key="compensate#1" wn="compensate%2:40:02 compensate%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="armor" verbnet_key="armor#1" wn="armor%2:40:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="encumber" verbnet_key="encumber#1" wn=""/>
+      <MEMBER features="None" fn_mapping="None" grouping="fortify.03" name="fortify" verbnet_key="fortify#1" wn="fortify%2:33:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="overburden" verbnet_key="overburden#1" wn="overburden%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="weight.01" name="weight" verbnet_key="weight#1" wn="weight%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="burden" verbnet_key="burden#1" wn="burden%2:35:00 burden%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="compensate.01 compensate.02" name="compensate" verbnet_key="compensate#1" wn="compensate%2:40:02 compensate%2:40:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

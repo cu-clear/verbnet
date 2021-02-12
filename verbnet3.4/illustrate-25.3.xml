@@ -1,26 +1,26 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="illustrate-25.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="address.06" name="address" verbnet_key="address#1" wn="address%2:32:03"/>
-  <MEMBER fn_mapping="Filling" grouping="adorn.01" name="adorn" verbnet_key="adorn#2" wn="adorn%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="autograph" verbnet_key="autograph#1" wn="autograph%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="bead.02" name="bead" verbnet_key="bead#2" wn="bead%2:36:00 bead%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="brand.01" name="brand" verbnet_key="brand#2" wn="brand%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="date.02" name="date" verbnet_key="date#1" wn="date%2:31:02 date%2:31:01"/>
-  <MEMBER fn_mapping="Distributed_position" grouping="decorate.01" name="decorate" verbnet_key="decorate#2" wn="decorate%2:35:00"/>
-  <MEMBER fn_mapping="Filling" grouping="embellish.01 embellish.02" name="embellish" verbnet_key="embellish#2" wn="embellish%2:32:00 embellish%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="endorse.03" name="endorse" verbnet_key="endorse#2" wn="endorse%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gild" verbnet_key="gild#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="ice.01" name="ice" verbnet_key="ice#2" wn="ice%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="illuminate.03" name="illuminate" verbnet_key="illuminate#1" wn="illuminate%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="illustrate.01" name="illustrate" verbnet_key="illustrate#1" wn="illustrate%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="initial" verbnet_key="initial#1" wn="initial%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="label.02" name="label" verbnet_key="label#3" wn="label%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="letter.02" name="letter" verbnet_key="letter#1" wn="letter%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="monogram" verbnet_key="monogram#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="ornament" verbnet_key="ornament#3" wn="ornament%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="redecorate" verbnet_key="redecorate#2" wn="redecorate%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="tag.01 tag.04" name="tag" verbnet_key="tag#2" wn="tag%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="address.06" name="address" verbnet_key="address#1" wn="address%2:32:03"/>
+  <MEMBER features="None" fn_mapping="Filling" grouping="adorn.01" name="adorn" verbnet_key="adorn#2" wn="adorn%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="autograph" verbnet_key="autograph#1" wn="autograph%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bead.02" name="bead" verbnet_key="bead#2" wn="bead%2:36:00 bead%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="brand.01" name="brand" verbnet_key="brand#2" wn="brand%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="date.02" name="date" verbnet_key="date#1" wn="date%2:31:02 date%2:31:01"/>
+  <MEMBER features="None" fn_mapping="Distributed_position" grouping="decorate.01" name="decorate" verbnet_key="decorate#2" wn="decorate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Filling" grouping="embellish.01 embellish.02" name="embellish" verbnet_key="embellish#2" wn="embellish%2:32:00 embellish%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="endorse.03" name="endorse" verbnet_key="endorse#2" wn="endorse%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gild" verbnet_key="gild#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="ice.01" name="ice" verbnet_key="ice#2" wn="ice%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="illuminate.03" name="illuminate" verbnet_key="illuminate#1" wn="illuminate%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="illustrate.01" name="illustrate" verbnet_key="illustrate#1" wn="illustrate%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="initial" verbnet_key="initial#1" wn="initial%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="label.02" name="label" verbnet_key="label#3" wn="label%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="letter.02" name="letter" verbnet_key="letter#1" wn="letter%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="monogram" verbnet_key="monogram#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ornament" verbnet_key="ornament#3" wn="ornament%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="redecorate" verbnet_key="redecorate#2" wn="redecorate%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tag.01 tag.04" name="tag" verbnet_key="tag#2" wn="tag%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--In most predicates, such as location, Theme really means image_of(Theme)-->

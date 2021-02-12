@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="trifle-105.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="dally.02" name="dally" verbnet_key="dally#2" wn="dally%2:41:00 dally%2:32:00 dally%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="diddle" verbnet_key="diddle#1" wn="diddle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="fiddle.04" name="fiddle" verbnet_key="fiddle#1" wn="fiddle%2:35:00 fiddle%2:35:03 fiddle%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="play.07" name="play" verbnet_key="play#4" wn="play%2:29:00 play%2:35:00 play%2:31:01 play%2:41:13"/>
-  <MEMBER fn_mapping="None" grouping="toy.01" name="toy" verbnet_key="toy#1" wn="toy%2:52:00 toy%2:35:00 toy%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="trifle" verbnet_key="trifle#1" wn="trifle%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dally.02" name="dally" verbnet_key="dally#2" wn="dally%2:41:00 dally%2:32:00 dally%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="diddle" verbnet_key="diddle#1" wn="diddle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fiddle.04" name="fiddle" verbnet_key="fiddle#1" wn="fiddle%2:35:00 fiddle%2:35:03 fiddle%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="play.07" name="play" verbnet_key="play#4" wn="play%2:29:00 play%2:35:00 play%2:31:01 play%2:41:13"/>
+  <MEMBER features="None" fn_mapping="None" grouping="toy.01" name="toy" verbnet_key="toy#1" wn="toy%2:52:00 toy%2:35:00 toy%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="trifle" verbnet_key="trifle#1" wn="trifle%2:31:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

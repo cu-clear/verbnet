@@ -17,13 +17,13 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="meet-36.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="consult.01 consult.02" name="consult" verbnet_key="consult#3" wn="consult%2:32:01 consult%2:32:02 consult%2:32:05"/>
-    <MEMBER fn_mapping="None" grouping="" name="deliberate" verbnet_key="deliberate#3" wn=""/>
-    <MEMBER fn_mapping="Make_acquaintance" grouping="meet.01 meet.02" name="meet" verbnet_key="meet#3" wn="meet%2:38:01 meet%2:41:01 meet%2:41:03 meet%2:41:00"/>
-    <MEMBER fn_mapping="Competition" grouping="play.01" name="play" verbnet_key="play#1" wn="play%2:41:03 play%2:33:02"/>
-    <MEMBER fn_mapping="None" grouping="remonstrate.01" name="remonstrate" verbnet_key="remonstrate#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="reunite" verbnet_key="reunite#1" wn=""/>
-    <MEMBER fn_mapping="Arriving" grouping="visit.01 visit.03" name="visit" verbnet_key="visit#1" wn="visit%2:41:00 visit%2:38:01 visit%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="consult.01 consult.02" name="consult" verbnet_key="consult#3" wn="consult%2:32:01 consult%2:32:02 consult%2:32:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="deliberate" verbnet_key="deliberate#3" wn=""/>
+    <MEMBER features="None" fn_mapping="Make_acquaintance" grouping="meet.01 meet.02" name="meet" verbnet_key="meet#3" wn="meet%2:38:01 meet%2:41:01 meet%2:41:03 meet%2:41:00"/>
+    <MEMBER features="None" fn_mapping="Competition" grouping="play.01" name="play" verbnet_key="play#1" wn="play%2:41:03 play%2:33:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="remonstrate.01" name="remonstrate" verbnet_key="remonstrate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="reunite" verbnet_key="reunite#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Arriving" grouping="visit.01 visit.03" name="visit" verbnet_key="visit#1" wn="visit%2:41:00 visit%2:38:01 visit%2:32:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -137,10 +137,10 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="meet-36.3-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Hostile_encounter" grouping="battle.01" name="battle" verbnet_key="battle#2" wn="battle%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="box.02" name="box" verbnet_key="box#2" wn="box%2:35:01"/>
-    <MEMBER fn_mapping="Discussion" grouping="debate.01 debate.02" name="debate" verbnet_key="debate#4" wn="debate%2:31:00 debate%2:32:01"/>
-    <MEMBER fn_mapping="Quarreling" grouping="fight.01" name="fight" verbnet_key="fight#2" wn="fight%2:33:00"/>
+    <MEMBER features="None" fn_mapping="Hostile_encounter" grouping="battle.01" name="battle" verbnet_key="battle#2" wn="battle%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="box.02" name="box" verbnet_key="box#2" wn="box%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Discussion" grouping="debate.01 debate.02" name="debate" verbnet_key="debate#4" wn="debate%2:31:00 debate%2:32:01"/>
+    <MEMBER features="None" fn_mapping="Quarreling" grouping="fight.01" name="fight" verbnet_key="fight#2" wn="fight%2:33:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

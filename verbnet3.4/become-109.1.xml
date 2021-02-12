@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="become-109.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="come.03" name="come_out" verbnet_key="come_out#1" wn="come_out%2:42:00"/>
-  <MEMBER fn_mapping="Transition_to_a_state" grouping="get.03" name="get" verbnet_key="get#1" wn="get%2:30:00 get%2:30:01 get%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="turn.02 turn.03" name="turn" verbnet_key="turn#1" wn="turn%2:38:03"/>
-  <MEMBER fn_mapping="None" grouping="turn.07" name="turn_up" verbnet_key="turn_up#2" wn="turn_up%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="come.03" name="come_out" verbnet_key="come_out#1" wn="come_out%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Transition_to_a_state" grouping="get.03" name="get" verbnet_key="get#1" wn="get%2:30:00 get%2:30:01 get%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="turn.02 turn.03" name="turn" verbnet_key="turn#1" wn="turn%2:38:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="turn.07" name="turn_up" verbnet_key="turn_up#2" wn="turn_up%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Patient">
@@ -52,10 +52,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="become-109.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="come.03" name="come" verbnet_key="come#2" wn="come%2:30:01 come%2:30:02"/>
-    <MEMBER fn_mapping="None" grouping="fall.03" name="fall" verbnet_key="fall#2" wn="fall%2:30:08"/>
-    <MEMBER fn_mapping="None" grouping="go.04" name="go" verbnet_key="go#2" wn="go%2:30:04"/>
-    <MEMBER fn_mapping="None" grouping="go.01" name="grow" verbnet_key="grow#2" wn="grow%2:30:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="come.03" name="come" verbnet_key="come#2" wn="come%2:30:01 come%2:30:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="fall.03" name="fall" verbnet_key="fall#2" wn="fall%2:30:08"/>
+    <MEMBER features="None" fn_mapping="None" grouping="go.04" name="go" verbnet_key="go#2" wn="go%2:30:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="go.01" name="grow" verbnet_key="grow#2" wn="grow%2:30:03"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -101,9 +101,9 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="become-109.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Becoming" grouping="become.01" name="become" verbnet_key="become#1" wn="become%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="end.04" name="end_up" verbnet_key="end_up#1" wn="end_up%2:30:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="leave" verbnet_key="leave#1" wn=""/>
+      <MEMBER features="None" fn_mapping="Becoming" grouping="become.01" name="become" verbnet_key="become#1" wn="become%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="end.04" name="end_up" verbnet_key="end_up#1" wn="end_up%2:30:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="leave" verbnet_key="leave#1" wn=""/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

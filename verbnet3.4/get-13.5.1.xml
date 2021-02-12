@@ -1,29 +1,29 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="get-13.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="attain.01" name="attain" verbnet_key="attain#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="book.01" name="book" verbnet_key="book#1" wn="book%2:41:01"/>
-  <MEMBER fn_mapping="Commerce_buy" grouping="buy.01" name="buy" verbnet_key="buy#2" wn="buy%2:40:00 buy%2:42:00"/>
-  <MEMBER fn_mapping="Request" grouping="call.01 call.07" name="call" verbnet_key="call#3" wn="call%2:32:05 call%2:32:15"/>
-  <MEMBER fn_mapping="None" grouping="catch.01 catch.02" name="catch" verbnet_key="catch#1" wn="catch%2:35:00 catch%2:35:01 catch%2:35:03"/>
-  <MEMBER fn_mapping="Renting" grouping="" name="charter" verbnet_key="charter#1" wn="charter%2:40:00"/>
-  <MEMBER fn_mapping="Choosing" grouping="choose.01" name="choose" verbnet_key="choose#1" wn="choose%2:31:00 choose%2:31:02"/>
-  <MEMBER fn_mapping="Becoming_aware" grouping="find.01" name="find" verbnet_key="find#3" wn="find%2:40:00 find%2:40:01"/>
-  <MEMBER fn_mapping="Gathering_up" grouping="gather.01 gather.02" name="gather" verbnet_key="gather#2" wn="gather%2:35:00 gather%2:41:02"/>
-  <MEMBER fn_mapping="Hiring" grouping="hire.01" name="hire" verbnet_key="hire#1" wn="hire%2:41:00 hire%2:41:01 hire%2:40:00"/>
-  <MEMBER fn_mapping="Renting" grouping="lease.01" name="lease" verbnet_key="lease#1" wn="lease%2:41:01 lease%2:40:00"/>
-  <MEMBER fn_mapping="Request" grouping="order.02" name="order" verbnet_key="order#1" wn="order%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="phone.01" name="phone" verbnet_key="phone#1" wn="phone%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="pick.02" name="pick" verbnet_key="pick#2" wn="pick%2:35:01"/>
-  <MEMBER fn_mapping="Removing" grouping="pluck.01" name="pluck" verbnet_key="pluck#2" wn="pluck%2:35:00 pluck%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="procure" verbnet_key="procure#1" wn="procure%2:40:00 procure%2:34:00"/>
-  <MEMBER fn_mapping="Earnings_and_losses" grouping="pull.01 pull.03" name="pull" verbnet_key="pull#2" wn="pull%2:35:02 pull%2:38:03 pull%2:30:11"/>
-  <MEMBER fn_mapping="None" grouping="reach.03" name="reach" verbnet_key="reach#2" wn="reach%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="rent.02" name="rent" verbnet_key="rent#1" wn="rent%2:40:00 rent%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="reserve.02" name="reserve" verbnet_key="reserve#1" wn="reserve%2:32:00 reserve%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="attain.01" name="attain" verbnet_key="attain#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="book.01" name="book" verbnet_key="book#1" wn="book%2:41:01"/>
+  <MEMBER features="None" fn_mapping="Commerce_buy" grouping="buy.01" name="buy" verbnet_key="buy#2" wn="buy%2:40:00 buy%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Request" grouping="call.01 call.07" name="call" verbnet_key="call#3" wn="call%2:32:05 call%2:32:15"/>
+  <MEMBER features="None" fn_mapping="None" grouping="catch.01 catch.02" name="catch" verbnet_key="catch#1" wn="catch%2:35:00 catch%2:35:01 catch%2:35:03"/>
+  <MEMBER features="None" fn_mapping="Renting" grouping="" name="charter" verbnet_key="charter#1" wn="charter%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Choosing" grouping="choose.01" name="choose" verbnet_key="choose#1" wn="choose%2:31:00 choose%2:31:02"/>
+  <MEMBER features="None" fn_mapping="Becoming_aware" grouping="find.01" name="find" verbnet_key="find#3" wn="find%2:40:00 find%2:40:01"/>
+  <MEMBER features="None" fn_mapping="Gathering_up" grouping="gather.01 gather.02" name="gather" verbnet_key="gather#2" wn="gather%2:35:00 gather%2:41:02"/>
+  <MEMBER features="None" fn_mapping="Hiring" grouping="hire.01" name="hire" verbnet_key="hire#1" wn="hire%2:41:00 hire%2:41:01 hire%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Renting" grouping="lease.01" name="lease" verbnet_key="lease#1" wn="lease%2:41:01 lease%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Request" grouping="order.02" name="order" verbnet_key="order#1" wn="order%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="phone.01" name="phone" verbnet_key="phone#1" wn="phone%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pick.02" name="pick" verbnet_key="pick#2" wn="pick%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="pluck.01" name="pluck" verbnet_key="pluck#2" wn="pluck%2:35:00 pluck%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="procure" verbnet_key="procure#1" wn="procure%2:40:00 procure%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Earnings_and_losses" grouping="pull.01 pull.03" name="pull" verbnet_key="pull#2" wn="pull%2:35:02 pull%2:38:03 pull%2:30:11"/>
+  <MEMBER features="None" fn_mapping="None" grouping="reach.03" name="reach" verbnet_key="reach#2" wn="reach%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="rent.02" name="rent" verbnet_key="rent#1" wn="rent%2:40:00 rent%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="reserve.02" name="reserve" verbnet_key="reserve#1" wn="reserve%2:32:00 reserve%2:41:00"/>
   <!--MOVED "secure" to 13.5.1-1-->
-  <MEMBER fn_mapping="Taking" grouping="take.04" name="take" verbnet_key="take#9" wn="take%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="win.02" name="win" verbnet_key="win#1" wn="win%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Taking" grouping="take.04" name="take" verbnet_key="take#9" wn="take%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="win.02" name="win" verbnet_key="win#1" wn="win%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -674,14 +674,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="get-13.5.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="earn.01 earn.02" name="earn" verbnet_key="earn#2" wn="earn%2:40:01 earn%2:40:03"/>
-    <MEMBER fn_mapping="Bringing" grouping="fetch.01 fetch.02" name="fetch" verbnet_key="fetch#2" wn="fetch%2:35:00 fetch%2:40:00 ?fetch%2:35:03"/>
-    <MEMBER fn_mapping="None" grouping="cash.01" name="cash" verbnet_key="cash#1" wn="cash%2:40:00"/>
-    <MEMBER fn_mapping="Getting" grouping="gain.01" name="gain" verbnet_key="gain#2" wn="gain%2:40:03 gain%2:40:01 gain%2:40:00"/>
-    <MEMBER fn_mapping="Getting" grouping="get.01" name="get" verbnet_key="get#6" wn="get%2:40:00 get%2:35:03 get%2:40:14 get%2:40:13"/>
-    <MEMBER fn_mapping="None" grouping="save.02" name="save" verbnet_key="save#2" wn="save%2:40:03"/>
-    <MEMBER fn_mapping="Getting" grouping="" name="score" verbnet_key="score#1" wn=""/>
-    <MEMBER fn_mapping="Getting" grouping="secure.01" name="secure" verbnet_key="secure#2" wn="secure%2:40:00 secure%2:40:01 secure%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="earn.01 earn.02" name="earn" verbnet_key="earn#2" wn="earn%2:40:01 earn%2:40:03"/>
+    <MEMBER features="None" fn_mapping="Bringing" grouping="fetch.01 fetch.02" name="fetch" verbnet_key="fetch#2" wn="fetch%2:35:00 fetch%2:40:00 ?fetch%2:35:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="cash.01" name="cash" verbnet_key="cash#1" wn="cash%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Getting" grouping="gain.01" name="gain" verbnet_key="gain#2" wn="gain%2:40:03 gain%2:40:01 gain%2:40:00"/>
+    <MEMBER features="None" fn_mapping="Getting" grouping="get.01" name="get" verbnet_key="get#6" wn="get%2:40:00 get%2:35:03 get%2:40:14 get%2:40:13"/>
+    <MEMBER features="None" fn_mapping="None" grouping="save.02" name="save" verbnet_key="save#2" wn="save%2:40:03"/>
+    <MEMBER features="None" fn_mapping="Getting" grouping="" name="score" verbnet_key="score#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Getting" grouping="secure.01" name="secure" verbnet_key="secure#2" wn="secure%2:40:00 secure%2:40:01 secure%2:32:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Source">

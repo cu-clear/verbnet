@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="keep-15.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="hoard" verbnet_key="hoard#1" wn="hoard%2:40:01"/>
-  <MEMBER fn_mapping="Inhibit_movement" grouping="hold.03" name="hold" verbnet_key="hold#8" wn="hold%2:42:00 hold%2:40:02"/>
-  <MEMBER fn_mapping="Storing" grouping="keep.03" name="keep" verbnet_key="keep#2" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10"/>
-  <MEMBER fn_mapping="Forming_relationships" grouping="leave.02" name="leave" verbnet_key="leave#5" wn="leave%2:40:06 leave%2:31:02"/>
-  <MEMBER fn_mapping="Storing" grouping="store.01" name="store" verbnet_key="store#2" wn="store%2:40:00 store%2:40:02"/>
-  <MEMBER fn_mapping="None" grouping="stock.01" name="stock" verbnet_key="stock#1" wn="stock%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="stockpile" verbnet_key="stockpile#1" wn="stockpile%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hoard" verbnet_key="hoard#1" wn="hoard%2:40:01"/>
+  <MEMBER features="None" fn_mapping="Inhibit_movement" grouping="hold.03" name="hold" verbnet_key="hold#8" wn="hold%2:42:00 hold%2:40:02"/>
+  <MEMBER features="None" fn_mapping="Storing" grouping="keep.03" name="keep" verbnet_key="keep#2" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10"/>
+  <MEMBER features="None" fn_mapping="Forming_relationships" grouping="leave.02" name="leave" verbnet_key="leave#5" wn="leave%2:40:06 leave%2:31:02"/>
+  <MEMBER features="None" fn_mapping="Storing" grouping="store.01" name="store" verbnet_key="store#2" wn="store%2:40:00 store%2:40:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stock.01" name="stock" verbnet_key="stock#1" wn="stock%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stockpile" verbnet_key="stockpile#1" wn="stockpile%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

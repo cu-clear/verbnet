@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="earn-54.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="attract" verbnet_key="attract#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="bring" verbnet_key="bring#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="bring_in" verbnet_key="bring_in#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="earn" verbnet_key="earn#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="fetch" verbnet_key="fetch#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="raise" verbnet_key="raise#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="attract" verbnet_key="attract#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bring" verbnet_key="bring#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bring_in" verbnet_key="bring_in#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="earn" verbnet_key="earn#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fetch" verbnet_key="fetch#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="raise" verbnet_key="raise#3" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

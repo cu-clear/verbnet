@@ -1,21 +1,21 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="appoint-29.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Appointing" grouping="appoint.01" name="appoint" verbnet_key="appoint#1" wn="appoint%2:41:01 appoint%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="coronate" verbnet_key="coronate#1" wn="coronate%2:41:00"/>
-  <MEMBER fn_mapping="Change_of_leadership" grouping="crown.01" name="crown" verbnet_key="crown#1" wn="crown%2:41:00"/>
-  <MEMBER fn_mapping="Linguistic_meaning" grouping="designate.01 designate.02" name="designate" verbnet_key="designate#1" wn="designate%2:32:00"/>
-  <MEMBER fn_mapping="Change_of_leadership" grouping="elect.01" name="elect" verbnet_key="elect#1" wn="elect%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="install.02" name="install" verbnet_key="install#1" wn="install%2:41:00"/>
-  <MEMBER fn_mapping="Statement" grouping="proclaim.01" name="proclaim" verbnet_key="proclaim#1" wn="proclaim%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="mark.03" name="mark" verbnet_key="mark#1" wn="mark%2:31:09"/>
-  <MEMBER fn_mapping="Rite" grouping="ordain.02" name="ordain" verbnet_key="ordain#1" wn="ordain%2:41:00 ordain%2:41:02"/>
-  <MEMBER fn_mapping="Adopt_selection" grouping="adopt.01" name="adopt" verbnet_key="adopt#2" wn="adopt%2:40:02 adopt%2:40:00 adopt%2:41:01 adopt%2:31:04"/>
-  <MEMBER fn_mapping="None" grouping="upgrade.03" name="upgrade" verbnet_key="upgrade#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="reelect" verbnet_key="reelect#1" wn="reelect%2:41:00"/>
-  <MEMBER fn_mapping="Desiring" grouping="want.01" name="want" verbnet_key="want#1" wn="want%2:31:01"/>
-  <MEMBER fn_mapping="Name_conferral" grouping="" name="name" verbnet_key="name#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="nominate.01" name="nominate" verbnet_key="nominate#1" wn="nominate%2:32:00 nominate%2:41:02 nominate%2:41:01 nominate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Appointing" grouping="appoint.01" name="appoint" verbnet_key="appoint#1" wn="appoint%2:41:01 appoint%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="coronate" verbnet_key="coronate#1" wn="coronate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Change_of_leadership" grouping="crown.01" name="crown" verbnet_key="crown#1" wn="crown%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Linguistic_meaning" grouping="designate.01 designate.02" name="designate" verbnet_key="designate#1" wn="designate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Change_of_leadership" grouping="elect.01" name="elect" verbnet_key="elect#1" wn="elect%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="install.02" name="install" verbnet_key="install#1" wn="install%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Statement" grouping="proclaim.01" name="proclaim" verbnet_key="proclaim#1" wn="proclaim%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mark.03" name="mark" verbnet_key="mark#1" wn="mark%2:31:09"/>
+  <MEMBER features="None" fn_mapping="Rite" grouping="ordain.02" name="ordain" verbnet_key="ordain#1" wn="ordain%2:41:00 ordain%2:41:02"/>
+  <MEMBER features="None" fn_mapping="Adopt_selection" grouping="adopt.01" name="adopt" verbnet_key="adopt#2" wn="adopt%2:40:02 adopt%2:40:00 adopt%2:41:01 adopt%2:31:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="upgrade.03" name="upgrade" verbnet_key="upgrade#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reelect" verbnet_key="reelect#1" wn="reelect%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Desiring" grouping="want.01" name="want" verbnet_key="want#1" wn="want%2:31:01"/>
+  <MEMBER features="None" fn_mapping="Name_conferral" grouping="" name="name" verbnet_key="name#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="nominate.01" name="nominate" verbnet_key="nominate#1" wn="nominate%2:32:00 nominate%2:41:02 nominate%2:41:01 nominate%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

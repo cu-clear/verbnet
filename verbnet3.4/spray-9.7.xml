@@ -2,7 +2,7 @@
 <VNCLASS ID="spray-9.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--REMOVED "stuff" from this class, moved to subclass-->
-  <MEMBER fn_mapping="None" grouping="overload.01" name="overload" verbnet_key="overload#1" wn="overload%2:35:00 overload%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="overload.01" name="overload" verbnet_key="overload#1" wn="overload%2:35:00 overload%2:35:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -283,35 +283,35 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="spray-9.7-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="baste.01" name="baste" verbnet_key="baste#2" wn="baste%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="brush.02" name="brush" verbnet_key="brush#4" wn="brush%2:35:10"/>
-    <MEMBER fn_mapping="None" grouping="" name="drizzle" verbnet_key="drizzle#1" wn="drizzle%2:35:00"/>
-    <MEMBER fn_mapping="Filling" grouping="hang.01" name="hang" verbnet_key="hang#6" wn="hang%2:35:00 hang%2:36:00 hang%2:35:04"/>
-    <MEMBER fn_mapping="Attaching" grouping="" name="plaster" verbnet_key="plaster#2" wn="plaster%2:35:11 plaster%2:35:10 plaster%2:35:02 plaster%2:35:01 plaster%2:35:00 plaster%2:29:00"/>
-    <MEMBER fn_mapping="Filling" grouping="pump.02" name="pump" verbnet_key="pump#1" wn="pump%2:33:00 pump%2:40:00 pump%2:38:02"/>
-    <MEMBER fn_mapping="Manipulation" grouping="rub.01" name="rub" verbnet_key="rub#2" wn="rub%2:35:00"/>
-    <MEMBER fn_mapping="Dispersal" grouping="scatter.01" name="scatter" verbnet_key="scatter#1" wn="scatter%2:35:00 scatter%2:35:01 scatter%2:38:02"/>
-    <MEMBER fn_mapping="Filling" grouping="seed.03" name="seed" verbnet_key="seed#4" wn="seed%2:35:01"/>
-    <MEMBER fn_mapping="Attaching" grouping="sew.01" name="sew" verbnet_key="sew#3" wn="sew%2:35:00"/>
-    <MEMBER fn_mapping="Placing" grouping="shower.01 shower.02" name="shower" verbnet_key="shower#3" wn="shower%2:40:00 shower%2:35:00 shower%2:34:12"/>
-    <MEMBER fn_mapping="Filling" grouping="smear.01" name="smear" verbnet_key="smear#1" wn="smear%2:35:03 smear%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="smudge" verbnet_key="smudge#1" wn="smudge%2:35:00"/>
-    <MEMBER fn_mapping="Planting" grouping="sow.01" name="sow" verbnet_key="sow#1" wn="sow%2:35:00 sow%2:35:02"/>
-    <MEMBER fn_mapping="None" grouping="" name="spatter" verbnet_key="spatter#1" wn="spatter%2:35:00 spatter%2:35:01"/>
-    <MEMBER fn_mapping="Filling" grouping="splash.01" name="splash" verbnet_key="splash#2" wn="splash%2:35:00 splash%2:35:04"/>
-    <MEMBER fn_mapping="None" grouping="" name="splatter" verbnet_key="splatter#1" wn="splatter%2:35:00 splatter%2:35:01"/>
-    <MEMBER fn_mapping="Filling" grouping="spray.01" name="spray" verbnet_key="spray#1" wn="spray%2:35:01 spray%2:35:00 spray%2:35:03"/>
-    <MEMBER fn_mapping="Dispersal" grouping="spread.02 spread.03" name="spread" verbnet_key="spread#2" wn="spread%2:42:00 spread%2:35:12 spread%2:35:13"/>
-    <MEMBER fn_mapping="Filling" grouping="sprinkle.01" name="sprinkle" verbnet_key="sprinkle#1" wn="sprinkle%2:35:01 sprinkle%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="spritz" verbnet_key="spritz#1" wn="spritz%2:35:02 spritz%2:35:00"/>
-    <MEMBER fn_mapping="Filling" grouping="squirt.01" name="squirt" verbnet_key="squirt#1" wn="squirt%2:35:00 squirt%2:35:10"/>
-    <MEMBER fn_mapping="Placing" grouping="stick.01 stick.02" name="stick" verbnet_key="stick#4" wn="?stick%2:35:02 stick%2:35:04 stick%2:35:03"/>
-    <MEMBER fn_mapping="None" grouping="" name="strew" verbnet_key="strew#1" wn="strew%2:35:00 strew%2:35:04"/>
-    <MEMBER fn_mapping="None" grouping="string.01" name="string" verbnet_key="string#4" wn="string%2:35:02"/>
-    <MEMBER fn_mapping="None" grouping="" name="swab" verbnet_key="swab#1" wn="swab%2:35:00 swab%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="swash.02" name="swash" verbnet_key="swash#1" wn="swash%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="spurt" verbnet_key="spurt#1" wn="spurt%2:38:01"/>
-    <MEMBER fn_mapping="Filling" grouping="wrap.01 wrap.02" name="wrap" verbnet_key="wrap#1" wn="wrap%2:35:00 wrap%2:35:02 wrap%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="baste.01" name="baste" verbnet_key="baste#2" wn="baste%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="brush.02" name="brush" verbnet_key="brush#4" wn="brush%2:35:10"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="drizzle" verbnet_key="drizzle#1" wn="drizzle%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="hang.01" name="hang" verbnet_key="hang#6" wn="hang%2:35:00 hang%2:36:00 hang%2:35:04"/>
+    <MEMBER features="None" fn_mapping="Attaching" grouping="" name="plaster" verbnet_key="plaster#2" wn="plaster%2:35:11 plaster%2:35:10 plaster%2:35:02 plaster%2:35:01 plaster%2:35:00 plaster%2:29:00"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="pump.02" name="pump" verbnet_key="pump#1" wn="pump%2:33:00 pump%2:40:00 pump%2:38:02"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="rub.01" name="rub" verbnet_key="rub#2" wn="rub%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Dispersal" grouping="scatter.01" name="scatter" verbnet_key="scatter#1" wn="scatter%2:35:00 scatter%2:35:01 scatter%2:38:02"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="seed.03" name="seed" verbnet_key="seed#4" wn="seed%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Attaching" grouping="sew.01" name="sew" verbnet_key="sew#3" wn="sew%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="shower.01 shower.02" name="shower" verbnet_key="shower#3" wn="shower%2:40:00 shower%2:35:00 shower%2:34:12"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="smear.01" name="smear" verbnet_key="smear#1" wn="smear%2:35:03 smear%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="smudge" verbnet_key="smudge#1" wn="smudge%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Planting" grouping="sow.01" name="sow" verbnet_key="sow#1" wn="sow%2:35:00 sow%2:35:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="spatter" verbnet_key="spatter#1" wn="spatter%2:35:00 spatter%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="splash.01" name="splash" verbnet_key="splash#2" wn="splash%2:35:00 splash%2:35:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="splatter" verbnet_key="splatter#1" wn="splatter%2:35:00 splatter%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="spray.01" name="spray" verbnet_key="spray#1" wn="spray%2:35:01 spray%2:35:00 spray%2:35:03"/>
+    <MEMBER features="None" fn_mapping="Dispersal" grouping="spread.02 spread.03" name="spread" verbnet_key="spread#2" wn="spread%2:42:00 spread%2:35:12 spread%2:35:13"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="sprinkle.01" name="sprinkle" verbnet_key="sprinkle#1" wn="sprinkle%2:35:01 sprinkle%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="spritz" verbnet_key="spritz#1" wn="spritz%2:35:02 spritz%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="squirt.01" name="squirt" verbnet_key="squirt#1" wn="squirt%2:35:00 squirt%2:35:10"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="stick.01 stick.02" name="stick" verbnet_key="stick#4" wn="?stick%2:35:02 stick%2:35:04 stick%2:35:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="strew" verbnet_key="strew#1" wn="strew%2:35:00 strew%2:35:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="string.01" name="string" verbnet_key="string#4" wn="string%2:35:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="swab" verbnet_key="swab#1" wn="swab%2:35:00 swab%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="swash.02" name="swash" verbnet_key="swash#1" wn="swash%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="spurt" verbnet_key="spurt#1" wn="spurt%2:38:01"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="wrap.01 wrap.02" name="wrap" verbnet_key="wrap#1" wn="wrap%2:35:00 wrap%2:35:02 wrap%2:35:01"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Theme">
@@ -447,11 +447,11 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="spray-9.7-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Placing" grouping="cram.01" name="cram" verbnet_key="cram#2" wn="cram%2:35:00 cram%2:35:10"/>
-      <MEMBER fn_mapping="Mass_motion" grouping="crowd.01 crowd.02" name="crowd" verbnet_key="crowd#1" wn="crowd%2:38:01 crowd%2:42:00"/>
-      <MEMBER fn_mapping="Filling" grouping="jam.01" name="jam" verbnet_key="jam#2" wn="jam%2:38:00 jam%2:35:00 jam%2:35:02"/>
-      <MEMBER fn_mapping="Filling" grouping="pack.01 pack.02" name="pack" verbnet_key="pack#1" wn="pack%2:35:00 pack%2:38:02 pack%2:35:02 pack%2:38:00"/>
-      <MEMBER fn_mapping="Placing" grouping="pile.01" name="pile" verbnet_key="pile#1" wn="pile%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Placing" grouping="cram.01" name="cram" verbnet_key="cram#2" wn="cram%2:35:00 cram%2:35:10"/>
+      <MEMBER features="None" fn_mapping="Mass_motion" grouping="crowd.01 crowd.02" name="crowd" verbnet_key="crowd#1" wn="crowd%2:38:01 crowd%2:42:00"/>
+      <MEMBER features="None" fn_mapping="Filling" grouping="jam.01" name="jam" verbnet_key="jam#2" wn="jam%2:38:00 jam%2:35:00 jam%2:35:02"/>
+      <MEMBER features="None" fn_mapping="Filling" grouping="pack.01 pack.02" name="pack" verbnet_key="pack#1" wn="pack%2:35:00 pack%2:38:02 pack%2:35:02 pack%2:38:00"/>
+      <MEMBER features="None" fn_mapping="Placing" grouping="pile.01" name="pile" verbnet_key="pile#1" wn="pile%2:35:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -489,19 +489,19 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="spray-9.7-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Placing" grouping="drape.01 drape.02" name="drape" verbnet_key="drape#1" wn="drape%2:35:00 drape%2:35:01 drape%2:35:10"/>
-    <MEMBER fn_mapping="Filling" grouping="load.01 load.02" name="load" verbnet_key="load#1" wn="load%2:35:01 load%2:35:10"/>
-    <MEMBER fn_mapping="None" grouping="" name="dab" verbnet_key="dab#1" wn="dab%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="daub" verbnet_key="daub#1" wn="daub%2:35:01 daub%2:35:02 daub%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="mound" verbnet_key="mound#1" wn="mound%2:36:00"/>
-    <MEMBER fn_mapping="Placing" grouping="dust.03" name="dust" verbnet_key="dust#1" wn="dust%2:35:03"/>
-    <MEMBER fn_mapping="Placing" grouping="heap.01 heap.02" name="heap" verbnet_key="heap#1" wn="heap%2:35:00 heap%2:30:00"/>
-    <MEMBER fn_mapping="Placing" grouping="plant.01 plant.02" name="plant" verbnet_key="plant#3" wn="plant%2:35:00 plant%2:35:01"/>
-    <MEMBER fn_mapping="Filling" grouping="seed.06" name="seed" verbnet_key="seed#4" wn="seed%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="slather" verbnet_key="slather#1" wn="slather%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="stack.01" name="stack" verbnet_key="stack#1" wn="stack%2:35:01 stack%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="stock.01" name="stock" verbnet_key="stock#2" wn="stock%2:40:02"/>
-    <MEMBER fn_mapping="Filling" grouping="stuff.01" name="stuff" verbnet_key="stuff#1" wn="stuff%2:35:00 stuff%2:38:00 stuff%2:30:02 stuff%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="drape.01 drape.02" name="drape" verbnet_key="drape#1" wn="drape%2:35:00 drape%2:35:01 drape%2:35:10"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="load.01 load.02" name="load" verbnet_key="load#1" wn="load%2:35:01 load%2:35:10"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="dab" verbnet_key="dab#1" wn="dab%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="daub" verbnet_key="daub#1" wn="daub%2:35:01 daub%2:35:02 daub%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="mound" verbnet_key="mound#1" wn="mound%2:36:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="dust.03" name="dust" verbnet_key="dust#1" wn="dust%2:35:03"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="heap.01 heap.02" name="heap" verbnet_key="heap#1" wn="heap%2:35:00 heap%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Placing" grouping="plant.01 plant.02" name="plant" verbnet_key="plant#3" wn="plant%2:35:00 plant%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="seed.06" name="seed" verbnet_key="seed#4" wn="seed%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="slather" verbnet_key="slather#1" wn="slather%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="stack.01" name="stack" verbnet_key="stack#1" wn="stack%2:35:01 stack%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="stock.01" name="stock" verbnet_key="stock#2" wn="stock%2:40:02"/>
+    <MEMBER features="None" fn_mapping="Filling" grouping="stuff.01" name="stuff" verbnet_key="stuff#1" wn="stuff%2:35:00 stuff%2:38:00 stuff%2:30:02 stuff%2:30:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Theme">

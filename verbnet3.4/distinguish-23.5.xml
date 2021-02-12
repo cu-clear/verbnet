@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="distinguish-23.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="tell.02" name="tell_apart" verbnet_key="tell_apart#1" wn="tell_apart%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tell.02" name="tell_apart" verbnet_key="tell_apart#1" wn="tell_apart%2:39:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -70,7 +70,9 @@
       <SYNRESTR Value="+" type="plural"/>
      </SYNRESTRS>
     </NP>
-    <PREP/>
+    <PREP>
+      <SELRESTRS/>
+    </PREP>
     <NP value="Instrument">
      <SYNRESTRS/>
     </NP>
@@ -107,7 +109,9 @@
     <NP value="Theme">
      <SYNRESTRS/>
     </NP>
-    <PREP/>
+    <PREP>
+      <SELRESTRS/>
+    </PREP>
     <NP value="Co-Theme">
      <SYNRESTRS/>
     </NP>
@@ -144,11 +148,15 @@
     <NP value="Theme">
      <SYNRESTRS/>
     </NP>
-    <PREP/>
+    <PREP>
+      <SELRESTRS/>
+    </PREP>
     <NP value="Co-Theme">
      <SYNRESTRS/>
     </NP>
-    <PREP/>
+    <PREP>
+      <SELRESTRS/>
+    </PREP>
     <NP value="Instrument">
      <SYNRESTRS/>
     </NP>
@@ -174,8 +182,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="distinguish-23.5-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="distinguish.01" name="distinguish" verbnet_key="distinguish#1" wn="distingiush%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="differentiate.01" name="differentiate" verbnet_key="differentiate#1" wn="differentiate%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="distinguish.01" name="distinguish" verbnet_key="distinguish#1" wn="distingiush%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="differentiate.01" name="differentiate" verbnet_key="differentiate#1" wn="differentiate%2:31:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

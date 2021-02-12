@@ -1,15 +1,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="confine-92" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="charge.06" name="charge" verbnet_key="charge#3" wn="charge%2:40:05"/>
-  <MEMBER fn_mapping="None" grouping="" name="institutionalize" verbnet_key="institutionalize#1" wn="institutionalize%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="incarcerate" verbnet_key="incarcerate#1" wn="incarcerate%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hospitalize" verbnet_key="hospitalize#1" wn="hospitalize%2:40:00"/>
-  <MEMBER fn_mapping="Detaining" grouping="detain.01" name="detain" verbnet_key="detain#1" wn="detain%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="jail.01" name="jail" verbnet_key="jail#1" wn="jail%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="imprison.01" name="imprison" verbnet_key="imprison#1" wn="imprison%2:41:00 imprison%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="jug" verbnet_key="jug#1" wn="jug%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="immure" verbnet_key="immure#1" wn="immure%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="charge.06" name="charge" verbnet_key="charge#3" wn="charge%2:40:05"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="institutionalize" verbnet_key="institutionalize#1" wn="institutionalize%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="incarcerate" verbnet_key="incarcerate#1" wn="incarcerate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hospitalize" verbnet_key="hospitalize#1" wn="hospitalize%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Detaining" grouping="detain.01" name="detain" verbnet_key="detain#1" wn="detain%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="jail.01" name="jail" verbnet_key="jail#1" wn="jail%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="imprison.01" name="imprison" verbnet_key="imprison#1" wn="imprison%2:41:00 imprison%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jug" verbnet_key="jug#1" wn="jug%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="immure" verbnet_key="immure#1" wn="immure%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -103,10 +103,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="confine-92-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Institutionalization" grouping="commit.03" name="commit" verbnet_key="commit#1" wn="commit%2:40:02"/>
-    <MEMBER fn_mapping="None" grouping="recommit.01" name="recommit" verbnet_key="recommit#1" wn="recommit%2:41:01 recommit%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="send.02" name="send" verbnet_key="send#1" wn="send%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="confine.02" name="confine" verbnet_key="confine#1" wn="confine%2:41:00"/>
+    <MEMBER features="None" fn_mapping="Institutionalization" grouping="commit.03" name="commit" verbnet_key="commit#1" wn="commit%2:40:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="recommit.01" name="recommit" verbnet_key="recommit#1" wn="recommit%2:41:01 recommit%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="send.02" name="send" verbnet_key="send#1" wn="send%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="confine.02" name="confine" verbnet_key="confine#1" wn="confine%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

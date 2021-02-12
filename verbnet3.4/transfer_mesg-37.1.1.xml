@@ -2,29 +2,29 @@
 <VNCLASS ID="transfer_mesg-37.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--REMOVED "cite" misclassified-->
-  <MEMBER fn_mapping="None" grouping="demonstrate.02" name="demonstrate" verbnet_key="demonstrate#2" wn="demonstrate%2:39:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="elucidate" verbnet_key="elucidate#1" wn="elucidate%2:32:00 elucidate%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="explain.01" name="explain" verbnet_key="explain#2" wn="explain%2:32:00 explain%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="explicate" verbnet_key="explicate#1" wn="explicate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="expound" verbnet_key="expound#1" wn="expound%2:32:00"/>
-  <MEMBER fn_mapping="Justifying" grouping="justify.01" name="justify" verbnet_key="justify#1" wn="justify%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="narrate.02" name="narrate" verbnet_key="narrate#1" wn="narrate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="pose.01" name="pose" verbnet_key="pose#3" wn="?pose%2:42:00"/>
-  <MEMBER fn_mapping="Speak_on_topic" grouping="preach.01" name="preach" verbnet_key="preach#2" wn="preach%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="recap" verbnet_key="recap#1" wn="recap%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="recite.01" name="recite" verbnet_key="recite#2" wn="recite%2:32:00 recite%2:36:00 recite%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="relay.01" name="relay" verbnet_key="relay#2" wn="relay%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="sniff.03" name="sniff" verbnet_key="sniff#4" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="illustrate" verbnet_key="illustrate#2" wn="illustrate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="verify" verbnet_key="verify#3" wn="verify%2:31:01 verify%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="corroborate" verbnet_key="corroborate#2" wn="corroborate%2:32:00"/>
-  <MEMBER fn_mapping="Communication" grouping="" name="communicate" verbnet_key="communicate#3" wn="communicate%2:32:01 communicate%2:32:00"/>
-  <MEMBER fn_mapping="Summarizing" grouping="" name="outline" verbnet_key="outline#1" wn="outline%2:32:00"/>
-  <MEMBER fn_mapping="Summarizing" grouping="" name="summarize" verbnet_key="summarize#1" wn="summarize%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sum_up" verbnet_key="sum_up#1" wn="sum_up%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="boil_down" verbnet_key="boil_down#1" wn="boil_down%2:30:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="snitch" verbnet_key="snitch#1" wn="snitch%2:32:09"/>
-  <MEMBER fn_mapping="None" grouping="write.01" name="write_in" verbnet_key="write_in#1" wn="write_in%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="demonstrate.02" name="demonstrate" verbnet_key="demonstrate#2" wn="demonstrate%2:39:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="elucidate" verbnet_key="elucidate#1" wn="elucidate%2:32:00 elucidate%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="explain.01" name="explain" verbnet_key="explain#2" wn="explain%2:32:00 explain%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="explicate" verbnet_key="explicate#1" wn="explicate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="expound" verbnet_key="expound#1" wn="expound%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Justifying" grouping="justify.01" name="justify" verbnet_key="justify#1" wn="justify%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="narrate.02" name="narrate" verbnet_key="narrate#1" wn="narrate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pose.01" name="pose" verbnet_key="pose#3" wn="?pose%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Speak_on_topic" grouping="preach.01" name="preach" verbnet_key="preach#2" wn="preach%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="recap" verbnet_key="recap#1" wn="recap%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="recite.01" name="recite" verbnet_key="recite#2" wn="recite%2:32:00 recite%2:36:00 recite%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="relay.01" name="relay" verbnet_key="relay#2" wn="relay%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sniff.03" name="sniff" verbnet_key="sniff#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="illustrate" verbnet_key="illustrate#2" wn="illustrate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="verify" verbnet_key="verify#3" wn="verify%2:31:01 verify%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="corroborate" verbnet_key="corroborate#2" wn="corroborate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Communication" grouping="" name="communicate" verbnet_key="communicate#3" wn="communicate%2:32:01 communicate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Summarizing" grouping="" name="outline" verbnet_key="outline#1" wn="outline%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Summarizing" grouping="" name="summarize" verbnet_key="summarize#1" wn="summarize%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sum_up" verbnet_key="sum_up#1" wn="sum_up%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="boil_down" verbnet_key="boil_down#1" wn="boil_down%2:30:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="snitch" verbnet_key="snitch#1" wn="snitch%2:32:09"/>
+  <MEMBER features="None" fn_mapping="None" grouping="write.01" name="write_in" verbnet_key="write_in#1" wn="write_in%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--intersective members use Theme for Topic-->
@@ -503,9 +503,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="transfer_mesg-37.1.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="dictate.02" name="dictate" verbnet_key="dictate#1" wn="dictate%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="quote.01" name="quote" verbnet_key="quote#1" wn="quote%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="read.04" name="read" verbnet_key="read#4" wn="read%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="dictate.02" name="dictate" verbnet_key="dictate#1" wn="dictate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="quote.01" name="quote" verbnet_key="quote#1" wn="quote%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="read.04" name="read" verbnet_key="read#4" wn="read%2:31:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -565,10 +565,10 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="transfer_mesg-37.1.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Evidence" grouping="show.01" name="show" verbnet_key="show#4" wn="show%2:32:01"/>
-      <MEMBER fn_mapping="Education_teaching" grouping="teach.01" name="teach" verbnet_key="teach#1" wn="teach%2:32:00"/>
-      <MEMBER fn_mapping="Request" grouping="tell.01" name="tell" verbnet_key="tell#1" wn="tell%2:32:04 tell%2:32:00 tell%2:32:01"/>
-      <MEMBER fn_mapping="Text_creation" grouping="write.01" name="write" verbnet_key="write#5" wn="write%2:32:00 write%2:32:08 write%2:32:01"/>
+      <MEMBER features="None" fn_mapping="Evidence" grouping="show.01" name="show" verbnet_key="show#4" wn="show%2:32:01"/>
+      <MEMBER features="None" fn_mapping="Education_teaching" grouping="teach.01" name="teach" verbnet_key="teach#1" wn="teach%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Request" grouping="tell.01" name="tell" verbnet_key="tell#1" wn="tell%2:32:04 tell%2:32:00 tell%2:32:01"/>
+      <MEMBER features="None" fn_mapping="Text_creation" grouping="write.01" name="write" verbnet_key="write#5" wn="write%2:32:00 write%2:32:08 write%2:32:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

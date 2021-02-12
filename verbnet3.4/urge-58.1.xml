@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="urge-58.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="bring" verbnet_key="bring#5" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bring" verbnet_key="bring#5" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -98,15 +98,15 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="urge-58.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="call.01 call.07" name="call_on" verbnet_key="call_on#1" wn="call%2:32:05 call%2:32:15"/>
-    <MEMBER fn_mapping="None" grouping="dare.02" name="dare" verbnet_key="dare#1" wn="dare%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="egg_on" verbnet_key="egg_on#1" wn="egg_on%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="force.01" name="force" verbnet_key="force#1" wn="force%2:36:00 force%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="invite.02 invite.03 invite.04" name="invite" verbnet_key="invite#2" wn="invite%2:37:00"/>
-    <MEMBER fn_mapping="None" grouping="lean.05" name="lean_on" verbnet_key="lean_on#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="push.01" name="push" verbnet_key="push#5" wn="push%2:38:00 push%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="summon.01 summon.02" name="summon" verbnet_key="summon#1" wn="summon%2:32:05           summon%2:35:02"/>
-    <MEMBER fn_mapping="None" grouping="tempt.02" name="tempt" verbnet_key="tempt#2" wn="tempt%2:32:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="call.01 call.07" name="call_on" verbnet_key="call_on#1" wn="call%2:32:05 call%2:32:15"/>
+    <MEMBER features="None" fn_mapping="None" grouping="dare.02" name="dare" verbnet_key="dare#1" wn="dare%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="egg_on" verbnet_key="egg_on#1" wn="egg_on%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="force.01" name="force" verbnet_key="force#1" wn="force%2:36:00 force%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="invite.02 invite.03 invite.04" name="invite" verbnet_key="invite#2" wn="invite%2:37:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="lean.05" name="lean_on" verbnet_key="lean_on#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="push.01" name="push" verbnet_key="push#5" wn="push%2:38:00 push%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="summon.01 summon.02" name="summon" verbnet_key="summon#1" wn="summon%2:32:05           summon%2:35:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="tempt.02" name="tempt" verbnet_key="tempt#2" wn="tempt%2:32:04"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -192,17 +192,17 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="urge-58.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="admonish.01" name="admonish" verbnet_key="admonish#2" wn="admonish%2:32:02 admonish%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="ask.02" name="ask" verbnet_key="ask#2" wn="ask%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="encourage.02" name="encourage" verbnet_key="encourage#5" wn="encourage%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="exhort" verbnet_key="exhort#1" wn="exhort%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="entreat" verbnet_key="entreat#1" wn="entreat%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="implore" verbnet_key="implore#1" wn="implore%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="lobby.01" name="lobby" verbnet_key="lobby#1" wn="lobby%2:41:00"/>
-      <MEMBER fn_mapping="None" grouping="press.03" name="press" verbnet_key="press#2" wn="press%2:32:00 press%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="pressure.01" name="pressure" verbnet_key="pressure#1" wn="pressure%2:41:00"/>
-      <MEMBER fn_mapping="None" grouping="prod.02" name="prod" verbnet_key="prod#2" wn="prod%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="urge.01 urge.02" name="urge" verbnet_key="urge#1" wn="urge%2:32:00 urge%2:32:03"/>
+      <MEMBER features="None" fn_mapping="None" grouping="admonish.01" name="admonish" verbnet_key="admonish#2" wn="admonish%2:32:02 admonish%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="ask.02" name="ask" verbnet_key="ask#2" wn="ask%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="encourage.02" name="encourage" verbnet_key="encourage#5" wn="encourage%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="exhort" verbnet_key="exhort#1" wn="exhort%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="entreat" verbnet_key="entreat#1" wn="entreat%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="implore" verbnet_key="implore#1" wn="implore%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="lobby.01" name="lobby" verbnet_key="lobby#1" wn="lobby%2:41:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="press.03" name="press" verbnet_key="press#2" wn="press%2:32:00 press%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="pressure.01" name="pressure" verbnet_key="pressure#1" wn="pressure%2:41:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="prod.02" name="prod" verbnet_key="prod#2" wn="prod%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="urge.01 urge.02" name="urge" verbnet_key="urge#1" wn="urge%2:32:00 urge%2:32:03"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

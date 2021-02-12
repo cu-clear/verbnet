@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="vehicle_path-51.4.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Ride_vehicle" grouping="take.07" name="take" verbnet_key="take#15" wn="take%2:38:02"/>
+  <MEMBER features="None" fn_mapping="Ride_vehicle" grouping="take.07" name="take" verbnet_key="take#15" wn="take%2:38:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -442,14 +442,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="vehicle_path-51.4.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="sail.01" name="sail" verbnet_key="sail#2" wn="sail%2:38:03 sail%2:38:00 sail%2:38:02"/>
-    <MEMBER fn_mapping="None" grouping="" name="coast" verbnet_key="coast#2" wn="coast%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="sail.01" name="sail" verbnet_key="sail#2" wn="sail%2:38:03 sail%2:38:00 sail%2:38:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="coast" verbnet_key="coast#2" wn="coast%2:38:00"/>
    </MEMBERS>
    <THEMROLES>
    </THEMROLES>
    <FRAMES>
     <FRAME>
-     <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V " secondary="Basic intransitive" xtag=""/>
+     <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V" secondary="Basic intransitive" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
        Jill sailed.

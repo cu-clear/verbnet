@@ -1,28 +1,28 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="split-23.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Breathing" grouping="blow.01" name="blow" verbnet_key="blow#3" wn="blow%2:38:00 blow%2:38:03"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="break.01" name="break" verbnet_key="break#5" wn="break%2:35:05"/>
-  <MEMBER fn_mapping="Experience_bodily_harm" grouping="cut.01" name="cut" verbnet_key="cut#9" wn="cut%2:35:00 cut%2:35:11"/>
-  <MEMBER fn_mapping="Cause_motion" grouping="draw.03" name="draw" verbnet_key="draw#6" wn="draw%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="hack.01" name="hack" verbnet_key="hack#3" wn="hack%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="hew" verbnet_key="hew#2" wn="hew%2:35:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#5" wn="kick%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="knock.01" name="knock" verbnet_key="knock#4" wn="knock%2:35:04"/>
-  <MEMBER fn_mapping="None" grouping="pry.01" name="pry" verbnet_key="pry#3" wn="pry%2:35:00"/>
-  <MEMBER fn_mapping="Cause_motion" grouping="pull.01" name="pull" verbnet_key="pull#8" wn="pull%2:35:04 pull%2:38:03 pull%2:35:10"/>
-  <MEMBER fn_mapping="Cause_change_of_position_on_a_scale" grouping="push.01" name="push" verbnet_key="push#4" wn="push%2:38:00"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="rip.01" name="rip" verbnet_key="rip#3" wn="rip%2:35:00"/>
-  <MEMBER fn_mapping="Body_movement" grouping="roll.01" name="roll" verbnet_key="roll#12" wn="roll%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="saw.01" name="saw" verbnet_key="saw#2" wn="saw%2:35:00"/>
-  <MEMBER fn_mapping="Cause_motion" grouping="shove.02" name="shove" verbnet_key="shove#3" wn="shove%2:38:01"/>
-  <MEMBER fn_mapping="Dressing" grouping="slip.02" name="slip" verbnet_key="slip#3" wn="slip%2:38:05"/>
-  <MEMBER fn_mapping="None" grouping="sliver.01" name="sliver" verbnet_key="sliver#2" wn="sliver%2:41:00 sliver%2:30:00 sliver%2:30:01"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="snap.01" name="snap" verbnet_key="snap#5" wn="snap%2:35:01 snap%2:30:00"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="split.01 split.02" name="split" verbnet_key="split#3" wn="split%2:35:00 split%2:30:01"/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="tear.01" name="tear" verbnet_key="tear#4" wn="tear%2:35:01"/>
-  <MEMBER fn_mapping="Cause_motion" grouping="" name="tug" verbnet_key="tug#3" wn="tug%2:35:02"/>
-  <MEMBER fn_mapping="Cause_motion" grouping="yank.01 yank.02 yank.03" name="yank" verbnet_key="yank#3" wn="yank%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Breathing" grouping="blow.01" name="blow" verbnet_key="blow#3" wn="blow%2:38:00 blow%2:38:03"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="break.01" name="break" verbnet_key="break#5" wn="break%2:35:05"/>
+  <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="cut.01" name="cut" verbnet_key="cut#9" wn="cut%2:35:00 cut%2:35:11"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="draw.03" name="draw" verbnet_key="draw#6" wn="draw%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hack.01" name="hack" verbnet_key="hack#3" wn="hack%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hew" verbnet_key="hew#2" wn="hew%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#5" wn="kick%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="knock.01" name="knock" verbnet_key="knock#4" wn="knock%2:35:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pry.01" name="pry" verbnet_key="pry#3" wn="pry%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="pull.01" name="pull" verbnet_key="pull#8" wn="pull%2:35:04 pull%2:38:03 pull%2:35:10"/>
+  <MEMBER features="None" fn_mapping="Cause_change_of_position_on_a_scale" grouping="push.01" name="push" verbnet_key="push#4" wn="push%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="rip.01" name="rip" verbnet_key="rip#3" wn="rip%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="roll.01" name="roll" verbnet_key="roll#12" wn="roll%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="saw.01" name="saw" verbnet_key="saw#2" wn="saw%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="shove.02" name="shove" verbnet_key="shove#3" wn="shove%2:38:01"/>
+  <MEMBER features="None" fn_mapping="Dressing" grouping="slip.02" name="slip" verbnet_key="slip#3" wn="slip%2:38:05"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sliver.01" name="sliver" verbnet_key="sliver#2" wn="sliver%2:41:00 sliver%2:30:00 sliver%2:30:01"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="snap.01" name="snap" verbnet_key="snap#5" wn="snap%2:35:01 snap%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="split.01 split.02" name="split" verbnet_key="split#3" wn="split%2:35:00 split%2:30:01"/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="tear.01" name="tear" verbnet_key="tear#4" wn="tear%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="" name="tug" verbnet_key="tug#3" wn="tug%2:35:02"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="yank.01 yank.02 yank.03" name="yank" verbnet_key="yank#3" wn="yank%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

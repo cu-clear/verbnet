@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="void-106" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="annul" verbnet_key="annul#1" wn="annul%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="quash" verbnet_key="quash#2" wn="quash%2:41:00 quash%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="void.01" name="void" verbnet_key="void#1" wn="void%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="avoid.02" name="avoid" verbnet_key="avoid#2" wn="avoid%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="invalidate.01" name="invalidate" verbnet_key="invalidate#1" wn="invalidate%2:41:00 invalidate%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="nullify.01" name="nullify" verbnet_key="nullify#1" wn="nullify%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="annul" verbnet_key="annul#1" wn="annul%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quash" verbnet_key="quash#2" wn="quash%2:41:00 quash%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="void.01" name="void" verbnet_key="void#1" wn="void%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="avoid.02" name="avoid" verbnet_key="avoid#2" wn="avoid%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="invalidate.01" name="invalidate" verbnet_key="invalidate#1" wn="invalidate%2:41:00 invalidate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="nullify.01" name="nullify" verbnet_key="nullify#1" wn="nullify%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -37,7 +37,7 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED bool="!" value="voided">
+    <PRED bool="!" value="void">
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Patient"/>
@@ -56,7 +56,7 @@
       <ARG type="Event" value="e3"/>
      </ARGS>
     </PRED>
-    <PRED value="voided">
+    <PRED value="void">
      <ARGS>
       <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Patient"/>

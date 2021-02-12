@@ -1,17 +1,17 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="scribble-25.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Imitating" grouping="copy.01" name="copy" verbnet_key="copy#1" wn="copy%2:36:05 copy%2:36:01"/>
-  <MEMBER fn_mapping="Forging" grouping="forge.02" name="forge" verbnet_key="forge#2" wn="forge%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="jot" verbnet_key="jot#1" wn="jot%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="jot_down" verbnet_key="jot_down#1" wn="jot_down%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="misspell" verbnet_key="misspell#1" wn=""/>
-  <MEMBER fn_mapping="Spelling_and_pronouncing" grouping="spell.01" name="spell" verbnet_key="spell#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="take.12" name="take" verbnet_key="take#13" wn=""/>
-  <MEMBER fn_mapping="None" grouping="take.12" name="take_down" verbnet_key="take_down#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="trace.02" name="trace" verbnet_key="trace#1" wn="trace%2:35:00 trace%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="underscore" verbnet_key="underscore#2" wn="underscore%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="underline.02" name="underline" verbnet_key="underline#1" wn="underline%2:32:03"/>
+  <MEMBER features="None" fn_mapping="Imitating" grouping="copy.01" name="copy" verbnet_key="copy#1" wn="copy%2:36:05 copy%2:36:01"/>
+  <MEMBER features="None" fn_mapping="Forging" grouping="forge.02" name="forge" verbnet_key="forge#2" wn="forge%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jot" verbnet_key="jot#1" wn="jot%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jot_down" verbnet_key="jot_down#1" wn="jot_down%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="misspell" verbnet_key="misspell#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Spelling_and_pronouncing" grouping="spell.01" name="spell" verbnet_key="spell#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="take.12" name="take" verbnet_key="take#13" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="take.12" name="take_down" verbnet_key="take_down#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="trace.02" name="trace" verbnet_key="trace#1" wn="trace%2:35:00 trace%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="underscore" verbnet_key="underscore#2" wn="underscore%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="underline.02" name="underline" verbnet_key="underline#1" wn="underline%2:32:03"/>
  </MEMBERS>
  <THEMROLES>
   <!--In most predicates, such as location, Theme really means image_of(Theme)-->
@@ -143,27 +143,27 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="scribble-25.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="carve.01" name="carve" verbnet_key="carve#5" wn="carve%2:35:02"/>
-    <MEMBER fn_mapping="None" grouping="" name="chalk" verbnet_key="chalk#1" wn="chalk%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="charcoal" verbnet_key="charcoal#1" wn="charcoal%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="crayon" verbnet_key="crayon#1" wn="crayon%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="doodle" verbnet_key="doodle#1" wn="doodle%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="draw.06 draw.07" name="draw" verbnet_key="draw#5" wn="draw%2:31:00 draw%2:36:00 draw%2:36:02"/>
-    <MEMBER fn_mapping="None" grouping="ink.01" name="ink" verbnet_key="ink#2" wn="ink%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="pencil" verbnet_key="pencil#1" wn="pencil%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="plot.02" name="plot" verbnet_key="plot#2" wn="plot%2:36:00"/>
-    <MEMBER fn_mapping="Text_creation" grouping="print.01 print.02 print.03" name="print" verbnet_key="print#1" wn="print%2:36:03 print%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="record.01" name="record" verbnet_key="record#1" wn="record%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="scratch.03" name="scratch" verbnet_key="scratch#4" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="scrawl" verbnet_key="scrawl#1" wn="scrawl%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="scribble" verbnet_key="scribble#1" wn="scribble%2:32:00 scribble%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="sketch" verbnet_key="sketch#1" wn="sketch%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="spraypaint" verbnet_key="spraypaint#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="stencil" verbnet_key="stencil#1" wn="stencil%2:36:00"/>
-    <MEMBER fn_mapping="Text_creation" grouping="type.01" name="type" verbnet_key="type#1" wn="type%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="write.02" name="write" verbnet_key="write#4" wn="write%2:36:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="print_out" verbnet_key="print_out#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="print_up" verbnet_key="print_up#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="carve.01" name="carve" verbnet_key="carve#5" wn="carve%2:35:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="chalk" verbnet_key="chalk#1" wn="chalk%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="charcoal" verbnet_key="charcoal#1" wn="charcoal%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="crayon" verbnet_key="crayon#1" wn="crayon%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="doodle" verbnet_key="doodle#1" wn="doodle%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="draw.06 draw.07" name="draw" verbnet_key="draw#5" wn="draw%2:31:00 draw%2:36:00 draw%2:36:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="ink.01" name="ink" verbnet_key="ink#2" wn="ink%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pencil" verbnet_key="pencil#1" wn="pencil%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="plot.02" name="plot" verbnet_key="plot#2" wn="plot%2:36:00"/>
+    <MEMBER features="None" fn_mapping="Text_creation" grouping="print.01 print.02 print.03" name="print" verbnet_key="print#1" wn="print%2:36:03 print%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="record.01" name="record" verbnet_key="record#1" wn="record%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="scratch.03" name="scratch" verbnet_key="scratch#4" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="scrawl" verbnet_key="scrawl#1" wn="scrawl%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="scribble" verbnet_key="scribble#1" wn="scribble%2:32:00 scribble%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="sketch" verbnet_key="sketch#1" wn="sketch%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="spraypaint" verbnet_key="spraypaint#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="stencil" verbnet_key="stencil#1" wn="stencil%2:36:00"/>
+    <MEMBER features="None" fn_mapping="Text_creation" grouping="type.01" name="type" verbnet_key="type#1" wn="type%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="write.02" name="write" verbnet_key="write#4" wn="write%2:36:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="print_out" verbnet_key="print_out#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="print_up" verbnet_key="print_up#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

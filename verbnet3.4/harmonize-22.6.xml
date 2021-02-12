@@ -1,17 +1,17 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="harmonize-22.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="alternate" verbnet_key="alternate#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="cohere" verbnet_key="cohere#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="couple" verbnet_key="couple#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="dovetail" verbnet_key="dovetail#1" wn=""/>
-  <MEMBER fn_mapping="Compatibility" grouping="go.14" name="go" verbnet_key="go#6" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="pair" verbnet_key="pair#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="harmonize" verbnet_key="harmonize#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="jibe" verbnet_key="jibe#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="match" verbnet_key="match#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="rhyme" verbnet_key="rhyme#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="square" verbnet_key="square#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="alternate" verbnet_key="alternate#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cohere" verbnet_key="cohere#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="couple" verbnet_key="couple#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dovetail" verbnet_key="dovetail#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Compatibility" grouping="go.14" name="go" verbnet_key="go#6" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pair" verbnet_key="pair#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="harmonize" verbnet_key="harmonize#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jibe" verbnet_key="jibe#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="match" verbnet_key="match#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rhyme" verbnet_key="rhyme#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="square" verbnet_key="square#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="acquiesce-95.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="defer.02" name="defer" verbnet_key="defer#1" wn="defer%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="defer.02" name="defer" verbnet_key="defer#1" wn="defer%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -93,14 +93,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="acquiesce-95.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="accede.01" name="accede" verbnet_key="accede#1" wn="accede%2:32:00 accede%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="bow.03" name="bow" verbnet_key="bow#1" wn="bow%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="capitulate" verbnet_key="capitulate#1" wn="capitulate%2:33:00"/>  
-    <MEMBER fn_mapping="Conquering" grouping="fall.04" name="fall" verbnet_key="fall#1" wn="fall%2:40:05"/>
-    <MEMBER fn_mapping="None" grouping="give.05" name="give_way" verbnet_key="give_way#1" wn="give_way%2:38:01 give_way%2:30:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="give_in" verbnet_key="give_in#1" wn="give_in%2:32:02 give_in%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="succumb" verbnet_key="succumb#1" wn="succumb%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="yield.02" name="yield" verbnet_key="yield#1" wn="yield%2:30:00 yield%2:40:01 yield%2:33:00 yield%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="accede.01" name="accede" verbnet_key="accede#1" wn="accede%2:32:00 accede%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bow.03" name="bow" verbnet_key="bow#1" wn="bow%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="capitulate" verbnet_key="capitulate#1" wn="capitulate%2:33:00"/>  
+    <MEMBER features="None" fn_mapping="Conquering" grouping="fall.04" name="fall" verbnet_key="fall#1" wn="fall%2:40:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="give.05" name="give_way" verbnet_key="give_way#1" wn="give_way%2:38:01 give_way%2:30:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="give_in" verbnet_key="give_in#1" wn="give_in%2:32:02 give_in%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="succumb" verbnet_key="succumb#1" wn="succumb%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="yield.02" name="yield" verbnet_key="yield#1" wn="yield%2:30:00 yield%2:40:01 yield%2:33:00 yield%2:32:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -145,9 +145,9 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="acquiesce-95.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="" name="acquiesce" verbnet_key="acquiesce#1" wn="acquiesce%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="consent.01" name="consent" verbnet_key="consent#1" wn="consent%2:32:00"/>
-      <MEMBER fn_mapping="None" grouping="submit.01" name="submit" verbnet_key="submit#1" wn="submit%2:33:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="acquiesce" verbnet_key="acquiesce#1" wn="acquiesce%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="consent.01" name="consent" verbnet_key="consent#1" wn="consent%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="submit.01" name="submit" verbnet_key="submit#1" wn="submit%2:33:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

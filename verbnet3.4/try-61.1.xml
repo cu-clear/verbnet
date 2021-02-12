@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="try-61.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="try.01" name="try" verbnet_key="try#4" wn="try%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="attempt.01" name="attempt" verbnet_key="attempt#1" wn="attempt%2:41:00 attempt%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="intend.01" name="intend" verbnet_key="intend#2" wn="intend%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="try.01" name="try" verbnet_key="try#4" wn="try%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="attempt.01" name="attempt" verbnet_key="attempt#1" wn="attempt%2:41:00 attempt%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="intend.01" name="intend" verbnet_key="intend#2" wn="intend%2:31:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

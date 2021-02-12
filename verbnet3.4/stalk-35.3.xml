@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="stalk-35.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="scent.02" name="scent" verbnet_key="scent#3" wn="scent%2:39:01"/>
-  <MEMBER fn_mapping="Perception_experience" grouping="smell.01" name="smell" verbnet_key="smell#4" wn="smell%2:39:01"/>
-  <MEMBER fn_mapping="Cotheme" grouping="stalk.01" name="stalk" verbnet_key="stalk#2" wn="stalk%2:38:03"/>
-  <MEMBER fn_mapping="None" grouping="taste.02" name="taste" verbnet_key="taste#4" wn="taste%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="track.02" name="track" verbnet_key="track#2" wn="track%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="whiff.01" name="whiff" verbnet_key="whiff#2" wn="whiff%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="scent.02" name="scent" verbnet_key="scent#3" wn="scent%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Perception_experience" grouping="smell.01" name="smell" verbnet_key="smell#4" wn="smell%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Cotheme" grouping="stalk.01" name="stalk" verbnet_key="stalk#2" wn="stalk%2:38:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="taste.02" name="taste" verbnet_key="taste#4" wn="taste%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="track.02" name="track" verbnet_key="track#2" wn="track%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="whiff.01" name="whiff" verbnet_key="whiff#2" wn="whiff%2:39:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

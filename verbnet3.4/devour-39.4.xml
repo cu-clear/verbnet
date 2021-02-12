@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="devour-39.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Ingestion" grouping="consume.01" name="consume" verbnet_key="consume#2" wn="consume%2:34:03"/>
-  <MEMBER fn_mapping="Ingestion" grouping="devour.01" name="devour" verbnet_key="devour#1" wn="devour%2:34:01 devour%2:34:00"/>
-  <MEMBER fn_mapping="Ingestion" grouping="down.01" name="down" verbnet_key="down#1" wn=""/>
-  <MEMBER fn_mapping="Ingestion" grouping="" name="have" verbnet_key="have#2" wn=""/>
-  <MEMBER fn_mapping="Ingestion" grouping="imbibe.01" name="imbibe" verbnet_key="imbibe#1" wn="imbibe%2:34:00"/>
-  <MEMBER fn_mapping="Ingestion" grouping="ingest.01" name="ingest" verbnet_key="ingest#2" wn="ingest%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="swill" verbnet_key="swill#1" wn="swill%2:34:00"/>
-  <MEMBER fn_mapping="Ingest_substance" grouping="" name="take" verbnet_key="take#7" wn=""/>
+  <MEMBER features="None" fn_mapping="Ingestion" grouping="consume.01" name="consume" verbnet_key="consume#2" wn="consume%2:34:03"/>
+  <MEMBER features="None" fn_mapping="Ingestion" grouping="devour.01" name="devour" verbnet_key="devour#1" wn="devour%2:34:01 devour%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Ingestion" grouping="down.01" name="down" verbnet_key="down#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Ingestion" grouping="" name="have" verbnet_key="have#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Ingestion" grouping="imbibe.01" name="imbibe" verbnet_key="imbibe#1" wn="imbibe%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Ingestion" grouping="ingest.01" name="ingest" verbnet_key="ingest#2" wn="ingest%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="swill" verbnet_key="swill#1" wn="swill%2:34:00"/>
+  <MEMBER features="None" fn_mapping="Ingest_substance" grouping="" name="take" verbnet_key="take#7" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

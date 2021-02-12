@@ -2,26 +2,26 @@
 <VNCLASS ID="transcribe-25.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--In most predicates, such as location, Theme really means image_of(Theme)-->
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="chart.01" name="chart" verbnet_key="chart#1" wn="chart%2:31:13 chart%2:36:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="chronicle" verbnet_key="chronicle#1" wn="chronicle%2:32:00"/>
-  <MEMBER fn_mapping="Duplication" grouping="copy.01" name="copy" verbnet_key="copy#2" wn="copy%2:36:05 copy%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="document.01" name="document" verbnet_key="document#1" wn="document%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="duplicate.02" name="duplicate" verbnet_key="duplicate#1" wn="duplicate%2:36:01"/>
-  <MEMBER fn_mapping="Behind_the_scenes" grouping="film.01" name="film" verbnet_key="film#1" wn="film%2:32:00 film%2:36:00"/>
-  <MEMBER fn_mapping="Forging" grouping="forge.02" name="forge" verbnet_key="forge#3" wn="forge%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="microfilm" verbnet_key="microfilm#1" wn="microfilm%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="photocopy" verbnet_key="photocopy#1" wn="photocopy%2:36:00"/>
-  <MEMBER fn_mapping="Create_representation" grouping="photograph.01" name="photograph" verbnet_key="photograph#1" wn="photograph%2:32:00"/>
-  <MEMBER fn_mapping="Recording" grouping="record.01" name="record" verbnet_key="record#2" wn="record%2:32:01"/>
-  <MEMBER fn_mapping="Adding_up" grouping="tally.01" name="tally" verbnet_key="tally#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="tally_up" verbnet_key="tally_up#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="tape.02" name="tape" verbnet_key="tape#2" wn="tape%2:32:03 tape%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="televise.01" name="televise" verbnet_key="televise#1" wn="televise%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="transcribe.01 transcribe.02 transcribe.03" name="transcribe" verbnet_key="transcribe#1" wn="transcribe%2:32:01 transcribe%2:32:00 transcribe%2:36:00 transcribe%2:32:02"/>
-  <MEMBER fn_mapping="Text_creation" grouping="type.01" name="type" verbnet_key="type#2" wn="type%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="videotape" verbnet_key="videotape#1" wn="videotape%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="write.01" name="write_up" verbnet_key="write_up#2" wn="write_up%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="write.01" name="write_out" verbnet_key="write_out#1" wn="write_out%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="chart.01" name="chart" verbnet_key="chart#1" wn="chart%2:31:13 chart%2:36:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chronicle" verbnet_key="chronicle#1" wn="chronicle%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Duplication" grouping="copy.01" name="copy" verbnet_key="copy#2" wn="copy%2:36:05 copy%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="document.01" name="document" verbnet_key="document#1" wn="document%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="duplicate.02" name="duplicate" verbnet_key="duplicate#1" wn="duplicate%2:36:01"/>
+  <MEMBER features="None" fn_mapping="Behind_the_scenes" grouping="film.01" name="film" verbnet_key="film#1" wn="film%2:32:00 film%2:36:00"/>
+  <MEMBER features="None" fn_mapping="Forging" grouping="forge.02" name="forge" verbnet_key="forge#3" wn="forge%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="microfilm" verbnet_key="microfilm#1" wn="microfilm%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="photocopy" verbnet_key="photocopy#1" wn="photocopy%2:36:00"/>
+  <MEMBER features="None" fn_mapping="Create_representation" grouping="photograph.01" name="photograph" verbnet_key="photograph#1" wn="photograph%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Recording" grouping="record.01" name="record" verbnet_key="record#2" wn="record%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Adding_up" grouping="tally.01" name="tally" verbnet_key="tally#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tally_up" verbnet_key="tally_up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="tape.02" name="tape" verbnet_key="tape#2" wn="tape%2:32:03 tape%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="televise.01" name="televise" verbnet_key="televise#1" wn="televise%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="transcribe.01 transcribe.02 transcribe.03" name="transcribe" verbnet_key="transcribe#1" wn="transcribe%2:32:01 transcribe%2:32:00 transcribe%2:36:00 transcribe%2:32:02"/>
+  <MEMBER features="None" fn_mapping="Text_creation" grouping="type.01" name="type" verbnet_key="type#2" wn="type%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="videotape" verbnet_key="videotape#1" wn="videotape%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="write.01" name="write_up" verbnet_key="write_up#2" wn="write_up%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="write.01" name="write_out" verbnet_key="write_out#1" wn="write_out%2:36:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

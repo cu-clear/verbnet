@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="amalgamate-22.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="intermarry" verbnet_key="intermarry#1" wn="intermarry%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="intermarry" verbnet_key="intermarry#1" wn="intermarry%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--Patient is interpreted as Figure, Co-Patient as Ground
@@ -94,11 +94,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="amalgamate-22.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="couple.01" name="couple" verbnet_key="couple#1" wn="couple%2:35:02 couple%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="incorporate.01" name="incorporate" verbnet_key="incorporate#1" wn="incorporate%2:30:00 incorporate%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="integrate.01" name="integrate" verbnet_key="integrate#1" wn="integrate%2:30:00 integrate%2:30:01"/>
-    <MEMBER fn_mapping="None" grouping="match.03" name="match" verbnet_key="match#1" wn="match%2:35:08"/>
-    <MEMBER fn_mapping="None" grouping="" name="overlap" verbnet_key="overlap#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="couple.01" name="couple" verbnet_key="couple#1" wn="couple%2:35:02 couple%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="incorporate.01" name="incorporate" verbnet_key="incorporate#1" wn="incorporate%2:30:00 incorporate%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="integrate.01" name="integrate" verbnet_key="integrate#1" wn="integrate%2:30:00 integrate%2:30:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="match.03" name="match" verbnet_key="match#1" wn="match%2:35:08"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="overlap" verbnet_key="overlap#1" wn=""/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Patient">
@@ -253,10 +253,10 @@
      <!--physical, change of integrity of Patients (but note alternate interpretation when both Patients are plural and countable - "mixed eggs and marbles")-->
      <!--These verbs cannot take the 'together' alternation, according to Levin-->
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="" name="amalgamate" verbnet_key="amalgamate#1" wn="amalgamate%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="coalesce" verbnet_key="coalesce#1" wn="coalesce%2:30:00 coalesce%2:35:00"/>
-      <MEMBER fn_mapping="Cause_to_amalgamate" grouping="consolidate.01 consolidate.02" name="consolidate" verbnet_key="consolidate#1" wn="consolidate%2:30:00 consolidate%2:30:01 consolidate%2:30:04 consolidate%2:30:03"/>
-      <MEMBER fn_mapping="None" grouping="" name="intermingle" verbnet_key="intermingle#1" wn="intermingle%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="amalgamate" verbnet_key="amalgamate#1" wn="amalgamate%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="coalesce" verbnet_key="coalesce#1" wn="coalesce%2:30:00 coalesce%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="consolidate.01 consolidate.02" name="consolidate" verbnet_key="consolidate#1" wn="consolidate%2:30:00 consolidate%2:30:01 consolidate%2:30:04 consolidate%2:30:03"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="intermingle" verbnet_key="intermingle#1" wn="intermingle%2:35:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -324,20 +324,20 @@
   <VNSUBCLASS ID="amalgamate-22.2-2">
    <!--physical, no change of integrity of Patients-->
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="conjoin" verbnet_key="conjoin#1" wn="conjoin%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="entangle" verbnet_key="entangle#1" wn="entangle%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="muddle" verbnet_key="muddle#1" wn="muddle%2:31:00"/>
-    <MEMBER fn_mapping="Cause_to_amalgamate" grouping="pair.01" name="pair" verbnet_key="pair#1" wn="pair%2:41:00 pair%2:35:01 pair%2:35:00"/>
-    <MEMBER fn_mapping="Collaboration" grouping="team.01" name="team" verbnet_key="team#1" wn="team%2:33:00"/>
-    <MEMBER fn_mapping="None" grouping="affiliate.01" name="affiliate" verbnet_key="affiliate#1" wn="affiliate%2:41:00 affiliate%2:41:12"/>
-    <MEMBER fn_mapping="None" grouping="associate.01 associate.02" name="associate" verbnet_key="associate#1" wn="associate%2:31:00 associate%2:41:02 associate%2:41:00"/>
-    <MEMBER fn_mapping="Evaluative_comparison" grouping="compare.01 compare.02" name="compare" verbnet_key="compare#1" wn="compare%2:31:00 compare%2:42:00 compare%2:31:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="confederate" verbnet_key="confederate#1" wn="confederate%2:41:00 confederate%2:41:10"/>
-    <MEMBER fn_mapping="Experiencer_obj" grouping="confuse.01 confuse.03" name="confuse" verbnet_key="confuse#1" wn="confuse%2:31:02 confuse%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="incorporate.01" name="incorporate" verbnet_key="incorporate#1" wn="incorporate%2:30:00 incorporate%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="integrate.01" name="integrate" verbnet_key="integrate#1" wn="integrate%2:30:00 integrate%2:30:01"/>
-    <MEMBER fn_mapping="Adding_up" grouping="total.01" name="total" verbnet_key="total#1" wn="?total%2:42:00 total%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="identity" verbnet_key="identity#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="conjoin" verbnet_key="conjoin#1" wn="conjoin%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="entangle" verbnet_key="entangle#1" wn="entangle%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="muddle" verbnet_key="muddle#1" wn="muddle%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="pair.01" name="pair" verbnet_key="pair#1" wn="pair%2:41:00 pair%2:35:01 pair%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Collaboration" grouping="team.01" name="team" verbnet_key="team#1" wn="team%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="affiliate.01" name="affiliate" verbnet_key="affiliate#1" wn="affiliate%2:41:00 affiliate%2:41:12"/>
+    <MEMBER features="None" fn_mapping="None" grouping="associate.01 associate.02" name="associate" verbnet_key="associate#1" wn="associate%2:31:00 associate%2:41:02 associate%2:41:00"/>
+    <MEMBER features="None" fn_mapping="Evaluative_comparison" grouping="compare.01 compare.02" name="compare" verbnet_key="compare#1" wn="compare%2:31:00 compare%2:42:00 compare%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="confederate" verbnet_key="confederate#1" wn="confederate%2:41:00 confederate%2:41:10"/>
+    <MEMBER features="None" fn_mapping="Experiencer_obj" grouping="confuse.01 confuse.03" name="confuse" verbnet_key="confuse#1" wn="confuse%2:31:02 confuse%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="incorporate.01" name="incorporate" verbnet_key="incorporate#1" wn="incorporate%2:30:00 incorporate%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="integrate.01" name="integrate" verbnet_key="integrate#1" wn="integrate%2:30:00 integrate%2:30:01"/>
+    <MEMBER features="None" fn_mapping="Adding_up" grouping="total.01" name="total" verbnet_key="total#1" wn="?total%2:42:00 total%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="identity" verbnet_key="identity#1" wn=""/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Patient">
@@ -498,31 +498,31 @@
     <VNSUBCLASS ID="amalgamate-22.2-2-1">
      <!--physical, no change of integrity of Patients-->
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="alternate.01 alternate.03" name="alternate" verbnet_key="alternate#1" wn="alternate%2:30:01 alternate%2:30:02 alternate%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="crisscross" verbnet_key="crisscross#1" wn="crisscross%2:38:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="entwine" verbnet_key="entwine#1" wn="entwine%2:36:00 entwine%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="interchange.02 interchange.03" name="interchange" verbnet_key="interchange#1" wn="interchange%2:40:00 interchange%2:30:01 interchange%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="interconnect" verbnet_key="interconnect#1" wn="interconnect%2:42:00 interconnect%2:35:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="interlace" verbnet_key="interlace#1" wn="interlace%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="interlink" verbnet_key="interlink#1" wn="interlink%2:42:00 interlink%2:35:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="interlock" verbnet_key="interlock#1" wn="?interlock%2:30:00 ?interlock%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="intersperse" verbnet_key="intersperse#1" wn="intersperse%2:35:02"/>
-      <MEMBER fn_mapping="None" grouping="" name="intertwine" verbnet_key="intertwine#1" wn="intertwine%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="interweave" verbnet_key="interweave#1" wn="interweave%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="mate.01 mate.02" name="mate" verbnet_key="mate#1" wn="mate%2:35:00 mate%2:35:02"/>
-      <MEMBER fn_mapping="Amalgamation" grouping="unite.01" name="unite" verbnet_key="unite#1" wn="unite%2:30:00 ?unite%2:42:01 unite%2:42:02 unite%2:30:02"/>
-      <MEMBER fn_mapping="None" grouping="" name="coalesce" verbnet_key="coalesce#1" wn="coalesce%2:30:00"/>
-      <MEMBER fn_mapping="Simultaneity" grouping="coincide.01" name="coincide" verbnet_key="coincide#1" wn="coincide%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="conflate" verbnet_key="conflate#1" wn="conflate%2:30:00"/>
-      <MEMBER fn_mapping="Cause_to_amalgamate" grouping="consolidate.01" name="consolidate" verbnet_key="consolidate#1" wn="consolidate%2:30:00 consolidate%2:30:01"/>
-      <MEMBER fn_mapping="None" grouping="contrast.01" name="contrast" verbnet_key="contrast#1" wn="contrast%2:42:00"/>
-      <MEMBER fn_mapping="None" grouping="correlate.01" name="correlate" verbnet_key="correlate#1" wn="correlate%2:42:00 correlate%2:31:00"/>
-      <MEMBER fn_mapping="Compatibility" grouping="" name="harmonize" verbnet_key="harmonize#1" wn="harmonize%2:42:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="intermingle" verbnet_key="intermingle#1" wn="intermingle%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="interrelate" verbnet_key="interrelate#1" wn="interrelate%2:31:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="repackage" verbnet_key="repackage#1" wn=""/>
-      <MEMBER fn_mapping="None" grouping="" name="rhyme" verbnet_key="rhyme#1" wn="rhyme%2:42:00"/>
-      <MEMBER fn_mapping="Amalgamation" grouping="unify.01" name="unify" verbnet_key="unify#1" wn="unify%2:35:00 unify%2:30:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="alternate.01 alternate.03" name="alternate" verbnet_key="alternate#1" wn="alternate%2:30:01 alternate%2:30:02 alternate%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="crisscross" verbnet_key="crisscross#1" wn="crisscross%2:38:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="entwine" verbnet_key="entwine#1" wn="entwine%2:36:00 entwine%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="interchange.02 interchange.03" name="interchange" verbnet_key="interchange#1" wn="interchange%2:40:00 interchange%2:30:01 interchange%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="interconnect" verbnet_key="interconnect#1" wn="interconnect%2:42:00 interconnect%2:35:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="interlace" verbnet_key="interlace#1" wn="interlace%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="interlink" verbnet_key="interlink#1" wn="interlink%2:42:00 interlink%2:35:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="interlock" verbnet_key="interlock#1" wn="?interlock%2:30:00 ?interlock%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="intersperse" verbnet_key="intersperse#1" wn="intersperse%2:35:02"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="intertwine" verbnet_key="intertwine#1" wn="intertwine%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="interweave" verbnet_key="interweave#1" wn="interweave%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="mate.01 mate.02" name="mate" verbnet_key="mate#1" wn="mate%2:35:00 mate%2:35:02"/>
+      <MEMBER features="None" fn_mapping="Amalgamation" grouping="unite.01" name="unite" verbnet_key="unite#1" wn="unite%2:30:00 ?unite%2:42:01 unite%2:42:02 unite%2:30:02"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="coalesce" verbnet_key="coalesce#1" wn="coalesce%2:30:00"/>
+      <MEMBER features="None" fn_mapping="Simultaneity" grouping="coincide.01" name="coincide" verbnet_key="coincide#1" wn="coincide%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="conflate" verbnet_key="conflate#1" wn="conflate%2:30:00"/>
+      <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="consolidate.01" name="consolidate" verbnet_key="consolidate#1" wn="consolidate%2:30:00 consolidate%2:30:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="contrast.01" name="contrast" verbnet_key="contrast#1" wn="contrast%2:42:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="correlate.01" name="correlate" verbnet_key="correlate#1" wn="correlate%2:42:00 correlate%2:31:00"/>
+      <MEMBER features="None" fn_mapping="Compatibility" grouping="" name="harmonize" verbnet_key="harmonize#1" wn="harmonize%2:42:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="intermingle" verbnet_key="intermingle#1" wn="intermingle%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="interrelate" verbnet_key="interrelate#1" wn="interrelate%2:31:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="repackage" verbnet_key="repackage#1" wn=""/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="rhyme" verbnet_key="rhyme#1" wn="rhyme%2:42:00"/>
+      <MEMBER features="None" fn_mapping="Amalgamation" grouping="unify.01" name="unify" verbnet_key="unify#1" wn="unify%2:35:00 unify%2:30:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -565,7 +565,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="amalgamate-22.2-3">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="oppose.02" name="oppose" verbnet_key="oppose#1" wn="oppose%2:33:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="oppose.02" name="oppose" verbnet_key="oppose#1" wn="oppose%2:33:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -620,8 +620,8 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="amalgamate-22.2-3-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="introduce.01 introduce.02 introduce.03" name="introduce" verbnet_key="introduce#1" wn="introduce%2:32:00 introduce%2:36:00 introduce%2:38:00 introduce%2:35:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="figure" verbnet_key="figure#1" wn=""/>
+      <MEMBER features="None" fn_mapping="None" grouping="introduce.01 introduce.02 introduce.03" name="introduce" verbnet_key="introduce#1" wn="introduce%2:32:00 introduce%2:36:00 introduce%2:38:00 introduce%2:35:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="figure" verbnet_key="figure#1" wn=""/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -680,9 +680,9 @@
      <SUBCLASSES>
       <VNSUBCLASS ID="amalgamate-22.2-3-1-1">
        <MEMBERS>
-        <MEMBER fn_mapping="Forming_relationships" grouping="marry.01 marry.02" name="marry" verbnet_key="marry#1" wn="marry%2:41:00 marry%2:41:01"/>
-        <MEMBER fn_mapping="None" grouping="" name="remarry" verbnet_key="remarry#1" wn="remarry%2:41:00"/>
-        <MEMBER fn_mapping="Forming_relationships" grouping="wed.01" name="wed" verbnet_key="wed#1" wn="wed%2:41:00 wed%2:41:01"/>
+        <MEMBER features="None" fn_mapping="Forming_relationships" grouping="marry.01 marry.02" name="marry" verbnet_key="marry#1" wn="marry%2:41:00 marry%2:41:01"/>
+        <MEMBER features="None" fn_mapping="None" grouping="" name="remarry" verbnet_key="remarry#1" wn="remarry%2:41:00"/>
+        <MEMBER features="None" fn_mapping="Forming_relationships" grouping="wed.01" name="wed" verbnet_key="wed#1" wn="wed%2:41:00 wed%2:41:01"/>
        </MEMBERS>
        <THEMROLES>
         <THEMROLE type="Agent">
@@ -741,7 +741,7 @@
     </VNSUBCLASS>
     <VNSUBCLASS ID="amalgamate-22.2-3-2">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="engage.03" name="engage" verbnet_key="engage#1" wn="engage%2:32:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="engage.03" name="engage" verbnet_key="engage#1" wn="engage%2:32:00"/>
      </MEMBERS>
      <THEMROLES>
       <THEMROLE type="Agent">

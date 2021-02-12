@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="involve-107.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="involve.01" name="involve" verbnet_key="involve#1" wn="involve%2:42:04"/>
-  <MEMBER fn_mapping="None" grouping="engage.02" name="engage" verbnet_key="engage#4" wn="engage%2:40:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="relate" verbnet_key="relate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="include.01 include.02" name="include" verbnet_key="include#2" wn="include%2:41:03 include%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="enroll" verbnet_key="enroll#1" wn="enroll%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="involve.01" name="involve" verbnet_key="involve#1" wn="involve%2:42:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="engage.02" name="engage" verbnet_key="engage#4" wn="engage%2:40:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="relate" verbnet_key="relate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="include.01 include.02" name="include" verbnet_key="include#2" wn="include%2:41:03 include%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="enroll" verbnet_key="enroll#1" wn="enroll%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

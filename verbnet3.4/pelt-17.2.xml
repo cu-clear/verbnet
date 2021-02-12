@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="pelt-17.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="bombard.01" name="bombard" verbnet_key="bombard#3" wn="bombard%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="buffet" verbnet_key="buffet#1" wn="buffet%2:35:00 buffet%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="pelt" verbnet_key="pelt#1" wn="pelt%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pepperspray" verbnet_key="pepperspray#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="shell.02" name="shell" verbnet_key="shell#1" wn="shell%2:33:00"/>
-  <MEMBER fn_mapping="Placing" grouping="shower.01" name="shower" verbnet_key="shower#2" wn="shower%2:35:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="stone.01" name="stone" verbnet_key="stone#1" wn="stone%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bombard.01" name="bombard" verbnet_key="bombard#3" wn="bombard%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="buffet" verbnet_key="buffet#1" wn="buffet%2:35:00 buffet%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pelt" verbnet_key="pelt#1" wn="pelt%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pepperspray" verbnet_key="pepperspray#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="shell.02" name="shell" verbnet_key="shell#1" wn="shell%2:33:00"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="shower.01" name="shower" verbnet_key="shower#2" wn="shower%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="stone.01" name="stone" verbnet_key="stone#1" wn="stone%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -99,7 +99,7 @@
       <ARG type="ThemRole" value="Destination"/>
      </ARGS>
     </PRED>
-    <PRED value="repeat_sequence">
+    <PRED value="repeated_sequence">
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="Event" value="e2"/>
@@ -194,7 +194,7 @@
       <ARG type="ThemRole" value="Destination"/>
      </ARGS>
     </PRED>
-    <PRED value="repeat_sequence">
+    <PRED value="repeated_sequence">
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="Event" value="e2"/>

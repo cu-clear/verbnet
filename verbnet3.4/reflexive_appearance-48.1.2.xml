@@ -1,29 +1,29 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="reflexive_appearance-48.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="announce" verbnet_key="announce#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="assert.02" name="assert" verbnet_key="assert#2" wn="assert%2:32:01"/>
-  <MEMBER fn_mapping="Statement" grouping="declare.01" name="declare" verbnet_key="declare#3" wn="declare%2:32:01"/>
-  <MEMBER fn_mapping="Communicate_categorization" grouping="define.01" name="define" verbnet_key="define#2" wn="define%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="display.01" name="display" verbnet_key="display#1" wn="display%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="exhibit.01" name="exhibit" verbnet_key="exhibit#1" wn=""/>
-  <MEMBER fn_mapping="Reveal_secret" grouping="expose.01 expose.02" name="expose" verbnet_key="expose#2" wn=""/>
-  <MEMBER fn_mapping="Expressing_publicly" grouping="express.01" name="express" verbnet_key="express#1" wn="express%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="flaunt" verbnet_key="flaunt#1" wn=""/>
-  <MEMBER fn_mapping="Reshaping" grouping="form.02" name="form" verbnet_key="form#4" wn="form%2:42:02"/>
-  <MEMBER fn_mapping="None" grouping="intrude.01 intrude.02" name="intrude" verbnet_key="intrude#1" wn="intrude%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="manifest.01" name="manifest" verbnet_key="manifest#1" wn="manifest%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="offer.01" name="offer" verbnet_key="offer#2" wn="offer%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="pose.01" name="pose" verbnet_key="pose#2" wn="pose%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="present.01 present.03" name="present" verbnet_key="present#2" wn="present%2:32:00 present%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="proffer" verbnet_key="proffer#3" wn="proffer%2:40:00"/>
-  <MEMBER fn_mapping="Statement" grouping="" name="propose" verbnet_key="propose#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="reassert" verbnet_key="reassert#1" wn="reassert%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="recommend.01" name="recommend" verbnet_key="recommend#2" wn="recommend%2:32:00"/>
-  <MEMBER fn_mapping="Evidence" grouping="" name="reveal" verbnet_key="reveal#4" wn=""/>
-  <MEMBER fn_mapping="None" grouping="shape.02" name="shape" verbnet_key="shape#3" wn="?shape%2:31:00"/>
-  <MEMBER fn_mapping="Reasoning" grouping="show.01" name="show" verbnet_key="show#3" wn="show%2:31:00 show%2:32:00 show%2:39:00 show%2:39:01"/>
-  <MEMBER fn_mapping="Evidence" grouping="suggest.01 suggest.02 suggest.03" name="suggest" verbnet_key="suggest#2" wn="suggest%2:32:00 suggest%2:32:02 suggest%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="announce" verbnet_key="announce#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="assert.02" name="assert" verbnet_key="assert#2" wn="assert%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Statement" grouping="declare.01" name="declare" verbnet_key="declare#3" wn="declare%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Communicate_categorization" grouping="define.01" name="define" verbnet_key="define#2" wn="define%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="display.01" name="display" verbnet_key="display#1" wn="display%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="exhibit.01" name="exhibit" verbnet_key="exhibit#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Reveal_secret" grouping="expose.01 expose.02" name="expose" verbnet_key="expose#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Expressing_publicly" grouping="express.01" name="express" verbnet_key="express#1" wn="express%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flaunt" verbnet_key="flaunt#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Reshaping" grouping="form.02" name="form" verbnet_key="form#4" wn="form%2:42:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="intrude.01 intrude.02" name="intrude" verbnet_key="intrude#1" wn="intrude%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="manifest.01" name="manifest" verbnet_key="manifest#1" wn="manifest%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="offer.01" name="offer" verbnet_key="offer#2" wn="offer%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pose.01" name="pose" verbnet_key="pose#2" wn="pose%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="present.01 present.03" name="present" verbnet_key="present#2" wn="present%2:32:00 present%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="proffer" verbnet_key="proffer#3" wn="proffer%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Statement" grouping="" name="propose" verbnet_key="propose#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reassert" verbnet_key="reassert#1" wn="reassert%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="recommend.01" name="recommend" verbnet_key="recommend#2" wn="recommend%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Evidence" grouping="" name="reveal" verbnet_key="reveal#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="shape.02" name="shape" verbnet_key="shape#3" wn="?shape%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Reasoning" grouping="show.01" name="show" verbnet_key="show#3" wn="show%2:31:00 show%2:32:00 show%2:39:00 show%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Evidence" grouping="suggest.01 suggest.02 suggest.03" name="suggest" verbnet_key="suggest#2" wn="suggest%2:32:00 suggest%2:32:02 suggest%2:32:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

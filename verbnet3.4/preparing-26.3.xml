@@ -19,21 +19,21 @@
   <VNSUBCLASS ID="preparing-26.3-1">
    <MEMBERS>
     <MEMBER features="+cooking_bake" fn_mapping="Cooking_creation" grouping="bake.01" name="bake" verbnet_key="bake#3" wn="bake%2:30:00 bake%2:36:00" />
-    <MEMBER features="+mixing" fn_mapping="Cause_to_amalgamate" grouping="blend.01" name="blend" verbnet_key="blend#2" wn="blend%2:35:00" />
-    <MEMBER features="" fn_mapping="None" grouping="brew.01" name="brew" verbnet_key="brew#1" wn="brew%2:36:00" />
+    <MEMBER features="+mix" fn_mapping="Cause_to_amalgamate" grouping="blend.01" name="blend" verbnet_key="blend#2" wn="blend%2:35:00" />
+    <MEMBER features="None" fn_mapping="None" grouping="brew.01" name="brew" verbnet_key="brew#1" wn="brew%2:36:00" />
     <MEMBER features="+cleaning" fn_mapping="Removing" grouping="clear.01" name="clear" verbnet_key="clear#4" wn="clear%2:30:09" />
     <MEMBER features="+cooking" fn_mapping="Apply_heat" grouping="cook.01 cook.02" name="cook" verbnet_key="cook#3" wn="cook%2:36:00" />
     <MEMBER features="+cooking" fn_mapping="None" grouping="" name="cook_up" verbnet_key="cook_up#1" wn="cook_up%2:36:01" />
-    <MEMBER features="" fn_mapping="Activity_prepare" grouping="fix.04" name="fix" verbnet_key="fix#1" wn="fix%2:36:00" />
+    <MEMBER features="None" fn_mapping="Activity_prepare" grouping="fix.04" name="fix" verbnet_key="fix#1" wn="fix%2:36:00" />
     <MEMBER features="+heating" fn_mapping="Cause_to_start" grouping="" name="kindle" verbnet_key="kindle#3" wn="kindle%2:43:00" />
     <MEMBER features="+heating" fn_mapping="Setting_fire" grouping="light.02" name="light" verbnet_key="light#1" wn="light%2:43:00" />
-    <MEMBER features="+mixing" fn_mapping="Cause_to_amalgamate" grouping="mix.01" name="mix" verbnet_key="mix#2" wn="mix%2:30:00" />
-    <MEMBER features="" fn_mapping="Cooking_creation" grouping="prepare.01" name="prepare" verbnet_key="prepare#3" wn="prepare%2:36:01" />
-    <MEMBER features="" fn_mapping="None" grouping="" name="ready" verbnet_key="ready#1" wn="ready%2:36:00 ready%2:30:00" />
-    <MEMBER features="" fn_mapping="Reshaping" grouping="roll.02" name="roll" verbnet_key="roll#5" wn="roll%2:30:10" />
-    <MEMBER features="" fn_mapping="Operating_a_system" grouping="run.03" name="run" verbnet_key="run#6" wn="run%2:36:00" />
-    <MEMBER features="" fn_mapping="None" grouping="toss.06" name="toss" verbnet_key="toss#2" wn="toss%2:35:00" />
-    <MEMBER features="" fn_mapping="None" grouping="cultivate.02" name="cultivate" verbnet_key="cultivate#1" wn="cultivate%2:36:01" />
+    <MEMBER features="+mix" fn_mapping="Cause_to_amalgamate" grouping="mix.01" name="mix" verbnet_key="mix#2" wn="mix%2:30:00" />
+    <MEMBER features="None" fn_mapping="Cooking_creation" grouping="prepare.01" name="prepare" verbnet_key="prepare#3" wn="prepare%2:36:01" />
+    <MEMBER features="None" fn_mapping="None" grouping="" name="ready" verbnet_key="ready#1" wn="ready%2:36:00 ready%2:30:00" />
+    <MEMBER features="None" fn_mapping="Reshaping" grouping="roll.02" name="roll" verbnet_key="roll#5" wn="roll%2:30:10" />
+    <MEMBER features="None" fn_mapping="Operating_a_system" grouping="run.03" name="run" verbnet_key="run#6" wn="run%2:36:00" />
+    <MEMBER features="None" fn_mapping="None" grouping="toss.06" name="toss" verbnet_key="toss#2" wn="toss%2:35:00" />
+    <MEMBER features="None" fn_mapping="None" grouping="cultivate.02" name="cultivate" verbnet_key="cultivate#1" wn="cultivate%2:36:01" />
     
    </MEMBERS>
    <THEMROLES>
@@ -322,14 +322,14 @@
     <MEMBER features="+heating" fn_mapping="None" grouping="" name="microwave" verbnet_key="microwave#2" wn="microwave%2:30:00" />
     <MEMBER features="+cooking_bake" fn_mapping="None" grouping="" name="overbake" verbnet_key="overbake#2" wn="" />
     <MEMBER features="+cooking_boil" fn_mapping="None" grouping="" name="poach" verbnet_key="poach#3" wn="poach%2:30:00" />
-    <MEMBER features="" fn_mapping="Mass_motion" grouping="pour.01 pour.02" name="pour" verbnet_key="pour#2" wn="pour%2:38:03" />
+    <MEMBER features="None" fn_mapping="Mass_motion" grouping="pour.01 pour.02" name="pour" verbnet_key="pour#2" wn="pour%2:38:03" />
     <MEMBER features="+cooking_roast" fn_mapping="Apply_heat" grouping="roast.01" name="roast" verbnet_key="roast#2" wn="roast%2:30:00" />
-    <MEMBER features="+mixing" fn_mapping="None" grouping="scramble.02" name="scramble" verbnet_key="scramble#2" wn="scramble%2:35:02" />
-    <MEMBER features="" fn_mapping="Arranging" grouping="set.04" name="set" verbnet_key="set#4" wn="set%2:30:12" />
+    <MEMBER features="+mix" fn_mapping="None" grouping="scramble.02" name="scramble" verbnet_key="scramble#2" wn="scramble%2:35:02" />
+    <MEMBER features="None" fn_mapping="Arranging" grouping="set.04" name="set" verbnet_key="set#4" wn="set%2:30:12" />
     <MEMBER features="+cooking_boil" fn_mapping="None" grouping="" name="softboil" verbnet_key="softboil#2" wn="" />
     <MEMBER features="+heating" fn_mapping="None" grouping="" name="toast" verbnet_key="toast#3" wn="toast%2:30:00" />
     <MEMBER features="+cleaning" fn_mapping="Grooming" grouping="wash.01" name="wash" verbnet_key="wash#3" wn="wash%2:35:02 wash%2:35:00" />
-    <MEMBER features="+mixing" fn_mapping="None" grouping="" name="weld" verbnet_key="weld#1" wn="" />
+    <MEMBER features="+mix" fn_mapping="None" grouping="" name="weld" verbnet_key="weld#1" wn="" />
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Patient">

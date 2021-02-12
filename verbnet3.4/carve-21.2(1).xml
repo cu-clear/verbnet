@@ -26,41 +26,41 @@
 			<!--verb is related result nominal subclass -->
 			<MEMBERS>
 				<!--Each verb specifies Form of Patient as a result of action -->
-				<MEMBER grouping="" name="bore" verbnet_key="bore#2" wn="bore%2:35:00" />
-				<MEMBER grouping="" name="bruise" verbnet_key="bruise#1" wn="bruise%2:35:00 bruise%2:30:00" />
-				<MEMBER grouping="chip.01" name="chip" verbnet_key="chip#2" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00" />
-				<MEMBER grouping="cleave.01" name="cleave" verbnet_key="cleave#2" wn="cleave%2:35:00 cleave%2:35:01" />
-				<MEMBER grouping="crumb.02" name="crumb" verbnet_key="crumb#1" wn="crumb%2:30:01" />
-				<MEMBER grouping="crumble.01" name="crumble" verbnet_key="crumble#2" wn="crumble%2:30:00" />
-				<MEMBER grouping="crumple.02" name="crumple" verbnet_key="crumple#1" wn="crumple%2:35:00" />
-				<MEMBER grouping="crunch.02 crunch.03" name="crunch" verbnet_key="crunch#2" wn="crunch%2:34:00 crunch%2:30:00" />
-				<MEMBER grouping="crush.01" name="crush" verbnet_key="crush#3" wn="crush%2:35:00 crush%2:30:00 crush%2:35:01 crush%2:30:08" />
-				<MEMBER grouping="" name="cube" verbnet_key="cube#1" wn="cube%2:35:00" />
-				<MEMBER grouping="" name="dent" verbnet_key="dent#1" wn="dent%2:35:00" />
-				<MEMBER grouping="" name="dice" verbnet_key="dice#1" wn="dice%2:35:00" />
-				<MEMBER grouping="" name="fillet" verbnet_key="fillet#1" wn="fillet%2:35:00" />
-				<MEMBER grouping="flake.01" name="flake" verbnet_key="flake#1" wn="flake%2:35:02" />
-				<MEMBER grouping="flatten.01" name="flatten" verbnet_key="flatten#1" wn="flatten%2:30:01" />
-				<MEMBER grouping="" name="gash" verbnet_key="gash#1" wn="gash%2:35:00" />
-				<MEMBER grouping="gouge.01" name="gouge" verbnet_key="gouge#1" wn="gouge%2:35:00 gouge%2:35:01" />
-				<MEMBER grouping="grate.03" name="grate" verbnet_key="grate#2" wn="grate%2:35:02" />
-				<MEMBER grouping="grind.02" name="grind" verbnet_key="grind#2" wn="grind%2:35:02 grind%2:30:00" />
-				<MEMBER grouping="mash.01" name="mash" verbnet_key="mash#1" wn="mash%2:35:00 mash%2:30:00" />
-				<MEMBER grouping="mince.03" name="mince" verbnet_key="mince#1" wn="?mince%2:35:00" />
-				<MEMBER grouping="" name="nick" verbnet_key="nick#1" wn="nick%2:35:01 nick%2:35:00" />
-				<MEMBER grouping="" name="notch" verbnet_key="notch#1" wn="notch%2:35:00" />
-				<MEMBER grouping="" name="perforate" verbnet_key="perforate#1" wn="perforate%2:35:00" />
-				<MEMBER grouping="" name="pulverize" verbnet_key="pulverize#1" wn="pulverize%2:30:00" />
-				<MEMBER grouping="quarter.03" name="quarter" verbnet_key="quarter#1" wn="quarter%2:35:01" />
-				<MEMBER grouping="scollop.01 scollop.03" name="scollop" verbnet_key="scollop#1" wn="scollop%2:35:00 scollop%2:30:00" />
-				<MEMBER grouping="" name="scrunch" verbnet_key="scrunch#1" wn="scrunch%2:35:00" />
-				<MEMBER grouping="" name="shred" verbnet_key="shred#2" wn="shred%2:35:00" />
-				<MEMBER grouping="slice.01" name="slice" verbnet_key="slice#1" wn="slice%2:35:01 slice%2:35:00" />
-				<MEMBER grouping="" name="slit" verbnet_key="slit#1" wn="slit%2:35:01 slit%2:35:00" />
-				<MEMBER grouping="smash.01" name="smash" verbnet_key="smash#3" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:08 smash%2:35:05 smash%2:30:10" />
-				<MEMBER grouping="" name="squash" verbnet_key="squash#2" wn="squash%2:35:00" />
-				<MEMBER grouping="" name="squish" verbnet_key="squish#1" wn="squish%2:35:00" />
-				<MEMBER grouping="" name="trench" verbnet_key="trench#1" wn="trench%2:35:03 trench%2:35:01" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="bore" verbnet_key="bore#2" wn="bore%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="bruise" verbnet_key="bruise#1" wn="bruise%2:35:00 bruise%2:30:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="chip.01" name="chip" verbnet_key="chip#2" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="cleave.01" name="cleave" verbnet_key="cleave#2" wn="cleave%2:35:00 cleave%2:35:01" />
+				<MEMBER features="None" fn_mapping="None" grouping="crumb.02" name="crumb" verbnet_key="crumb#1" wn="crumb%2:30:01" />
+				<MEMBER features="None" fn_mapping="None" grouping="crumble.01" name="crumble" verbnet_key="crumble#2" wn="crumble%2:30:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="crumple.02" name="crumple" verbnet_key="crumple#1" wn="crumple%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="crunch.02 crunch.03" name="crunch" verbnet_key="crunch#2" wn="crunch%2:34:00 crunch%2:30:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="crush.01" name="crush" verbnet_key="crush#3" wn="crush%2:35:00 crush%2:30:00 crush%2:35:01 crush%2:30:08" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="cube" verbnet_key="cube#1" wn="cube%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="dent" verbnet_key="dent#1" wn="dent%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="dice" verbnet_key="dice#1" wn="dice%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="fillet" verbnet_key="fillet#1" wn="fillet%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="flake.01" name="flake" verbnet_key="flake#1" wn="flake%2:35:02" />
+				<MEMBER features="None" fn_mapping="None" grouping="flatten.01" name="flatten" verbnet_key="flatten#1" wn="flatten%2:30:01" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="gash" verbnet_key="gash#1" wn="gash%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="gouge.01" name="gouge" verbnet_key="gouge#1" wn="gouge%2:35:00 gouge%2:35:01" />
+				<MEMBER features="None" fn_mapping="None" grouping="grate.03" name="grate" verbnet_key="grate#2" wn="grate%2:35:02" />
+				<MEMBER features="None" fn_mapping="None" grouping="grind.02" name="grind" verbnet_key="grind#2" wn="grind%2:35:02 grind%2:30:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="mash.01" name="mash" verbnet_key="mash#1" wn="mash%2:35:00 mash%2:30:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="mince.03" name="mince" verbnet_key="mince#1" wn="?mince%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="nick" verbnet_key="nick#1" wn="nick%2:35:01 nick%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="notch" verbnet_key="notch#1" wn="notch%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="perforate" verbnet_key="perforate#1" wn="perforate%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="pulverize" verbnet_key="pulverize#1" wn="pulverize%2:30:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="quarter.03" name="quarter" verbnet_key="quarter#1" wn="quarter%2:35:01" />
+				<MEMBER features="None" fn_mapping="None" grouping="scollop.01 scollop.03" name="scollop" verbnet_key="scollop#1" wn="scollop%2:35:00 scollop%2:30:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="scrunch" verbnet_key="scrunch#1" wn="scrunch%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="shred" verbnet_key="shred#2" wn="shred%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="slice.01" name="slice" verbnet_key="slice#1" wn="slice%2:35:01 slice%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="slit" verbnet_key="slit#1" wn="slit%2:35:01 slit%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="smash.01" name="smash" verbnet_key="smash#3" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:08 smash%2:35:05 smash%2:30:10" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="squash" verbnet_key="squash#2" wn="squash%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="squish" verbnet_key="squish#1" wn="squish%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="trench" verbnet_key="trench#1" wn="trench%2:35:03 trench%2:35:01" />
 			</MEMBERS>
 			<THEMROLES />
 			<FRAMES>
@@ -402,14 +402,14 @@
 			<!--verb is manner subclass -->
 			<MEMBERS>
 				<!--Each member specifies Instrument and Motion of Agent -->
-				<MEMBER grouping="carve.01" name="carve" verbnet_key="carve#2" wn="carve%2:35:01 carve%2:35:02 carve%2:35:00" />
-				<MEMBER grouping="chop.01" name="chop" verbnet_key="chop#1" wn="chop%2:35:01 chop%2:35:00" />
-				<MEMBER grouping="crop.01" name="crop" verbnet_key="crop#1" wn="crop%2:35:02" />
-				<MEMBER grouping="mow.01" name="mow" verbnet_key="mow#1" wn="mow%2:35:00" />
-				<MEMBER grouping="pink.03" name="pink" verbnet_key="pink#1" wn="" />
-				<MEMBER grouping="punch.02" name="punch" verbnet_key="punch#1" wn="punch%2:35:01" />
-				<MEMBER grouping="" name="prune" verbnet_key="prune#1" wn="prune%2:35:00" />
-				<MEMBER grouping="tread.02" name="tread" verbnet_key="tread#1" wn="tread%2:40:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="carve.01" name="carve" verbnet_key="carve#2" wn="carve%2:35:01 carve%2:35:02 carve%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="chop.01" name="chop" verbnet_key="chop#1" wn="chop%2:35:01 chop%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="crop.01" name="crop" verbnet_key="crop#1" wn="crop%2:35:02" />
+				<MEMBER features="None" fn_mapping="None" grouping="mow.01" name="mow" verbnet_key="mow#1" wn="mow%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="pink.03" name="pink" verbnet_key="pink#1" wn="" />
+				<MEMBER features="None" fn_mapping="None" grouping="punch.02" name="punch" verbnet_key="punch#1" wn="punch%2:35:01" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="prune" verbnet_key="prune#1" wn="prune%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="tread.02" name="tread" verbnet_key="tread#1" wn="tread%2:40:00" />
 			</MEMBERS>
 			<THEMROLES />
 			<FRAMES>
@@ -710,14 +710,14 @@
 			<!--verb is zero-related instrument subclass -->
 			<MEMBERS>
 				<!--Each member specifies Instrument and Motion of Agent -->
-				<MEMBER grouping="drill.01" name="drill" verbnet_key="drill#1" wn="drill%2:35:00" />
-				<MEMBER grouping="file.02" name="file" verbnet_key="file#1" wn="file%2:35:00" />
-				<MEMBER grouping="" name="lance" verbnet_key="lance#1" wn="lance%2:35:01 lance%2:35:00" />
-				<MEMBER grouping="mangle.01" name="mangle" verbnet_key="mangle#1" wn="mangle%2:35:01" />
-				<MEMBER grouping="" name="mill" verbnet_key="mill#1" wn="mill%2:35:00" />
-				<MEMBER grouping="" name="sand" verbnet_key="sand#1" wn="sand%2:35:00" />
-				<MEMBER grouping="spear.01" name="spear" verbnet_key="spear#1" wn="spear%2:35:00" />
-				<MEMBER grouping="tool.02 tool.03" name="tool" verbnet_key="tool#1" wn="tool%2:40:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="drill.01" name="drill" verbnet_key="drill#1" wn="drill%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="file.02" name="file" verbnet_key="file#1" wn="file%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="lance" verbnet_key="lance#1" wn="lance%2:35:01 lance%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="mangle.01" name="mangle" verbnet_key="mangle#1" wn="mangle%2:35:01" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="mill" verbnet_key="mill#1" wn="mill%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="" name="sand" verbnet_key="sand#1" wn="sand%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="spear.01" name="spear" verbnet_key="spear#1" wn="spear%2:35:00" />
+				<MEMBER features="None" fn_mapping="None" grouping="tool.02 tool.03" name="tool" verbnet_key="tool#1" wn="tool%2:40:00" />
 			</MEMBERS>
 			<THEMROLES />
 			<FRAMES>

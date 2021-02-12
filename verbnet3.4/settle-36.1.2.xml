@@ -1,22 +1,22 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="settle-36.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="settle.02" name="settle" verbnet_key="settle#2" wn="settle%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="collaborate.01" name="collaborate" verbnet_key="collaborate#4" wn="collaborate%2:41:00 collaborate%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="commiserate" verbnet_key="commiserate#3" wn="commiserate%2:37:00"/>
-  <MEMBER fn_mapping="None" grouping="communicate.01" name="communicate" verbnet_key="communicate#2" wn="communicate%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="compromise.01" name="compromise" verbnet_key="compromise#2" wn="compromise%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="concur.01" name="concur" verbnet_key="concur#2" wn="concur%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="cooperate.01" name="cooperate" verbnet_key="cooperate#3" wn="cooperate%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="correspond.02" name="correspond" verbnet_key="correspond#2" wn="correspond%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="differ.02" name="differ" verbnet_key="differ#3" wn="differ%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="deliberate" verbnet_key="deliberate#4" wn=""/>
-  <MEMBER fn_mapping="None" grouping="disagree.01" name="disagree" verbnet_key="disagree#2" wn="disagree%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="haggle" verbnet_key="haggle#1" wn="haggle%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="interact" verbnet_key="interact#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="bargain" verbnet_key="bargain#4" wn="bargain%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="square.04" name="square" verbnet_key="square#2" wn="square%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="renegotiate" verbnet_key="renegotiate#1" wn="renegotiate%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="settle.02" name="settle" verbnet_key="settle#2" wn="settle%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="collaborate.01" name="collaborate" verbnet_key="collaborate#4" wn="collaborate%2:41:00 collaborate%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="commiserate" verbnet_key="commiserate#3" wn="commiserate%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="communicate.01" name="communicate" verbnet_key="communicate#2" wn="communicate%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="compromise.01" name="compromise" verbnet_key="compromise#2" wn="compromise%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="concur.01" name="concur" verbnet_key="concur#2" wn="concur%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="cooperate.01" name="cooperate" verbnet_key="cooperate#3" wn="cooperate%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="correspond.02" name="correspond" verbnet_key="correspond#2" wn="correspond%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="differ.02" name="differ" verbnet_key="differ#3" wn="differ%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="deliberate" verbnet_key="deliberate#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="disagree.01" name="disagree" verbnet_key="disagree#2" wn="disagree%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="haggle" verbnet_key="haggle#1" wn="haggle%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="interact" verbnet_key="interact#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bargain" verbnet_key="bargain#4" wn="bargain%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="square.04" name="square" verbnet_key="square#2" wn="square%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="renegotiate" verbnet_key="renegotiate#1" wn="renegotiate%2:32:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -153,11 +153,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="settle-36.1.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="resolve" verbnet_key="resolve#1" wn=""/>
-    <MEMBER fn_mapping="Agree_or_refuse_to_act" grouping="" name="agree" verbnet_key="agree#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="argue.01 argue.02" name="argue" verbnet_key="argue#4" wn="argue%2:32:00 argue%2:32:02"/>
-    <MEMBER fn_mapping="Discussion" grouping="debate.01" name="debate" verbnet_key="debate#5" wn="debate%2:32:01"/>
-    <MEMBER fn_mapping="Deciding" grouping="" name="decide" verbnet_key="decide#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="resolve" verbnet_key="resolve#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Agree_or_refuse_to_act" grouping="" name="agree" verbnet_key="agree#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="argue.01 argue.02" name="argue" verbnet_key="argue#4" wn="argue%2:32:00 argue%2:32:02"/>
+    <MEMBER features="None" fn_mapping="Discussion" grouping="debate.01" name="debate" verbnet_key="debate#5" wn="debate%2:32:01"/>
+    <MEMBER features="None" fn_mapping="Deciding" grouping="" name="decide" verbnet_key="decide#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

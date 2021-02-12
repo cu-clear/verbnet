@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="pay-68" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="spend.02" name="spend" verbnet_key="spend#2" wn="spend%2:40:00 spend%2:40:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="squander" verbnet_key="squander#2" wn="squander%2:40:01"/>
-  <MEMBER fn_mapping="Frugality" grouping="waste.01" name="waste" verbnet_key="waste#3" wn="waste%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="serve" verbnet_key="serve#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="spend.02" name="spend" verbnet_key="spend#2" wn="spend%2:40:00 spend%2:40:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="squander" verbnet_key="squander#2" wn="squander%2:40:01"/>
+  <MEMBER features="None" fn_mapping="Frugality" grouping="waste.01" name="waste" verbnet_key="waste#3" wn="waste%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="serve" verbnet_key="serve#4" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -251,9 +251,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="pay-68-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Commerce_pay" grouping="pay.01" name="pay" verbnet_key="pay#1" wn="pay%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="repay.01" name="repay" verbnet_key="repay#2" wn="repay%2:40:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="tithe" verbnet_key="tithe#1" wn="tithe%2:40:03 tithe%2:40:02"/>
+    <MEMBER features="None" fn_mapping="Commerce_pay" grouping="pay.01" name="pay" verbnet_key="pay#1" wn="pay%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="repay.01" name="repay" verbnet_key="repay#2" wn="repay%2:40:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="tithe" verbnet_key="tithe#1" wn="tithe%2:40:03 tithe%2:40:02"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Recipient">

@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="tell-37.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="acquaint.02" name="acquaint" verbnet_key="acquaint#1" wn=""/>
-  <MEMBER fn_mapping="Telling" grouping="" name="inform" verbnet_key="inform#1" wn=""/>
-  <MEMBER fn_mapping="Telling" grouping="apprise.01" name="apprise" verbnet_key="apprise#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="notify" verbnet_key="notify#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="update.02" name="update" verbnet_key="update#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="remind" verbnet_key="remind#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="acquaint.02" name="acquaint" verbnet_key="acquaint#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Telling" grouping="" name="inform" verbnet_key="inform#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Telling" grouping="apprise.01" name="apprise" verbnet_key="apprise#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="notify" verbnet_key="notify#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="update.02" name="update" verbnet_key="update#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="remind" verbnet_key="remind#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

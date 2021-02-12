@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="rear-26.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="grow.02" name="grow" verbnet_key="grow#7" wn="grow%2:30:01 grow%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="nurture.01" name="nurture" verbnet_key="nurture#1" wn="nurture%2:32:00 nurture%2:41:00"/>
-  <MEMBER fn_mapping="Growing_food" grouping="raise.05" name="raise" verbnet_key="raise#6" wn="raise%2:36:03 raise%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="rear.01" name="rear" verbnet_key="rear#1" wn="rear%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="grow.02" name="grow" verbnet_key="grow#7" wn="grow%2:30:01 grow%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="nurture.01" name="nurture" verbnet_key="nurture#1" wn="nurture%2:32:00 nurture%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Growing_food" grouping="raise.05" name="raise" verbnet_key="raise#6" wn="raise%2:36:03 raise%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="rear.01" name="rear" verbnet_key="rear#1" wn="rear%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -57,8 +57,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="rear-26.2.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="cultivate.02" name="cultivate" verbnet_key="cultivate#2" wn="cultivate%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="farm.01" name="farm" verbnet_key="farm#1" wn="farm%2:41:00 farm%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="cultivate.02" name="cultivate" verbnet_key="cultivate#2" wn="cultivate%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="farm.01" name="farm" verbnet_key="farm#1" wn="farm%2:41:00 farm%2:36:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Material">

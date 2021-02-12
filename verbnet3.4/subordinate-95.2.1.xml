@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="subordinate-95.2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="answer.04" name="answer" verbnet_key="answer#2" wn="answer%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="report.03" name="report" verbnet_key="report#5" wn="report%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="answer.04" name="answer" verbnet_key="answer#2" wn="answer%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="report.03" name="report" verbnet_key="report#5" wn="report%2:32:03"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="pour-9.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Fluidic_motion" grouping="dribble.01 dribble.02" name="dribble" verbnet_key="dribble#2" wn="dribble%2:38:00 dribble%2:35:10"/>
-  <MEMBER fn_mapping="Cause_fluidic_motion" grouping="drip.01" name="drip" verbnet_key="drip#1" wn="drip%2:38:00 drip%2:35:10"/>
-  <MEMBER fn_mapping="Mass_motion" grouping="pour.01 pour.02" name="pour" verbnet_key="pour#1" wn="pour%2:38:03 pour%2:38:04 pour%2:38:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="slop" verbnet_key="slop#1" wn="slop%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="slosh" verbnet_key="slosh#1" wn="slosh%2:35:00"/>
-  <MEMBER fn_mapping="Fluidic_motion" grouping="spew.01 spew.02" name="spew" verbnet_key="spew#1" wn="spew%2:29:01 spew%2:29:02 spew%2:29:00"/>
-  <MEMBER fn_mapping="Fluidic_motion" grouping="spill.01" name="spill" verbnet_key="spill#2" wn="spill%2:35:04 spill%2:38:00 spill%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="trickle" verbnet_key="trickle#1" wn="trickle%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Fluidic_motion" grouping="dribble.01 dribble.02" name="dribble" verbnet_key="dribble#2" wn="dribble%2:38:00 dribble%2:35:10"/>
+  <MEMBER features="None" fn_mapping="Cause_fluidic_motion" grouping="drip.01" name="drip" verbnet_key="drip#1" wn="drip%2:38:00 drip%2:35:10"/>
+  <MEMBER features="None" fn_mapping="Mass_motion" grouping="pour.01 pour.02" name="pour" verbnet_key="pour#1" wn="pour%2:38:03 pour%2:38:04 pour%2:38:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="slop" verbnet_key="slop#1" wn="slop%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="slosh" verbnet_key="slosh#1" wn="slosh%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Fluidic_motion" grouping="spew.01 spew.02" name="spew" verbnet_key="spew#1" wn="spew%2:29:01 spew%2:29:02 spew%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Fluidic_motion" grouping="spill.01" name="spill" verbnet_key="spill#2" wn="spill%2:35:04 spill%2:38:00 spill%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="trickle" verbnet_key="trickle#1" wn="trickle%2:38:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--Destination can also be realized as a deictic(?) locative adverb(?) (here, there)-->

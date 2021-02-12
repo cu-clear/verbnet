@@ -2,13 +2,13 @@
 <VNCLASS ID="pain-40.8.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--moved "ache" to tingle-40.8.2 because it is only intransitive-->
-  <MEMBER fn_mapping="Perception_body" grouping="" name="ail" verbnet_key="ail#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="bother.02" name="bother" verbnet_key="bother#3" wn="bother%2:37:00"/>
-  <MEMBER fn_mapping="Perception_body" grouping="" name="burn" verbnet_key="burn#6" wn=""/>
-  <MEMBER fn_mapping="Experience_bodily_harm" grouping="hurt.01" name="hurt" verbnet_key="hurt#4" wn="hurt%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="itch" verbnet_key="itch#2" wn="itch%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="kill.02" name="kill" verbnet_key="kill#3" wn="kill%2:39:00 kill%2:30:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="pain" verbnet_key="pain#2" wn="pain%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Perception_body" grouping="" name="ail" verbnet_key="ail#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="bother.02" name="bother" verbnet_key="bother#3" wn="bother%2:37:00"/>
+  <MEMBER features="None" fn_mapping="Perception_body" grouping="" name="burn" verbnet_key="burn#6" wn=""/>
+  <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="hurt.01" name="hurt" verbnet_key="hurt#4" wn="hurt%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="itch" verbnet_key="itch#2" wn="itch%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="kill.02" name="kill" verbnet_key="kill#3" wn="kill%2:39:00 kill%2:30:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pain" verbnet_key="pain#2" wn="pain%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">

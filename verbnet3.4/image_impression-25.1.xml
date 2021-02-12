@@ -1,26 +1,26 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="image_impression-25.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="annotate" verbnet_key="annotate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="applique" verbnet_key="applique#1" wn="applique%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="emboss" verbnet_key="emboss#1" wn="emboss%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="embroider" verbnet_key="embroider#2" wn="embroider%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="engrave.01" name="engrave" verbnet_key="engrave#1" wn="engrave%2:35:00 engrave%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="etch.01" name="etch" verbnet_key="etch#1" wn="etch%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="handpaint" verbnet_key="handpaint#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="imprint" verbnet_key="imprint#1" wn="imprint%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="incise" verbnet_key="incise#1" wn="incise%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="ingrain" verbnet_key="ingrain#1" wn="ingrain%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="inscribe.01" name="inscribe" verbnet_key="inscribe#1" wn="inscribe%2:35:00 inscribe%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="mark.01 mark.02" name="mark" verbnet_key="mark#2" wn="mark%2:35:09 mark%2:35:01"/>
-  <MEMBER fn_mapping="Create_representation" grouping="paint.01" name="paint" verbnet_key="paint#5" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="reinscribe" verbnet_key="reinscribe#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="scar" verbnet_key="scar#1" wn=""/>
-  <MEMBER fn_mapping="Sign_agreement" grouping="sign.01 sign.03" name="sign" verbnet_key="sign#2" wn="sign%2:32:02 sign%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="stamp.03 stamp.04" name="stamp" verbnet_key="stamp#4" wn="stamp%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="stipple.01" name="stipple" verbnet_key="stipple#2" wn="stipple%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tattoo" verbnet_key="tattoo#1" wn="tattoo%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="tool.04" name="tool" verbnet_key="tool#5" wn="tool%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="annotate" verbnet_key="annotate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="applique" verbnet_key="applique#1" wn="applique%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="emboss" verbnet_key="emboss#1" wn="emboss%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="embroider" verbnet_key="embroider#2" wn="embroider%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="engrave.01" name="engrave" verbnet_key="engrave#1" wn="engrave%2:35:00 engrave%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="etch.01" name="etch" verbnet_key="etch#1" wn="etch%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="handpaint" verbnet_key="handpaint#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="imprint" verbnet_key="imprint#1" wn="imprint%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="incise" verbnet_key="incise#1" wn="incise%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ingrain" verbnet_key="ingrain#1" wn="ingrain%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="inscribe.01" name="inscribe" verbnet_key="inscribe#1" wn="inscribe%2:35:00 inscribe%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mark.01 mark.02" name="mark" verbnet_key="mark#2" wn="mark%2:35:09 mark%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Create_representation" grouping="paint.01" name="paint" verbnet_key="paint#5" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reinscribe" verbnet_key="reinscribe#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="scar" verbnet_key="scar#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Sign_agreement" grouping="sign.01 sign.03" name="sign" verbnet_key="sign#2" wn="sign%2:32:02 sign%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stamp.03 stamp.04" name="stamp" verbnet_key="stamp#4" wn="stamp%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stipple.01" name="stipple" verbnet_key="stipple#2" wn="stipple%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tattoo" verbnet_key="tattoo#1" wn="tattoo%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tool.04" name="tool" verbnet_key="tool#5" wn="tool%2:36:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--In most predicates, such as location, Theme really means image_of(Theme)-->

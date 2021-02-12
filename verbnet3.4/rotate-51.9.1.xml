@@ -67,9 +67,7 @@
      <SYNRESTRS/>
     </NP>
     <VERB/>
-    <ADV value="Trajectory">
-     <SYNRESTRS/>
-    </ADV>
+    <ADV/>         
    </SYNTAX>
    <SEMANTICS>
     <PRED bool="!" value="has_orientation">
@@ -111,7 +109,9 @@
     <NP value="Extent">
      <SYNRESTRS/>
     </NP>
-    <PREP/>
+    <PREP>
+      <SELRESTRS/>
+    </PREP>
     <NP value="Trajectory">
      <SYNRESTRS/>
     </NP>
@@ -145,16 +145,16 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="rotate-51.9.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="curl.01" name="curl" verbnet_key="curl#3" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="coil.01" name="coil" verbnet_key="coil#4" wn="coil%2:35:00 coil%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="hook.01" name="hook" verbnet_key="hook#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="rotate.01" name="rotate" verbnet_key="rotate#5" wn="rotate%2:38:01"/>
-    <MEMBER fn_mapping="None" grouping="spin.01" name="spin" verbnet_key="spin#5" wn="spin%2:38:02"/>
-    <MEMBER fn_mapping="None" grouping="swing.01" name="swing" verbnet_key="swing#5" wn="swing%2:38:02"/>
-    <MEMBER fn_mapping="None" grouping="turn.01" name="turn" verbnet_key="turn#7" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="twirl" verbnet_key="twirl#5" wn="twirl%2:38:01"/>
-    <MEMBER fn_mapping="None" grouping="twist.02" name="twist" verbnet_key="twist#6" wn="twist%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="wind.02" name="wind" verbnet_key="wind#6" wn="wind%2:35:06"/>
+    <MEMBER features="None" fn_mapping="None" grouping="curl.01" name="curl" verbnet_key="curl#3" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="coil.01" name="coil" verbnet_key="coil#4" wn="coil%2:35:00 coil%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="hook.01" name="hook" verbnet_key="hook#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="rotate.01" name="rotate" verbnet_key="rotate#5" wn="rotate%2:38:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="spin.01" name="spin" verbnet_key="spin#5" wn="spin%2:38:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="swing.01" name="swing" verbnet_key="swing#5" wn="swing%2:38:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="turn.01" name="turn" verbnet_key="turn#7" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="twirl" verbnet_key="twirl#5" wn="twirl%2:38:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="twist.02" name="twist" verbnet_key="twist#6" wn="twist%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="wind.02" name="wind" verbnet_key="wind#6" wn="wind%2:35:06"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Agent">
@@ -236,7 +236,7 @@
       <NP value="Extent">
        <SYNRESTRS/>
       </NP>
-      <PREP/>
+      <PREP><SELRESTRS/></PREP>
       <NP value="Trajectory">
        <SYNRESTRS/>
       </NP>

@@ -13,14 +13,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="hurt-40.8.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="hit" verbnet_key="hit#4" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="jam" verbnet_key="jam#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="graze.02" name="graze" verbnet_key="graze#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="chafe.01" name="chafe" verbnet_key="chafe#1" wn="chafe%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="overstretch" verbnet_key="overstretch#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="rick" verbnet_key="rick#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="sting.01" name="sting" verbnet_key="sting#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="stub" verbnet_key="stub#1" wn="stub%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="hit" verbnet_key="hit#4" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="jam" verbnet_key="jam#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="graze.02" name="graze" verbnet_key="graze#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="chafe.01" name="chafe" verbnet_key="chafe#1" wn="chafe%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="overstretch" verbnet_key="overstretch#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="rick" verbnet_key="rick#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="sting.01" name="sting" verbnet_key="sting#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="stub" verbnet_key="stub#1" wn="stub%2:29:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Patient">
@@ -78,17 +78,17 @@
     <VNSUBCLASS ID="hurt-40.8.3-1-1">
      <MEMBERS>
       <!--verb adds manner predicate for how the Patient is hurt-->
-      <MEMBER fn_mapping="Experience_bodily_harm" grouping="break.01 break.08" name="break" verbnet_key="break#4" wn="break%2:35:13 break%2:35:09 break%2:30:15 break%2:29:04"/>
-      <MEMBER fn_mapping="Cause_to_fragment" grouping="chip.01" name="chip" verbnet_key="chip#5" wn="chip%2:35:00"/>
-      <MEMBER fn_mapping="Cause_harm" grouping="fracture.02" name="fracture" verbnet_key="fracture#2" wn="fracture%2:29:02 fracture%2:29:01 fracture%2:29:00"/>
-      <MEMBER fn_mapping="Experience_bodily_harm" grouping="pull.05" name="pull" verbnet_key="pull#4" wn="pull%2:29:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="rupture" verbnet_key="rupture#2" wn="rupture%2:35:00"/>
-      <MEMBER fn_mapping="Cause_to_fragment" grouping="split.01" name="split" verbnet_key="split#2" wn="split%2:35:00"/>
-      <MEMBER fn_mapping="Cause_to_fragment" grouping="splinter.01" name="splinter" verbnet_key="splinter#2" wn="splinter%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="sprain" verbnet_key="sprain#1" wn="sprain%2:29:00"/>
-      <MEMBER fn_mapping="Experience_bodily_harm" grouping="" name="tear" verbnet_key="tear#2" wn=""/>
-      <MEMBER fn_mapping="Change_direction" grouping="turn.10" name="turn" verbnet_key="turn#4" wn="turn%2:29:00"/>
-      <MEMBER fn_mapping="Experience_bodily_harm" grouping="twist.03" name="twist" verbnet_key="twist#2" wn="twist%2:29:00"/>
+      <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="break.01 break.08" name="break" verbnet_key="break#4" wn="break%2:35:13 break%2:35:09 break%2:30:15 break%2:29:04"/>
+      <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="chip.01" name="chip" verbnet_key="chip#5" wn="chip%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Cause_harm" grouping="fracture.02" name="fracture" verbnet_key="fracture#2" wn="fracture%2:29:02 fracture%2:29:01 fracture%2:29:00"/>
+      <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="pull.05" name="pull" verbnet_key="pull#4" wn="pull%2:29:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="rupture" verbnet_key="rupture#2" wn="rupture%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="split.01" name="split" verbnet_key="split#2" wn="split%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="splinter.01" name="splinter" verbnet_key="splinter#2" wn="splinter%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="sprain" verbnet_key="sprain#1" wn="sprain%2:29:00"/>
+      <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="" name="tear" verbnet_key="tear#2" wn=""/>
+      <MEMBER features="None" fn_mapping="Change_direction" grouping="turn.10" name="turn" verbnet_key="turn#4" wn="turn%2:29:00"/>
+      <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="twist.03" name="twist" verbnet_key="twist#2" wn="twist%2:29:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -140,23 +140,23 @@
   <VNSUBCLASS ID="hurt-40.8.3-2">
    <MEMBERS>
     <!--verb adds manner predicate for how the Patient is hurt-->
-    <MEMBER fn_mapping="None" grouping="" name="bark" verbnet_key="bark#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="bite.01" name="bite" verbnet_key="bite#1" wn="bite%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="bruise" verbnet_key="bruise#3" wn="bruise%2:35:00"/>
-    <MEMBER fn_mapping="Impact" grouping="bump.01" name="bump" verbnet_key="bump#3" wn="bump%2:35:00"/>
-    <MEMBER fn_mapping="Experience_bodily_harm" grouping="burn.01 burn.05" name="burn" verbnet_key="burn#3" wn="burn%2:30:02 burn%2:39:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="contuse" verbnet_key="contuse#1" wn=""/>
-    <MEMBER fn_mapping="Experience_bodily_harm" grouping="cut.01" name="cut" verbnet_key="cut#7" wn="cut%2:35:14"/>
-    <MEMBER fn_mapping="Experience_bodily_harm" grouping="hurt.01" name="hurt" verbnet_key="hurt#2" wn="hurt%2:29:01"/>
-    <MEMBER fn_mapping="None" grouping="injure.01" name="injure" verbnet_key="injure#1" wn="injure%2:29:00"/>
-    <MEMBER fn_mapping="Damaging" grouping="" name="nick" verbnet_key="nick#3" wn="nick%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="prick" verbnet_key="prick#1" wn="prick%2:35:00 prick%2:35:03"/>
-    <MEMBER fn_mapping="Apply_heat" grouping="scald.01" name="scald" verbnet_key="scald#2" wn="scald%2:30:00"/>
-    <MEMBER fn_mapping="Damaging" grouping="scratch.01" name="scratch" verbnet_key="scratch#2" wn="scratch%2:35:00 ?scratch%2:39:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="skin" verbnet_key="skin#1" wn="skin%2:35:02"/>
-    <MEMBER fn_mapping="Experience_bodily_harm" grouping="strain.01" name="strain" verbnet_key="strain#1" wn="strain%2:34:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="sunburn" verbnet_key="sunburn#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="wrench.03" name="wrench" verbnet_key="wrench#1" wn="wrench%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="bark" verbnet_key="bark#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="bite.01" name="bite" verbnet_key="bite#1" wn="bite%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="bruise" verbnet_key="bruise#3" wn="bruise%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Impact" grouping="bump.01" name="bump" verbnet_key="bump#3" wn="bump%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="burn.01 burn.05" name="burn" verbnet_key="burn#3" wn="burn%2:30:02 burn%2:39:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="contuse" verbnet_key="contuse#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="cut.01" name="cut" verbnet_key="cut#7" wn="cut%2:35:14"/>
+    <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="hurt.01" name="hurt" verbnet_key="hurt#2" wn="hurt%2:29:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="injure.01" name="injure" verbnet_key="injure#1" wn="injure%2:29:00"/>
+    <MEMBER features="None" fn_mapping="Damaging" grouping="" name="nick" verbnet_key="nick#3" wn="nick%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="prick" verbnet_key="prick#1" wn="prick%2:35:00 prick%2:35:03"/>
+    <MEMBER features="None" fn_mapping="Apply_heat" grouping="scald.01" name="scald" verbnet_key="scald#2" wn="scald%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Damaging" grouping="scratch.01" name="scratch" verbnet_key="scratch#2" wn="scratch%2:35:00 ?scratch%2:39:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="skin" verbnet_key="skin#1" wn="skin%2:35:02"/>
+    <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="strain.01" name="strain" verbnet_key="strain#1" wn="strain%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="sunburn" verbnet_key="sunburn#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="wrench.03" name="wrench" verbnet_key="wrench#1" wn="wrench%2:29:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

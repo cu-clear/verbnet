@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="promise-37.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Telling" grouping="assure.01" name="assure" verbnet_key="assure#3" wn="assure%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="guarantee.01" name="guarantee" verbnet_key="guarantee#3" wn="guarantee%2:32:01"/>
-  <MEMBER fn_mapping="Commitment" grouping="promise.01" name="promise" verbnet_key="promise#2" wn="promise%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="ascertain.02" name="ascertain" verbnet_key="ascertain#3" wn=""/>
+  <MEMBER features="None" fn_mapping="Telling" grouping="assure.01" name="assure" verbnet_key="assure#3" wn="assure%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="guarantee.01" name="guarantee" verbnet_key="guarantee#3" wn="guarantee%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Commitment" grouping="promise.01" name="promise" verbnet_key="promise#2" wn="promise%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ascertain.02" name="ascertain" verbnet_key="ascertain#3" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

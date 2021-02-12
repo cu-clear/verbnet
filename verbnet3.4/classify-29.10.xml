@@ -1,26 +1,26 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="classify-29.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Categorization" grouping="classify.01" name="classify" verbnet_key="classify#2" wn="classify%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="class" verbnet_key="class#2" wn="class%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="constellate.02" name="constellate" verbnet_key="constellate#1" wn="constellate%2:38:00 constellate%2:30:00"/>
-  <MEMBER fn_mapping="Differentiation" grouping="sort.02" name="sort" verbnet_key="sort#1" wn="sort%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="isolate.01" name="isolate" verbnet_key="isolate#1" wn="isolate%2:30:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="reclassify" verbnet_key="reclassify#1" wn="reclassify%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="group.01" name="group" verbnet_key="group#1" wn="group%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="regroup.02" name="regroup" verbnet_key="regroup#1" wn="regroup%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bracket" verbnet_key="bracket#1" wn="bracket%2:31:00"/>
-  <MEMBER fn_mapping="Cause_to_amalgamate" grouping="lump.01" name="lump" verbnet_key="lump#1" wn="lump%2:31:13"/>
-  <MEMBER fn_mapping="None" grouping="" name="chunk" verbnet_key="chunk#1" wn="chunk%2:31:13"/>
-  <MEMBER fn_mapping="Assessing" grouping="grade.01" name="grade" verbnet_key="grade#1" wn="grade%2:31:03"/>
-  <MEMBER fn_mapping="None" grouping="number.04" name="number" verbnet_key="number#1" wn="number%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="catalogue" verbnet_key="catalogue#1" wn="catalogue%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sort_out" verbnet_key="sort_out#1" wn="sort_out%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="separate.01" name="separate" verbnet_key="separate#1" wn="separate%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="seed.04" name="seed" verbnet_key="seed#2" wn="seed%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="categorize" verbnet_key="categorize#1" wn="categorize%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="code.01" name="code" verbnet_key="code#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="recode" verbnet_key="recode#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Categorization" grouping="classify.01" name="classify" verbnet_key="classify#2" wn="classify%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="class" verbnet_key="class#2" wn="class%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="constellate.02" name="constellate" verbnet_key="constellate#1" wn="constellate%2:38:00 constellate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Differentiation" grouping="sort.02" name="sort" verbnet_key="sort#1" wn="sort%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="isolate.01" name="isolate" verbnet_key="isolate#1" wn="isolate%2:30:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reclassify" verbnet_key="reclassify#1" wn="reclassify%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="group.01" name="group" verbnet_key="group#1" wn="group%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="regroup.02" name="regroup" verbnet_key="regroup#1" wn="regroup%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bracket" verbnet_key="bracket#1" wn="bracket%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_amalgamate" grouping="lump.01" name="lump" verbnet_key="lump#1" wn="lump%2:31:13"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chunk" verbnet_key="chunk#1" wn="chunk%2:31:13"/>
+  <MEMBER features="None" fn_mapping="Assessing" grouping="grade.01" name="grade" verbnet_key="grade#1" wn="grade%2:31:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="number.04" name="number" verbnet_key="number#1" wn="number%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="catalogue" verbnet_key="catalogue#1" wn="catalogue%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sort_out" verbnet_key="sort_out#1" wn="sort_out%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="separate.01" name="separate" verbnet_key="separate#1" wn="separate%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="seed.04" name="seed" verbnet_key="seed#2" wn="seed%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="categorize" verbnet_key="categorize#1" wn="categorize%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="code.01" name="code" verbnet_key="code#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="recode" verbnet_key="recode#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="snooze-40.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="catnap" verbnet_key="catnap#1" wn="catnap%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="doze" verbnet_key="doze#1" wn="doze%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="drowse" verbnet_key="drowse#1" wn="drowse%2:29:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="slumber" verbnet_key="slumber#1" wn="slumber%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="snooze" verbnet_key="snooze#1" wn="snooze%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="catnap" verbnet_key="catnap#1" wn="catnap%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="doze" verbnet_key="doze#1" wn="doze%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="drowse" verbnet_key="drowse#1" wn="drowse%2:29:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="slumber" verbnet_key="slumber#1" wn="slumber%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="snooze" verbnet_key="snooze#1" wn="snooze%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -47,8 +47,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="snooze-40.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="nap" verbnet_key="nap#1" wn="nap%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="sleep.01" name="sleep" verbnet_key="sleep#2" wn="sleep%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="nap" verbnet_key="nap#1" wn="nap%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="sleep.01" name="sleep" verbnet_key="sleep#2" wn="sleep%2:29:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Theme">

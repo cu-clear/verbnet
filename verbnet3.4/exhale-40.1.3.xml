@@ -15,14 +15,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="exhale-40.1.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="defecate" verbnet_key="defecate#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="exhale" verbnet_key="exhale#1" wn="exhale%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="hemorrhage" verbnet_key="hemorrhage#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="perspire" verbnet_key="perspire#1" wn="perspire%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="expectorate" verbnet_key="expectorate#2" wn="expectorate%2:29:00"/>
-    <MEMBER fn_mapping="Excreting" grouping="" name="regurgitate" verbnet_key="regurgitate#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="urinate" verbnet_key="urinate#2" wn="urinate%2:29:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="whiff" verbnet_key="whiff#1" wn="whiff%2:34:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="defecate" verbnet_key="defecate#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="exhale" verbnet_key="exhale#1" wn="exhale%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="hemorrhage" verbnet_key="hemorrhage#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="perspire" verbnet_key="perspire#1" wn="perspire%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="expectorate" verbnet_key="expectorate#2" wn="expectorate%2:29:00"/>
+    <MEMBER features="None" fn_mapping="Excreting" grouping="" name="regurgitate" verbnet_key="regurgitate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="urinate" verbnet_key="urinate#2" wn="urinate%2:29:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="whiff" verbnet_key="whiff#1" wn="whiff%2:34:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -92,7 +92,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="exhale-40.1.3-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Breathing" grouping="inhale.01" name="inhale" verbnet_key="inhale#1" wn="inhale%2:29:00"/>
+    <MEMBER features="None" fn_mapping="Breathing" grouping="inhale.01" name="inhale" verbnet_key="inhale#1" wn="inhale%2:29:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

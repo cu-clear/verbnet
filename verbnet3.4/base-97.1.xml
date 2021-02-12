@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="base-97.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="base.01" name="base" verbnet_key="base#1" wn="base%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="establish.02" name="establish" verbnet_key="establish#1" wn="establish%2:31:03"/>
-  <MEMBER fn_mapping="None" grouping="ground.02" name="ground" verbnet_key="ground#1" wn="ground%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="found.02" name="found" verbnet_key="found#1" wn="found%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="build.03" name="build" verbnet_key="build#1" wn="build%2:31:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="construe" verbnet_key="construe#1" wn="construe%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="base.01" name="base" verbnet_key="base#1" wn="base%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="establish.02" name="establish" verbnet_key="establish#1" wn="establish%2:31:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ground.02" name="ground" verbnet_key="ground#1" wn="ground%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="found.02" name="found" verbnet_key="found#1" wn="found%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="build.03" name="build" verbnet_key="build#1" wn="build%2:31:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="construe" verbnet_key="construe#1" wn="construe%2:31:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

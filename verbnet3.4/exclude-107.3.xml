@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="exclude-107.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="omit.01" name="omit" verbnet_key="omit#1" wn="omit%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="omit.01" name="omit" verbnet_key="omit#1" wn="omit%2:31:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -85,8 +85,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="exclude-107.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="exclude.01" name="exclude" verbnet_key="exclude#1" wn="exclude%2:31:01"/>
-    <MEMBER fn_mapping="None" grouping="preclude.01" name="preclude" verbnet_key="preclude#1" wn="preclude%2:41:00 preclude%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="exclude.01" name="exclude" verbnet_key="exclude#1" wn="exclude%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="preclude.01" name="preclude" verbnet_key="preclude#1" wn="preclude%2:41:00 preclude%2:42:00"/>
    </MEMBERS>
    <THEMROLES>
    </THEMROLES>

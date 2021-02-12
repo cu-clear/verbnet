@@ -1,17 +1,17 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="rely-70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Reliance" grouping="rely.01" name="rely" verbnet_key="rely#1" wn="rely%2:31:11"/>
-  <MEMBER fn_mapping="Reliance" grouping="depend.02" name="depend" verbnet_key="depend#1" wn="depend%2:31:00"/>
-  <MEMBER fn_mapping="Reliance_on_expectation" grouping="bank.04" name="bank" verbnet_key="bank#2" wn="bank%2:31:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="bargain" verbnet_key="bargain#3" wn=""/>
-  <MEMBER fn_mapping="Reliance" grouping="count.04" name="count" verbnet_key="count#6" wn="count%2:31:02"/>
-  <MEMBER fn_mapping="Opinion" grouping="figure.01" name="figure" verbnet_key="figure#2" wn="figure%2:31:01"/>
-  <MEMBER fn_mapping="Awareness" grouping="reckon.03" name="reckon" verbnet_key="reckon#2" wn="reckon%2:31:03"/>
-  <MEMBER fn_mapping="None" grouping="bet.02" name="bet" verbnet_key="bet#2" wn="bet%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="gamble.01" name="gamble" verbnet_key="gamble#1" wn="gamble%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="take_a_chance" verbnet_key="take_a_chance#1" wn="take_a_chance%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wager" verbnet_key="wager#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Reliance" grouping="rely.01" name="rely" verbnet_key="rely#1" wn="rely%2:31:11"/>
+  <MEMBER features="None" fn_mapping="Reliance" grouping="depend.02" name="depend" verbnet_key="depend#1" wn="depend%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Reliance_on_expectation" grouping="bank.04" name="bank" verbnet_key="bank#2" wn="bank%2:31:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bargain" verbnet_key="bargain#3" wn=""/>
+  <MEMBER features="None" fn_mapping="Reliance" grouping="count.04" name="count" verbnet_key="count#6" wn="count%2:31:02"/>
+  <MEMBER features="None" fn_mapping="Opinion" grouping="figure.01" name="figure" verbnet_key="figure#2" wn="figure%2:31:01"/>
+  <MEMBER features="None" fn_mapping="Awareness" grouping="reckon.03" name="reckon" verbnet_key="reckon#2" wn="reckon%2:31:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bet.02" name="bet" verbnet_key="bet#2" wn="bet%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="gamble.01" name="gamble" verbnet_key="gamble#1" wn="gamble%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="take_a_chance" verbnet_key="take_a_chance#1" wn="take_a_chance%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wager" verbnet_key="wager#2" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

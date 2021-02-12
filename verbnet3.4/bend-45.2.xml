@@ -2,41 +2,41 @@
 <VNCLASS ID="bend-45.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--each verb specifies Form of Patient as a result of the action-->
-  <MEMBER fn_mapping="Body_movement" grouping="bend.02 bend.05" name="bend" verbnet_key="bend#2" wn="?bend%2:38:00 bend%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="crease" verbnet_key="crease#1" wn="crease%2:35:00 crease%2:35:01 crease%2:30:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="crinkle" verbnet_key="crinkle#1" wn="crinkle%2:35:00 crinkle%2:30:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="compact" verbnet_key="compact#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="compress.01" name="compress" verbnet_key="compress#1" wn="compress%2:35:01 compress%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="constrict" verbnet_key="constrict#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="contract.02 contract.03" name="contract" verbnet_key="contract#1" wn="contract%2:35:04 contract%2:30:04 contract%2:35:00"/>
-  <MEMBER fn_mapping="Body_movement" grouping="crumple.02" name="crumple" verbnet_key="crumple#1" wn="crumple%2:35:00 crumple%2:30:10"/>
-  <MEMBER fn_mapping="None" grouping="decompress.01 decompress.02" name="decompress" verbnet_key="decompress#1" wn="decompress%2:35:00 decompress%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="deflate.01" name="deflate" verbnet_key="deflate#1" wn="deflate%2:35:01 deflate%2:35:00 deflate%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="distend" verbnet_key="distend#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="flex.02" name="flex" verbnet_key="flex#1" wn="flex%2:38:00 flex%2:35:02"/>
-  <MEMBER fn_mapping="Reshaping" grouping="fold.01" name="fold" verbnet_key="fold#1" wn="fold%2:35:00 fold%2:30:10"/>
-  <MEMBER fn_mapping="None" grouping="furrow.01 furrow.02" name="furrow" verbnet_key="furrow#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="hyperextend" verbnet_key="hyperextend#1" wn="hyperextend%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="inflate.01 inflate.02 inflate.03" name="inflate" verbnet_key="inflate#1" wn="inflate%2:30:00 inflate%2:30:02"/>
-  <MEMBER fn_mapping="Reshaping" grouping="" name="roll" verbnet_key="roll#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="round" verbnet_key="round#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="rumple.02" name="rumple" verbnet_key="rumple#1" wn="rumple%2:35:01 rumple%2:30:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="scrunch" verbnet_key="scrunch#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="shrink.01" name="shrink" verbnet_key="shrink#1" wn="shrink%2:30:02 shrink%2:30:01 shrink%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shrivel" verbnet_key="shrivel#1" wn="shrivel%2:30:00 shrivel%2:30:11"/>
-  <MEMBER fn_mapping="None" grouping="" name="slack" verbnet_key="slack#1" wn="slack%2:30:00 slack%2:30:03 slack%2:30:05 slack%2:30:04 slack%2:30:07 slack%2:30:06"/>
-  <MEMBER fn_mapping="None" grouping="slacken.01 slacken.02" name="slacken" verbnet_key="slacken#1" wn="slacken%2:30:02 slacken%2:30:03 slacken%2:30:00 slacken%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="splay" verbnet_key="splay#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="straighten" verbnet_key="straighten#1" wn=""/>
-  <MEMBER fn_mapping="Body_movement" grouping="" name="stretch" verbnet_key="stretch#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="tauten" verbnet_key="tauten#1" wn="tauten%2:30:00 tauten%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="unfold" verbnet_key="unfold#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unfurl" verbnet_key="unfurl#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unroll" verbnet_key="unroll#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unwind" verbnet_key="unwind#1" wn=""/>
-  <MEMBER fn_mapping="Reshaping" grouping="" name="warp" verbnet_key="warp#1" wn=""/>
-  <MEMBER fn_mapping="Body_movement" grouping="" name="wrinkle" verbnet_key="wrinkle#1" wn="wrinkle%2:35:01 ?wrinkle%2:35:00 wrinkle%2:35:02 wrinkle%2:30:10"/>
-  <MEMBER fn_mapping="None" grouping="unbend.01 unbend.02" name="unbend" verbnet_key="unbend#1" wn="unbend%2:38:00 unbend%2:35:00 unbend%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="bend.02 bend.05" name="bend" verbnet_key="bend#2" wn="?bend%2:38:00 bend%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crease" verbnet_key="crease#1" wn="crease%2:35:00 crease%2:35:01 crease%2:30:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crinkle" verbnet_key="crinkle#1" wn="crinkle%2:35:00 crinkle%2:30:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="compact" verbnet_key="compact#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="compress.01" name="compress" verbnet_key="compress#1" wn="compress%2:35:01 compress%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="constrict" verbnet_key="constrict#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="contract.02 contract.03" name="contract" verbnet_key="contract#1" wn="contract%2:35:04 contract%2:30:04 contract%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="crumple.02" name="crumple" verbnet_key="crumple#1" wn="crumple%2:35:00 crumple%2:30:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="decompress.01 decompress.02" name="decompress" verbnet_key="decompress#1" wn="decompress%2:35:00 decompress%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="deflate.01" name="deflate" verbnet_key="deflate#1" wn="deflate%2:35:01 deflate%2:35:00 deflate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="distend" verbnet_key="distend#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="flex.02" name="flex" verbnet_key="flex#1" wn="flex%2:38:00 flex%2:35:02"/>
+  <MEMBER features="None" fn_mapping="Reshaping" grouping="fold.01" name="fold" verbnet_key="fold#1" wn="fold%2:35:00 fold%2:30:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="furrow.01 furrow.02" name="furrow" verbnet_key="furrow#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hyperextend" verbnet_key="hyperextend#1" wn="hyperextend%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="inflate.01 inflate.02 inflate.03" name="inflate" verbnet_key="inflate#1" wn="inflate%2:30:00 inflate%2:30:02"/>
+  <MEMBER features="None" fn_mapping="Reshaping" grouping="" name="roll" verbnet_key="roll#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="round" verbnet_key="round#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="rumple.02" name="rumple" verbnet_key="rumple#1" wn="rumple%2:35:01 rumple%2:30:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="scrunch" verbnet_key="scrunch#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="shrink.01" name="shrink" verbnet_key="shrink#1" wn="shrink%2:30:02 shrink%2:30:01 shrink%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shrivel" verbnet_key="shrivel#1" wn="shrivel%2:30:00 shrivel%2:30:11"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="slack" verbnet_key="slack#1" wn="slack%2:30:00 slack%2:30:03 slack%2:30:05 slack%2:30:04 slack%2:30:07 slack%2:30:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="slacken.01 slacken.02" name="slacken" verbnet_key="slacken#1" wn="slacken%2:30:02 slacken%2:30:03 slacken%2:30:00 slacken%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="splay" verbnet_key="splay#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="straighten" verbnet_key="straighten#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="" name="stretch" verbnet_key="stretch#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tauten" verbnet_key="tauten#1" wn="tauten%2:30:00 tauten%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unfold" verbnet_key="unfold#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unfurl" verbnet_key="unfurl#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unroll" verbnet_key="unroll#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unwind" verbnet_key="unwind#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Reshaping" grouping="" name="warp" verbnet_key="warp#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="" name="wrinkle" verbnet_key="wrinkle#1" wn="wrinkle%2:35:01 ?wrinkle%2:35:00 wrinkle%2:35:02 wrinkle%2:30:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="unbend.01 unbend.02" name="unbend" verbnet_key="unbend#1" wn="unbend%2:38:00 unbend%2:35:00 unbend%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

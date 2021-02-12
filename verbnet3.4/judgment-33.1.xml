@@ -185,7 +185,7 @@
     <MEMBER features="+negative_evaluation" fn_mapping="None" grouping="" name="upbraid" verbnet_key="upbraid#1" wn="upbraid%2:32:00" />
     <MEMBER features="+negative_evaluation" fn_mapping="None" grouping="" name="vilify" verbnet_key="vilify#1" wn="vilify%2:32:00" />
     <MEMBER features="+negative_evaluation" fn_mapping="None" grouping="welcome.01" name="welcome" verbnet_key="welcome#2" wn="welcome%2:40:00" />
-    <MEMBER features="" fn_mapping="None" grouping="write.09" name="write_up" verbnet_key="write_up#1" wn="write_up%2:32:02" />
+    <MEMBER features="None" fn_mapping="None" grouping="write.09" name="write_up" verbnet_key="write_up#1" wn="write_up%2:32:02" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>
@@ -227,10 +227,10 @@
     <VNSUBCLASS ID="judgment-33.1-1-1">
      <MEMBERS>
       <MEMBER features="+positive_evaluation" fn_mapping="None" grouping="" name="acclaim" verbnet_key="acclaim#1" wn="acclaim%2:32:00" />
-      <MEMBER features="" fn_mapping="None" grouping="doubt.02" name="doubt" verbnet_key="doubt#2" wn="" />
+      <MEMBER features="None" fn_mapping="None" grouping="doubt.02" name="doubt" verbnet_key="doubt#2" wn="" />
       <MEMBER features="+positive_evaluation" fn_mapping="None" grouping="hail.01" name="hail" verbnet_key="hail#3" wn="hail%2:32:02" />
       <MEMBER features="+positive_evaluation" fn_mapping="Heralding" grouping="" name="herald" verbnet_key="herald#1" wn="herald%2:32:01" />
-      <MEMBER features="" fn_mapping="None" grouping="judge.02" name="judge" verbnet_key="judge#4" wn="judge%2:32:00" />
+      <MEMBER features="None" fn_mapping="None" grouping="judge.02" name="judge" verbnet_key="judge#4" wn="judge%2:32:00" />
       <MEMBER features="+positive_evaluation" fn_mapping="None" grouping="" name="laud" verbnet_key="laud#1" wn="laud%2:32:00" />
       <MEMBER features="+positive_evaluation" fn_mapping="None" grouping="praise.01" name="praise" verbnet_key="praise#2" wn="praise%2:32:00" />
      </MEMBERS>

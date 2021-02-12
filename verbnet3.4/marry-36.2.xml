@@ -1,17 +1,17 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="marry-36.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Personal_relationship" grouping="court.02" name="court" verbnet_key="court#1" wn="court%2:41:00 court%2:41:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="cuddle" verbnet_key="cuddle#1" wn="cuddle%2:35:00 cuddle%2:35:01"/>
-  <MEMBER fn_mapping="Personal_relationship" grouping="date.01" name="date" verbnet_key="date#2" wn="date%2:41:00 date%2:41:01"/>
-  <MEMBER fn_mapping="Forming_relationships" grouping="divorce.01 divorce.02" name="divorce" verbnet_key="divorce#1" wn="divorce%2:41:01 divorce%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="embrace.02" name="embrace" verbnet_key="embrace#1" wn="embrace%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="hug.01" name="hug" verbnet_key="hug#2" wn="hug%2:35:01"/>
-  <MEMBER fn_mapping="Manipulation" grouping="kiss.01" name="kiss" verbnet_key="kiss#1" wn="kiss%2:35:00"/>
-  <MEMBER fn_mapping="Forming_relationships" grouping="marry.01" name="marry" verbnet_key="marry#2" wn="marry%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="neck" verbnet_key="neck#1" wn="neck%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="nuzzle" verbnet_key="nuzzle#1" wn="nuzzle%2:35:02 nuzzle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pet" verbnet_key="pet#1" wn="pet%2:35:00 pet%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Personal_relationship" grouping="court.02" name="court" verbnet_key="court#1" wn="court%2:41:00 court%2:41:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cuddle" verbnet_key="cuddle#1" wn="cuddle%2:35:00 cuddle%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Personal_relationship" grouping="date.01" name="date" verbnet_key="date#2" wn="date%2:41:00 date%2:41:01"/>
+  <MEMBER features="None" fn_mapping="Forming_relationships" grouping="divorce.01 divorce.02" name="divorce" verbnet_key="divorce#1" wn="divorce%2:41:01 divorce%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="embrace.02" name="embrace" verbnet_key="embrace#1" wn="embrace%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hug.01" name="hug" verbnet_key="hug#2" wn="hug%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="kiss.01" name="kiss" verbnet_key="kiss#1" wn="kiss%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Forming_relationships" grouping="marry.01" name="marry" verbnet_key="marry#2" wn="marry%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="neck" verbnet_key="neck#1" wn="neck%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="nuzzle" verbnet_key="nuzzle#1" wn="nuzzle%2:35:02 nuzzle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pet" verbnet_key="pet#1" wn="pet%2:35:00 pet%2:35:01"/>
   <!-- Removed "pass" from class -->
  </MEMBERS>
  <THEMROLES>

@@ -2,19 +2,19 @@
 <VNCLASS ID="swat-18.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Removed "shoot (gun)" from class because misclassified-->
-  <MEMBER fn_mapping="None" grouping="bite.01 bite.02" name="bite" verbnet_key="bite#2" wn="bite%2:35:00 ?bite%2:35:01"/>
-  <MEMBER fn_mapping="Cutting" grouping="chop.01" name="chop" verbnet_key="chop#4" wn="chop%2:35:01"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="claw.03" name="claw" verbnet_key="claw#1" wn="claw%2:35:01 claw%2:35:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#6" wn="kick%2:35:01 kick%2:38:00 kick%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="paw" verbnet_key="paw#2" wn="paw%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="peck" verbnet_key="peck#2" wn="peck%2:35:01 peck%2:35:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="punch.01" name="punch" verbnet_key="punch#3" wn="punch%2:35:00"/>
-  <MEMBER fn_mapping="Damaging" grouping="scratch.01" name="scratch" verbnet_key="scratch#5" wn="scratch%2:35:00 scratch%2:39:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="slice.01" name="slice" verbnet_key="slice#5" wn="slice%2:35:01 slice%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="slug" verbnet_key="slug#2" wn="slug%2:35:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="stab.01 stab.02" name="stab" verbnet_key="stab#3" wn="stab%2:35:02 stab%2:35:00 stab%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="swat" verbnet_key="swat#1" wn="swat%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="swipe" verbnet_key="swipe#2" wn="swipe%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bite.01 bite.02" name="bite" verbnet_key="bite#2" wn="bite%2:35:00 ?bite%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Cutting" grouping="chop.01" name="chop" verbnet_key="chop#4" wn="chop%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="claw.03" name="claw" verbnet_key="claw#1" wn="claw%2:35:01 claw%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#6" wn="kick%2:35:01 kick%2:38:00 kick%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="paw" verbnet_key="paw#2" wn="paw%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="peck" verbnet_key="peck#2" wn="peck%2:35:01 peck%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="punch.01" name="punch" verbnet_key="punch#3" wn="punch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Damaging" grouping="scratch.01" name="scratch" verbnet_key="scratch#5" wn="scratch%2:35:00 scratch%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="slice.01" name="slice" verbnet_key="slice#5" wn="slice%2:35:01 slice%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="slug" verbnet_key="slug#2" wn="slug%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="stab.01 stab.02" name="stab" verbnet_key="stab#3" wn="stab%2:35:02 stab%2:35:00 stab%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="swat" verbnet_key="swat#1" wn="swat%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="swipe" verbnet_key="swipe#2" wn="swipe%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

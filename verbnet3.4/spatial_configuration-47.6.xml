@@ -2,31 +2,31 @@
 <VNCLASS ID="spatial_configuration-47.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--individual verbs specify what spatial configuration the Theme ends up in-->
-  <MEMBER fn_mapping="None" grouping="bow.01 bow.02" name="bow" verbnet_key="bow#5" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="crouch" verbnet_key="crouch#2" wn="crouch%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="hover.02" name="hover" verbnet_key="hover#2" wn="hover%2:38:00 hover%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="huddle" verbnet_key="huddle#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="hunch" verbnet_key="hunch#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="jut" verbnet_key="jut#1" wn="jut%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="kneel" verbnet_key="kneel#3" wn="kneel%2:35:00"/>
-  <MEMBER fn_mapping="Change_posture" grouping="lean.01" name="lean" verbnet_key="lean#3" wn="lean%2:38:00 lean%2:35:00"/>
-  <MEMBER fn_mapping="Being_located" grouping="lie.01" name="lie" verbnet_key="lie#2" wn="lie%2:42:00 lie%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="loll" verbnet_key="loll#1" wn="loll%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="loom.02" name="loom" verbnet_key="loom#2" wn="loom%2:42:06"/>
-  <MEMBER fn_mapping="None" grouping="" name="lounge" verbnet_key="lounge#1" wn="lounge%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="protrude" verbnet_key="protrude#1" wn="protrude%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="repose" verbnet_key="repose#1" wn=""/>
-  <MEMBER fn_mapping="Sidereal_appearance" grouping="rise.01" name="rise" verbnet_key="rise#6" wn="rise%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="roost" verbnet_key="roost#1" wn="roost%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="sag.01" name="sag" verbnet_key="sag#1" wn="sag%2:38:00 sag%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="slouch" verbnet_key="slouch#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="slump.01" name="slump" verbnet_key="slump#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="suspend.01" name="suspend" verbnet_key="suspend#3" wn="suspend%2:35:00"/>
-  <MEMBER fn_mapping="Posture" grouping="squat.01 squat.02" name="squat" verbnet_key="squat#3" wn="squat%2:35:00 squat%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="stoop" verbnet_key="stoop#2" wn="stoop%2:38:05"/>
-  <MEMBER fn_mapping="None" grouping="swag.01" name="swag" verbnet_key="swag#3" wn="swag%2:38:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="tower" verbnet_key="tower#2" wn="tower%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="yaw.01" name="yaw" verbnet_key="yaw#2" wn="yaw%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bow.01 bow.02" name="bow" verbnet_key="bow#5" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crouch" verbnet_key="crouch#2" wn="crouch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hover.02" name="hover" verbnet_key="hover#2" wn="hover%2:38:00 hover%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="huddle" verbnet_key="huddle#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hunch" verbnet_key="hunch#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jut" verbnet_key="jut#1" wn="jut%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="kneel" verbnet_key="kneel#3" wn="kneel%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Change_posture" grouping="lean.01" name="lean" verbnet_key="lean#3" wn="lean%2:38:00 lean%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Being_located" grouping="lie.01" name="lie" verbnet_key="lie#2" wn="lie%2:42:00 lie%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="loll" verbnet_key="loll#1" wn="loll%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="loom.02" name="loom" verbnet_key="loom#2" wn="loom%2:42:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lounge" verbnet_key="lounge#1" wn="lounge%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="protrude" verbnet_key="protrude#1" wn="protrude%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="repose" verbnet_key="repose#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Sidereal_appearance" grouping="rise.01" name="rise" verbnet_key="rise#6" wn="rise%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="roost" verbnet_key="roost#1" wn="roost%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sag.01" name="sag" verbnet_key="sag#1" wn="sag%2:38:00 sag%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="slouch" verbnet_key="slouch#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="slump.01" name="slump" verbnet_key="slump#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="suspend.01" name="suspend" verbnet_key="suspend#3" wn="suspend%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Posture" grouping="squat.01 squat.02" name="squat" verbnet_key="squat#3" wn="squat%2:35:00 squat%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stoop" verbnet_key="stoop#2" wn="stoop%2:38:05"/>
+  <MEMBER features="None" fn_mapping="None" grouping="swag.01" name="swag" verbnet_key="swag#3" wn="swag%2:38:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tower" verbnet_key="tower#2" wn="tower%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="yaw.01" name="yaw" verbnet_key="yaw#2" wn="yaw%2:42:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -194,27 +194,27 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="spatial_configuration-47.6-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="balance.01" name="balance" verbnet_key="balance#3" wn="balance%2:42:00 balance%2:42:01"/>
-    <MEMBER fn_mapping="None" grouping="bend.02 bend.05" name="bend" verbnet_key="bend#6" wn="bend%2:38:00 bend%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="dangle" verbnet_key="dangle#2" wn="dangle%2:42:00 dangle%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="droop.01" name="droop" verbnet_key="droop#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="flop.01" name="flop" verbnet_key="flop#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="fly.01" name="fly" verbnet_key="fly#5" wn="fly%2:39:00"/>
-    <MEMBER fn_mapping="None" grouping="hang.01" name="hang" verbnet_key="hang#5" wn="hang%2:35:03 hang%2:35:00 hang%2:35:02 hang%2:42:01 hang%2:36:00 hang%2:35:05 hang%2:35:04 hang%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="nestle" verbnet_key="nestle#2" wn="nestle%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="open.01" name="open" verbnet_key="open#6" wn="open%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="perch" verbnet_key="perch#3" wn="perch%2:35:00 perch%2:35:10"/>
-    <MEMBER fn_mapping="None" grouping="plop.01" name="plop" verbnet_key="plop#5" wn="plop%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="project.02 project.03" name="project" verbnet_key="project#3" wn="project%2:42:00 project%2:36:03"/>
-    <MEMBER fn_mapping="None" grouping="recline.01" name="recline" verbnet_key="recline#2" wn="recline%2:38:00 recline%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="rest.02" name="rest" verbnet_key="rest#2" wn="rest%2:35:00 rest%2:42:12 rest%2:35:04 rest%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="sit.01 sit.02" name="sit" verbnet_key="sit#3" wn="sit%2:35:00 sit%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="slope" verbnet_key="slope#2" wn="slope%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="sprawl" verbnet_key="sprawl#3" wn="sprawl%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="stand.01 stand.02" name="stand" verbnet_key="stand#5" wn="stand%2:35:00 stand%2:35:01"/>
-    <MEMBER fn_mapping="None" grouping="straddle.01" name="straddle" verbnet_key="straddle#4" wn="straddle%2:42:01"/>
-    <MEMBER fn_mapping="None" grouping="swing.02" name="swing" verbnet_key="swing#6" wn="swing%2:38:02 swing%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="tilt.01" name="tilt" verbnet_key="tilt#3" wn="tilt%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="balance.01" name="balance" verbnet_key="balance#3" wn="balance%2:42:00 balance%2:42:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bend.02 bend.05" name="bend" verbnet_key="bend#6" wn="bend%2:38:00 bend%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="dangle" verbnet_key="dangle#2" wn="dangle%2:42:00 dangle%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="droop.01" name="droop" verbnet_key="droop#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="flop.01" name="flop" verbnet_key="flop#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="fly.01" name="fly" verbnet_key="fly#5" wn="fly%2:39:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="hang.01" name="hang" verbnet_key="hang#5" wn="hang%2:35:03 hang%2:35:00 hang%2:35:02 hang%2:42:01 hang%2:36:00 hang%2:35:05 hang%2:35:04 hang%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="nestle" verbnet_key="nestle#2" wn="nestle%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="open.01" name="open" verbnet_key="open#6" wn="open%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="perch" verbnet_key="perch#3" wn="perch%2:35:00 perch%2:35:10"/>
+    <MEMBER features="None" fn_mapping="None" grouping="plop.01" name="plop" verbnet_key="plop#5" wn="plop%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="project.02 project.03" name="project" verbnet_key="project#3" wn="project%2:42:00 project%2:36:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="recline.01" name="recline" verbnet_key="recline#2" wn="recline%2:38:00 recline%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="rest.02" name="rest" verbnet_key="rest#2" wn="rest%2:35:00 rest%2:42:12 rest%2:35:04 rest%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="sit.01 sit.02" name="sit" verbnet_key="sit#3" wn="sit%2:35:00 sit%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="slope" verbnet_key="slope#2" wn="slope%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="sprawl" verbnet_key="sprawl#3" wn="sprawl%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="stand.01 stand.02" name="stand" verbnet_key="stand#5" wn="stand%2:35:00 stand%2:35:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="straddle.01" name="straddle" verbnet_key="straddle#4" wn="straddle%2:42:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="swing.02" name="swing" verbnet_key="swing#6" wn="swing%2:38:02 swing%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="tilt.01" name="tilt" verbnet_key="tilt#3" wn="tilt%2:38:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Agent">

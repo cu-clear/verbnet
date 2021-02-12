@@ -1,18 +1,18 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="deduce-97.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="reason.01" name="reason" verbnet_key="reason#1" wn="reason%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="reason_out" verbnet_key="reason_out#1" wn="reason_out%2:31:00"/>
-  <MEMBER fn_mapping="Coming_to_believe" grouping="conclude.03" name="conclude" verbnet_key="conclude#1" wn="conclude%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="derive.02" name="derive" verbnet_key="derive#3" wn="derive%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="disprove" verbnet_key="disprove#1" wn="disprove%2:31:00"/>
-  <MEMBER fn_mapping="Coming_to_believe" grouping="infer.01" name="infer" verbnet_key="infer#2" wn="infer%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="deduct.02" name="deduct" verbnet_key="deduct#1" wn="deduct%2:31:00"/>
-  <MEMBER fn_mapping="Coming_to_believe" grouping="deduce.01" name="deduce" verbnet_key="deduce#1" wn="deduce%2:31:00 deduce%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="gather.04" name="gather" verbnet_key="gather#1" wn="gather%2:32:00"/>
-  <MEMBER fn_mapping="Awareness" grouping="conceive.01" name="conceive" verbnet_key="conceive#2" wn="conceive%2:31:00"/>
-  <MEMBER fn_mapping="Reasoning" grouping="prove.01" name="prove" verbnet_key="prove#2" wn="prove%2:31:00"/>
-  <MEMBER fn_mapping="Justifying" grouping="rationalize.01" name="rationalize" verbnet_key="rationalize#1" wn="rationalize%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="reason.01" name="reason" verbnet_key="reason#1" wn="reason%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reason_out" verbnet_key="reason_out#1" wn="reason_out%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="conclude.03" name="conclude" verbnet_key="conclude#1" wn="conclude%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="derive.02" name="derive" verbnet_key="derive#3" wn="derive%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="disprove" verbnet_key="disprove#1" wn="disprove%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="infer.01" name="infer" verbnet_key="infer#2" wn="infer%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="deduct.02" name="deduct" verbnet_key="deduct#1" wn="deduct%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="deduce.01" name="deduce" verbnet_key="deduce#1" wn="deduce%2:31:00 deduce%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="gather.04" name="gather" verbnet_key="gather#1" wn="gather%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Awareness" grouping="conceive.01" name="conceive" verbnet_key="conceive#2" wn="conceive%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Reasoning" grouping="prove.01" name="prove" verbnet_key="prove#2" wn="prove%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Justifying" grouping="rationalize.01" name="rationalize" verbnet_key="rationalize#1" wn="rationalize%2:31:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

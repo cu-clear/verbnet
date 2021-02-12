@@ -1,22 +1,22 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="send-11.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Bringing" grouping="convey.02" name="convey" verbnet_key="convey#2" wn="convey%2:40:10 convey%2:38:00 convey%2:35:00"/>
-  <MEMBER fn_mapping="Delivery" grouping="deliver.05" name="deliver" verbnet_key="deliver#2" wn="deliver%2:35:00"/>
-  <MEMBER fn_mapping="Sending" grouping="dispatch.01" name="dispatch" verbnet_key="dispatch#2" wn="dispatch%2:38:00"/>
-  <MEMBER fn_mapping="Cause_motion" grouping="drive.02" name="drive" verbnet_key="drive#6" wn="drive%2:38:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="handdeliver" verbnet_key="handdeliver#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="pass_on" verbnet_key="pass_on#1" wn="pass_on%2:40:01 pass_on%2:40:00 pass_on%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="port.03" name="port" verbnet_key="port#1" wn="port%2:35:07"/>
-  <MEMBER fn_mapping="Sending" grouping="post.03" name="post" verbnet_key="post#1" wn="post%2:32:02"/>
-  <MEMBER fn_mapping="None" grouping="return.02 return.03" name="return" verbnet_key="return#5" wn="return%2:40:08 return%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="shift.01" name="shift" verbnet_key="shift#3" wn="shift%2:38:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="shunt" verbnet_key="shunt#1" wn="shunt%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="transfer.01 transfer.02" name="transfer" verbnet_key="transfer#2" wn="transfer%2:40:01 transfer%2:35:00"/>
-  <MEMBER fn_mapping="Bringing" grouping="transport.01" name="transport" verbnet_key="transport#2" wn="transport%2:38:00 transport%2:38:01 transport%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="export" verbnet_key="export#1" wn="export%2:40:00"/>
-  <MEMBER fn_mapping="Importing" grouping="" name="import" verbnet_key="import#1" wn="import%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="transship" verbnet_key="transship#1" wn="transship%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Bringing" grouping="convey.02" name="convey" verbnet_key="convey#2" wn="convey%2:40:10 convey%2:38:00 convey%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Delivery" grouping="deliver.05" name="deliver" verbnet_key="deliver#2" wn="deliver%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Sending" grouping="dispatch.01" name="dispatch" verbnet_key="dispatch#2" wn="dispatch%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="drive.02" name="drive" verbnet_key="drive#6" wn="drive%2:38:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="handdeliver" verbnet_key="handdeliver#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pass_on" verbnet_key="pass_on#1" wn="pass_on%2:40:01 pass_on%2:40:00 pass_on%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="port.03" name="port" verbnet_key="port#1" wn="port%2:35:07"/>
+  <MEMBER features="None" fn_mapping="Sending" grouping="post.03" name="post" verbnet_key="post#1" wn="post%2:32:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="return.02 return.03" name="return" verbnet_key="return#5" wn="return%2:40:08 return%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="shift.01" name="shift" verbnet_key="shift#3" wn="shift%2:38:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shunt" verbnet_key="shunt#1" wn="shunt%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="transfer.01 transfer.02" name="transfer" verbnet_key="transfer#2" wn="transfer%2:40:01 transfer%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Bringing" grouping="transport.01" name="transport" verbnet_key="transport#2" wn="transport%2:38:00 transport%2:38:01 transport%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="export" verbnet_key="export#1" wn="export%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Importing" grouping="" name="import" verbnet_key="import#1" wn="import%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="transship" verbnet_key="transship#1" wn="transship%2:38:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -385,21 +385,21 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="send-11.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="airmail" verbnet_key="airmail#1" wn="airmail%2:32:00"/>
-    <MEMBER fn_mapping="Sending" grouping="express.03" name="express" verbnet_key="express#2" wn="express%2:32:09"/>
-    <MEMBER fn_mapping="None" grouping="" name="FedEx" verbnet_key="FedEx#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="forward" verbnet_key="forward#1" wn="forward%2:38:00"/>
-    <MEMBER fn_mapping="Giving" grouping="hand.01" name="hand" verbnet_key="hand#1" wn="hand%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="mail.01" name="mail" verbnet_key="mail#1" wn="mail%2:35:00 mail%2:32:00"/>
-    <MEMBER fn_mapping="Giving" grouping="pass.04 pass.08" name="pass" verbnet_key="pass#6" wn="pass%2:40:00 pass%2:32:01"/>
-    <MEMBER fn_mapping="Causation" grouping="send.01 send.03" name="send" verbnet_key="send#2" wn="send%2:38:01 send%2:35:00 send%2:32:00 send%2:38:00 send%2:32:02"/>
-    <MEMBER fn_mapping="Sending" grouping="ship.01" name="ship" verbnet_key="ship#1" wn="ship%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="slip.01" name="slip" verbnet_key="slip#2" wn="slip%2:40:10"/>
-    <MEMBER fn_mapping="None" grouping="" name="smuggle" verbnet_key="smuggle#1" wn="smuggle%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="sneak.02" name="sneak" verbnet_key="sneak#2" wn="sneak%2:40:00 sneak%2:40:10"/>
-    <MEMBER fn_mapping="None" grouping="transmit.01" name="transmit" verbnet_key="transmit#1" wn="transmit%2:40:10 transmit%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="UPS" verbnet_key="UPS#1" wn=""/>
-    <MEMBER fn_mapping="Sending" grouping="wire.03" name="wire" verbnet_key="wire#2" wn="wire%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="airmail" verbnet_key="airmail#1" wn="airmail%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Sending" grouping="express.03" name="express" verbnet_key="express#2" wn="express%2:32:09"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="FedEx" verbnet_key="FedEx#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="forward" verbnet_key="forward#1" wn="forward%2:38:00"/>
+    <MEMBER features="None" fn_mapping="Giving" grouping="hand.01" name="hand" verbnet_key="hand#1" wn="hand%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="mail.01" name="mail" verbnet_key="mail#1" wn="mail%2:35:00 mail%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Giving" grouping="pass.04 pass.08" name="pass" verbnet_key="pass#6" wn="pass%2:40:00 pass%2:32:01"/>
+    <MEMBER features="None" fn_mapping="Causation" grouping="send.01 send.03" name="send" verbnet_key="send#2" wn="send%2:38:01 send%2:35:00 send%2:32:00 send%2:38:00 send%2:32:02"/>
+    <MEMBER features="None" fn_mapping="Sending" grouping="ship.01" name="ship" verbnet_key="ship#1" wn="ship%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="slip.01" name="slip" verbnet_key="slip#2" wn="slip%2:40:10"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="smuggle" verbnet_key="smuggle#1" wn="smuggle%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="sneak.02" name="sneak" verbnet_key="sneak#2" wn="sneak%2:40:00 sneak%2:40:10"/>
+    <MEMBER features="None" fn_mapping="None" grouping="transmit.01" name="transmit" verbnet_key="transmit#1" wn="transmit%2:40:10 transmit%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="UPS" verbnet_key="UPS#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Sending" grouping="wire.03" name="wire" verbnet_key="wire#2" wn="wire%2:32:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Destination">

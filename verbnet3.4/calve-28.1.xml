@@ -2,16 +2,16 @@
 <VNCLASS ID="calve-28.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each member specifies the Patient-->
-  <MEMBER fn_mapping="None" grouping="" name="calve" verbnet_key="calve#1" wn="calve%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cub" verbnet_key="cub#1" wn="cub%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="fawn.02" name="fawn" verbnet_key="fawn#1" wn="fawn%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="foal" verbnet_key="foal#1" wn="foal%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="kitten" verbnet_key="kitten#1" wn="kitten%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="lamb" verbnet_key="lamb#1" wn="lamb%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="litter.02" name="litter" verbnet_key="litter#1" wn="litter%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pup" verbnet_key="pup#1" wn="pup%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="spawn.01" name="spawn" verbnet_key="spawn#2" wn="spawn%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="whelp" verbnet_key="whelp#1" wn="whelp%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="calve" verbnet_key="calve#1" wn="calve%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cub" verbnet_key="cub#1" wn="cub%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fawn.02" name="fawn" verbnet_key="fawn#1" wn="fawn%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="foal" verbnet_key="foal#1" wn="foal%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="kitten" verbnet_key="kitten#1" wn="kitten%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lamb" verbnet_key="lamb#1" wn="lamb%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="litter.02" name="litter" verbnet_key="litter#1" wn="litter%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pup" verbnet_key="pup#1" wn="pup%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="spawn.01" name="spawn" verbnet_key="spawn#2" wn="spawn%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whelp" verbnet_key="whelp#1" wn="whelp%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

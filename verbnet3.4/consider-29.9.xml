@@ -76,11 +76,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="consider-29.9-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Statement" grouping="" name="acknowledge" verbnet_key="acknowledge#2" wn=""/>
-    <MEMBER fn_mapping="Categorization" grouping="deem.01" name="deem" verbnet_key="deem#1" wn="deem%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="esteem" verbnet_key="esteem#2" wn="esteem%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="rate.02 rate.03" name="rate" verbnet_key="rate#1" wn="rate%2:31:00"/>
-    <MEMBER fn_mapping="Awareness" grouping="reckon.01" name="reckon" verbnet_key="reckon#1" wn="reckon%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Statement" grouping="" name="acknowledge" verbnet_key="acknowledge#2" wn=""/>
+    <MEMBER features="None" fn_mapping="Categorization" grouping="deem.01" name="deem" verbnet_key="deem#1" wn="deem%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="esteem" verbnet_key="esteem#2" wn="esteem%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="rate.02 rate.03" name="rate" verbnet_key="rate#1" wn="rate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Awareness" grouping="reckon.01" name="reckon" verbnet_key="reckon#1" wn="reckon%2:31:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -182,7 +182,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="consider-29.9-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="report.01" name="report" verbnet_key="report#2" wn="report%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="report.01" name="report" verbnet_key="report#2" wn="report%2:32:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -314,7 +314,7 @@
      <SUBCLASSES>
       <VNSUBCLASS ID="consider-29.9-1-1-1">
        <MEMBERS>
-        <MEMBER fn_mapping="Categorization" grouping="consider.01 consider.02" name="consider" verbnet_key="consider#1" wn="consider%2:32:02"/>
+        <MEMBER features="None" fn_mapping="Categorization" grouping="consider.01 consider.02" name="consider" verbnet_key="consider#1" wn="consider%2:32:02"/>
        </MEMBERS>
        <THEMROLES/>
        <FRAMES>
@@ -500,10 +500,10 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="consider-29.9-2">
    <MEMBERS>
-    <MEMBER fn_mapping="Awareness" grouping="suspect.01" name="suspect" verbnet_key="suspect#1" wn=""/>
-    <MEMBER fn_mapping="Regard" grouping="think.01" name="think" verbnet_key="think#1" wn=""/>
-    <MEMBER fn_mapping="Opinion" grouping="suppose.02" name="suppose" verbnet_key="suppose#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="posit" verbnet_key="posit#1" wn="postulate%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Awareness" grouping="suspect.01" name="suspect" verbnet_key="suspect#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Regard" grouping="think.01" name="think" verbnet_key="think#1" wn=""/>
+    <MEMBER features="None" fn_mapping="Opinion" grouping="suppose.02" name="suppose" verbnet_key="suppose#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="posit" verbnet_key="posit#1" wn="postulate%2:31:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

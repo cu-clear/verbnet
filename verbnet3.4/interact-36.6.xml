@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="interact-36.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="follow.06" name="follow-up" verbnet_key="follow-up#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="follow.06" name="follow-through" verbnet_key="follow-through#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="go-steady" verbnet_key="go-steady#1" wn="go_steady%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="go-out" verbnet_key="go-out#1" wn="go_out%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="interact" verbnet_key="interact#2" wn="interact%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="hook.04" name="hook-up" verbnet_key="hook-up#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="split.03" name="split-up" verbnet_key="split-up#1" wn="split_up%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="follow.06" name="follow-up" verbnet_key="follow-up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="follow.06" name="follow-through" verbnet_key="follow-through#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go-steady" verbnet_key="go-steady#1" wn="go_steady%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go-out" verbnet_key="go-out#1" wn="go_out%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="interact" verbnet_key="interact#2" wn="interact%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hook.04" name="hook-up" verbnet_key="hook-up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="split.03" name="split-up" verbnet_key="split-up#1" wn="split_up%2:41:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

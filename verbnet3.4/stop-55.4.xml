@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="stop-55.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Change_operational_state" grouping="cut.05" name="cut" verbnet_key="cut#10" wn="cut%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="raise.08" name="raise" verbnet_key="raise#8" wn="raise%2:30:13"/>
-  <MEMBER fn_mapping="None" grouping="kill.04 kill.07" name="kill" verbnet_key="kill#6" wn="kill%2:30:08 kill%2:30:03"/>
+  <MEMBER features="None" fn_mapping="Change_operational_state" grouping="cut.05" name="cut" verbnet_key="cut#10" wn="cut%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="raise.08" name="raise" verbnet_key="raise#8" wn="raise%2:30:13"/>
+  <MEMBER features="None" fn_mapping="None" grouping="kill.04 kill.07" name="kill" verbnet_key="kill#6" wn="kill%2:30:08 kill%2:30:03"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Affector">
@@ -60,14 +60,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="stop-55.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="close.03" name="close" verbnet_key="close#4" wn="close%2:41:01 close%2:42:00 close%2:42:01 close%2:30:08"/>
-    <MEMBER fn_mapping="None" grouping="cut.05" name="cut_off" verbnet_key="cut_off#1" wn="cut_off%2:32:00 cut_off%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="cut.05" name="cut_out" verbnet_key="cut_out#1" wn="cut_out%2:30:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="deactivate" verbnet_key="deactivate#1" wn="deactive%2:30:00"/>
-    <MEMBER fn_mapping="None" grouping="halt.01" name="halt" verbnet_key="halt#1" wn="halt%2:38:05 halt%2:38:01 halt%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="lift.03" name="lift" verbnet_key="lift#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="repeat.01" name="repeat" verbnet_key="repeat#3" wn="repeat%2:30:00 repeat%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="terminate.01" name="terminate" verbnet_key="terminate#2" wn="terminate%2:30:01 terminate%2:42:00 terminate%2:42:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="close.03" name="close" verbnet_key="close#4" wn="close%2:41:01 close%2:42:00 close%2:42:01 close%2:30:08"/>
+    <MEMBER features="None" fn_mapping="None" grouping="cut.05" name="cut_off" verbnet_key="cut_off#1" wn="cut_off%2:32:00 cut_off%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="cut.05" name="cut_out" verbnet_key="cut_out#1" wn="cut_out%2:30:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="deactivate" verbnet_key="deactivate#1" wn="deactive%2:30:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="halt.01" name="halt" verbnet_key="halt#1" wn="halt%2:38:05 halt%2:38:01 halt%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="lift.03" name="lift" verbnet_key="lift#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="repeat.01" name="repeat" verbnet_key="repeat#3" wn="repeat%2:30:00 repeat%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="terminate.01" name="terminate" verbnet_key="terminate#2" wn="terminate%2:30:01 terminate%2:42:00 terminate%2:42:05"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -120,13 +120,13 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="stop-55.4-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="cease.01" name="cease" verbnet_key="cease#1" wn="cease%2:42:00"/>
-      <MEMBER fn_mapping="None" grouping="conclude.01" name="conclude" verbnet_key="conclude#2" wn="conclude%2:31:01 conclude%2:32:01 conclude%2:42:02"/>
-      <MEMBER fn_mapping="None" grouping="discontinue.01" name="discontinue" verbnet_key="discontinue#2" wn="discontinue%2:42:00 discontinue%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="end.02" name="end" verbnet_key="end#1" wn="end%2:30:01 end%2:36:13"/>
-      <MEMBER fn_mapping="None" grouping="finish.01" name="finish" verbnet_key="finish#1" wn="finish%2:30:02 finish%2:34:00 finish%2:30:03"/>
-      <MEMBER fn_mapping="None" grouping="stop.01" name="stop" verbnet_key="stop#3" wn="stop%2:38:00 stop%2:42:00 stop%2:30:05 stop%2:33:00"/>
-      <MEMBER fn_mapping="None" grouping="quit.01" name="quit" verbnet_key="quit#3" wn="quit%2:42:04"/>
+      <MEMBER features="None" fn_mapping="None" grouping="cease.01" name="cease" verbnet_key="cease#1" wn="cease%2:42:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="conclude.01" name="conclude" verbnet_key="conclude#2" wn="conclude%2:31:01 conclude%2:32:01 conclude%2:42:02"/>
+      <MEMBER features="None" fn_mapping="None" grouping="discontinue.01" name="discontinue" verbnet_key="discontinue#2" wn="discontinue%2:42:00 discontinue%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="end.02" name="end" verbnet_key="end#1" wn="end%2:30:01 end%2:36:13"/>
+      <MEMBER features="None" fn_mapping="None" grouping="finish.01" name="finish" verbnet_key="finish#1" wn="finish%2:30:02 finish%2:34:00 finish%2:30:03"/>
+      <MEMBER features="None" fn_mapping="None" grouping="stop.01" name="stop" verbnet_key="stop#3" wn="stop%2:38:00 stop%2:42:00 stop%2:30:05 stop%2:33:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="quit.01" name="quit" verbnet_key="quit#3" wn="quit%2:42:04"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

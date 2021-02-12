@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="defend-72.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="defend.01 defend.02 defend.03" name="defend" verbnet_key="defend#1" wn="defend%2:32:00 defend%2:41:00 defend%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="insure.01" name="insure" verbnet_key="insure#1" wn="insure%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="protect.01" name="protect" verbnet_key="protect#1" wn="protect%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shade" verbnet_key="shade#1" wn="shade%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="preserve.01" name="preserve" verbnet_key="preserve#1" wn="preserve%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="guard.01" name="guard" verbnet_key="guard#2" wn="guard%2:41:00 guard%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="safeguard.01" name="safeguard" verbnet_key="safeguard#1" wn="safeguard%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="speak.04" name="speak_for" verbnet_key="speak_for#1" wn="speak_for%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="defend.01 defend.02 defend.03" name="defend" verbnet_key="defend#1" wn="defend%2:32:00 defend%2:41:00 defend%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="insure.01" name="insure" verbnet_key="insure#1" wn="insure%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="protect.01" name="protect" verbnet_key="protect#1" wn="protect%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shade" verbnet_key="shade#1" wn="shade%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="preserve.01" name="preserve" verbnet_key="preserve#1" wn="preserve%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="guard.01" name="guard" verbnet_key="guard#2" wn="guard%2:41:00 guard%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="safeguard.01" name="safeguard" verbnet_key="safeguard#1" wn="safeguard%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="speak.04" name="speak_for" verbnet_key="speak_for#1" wn="speak_for%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

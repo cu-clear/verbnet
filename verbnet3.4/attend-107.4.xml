@@ -13,8 +13,8 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="attend-107.4-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="attend.01" name="attend" verbnet_key="attend#1" wn="attend%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="patronize.01" name="patronize" verbnet_key="patronize#1" wn="patronize%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="attend.01" name="attend" verbnet_key="attend#1" wn="attend%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="patronize.01" name="patronize" verbnet_key="patronize#1" wn="patronize%2:32:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -49,8 +49,8 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="attend-107.4-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="go.09" name="go" verbnet_key="go#1" wn="go%2:42:04"/>
-    <MEMBER fn_mapping="None" grouping="belong.02" name="belong" verbnet_key="belong#1" wn="belong%2:42:02 belong%2:42:03                 belong%2:42:01 belong%2:42:07 belong%2:42:06"/>
+    <MEMBER features="None" fn_mapping="None" grouping="go.09" name="go" verbnet_key="go#1" wn="go%2:42:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="belong.02" name="belong" verbnet_key="belong#1" wn="belong%2:42:02 belong%2:42:03                 belong%2:42:01 belong%2:42:07 belong%2:42:06"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

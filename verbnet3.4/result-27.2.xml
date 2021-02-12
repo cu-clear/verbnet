@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="result-27.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="cause" verbnet_key="cause#3" wn=""/>
-  <MEMBER fn_mapping="Causation" grouping="" name="lead" verbnet_key="lead#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="lead_up" verbnet_key="lead_up#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="result" verbnet_key="result#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cause" verbnet_key="cause#3" wn=""/>
+  <MEMBER features="None" fn_mapping="Causation" grouping="" name="lead" verbnet_key="lead#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lead_up" verbnet_key="lead_up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="result" verbnet_key="result#3" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Causer">

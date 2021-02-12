@@ -1,24 +1,24 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="confront-98" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Confronting_problem" grouping="face.01" name="face" verbnet_key="face#1" wn="face%2:32:00 face%2:33:00 face%2:32:03"/>
-  <MEMBER fn_mapping="Hostile_encounter" grouping="confront.01 confront.02 confront.03" name="confront" verbnet_key="confront#1" wn="confront%2:33:00 confront%2:32:00 confront%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="head_on" verbnet_key="head_on#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="undertake.01" name="undertake" verbnet_key="undertake#2" wn="undertake%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="tackle.01" name="tackle" verbnet_key="tackle#1" wn="tackle%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="take_on" verbnet_key="take_on#2" wn="take_on%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="go_about" verbnet_key="go_about#1" wn="go_about%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="approach.03" name="approach" verbnet_key="approach#1" wn="approach%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="brave" verbnet_key="brave#1" wn="brave%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="handle.02" name="handle" verbnet_key="handle#1" wn="handle%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="intercept.01" name="intercept" verbnet_key="intercept#1" wn="intercept%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="target.01" name="target" verbnet_key="target#1" wn="target%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rival" verbnet_key="rival#1" wn="rival%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="counter.01" name="counter" verbnet_key="counter#1" wn="counter%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pre-empt" verbnet_key="pre-empt#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="combat.01" name="combat" verbnet_key="combat#2" wn="combat%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="breast" verbnet_key="breast#1" wn="breast%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="move.07" name="move_in_on" verbnet_key="move_in_on#1" wn="move_in_on%2:38:00         move_in_on%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Confronting_problem" grouping="face.01" name="face" verbnet_key="face#1" wn="face%2:32:00 face%2:33:00 face%2:32:03"/>
+  <MEMBER features="None" fn_mapping="Hostile_encounter" grouping="confront.01 confront.02 confront.03" name="confront" verbnet_key="confront#1" wn="confront%2:33:00 confront%2:32:00 confront%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="head_on" verbnet_key="head_on#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="undertake.01" name="undertake" verbnet_key="undertake#2" wn="undertake%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tackle.01" name="tackle" verbnet_key="tackle#1" wn="tackle%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="take_on" verbnet_key="take_on#2" wn="take_on%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_about" verbnet_key="go_about#1" wn="go_about%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="approach.03" name="approach" verbnet_key="approach#1" wn="approach%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="brave" verbnet_key="brave#1" wn="brave%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="handle.02" name="handle" verbnet_key="handle#1" wn="handle%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="intercept.01" name="intercept" verbnet_key="intercept#1" wn="intercept%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="target.01" name="target" verbnet_key="target#1" wn="target%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rival" verbnet_key="rival#1" wn="rival%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="counter.01" name="counter" verbnet_key="counter#1" wn="counter%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pre-empt" verbnet_key="pre-empt#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="combat.01" name="combat" verbnet_key="combat#2" wn="combat%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="breast" verbnet_key="breast#1" wn="breast%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="move.07" name="move_in_on" verbnet_key="move_in_on#1" wn="move_in_on%2:38:00         move_in_on%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

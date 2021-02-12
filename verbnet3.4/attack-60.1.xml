@@ -1,17 +1,17 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="attack-60.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="ambush" verbnet_key="ambush#1" wn="ambush%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="assail.01" name="assail" verbnet_key="assail#1" wn="assail%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="assault.01" name="assault" verbnet_key="assault#1" wn="assault%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="bomb.01" name="bomb" verbnet_key="bomb#1" wn="bomb%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="bombard.01" name="bombard" verbnet_key="bombard#1" wn="bomb%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="charge.05" name="charge" verbnet_key="charge#1" wn="charge%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fall_upon" verbnet_key="fall_upon#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="jump.04" name="jump" verbnet_key="jump#1" wn="jump%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="lay.05" name="lay_into" verbnet_key="lay_into#1" wn="lay_into%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="round.05" name="round_on" verbnet_key="round_on#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="set.09" name="set_upon" verbnet_key="set_upon#1" wn="set_upon%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ambush" verbnet_key="ambush#1" wn="ambush%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="assail.01" name="assail" verbnet_key="assail#1" wn="assail%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="assault.01" name="assault" verbnet_key="assault#1" wn="assault%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bomb.01" name="bomb" verbnet_key="bomb#1" wn="bomb%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bombard.01" name="bombard" verbnet_key="bombard#1" wn="bomb%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="charge.05" name="charge" verbnet_key="charge#1" wn="charge%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fall_upon" verbnet_key="fall_upon#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="jump.04" name="jump" verbnet_key="jump#1" wn="jump%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="lay.05" name="lay_into" verbnet_key="lay_into#1" wn="lay_into%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="round.05" name="round_on" verbnet_key="round_on#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="set.09" name="set_upon" verbnet_key="set_upon#1" wn="set_upon%2:33:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -90,10 +90,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="attack-60.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="attack.01" name="attack" verbnet_key="attack#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="charge" verbnet_key="charge#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="raid" verbnet_key="raid#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="strike" verbnet_key="strike#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="attack.01" name="attack" verbnet_key="attack#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="charge" verbnet_key="charge#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="raid" verbnet_key="raid#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="strike" verbnet_key="strike#2" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

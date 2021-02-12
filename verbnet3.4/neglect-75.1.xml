@@ -1,13 +1,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="neglect-75.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="disregard.01" name="disregard" verbnet_key="disregard#1" wn="disregard%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="forgo.01" name="forgo" verbnet_key="forgo#4" wn="forgo%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="forego" verbnet_key="forego#1" wn="forego%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="ignore.01" name="ignore" verbnet_key="ignore#1" wn="ignore%2:31:03"/>
-  <MEMBER fn_mapping="None" grouping="leave.05" name="leave_out" verbnet_key="leave_out#1" wn="leave_out%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="overleap.03" name="overleap" verbnet_key="overleap#2" wn="overleap%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="overlook.01" name="overlook" verbnet_key="overlook#1" wn="overlook%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="disregard.01" name="disregard" verbnet_key="disregard#1" wn="disregard%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="forgo.01" name="forgo" verbnet_key="forgo#4" wn="forgo%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="forego" verbnet_key="forego#1" wn="forego%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ignore.01" name="ignore" verbnet_key="ignore#1" wn="ignore%2:31:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="leave.05" name="leave_out" verbnet_key="leave_out#1" wn="leave_out%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="overleap.03" name="overleap" verbnet_key="overleap#2" wn="overleap%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="overlook.01" name="overlook" verbnet_key="overlook#1" wn="overlook%2:31:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -51,9 +51,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="neglect-75.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="fail.03" name="fail" verbnet_key="fail#1" wn="fail%2:41:02"/>
-    <MEMBER fn_mapping="None" grouping="neglect.01 neglect.02" name="neglect" verbnet_key="neglect#1" wn="neglect%2:31:00 neglect%2:41:00                 neglect%2:31:05 neglect%2:31:01"/>
-    <MEMBER fn_mapping="None" grouping="omit.02" name="omit" verbnet_key="omit#2" wn="omit%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="fail.03" name="fail" verbnet_key="fail#1" wn="fail%2:41:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="neglect.01 neglect.02" name="neglect" verbnet_key="neglect#1" wn="neglect%2:31:00 neglect%2:41:00                 neglect%2:31:05 neglect%2:31:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="omit.02" name="omit" verbnet_key="omit#2" wn="omit%2:31:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

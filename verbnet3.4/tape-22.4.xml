@@ -1,77 +1,77 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="tape-22.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="affix" verbnet_key="affix#2" wn="affix%2:35:00 affix%2:35:01 affix%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="anchor" verbnet_key="anchor#1" wn="anchor%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="band" verbnet_key="band#2" wn="band%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="belt.03" name="belt" verbnet_key="belt#3" wn="belt%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="bond.01" name="bond" verbnet_key="bond#2" wn="bond%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="bolt.02" name="bolt" verbnet_key="bolt#4" wn="bolt%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bracket" verbnet_key="bracket#3" wn="?bracket%2:35:00"/>
-  <MEMBER fn_mapping="Closure" grouping="buckle.01" name="buckle" verbnet_key="buckle#1" wn="buckle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="button" verbnet_key="button#1" wn="button%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cable" verbnet_key="cable#2" wn="cable%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="cement.01" name="cement" verbnet_key="cement#1" wn="cement%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="chain.02" name="chain" verbnet_key="chain#1" wn="chain%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cinch" verbnet_key="cinch#1" wn="cinch%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="clamp.01" name="clamp" verbnet_key="clamp#1" wn="clamp%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="clasp.02" name="clasp" verbnet_key="clasp#2" wn="clasp%2:35:03 clasp%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="clip.03" name="clip" verbnet_key="clip#3" wn="clip%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="connect.01" name="connect" verbnet_key="connect#2" wn="connect%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="epoxy" verbnet_key="epoxy#1" wn="epoxy%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="fasten.01" name="fasten" verbnet_key="fasten#2" wn="fasten%2:35:00 fasten%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="fetter" verbnet_key="fetter#1" wn="fetter%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="glue.01" name="glue" verbnet_key="glue#1" wn="glue%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="gum.01" name="gum" verbnet_key="gum#2" wn="gum%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="handcuff" verbnet_key="handcuff#1" wn="handcuff%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="harness.01" name="harness" verbnet_key="harness#2" wn="harness%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hinge" verbnet_key="hinge#1" wn="hinge%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="" name="hitch" verbnet_key="hitch#1" wn=""/>
-  <MEMBER fn_mapping="Attaching" grouping="hook.01" name="hook" verbnet_key="hook#4" wn="hook%2:35:00"/>
-  <MEMBER fn_mapping="Rope_manipulation" grouping="" name="knot" verbnet_key="knot#1" wn="knot%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="lace.01" name="lace" verbnet_key="lace#1" wn="lace%2:35:01"/>
-  <MEMBER fn_mapping="Attaching" grouping="lash.03" name="lash" verbnet_key="lash#3" wn="lash%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="lasso" verbnet_key="lasso#1" wn="?lasso%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="latch" verbnet_key="latch#1" wn="latch%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="leash" verbnet_key="leash#2" wn="leash%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="link.02" name="link" verbnet_key="link#2" wn="link%2:35:00 link%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="lock.01" name="lock" verbnet_key="lock#1" wn="lock%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="loop.02" name="loop" verbnet_key="loop#2" wn="loop%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="manacle" verbnet_key="manacle#1" wn="manacle%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="" name="moor" verbnet_key="moor#3" wn="moor%2:35:01 moor%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="muzzle" verbnet_key="muzzle#3" wn="muzzle%2:40:00 muzzle%2:39:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="nail.01" name="nail" verbnet_key="nail#1" wn="nail%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="padlock" verbnet_key="padlock#1" wn="padlock%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="paste.01" name="paste" verbnet_key="paste#1" wn="paste%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="paste.01" name="paste" verbnet_key="paste#1" wn="paste%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="peg.03" name="peg" verbnet_key="peg#3" wn="peg%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="pin.01" name="pin" verbnet_key="pin#1" wn="pin%2:35:01"/>
-  <MEMBER fn_mapping="Attaching" grouping="" name="plaster" verbnet_key="plaster#3" wn="plaster%2:35:10"/>
-  <MEMBER fn_mapping="None" grouping="reeve.01 reeve.02" name="reeve" verbnet_key="reeve#1" wn="reeve%2:38:01 reeve%2:38:00 reeve%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="" name="rivet" verbnet_key="rivet#1" wn="rivet%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rope" verbnet_key="rope#1" wn="rope%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="screw.01" name="screw" verbnet_key="screw#1" wn="screw%2:35:01"/>
-  <MEMBER fn_mapping="Closure" grouping="seal.01" name="seal" verbnet_key="seal#2" wn="seal%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shackle" verbnet_key="shackle#1" wn="shackle%2:35:01 shackle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="skewer" verbnet_key="skewer#2" wn="skewer%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="solder" verbnet_key="solder#1" wn="solder%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="staple" verbnet_key="staple#1" wn="staple%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="stitch" verbnet_key="stitch#2" wn="stitch%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="strap.01" name="strap" verbnet_key="strap#2" wn="strap%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="string.03" name="string" verbnet_key="string#5" wn="string%2:35:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="suture" verbnet_key="suture#1" wn="suture%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="tack.01 tack.02" name="tack" verbnet_key="tack#3" wn="tack%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="tape.01" name="tape" verbnet_key="tape#1" wn="tape%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tether" verbnet_key="tether#1" wn="tether%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="thread.01" name="thread" verbnet_key="thread#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="thumbtack" verbnet_key="thumbtack#1" wn="thumbtack%2:35:00"/>
-  <MEMBER fn_mapping="Knot_creation" grouping="tie.01" name="tie" verbnet_key="tie#2" wn="tie%2:35:00 tie%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="trammel" verbnet_key="trammel#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="truss" verbnet_key="truss#1" wn="truss%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="weld.01" name="weld" verbnet_key="weld#3" wn="weld%2:35:00"/>
-  <MEMBER fn_mapping="Attaching" grouping="wire.02" name="wire" verbnet_key="wire#3" wn="wire%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="yoke" verbnet_key="yoke#2" wn="yoke%2:35:01 yoke%2:35:00"/>
-  <MEMBER fn_mapping="Closure" grouping="zip.01" name="zip" verbnet_key="zip#1" wn="zip%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="affix" verbnet_key="affix#2" wn="affix%2:35:00 affix%2:35:01 affix%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="anchor" verbnet_key="anchor#1" wn="anchor%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="band" verbnet_key="band#2" wn="band%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="belt.03" name="belt" verbnet_key="belt#3" wn="belt%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bond.01" name="bond" verbnet_key="bond#2" wn="bond%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bolt.02" name="bolt" verbnet_key="bolt#4" wn="bolt%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bracket" verbnet_key="bracket#3" wn="?bracket%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Closure" grouping="buckle.01" name="buckle" verbnet_key="buckle#1" wn="buckle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="button" verbnet_key="button#1" wn="button%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cable" verbnet_key="cable#2" wn="cable%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="cement.01" name="cement" verbnet_key="cement#1" wn="cement%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="chain.02" name="chain" verbnet_key="chain#1" wn="chain%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cinch" verbnet_key="cinch#1" wn="cinch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="clamp.01" name="clamp" verbnet_key="clamp#1" wn="clamp%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="clasp.02" name="clasp" verbnet_key="clasp#2" wn="clasp%2:35:03 clasp%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="clip.03" name="clip" verbnet_key="clip#3" wn="clip%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="connect.01" name="connect" verbnet_key="connect#2" wn="connect%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="epoxy" verbnet_key="epoxy#1" wn="epoxy%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fasten.01" name="fasten" verbnet_key="fasten#2" wn="fasten%2:35:00 fasten%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fetter" verbnet_key="fetter#1" wn="fetter%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="glue.01" name="glue" verbnet_key="glue#1" wn="glue%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="gum.01" name="gum" verbnet_key="gum#2" wn="gum%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="handcuff" verbnet_key="handcuff#1" wn="handcuff%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="harness.01" name="harness" verbnet_key="harness#2" wn="harness%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hinge" verbnet_key="hinge#1" wn="hinge%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="" name="hitch" verbnet_key="hitch#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="hook.01" name="hook" verbnet_key="hook#4" wn="hook%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Rope_manipulation" grouping="" name="knot" verbnet_key="knot#1" wn="knot%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="lace.01" name="lace" verbnet_key="lace#1" wn="lace%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="lash.03" name="lash" verbnet_key="lash#3" wn="lash%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lasso" verbnet_key="lasso#1" wn="?lasso%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="latch" verbnet_key="latch#1" wn="latch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="leash" verbnet_key="leash#2" wn="leash%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="link.02" name="link" verbnet_key="link#2" wn="link%2:35:00 link%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="lock.01" name="lock" verbnet_key="lock#1" wn="lock%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="loop.02" name="loop" verbnet_key="loop#2" wn="loop%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="manacle" verbnet_key="manacle#1" wn="manacle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="" name="moor" verbnet_key="moor#3" wn="moor%2:35:01 moor%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="muzzle" verbnet_key="muzzle#3" wn="muzzle%2:40:00 muzzle%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="nail.01" name="nail" verbnet_key="nail#1" wn="nail%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="padlock" verbnet_key="padlock#1" wn="padlock%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="paste.01" name="paste" verbnet_key="paste#1" wn="paste%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="paste.01" name="paste" verbnet_key="paste#1" wn="paste%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="peg.03" name="peg" verbnet_key="peg#3" wn="peg%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="pin.01" name="pin" verbnet_key="pin#1" wn="pin%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="" name="plaster" verbnet_key="plaster#3" wn="plaster%2:35:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="reeve.01 reeve.02" name="reeve" verbnet_key="reeve#1" wn="reeve%2:38:01 reeve%2:38:00 reeve%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="" name="rivet" verbnet_key="rivet#1" wn="rivet%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rope" verbnet_key="rope#1" wn="rope%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="screw.01" name="screw" verbnet_key="screw#1" wn="screw%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Closure" grouping="seal.01" name="seal" verbnet_key="seal#2" wn="seal%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shackle" verbnet_key="shackle#1" wn="shackle%2:35:01 shackle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="skewer" verbnet_key="skewer#2" wn="skewer%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="solder" verbnet_key="solder#1" wn="solder%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="staple" verbnet_key="staple#1" wn="staple%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stitch" verbnet_key="stitch#2" wn="stitch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="strap.01" name="strap" verbnet_key="strap#2" wn="strap%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="string.03" name="string" verbnet_key="string#5" wn="string%2:35:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="suture" verbnet_key="suture#1" wn="suture%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="tack.01 tack.02" name="tack" verbnet_key="tack#3" wn="tack%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="tape.01" name="tape" verbnet_key="tape#1" wn="tape%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tether" verbnet_key="tether#1" wn="tether%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="thread.01" name="thread" verbnet_key="thread#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="thumbtack" verbnet_key="thumbtack#1" wn="thumbtack%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Knot_creation" grouping="tie.01" name="tie" verbnet_key="tie#2" wn="tie%2:35:00 tie%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="trammel" verbnet_key="trammel#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="truss" verbnet_key="truss#1" wn="truss%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="weld.01" name="weld" verbnet_key="weld#3" wn="weld%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="wire.02" name="wire" verbnet_key="wire#3" wn="wire%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="yoke" verbnet_key="yoke#2" wn="yoke%2:35:01 yoke%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Closure" grouping="zip.01" name="zip" verbnet_key="zip#1" wn="zip%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--Patient is interpreted as Figure, Co-Patient as Ground-->

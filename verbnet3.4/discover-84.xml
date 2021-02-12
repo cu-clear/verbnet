@@ -1,22 +1,22 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="discover-84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Coming_to_believe" grouping="deduce.01" name="deduce" verbnet_key="deduce#2" wn="deduce%2:31:00 deduce%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="determine.01" name="determine" verbnet_key="determine#2" wn="determine%2:32:00 determine%2:32:01"/>
-  <MEMBER fn_mapping="Becoming_aware" grouping="discover.01" name="discover" verbnet_key="discover#1" wn="discover%2:39:03 discover%2:31:01 discover%2:36:00 discover%2:31:00 discover%2:40:00 discover%2:39:00 discover%2:31:03"/>
-  <MEMBER fn_mapping="Becoming_aware" grouping="find.01 find.02" name="find" verbnet_key="find#2" wn="find%2:39:02 find%2:40:00 find%2:32:00 find%2:36:00 find%2:31:09"/>
-  <MEMBER fn_mapping="Coming_to_believe" grouping="guess.02" name="guess" verbnet_key="guess#2" wn="guess%2:31:02"/>
-  <MEMBER fn_mapping="Coming_to_believe" grouping="realize.01" name="realize" verbnet_key="realize#2" wn="realize%2:31:01"/>
-  <MEMBER fn_mapping="Coming_to_believe" grouping="ascertain.01" name="ascertain" verbnet_key="ascertain#1" wn="ascertain%2:31:01"/>
-  <MEMBER fn_mapping="Justifying" grouping="rationalize.01" name="rationalize" verbnet_key="rationalize#2" wn="rationalize%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="relearn" verbnet_key="relearn#1" wn="relearn%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="see.02" name="see" verbnet_key="see#2" wn="see%2:31:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="scent_out" verbnet_key="scent_out#1" wn="scent_out%2:39:00"/>
-  <MEMBER fn_mapping="Resolve_problem" grouping="solve.01 solve.02" name="solve" verbnet_key="solve#1" wn="solve%2:31:00 solve%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="chance_across" verbnet_key="chance_across#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="chance_on" verbnet_key="chance_on#1" wn="chance_on%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="chance_upon" verbnet_key="chance_upon#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="work.08" name="work_out" verbnet_key="work_out#1" wn="work_out%2:31:04"/>
+  <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="deduce.01" name="deduce" verbnet_key="deduce#2" wn="deduce%2:31:00 deduce%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="determine.01" name="determine" verbnet_key="determine#2" wn="determine%2:32:00 determine%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Becoming_aware" grouping="discover.01" name="discover" verbnet_key="discover#1" wn="discover%2:39:03 discover%2:31:01 discover%2:36:00 discover%2:31:00 discover%2:40:00 discover%2:39:00 discover%2:31:03"/>
+  <MEMBER features="None" fn_mapping="Becoming_aware" grouping="find.01 find.02" name="find" verbnet_key="find#2" wn="find%2:39:02 find%2:40:00 find%2:32:00 find%2:36:00 find%2:31:09"/>
+  <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="guess.02" name="guess" verbnet_key="guess#2" wn="guess%2:31:02"/>
+  <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="realize.01" name="realize" verbnet_key="realize#2" wn="realize%2:31:01"/>
+  <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="ascertain.01" name="ascertain" verbnet_key="ascertain#1" wn="ascertain%2:31:01"/>
+  <MEMBER features="None" fn_mapping="Justifying" grouping="rationalize.01" name="rationalize" verbnet_key="rationalize#2" wn="rationalize%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="relearn" verbnet_key="relearn#1" wn="relearn%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="see.02" name="see" verbnet_key="see#2" wn="see%2:31:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="scent_out" verbnet_key="scent_out#1" wn="scent_out%2:39:00"/>
+  <MEMBER features="None" fn_mapping="Resolve_problem" grouping="solve.01 solve.02" name="solve" verbnet_key="solve#1" wn="solve%2:31:00 solve%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chance_across" verbnet_key="chance_across#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chance_on" verbnet_key="chance_on#1" wn="chance_on%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chance_upon" verbnet_key="chance_upon#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="work.08" name="work_out" verbnet_key="work_out#1" wn="work_out%2:31:04"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -211,7 +211,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="discover-84-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="pick_up" verbnet_key="pick_up#1" wn="pick_up%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pick_up" verbnet_key="pick_up#1" wn="pick_up%2:31:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -502,11 +502,11 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="discover-84-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Hearsay" grouping="hear.01" name="hear" verbnet_key="hear#1" wn="hear%2:31:00"/>
-      <MEMBER fn_mapping="None" grouping="learn.02" name="learn" verbnet_key="learn#1" wn="learn%2:31:01"/>
-      <MEMBER fn_mapping="Scrutiny" grouping="study.01" name="study" verbnet_key="study#2" wn="study%2:31:02"/>
-      <MEMBER fn_mapping="None" grouping="" name="find_out" verbnet_key="find_out#1" wn="find_out%2:31:00 find_out%2:32:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="figure_out" verbnet_key="figure_out#1" wn="figure_out%2:31:00"/>
+      <MEMBER features="None" fn_mapping="Hearsay" grouping="hear.01" name="hear" verbnet_key="hear#1" wn="hear%2:31:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="learn.02" name="learn" verbnet_key="learn#1" wn="learn%2:31:01"/>
+      <MEMBER features="None" fn_mapping="Scrutiny" grouping="study.01" name="study" verbnet_key="study#2" wn="study%2:31:02"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="find_out" verbnet_key="find_out#1" wn="find_out%2:31:00 find_out%2:32:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="figure_out" verbnet_key="figure_out#1" wn="figure_out%2:31:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

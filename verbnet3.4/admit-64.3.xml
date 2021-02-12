@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="admit-64.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="allow.01" name="allow" verbnet_key="allow#1" wn="allow%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="let" verbnet_key="let#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="hail.03" name="hail" verbnet_key="hail#1" wn="hail%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="allow.01" name="allow" verbnet_key="allow#1" wn="allow%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="let" verbnet_key="let#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="hail.03" name="hail" verbnet_key="hail#1" wn="hail%2:32:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -48,11 +48,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="admit-64.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="admit.02 admit.03" name="admit" verbnet_key="admit#1" wn="admit%2:41:01 admit%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="include.02" name="include" verbnet_key="include#1" wn="include%2:41:03"/>
-    <MEMBER fn_mapping="None" grouping="permit.01" name="permit" verbnet_key="permit#1" wn="permit%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="receive.02" name="receive" verbnet_key="receive#1" wn="receive%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="welcome.02" name="welcome" verbnet_key="welcome#1" wn="welcome%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="admit.02 admit.03" name="admit" verbnet_key="admit#1" wn="admit%2:41:01 admit%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="include.02" name="include" verbnet_key="include#1" wn="include%2:41:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="permit.01" name="permit" verbnet_key="permit#1" wn="permit%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="receive.02" name="receive" verbnet_key="receive#1" wn="receive%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="welcome.02" name="welcome" verbnet_key="welcome#1" wn="welcome%2:35:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

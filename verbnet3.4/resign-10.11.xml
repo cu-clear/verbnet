@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="resign-10.11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="leave_office" verbnet_key="leave_office#1" wn="leave_office%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="step_down" verbnet_key="step_down#1" wn="step_down%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="walk_out" verbnet_key="walk_out#1" wn="walk_out%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="leave_office" verbnet_key="leave_office#1" wn="leave_office%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="step_down" verbnet_key="step_down#1" wn="step_down%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="walk_out" verbnet_key="walk_out#1" wn="walk_out%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -65,12 +65,12 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="resign-10.11-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="resign.01" name="resign" verbnet_key="resign#2" wn="resign%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="retire.01" name="retire" verbnet_key="retire#1" wn="retire%2:41:02"/>
-    <MEMBER fn_mapping="Cotheme" grouping="walk.03" name="walk" verbnet_key="walk#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="walk.03" name="walk_away" verbnet_key="walk_away#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="walk.03" name="walk_out" verbnet_key="walk_out#1" wn="walk_out%2:38:00"/>
-    <MEMBER fn_mapping="None" grouping="withdraw.01" name="withdraw" verbnet_key="withdraw#3" wn="withdraw%2:41:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="resign.01" name="resign" verbnet_key="resign#2" wn="resign%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="retire.01" name="retire" verbnet_key="retire#1" wn="retire%2:41:02"/>
+    <MEMBER features="None" fn_mapping="Cotheme" grouping="walk.03" name="walk" verbnet_key="walk#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="walk.03" name="walk_away" verbnet_key="walk_away#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="walk.03" name="walk_out" verbnet_key="walk_out#1" wn="walk_out%2:38:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="withdraw.01" name="withdraw" verbnet_key="withdraw#3" wn="withdraw%2:41:01"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Attribute">
@@ -182,15 +182,15 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="resign-10.11-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="abdicate" verbnet_key="abdicate#1" wn="abdicate%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="depart.01" name="depart" verbnet_key="depart#2" wn="depart%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="give_up" verbnet_key="give_up#1" wn="give_up%2:41:05"/>
-    <MEMBER fn_mapping="None" grouping="leave.01" name="leave" verbnet_key="leave#8" wn="leave%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="renounce.01" name="renounce" verbnet_key="renounce#1" wn="renounce%2:41:00 renounce%2:41:01"/>
-    <MEMBER fn_mapping="None" grouping="resign.01" name="resign" verbnet_key="resign#2" wn="resign%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="quit.02" name="quit" verbnet_key="quit#2" wn="quit%2:41:00"/>
-    <MEMBER fn_mapping="None" grouping="vacate.01" name="vacate" verbnet_key="vacate#2" wn="vacate%2:41:00 resign%2:41:05"/>
-    <MEMBER fn_mapping="None" grouping="" name="walk_off" verbnet_key="walk_off#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="abdicate" verbnet_key="abdicate#1" wn="abdicate%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="depart.01" name="depart" verbnet_key="depart#2" wn="depart%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="give_up" verbnet_key="give_up#1" wn="give_up%2:41:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="leave.01" name="leave" verbnet_key="leave#8" wn="leave%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="renounce.01" name="renounce" verbnet_key="renounce#1" wn="renounce%2:41:00 renounce%2:41:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="resign.01" name="resign" verbnet_key="resign#2" wn="resign%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="quit.02" name="quit" verbnet_key="quit#2" wn="quit%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="vacate.01" name="vacate" verbnet_key="vacate#2" wn="vacate%2:41:00 resign%2:41:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="walk_off" verbnet_key="walk_off#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

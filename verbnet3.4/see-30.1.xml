@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="see-30.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="tell.02" name="can_tell" verbnet_key="can_tell#1" wn="tell%2:31:00 tell%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="smell.01" name="smell" verbnet_key="smell#1" wn="smell%2:39:01"/>
-  <MEMBER fn_mapping="Perception_experience" grouping="taste.01 taste.02" name="taste" verbnet_key="taste#2" wn="taste%2:34:00 taste%2:39:00 taste%2:39:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tell.02" name="can_tell" verbnet_key="can_tell#1" wn="tell%2:31:00 tell%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="smell.01" name="smell" verbnet_key="smell#1" wn="smell%2:39:01"/>
+  <MEMBER features="None" fn_mapping="Perception_experience" grouping="taste.01 taste.02" name="taste" verbnet_key="taste#2" wn="taste%2:34:00 taste%2:39:00 taste%2:39:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">
@@ -186,13 +186,13 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="see-30.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="detect.01" name="detect" verbnet_key="detect#1" wn="detect%2:39:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="discern" verbnet_key="discern#1" wn="discern%2:39:00"/>
-    <MEMBER fn_mapping="Perception_experience" grouping="feel.01 feel.02" name="feel" verbnet_key="feel#4" wn="feel%2:31:00 feel%2:39:00 feel%2:29:00 feel%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="sense.01 sense.03" name="sense" verbnet_key="sense#1" wn="sense%2:39:00"/>
-    <MEMBER fn_mapping="Perception_experience" grouping="perceive.01" name="perceive" verbnet_key="perceive#2" wn=""/>
-    <MEMBER fn_mapping="Becoming_aware" grouping="notice.01" name="notice" verbnet_key="notice#1" wn="notice%2:39:04 notice%2:39:00"/>
-    <MEMBER fn_mapping="Perception_experience" grouping="see.01 see.03" name="see" verbnet_key="see#3" wn="see%2:39:00 see%2:39:02 see%2:36:00 see%2:39:03 see%2:32:00 see%2:41:11 see%2:41:12 see%2:41:10 see%2:39:11 see%2:39:13"/>
+    <MEMBER features="None" fn_mapping="None" grouping="detect.01" name="detect" verbnet_key="detect#1" wn="detect%2:39:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="discern" verbnet_key="discern#1" wn="discern%2:39:00"/>
+    <MEMBER features="None" fn_mapping="Perception_experience" grouping="feel.01 feel.02" name="feel" verbnet_key="feel#4" wn="feel%2:31:00 feel%2:39:00 feel%2:29:00 feel%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="sense.01 sense.03" name="sense" verbnet_key="sense#1" wn="sense%2:39:00"/>
+    <MEMBER features="None" fn_mapping="Perception_experience" grouping="perceive.01" name="perceive" verbnet_key="perceive#2" wn=""/>
+    <MEMBER features="None" fn_mapping="Becoming_aware" grouping="notice.01" name="notice" verbnet_key="notice#1" wn="notice%2:39:04 notice%2:39:00"/>
+    <MEMBER features="None" fn_mapping="Perception_experience" grouping="see.01 see.03" name="see" verbnet_key="see#3" wn="see%2:39:00 see%2:39:02 see%2:36:00 see%2:39:03 see%2:32:00 see%2:41:11 see%2:41:12 see%2:41:10 see%2:39:11 see%2:39:13"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -302,7 +302,7 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="see-30.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Perception_experience" grouping="hear.01 hear.02" name="hear" verbnet_key="hear#2" wn="hear%2:39:00 hear%2:31:00 hear%2:39:01 hear%2:39:05"/>
+      <MEMBER features="None" fn_mapping="Perception_experience" grouping="hear.01 hear.02" name="hear" verbnet_key="hear#2" wn="hear%2:39:00 hear%2:31:00 hear%2:39:01 hear%2:39:05"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

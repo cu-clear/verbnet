@@ -1,43 +1,43 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="braid-41.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="bob.05" name="bob" verbnet_key="bob#1" wn="bob%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="braid" verbnet_key="braid#1" wn="braid%2:35:00"/>
-  <MEMBER fn_mapping="Grooming" grouping="brush.01" name="brush" verbnet_key="brush#1" wn="brush%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="clip.01" name="clip" verbnet_key="clip#1" wn="clip%2:35:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="coldcream" verbnet_key="coldcream#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="comb.01" name="comb" verbnet_key="comb#1" wn="comb%2:35:01 comb%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="condition.04" name="condition" verbnet_key="condition#1" wn="condition%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="crimp" verbnet_key="crimp#1" wn="crimp%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="crop.01" name="crop" verbnet_key="crop#1" wn="crop%2:35:02"/>
-  <MEMBER fn_mapping="Hair_configuration" grouping="curl.01" name="curl" verbnet_key="curl#1" wn="curl%2:35:00"/>
-  <MEMBER fn_mapping="Experience_bodily_harm" grouping="cut.01" name="cut" verbnet_key="cut#2" wn="cut%2:30:14"/>
-  <MEMBER fn_mapping="None" grouping="" name="dye" verbnet_key="dye#1" wn="dye%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="file.02" name="file" verbnet_key="file#1" wn="file%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gel" verbnet_key="gel#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="henna" verbnet_key="henna#1" wn="henna%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="highlight" verbnet_key="highlight#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="lather" verbnet_key="lather#1" wn="lather%2:30:00 lather%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="manicure" verbnet_key="manicure#1" wn="manicure%2:29:01 manicure%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="part" verbnet_key="part#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="perm" verbnet_key="perm#1" wn="perm%2:29:00"/>
-  <MEMBER fn_mapping="Create_representation" grouping="" name="paint" verbnet_key="paint#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="plait" verbnet_key="plait#1" wn="plait%2:35:00"/>
-  <MEMBER fn_mapping="Removing" grouping="pluck.01" name="pluck" verbnet_key="pluck#1" wn="pluck%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="powder" verbnet_key="powder#1" wn="powder%2:29:00"/>
-  <MEMBER fn_mapping="Removing" grouping="rinse.01 rinse.02" name="rinse" verbnet_key="rinse#1" wn="rinse%2:35:00 rinse%2:35:02 rinse%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rouge" verbnet_key="rouge#1" wn="rouge%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="set.07" name="set" verbnet_key="set#1" wn="set%2:29:05"/>
-  <MEMBER fn_mapping="None" grouping="" name="shampoo" verbnet_key="shampoo#1" wn="shampoo%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="soap" verbnet_key="soap#1" wn="soap%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="style" verbnet_key="style#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="talc" verbnet_key="talc#1" wn="talc%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="tease.05" name="tease" verbnet_key="tease#1" wn="tease%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="towel" verbnet_key="towel#1" wn="towel%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="trim.01 trim.03" name="trim" verbnet_key="trim#1" wn="trim%2:35:03 trim%2:36:01 trim%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tweeze" verbnet_key="tweeze#1" wn="tweeze%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="wave.03" name="wave" verbnet_key="wave#1" wn="wave%2:35:01 wave%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wax" verbnet_key="wax#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="bob.05" name="bob" verbnet_key="bob#1" wn="bob%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="braid" verbnet_key="braid#1" wn="braid%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Grooming" grouping="brush.01" name="brush" verbnet_key="brush#1" wn="brush%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="clip.01" name="clip" verbnet_key="clip#1" wn="clip%2:35:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="coldcream" verbnet_key="coldcream#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="comb.01" name="comb" verbnet_key="comb#1" wn="comb%2:35:01 comb%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="condition.04" name="condition" verbnet_key="condition#1" wn="condition%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crimp" verbnet_key="crimp#1" wn="crimp%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="crop.01" name="crop" verbnet_key="crop#1" wn="crop%2:35:02"/>
+  <MEMBER features="None" fn_mapping="Hair_configuration" grouping="curl.01" name="curl" verbnet_key="curl#1" wn="curl%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="cut.01" name="cut" verbnet_key="cut#2" wn="cut%2:30:14"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dye" verbnet_key="dye#1" wn="dye%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="file.02" name="file" verbnet_key="file#1" wn="file%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gel" verbnet_key="gel#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="henna" verbnet_key="henna#1" wn="henna%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="highlight" verbnet_key="highlight#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lather" verbnet_key="lather#1" wn="lather%2:30:00 lather%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="manicure" verbnet_key="manicure#1" wn="manicure%2:29:01 manicure%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="part" verbnet_key="part#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="perm" verbnet_key="perm#1" wn="perm%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Create_representation" grouping="" name="paint" verbnet_key="paint#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="plait" verbnet_key="plait#1" wn="plait%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="pluck.01" name="pluck" verbnet_key="pluck#1" wn="pluck%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="powder" verbnet_key="powder#1" wn="powder%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Removing" grouping="rinse.01 rinse.02" name="rinse" verbnet_key="rinse#1" wn="rinse%2:35:00 rinse%2:35:02 rinse%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rouge" verbnet_key="rouge#1" wn="rouge%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="set.07" name="set" verbnet_key="set#1" wn="set%2:29:05"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shampoo" verbnet_key="shampoo#1" wn="shampoo%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="soap" verbnet_key="soap#1" wn="soap%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="style" verbnet_key="style#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="talc" verbnet_key="talc#1" wn="talc%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tease.05" name="tease" verbnet_key="tease#1" wn="tease%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="towel" verbnet_key="towel#1" wn="towel%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="trim.01 trim.03" name="trim" verbnet_key="trim#1" wn="trim%2:35:03 trim%2:36:01 trim%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tweeze" verbnet_key="tweeze#1" wn="tweeze%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wave.03" name="wave" verbnet_key="wave#1" wn="wave%2:35:01 wave%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wax" verbnet_key="wax#2" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

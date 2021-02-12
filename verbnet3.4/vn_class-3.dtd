@@ -22,7 +22,10 @@
 <!ELEMENT MEMBER EMPTY>
  <!ATTLIST MEMBER name CDATA #REQUIRED
                   wn CDATA #REQUIRED
-                  grouping CDATA #IMPLIED>
+                  grouping CDATA #IMPLIED
+                  fn_mapping CDATA #REQUIRED
+                  verbnet_key CDATA #REQUIRED
+                  features CDATA #REQUIRED>
 
 <!ELEMENT THEMROLE (SELRESTRS)>
 <!ATTLIST THEMROLE type CDATA #REQUIRED>
@@ -68,7 +71,7 @@
 
 <!ELEMENT ARGS (ARG+)>
 <!ELEMENT ARG EMPTY>
-<!ATTLIST ARG type (Event|ThemRole|VerbSpecific|Constant) #REQUIRED
+<!ATTLIST ARG type (Event|ThemRole|VerbSpecific|Constant|PredSpecific) #REQUIRED
               value CDATA #REQUIRED>
 
 <!ELEMENT QUALIA (#PCDATA)>

@@ -1,40 +1,40 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="characterize-29.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Being_in_category" grouping="count.03" name="count" verbnet_key="count#1" wn="count%2:31:00"/>
-  <MEMBER fn_mapping="Communicate_categorization" grouping="depict.01" name="depict" verbnet_key="depict#1" wn="depict%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="detail.01" name="detail" verbnet_key="detail#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="envision.01" name="envision" verbnet_key="envision#1" wn="envision%2:36:00 envision%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="fancy" verbnet_key="fancy#2" wn="fancy%2:36:00"/>
-  <MEMBER fn_mapping="Categorization" grouping="" name="interpret" verbnet_key="interpret#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="moot" verbnet_key="moot#1" wn="moot%2:32:00"/>
-  <MEMBER fn_mapping="Categorization" grouping="" name="peg" verbnet_key="peg#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="picture.01" name="picture" verbnet_key="picture#1" wn="picture%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="pigeonhole" verbnet_key="pigeonhole#1" wn="pigeonhole%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="paint.05" name="paint" verbnet_key="paint#2" wn="paint%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="recast" verbnet_key="recast#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="redraw" verbnet_key="redraw#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="specify" verbnet_key="specify#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="stereotype" verbnet_key="stereotype#1" wn="stereotype%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="typecast" verbnet_key="typecast#1" wn="typecast%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="bill.02" name="bill" verbnet_key="bill#2" wn="bill%2:32:00 bill%2:32:01"/>
-  <MEMBER fn_mapping="Behind_the_scenes" grouping="cast.03" name="cast" verbnet_key="cast#2" wn="cast%2:36:01 cast%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="diagnose.02" name="diagnose" verbnet_key="diagnose#1" wn="diagnose%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="certify.01 certify.03 certify.04" name="certify" verbnet_key="certify#1" wn="certify%2:41:02 certify%2:41:00 certify%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="praise.01" name="praise" verbnet_key="praise#1" wn="praise%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="hail.01 hail.02" name="hail" verbnet_key="hail#2" wn="hail%2:32:02 hail%2:32:00"/>
-  <MEMBER fn_mapping="Regard" grouping="regard.01" name="regard" verbnet_key="regard#2" wn="regard%2:31:00"/>
-  <MEMBER fn_mapping="Topic" grouping="treat.01 treat.05" name="treat" verbnet_key="treat#1" wn="treat%2:31:00"/>
-  <MEMBER fn_mapping="Occupy_rank" grouping="rank.01" name="rank" verbnet_key="rank#1" wn="rank%2:31:13"/>
-  <MEMBER fn_mapping="None" grouping="take.05 take.07 take.08" name="take" verbnet_key="take#4" wn="take%2:31:07 take%2:31:01 take%2:40:05"/>
-  <MEMBER fn_mapping="Categorization" grouping="perceive.03" name="perceive" verbnet_key="perceive#1" wn=""/>
-  <MEMBER fn_mapping="Adopt_selection" grouping="adopt.02" name="adopt" verbnet_key="adopt#3" wn="adopt%2:40:02 adopt%2:40:00 adopt%2:41:01 adopt%2:31:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="class" verbnet_key="class#1" wn="class%2:31:00"/>
-  <MEMBER fn_mapping="Categorization" grouping="classify.01" name="classify" verbnet_key="classify#1" wn="classify%2:31:00 classify%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="select.01" name="select" verbnet_key="select#1" wn="select%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="subselect" verbnet_key="subselect#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="pidgeonhole" verbnet_key="pidgeonhole#1" wn="pigeonhole%2:31:00"/>
-  <MEMBER fn_mapping="None" grouping="stamp.05" name="stamp" verbnet_key="stamp#1" wn="stamp%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Being_in_category" grouping="count.03" name="count" verbnet_key="count#1" wn="count%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Communicate_categorization" grouping="depict.01" name="depict" verbnet_key="depict#1" wn="depict%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="detail.01" name="detail" verbnet_key="detail#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="envision.01" name="envision" verbnet_key="envision#1" wn="envision%2:36:00 envision%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fancy" verbnet_key="fancy#2" wn="fancy%2:36:00"/>
+  <MEMBER features="None" fn_mapping="Categorization" grouping="" name="interpret" verbnet_key="interpret#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="moot" verbnet_key="moot#1" wn="moot%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Categorization" grouping="" name="peg" verbnet_key="peg#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="picture.01" name="picture" verbnet_key="picture#1" wn="picture%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pigeonhole" verbnet_key="pigeonhole#1" wn="pigeonhole%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="paint.05" name="paint" verbnet_key="paint#2" wn="paint%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="recast" verbnet_key="recast#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="redraw" verbnet_key="redraw#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="specify" verbnet_key="specify#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stereotype" verbnet_key="stereotype#1" wn="stereotype%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="typecast" verbnet_key="typecast#1" wn="typecast%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bill.02" name="bill" verbnet_key="bill#2" wn="bill%2:32:00 bill%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Behind_the_scenes" grouping="cast.03" name="cast" verbnet_key="cast#2" wn="cast%2:36:01 cast%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="diagnose.02" name="diagnose" verbnet_key="diagnose#1" wn="diagnose%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="certify.01 certify.03 certify.04" name="certify" verbnet_key="certify#1" wn="certify%2:41:02 certify%2:41:00 certify%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="praise.01" name="praise" verbnet_key="praise#1" wn="praise%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hail.01 hail.02" name="hail" verbnet_key="hail#2" wn="hail%2:32:02 hail%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Regard" grouping="regard.01" name="regard" verbnet_key="regard#2" wn="regard%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Topic" grouping="treat.01 treat.05" name="treat" verbnet_key="treat#1" wn="treat%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Occupy_rank" grouping="rank.01" name="rank" verbnet_key="rank#1" wn="rank%2:31:13"/>
+  <MEMBER features="None" fn_mapping="None" grouping="take.05 take.07 take.08" name="take" verbnet_key="take#4" wn="take%2:31:07 take%2:31:01 take%2:40:05"/>
+  <MEMBER features="None" fn_mapping="Categorization" grouping="perceive.03" name="perceive" verbnet_key="perceive#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Adopt_selection" grouping="adopt.02" name="adopt" verbnet_key="adopt#3" wn="adopt%2:40:02 adopt%2:40:00 adopt%2:41:01 adopt%2:31:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="class" verbnet_key="class#1" wn="class%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Categorization" grouping="classify.01" name="classify" verbnet_key="classify#1" wn="classify%2:31:00 classify%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="select.01" name="select" verbnet_key="select#1" wn="select%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="subselect" verbnet_key="subselect#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pidgeonhole" verbnet_key="pidgeonhole#1" wn="pigeonhole%2:31:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stamp.05" name="stamp" verbnet_key="stamp#1" wn="stamp%2:31:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -192,10 +192,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="characterize-29.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Distinctiveness" grouping="characterize.02" name="characterize" verbnet_key="characterize#1" wn="characterize%2:42:01"/>
-    <MEMBER fn_mapping="Awareness" grouping="conceive.01" name="conceive" verbnet_key="conceive#1" wn="conceive%2:31:00"/>
-    <MEMBER fn_mapping="Categorization" grouping="view.01" name="view" verbnet_key="view#1" wn="view%2:31:00"/>
-    <MEMBER fn_mapping="None" grouping="underestimate.01" name="underestimate" verbnet_key="underestimate#1" wn="underestimate%2:31:00                 underestimate%2:31:01 underestimate%2:31:02"/>
+    <MEMBER features="None" fn_mapping="Distinctiveness" grouping="characterize.02" name="characterize" verbnet_key="characterize#1" wn="characterize%2:42:01"/>
+    <MEMBER features="None" fn_mapping="Awareness" grouping="conceive.01" name="conceive" verbnet_key="conceive#1" wn="conceive%2:31:00"/>
+    <MEMBER features="None" fn_mapping="Categorization" grouping="view.01" name="view" verbnet_key="view#1" wn="view%2:31:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="underestimate.01" name="underestimate" verbnet_key="underestimate#1" wn="underestimate%2:31:00                 underestimate%2:31:01 underestimate%2:31:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -283,17 +283,17 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="characterize-29.2-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Communicate_categorization" grouping="portray.01" name="portray" verbnet_key="portray#1" wn="portray%2:32:00"/>
-      <MEMBER fn_mapping="Communicate_categorization" grouping="define.01" name="define" verbnet_key="define#1" wn=""/>
-      <MEMBER fn_mapping="Communicate_categorization" grouping="describe.01" name="describe" verbnet_key="describe#1" wn="describe%2:32:00 describe%2:32:01"/>
-      <MEMBER fn_mapping="Communicate_categorization" grouping="represent.05" name="represent" verbnet_key="represent#1" wn=""/>
-      <MEMBER fn_mapping="None" grouping="accept.02 accept.03" name="accept" verbnet_key="accept#2" wn="accept%2:31:00 accept%2:31:01 accept%2:31:03"/>
-      <MEMBER fn_mapping="None" grouping="" name="envisage" verbnet_key="envisage#1" wn="envisage%2:36:00"/>
-      <MEMBER fn_mapping="Verification" grouping="identify.01" name="identify" verbnet_key="identify#1" wn="identify%2:31:00 identify%2:31:02"/>
-      <MEMBER fn_mapping="Awareness" grouping="imagine.01" name="imagine" verbnet_key="imagine#1" wn="imagine%2:36:00"/>
-      <MEMBER fn_mapping="None" grouping="visualize.01" name="visualize" verbnet_key="visualize#1" wn="visualize%2:36:00"/>
-      <MEMBER fn_mapping="Remembering_information" grouping="remember.01" name="remember" verbnet_key="remember#1" wn="remember%2:31:00"/>
-      <MEMBER fn_mapping="None" grouping="" name="recollect" verbnet_key="recollect#1" wn="recollect%2:31:00"/>
+      <MEMBER features="None" fn_mapping="Communicate_categorization" grouping="portray.01" name="portray" verbnet_key="portray#1" wn="portray%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Communicate_categorization" grouping="define.01" name="define" verbnet_key="define#1" wn=""/>
+      <MEMBER features="None" fn_mapping="Communicate_categorization" grouping="describe.01" name="describe" verbnet_key="describe#1" wn="describe%2:32:00 describe%2:32:01"/>
+      <MEMBER features="None" fn_mapping="Communicate_categorization" grouping="represent.05" name="represent" verbnet_key="represent#1" wn=""/>
+      <MEMBER features="None" fn_mapping="None" grouping="accept.02 accept.03" name="accept" verbnet_key="accept#2" wn="accept%2:31:00 accept%2:31:01 accept%2:31:03"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="envisage" verbnet_key="envisage#1" wn="envisage%2:36:00"/>
+      <MEMBER features="None" fn_mapping="Verification" grouping="identify.01" name="identify" verbnet_key="identify#1" wn="identify%2:31:00 identify%2:31:02"/>
+      <MEMBER features="None" fn_mapping="Awareness" grouping="imagine.01" name="imagine" verbnet_key="imagine#1" wn="imagine%2:36:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="visualize.01" name="visualize" verbnet_key="visualize#1" wn="visualize%2:36:00"/>
+      <MEMBER features="None" fn_mapping="Remembering_information" grouping="remember.01" name="remember" verbnet_key="remember#1" wn="remember%2:31:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="recollect" verbnet_key="recollect#1" wn="recollect%2:31:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>
@@ -422,8 +422,8 @@
     </VNSUBCLASS>
     <VNSUBCLASS ID="characterize-29.2-1-2">
      <MEMBERS>
-      <MEMBER fn_mapping="Statement" grouping="report.01" name="report" verbnet_key="report#1" wn="report%2:32:00 report%2:32:04"/>
-      <MEMBER fn_mapping="Reveal_secret" grouping="reveal.02" name="reveal" verbnet_key="reveal#1" wn="reveal%2:32:00"/>
+      <MEMBER features="None" fn_mapping="Statement" grouping="report.01" name="report" verbnet_key="report#1" wn="report%2:32:00 report%2:32:04"/>
+      <MEMBER features="None" fn_mapping="Reveal_secret" grouping="reveal.02" name="reveal" verbnet_key="reveal#1" wn="reveal%2:32:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

@@ -1,45 +1,45 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="disassemble-23.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Create_representation" grouping="carve.01" name="carve" verbnet_key="carve#4" wn="carve%2:35:01 carve%2:35:02"/>
-  <MEMBER fn_mapping="Attaching" grouping="detach.01" name="detach" verbnet_key="detach#1" wn="detach%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="disassemble.01" name="disassemble" verbnet_key="disassemble#1" wn="disassemble%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="disconnect.01 disconnect.02" name="disconnect" verbnet_key="disconnect#1" wn="disconnect%2:35:03 ?disconnect%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="dismantle.02 dismantle.03" name="dismantle" verbnet_key="dismantle#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="dismount" verbnet_key="dismount#1" wn=""/>
-  <MEMBER fn_mapping="Cutting" grouping="pare.01" name="pare" verbnet_key="pare#1" wn="pare%2:35:01 pare%2:35:02 pare%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="partition" verbnet_key="partition#1" wn="partition%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="segregate" verbnet_key="segregate#1" wn="segregate%2:35:02 segregate%2:30:00"/>
-  <MEMBER fn_mapping="Scouring" grouping="sift.01" name="sift" verbnet_key="sift#1" wn="sift%2:35:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="slice.01" name="slice" verbnet_key="slice#4" wn="slice%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sunder" verbnet_key="sunder#1" wn="sunder%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unbolt" verbnet_key="unbolt#1" wn="unbolt%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unbuckle" verbnet_key="unbuckle#1" wn="unbuckle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unbutton" verbnet_key="unbutton#1" wn="unbutton%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unchain" verbnet_key="unchain#1" wn="unchain%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unclamp" verbnet_key="unclamp#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unclasp" verbnet_key="unclasp#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unclip" verbnet_key="unclip#1" wn="unclip%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unfasten" verbnet_key="unfasten#1" wn="unfasten%2:35:01 unfasten%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unfix" verbnet_key="unfix#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unglue" verbnet_key="unglue#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unhinge" verbnet_key="unhinge#1" wn="unhinge%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unhitch" verbnet_key="unhitch#1" wn="unhitch%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unhook" verbnet_key="unhook#1" wn="unhook%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unlace" verbnet_key="unlace#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unlatch" verbnet_key="unlatch#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="unlock.01" name="unlock" verbnet_key="unlock#1" wn="unlock%2:35:00 unlock%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="unleash.01" name="unleash" verbnet_key="unleash#1" wn="unleash%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="unpeg" verbnet_key="unpeg#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unpin" verbnet_key="unpin#1" wn="unpin%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unscrew" verbnet_key="unscrew#1" wn="unscrew%2:35:00 unscrew%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="unseal" verbnet_key="unseal#1" wn="unseal%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unshackle" verbnet_key="unshackle#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="unstaple" verbnet_key="unstaple#1" wn="unstaple%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unstitch" verbnet_key="unstitch#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="untie" verbnet_key="untie#1" wn="untie%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unzip" verbnet_key="unzip#1" wn="unzip%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sieve" verbnet_key="sieve#1" wn="sieve%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Create_representation" grouping="carve.01" name="carve" verbnet_key="carve#4" wn="carve%2:35:01 carve%2:35:02"/>
+  <MEMBER features="None" fn_mapping="Attaching" grouping="detach.01" name="detach" verbnet_key="detach#1" wn="detach%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="disassemble.01" name="disassemble" verbnet_key="disassemble#1" wn="disassemble%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="disconnect.01 disconnect.02" name="disconnect" verbnet_key="disconnect#1" wn="disconnect%2:35:03 ?disconnect%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dismantle.02 dismantle.03" name="dismantle" verbnet_key="dismantle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dismount" verbnet_key="dismount#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Cutting" grouping="pare.01" name="pare" verbnet_key="pare#1" wn="pare%2:35:01 pare%2:35:02 pare%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="partition" verbnet_key="partition#1" wn="partition%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="segregate" verbnet_key="segregate#1" wn="segregate%2:35:02 segregate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Scouring" grouping="sift.01" name="sift" verbnet_key="sift#1" wn="sift%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="slice.01" name="slice" verbnet_key="slice#4" wn="slice%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sunder" verbnet_key="sunder#1" wn="sunder%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unbolt" verbnet_key="unbolt#1" wn="unbolt%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unbuckle" verbnet_key="unbuckle#1" wn="unbuckle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unbutton" verbnet_key="unbutton#1" wn="unbutton%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unchain" verbnet_key="unchain#1" wn="unchain%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unclamp" verbnet_key="unclamp#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unclasp" verbnet_key="unclasp#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unclip" verbnet_key="unclip#1" wn="unclip%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unfasten" verbnet_key="unfasten#1" wn="unfasten%2:35:01 unfasten%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unfix" verbnet_key="unfix#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unglue" verbnet_key="unglue#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unhinge" verbnet_key="unhinge#1" wn="unhinge%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unhitch" verbnet_key="unhitch#1" wn="unhitch%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unhook" verbnet_key="unhook#1" wn="unhook%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unlace" verbnet_key="unlace#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unlatch" verbnet_key="unlatch#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="unlock.01" name="unlock" verbnet_key="unlock#1" wn="unlock%2:35:00 unlock%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="unleash.01" name="unleash" verbnet_key="unleash#1" wn="unleash%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unpeg" verbnet_key="unpeg#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unpin" verbnet_key="unpin#1" wn="unpin%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unscrew" verbnet_key="unscrew#1" wn="unscrew%2:35:00 unscrew%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unseal" verbnet_key="unseal#1" wn="unseal%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unshackle" verbnet_key="unshackle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unstaple" verbnet_key="unstaple#1" wn="unstaple%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unstitch" verbnet_key="unstitch#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="untie" verbnet_key="untie#1" wn="untie%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unzip" verbnet_key="unzip#1" wn="unzip%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sieve" verbnet_key="sieve#1" wn="sieve%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <!--Patient is interpreted as Figure, Co-Patient as Ground -->

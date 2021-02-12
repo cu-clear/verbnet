@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="work-73.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="bang_away" verbnet_key="bang_away#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="labor.01" name="labor" verbnet_key="labor#1" wn="labor%2:41:01 labor%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="labor.01" name="labour" verbnet_key="labour#2" wn="labour%2:41:01 labour%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="plug.02" name="plug_away" verbnet_key="plug_away#1" wn="plug_away%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="slog.01" name="slog_away" verbnet_key="slog_away#1" wn="slog%2:41:00"/>
-  <MEMBER fn_mapping="Work" grouping="work.01" name="work" verbnet_key="work#6" wn="work%2:41:02 work%2:41:00 work%2:29:00 work%2:41:04 work%2:38:02 work%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bang_away" verbnet_key="bang_away#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="labor.01" name="labor" verbnet_key="labor#1" wn="labor%2:41:01 labor%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="labor.01" name="labour" verbnet_key="labour#2" wn="labour%2:41:01 labour%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="plug.02" name="plug_away" verbnet_key="plug_away#1" wn="plug_away%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="slog.01" name="slog_away" verbnet_key="slog_away#1" wn="slog%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Work" grouping="work.01" name="work" verbnet_key="work#6" wn="work%2:41:02 work%2:41:00 work%2:29:00 work%2:41:04 work%2:38:02 work%2:41:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

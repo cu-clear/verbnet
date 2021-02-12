@@ -2,12 +2,12 @@
 <VNCLASS ID="advise-37.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--REMOVED "entice" misclassified-->
-  <MEMBER fn_mapping="None" grouping="alert.01" name="alert" verbnet_key="alert#1" wn="alert%2:32:00"/>
-  <MEMBER fn_mapping="Telling" grouping="assure.01" name="assure" verbnet_key="assure#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="brief" verbnet_key="brief#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="educate.01" name="educate" verbnet_key="educate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="encourage.02" name="encourage" verbnet_key="encourage#2" wn="encourage%2:37:00"/>
-  <MEMBER fn_mapping="Telling" grouping="notify.01" name="notify" verbnet_key="notify#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="alert.01" name="alert" verbnet_key="alert#1" wn="alert%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Telling" grouping="assure.01" name="assure" verbnet_key="assure#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="brief" verbnet_key="brief#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="educate.01" name="educate" verbnet_key="educate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="encourage.02" name="encourage" verbnet_key="encourage#2" wn="encourage%2:37:00"/>
+  <MEMBER features="None" fn_mapping="Telling" grouping="notify.01" name="notify" verbnet_key="notify#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -342,12 +342,12 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="advise-37.9-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Judgment_direct_address" grouping="admonish.01 admonish.02" name="admonish" verbnet_key="admonish#1" wn="admonish%2:32:02 admonish%2:32:01 admonish%2:32:00"/>
-    <MEMBER fn_mapping="Attempt_suasion" grouping="advise.01 advise.02" name="advise" verbnet_key="advise#1" wn="advise%2:32:00 advise%2:32:01"/>
-    <MEMBER fn_mapping="Statement" grouping="caution.01 caution.02" name="caution" verbnet_key="caution#1" wn="caution%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="counsel.01" name="counsel" verbnet_key="counsel#1" wn="counsel%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="instruct.01" name="instruct" verbnet_key="instruct#1" wn="instruct%2:32:01"/>
-    <MEMBER fn_mapping="None" grouping="warn.01" name="warn" verbnet_key="warn#1" wn="warn%2:32:00 warn%2:32:01 warn%2:32:03 warn%2:32:02"/>
+    <MEMBER features="None" fn_mapping="Judgment_direct_address" grouping="admonish.01 admonish.02" name="admonish" verbnet_key="admonish#1" wn="admonish%2:32:02 admonish%2:32:01 admonish%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Attempt_suasion" grouping="advise.01 advise.02" name="advise" verbnet_key="advise#1" wn="advise%2:32:00 advise%2:32:01"/>
+    <MEMBER features="None" fn_mapping="Statement" grouping="caution.01 caution.02" name="caution" verbnet_key="caution#1" wn="caution%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="counsel.01" name="counsel" verbnet_key="counsel#1" wn="counsel%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="instruct.01" name="instruct" verbnet_key="instruct#1" wn="instruct%2:32:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="warn.01" name="warn" verbnet_key="warn#1" wn="warn%2:32:00 warn%2:32:01 warn%2:32:03 warn%2:32:02"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

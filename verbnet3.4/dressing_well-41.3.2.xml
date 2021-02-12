@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="dressing_well-41.3.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="doll" wn="" grouping=""/>
-        <MEMBER name="dress" wn="dress%2:29:05" grouping="dress.01"/>
-        <MEMBER name="gussy" wn="" grouping=""/>
-        <MEMBER name="spruce" wn="spruce%2:29:00" grouping=""/>
-        <MEMBER name="tog" wn="tog%2:29:00" grouping=""/>
-        <MEMBER name="trick" wn="" grouping=""/>
+        <MEMBER features="None" fn_mapping="None" name="doll" wn="" grouping="" verbnet_key=""/>
+        <MEMBER features="None" fn_mapping="None" name="dress" wn="dress%2:29:05" grouping="dress.01" verbnet_key=""/>
+        <MEMBER features="None" fn_mapping="None" name="gussy" wn="" grouping="" verbnet_key=""/>
+        <MEMBER features="None" fn_mapping="None" name="spruce" wn="spruce%2:29:00" grouping="" verbnet_key=""/>
+        <MEMBER features="None" fn_mapping="None" name="tog" wn="tog%2:29:00" grouping="" verbnet_key=""/>
+        <MEMBER features="None" fn_mapping="None" name="trick" wn="" grouping="" verbnet_key=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

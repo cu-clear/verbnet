@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="rush-53.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Self_motion" grouping="hasten.01" name="hasten" verbnet_key="hasten#3" wn="hasten%2:30:00 hasten%2:41:00"/>
-  <MEMBER fn_mapping="Self_motion" grouping="hurry.01 hurry.02" name="hurry" verbnet_key="hurry#2" wn="hurry%2:30:00 hurry%2:30:01"/>
-  <MEMBER fn_mapping="Self_motion" grouping="rush.01 rush.02" name="rush" verbnet_key="rush#3" wn="rush%2:30:01 rush%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Self_motion" grouping="hasten.01" name="hasten" verbnet_key="hasten#3" wn="hasten%2:30:00 hasten%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Self_motion" grouping="hurry.01 hurry.02" name="hurry" verbnet_key="hurry#2" wn="hurry%2:30:00 hurry%2:30:01"/>
+  <MEMBER features="None" fn_mapping="Self_motion" grouping="rush.01 rush.02" name="rush" verbnet_key="rush#3" wn="rush%2:30:01 rush%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

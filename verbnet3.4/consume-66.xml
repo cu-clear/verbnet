@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="consume-66" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="use.02" name="use" verbnet_key="use#1" wn="use%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="consume.02" name="consume" verbnet_key="consume#1" wn="consume%2:34:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="use.02" name="use" verbnet_key="use#1" wn="use%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="consume.02" name="consume" verbnet_key="consume#1" wn="consume%2:34:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -122,11 +122,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="consume-66-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="reuse" verbnet_key="reuse#1" wn="reuse%2:34:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="misspend" verbnet_key="misspend#1" wn="misspend%2:40:00"/>
-    <MEMBER fn_mapping="None" grouping="spend.02" name="spend" verbnet_key="spend#1" wn="spend%2:40:00 spend%2:40:01"/>
-    <MEMBER fn_mapping="None" grouping="" name="squander" verbnet_key="squander#1" wn="squander%2:34:00"/>
-    <MEMBER fn_mapping="Frugality" grouping="waste.01" name="waste" verbnet_key="waste#1" wn="waste%2:40:00 waste%2:34:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="reuse" verbnet_key="reuse#1" wn="reuse%2:34:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="misspend" verbnet_key="misspend#1" wn="misspend%2:40:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="spend.02" name="spend" verbnet_key="spend#1" wn="spend%2:40:00 spend%2:40:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="squander" verbnet_key="squander#1" wn="squander%2:34:00"/>
+    <MEMBER features="None" fn_mapping="Frugality" grouping="waste.01" name="waste" verbnet_key="waste#1" wn="waste%2:40:00 waste%2:34:05"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

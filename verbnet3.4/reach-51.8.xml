@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="reach-51.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Change_position_on_a_scale" grouping="reach.01" name="reach" verbnet_key="reach#4" wn="reach%2:38:01 reach%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="hit.03" name="hit" verbnet_key="hit#5" wn="hit%2:38:00 hit%2:38:07"/>
-  <MEMBER fn_mapping="Arriving" grouping="make.07 make.08" name="make" verbnet_key="make#5" wn="make%2:40:02 make%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="breast" verbnet_key="breast#2" wn="breast%2:38:01"/>
+  <MEMBER features="None" fn_mapping="Change_position_on_a_scale" grouping="reach.01" name="reach" verbnet_key="reach#4" wn="reach%2:38:01 reach%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hit.03" name="hit" verbnet_key="hit#5" wn="hit%2:38:00 hit%2:38:07"/>
+  <MEMBER features="None" fn_mapping="Arriving" grouping="make.07 make.08" name="make" verbnet_key="make#5" wn="make%2:40:02 make%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="breast" verbnet_key="breast#2" wn="breast%2:38:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

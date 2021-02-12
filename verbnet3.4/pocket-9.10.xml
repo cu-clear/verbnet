@@ -1,56 +1,56 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="pocket-9.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="archive" verbnet_key="archive#1" wn="archive%2:35:00"/>
-  <MEMBER fn_mapping="Placing" grouping="bag.03" name="bag" verbnet_key="bag#1" wn="bag%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="bank.02" name="bank" verbnet_key="bank#1" wn="bank%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="barrack.01" name="barrack" verbnet_key="barrack#2" wn="barrack%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="beach" verbnet_key="beach#1" wn="beach%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="bed.01" name="bed" verbnet_key="bed#1" wn="bed%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="bench" verbnet_key="bench#1" wn="bench%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="billet" verbnet_key="billet#1" wn="billet%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bin" verbnet_key="bin#1" wn="bin%2:35:00"/>
-  <MEMBER fn_mapping="Placing" grouping="bottle.01" name="bottle" verbnet_key="bottle#1" wn="bottle%2:40:00 bottle%2:35:00"/>
-  <MEMBER fn_mapping="Placing" grouping="box.01" name="box" verbnet_key="box#3" wn="box%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="cage" verbnet_key="cage#1" wn="cage%2:41:00"/>
-  <MEMBER fn_mapping="Preserving" grouping="can.01" name="can" verbnet_key="can#2" wn="can%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="case" verbnet_key="case#1" wn="case%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="cellar" verbnet_key="cellar#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="cloister.01 cloister.02" name="cloister" verbnet_key="cloister#2" wn="cloister%2:42:00 cloister%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="coop" verbnet_key="coop#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="corral.01" name="corral" verbnet_key="corral#1" wn="corral%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="crate" verbnet_key="crate#1" wn="crate%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="cup.02" name="cup" verbnet_key="cup#1" wn="cup%2:30:01"/>
-  <MEMBER fn_mapping="Placing" grouping="file.04" name="file" verbnet_key="file#5" wn="file%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="fork.02" name="fork" verbnet_key="fork#1" wn="fork%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="garage" verbnet_key="garage#1" wn="garage%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hangar" verbnet_key="hangar#1" wn=""/>
-  <MEMBER fn_mapping="Provide_lodging" grouping="house.01" name="house" verbnet_key="house#2" wn="house%2:41:00"/>
-  <MEMBER fn_mapping="Imprisonment" grouping="imprison.01" name="imprison" verbnet_key="imprison#2" wn="imprison%2:41:00"/>
-  <MEMBER fn_mapping="Imprisonment" grouping="jail.01" name="jail" verbnet_key="jail#2" wn="jail%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="jar" verbnet_key="jar#3" wn="jar%2:35:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="jug" verbnet_key="jug#2" wn="jug%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="kennel" verbnet_key="kennel#1" wn="kennel%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pasture" verbnet_key="pasture#1" wn="pasture%2:35:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="pen" verbnet_key="pen#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="pillory" verbnet_key="pillory#1" wn="pillory%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pocket" verbnet_key="pocket#1" wn="pocket%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pot" verbnet_key="pot#1" wn="pot%2:35:00"/>
-  <MEMBER fn_mapping="Placing" grouping="" name="sheathe" verbnet_key="sheathe#1" wn="sheathe%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shelve" verbnet_key="shelve#1" wn="shelve%2:35:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="shoulder" verbnet_key="shoulder#1" wn="shoulder%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="skewer" verbnet_key="skewer#1" wn="skewer%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="snare" verbnet_key="snare#1" wn="snare%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="spindle" verbnet_key="spindle#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="spit.04" name="spit" verbnet_key="spit#2" wn="spit%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="spool" verbnet_key="spool#1" wn="spool%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="string.01" name="string" verbnet_key="string#3" wn="string%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="tassel" verbnet_key="tassel#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="tin" verbnet_key="tin#1" wn="tin%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="trap.02" name="trap" verbnet_key="trap#1" wn="trap%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tree" verbnet_key="tree#1" wn="tree%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="warehouse" verbnet_key="warehouse#1" wn="warehouse%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="wharf.03" name="wharf" verbnet_key="wharf#2" wn="wharf%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="archive" verbnet_key="archive#1" wn="archive%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="bag.03" name="bag" verbnet_key="bag#1" wn="bag%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bank.02" name="bank" verbnet_key="bank#1" wn="bank%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="barrack.01" name="barrack" verbnet_key="barrack#2" wn="barrack%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="beach" verbnet_key="beach#1" wn="beach%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bed.01" name="bed" verbnet_key="bed#1" wn="bed%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bench" verbnet_key="bench#1" wn="bench%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="billet" verbnet_key="billet#1" wn="billet%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bin" verbnet_key="bin#1" wn="bin%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="bottle.01" name="bottle" verbnet_key="bottle#1" wn="bottle%2:40:00 bottle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="box.01" name="box" verbnet_key="box#3" wn="box%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cage" verbnet_key="cage#1" wn="cage%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Preserving" grouping="can.01" name="can" verbnet_key="can#2" wn="can%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="case" verbnet_key="case#1" wn="case%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cellar" verbnet_key="cellar#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="cloister.01 cloister.02" name="cloister" verbnet_key="cloister#2" wn="cloister%2:42:00 cloister%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="coop" verbnet_key="coop#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="corral.01" name="corral" verbnet_key="corral#1" wn="corral%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crate" verbnet_key="crate#1" wn="crate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="cup.02" name="cup" verbnet_key="cup#1" wn="cup%2:30:01"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="file.04" name="file" verbnet_key="file#5" wn="file%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fork.02" name="fork" verbnet_key="fork#1" wn="fork%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="garage" verbnet_key="garage#1" wn="garage%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hangar" verbnet_key="hangar#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Provide_lodging" grouping="house.01" name="house" verbnet_key="house#2" wn="house%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Imprisonment" grouping="imprison.01" name="imprison" verbnet_key="imprison#2" wn="imprison%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Imprisonment" grouping="jail.01" name="jail" verbnet_key="jail#2" wn="jail%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jar" verbnet_key="jar#3" wn="jar%2:35:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jug" verbnet_key="jug#2" wn="jug%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="kennel" verbnet_key="kennel#1" wn="kennel%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pasture" verbnet_key="pasture#1" wn="pasture%2:35:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pen" verbnet_key="pen#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pillory" verbnet_key="pillory#1" wn="pillory%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pocket" verbnet_key="pocket#1" wn="pocket%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pot" verbnet_key="pot#1" wn="pot%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Placing" grouping="" name="sheathe" verbnet_key="sheathe#1" wn="sheathe%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shelve" verbnet_key="shelve#1" wn="shelve%2:35:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shoulder" verbnet_key="shoulder#1" wn="shoulder%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="skewer" verbnet_key="skewer#1" wn="skewer%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="snare" verbnet_key="snare#1" wn="snare%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="spindle" verbnet_key="spindle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="spit.04" name="spit" verbnet_key="spit#2" wn="spit%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="spool" verbnet_key="spool#1" wn="spool%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="string.01" name="string" verbnet_key="string#3" wn="string%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tassel" verbnet_key="tassel#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tin" verbnet_key="tin#1" wn="tin%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="trap.02" name="trap" verbnet_key="trap#1" wn="trap%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tree" verbnet_key="tree#1" wn="tree%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="warehouse" verbnet_key="warehouse#1" wn="warehouse%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wharf.03" name="wharf" verbnet_key="wharf#2" wn="wharf%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -107,7 +107,7 @@
      <ARGS>
       <ARG type="Event" value="ë3"/>
       <ARG type="ThemRole" value="Theme"/>
-      <ARG type="Pred_Specific" value="Trajectory"/>
+      <ARG type="PredSpecific" value="Trajectory"/>
      </ARGS>
     </PRED>
     <PRED bool="!" value="has_location">
@@ -174,7 +174,7 @@
      <ARGS>
       <ARG type="Event" value="ë3"/>
       <ARG type="ThemRole" value="Theme"/>
-      <ARG type="Pred_Specific" value="Trajectory"/>
+      <ARG type="PredSpecific" value="Trajectory"/>
      </ARGS>
     </PRED>
     <PRED bool="!" value="has_location">
@@ -203,14 +203,14 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="pocket-9.10-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="berth" verbnet_key="berth#1" wn="berth%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="dock.01" name="dock" verbnet_key="dock#1" wn="dock%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="drydock" verbnet_key="drydock#1" wn="drydock%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="land.01" name="land" verbnet_key="land#1" wn="land%2:38:01 land%2:38:03"/>
-    <MEMBER fn_mapping="None" grouping="moor.01" name="moor" verbnet_key="moor#1" wn="moor%2:35:01 moor%2:35:03"/>
-    <MEMBER fn_mapping="None" grouping="ground.01" name="ground" verbnet_key="ground#2" wn="ground%2:35:08 ground%2:35:00"/>
-    <MEMBER fn_mapping="Residence" grouping="lodge.05" name="lodge" verbnet_key="lodge#2" wn="lodge%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="stable" verbnet_key="stable#1" wn="stable%2:41:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="berth" verbnet_key="berth#1" wn="berth%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="dock.01" name="dock" verbnet_key="dock#1" wn="dock%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="drydock" verbnet_key="drydock#1" wn="drydock%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="land.01" name="land" verbnet_key="land#1" wn="land%2:38:01 land%2:38:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="moor.01" name="moor" verbnet_key="moor#1" wn="moor%2:35:01 moor%2:35:03"/>
+    <MEMBER features="None" fn_mapping="None" grouping="ground.01" name="ground" verbnet_key="ground#2" wn="ground%2:35:08 ground%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Residence" grouping="lodge.05" name="lodge" verbnet_key="lodge#2" wn="lodge%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="stable" verbnet_key="stable#1" wn="stable%2:41:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -245,7 +245,7 @@
        <ARGS>
         <ARG type="Event" value="ë2"/>
         <ARG type="ThemRole" value="Theme"/>
-        <ARG type="Pred_Specific" value="Trajectory"/>
+        <ARG type="PredSpecific" value="Trajectory"/>
        </ARGS>
       </PRED>
       <PRED bool="!" value="has_location">
@@ -289,7 +289,7 @@
        <ARGS>
         <ARG type="Event" value="ë2"/>
         <ARG type="ThemRole" value="Theme"/>
-        <ARG type="Pred_Specific" value="Trajectory"/>
+        <ARG type="PredSpecific" value="Trajectory"/>
        </ARGS>
       </PRED>
       <PRED bool="!" value="has_location">
@@ -336,7 +336,7 @@
        <ARGS>
         <ARG type="Event" value="ë2"/>
         <ARG type="ThemRole" value="Theme"/>
-        <ARG type="Pred_Specific" value="Trajectory"/>
+        <ARG type="PredSpecific" value="Trajectory"/>
        </ARGS>
       </PRED>
       <PRED bool="!" value="has_location">

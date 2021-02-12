@@ -1,36 +1,36 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="berry-13.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="antique" verbnet_key="antique#1" wn="antique%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="berry" verbnet_key="berry#1" wn="berry%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="birdnest" verbnet_key="birdnest#1" wn="birdnest%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="blackberry" verbnet_key="blackberry#1" wn="blackberry%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="clam" verbnet_key="clam#1" wn="clam%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="crab" verbnet_key="crab#1" wn="crab%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="fish.02" name="fish" verbnet_key="fish#1" wn="fish%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fowl" verbnet_key="fowl#1" wn="fowl%2:33:01 fowl%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="grouse" verbnet_key="grouse#1" wn="grouse%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hog" verbnet_key="hog#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="hay" verbnet_key="hay#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="log.04" name="log" verbnet_key="log#1" wn="log%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="mushroom.03" name="mushroom" verbnet_key="mushroom#1" wn="mushroom%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="nest.03" name="nest" verbnet_key="nest#1" wn="nest%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="nut" verbnet_key="nut#1" wn="nut%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="oyster" verbnet_key="oyster#1" wn="oyster%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pearl" verbnet_key="pearl#1" wn="pearl%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="prawn" verbnet_key="prawn#1" wn="prawn%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rabbit" verbnet_key="rabbit#1" wn="rabbit%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="scollop.02" name="scollop" verbnet_key="scollop#1" wn="scollop%2:33:00"/>
-  <MEMBER fn_mapping="Hunting" grouping="seal.04" name="seal" verbnet_key="seal#1" wn="seal%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shark" verbnet_key="shark#1" wn="shark%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shrimp" verbnet_key="shrimp#1" wn="shrimp%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="snail" verbnet_key="snail#1" wn="snail%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="snipe.01" name="snipe" verbnet_key="snipe#1" wn="snipe%2:33:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="sponge" verbnet_key="sponge#1" wn="sponge%2:35:03"/>
-  <MEMBER fn_mapping="None" grouping="" name="whale" verbnet_key="whale#1" wn="whale%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="whelk" verbnet_key="whelk#1" wn="whelk%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="whore.02" name="whore" verbnet_key="whore#1" wn="whore%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="hawk.02" name="hawk" verbnet_key="hawk#1" wn="hawk%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="antique" verbnet_key="antique#1" wn="antique%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="berry" verbnet_key="berry#1" wn="berry%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="birdnest" verbnet_key="birdnest#1" wn="birdnest%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blackberry" verbnet_key="blackberry#1" wn="blackberry%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="clam" verbnet_key="clam#1" wn="clam%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crab" verbnet_key="crab#1" wn="crab%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="fish.02" name="fish" verbnet_key="fish#1" wn="fish%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fowl" verbnet_key="fowl#1" wn="fowl%2:33:01 fowl%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="grouse" verbnet_key="grouse#1" wn="grouse%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hog" verbnet_key="hog#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hay" verbnet_key="hay#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="log.04" name="log" verbnet_key="log#1" wn="log%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mushroom.03" name="mushroom" verbnet_key="mushroom#1" wn="mushroom%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="nest.03" name="nest" verbnet_key="nest#1" wn="nest%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="nut" verbnet_key="nut#1" wn="nut%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="oyster" verbnet_key="oyster#1" wn="oyster%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pearl" verbnet_key="pearl#1" wn="pearl%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="prawn" verbnet_key="prawn#1" wn="prawn%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rabbit" verbnet_key="rabbit#1" wn="rabbit%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="scollop.02" name="scollop" verbnet_key="scollop#1" wn="scollop%2:33:00"/>
+  <MEMBER features="None" fn_mapping="Hunting" grouping="seal.04" name="seal" verbnet_key="seal#1" wn="seal%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shark" verbnet_key="shark#1" wn="shark%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shrimp" verbnet_key="shrimp#1" wn="shrimp%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="snail" verbnet_key="snail#1" wn="snail%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="snipe.01" name="snipe" verbnet_key="snipe#1" wn="snipe%2:33:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sponge" verbnet_key="sponge#1" wn="sponge%2:35:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whale" verbnet_key="whale#1" wn="whale%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="whelk" verbnet_key="whelk#1" wn="whelk%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="whore.02" name="whore" verbnet_key="whore#1" wn="whore%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hawk.02" name="hawk" verbnet_key="hawk#1" wn="hawk%2:33:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

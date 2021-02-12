@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="suspect-81" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Suspicion" grouping="suspect.02" name="suspect" verbnet_key="suspect#2" wn="suspect%2:32:02"/>
-  <MEMBER fn_mapping="Notification_of_charges" grouping="accuse.01" name="accuse" verbnet_key="accuse#1" wn="accuse%2:32:00"/>
-  <MEMBER fn_mapping="Judgment_communication" grouping="condemn.01 condemn.02" name="condemn" verbnet_key="condemn#2" wn="condemn%2:41:00 condemn%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Suspicion" grouping="suspect.02" name="suspect" verbnet_key="suspect#2" wn="suspect%2:32:02"/>
+  <MEMBER features="None" fn_mapping="Notification_of_charges" grouping="accuse.01" name="accuse" verbnet_key="accuse#1" wn="accuse%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Judgment_communication" grouping="condemn.01 condemn.02" name="condemn" verbnet_key="condemn#2" wn="condemn%2:41:00 condemn%2:32:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

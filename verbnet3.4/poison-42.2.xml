@@ -2,32 +2,32 @@
 <VNCLASS ID="poison-42.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each member adds a manner predicate-->
-  <MEMBER fn_mapping="None" grouping="" name="asphyxiate" verbnet_key="asphyxiate#1" wn="asphyxiate%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="behead" verbnet_key="behead#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="bullet" verbnet_key="bullet#1" wn=""/>
-  <MEMBER fn_mapping="Killing" grouping="crucify.01" name="crucify" verbnet_key="crucify#1" wn="crucify%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="dart.04" name="dart" verbnet_key="dart#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="decapitate" verbnet_key="decapitate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="disembowel" verbnet_key="disembowel#2" wn=""/>
-  <MEMBER fn_mapping="Death" grouping="drown.01" name="drown" verbnet_key="drown#1" wn="drown%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="electrocute" verbnet_key="electrocute#1" wn="electrocute%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="evicerate" verbnet_key="evicerate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="fry.03" name="fry" verbnet_key="fry#2" wn="fry%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gas" verbnet_key="gas#2" wn="gas%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="garrotte" verbnet_key="garrotte#1" wn="garrotte%2:35:00"/>
-  <MEMBER fn_mapping="Execution" grouping="hang.02" name="hang" verbnet_key="hang#3" wn="hang%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="impale" verbnet_key="impale#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="knife" verbnet_key="knife#1" wn="knife%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pip" verbnet_key="pip#2" wn="pip%2:41:00 pip%2:33:01"/>
-  <MEMBER fn_mapping="None" grouping="poison.01" name="poison" verbnet_key="poison#2" wn="poison%2:35:00"/>
-  <MEMBER fn_mapping="Shoot_projectiles" grouping="shoot.01" name="shoot" verbnet_key="shoot#1" wn="shoot%2:41:00"/>
-  <MEMBER fn_mapping="Killing" grouping="smother.02" name="smother" verbnet_key="smother#2" wn="smother%2:35:00"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="stab.01" name="stab" verbnet_key="stab#1" wn="stab%2:35:02"/>
-  <MEMBER fn_mapping="Cause_harm" grouping="" name="stone" verbnet_key="stone#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="strangle.01" name="strangle" verbnet_key="strangle#1" wn="strangle%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="strangulate.01" name="strangulate" verbnet_key="strangulate#2" wn="strangulate%2:35:00"/>
-  <MEMBER fn_mapping="Killing" grouping="" name="suffocate" verbnet_key="suffocate#1" wn="suffocate%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="throttle.01" name="throttle" verbnet_key="throttle#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="asphyxiate" verbnet_key="asphyxiate#1" wn="asphyxiate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="behead" verbnet_key="behead#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bullet" verbnet_key="bullet#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Killing" grouping="crucify.01" name="crucify" verbnet_key="crucify#1" wn="crucify%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dart.04" name="dart" verbnet_key="dart#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="decapitate" verbnet_key="decapitate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="disembowel" verbnet_key="disembowel#2" wn=""/>
+  <MEMBER features="None" fn_mapping="Death" grouping="drown.01" name="drown" verbnet_key="drown#1" wn="drown%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="electrocute" verbnet_key="electrocute#1" wn="electrocute%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="evicerate" verbnet_key="evicerate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="fry.03" name="fry" verbnet_key="fry#2" wn="fry%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gas" verbnet_key="gas#2" wn="gas%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="garrotte" verbnet_key="garrotte#1" wn="garrotte%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Execution" grouping="hang.02" name="hang" verbnet_key="hang#3" wn="hang%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="impale" verbnet_key="impale#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="knife" verbnet_key="knife#1" wn="knife%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pip" verbnet_key="pip#2" wn="pip%2:41:00 pip%2:33:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="poison.01" name="poison" verbnet_key="poison#2" wn="poison%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Shoot_projectiles" grouping="shoot.01" name="shoot" verbnet_key="shoot#1" wn="shoot%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Killing" grouping="smother.02" name="smother" verbnet_key="smother#2" wn="smother%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="stab.01" name="stab" verbnet_key="stab#1" wn="stab%2:35:02"/>
+  <MEMBER features="None" fn_mapping="Cause_harm" grouping="" name="stone" verbnet_key="stone#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="strangle.01" name="strangle" verbnet_key="strangle#1" wn="strangle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="strangulate.01" name="strangulate" verbnet_key="strangulate#2" wn="strangulate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Killing" grouping="" name="suffocate" verbnet_key="suffocate#1" wn="suffocate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="throttle.01" name="throttle" verbnet_key="throttle#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

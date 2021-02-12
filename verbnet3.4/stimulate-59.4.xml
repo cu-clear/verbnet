@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="stimulate-59.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="incite.01" name="incite" verbnet_key="incite#2" wn="incite%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="jolt.01" name="jolt" verbnet_key="jolt#2" wn="jolt%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="prompt.01" name="prompt" verbnet_key="prompt#2" wn="prompt%2:36:00 prompt%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rouse" verbnet_key="rouse#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="spur.01" name="spur" verbnet_key="spur#1" wn="spur%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="stimulate.01" name="stimulate" verbnet_key="stimulate#3" wn="stimulate%2:32:01 stimulate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="incite.01" name="incite" verbnet_key="incite#2" wn="incite%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="jolt.01" name="jolt" verbnet_key="jolt#2" wn="jolt%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="prompt.01" name="prompt" verbnet_key="prompt#2" wn="prompt%2:36:00 prompt%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rouse" verbnet_key="rouse#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="spur.01" name="spur" verbnet_key="spur#1" wn="spur%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stimulate.01" name="stimulate" verbnet_key="stimulate#3" wn="stimulate%2:32:01 stimulate%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -2,11 +2,11 @@
 <VNCLASS ID="rob-10.6.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--Split from Cheat-10.6.1-1-1 and Steal-10.5-->
  <MEMBERS>
-  <MEMBER fn_mapping="Robbery" grouping="rob.01 rob.02" name="rob" verbnet_key="rob#2" wn="rob%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="bleed.04" name="bleed" verbnet_key="bleed#4" wn="bleed%2:40:09 bleed%2:30:00"/>
-  <MEMBER fn_mapping="Emptying" grouping="strip.01 strip.03 strip.04" name="strip" verbnet_key="strip#4" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12"/>
-  <MEMBER fn_mapping="None" grouping="milk.01" name="milk" verbnet_key="milk#3" wn="milk%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="cull" verbnet_key="cull#3" wn="cull%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Robbery" grouping="rob.01 rob.02" name="rob" verbnet_key="rob#2" wn="rob%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bleed.04" name="bleed" verbnet_key="bleed#4" wn="bleed%2:40:09 bleed%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Emptying" grouping="strip.01 strip.03 strip.04" name="strip" verbnet_key="strip#4" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12"/>
+  <MEMBER features="None" fn_mapping="None" grouping="milk.01" name="milk" verbnet_key="milk#3" wn="milk%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="cull" verbnet_key="cull#3" wn="cull%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

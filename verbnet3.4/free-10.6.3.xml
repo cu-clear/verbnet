@@ -1,16 +1,16 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="free-10.6.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="alleviate" verbnet_key="alleviate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="liberate.02" name="liberate" verbnet_key="liberate#1" wn="liberate%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="discharge.02" name="discharge" verbnet_key="discharge#2" wn="discharge%2:41:01 discharge%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="exonerate" verbnet_key="exonerate#1" wn="exonerate%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="unburden" verbnet_key="unburden#1" wn="unburden%2:40:00 unburden%2:35:00"/>
-  <MEMBER fn_mapping="Grooming" grouping="cleanse.01" name="cleanse" verbnet_key="cleanse#1" wn="cleanse%2:30:05"/>
-  <MEMBER fn_mapping="None" grouping="" name="disencumber" verbnet_key="disencumber#1" wn="disencumber%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wean" verbnet_key="wean#1" wn="wean%2:37:00"/>
-  <MEMBER fn_mapping="Cure" grouping="ease.01" name="ease" verbnet_key="ease#1" wn="ease%2:30:00 ease%2:37:00"/>
-  <MEMBER fn_mapping="Compliance" grouping="break.03" name="break" verbnet_key="break#3" wn="break%2:42:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="alleviate" verbnet_key="alleviate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="liberate.02" name="liberate" verbnet_key="liberate#1" wn="liberate%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="discharge.02" name="discharge" verbnet_key="discharge#2" wn="discharge%2:41:01 discharge%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="exonerate" verbnet_key="exonerate#1" wn="exonerate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="unburden" verbnet_key="unburden#1" wn="unburden%2:40:00 unburden%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Grooming" grouping="cleanse.01" name="cleanse" verbnet_key="cleanse#1" wn="cleanse%2:30:05"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="disencumber" verbnet_key="disencumber#1" wn="disencumber%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wean" verbnet_key="wean#1" wn="wean%2:37:00"/>
+  <MEMBER features="None" fn_mapping="Cure" grouping="ease.01" name="ease" verbnet_key="ease#1" wn="ease%2:30:00 ease%2:37:00"/>
+  <MEMBER features="None" fn_mapping="Compliance" grouping="break.03" name="break" verbnet_key="break#3" wn="break%2:42:04"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Causer">
@@ -84,13 +84,13 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="free-10.6.3-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="absolve" verbnet_key="absolve#1" wn="absolve%2:32:00"/>
-    <MEMBER fn_mapping="Verdict" grouping="acquit.01" name="acquit" verbnet_key="acquit#1" wn="acquit%2:32:00"/>
-    <MEMBER fn_mapping="Removing" grouping="clear.01" name="clear" verbnet_key="clear#2" wn="clear%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="free.01" name="free" verbnet_key="free#1" wn="free%2:41:07 free%2:41:02 free%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="emancipate" verbnet_key="emancipate#1" wn="emancipate%2:41:00"/>
-    <MEMBER fn_mapping="Releasing" grouping="" name="release" verbnet_key="release#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="rerelease" verbnet_key="rerelease#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="absolve" verbnet_key="absolve#1" wn="absolve%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Verdict" grouping="acquit.01" name="acquit" verbnet_key="acquit#1" wn="acquit%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Removing" grouping="clear.01" name="clear" verbnet_key="clear#2" wn="clear%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="free.01" name="free" verbnet_key="free#1" wn="free%2:41:07 free%2:41:02 free%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="emancipate" verbnet_key="emancipate#1" wn="emancipate%2:41:00"/>
+    <MEMBER features="None" fn_mapping="Releasing" grouping="" name="release" verbnet_key="release#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="rerelease" verbnet_key="rerelease#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -151,10 +151,10 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="free-10.6.3-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="Cure" grouping="cure.01" name="cure" verbnet_key="cure#1" wn="cure%2:29:00"/>
-      <MEMBER fn_mapping="None" grouping="relieve.01 relieve.02 reieve.03 relieve.05" name="relieve" verbnet_key="relieve#2" wn="relieve%2:41:01 relieve%2:41:02 relieve%2:40:01 relieve%2:32:01 relieve%2:30:05"/>
-      <MEMBER fn_mapping="Emptying" grouping="purge.01" name="purge" verbnet_key="purge#1" wn="purge%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="purify.01 purify.02" name="purify" verbnet_key="purify#1" wn="purify%2:30:00 purify%2:30:01"/>
+      <MEMBER features="None" fn_mapping="Cure" grouping="cure.01" name="cure" verbnet_key="cure#1" wn="cure%2:29:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="relieve.01 relieve.02 reieve.03 relieve.05" name="relieve" verbnet_key="relieve#2" wn="relieve%2:41:01 relieve%2:41:02 relieve%2:40:01 relieve%2:32:01 relieve%2:30:05"/>
+      <MEMBER features="None" fn_mapping="Emptying" grouping="purge.01" name="purge" verbnet_key="purge#1" wn="purge%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="purify.01 purify.02" name="purify" verbnet_key="purify#1" wn="purify%2:30:00 purify%2:30:01"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

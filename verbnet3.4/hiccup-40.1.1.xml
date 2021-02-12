@@ -2,25 +2,25 @@
 <VNCLASS ID="hiccup-40.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--each verb adds a manner predicate-->
-  <MEMBER fn_mapping="None" grouping="" name="belch" verbnet_key="belch#1" wn="belch%2:29:00"/>
-  <MEMBER fn_mapping="Body_movement" grouping="" name="blink" verbnet_key="blink#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="blush" verbnet_key="blush#1" wn="blush%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="burp" verbnet_key="burp#1" wn="burp%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="eruct" verbnet_key="eruct#1" wn="eruct%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fart" verbnet_key="fart#1" wn="fart%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="flush.01" name="flush" verbnet_key="flush#1" wn="flush%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="hiccup" verbnet_key="hiccup#1" wn="hiccup%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pant" verbnet_key="pant#1" wn="pant%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="salivate" verbnet_key="salivate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="shiver" verbnet_key="shiver#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="sneeze" verbnet_key="sneeze#1" wn="sneeze%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sniffle" verbnet_key="sniffle#1" wn="sniffle%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="snore" verbnet_key="snore#1" wn="snore%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="snuff" verbnet_key="snuff#1" wn="snuff%2:29:02"/>
-  <MEMBER fn_mapping="None" grouping="snuffle.02" name="snuffle" verbnet_key="snuffle#1" wn="snuffle%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="swallow.01" name="swallow" verbnet_key="swallow#2" wn="swallow%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wheeze" verbnet_key="wheeze#2" wn="wheeze%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="yawn" verbnet_key="yawn#1" wn="yawn%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="belch" verbnet_key="belch#1" wn="belch%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="" name="blink" verbnet_key="blink#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blush" verbnet_key="blush#1" wn="blush%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="burp" verbnet_key="burp#1" wn="burp%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="eruct" verbnet_key="eruct#1" wn="eruct%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fart" verbnet_key="fart#1" wn="fart%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="flush.01" name="flush" verbnet_key="flush#1" wn="flush%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hiccup" verbnet_key="hiccup#1" wn="hiccup%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pant" verbnet_key="pant#1" wn="pant%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="salivate" verbnet_key="salivate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shiver" verbnet_key="shiver#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sneeze" verbnet_key="sneeze#1" wn="sneeze%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sniffle" verbnet_key="sniffle#1" wn="sniffle%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="snore" verbnet_key="snore#1" wn="snore%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="snuff" verbnet_key="snuff#1" wn="snuff%2:29:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="snuffle.02" name="snuffle" verbnet_key="snuffle#1" wn="snuffle%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="swallow.01" name="swallow" verbnet_key="swallow#2" wn="swallow%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wheeze" verbnet_key="wheeze#2" wn="wheeze%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="yawn" verbnet_key="yawn#1" wn="yawn%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

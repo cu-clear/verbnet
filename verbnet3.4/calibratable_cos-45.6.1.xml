@@ -1,8 +1,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="calibratable_cos-45.6.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER features="+increase +directionOfChenge_increase" fn_mapping="None" grouping="build.02" name="build" verbnet_key="build#3" wn="" />
-  <MEMBER features="+decrease +directionOfChenge_decrease" fn_mapping="None" grouping="die.02" name="die" verbnet_key="die#2" wn="" />
+  <MEMBER features="+directionOfChange_increase" fn_mapping="None" grouping="build.02" name="build" verbnet_key="build#3" wn="" />
+  <MEMBER features="+directionOfChange_decrease" fn_mapping="None" grouping="die.02" name="die" verbnet_key="die#2" wn="" />
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Patient">

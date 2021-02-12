@@ -1,7 +1,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="escape-51.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER features="" fn_mapping="Change_direction" grouping="cut.04" name="cut" verbnet_key="cut#6" wn="cut%2:38:13 cut%2:38:12" />
+  <MEMBER features="None" fn_mapping="Change_direction" grouping="cut.04" name="cut" verbnet_key="cut#6" wn="cut%2:38:13 cut%2:38:12" />
   <MEMBER features="+destination_focus" fn_mapping="Arriving" grouping="get.04" name="get" verbnet_key="get#5" wn="get%2:38:00 get%2:38:15" />
   <MEMBER features="+destination_focus" fn_mapping="None" grouping="" name="make_it" verbnet_key="make_it#1" wn="" />
  </MEMBERS>
@@ -201,18 +201,18 @@
     <MEMBER features="+destination_focus" fn_mapping="None" grouping="come.01" name="come" verbnet_key="come#3" wn="come%2:38:00 come%2:38:04" />
     <MEMBER features="+continue" fn_mapping="None" grouping="continue.03" name="continue" verbnet_key="continue#2" wn="continue%2:38:00" />
     <MEMBER features="+source_focus" fn_mapping="None" grouping="" name="decamp" verbnet_key="decamp#1" wn="decamp%2:38:00                        decamp%2:38:01 decamp%2:38:02" />
-    <MEMBER features="" fn_mapping="Motion_directional" grouping="fall.01" name="fall" verbnet_key="fall#6" wn="fall%2:38:03 fall%2:38:15 fall%2:38:14" />
+    <MEMBER features="None" fn_mapping="Motion_directional" grouping="fall.01" name="fall" verbnet_key="fall#6" wn="fall%2:38:03 fall%2:38:15 fall%2:38:14" />
     <MEMBER features="+destination_focus" fn_mapping="None" grouping="file.03" name="file" verbnet_key="file#4" wn="file%2:38:00" />
     <MEMBER features="+source_focus" fn_mapping="None" grouping="go.01 go.02" name="go" verbnet_key="go#4" wn="go%2:38:00 go%2:38:01" />
-    <MEMBER features="" fn_mapping="None" grouping="plunge.01 plunge.02" name="plunge" verbnet_key="plunge#2" wn="plunge%2:38:05 plunge%2:38:00" />
+    <MEMBER features="None" fn_mapping="None" grouping="plunge.01 plunge.02" name="plunge" verbnet_key="plunge#2" wn="plunge%2:38:05 plunge%2:38:00" />
     <MEMBER features="+source_focus" fn_mapping="None" grouping="" name="recede" verbnet_key="recede#1" wn="recede%2:38:01 recede%2:33:00 recede%2:30:00" />
     <MEMBER features="+destination_focus" fn_mapping="None" grouping="return.01" name="return" verbnet_key="return#3" wn="return%2:38:00" />
     <MEMBER features="+destination_focus" fn_mapping="None" grouping="rise.01 rise.03" name="rise" verbnet_key="rise#4" wn="rise%2:38:00 rise%2:38:05 rise%2:38:04 rise%2:29:08 rise%2:38:08" />
-    <MEMBER features="" fn_mapping="None" grouping="tumble.01 tumble.02" name="tumble" verbnet_key="tumble#2" wn="tumble%2:38:00 tumble%2:38:04" />
+    <MEMBER features="None" fn_mapping="None" grouping="tumble.01 tumble.02" name="tumble" verbnet_key="tumble#2" wn="tumble%2:38:00 tumble%2:38:04" />
     <MEMBER features="+destination_focus" fn_mapping="None" grouping="arrive.01" name="arrive" verbnet_key="arrive#1" wn="arrive%2:38:00" />
     <MEMBER features="+source_focus" fn_mapping="None" grouping="" name="set_off" verbnet_key="set_off#2" wn="set_off%2:38:00" />
     <MEMBER features="+source_focus" fn_mapping="None" grouping="" name="set_out" verbnet_key="set_out#2" wn="set_out%2:38:00" />
-    <MEMBER features="" fn_mapping="None" grouping="" name="bolt" verbnet_key="bolt#1" wn="bolt%2:38:02 bolt%2:38:01" />
+    <MEMBER features="None" fn_mapping="None" grouping="" name="bolt" verbnet_key="bolt#1" wn="bolt%2:38:02 bolt%2:38:01" />
     <MEMBER features="+source_focus" fn_mapping="None" grouping="" name="emerge" verbnet_key="emerge#2" wn="emerge%2:30:00" />
     <MEMBER features="+source_focus" fn_mapping="None" grouping="" name="emigrate" verbnet_key="emigrate#1" wn="emigrate%2:30:00" />
     <MEMBER features="+source_focus" fn_mapping="None" grouping="" name="retreat" verbnet_key="retreat#2" wn="retreat%2:38:00 retreat%2:38:02" />

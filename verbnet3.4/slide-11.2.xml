@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="slide-11.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="move.01 move.02" name="move" verbnet_key="move#5" wn="move%2:38:03 move%2:38:01 move%2:38:00 move%2:29:06"/>
-  <MEMBER fn_mapping="None" grouping="" name="scoot" verbnet_key="scoot#2" wn="scoot%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="pull.05" name="pull" verbnet_key="pull#7" wn="pull%2:38:01 pull%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="move.01 move.02" name="move" verbnet_key="move#5" wn="move%2:38:03 move%2:38:01 move%2:38:00 move%2:29:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="scoot" verbnet_key="scoot#2" wn="scoot%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pull.05" name="pull" verbnet_key="pull#7" wn="pull%2:38:01 pull%2:38:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -506,7 +506,7 @@
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.destination PP.initial_location " secondary="NP-NP-PP; animate-destination-NP, path-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.destination PP.initial_location" secondary="NP-NP-PP; animate-destination-NP, path-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      John slid Carla the book from across the table.
@@ -579,11 +579,11 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="slide-11.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="bounce.01 bounce.06" name="bounce" verbnet_key="bounce#3" wn="bounce%2:38:00 bounce%2:35:03 ?bounce%2:38:02 bounce%2:38:01"/>
-    <MEMBER fn_mapping="None" grouping="dart.02" name="dart" verbnet_key="dart#3" wn="dart%2:38:02"/>
-    <MEMBER fn_mapping="Motion" grouping="float.01" name="float" verbnet_key="float#4" wn="float%2:38:00 float%2:38:01 float%2:38:02 float%2:35:04"/>
-    <MEMBER fn_mapping="Cause_motion" grouping="roll.01" name="roll" verbnet_key="roll#9" wn="roll%2:38:00"/>
-    <MEMBER fn_mapping="Motion" grouping="slide.01 slide.02" name="slide" verbnet_key="slide#4" wn="slide%2:38:01 slide%2:38:00 slide%2:38:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="bounce.01 bounce.06" name="bounce" verbnet_key="bounce#3" wn="bounce%2:38:00 bounce%2:35:03 ?bounce%2:38:02 bounce%2:38:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="dart.02" name="dart" verbnet_key="dart#3" wn="dart%2:38:02"/>
+    <MEMBER features="None" fn_mapping="Motion" grouping="float.01" name="float" verbnet_key="float#4" wn="float%2:38:00 float%2:38:01 float%2:38:02 float%2:35:04"/>
+    <MEMBER features="None" fn_mapping="Cause_motion" grouping="roll.01" name="roll" verbnet_key="roll#9" wn="roll%2:38:00"/>
+    <MEMBER features="None" fn_mapping="Motion" grouping="slide.01 slide.02" name="slide" verbnet_key="slide#4" wn="slide%2:38:01 slide%2:38:00 slide%2:38:02"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Destination">

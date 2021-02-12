@@ -1,16 +1,16 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="wish-62" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Opinion" grouping="expect.01" name="expect" verbnet_key="expect#2" wn="expect%2:32:00"/>
-  <MEMBER fn_mapping="Desiring" grouping="wish.02" name="wish" verbnet_key="wish#2" wn="wish%2:37:02"/>
-  <MEMBER fn_mapping="None" grouping="intend.01" name="intend" verbnet_key="intend#3" wn="intend%2:31:00"/>
-  <MEMBER fn_mapping="Purpose" grouping="plan.01" name="plan" verbnet_key="plan#2" wn="plan%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="propose.02" name="propose" verbnet_key="propose#3" wn="propose%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="think.05" name="think" verbnet_key="think#3" wn="think%2:31:03"/>
-  <MEMBER fn_mapping="Purpose" grouping="aim.02" name="aim" verbnet_key="aim#2" wn="aim%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="dream.01" name="dream" verbnet_key="dream#1" wn="dream%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="imagine.02" name="imagine" verbnet_key="imagine#2" wn="imagine%2:31:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="yen" verbnet_key="yen#1" wn="yen%2:37:00"/>
+  <MEMBER features="None" fn_mapping="Opinion" grouping="expect.01" name="expect" verbnet_key="expect#2" wn="expect%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Desiring" grouping="wish.02" name="wish" verbnet_key="wish#2" wn="wish%2:37:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="intend.01" name="intend" verbnet_key="intend#3" wn="intend%2:31:00"/>
+  <MEMBER features="None" fn_mapping="Purpose" grouping="plan.01" name="plan" verbnet_key="plan#2" wn="plan%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="propose.02" name="propose" verbnet_key="propose#3" wn="propose%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="think.05" name="think" verbnet_key="think#3" wn="think%2:31:03"/>
+  <MEMBER features="None" fn_mapping="Purpose" grouping="aim.02" name="aim" verbnet_key="aim#2" wn="aim%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dream.01" name="dream" verbnet_key="dream#1" wn="dream%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="imagine.02" name="imagine" verbnet_key="imagine#2" wn="imagine%2:31:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="yen" verbnet_key="yen#1" wn="yen%2:37:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Experiencer">

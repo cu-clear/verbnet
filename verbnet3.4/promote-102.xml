@@ -1,14 +1,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="promote-102" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="promote.01" name="promote" verbnet_key="promote#1" wn="promote%2:41:01 promote%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="advance.03 advance.04" name="advance" verbnet_key="advance#4" wn="advance%2:41:01 advance%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="boost.01" name="boost" verbnet_key="boost#1" wn="boost%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="further.01" name="further" verbnet_key="further#1" wn="further%2:41:00 further%2:41:01"/>
-  <MEMBER fn_mapping="Subjective_influence" grouping="encourage.01" name="encourage" verbnet_key="encourage#4" wn="encourage%2:41:00"/>
-  <MEMBER fn_mapping="Request" grouping="invite.01" name="invite" verbnet_key="invite#1" wn="invite%2:32:01"/>
-  <MEMBER fn_mapping="Convey_importance" grouping="emphasize.01" name="emphasize" verbnet_key="emphasize#1" wn="emphasize%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="underscore.01" name="underscore" verbnet_key="underscore#1" wn="underscore%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="promote.01" name="promote" verbnet_key="promote#1" wn="promote%2:41:01 promote%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="advance.03 advance.04" name="advance" verbnet_key="advance#4" wn="advance%2:41:01 advance%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="boost.01" name="boost" verbnet_key="boost#1" wn="boost%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="further.01" name="further" verbnet_key="further#1" wn="further%2:41:00 further%2:41:01"/>
+  <MEMBER features="None" fn_mapping="Subjective_influence" grouping="encourage.01" name="encourage" verbnet_key="encourage#4" wn="encourage%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Request" grouping="invite.01" name="invite" verbnet_key="invite#1" wn="invite%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Convey_importance" grouping="emphasize.01" name="emphasize" verbnet_key="emphasize#1" wn="emphasize%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="underscore.01" name="underscore" verbnet_key="underscore#1" wn="underscore%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

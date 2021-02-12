@@ -2,49 +2,49 @@
 <VNCLASS ID="modes_of_being_with_motion-47.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each member adds a manner predicate for how the Theme is moving-->
-  <MEMBER fn_mapping="Body_movement" grouping="bob.01" name="bob" verbnet_key="bob#3" wn="bob%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="bow.01" name="bow" verbnet_key="bow#4" wn=""/>
-  <MEMBER fn_mapping="None" grouping="circulate.01" name="circulate" verbnet_key="circulate#1" wn="circulate%2:38:03 circulate%2:38:04"/>
-  <MEMBER fn_mapping="Self_motion" grouping="creep.01 creep.02" name="creep" verbnet_key="creep#1" wn="creep%2:38:06"/>
-  <MEMBER fn_mapping="Self_motion" grouping="dance.02" name="dance" verbnet_key="dance#1" wn="dance%2:38:02"/>
-  <MEMBER fn_mapping="Motion" grouping="drift.01 drift.02" name="drift" verbnet_key="drift#1" wn="drift%2:38:02 drift%2:38:06 drift%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="eddy" verbnet_key="eddy#1" wn="eddy%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="falter.01" name="falter" verbnet_key="falter#1" wn=""/>
-  <MEMBER fn_mapping="Body_movement" grouping="flap.01" name="flap" verbnet_key="flap#3" wn="flap%2:38:01 flap%2:38:00"/>
-  <MEMBER fn_mapping="Motion" grouping="float.01" name="float" verbnet_key="float#1" wn="float%2:38:00 float%2:38:02"/>
-  <MEMBER fn_mapping="None" grouping="flutter.01" name="flutter" verbnet_key="flutter#2" wn="flutter%2:38:01 flutter%2:38:00 flutter%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="hover.01" name="hover" verbnet_key="hover#1" wn="hover%2:38:00 hover%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="jiggle" verbnet_key="jiggle#2" wn="jiggle%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="joggle" verbnet_key="joggle#1" wn="joggle%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="oscillate" verbnet_key="oscillate#1" wn="oscillate%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pulsate" verbnet_key="pulsate#1" wn="pulsate%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="pulse.01" name="pulse" verbnet_key="pulse#1" wn="pulse%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="quake" verbnet_key="quake#2" wn="quake%2:38:01 quake%2:38:02"/>
-  <MEMBER fn_mapping="Moving_in_place" grouping="" name="quiver" verbnet_key="quiver#2" wn="quiver%2:38:00 quiver%2:38:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="recirculate" verbnet_key="recirculate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="revolve.01" name="revolve" verbnet_key="revolve#1" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02"/>
-  <MEMBER fn_mapping="Moving_in_place" grouping="rock.01" name="rock" verbnet_key="rock#2" wn="rock%2:38:00"/>
-  <MEMBER fn_mapping="Moving_in_place" grouping="rotate.01" name="rotate" verbnet_key="rotate#2" wn="rotate%2:38:01 rotate%2:38:00"/>
-  <MEMBER fn_mapping="Cause_to_move_in_place" grouping="shake.01" name="shake" verbnet_key="shake#6" wn="shake%2:38:00 shake%2:29:00 shake%2:38:02"/>
-  <MEMBER fn_mapping="None" grouping="stir.01" name="stir" verbnet_key="stir#2" wn="stir%2:38:01 stir%2:38:00 stir%2:38:04"/>
-  <MEMBER fn_mapping="None" grouping="swag.03" name="swag" verbnet_key="swag#1" wn="swag%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="sway.01" name="sway" verbnet_key="sway#3" wn="sway%2:38:00 sway%2:38:06"/>
-  <MEMBER fn_mapping="None" grouping="" name="swirl" verbnet_key="swirl#2" wn="swirl%2:38:01 swirl%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="teeter" verbnet_key="teeter#2" wn="teeter%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="throb.01" name="throb" verbnet_key="throb#1" wn="throb%2:39:00 throb%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="totter" verbnet_key="totter#2" wn="totter%2:38:02 totter%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tremble" verbnet_key="tremble#2" wn="tremble%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="undulate" verbnet_key="undulate#2" wn="undulate%2:38:01 undulate%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="vacillate" verbnet_key="vacillate#1" wn=""/>
-  <MEMBER fn_mapping="Moving_in_place" grouping="vibrate.01" name="vibrate" verbnet_key="vibrate#1" wn="vibrate%2:38:00 vibrate%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="waft" verbnet_key="waft#1" wn="waft%2:43:00"/>
-  <MEMBER fn_mapping="Moving_in_place" grouping="wave.02" name="wave" verbnet_key="wave#2" wn="wave%2:35:00 wave%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="waver.02" name="waver" verbnet_key="waver#1" wn="waver%2:38:01 waver%2:38:02 waver%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wiggle" verbnet_key="wiggle#3" wn="wiggle%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wobble" verbnet_key="wobble#2" wn="wobble%2:38:00 wobble%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="worm" verbnet_key="worm#1" wn="worm%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="writhe" verbnet_key="writhe#2" wn="writhe%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="roil" verbnet_key="roil#3" wn="roil%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="bob.01" name="bob" verbnet_key="bob#3" wn="bob%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bow.01" name="bow" verbnet_key="bow#4" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="circulate.01" name="circulate" verbnet_key="circulate#1" wn="circulate%2:38:03 circulate%2:38:04"/>
+  <MEMBER features="None" fn_mapping="Self_motion" grouping="creep.01 creep.02" name="creep" verbnet_key="creep#1" wn="creep%2:38:06"/>
+  <MEMBER features="None" fn_mapping="Self_motion" grouping="dance.02" name="dance" verbnet_key="dance#1" wn="dance%2:38:02"/>
+  <MEMBER features="None" fn_mapping="Motion" grouping="drift.01 drift.02" name="drift" verbnet_key="drift#1" wn="drift%2:38:02 drift%2:38:06 drift%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="eddy" verbnet_key="eddy#1" wn="eddy%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="falter.01" name="falter" verbnet_key="falter#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="flap.01" name="flap" verbnet_key="flap#3" wn="flap%2:38:01 flap%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Motion" grouping="float.01" name="float" verbnet_key="float#1" wn="float%2:38:00 float%2:38:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="flutter.01" name="flutter" verbnet_key="flutter#2" wn="flutter%2:38:01 flutter%2:38:00 flutter%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hover.01" name="hover" verbnet_key="hover#1" wn="hover%2:38:00 hover%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jiggle" verbnet_key="jiggle#2" wn="jiggle%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="joggle" verbnet_key="joggle#1" wn="joggle%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="oscillate" verbnet_key="oscillate#1" wn="oscillate%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pulsate" verbnet_key="pulsate#1" wn="pulsate%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pulse.01" name="pulse" verbnet_key="pulse#1" wn="pulse%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="quake" verbnet_key="quake#2" wn="quake%2:38:01 quake%2:38:02"/>
+  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="" name="quiver" verbnet_key="quiver#2" wn="quiver%2:38:00 quiver%2:38:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="recirculate" verbnet_key="recirculate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="revolve.01" name="revolve" verbnet_key="revolve#1" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02"/>
+  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="rock.01" name="rock" verbnet_key="rock#2" wn="rock%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="rotate.01" name="rotate" verbnet_key="rotate#2" wn="rotate%2:38:01 rotate%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Cause_to_move_in_place" grouping="shake.01" name="shake" verbnet_key="shake#6" wn="shake%2:38:00 shake%2:29:00 shake%2:38:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stir.01" name="stir" verbnet_key="stir#2" wn="stir%2:38:01 stir%2:38:00 stir%2:38:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="swag.03" name="swag" verbnet_key="swag#1" wn="swag%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="sway.01" name="sway" verbnet_key="sway#3" wn="sway%2:38:00 sway%2:38:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="swirl" verbnet_key="swirl#2" wn="swirl%2:38:01 swirl%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="teeter" verbnet_key="teeter#2" wn="teeter%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="throb.01" name="throb" verbnet_key="throb#1" wn="throb%2:39:00 throb%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="totter" verbnet_key="totter#2" wn="totter%2:38:02 totter%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tremble" verbnet_key="tremble#2" wn="tremble%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="undulate" verbnet_key="undulate#2" wn="undulate%2:38:01 undulate%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="vacillate" verbnet_key="vacillate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="vibrate.01" name="vibrate" verbnet_key="vibrate#1" wn="vibrate%2:38:00 vibrate%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="waft" verbnet_key="waft#1" wn="waft%2:43:00"/>
+  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="wave.02" name="wave" verbnet_key="wave#2" wn="wave%2:35:00 wave%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="waver.02" name="waver" verbnet_key="waver#1" wn="waver%2:38:01 waver%2:38:02 waver%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wiggle" verbnet_key="wiggle#3" wn="wiggle%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wobble" verbnet_key="wobble#2" wn="wobble%2:38:00 wobble%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="worm" verbnet_key="worm#1" wn="worm%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="writhe" verbnet_key="writhe#2" wn="writhe%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="roil" verbnet_key="roil#3" wn="roil%2:38:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

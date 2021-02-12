@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="confess-37.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Reveal_secret" grouping="confess.01 confess.02" name="confess" verbnet_key="confess#1" wn="confess%2:32:00 confess%2:32:01"/>
-  <MEMBER fn_mapping="Reveal_secret" grouping="admit.01" name="admit" verbnet_key="admit#2" wn="admit%2:32:00"/>
-  <MEMBER fn_mapping="Statement" grouping="acknowledge.01" name="acknowledge" verbnet_key="acknowledge#1" wn="acknowledge%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fess_up" verbnet_key="fess_up#1" wn=""/>
-  <MEMBER fn_mapping="Statement" grouping="proclaim.02" name="proclaim" verbnet_key="proclaim#2" wn="proclaim%2:32:00"/>
-  <MEMBER fn_mapping="Reveal_secret" grouping="reveal.02" name="reveal" verbnet_key="reveal#2" wn="reveal%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Reveal_secret" grouping="confess.01 confess.02" name="confess" verbnet_key="confess#1" wn="confess%2:32:00 confess%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Reveal_secret" grouping="admit.01" name="admit" verbnet_key="admit#2" wn="admit%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Statement" grouping="acknowledge.01" name="acknowledge" verbnet_key="acknowledge#1" wn="acknowledge%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fess_up" verbnet_key="fess_up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Statement" grouping="proclaim.02" name="proclaim" verbnet_key="proclaim#2" wn="proclaim%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Reveal_secret" grouping="reveal.02" name="reveal" verbnet_key="reveal#2" wn="reveal%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

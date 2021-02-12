@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="refrain-69" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="refrain.01" name="refrain" verbnet_key="refrain#1" wn="refrain%2:42:00 refrain%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="abstain" verbnet_key="abstain#1" wn="abstain%2:41:00 abstain%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="desist" verbnet_key="desist#1" wn="desist%2:34:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="forbear" verbnet_key="forbear#1" wn="forbear%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="refrain.01" name="refrain" verbnet_key="refrain#1" wn="refrain%2:42:00 refrain%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="abstain" verbnet_key="abstain#1" wn="abstain%2:41:00 abstain%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="desist" verbnet_key="desist#1" wn="desist%2:34:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="forbear" verbnet_key="forbear#1" wn="forbear%2:42:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

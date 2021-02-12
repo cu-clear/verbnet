@@ -2,15 +2,15 @@
 <VNCLASS ID="put_direction-9.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Direction for this class is "against gravity"-->
-  <MEMBER fn_mapping="Change_posture" grouping="drop.01 drop.02         drop.04" name="drop" verbnet_key="drop#4" wn="drop%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="drive.05" name="drive" verbnet_key="drive#4" wn="drive%2:35:06"/>
-  <MEMBER fn_mapping="None" grouping="elevate.02 elevate.04" name="elevate" verbnet_key="elevate#1" wn="elevate%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="heel.01" name="heel" verbnet_key="heel#3" wn="heel%2:38:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="hoist" verbnet_key="hoist#2" wn="hoist%2:35:00 hoist%2:35:10 hoist%2:35:01"/>
-  <MEMBER fn_mapping="Body_movement" grouping="lift.01" name="lift" verbnet_key="lift#1" wn="lift%2:38:00 lift%2:35:00 lift%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="lower.01" name="lower" verbnet_key="lower#2" wn="lower%2:38:00"/>
-  <MEMBER fn_mapping="Building" grouping="raise.02" name="raise" verbnet_key="raise#5" wn="raise%2:38:00"/>
-  <MEMBER fn_mapping="Self_motion" grouping="" name="back" verbnet_key="back#1" wn="back%2:38:01"/>
+  <MEMBER features="None" fn_mapping="Change_posture" grouping="drop.01 drop.02         drop.04" name="drop" verbnet_key="drop#4" wn="drop%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="drive.05" name="drive" verbnet_key="drive#4" wn="drive%2:35:06"/>
+  <MEMBER features="None" fn_mapping="None" grouping="elevate.02 elevate.04" name="elevate" verbnet_key="elevate#1" wn="elevate%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="heel.01" name="heel" verbnet_key="heel#3" wn="heel%2:38:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hoist" verbnet_key="hoist#2" wn="hoist%2:35:00 hoist%2:35:10 hoist%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Body_movement" grouping="lift.01" name="lift" verbnet_key="lift#1" wn="lift%2:38:00 lift%2:35:00 lift%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="lower.01" name="lower" verbnet_key="lower#2" wn="lower%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Building" grouping="raise.02" name="raise" verbnet_key="raise#5" wn="raise%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Self_motion" grouping="" name="back" verbnet_key="back#1" wn="back%2:38:01"/>
  </MEMBERS>
  <THEMROLES>
   <!--Destination can also be realized as a locative adverb ("here, there")

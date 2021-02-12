@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="render-29.90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Cause_motion" grouping="drive.02" name="drive" verbnet_key="drive#5" wn="drive%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="render" verbnet_key="render#3" wn=""/>
-  <MEMBER fn_mapping="Cause_to_fragment" grouping="" name="take" verbnet_key="take#11" wn=""/>
-  <MEMBER fn_mapping="None" grouping="leave.03" name="leave" verbnet_key="leave#7" wn="leave%2:42:02"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="drive.02" name="drive" verbnet_key="drive#5" wn="drive%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="render" verbnet_key="render#3" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_to_fragment" grouping="" name="take" verbnet_key="take#11" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="leave.03" name="leave" verbnet_key="leave#7" wn="leave%2:42:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Causer">
@@ -118,7 +118,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="render-29.90-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Causation" grouping="make.03" name="make" verbnet_key="make#6" wn="make%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Causation" grouping="make.03" name="make" verbnet_key="make#6" wn="make%2:30:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -175,7 +175,7 @@
   </VNSUBCLASS>
   <VNSUBCLASS ID="render-29.90-2">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="get.03" name="get" verbnet_key="get#8" wn="get%2:30:01"/>
+    <MEMBER features="None" fn_mapping="None" grouping="get.03" name="get" verbnet_key="get#8" wn="get%2:30:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

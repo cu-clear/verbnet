@@ -2,21 +2,21 @@
 <VNCLASS ID="coloring-24" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Material comes from the verb-->
-  <MEMBER fn_mapping="None" grouping="color.01" name="color" verbnet_key="color#1" wn="color%2:30:00 color%2:36:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="distemper" verbnet_key="distemper#1" wn="distemper%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="dye" verbnet_key="dye#2" wn="dye%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="enamel" verbnet_key="enamel#1" wn="enamel%2:36:00"/>
-  <MEMBER fn_mapping="Filling" grouping="glaze.01" name="glaze" verbnet_key="glaze#2" wn="glaze%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="japan" verbnet_key="japan#1" wn="japan%2:36:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="lacquer" verbnet_key="lacquer#1" wn="lacquer%2:36:00"/>
-  <MEMBER fn_mapping="Create_physical_artwork" grouping="paint.01 paint.02" name="paint" verbnet_key="paint#3" wn="paint%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="repaint" verbnet_key="repaint#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="shellac" verbnet_key="shellac#1" wn="shellac%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="spraypaint" verbnet_key="spraypaint#1" wn=""/>
-  <MEMBER fn_mapping="Processing_materials" grouping="stain.01 stain.02 stain.03" name="stain" verbnet_key="stain#2" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="starch" verbnet_key="starch#2" wn="starch%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tint" verbnet_key="tint#1" wn="tint%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="varnish" verbnet_key="varnish#2" wn="varnish%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="color.01" name="color" verbnet_key="color#1" wn="color%2:30:00 color%2:36:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="distemper" verbnet_key="distemper#1" wn="distemper%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dye" verbnet_key="dye#2" wn="dye%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="enamel" verbnet_key="enamel#1" wn="enamel%2:36:00"/>
+  <MEMBER features="None" fn_mapping="Filling" grouping="glaze.01" name="glaze" verbnet_key="glaze#2" wn="glaze%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="japan" verbnet_key="japan#1" wn="japan%2:36:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lacquer" verbnet_key="lacquer#1" wn="lacquer%2:36:00"/>
+  <MEMBER features="None" fn_mapping="Create_physical_artwork" grouping="paint.01 paint.02" name="paint" verbnet_key="paint#3" wn="paint%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="repaint" verbnet_key="repaint#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shellac" verbnet_key="shellac#1" wn="shellac%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="spraypaint" verbnet_key="spraypaint#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Processing_materials" grouping="stain.01 stain.02 stain.03" name="stain" verbnet_key="stain#2" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="starch" verbnet_key="starch#2" wn="starch%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tint" verbnet_key="tint#1" wn="tint%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="varnish" verbnet_key="varnish#2" wn="varnish%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

@@ -1,47 +1,47 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="entity_specific_cos-45.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="apostatize" verbnet_key="apostatize#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="atrophy" verbnet_key="atrophy#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="blister.01" name="blister" verbnet_key="blister#1" wn="blister%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bloom" verbnet_key="bloom#1" wn="bloom%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="blossom" verbnet_key="blossom#1" wn="blossom%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="bud" verbnet_key="bud#1" wn="bud%2:30:00 bud%2:30:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="burgeon" verbnet_key="burgeon#1" wn="burgeon%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="burn.02" name="burn" verbnet_key="burn#1" wn="burn%2:43:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="corrode" verbnet_key="corrode#1" wn="corrode%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="crust" verbnet_key="crust#1" wn="crust%2:30:00"/>
-  <MEMBER fn_mapping="Rotting" grouping="decay.01" name="decay" verbnet_key="decay#1" wn="decay%2:30:00 decay%2:30:02"/>
-  <MEMBER fn_mapping="Rotting" grouping="decompose.01" name="decompose" verbnet_key="decompose#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="deteriorate.01" name="deteriorate" verbnet_key="deteriorate#1" wn="deteriorate%2:30:00 deteriorate%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="ebb" verbnet_key="ebb#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="erode.02" name="erode" verbnet_key="erode#1" wn="erode%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="ferment.01" name="ferment" verbnet_key="ferment#1" wn="ferment%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fester" verbnet_key="fester#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="flower" verbnet_key="flower#1" wn="flower%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="foliate.05" name="foliate" verbnet_key="foliate#1" wn="foliate%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="germinate" verbnet_key="germinate#1" wn="germinate%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="green" verbnet_key="green#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="molder" verbnet_key="molder#1" wn="molder%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="molt" verbnet_key="molt#1" wn="molt%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="moult" verbnet_key="moult#1" wn="moult%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="oxidize" verbnet_key="oxidize#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="phosphoresce" verbnet_key="phosphoresce#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="progress" verbnet_key="progress#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="putrefy" verbnet_key="putrefy#1" wn=""/>
-  <MEMBER fn_mapping="Rotting" grouping="rot.01" name="rot" verbnet_key="rot#1" wn="rot%2:30:00"/>
-  <MEMBER fn_mapping="Corroding" grouping="rust.01" name="rust" verbnet_key="rust#1" wn="rust%2:30:00"/>
-  <MEMBER fn_mapping="Rotting" grouping="spoil.02" name="spoil" verbnet_key="spoil#1" wn="spoil%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="sprout" verbnet_key="sprout#1" wn="sprout%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="stagnate.02" name="stagnate" verbnet_key="stagnate#1" wn="stagnate%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="subside.01 subside.02" name="subside" verbnet_key="subside#1" wn="subside%2:30:00 subside%2:38:02 subside%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="suppurate" verbnet_key="suppurate#1" wn="suppurate%2:29:01 suppurate%2:29:00"/>
-  <MEMBER fn_mapping="Change_position_on_a_scale" grouping="swell.01" name="swell" verbnet_key="swell#2" wn="swell%2:30:02 swell%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tarnish" verbnet_key="tarnish#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="wane.01 wane.02" name="wane" verbnet_key="wane#1" wn="wane%2:30:02 wane%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="wilt" verbnet_key="wilt#1" wn="wilt%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wither" verbnet_key="wither#1" wn="wither%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pullulate" verbnet_key="pullulate#1" wn="pullulate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="apostatize" verbnet_key="apostatize#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="atrophy" verbnet_key="atrophy#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="blister.01" name="blister" verbnet_key="blister#1" wn="blister%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bloom" verbnet_key="bloom#1" wn="bloom%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blossom" verbnet_key="blossom#1" wn="blossom%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bud" verbnet_key="bud#1" wn="bud%2:30:00 bud%2:30:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="burgeon" verbnet_key="burgeon#1" wn="burgeon%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="burn.02" name="burn" verbnet_key="burn#1" wn="burn%2:43:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="corrode" verbnet_key="corrode#1" wn="corrode%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="crust" verbnet_key="crust#1" wn="crust%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Rotting" grouping="decay.01" name="decay" verbnet_key="decay#1" wn="decay%2:30:00 decay%2:30:02"/>
+  <MEMBER features="None" fn_mapping="Rotting" grouping="decompose.01" name="decompose" verbnet_key="decompose#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="deteriorate.01" name="deteriorate" verbnet_key="deteriorate#1" wn="deteriorate%2:30:00 deteriorate%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ebb" verbnet_key="ebb#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="erode.02" name="erode" verbnet_key="erode#1" wn="erode%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="ferment.01" name="ferment" verbnet_key="ferment#1" wn="ferment%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fester" verbnet_key="fester#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flower" verbnet_key="flower#1" wn="flower%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="foliate.05" name="foliate" verbnet_key="foliate#1" wn="foliate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="germinate" verbnet_key="germinate#1" wn="germinate%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="green" verbnet_key="green#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="molder" verbnet_key="molder#1" wn="molder%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="molt" verbnet_key="molt#1" wn="molt%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="moult" verbnet_key="moult#1" wn="moult%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="oxidize" verbnet_key="oxidize#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="phosphoresce" verbnet_key="phosphoresce#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="progress" verbnet_key="progress#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="putrefy" verbnet_key="putrefy#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Rotting" grouping="rot.01" name="rot" verbnet_key="rot#1" wn="rot%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Corroding" grouping="rust.01" name="rust" verbnet_key="rust#1" wn="rust%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Rotting" grouping="spoil.02" name="spoil" verbnet_key="spoil#1" wn="spoil%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sprout" verbnet_key="sprout#1" wn="sprout%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="stagnate.02" name="stagnate" verbnet_key="stagnate#1" wn="stagnate%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="subside.01 subside.02" name="subside" verbnet_key="subside#1" wn="subside%2:30:00 subside%2:38:02 subside%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="suppurate" verbnet_key="suppurate#1" wn="suppurate%2:29:01 suppurate%2:29:00"/>
+  <MEMBER features="None" fn_mapping="Change_position_on_a_scale" grouping="swell.01" name="swell" verbnet_key="swell#2" wn="swell%2:30:02 swell%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tarnish" verbnet_key="tarnish#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="wane.01 wane.02" name="wane" verbnet_key="wane#1" wn="wane%2:30:02 wane%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wilt" verbnet_key="wilt#1" wn="wilt%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wither" verbnet_key="wither#1" wn="wither%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pullulate" verbnet_key="pullulate#1" wn="pullulate%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Patient">

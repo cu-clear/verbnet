@@ -2,8 +2,8 @@
 <VNCLASS ID="hold-15.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--This class includes an implicit hands instrument (for human Agents). -->
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="wield.01" name="wield" verbnet_key="wield#1" wn="wield%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="handle.01" name="handle" verbnet_key="handle#2" wn="handle%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="wield.01" name="wield" verbnet_key="wield#1" wn="wield%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="handle.01" name="handle" verbnet_key="handle#2" wn="handle%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -48,12 +48,12 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="hold-15.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="clasp.01" name="clasp" verbnet_key="clasp#1" wn="clasp%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="clutch.01" name="clutch" verbnet_key="clutch#1" wn="clutch%2:35:04"/>
-    <MEMBER fn_mapping="None" grouping="grab.01 grab.02" name="grab" verbnet_key="grab#1" wn="grab%2:35:00 grab%2:40:00 grab%2:38:02 grab%2:40:03  grab%2:35:05"/>
-    <MEMBER fn_mapping="None" grouping="grasp.01" name="grasp" verbnet_key="grasp#2" wn="grasp%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="grip.01" name="grip" verbnet_key="grip#1" wn="grip%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="hold.03" name="hold" verbnet_key="hold#7" wn="hold%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="clasp.01" name="clasp" verbnet_key="clasp#1" wn="clasp%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="clutch.01" name="clutch" verbnet_key="clutch#1" wn="clutch%2:35:04"/>
+    <MEMBER features="None" fn_mapping="None" grouping="grab.01 grab.02" name="grab" verbnet_key="grab#1" wn="grab%2:35:00 grab%2:40:00 grab%2:38:02 grab%2:40:03  grab%2:35:05"/>
+    <MEMBER features="None" fn_mapping="None" grouping="grasp.01" name="grasp" verbnet_key="grasp#2" wn="grasp%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="grip.01" name="grip" verbnet_key="grip#1" wn="grip%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="hold.03" name="hold" verbnet_key="hold#7" wn="hold%2:35:00"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Theme">

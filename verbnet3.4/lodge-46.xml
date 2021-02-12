@@ -1,27 +1,27 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="lodge-46" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="barrack.01" name="barrack" verbnet_key="barrack#1" wn="barrack%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bivouac" verbnet_key="bivouac#1" wn="bivouac%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="board.02" name="board" verbnet_key="board#2" wn="board%2:42:00 board%2:34:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="bunk" verbnet_key="bunk#1" wn="bunk%2:40:00"/>
-  <MEMBER fn_mapping="Residence" grouping="camp.01" name="camp" verbnet_key="camp#1" wn="camp%2:42:00"/>
-  <MEMBER fn_mapping="Residence" grouping="dwell.02" name="dwell" verbnet_key="dwell#4" wn="dwell%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="guest" verbnet_key="guest#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="live.02" name="live" verbnet_key="live#2" wn="live%2:42:08"/>
-  <MEMBER fn_mapping="Residence" grouping="lodge.01" name="lodge" verbnet_key="lodge#1" wn="lodge%2:42:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="overnight" verbnet_key="overnight#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="quarter.01" name="quarter" verbnet_key="quarter#3" wn=""/>
-  <MEMBER fn_mapping="Residence" grouping="reside.01" name="reside" verbnet_key="reside#2" wn="reside%2:42:00 reside%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="room" verbnet_key="room#1" wn=""/>
-  <MEMBER fn_mapping="Colonization" grouping="settle.03" name="settle" verbnet_key="settle#1" wn="settle%2:30:00 settle%2:30:03 settle%2:30:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="shack_up" verbnet_key="shack_up#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="shelter.01" name="shelter" verbnet_key="shelter#3" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="sleep_over" verbnet_key="sleep_over#1" wn=""/>
-  <MEMBER fn_mapping="Residence" grouping="squat.03" name="squat" verbnet_key="squat#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="stay_over" verbnet_key="stay_over#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="stop.03" name="stop" verbnet_key="stop#2" wn="stop%2:38:02"/>
-  <MEMBER fn_mapping="State_continue" grouping="stay.01" name="stay" verbnet_key="stay#2" wn="stay%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="barrack.01" name="barrack" verbnet_key="barrack#1" wn="barrack%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bivouac" verbnet_key="bivouac#1" wn="bivouac%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="board.02" name="board" verbnet_key="board#2" wn="board%2:42:00 board%2:34:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bunk" verbnet_key="bunk#1" wn="bunk%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Residence" grouping="camp.01" name="camp" verbnet_key="camp#1" wn="camp%2:42:00"/>
+  <MEMBER features="None" fn_mapping="Residence" grouping="dwell.02" name="dwell" verbnet_key="dwell#4" wn="dwell%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="guest" verbnet_key="guest#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="live.02" name="live" verbnet_key="live#2" wn="live%2:42:08"/>
+  <MEMBER features="None" fn_mapping="Residence" grouping="lodge.01" name="lodge" verbnet_key="lodge#1" wn="lodge%2:42:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overnight" verbnet_key="overnight#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="quarter.01" name="quarter" verbnet_key="quarter#3" wn=""/>
+  <MEMBER features="None" fn_mapping="Residence" grouping="reside.01" name="reside" verbnet_key="reside#2" wn="reside%2:42:00 reside%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="room" verbnet_key="room#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Colonization" grouping="settle.03" name="settle" verbnet_key="settle#1" wn="settle%2:30:00 settle%2:30:03 settle%2:30:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shack_up" verbnet_key="shack_up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="shelter.01" name="shelter" verbnet_key="shelter#3" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sleep_over" verbnet_key="sleep_over#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Residence" grouping="squat.03" name="squat" verbnet_key="squat#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="stay_over" verbnet_key="stay_over#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="stop.03" name="stop" verbnet_key="stop#2" wn="stop%2:38:02"/>
+  <MEMBER features="None" fn_mapping="State_continue" grouping="stay.01" name="stay" verbnet_key="stay#2" wn="stay%2:42:01"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

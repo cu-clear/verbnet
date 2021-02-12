@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="reject-77.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="decline" verbnet_key="decline#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="rebuff" verbnet_key="rebuff#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="refuse" verbnet_key="refuse#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="turn-down" verbnet_key="turn-down#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="decline" verbnet_key="decline#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rebuff" verbnet_key="rebuff#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="refuse" verbnet_key="refuse#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="turn-down" verbnet_key="turn-down#1" wn=""/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -78,12 +78,12 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="reject-77.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="discourage.02" name="discourage" verbnet_key="discourage#3" wn="discourage%2:32:01 discourage%2:37:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="dismiss" verbnet_key="dismiss#3" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="disparage" verbnet_key="disparage#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="disprefer" verbnet_key="disprefer#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="pooh_pooh" verbnet_key="pooh_pooh#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="reject" verbnet_key="reject#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="discourage.02" name="discourage" verbnet_key="discourage#3" wn="discourage%2:32:01 discourage%2:37:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="dismiss" verbnet_key="dismiss#3" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="disparage" verbnet_key="disparage#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="disprefer" verbnet_key="disprefer#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pooh_pooh" verbnet_key="pooh_pooh#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="reject" verbnet_key="reject#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

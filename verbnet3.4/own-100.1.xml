@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="own-100.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="have.01 have.02         have.03 have.05" name="have" verbnet_key="have#3" wn="have%2:40:04"/>
-  <MEMBER fn_mapping="Change_event_time" grouping="hold.07" name="hold" verbnet_key="hold#9" wn=""/>
-  <MEMBER fn_mapping="None" grouping="own.01" name="own" verbnet_key="own#1" wn="own%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="possess.01" name="possess" verbnet_key="possess#1" wn="possess%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="have.01 have.02         have.03 have.05" name="have" verbnet_key="have#3" wn="have%2:40:04"/>
+  <MEMBER features="None" fn_mapping="Change_event_time" grouping="hold.07" name="hold" verbnet_key="hold#9" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="own.01" name="own" verbnet_key="own#1" wn="own%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="possess.01" name="possess" verbnet_key="possess#1" wn="possess%2:40:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Pivot">

@@ -1,15 +1,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="touch-20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="chafe.01" name="chafe" verbnet_key="chafe#3" wn="chafe%2:30:00"/>
-  <MEMBER fn_mapping="Manipulation" grouping="" name="grope" verbnet_key="grope#2" wn="grope%2:35:01 grope%2:35:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="knead" verbnet_key="knead#2" wn="knead%2:35:00 knead%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="osculate.03" name="osculate" verbnet_key="osculate#1" wn="osculate%2:35:00"/>
-  <MEMBER fn_mapping="Manipulation" grouping="squeeze.01" name="squeeze" verbnet_key="squeeze#4" wn="squeeze%2:35:05 squeeze%2:35:00 squeeze%2:35:02 squeeze%2:35:04"/>
-  <MEMBER fn_mapping="Manipulation" grouping="" name="tug" verbnet_key="tug#4" wn="tug%2:35:00 tug%2:35:02 tug%2:35:01"/>
-  <MEMBER fn_mapping="Manipulation" grouping="tweak.01" name="tweak" verbnet_key="tweak#1" wn="tweak%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="twinge.02" name="twinge" verbnet_key="twinge#2" wn="twinge%2:35:00"/>
-  <MEMBER fn_mapping="Manipulation" grouping="wring.01" name="wring" verbnet_key="wring#3" wn="wring%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="chafe.01" name="chafe" verbnet_key="chafe#3" wn="chafe%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="" name="grope" verbnet_key="grope#2" wn="grope%2:35:01 grope%2:35:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="knead" verbnet_key="knead#2" wn="knead%2:35:00 knead%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="osculate.03" name="osculate" verbnet_key="osculate#1" wn="osculate%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="squeeze.01" name="squeeze" verbnet_key="squeeze#4" wn="squeeze%2:35:05 squeeze%2:35:00 squeeze%2:35:02 squeeze%2:35:04"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="" name="tug" verbnet_key="tug#4" wn="tug%2:35:00 tug%2:35:02 tug%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="tweak.01" name="tweak" verbnet_key="tweak#1" wn="tweak%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="twinge.02" name="twinge" verbnet_key="twinge#2" wn="twinge%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="wring.01" name="wring" verbnet_key="wring#3" wn="wring%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -256,26 +256,26 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="touch-20-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="caress" verbnet_key="caress#1" wn="caress%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="fondle" verbnet_key="fondle#1" wn="fondle%2:35:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="grasp.01" name="grasp" verbnet_key="grasp#3" wn="grasp%2:35:00"/>
-    <MEMBER fn_mapping="Experience_bodily_harm" grouping="graze.02" name="graze" verbnet_key="graze#3" wn="?graze%2:35:02 graze%2:35:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="grip.01 grip.02" name="grip" verbnet_key="grip#2" wn="grip%2:35:00 grip%2:35:03 grip%2:37:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="kiss.01 kiss.02" name="kiss" verbnet_key="kiss#2" wn="kiss%2:35:00 kiss%2:35:01"/>
-    <MEMBER fn_mapping="Manipulation" grouping="lick.01" name="lick" verbnet_key="lick#2" wn="lick%2:35:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="massage.01" name="massage" verbnet_key="massage#1" wn="massage%2:35:00 massage%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="nudge" verbnet_key="nudge#4" wn="nudge%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="pat" verbnet_key="pat#1" wn="pat%2:35:01 pat%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="paw" verbnet_key="paw#3" wn="paw%2:35:01 paw%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="peck" verbnet_key="peck#3" wn="peck%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="pet" verbnet_key="pet#2" wn="pet%2:35:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="pinch.01" name="pinch" verbnet_key="pinch#2" wn="pinch%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="prod.01" name="prod" verbnet_key="prod#1" wn="prod%2:35:02 prod%2:35:01"/>
-    <MEMBER fn_mapping="Manipulation" grouping="rub.01 rub.02" name="rub" verbnet_key="rub#3" wn="rub%2:35:00 rub%2:35:01 rub%2:39:00"/>
-    <MEMBER fn_mapping="Cause_harm" grouping="sting.01 sting.02" name="sting" verbnet_key="sting#4" wn="?sting%2:35:01 ?sting%2:39:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="stroke.01" name="stroke" verbnet_key="stroke#1" wn="stroke%2:35:00"/>
-    <MEMBER fn_mapping="Perception_body" grouping="tickle.01" name="tickle" verbnet_key="tickle#3" wn="tickle%2:39:00 tickle%2:35:00"/>
-    <MEMBER fn_mapping="Manipulation" grouping="touch.01" name="touch" verbnet_key="touch#4" wn="touch%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="caress" verbnet_key="caress#1" wn="caress%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="fondle" verbnet_key="fondle#1" wn="fondle%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="grasp.01" name="grasp" verbnet_key="grasp#3" wn="grasp%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Experience_bodily_harm" grouping="graze.02" name="graze" verbnet_key="graze#3" wn="?graze%2:35:02 graze%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="grip.01 grip.02" name="grip" verbnet_key="grip#2" wn="grip%2:35:00 grip%2:35:03 grip%2:37:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="kiss.01 kiss.02" name="kiss" verbnet_key="kiss#2" wn="kiss%2:35:00 kiss%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="lick.01" name="lick" verbnet_key="lick#2" wn="lick%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="massage.01" name="massage" verbnet_key="massage#1" wn="massage%2:35:00 massage%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="nudge" verbnet_key="nudge#4" wn="nudge%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pat" verbnet_key="pat#1" wn="pat%2:35:01 pat%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="paw" verbnet_key="paw#3" wn="paw%2:35:01 paw%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="peck" verbnet_key="peck#3" wn="peck%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="pet" verbnet_key="pet#2" wn="pet%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="pinch.01" name="pinch" verbnet_key="pinch#2" wn="pinch%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="prod.01" name="prod" verbnet_key="prod#1" wn="prod%2:35:02 prod%2:35:01"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="rub.01 rub.02" name="rub" verbnet_key="rub#3" wn="rub%2:35:00 rub%2:35:01 rub%2:39:00"/>
+    <MEMBER features="None" fn_mapping="Cause_harm" grouping="sting.01 sting.02" name="sting" verbnet_key="sting#4" wn="?sting%2:35:01 ?sting%2:39:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="stroke.01" name="stroke" verbnet_key="stroke#1" wn="stroke%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Perception_body" grouping="tickle.01" name="tickle" verbnet_key="tickle#3" wn="tickle%2:39:00 tickle%2:35:00"/>
+    <MEMBER features="None" fn_mapping="Manipulation" grouping="touch.01" name="touch" verbnet_key="touch#4" wn="touch%2:35:00"/>
    </MEMBERS>
    <THEMROLES>
    </THEMROLES>

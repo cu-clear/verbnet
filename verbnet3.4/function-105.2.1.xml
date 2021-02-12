@@ -1,9 +1,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="function-105.2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="go.10" name="go" verbnet_key="go#5" wn="go%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="go.10" name="go_on" verbnet_key="go_on#2" wn="go_on%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="run.03" name="run" verbnet_key="run#4" wn="run%2:35:00 run%2:35:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="go.10" name="go" verbnet_key="go#5" wn="go%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="go.10" name="go_on" verbnet_key="go_on#2" wn="go_on%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="run.03" name="run" verbnet_key="run#4" wn="run%2:35:00 run%2:35:04"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">
@@ -37,10 +37,10 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="function-105.2.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="perform.01" name="perform" verbnet_key="perform#2" wn="perform%2:36:00"/>
-    <MEMBER fn_mapping="None" grouping="function.02" name="function" verbnet_key="function#1" wn="function%2:35:00"/>
-    <MEMBER fn_mapping="None" grouping="operate.01" name="operate" verbnet_key="operate#1" wn="operate%2:35:03 operate%2:35:02"/>
-    <MEMBER fn_mapping="None" grouping="work.02" name="work" verbnet_key="work#3" wn="work%2:35:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="perform.01" name="perform" verbnet_key="perform#2" wn="perform%2:36:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="function.02" name="function" verbnet_key="function#1" wn="function%2:35:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="operate.01" name="operate" verbnet_key="operate#1" wn="operate%2:35:03 operate%2:35:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="work.02" name="work" verbnet_key="work#3" wn="work%2:35:02"/>
    </MEMBERS>
    <THEMROLES>
     <THEMROLE type="Predicate">

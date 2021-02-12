@@ -1,35 +1,35 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="weather-57" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="Motion" grouping="blow.02" name="blow" verbnet_key="blow#4" wn="blow%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bucket" verbnet_key="bucket#1" wn=""/>
-  <MEMBER fn_mapping="Emptying" grouping="clear.01" name="clear" verbnet_key="clear#5" wn="clear%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="drizzle" verbnet_key="drizzle#2" wn="drizzle%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fog" verbnet_key="fog#1" wn="fog%2:39:00"/>
-  <MEMBER fn_mapping="None" grouping="frost.05" name="frost" verbnet_key="frost#3" wn=""/>
-  <MEMBER fn_mapping="Cause_change_of_phase" grouping="freeze.01" name="freeze" verbnet_key="freeze#2" wn="freeze%2:43:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="gust" verbnet_key="gust#1" wn=""/>
-  <MEMBER fn_mapping="Precipitation" grouping="hail.05" name="hail" verbnet_key="hail#4" wn="hail%2:43:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="howl.01" name="howl" verbnet_key="howl#5" wn="howl%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="lightning" verbnet_key="lightning#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="mist.01" name="mist" verbnet_key="mist#1" wn="mist%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="mizzle" verbnet_key="mizzle#1" wn="mizzle%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pelt" verbnet_key="pelt#2" wn="pelt%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="pour.04" name="pour" verbnet_key="pour#4" wn="pour%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="precipitate.02" name="precipitate" verbnet_key="precipitate#1" wn="precipitate%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rain" verbnet_key="rain#1" wn="rain%2:43:00"/>
-  <MEMBER fn_mapping="Motion_noise" grouping="roar.02" name="roar" verbnet_key="roar#5" wn="roar%2:32:01"/>
-  <MEMBER fn_mapping="Mass_motion" grouping="shower.04" name="shower" verbnet_key="shower#4" wn="shower%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sleet" verbnet_key="sleet#1" wn="sleet%2:43:00"/>
-  <MEMBER fn_mapping="Precipitation" grouping="snow.01" name="snow" verbnet_key="snow#1" wn="snow%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="spit.03" name="spit" verbnet_key="spit#3" wn="spit%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="spot.02" name="spot" verbnet_key="spot#3" wn="spot%2:30:01"/>
-  <MEMBER fn_mapping="Precipitation" grouping="sprinkle.02" name="sprinkle" verbnet_key="sprinkle#2" wn="sprinkle%2:43:00"/>
-  <MEMBER fn_mapping="Weather" grouping="storm.01" name="storm" verbnet_key="storm#1" wn="storm%2:43:01 storm%2:43:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="swelter" verbnet_key="swelter#1" wn="swelter%2:29:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="teem" verbnet_key="teem#2" wn="teem%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="thaw" verbnet_key="thaw#2" wn="?thaw%2:30:00"/>
-  <MEMBER fn_mapping="Make_noise" grouping="" name="thunder" verbnet_key="thunder#4" wn="thunder%2:43:00"/>
+  <MEMBER features="None" fn_mapping="Motion" grouping="blow.02" name="blow" verbnet_key="blow#4" wn="blow%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bucket" verbnet_key="bucket#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Emptying" grouping="clear.01" name="clear" verbnet_key="clear#5" wn="clear%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="drizzle" verbnet_key="drizzle#2" wn="drizzle%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fog" verbnet_key="fog#1" wn="fog%2:39:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="frost.05" name="frost" verbnet_key="frost#3" wn=""/>
+  <MEMBER features="None" fn_mapping="Cause_change_of_phase" grouping="freeze.01" name="freeze" verbnet_key="freeze#2" wn="freeze%2:43:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gust" verbnet_key="gust#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Precipitation" grouping="hail.05" name="hail" verbnet_key="hail#4" wn="hail%2:43:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="howl.01" name="howl" verbnet_key="howl#5" wn="howl%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lightning" verbnet_key="lightning#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="mist.01" name="mist" verbnet_key="mist#1" wn="mist%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="mizzle" verbnet_key="mizzle#1" wn="mizzle%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pelt" verbnet_key="pelt#2" wn="pelt%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pour.04" name="pour" verbnet_key="pour#4" wn="pour%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="precipitate.02" name="precipitate" verbnet_key="precipitate#1" wn="precipitate%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rain" verbnet_key="rain#1" wn="rain%2:43:00"/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="roar.02" name="roar" verbnet_key="roar#5" wn="roar%2:32:01"/>
+  <MEMBER features="None" fn_mapping="Mass_motion" grouping="shower.04" name="shower" verbnet_key="shower#4" wn="shower%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sleet" verbnet_key="sleet#1" wn="sleet%2:43:00"/>
+  <MEMBER features="None" fn_mapping="Precipitation" grouping="snow.01" name="snow" verbnet_key="snow#1" wn="snow%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="spit.03" name="spit" verbnet_key="spit#3" wn="spit%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="spot.02" name="spot" verbnet_key="spot#3" wn="spot%2:30:01"/>
+  <MEMBER features="None" fn_mapping="Precipitation" grouping="sprinkle.02" name="sprinkle" verbnet_key="sprinkle#2" wn="sprinkle%2:43:00"/>
+  <MEMBER features="None" fn_mapping="Weather" grouping="storm.01" name="storm" verbnet_key="storm#1" wn="storm%2:43:01 storm%2:43:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="swelter" verbnet_key="swelter#1" wn="swelter%2:29:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="teem" verbnet_key="teem#2" wn="teem%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="thaw" verbnet_key="thaw#2" wn="?thaw%2:30:00"/>
+  <MEMBER features="None" fn_mapping="Make_noise" grouping="" name="thunder" verbnet_key="thunder#4" wn="thunder%2:43:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Theme">

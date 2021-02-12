@@ -2,19 +2,19 @@
 <VNCLASS ID="breathe-40.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
   <!--Each member specifies a manner, and may specify a cognate object-->
-  <MEMBER fn_mapping="None" grouping="" name="barf" verbnet_key="barf#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="bleed.01" name="bleed" verbnet_key="bleed#1" wn="bleed%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="dribble" verbnet_key="dribble#1" wn="dribble%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="drool.01" name="drool" verbnet_key="drool#1" wn="drool%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pee" verbnet_key="pee#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="piss" verbnet_key="piss#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="puke" verbnet_key="puke#1" wn="puke%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="shit" verbnet_key="shit#1" wn=""/>
-  <MEMBER fn_mapping="Excreting" grouping="spit.01" name="spit" verbnet_key="spit#1" wn="spit%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="sweat" verbnet_key="sweat#1" wn="sweat%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="throw_up" verbnet_key="throw_up#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="vomit" verbnet_key="vomit#1" wn="vomit%2:29:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="weep" verbnet_key="weep#1" wn="weep%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="barf" verbnet_key="barf#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="bleed.01" name="bleed" verbnet_key="bleed#1" wn="bleed%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dribble" verbnet_key="dribble#1" wn="dribble%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="drool.01" name="drool" verbnet_key="drool#1" wn="drool%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pee" verbnet_key="pee#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="piss" verbnet_key="piss#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="puke" verbnet_key="puke#1" wn="puke%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="shit" verbnet_key="shit#1" wn=""/>
+  <MEMBER features="None" fn_mapping="Excreting" grouping="spit.01" name="spit" verbnet_key="spit#1" wn="spit%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="sweat" verbnet_key="sweat#1" wn="sweat%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="throw_up" verbnet_key="throw_up#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="vomit" verbnet_key="vomit#1" wn="vomit%2:29:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="weep" verbnet_key="weep#1" wn="weep%2:29:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -312,15 +312,15 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="breathe-40.1.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Breathing" grouping="breathe.01 breathe.05" name="breathe" verbnet_key="breathe#1" wn="breathe%2:29:00 breathe%2:32:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="cough" verbnet_key="cough#1" wn="cough%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="cry.03" name="cry" verbnet_key="cry#1" wn="cry%2:32:01 cry%2:29:02"/>
-    <MEMBER fn_mapping="None" grouping="" name="defecate" verbnet_key="defecate#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="expectorate" verbnet_key="expectorate#1" wn="expectorate%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="retch" verbnet_key="retch#1" wn="retch%2:29:00"/>
-    <MEMBER fn_mapping="None" grouping="" name="slobber" verbnet_key="slobber#1" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="urinate" verbnet_key="urinate#1" wn="urinate%2:29:01"/>
-    <MEMBER fn_mapping="Make_noise" grouping="hawk.03" name="hawk" verbnet_key="hawk#2" wn="hawk%2:29:01"/>
+    <MEMBER features="None" fn_mapping="Breathing" grouping="breathe.01 breathe.05" name="breathe" verbnet_key="breathe#1" wn="breathe%2:29:00 breathe%2:32:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="cough" verbnet_key="cough#1" wn="cough%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="cry.03" name="cry" verbnet_key="cry#1" wn="cry%2:32:01 cry%2:29:02"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="defecate" verbnet_key="defecate#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="expectorate" verbnet_key="expectorate#1" wn="expectorate%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="retch" verbnet_key="retch#1" wn="retch%2:29:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="slobber" verbnet_key="slobber#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="urinate" verbnet_key="urinate#1" wn="urinate%2:29:01"/>
+    <MEMBER features="None" fn_mapping="Make_noise" grouping="hawk.03" name="hawk" verbnet_key="hawk#2" wn="hawk%2:29:01"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

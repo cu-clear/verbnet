@@ -1,18 +1,18 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="patent-101" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="copyright" verbnet_key="copyright#1" wn="copyright%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="patent.01" name="patent" verbnet_key="patent#1" wn="patent%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="trademark" verbnet_key="trademark#1" wn="trademark%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="license.01" name="license" verbnet_key="license#1" wn="licence%2:41:00"/>
-  <MEMBER fn_mapping="Recording" grouping="register.01" name="register" verbnet_key="register#1" wn="register%2:32:03"/>
-  <MEMBER fn_mapping="None" grouping="certify.01" name="certify" verbnet_key="certify#2" wn="certify%2:41:02"/>
-  <MEMBER fn_mapping="None" grouping="" name="credential" verbnet_key="credential#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="accredit" verbnet_key="accredit#1" wn="accredit%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="verify.01" name="verify" verbnet_key="verify#2" wn="verify%2:32:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="evidence" verbnet_key="evidence#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="imitate.02" name="imitate" verbnet_key="imitate#1" wn="imitate%2:36:03"/>
-  <MEMBER fn_mapping="None" grouping="impersonate.01 impersonate.02" name="impersonate" verbnet_key="impersonate#1" wn="impersonate%2:36:00         impersonate%2:32:01 impersonate%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="copyright" verbnet_key="copyright#1" wn="copyright%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="patent.01" name="patent" verbnet_key="patent#1" wn="patent%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="trademark" verbnet_key="trademark#1" wn="trademark%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="license.01" name="license" verbnet_key="license#1" wn="licence%2:41:00"/>
+  <MEMBER features="None" fn_mapping="Recording" grouping="register.01" name="register" verbnet_key="register#1" wn="register%2:32:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="certify.01" name="certify" verbnet_key="certify#2" wn="certify%2:41:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="credential" verbnet_key="credential#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="accredit" verbnet_key="accredit#1" wn="accredit%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="verify.01" name="verify" verbnet_key="verify#2" wn="verify%2:32:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="evidence" verbnet_key="evidence#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="imitate.02" name="imitate" verbnet_key="imitate#1" wn="imitate%2:36:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="impersonate.01 impersonate.02" name="impersonate" verbnet_key="impersonate#1" wn="impersonate%2:36:00         impersonate%2:32:01 impersonate%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

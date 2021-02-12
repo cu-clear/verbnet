@@ -3,30 +3,30 @@
  <MEMBERS>
   <MEMBER features="+writing" fn_mapping="None" grouping="" name="author" verbnet_key="author#1" wn="author%2:36:00" />
   <MEMBER features="+abstract_patient" fn_mapping="Achieving_first" grouping="coin.01 coin.02" name="coin" verbnet_key="coin#1" wn="coin%2:36:01 coin%2:36:00" />
-  <MEMBER features="" fn_mapping="None" grouping="compute.01" name="compute" verbnet_key="compute#1" wn="compute%2:31:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="compute.01" name="compute" verbnet_key="compute#1" wn="compute%2:31:00" />
   <MEMBER features="+abstract_patient" fn_mapping="Cooking_creation" grouping="concoct.01 concoct.02" name="concoct" verbnet_key="concoct#1" wn="concoct%2:35:00 concoct%2:36:01 concoct%2:36:00" />
-  <MEMBER features="" fn_mapping="Building" grouping="construct.01 construct.02" name="construct" verbnet_key="construct#1" wn="construct%2:36:00 construct%2:35:00" />
-  <MEMBER features="" fn_mapping="None" grouping="contrive.02" name="contrive" verbnet_key="contrive#1" wn="" />
+  <MEMBER features="None" fn_mapping="Building" grouping="construct.01 construct.02" name="construct" verbnet_key="construct#1" wn="construct%2:36:00 construct%2:35:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="contrive.02" name="contrive" verbnet_key="contrive#1" wn="" />
   <MEMBER features="+writing" fn_mapping="None" grouping="" name="cowrite" verbnet_key="cowrite#1" wn="" />
-  <MEMBER features="" fn_mapping="Cause_to_start" grouping="create.01" name="create" verbnet_key="create#1" wn="create%2:36:13 create%2:36:03" />
-  <MEMBER features="" fn_mapping="None" grouping="derive.02" name="derive" verbnet_key="derive#2" wn="derive%2:31:00" />
+  <MEMBER features="None" fn_mapping="Cause_to_start" grouping="create.01" name="create" verbnet_key="create#1" wn="create%2:36:13 create%2:36:03" />
+  <MEMBER features="None" fn_mapping="None" grouping="derive.02" name="derive" verbnet_key="derive#2" wn="derive%2:31:00" />
   <MEMBER features="+abstract_patient" fn_mapping="Manufacturing" grouping="fabricate.01" name="fabricate" verbnet_key="fabricate#1" wn="fabricate%2:36:01" />
   <MEMBER features="+abstract_patient" fn_mapping="Reshaping" grouping="form.01 form.03" name="form" verbnet_key="form#3" wn="form%2:30:01 form%2:36:00" />
   <MEMBER features="+abstract_patient" fn_mapping="None" grouping="formulate.01" name="formulate" verbnet_key="formulate#2" wn="formulate%2:32:03 formulate%2:36:00" />
-  <MEMBER features="" fn_mapping="None" grouping="lay.02" name="lay" verbnet_key="lay#1" wn="lay%2:36:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="lay.02" name="lay" verbnet_key="lay#1" wn="lay%2:36:00" />
   <MEMBER features="+abstract_patient" fn_mapping="Manufacturing" grouping="manufacture.01" name="manufacture" verbnet_key="manufacture#1" wn="manufacture%2:36:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="mass-produce" verbnet_key="mass-produce#1" wn="mass-produce%2:36:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="mass-produce" verbnet_key="mass-produce#1" wn="mass-produce%2:36:00" />
   <MEMBER features="+abstract_patient" fn_mapping="None" grouping="model.01" name="model" verbnet_key="model#2" wn="model%2:36:02 model%2:36:00" />
   <MEMBER features="+arranging" fn_mapping="None" grouping="organize.02" name="organize" verbnet_key="organize#1" wn="organize%2:31:00" />
-  <MEMBER features="" fn_mapping="Cause_to_start" grouping="produce.01" name="produce" verbnet_key="produce#1" wn="produce%2:36:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="publish" verbnet_key="publish#1" wn="publish%2:36:01 publish%2:32:00 publish%2:36:00" />
+  <MEMBER features="None" fn_mapping="Cause_to_start" grouping="produce.01" name="produce" verbnet_key="produce#1" wn="produce%2:36:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="publish" verbnet_key="publish#1" wn="publish%2:36:01 publish%2:32:00 publish%2:36:00" />
   <MEMBER features="+arranging" fn_mapping="None" grouping="" name="rearrange" verbnet_key="rearrange#1" wn="rearrange%2:30:00" />
-  <MEMBER features="" fn_mapping="None" grouping="rebuild.01" name="rebuild" verbnet_key="rebuild#1" wn="rebuild%2:36:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="reconstitute" verbnet_key="reconstitute#1" wn="reconstitute%2:30:02" />
+  <MEMBER features="None" fn_mapping="None" grouping="rebuild.01" name="rebuild" verbnet_key="rebuild#1" wn="rebuild%2:36:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="reconstitute" verbnet_key="reconstitute#1" wn="reconstitute%2:30:02" />
   <MEMBER features="+arranging" fn_mapping="None" grouping="reorganize.01" name="reorganize" verbnet_key="reorganize#1" wn="reorganize%2:41:00 reorganize%2:41:01" />
-  <MEMBER features="" fn_mapping="None" grouping="style.01" name="style" verbnet_key="style#2" wn="style%2:36:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="style.01" name="style" verbnet_key="style#2" wn="style%2:36:00" />
   <MEMBER features="+abstract_patient" fn_mapping="None" grouping="synthesize.01" name="synthesize" verbnet_key="synthesize#1" wn="synthesize%2:31:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="turn-out" verbnet_key="turn-out#2" wn="" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="turn-out" verbnet_key="turn-out#2" wn="" />
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -318,7 +318,7 @@
     <MEMBER features="+abstract_patient" fn_mapping="None" grouping="" name="improvise" verbnet_key="improvise#1" wn="improvise%2:36:00" />
     <MEMBER features="+abstract_patient" fn_mapping="None" grouping="invent.01" name="invent" verbnet_key="invent#1" wn="invent%2:36:00" />
     <MEMBER features="+writing" fn_mapping="None" grouping="" name="scriptwrite" verbnet_key="scriptwrite#1" wn="" />
-    <MEMBER features="" fn_mapping="None" grouping="" name="silkscreen" verbnet_key="silkscreen#1" wn="silkscreen%2:36:00" />
+    <MEMBER features="None" fn_mapping="None" grouping="" name="silkscreen" verbnet_key="silkscreen#1" wn="silkscreen%2:36:00" />
     <MEMBER features="+writing" fn_mapping="None" grouping="write.01 write.04" name="write" verbnet_key="write#1" wn="write%2:36:00 write%2:32:00 write%2:36:10" />
    </MEMBERS>
    <THEMROLES />
@@ -367,12 +367,12 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="create-26.4-1-1">
      <MEMBERS>
-      <MEMBER features="" fn_mapping="None" grouping="conjure.01" name="conjure" verbnet_key="conjure#1" wn="conjure%2:36:00" />
+      <MEMBER features="None" fn_mapping="None" grouping="conjure.01" name="conjure" verbnet_key="conjure#1" wn="conjure%2:36:00" />
       <MEMBER features="+craft" fn_mapping="None" grouping="" name="craft" verbnet_key="craft#1" wn="craft%2:36:00" />
       <MEMBER features="+designing" fn_mapping="None" grouping="design.01 design.03" name="design" verbnet_key="design#1" wn="design%2:31:00 design%2:36:01                     design%2:36:00" />
-      <MEMBER features="" fn_mapping="None" grouping="dig.02" name="dig" verbnet_key="dig#1" wn="dig%2:35:01" />
+      <MEMBER features="None" fn_mapping="None" grouping="dig.02" name="dig" verbnet_key="dig#1" wn="dig%2:35:01" />
       <MEMBER features="+visual_patient +designing" fn_mapping="None" grouping="draw.05" name="draw" verbnet_key="draw#2" wn="draw%2:35:01 draw%2:36:00 draw%2:36:02" />
-      <MEMBER features="+visual_patient +designing" fn_mapping="None" grouping="paint.01" name="paint" verbnet_key="paint#4" wn="paint%2:36:01 paint%2:36:00" />
+      <MEMBER features="+visual_patient" fn_mapping="None" grouping="paint.01" name="paint" verbnet_key="paint#4" wn="paint%2:36:01 paint%2:36:00" />
       <MEMBER features="+craft" fn_mapping="None" grouping="spin.02 spin.03" name="spin" verbnet_key="spin#3" wn="spin%2:36:01 spin%2:32:00" />
      </MEMBERS>
      <THEMROLES />

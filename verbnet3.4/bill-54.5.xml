@@ -1,21 +1,21 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="bill-54.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="amerce" verbnet_key="amerce#1" wn="amerce%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="bet.01" name="bet" verbnet_key="bet#1" wn="bet%2:33:00"/>
-  <MEMBER fn_mapping="Billing" grouping="bill.01" name="bill" verbnet_key="bill#1" wn="bill%2:40:00"/>
-  <MEMBER fn_mapping="Commerce_collect" grouping="charge.01" name="charge" verbnet_key="charge#2" wn="charge%2:40:02 charge%2:31:12"/>
-  <MEMBER fn_mapping="Fining" grouping="fine.01" name="fine" verbnet_key="fine#1" wn="fine%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="invoice" verbnet_key="invoice#1" wn="invoice%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="mulct" verbnet_key="mulct#1" wn="?mulct%2:41:00 mulct%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="overcharge" verbnet_key="overcharge#1" wn="overcharge%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="save.03" name="save" verbnet_key="save#1" wn="?save%2:40:02 ?save%2:30:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="scrimp" verbnet_key="scrimp#1" wn="scrimp%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="spare.01 spare.02" name="spare" verbnet_key="spare#1" wn="spare%2:41:01"/>
-  <MEMBER fn_mapping="None" grouping="tax.01" name="tax" verbnet_key="tax#1" wn="tax%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="tip.02" name="tip" verbnet_key="tip#1" wn="tip%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="undercharge" verbnet_key="undercharge#1" wn="undercharge%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="wager" verbnet_key="wager#1" wn="wager%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="amerce" verbnet_key="amerce#1" wn="amerce%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bet.01" name="bet" verbnet_key="bet#1" wn="bet%2:33:00"/>
+  <MEMBER features="None" fn_mapping="Billing" grouping="bill.01" name="bill" verbnet_key="bill#1" wn="bill%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Commerce_collect" grouping="charge.01" name="charge" verbnet_key="charge#2" wn="charge%2:40:02 charge%2:31:12"/>
+  <MEMBER features="None" fn_mapping="Fining" grouping="fine.01" name="fine" verbnet_key="fine#1" wn="fine%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="invoice" verbnet_key="invoice#1" wn="invoice%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="mulct" verbnet_key="mulct#1" wn="?mulct%2:41:00 mulct%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="overcharge" verbnet_key="overcharge#1" wn="overcharge%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="save.03" name="save" verbnet_key="save#1" wn="?save%2:40:02 ?save%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="scrimp" verbnet_key="scrimp#1" wn="scrimp%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="spare.01 spare.02" name="spare" verbnet_key="spare#1" wn="spare%2:41:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tax.01" name="tax" verbnet_key="tax#1" wn="tax%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="tip.02" name="tip" verbnet_key="tip#1" wn="tip%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="undercharge" verbnet_key="undercharge#1" wn="undercharge%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="wager" verbnet_key="wager#1" wn="wager%2:33:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

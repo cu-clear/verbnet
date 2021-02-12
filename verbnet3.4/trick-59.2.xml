@@ -1,26 +1,26 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="trick-59.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="bamboozle" verbnet_key="bamboozle#1" wn="bamboozle%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="cozen.02" name="cozen" verbnet_key="cozen#2" wn="cozen%2:41:01 cozen%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="fox" verbnet_key="fox#2" wn="fox%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bullshit" verbnet_key="bullshit#1" wn="bullshit%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="bluff" verbnet_key="bluff#1" wn="bluff%2:33:00 bluff%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="blackmail" verbnet_key="blackmail#1" wn="blackmail%2:41:00 blackmail%2:40:00"/>
-  <MEMBER fn_mapping="None" grouping="cheat.02" name="cheat" verbnet_key="cheat#2" wn="cheat%2:33:00"/>
-  <MEMBER fn_mapping="None" grouping="con.01" name="con" verbnet_key="con#2" wn="con%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="deceive.01" name="deceive" verbnet_key="deceive#1" wn="deceive%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="delude" verbnet_key="delude#1" wn="delude%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="dupe" verbnet_key="dupe#1" wn="dupe%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="ensnare" verbnet_key="ensnare#1" wn="ensnare%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="entrap" verbnet_key="entrap#1" wn="entrap%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="extort" verbnet_key="extort#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="fool.01" name="fool" verbnet_key="fool#1" wn="fool%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="hoodwink" verbnet_key="hoodwink#1" wn="hoodwink%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="manipulate.01" name="manipulate" verbnet_key="manipulate#1" wn="manipulate%2:41:00 manipulate%2:37:00"/>
-  <MEMBER fn_mapping="None" grouping="mislead.01 mislead.02" name="mislead" verbnet_key="mislead#1" wn="mislead%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="trick" verbnet_key="trick#2" wn="trick%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="trap.01" name="trap" verbnet_key="trap#2" wn="trap%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bamboozle" verbnet_key="bamboozle#1" wn="bamboozle%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="cozen.02" name="cozen" verbnet_key="cozen#2" wn="cozen%2:41:01 cozen%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="fox" verbnet_key="fox#2" wn="fox%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bullshit" verbnet_key="bullshit#1" wn="bullshit%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="bluff" verbnet_key="bluff#1" wn="bluff%2:33:00 bluff%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="blackmail" verbnet_key="blackmail#1" wn="blackmail%2:41:00 blackmail%2:40:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="cheat.02" name="cheat" verbnet_key="cheat#2" wn="cheat%2:33:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="con.01" name="con" verbnet_key="con#2" wn="con%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="deceive.01" name="deceive" verbnet_key="deceive#1" wn="deceive%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="delude" verbnet_key="delude#1" wn="delude%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dupe" verbnet_key="dupe#1" wn="dupe%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="ensnare" verbnet_key="ensnare#1" wn="ensnare%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="entrap" verbnet_key="entrap#1" wn="entrap%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="extort" verbnet_key="extort#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="fool.01" name="fool" verbnet_key="fool#1" wn="fool%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hoodwink" verbnet_key="hoodwink#1" wn="hoodwink%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="manipulate.01" name="manipulate" verbnet_key="manipulate#1" wn="manipulate%2:41:00 manipulate%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="mislead.01 mislead.02" name="mislead" verbnet_key="mislead#1" wn="mislead%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="trick" verbnet_key="trick#2" wn="trick%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="trap.01" name="trap" verbnet_key="trap#2" wn="trap%2:41:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

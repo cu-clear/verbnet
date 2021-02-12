@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="begin-55.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="go_on" verbnet_key="go_on#1" wn="go_on%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="pledge" verbnet_key="pledge#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="proceed.02" name="proceed" verbnet_key="proceed#1" wn="proceed%2:38:00"/>
-  <MEMBER fn_mapping="Setting_out" grouping="set.06" name="set_out" verbnet_key="set_out#1" wn="set_out%2:30:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="go_on" verbnet_key="go_on#1" wn="go_on%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="pledge" verbnet_key="pledge#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="proceed.02" name="proceed" verbnet_key="proceed#1" wn="proceed%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Setting_out" grouping="set.06" name="set_out" verbnet_key="set_out#1" wn="set_out%2:30:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -64,7 +64,7 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="begin-55.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="set.06" name="set_about" verbnet_key="set_about#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="set.06" name="set_about" verbnet_key="set_about#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>
@@ -111,13 +111,13 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="begin-55.1-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="begin.01 begin.02 begin.04" name="begin" verbnet_key="begin#1" wn="begin%2:30:00 begin%2:42:00 begin%2:30:01 begin%2:42:04 begin%2:41:04 begin%2:41:00"/>
-      <MEMBER fn_mapping="None" grouping="start.02 start.03 start.04 start.05" name="start" verbnet_key="start#1" wn="start%2:30:00 start%2:30:01 start%2:38:02 start%2:38:01 start%2:38:00 start%2:41:00 start%2:41:04"/>
-      <MEMBER fn_mapping="Process_start" grouping="" name="start_off" verbnet_key="start_off#1" wn=""/>
-      <MEMBER fn_mapping="None" grouping="commence.01" name="commence" verbnet_key="commence#1" wn="commence%2:30:00 commence%2:30:01"/>
-      <MEMBER fn_mapping="None" grouping="" name="recommence" verbnet_key="recommence#1" wn="recommence%2:30:01 recommence%2:30:00"/>
-      <MEMBER fn_mapping="None" grouping="resume.01 resume.02" name="resume" verbnet_key="resume#1" wn="resume%2:30:00 resume%2:30:01"/>
-      <MEMBER fn_mapping="None" grouping="undertake.01" name="undertake" verbnet_key="undertake#1" wn="undertake%2:36:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="begin.01 begin.02 begin.04" name="begin" verbnet_key="begin#1" wn="begin%2:30:00 begin%2:42:00 begin%2:30:01 begin%2:42:04 begin%2:41:04 begin%2:41:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="start.02 start.03 start.04 start.05" name="start" verbnet_key="start#1" wn="start%2:30:00 start%2:30:01 start%2:38:02 start%2:38:01 start%2:38:00 start%2:41:00 start%2:41:04"/>
+      <MEMBER features="None" fn_mapping="Process_start" grouping="" name="start_off" verbnet_key="start_off#1" wn=""/>
+      <MEMBER features="None" fn_mapping="None" grouping="commence.01" name="commence" verbnet_key="commence#1" wn="commence%2:30:00 commence%2:30:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="" name="recommence" verbnet_key="recommence#1" wn="recommence%2:30:01 recommence%2:30:00"/>
+      <MEMBER features="None" fn_mapping="None" grouping="resume.01 resume.02" name="resume" verbnet_key="resume#1" wn="resume%2:30:00 resume%2:30:01"/>
+      <MEMBER features="None" fn_mapping="None" grouping="undertake.01" name="undertake" verbnet_key="undertake#1" wn="undertake%2:36:00"/>
      </MEMBERS>
      <THEMROLES/>
      <FRAMES>

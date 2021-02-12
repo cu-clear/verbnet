@@ -1,20 +1,20 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="chit_chat-37.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="chat" verbnet_key="chat#1" wn="chat%2:32:00"/>
-  <MEMBER fn_mapping="Communication_manner" grouping="chatter.03" name="chatter" verbnet_key="chatter#2" wn="chatter%2:32:01 chatter%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="chitchat" verbnet_key="chitchat#1" wn="chitchat%2:32:00"/>
-  <MEMBER fn_mapping="Discussion" grouping="confer.02" name="confer" verbnet_key="confer#1" wn="confer%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="converse" verbnet_key="converse#1" wn="converse%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="flirt" verbnet_key="flirt#1" wn="flirt%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gab" verbnet_key="gab#1" wn="gab%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="gossip" verbnet_key="gossip#1" wn="gossip%2:32:00 gossip%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="jest" verbnet_key="jest#1" wn="jest%2:32:00"/>
-  <MEMBER fn_mapping="Chatting" grouping="joke.01" name="joke" verbnet_key="joke#1" wn="joke%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="palaver.03" name="palaver" verbnet_key="palaver#1" wn="palaver%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="rap" verbnet_key="rap#2" wn="rap%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="schmooze" verbnet_key="schmooze#1" wn="schmooze%2:32:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="yak" verbnet_key="yak#1" wn="yak%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chat" verbnet_key="chat#1" wn="chat%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Communication_manner" grouping="chatter.03" name="chatter" verbnet_key="chatter#2" wn="chatter%2:32:01 chatter%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="chitchat" verbnet_key="chitchat#1" wn="chitchat%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Discussion" grouping="confer.02" name="confer" verbnet_key="confer#1" wn="confer%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="converse" verbnet_key="converse#1" wn="converse%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="flirt" verbnet_key="flirt#1" wn="flirt%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gab" verbnet_key="gab#1" wn="gab%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="gossip" verbnet_key="gossip#1" wn="gossip%2:32:00 gossip%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="jest" verbnet_key="jest#1" wn="jest%2:32:00"/>
+  <MEMBER features="None" fn_mapping="Chatting" grouping="joke.01" name="joke" verbnet_key="joke#1" wn="joke%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="palaver.03" name="palaver" verbnet_key="palaver#1" wn="palaver%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="rap" verbnet_key="rap#2" wn="rap%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="schmooze" verbnet_key="schmooze#1" wn="schmooze%2:32:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="yak" verbnet_key="yak#1" wn="yak%2:32:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -646,9 +646,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="chit_chat-37.6-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="argue.01" name="argue" verbnet_key="argue#2" wn="argue%2:32:00"/>
-    <MEMBER fn_mapping="Discussion" grouping="" name="debate" verbnet_key="debate#2" wn=""/>
-    <MEMBER fn_mapping="None" grouping="" name="discuss" verbnet_key="discuss#1" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="argue.01" name="argue" verbnet_key="argue#2" wn="argue%2:32:00"/>
+    <MEMBER features="None" fn_mapping="Discussion" grouping="" name="debate" verbnet_key="debate#2" wn=""/>
+    <MEMBER features="None" fn_mapping="None" grouping="" name="discuss" verbnet_key="discuss#1" wn=""/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

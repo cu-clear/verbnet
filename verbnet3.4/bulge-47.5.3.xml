@@ -1,12 +1,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="bulge-47.5.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="bristle.02" name="bristle" verbnet_key="bristle#1" wn="bristle%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="bulge.01" name="bulge" verbnet_key="bulge#1" wn="bulge%2:30:00 bulge%2:38:00"/>
-  <MEMBER fn_mapping="Motion_noise" grouping="" name="buzz" verbnet_key="buzz#2" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="hum" verbnet_key="hum#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="" name="hyperventilate" verbnet_key="hyperventilate#1" wn="hyperventilate%2:29:00         hyperventilate%2:29:01"/>
-  <MEMBER fn_mapping="None" grouping="seethe.01" name="seethe" verbnet_key="seethe#1" wn="seethe%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bristle.02" name="bristle" verbnet_key="bristle#1" wn="bristle%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="bulge.01" name="bulge" verbnet_key="bulge#1" wn="bulge%2:30:00 bulge%2:38:00"/>
+  <MEMBER features="None" fn_mapping="Motion_noise" grouping="" name="buzz" verbnet_key="buzz#2" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hum" verbnet_key="hum#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="hyperventilate" verbnet_key="hyperventilate#1" wn="hyperventilate%2:29:00         hyperventilate%2:29:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="seethe.01" name="seethe" verbnet_key="seethe#1" wn="seethe%2:42:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Location">

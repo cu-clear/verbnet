@@ -1,19 +1,19 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="linger-53.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="dally.01" name="dally" verbnet_key="dally#1" wn="dally%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="dawdle" verbnet_key="dawdle#1" wn="dawdle%2:38:00 dawdle%2:38:04"/>
-  <MEMBER fn_mapping="None" grouping="" name="dither" verbnet_key="dither#1" wn="dither%2:37:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="equivocate" verbnet_key="equivocate#1" wn=""/>
-  <MEMBER fn_mapping="None" grouping="hesitate.02" name="hesitate" verbnet_key="hesitate#1" wn="hesitate%2:42:00 hesitate%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="linger.02" name="linger" verbnet_key="linger#2" wn="linger%2:42:00 linger%2:38:01 linger%2:38:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="loaf" verbnet_key="loaf#1" wn="loaf%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="loiter" verbnet_key="loiter#1" wn="loiter%2:42:00"/>
-  <MEMBER fn_mapping="None" grouping="pause.01" name="pause" verbnet_key="pause#1" wn="pause%2:42:00 pause%2:32:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="potter" verbnet_key="potter#1" wn="potter%2:35:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="procrastinate" verbnet_key="procrastinate#1" wn="procrastinate%2:42:00 procrastinate%2:42:01"/>
-  <MEMBER fn_mapping="None" grouping="" name="putter" verbnet_key="putter#1" wn="putter%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tarry" verbnet_key="tarry#1" wn="tarry%2:42:00 tarry%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="dally.01" name="dally" verbnet_key="dally#1" wn="dally%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dawdle" verbnet_key="dawdle#1" wn="dawdle%2:38:00 dawdle%2:38:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="dither" verbnet_key="dither#1" wn="dither%2:37:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="equivocate" verbnet_key="equivocate#1" wn=""/>
+  <MEMBER features="None" fn_mapping="None" grouping="hesitate.02" name="hesitate" verbnet_key="hesitate#1" wn="hesitate%2:42:00 hesitate%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="linger.02" name="linger" verbnet_key="linger#2" wn="linger%2:42:00 linger%2:38:01 linger%2:38:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="loaf" verbnet_key="loaf#1" wn="loaf%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="loiter" verbnet_key="loiter#1" wn="loiter%2:42:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="pause.01" name="pause" verbnet_key="pause#1" wn="pause%2:42:00 pause%2:32:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="potter" verbnet_key="potter#1" wn="potter%2:35:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="procrastinate" verbnet_key="procrastinate#1" wn="procrastinate%2:42:00 procrastinate%2:42:01"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="putter" verbnet_key="putter#1" wn="putter%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tarry" verbnet_key="tarry#1" wn="tarry%2:42:00 tarry%2:38:00"/>
   <!--delay can be used transitively-->
  </MEMBERS>
  <THEMROLES>
@@ -101,9 +101,9 @@
  <SUBCLASSES>
   <VNSUBCLASS ID="linger-53.1-1">
    <MEMBERS>
-    <MEMBER fn_mapping="Change_event_time" grouping="delay.02" name="delay" verbnet_key="delay#1" wn="delay%2:42:00"/>
-    <MEMBER fn_mapping="None" grouping="scruple.01" name="scruple" verbnet_key="scruple#1" wn="scruple%2:42:00 scruple%2:37:00"/>
-    <MEMBER fn_mapping="None" grouping="stall.01" name="stall" verbnet_key="stall#1" wn="stall%2:42:00 stall%2:30:00"/>
+    <MEMBER features="None" fn_mapping="Change_event_time" grouping="delay.02" name="delay" verbnet_key="delay#1" wn="delay%2:42:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="scruple.01" name="scruple" verbnet_key="scruple#1" wn="scruple%2:42:00 scruple%2:37:00"/>
+    <MEMBER features="None" fn_mapping="None" grouping="stall.01" name="stall" verbnet_key="stall#1" wn="stall%2:42:00 stall%2:30:00"/>
    </MEMBERS>
    <THEMROLES/>
    <FRAMES>

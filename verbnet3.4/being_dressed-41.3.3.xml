@@ -1,11 +1,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="being_dressed-41.3.3" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="attire" wn="attire%2:29:00" grouping=""/>
-        <MEMBER name="clad" wn="" grouping=""/>
-        <MEMBER name="garb" wn="garb%2:29:00" grouping=""/>
-        <MEMBER name="outfit" wn="outfit%2:40:00" grouping=""/>
-        <MEMBER name="robe" wn="robe%2:29:00" grouping=""/>
+        <MEMBER features="None" fn_mapping="None" verbnet_key="None" name="attire" wn="attire%2:29:00" grouping=""/>
+        <MEMBER features="None" fn_mapping="None" verbnet_key="None" name="clad" wn="" grouping=""/>
+        <MEMBER features="None" fn_mapping="None" verbnet_key="None" name="garb" wn="garb%2:29:00" grouping=""/>
+        <MEMBER features="None" fn_mapping="None" verbnet_key="None" name="outfit" wn="outfit%2:40:00" grouping=""/>
+        <MEMBER features="None" fn_mapping="None" verbnet_key="None" name="robe" wn="robe%2:29:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

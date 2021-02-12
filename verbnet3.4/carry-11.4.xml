@@ -2,21 +2,21 @@
 <VNCLASS ID="carry-11.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--the lexical entry for "carry" should have a "support" predicate and allow the interpretation in which there is no motion - perhaps another class?-->
  <MEMBERS>
-  <MEMBER fn_mapping="Bringing" grouping="carry.01" name="carry" verbnet_key="carry#1" wn="carry%2:35:02 carry%2:35:08"/>
-  <MEMBER fn_mapping="Cause_motion" grouping="drag.01" name="drag" verbnet_key="drag#1" wn="drag%2:35:00 drag%2:35:01"/>
-  <MEMBER fn_mapping="Cause_motion" grouping="draw.01" name="draw" verbnet_key="draw#1" wn="draw%2:35:03"/>
-  <MEMBER fn_mapping="Bringing" grouping="haul.01 haul.02" name="haul" verbnet_key="haul#1" wn="haul%2:35:01 haul%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="heft" verbnet_key="heft#1" wn="heft%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="hoist.02" name="hoist" verbnet_key="hoist#1" wn="hoist%2:35:00 hoist%2:35:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="lug" verbnet_key="lug#1" wn="lug%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="nudge" verbnet_key="nudge#1" wn="nudge%2:35:00"/>
-  <MEMBER fn_mapping="Earnings_and_losses" grouping="pull.01" name="pull" verbnet_key="pull#1" wn="pull%2:35:00 pull%2:35:04 pull%2:38:03 pull%2:35:10"/>
-  <MEMBER fn_mapping="Self_motion" grouping="run.01 run.02 run.11" name="run" verbnet_key="run#2" wn="run%2:38:00 run%2:42:08 run%2:38:10"/>
-  <MEMBER fn_mapping="None" grouping="" name="schlep" verbnet_key="schlep#1" wn="schlep%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tote" verbnet_key="tote#1" wn="tote%2:35:00"/>
-  <MEMBER fn_mapping="None" grouping="" name="tow" verbnet_key="tow#1" wn="tow%2:35:00"/>
-  <MEMBER fn_mapping="Manipulation" grouping="" name="tug" verbnet_key="tug#1" wn="tug%2:35:00 tug%2:35:04 tug%2:35:03 tug%2:35:02 tug%2:35:01"/>
-  <MEMBER fn_mapping="Manipulation" grouping="yank.01 yank.02 yank.03" name="yank" verbnet_key="yank#1" wn="yank%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Bringing" grouping="carry.01" name="carry" verbnet_key="carry#1" wn="carry%2:35:02 carry%2:35:08"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="drag.01" name="drag" verbnet_key="drag#1" wn="drag%2:35:00 drag%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Cause_motion" grouping="draw.01" name="draw" verbnet_key="draw#1" wn="draw%2:35:03"/>
+  <MEMBER features="None" fn_mapping="Bringing" grouping="haul.01 haul.02" name="haul" verbnet_key="haul#1" wn="haul%2:35:01 haul%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="heft" verbnet_key="heft#1" wn="heft%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="hoist.02" name="hoist" verbnet_key="hoist#1" wn="hoist%2:35:00 hoist%2:35:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="lug" verbnet_key="lug#1" wn="lug%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="nudge" verbnet_key="nudge#1" wn="nudge%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Earnings_and_losses" grouping="pull.01" name="pull" verbnet_key="pull#1" wn="pull%2:35:00 pull%2:35:04 pull%2:38:03 pull%2:35:10"/>
+  <MEMBER features="None" fn_mapping="Self_motion" grouping="run.01 run.02 run.11" name="run" verbnet_key="run#2" wn="run%2:38:00 run%2:42:08 run%2:38:10"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="schlep" verbnet_key="schlep#1" wn="schlep%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tote" verbnet_key="tote#1" wn="tote%2:35:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="tow" verbnet_key="tow#1" wn="tow%2:35:00"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="" name="tug" verbnet_key="tug#1" wn="tug%2:35:00 tug%2:35:04 tug%2:35:03 tug%2:35:02 tug%2:35:01"/>
+  <MEMBER features="None" fn_mapping="Manipulation" grouping="yank.01 yank.02 yank.03" name="yank" verbnet_key="yank#1" wn="yank%2:35:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
@@ -1063,11 +1063,11 @@
    <SUBCLASSES>
     <VNSUBCLASS ID="carry-11.4-1-1">
      <MEMBERS>
-      <MEMBER fn_mapping="None" grouping="heave.01" name="heave" verbnet_key="heave#1" wn="heave%2:35:01"/>
-      <MEMBER fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#2" wn="kick%2:35:01"/>
-      <MEMBER fn_mapping="Cause_change_of_position_on_a_scale" grouping="push.01" name="push" verbnet_key="push#1" wn="push%2:38:00"/>
-      <MEMBER fn_mapping="Cause_motion" grouping="shove.02" name="shove" verbnet_key="shove#1" wn="?shove%2:35:00"/>
-      <MEMBER fn_mapping="Cause_motion" grouping="thrust.01 thrust.02" name="thrust" verbnet_key="thrust#1" wn="thrust%2:38:00 thrust%2:38:02 thrust%2:35:08"/>
+      <MEMBER features="None" fn_mapping="None" grouping="heave.01" name="heave" verbnet_key="heave#1" wn="heave%2:35:01"/>
+      <MEMBER features="None" fn_mapping="Cause_harm" grouping="kick.01" name="kick" verbnet_key="kick#2" wn="kick%2:35:01"/>
+      <MEMBER features="None" fn_mapping="Cause_change_of_position_on_a_scale" grouping="push.01" name="push" verbnet_key="push#1" wn="push%2:38:00"/>
+      <MEMBER features="None" fn_mapping="Cause_motion" grouping="shove.02" name="shove" verbnet_key="shove#1" wn="?shove%2:35:00"/>
+      <MEMBER features="None" fn_mapping="Cause_motion" grouping="thrust.01 thrust.02" name="thrust" verbnet_key="thrust#1" wn="thrust%2:38:00 thrust%2:38:02 thrust%2:35:08"/>
      </MEMBERS>
      <THEMROLES>
       <THEMROLE type="Destination">

@@ -1,10 +1,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="accept-77.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="accept.01 accept.02 accept.03" name="accept" verbnet_key="accept#1" wn="accept%2:31:01 accept%2:31:03"/>
-  <MEMBER fn_mapping="None" grouping="buy.03" name="buy" verbnet_key="buy#1" wn="buy%2:31:09"/>
-  <MEMBER fn_mapping="None" grouping="understand.01" name="understand" verbnet_key="understand#1" wn="understand%2:31:04"/>
-  <MEMBER fn_mapping="None" grouping="encourage.01 encourage.02" name="encourage" verbnet_key="encourage#1" wn="encourage%2:41:00 encourage%2:37:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="accept.01 accept.02 accept.03" name="accept" verbnet_key="accept#1" wn="accept%2:31:01 accept%2:31:03"/>
+  <MEMBER features="None" fn_mapping="None" grouping="buy.03" name="buy" verbnet_key="buy#1" wn="buy%2:31:09"/>
+  <MEMBER features="None" fn_mapping="None" grouping="understand.01" name="understand" verbnet_key="understand#1" wn="understand%2:31:04"/>
+  <MEMBER features="None" fn_mapping="None" grouping="encourage.01 encourage.02" name="encourage" verbnet_key="encourage#1" wn="encourage%2:41:00 encourage%2:37:00"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">

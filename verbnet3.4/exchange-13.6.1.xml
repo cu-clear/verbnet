@@ -2,11 +2,11 @@
 <VNCLASS ID="exchange-13.6.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
  <!--This mirrors the Substitute class, but has ch_of_poss instead of ch_of_loc-->
  <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="" name="barter" verbnet_key="barter#1" wn="barter%2:40:00"/>
-  <MEMBER fn_mapping="Exchange_currency" grouping="change.02" name="change" verbnet_key="change#2" wn="change%2:30:05 change%2:30:04"/>
-  <MEMBER fn_mapping="Replacing" grouping="exchange.01 exchange.02" name="exchange" verbnet_key="exchange#1" wn="exchange%2:30:00 exchange%2:41:00"/>
-  <MEMBER fn_mapping="None" grouping="swap.01" name="swap" verbnet_key="swap#1" wn="swap%2:40:00"/>
-  <MEMBER fn_mapping="Exchange" grouping="trade.02" name="trade" verbnet_key="trade#1" wn="trade%2:40:00 trade%2:40:02"/>
+  <MEMBER features="None" fn_mapping="None" grouping="" name="barter" verbnet_key="barter#1" wn="barter%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Exchange_currency" grouping="change.02" name="change" verbnet_key="change#2" wn="change%2:30:05 change%2:30:04"/>
+  <MEMBER features="None" fn_mapping="Replacing" grouping="exchange.01 exchange.02" name="exchange" verbnet_key="exchange#1" wn="exchange%2:30:00 exchange%2:41:00"/>
+  <MEMBER features="None" fn_mapping="None" grouping="swap.01" name="swap" verbnet_key="swap#1" wn="swap%2:40:00"/>
+  <MEMBER features="None" fn_mapping="Exchange" grouping="trade.02" name="trade" verbnet_key="trade#1" wn="trade%2:40:00 trade%2:40:02"/>
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
