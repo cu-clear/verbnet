@@ -105,9 +105,6 @@
      <SYNRESTRS/>
     </NP>
     <VERB/>
-    <!-- <ADV value="Path">
-     <SYNRESTRS/>
-    </ADV> -->
     <ADV/>
     <NP value="Theme">
      <SYNRESTRS/>
@@ -184,9 +181,6 @@
     <NP value="Theme">
      <SYNRESTRS/>
     </NP>
-    <!-- <ADV value="Path">
-     <SYNRESTRS/>
-    </ADV> -->
     <ADV/>
     <PREP>
       <SELRESTRS/>
