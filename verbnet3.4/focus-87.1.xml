@@ -4,7 +4,7 @@
 <MEMBER name="focus" wn="focus%2:31:00" grouping="focus.02" fn_mapping="Emphasizing" verbnet_key="focus#1" features="None"/>
 <MEMBER name="focalize" wn="focalize%2:42:00 focalize%2:31:00 focalize%2:30:00" grouping="focalize.01" fn_mapping="None" verbnet_key="focalize#1" features="None"/>
 <MEMBER name="center" wn="center%2:42:00 center%2:31:00" grouping="center.02" fn_mapping="None" verbnet_key="center#1" features="None"/>
-<MEMBER name="concentrate" wn="concentrate%2:31:01" grouping="concentrate.01" fn_mapping="None" verbnet_key="concentrate#1" features="None"/>
+<MEMBER name="concentrate" wn="concentrate%2:31:00" grouping="concentrate.01" fn_mapping="None" verbnet_key="concentrate#1" features="None"/>
 <MEMBER name="contemplate" wn="contemplate%2:31:02         contemplate%2:31:00 contemplate%2:31:01" grouping="contemplate.01" fn_mapping="None" verbnet_key="contemplate#1" features="None"/>
 <MEMBER name="converge" wn="" grouping="converge.01" fn_mapping="None" verbnet_key="converge#1" features="None"/>
 <MEMBER name="dwell" wn="dwell%2:31:00" grouping="dwell.01" fn_mapping="None" verbnet_key="dwell#2" features="None"/>

@@ -9,7 +9,7 @@
 <MEMBER name="fulfill" wn="fulfill%2:36:00" grouping="fulfill.01" fn_mapping="None" verbnet_key="fulfill#1" features="None"/>
 <MEMBER name="make" wn="make%2:41:00 make%2:36:08" grouping="make.01 make.02" fn_mapping="None" verbnet_key="make#1" features="None"/>
 <MEMBER name="cause" wn="cause%2:36:00" grouping="cause.01" fn_mapping="None" verbnet_key="cause#1" features="None"/>
-<MEMBER name="engage_in" wn="engage_in%2:41:06" grouping="engage.01" fn_mapping="None" verbnet_key="engage_in#1" features="None"/>
+<MEMBER name="engage_in" wn="engage%2:41:06" grouping="engage.01" fn_mapping="None" verbnet_key="engage_in#1" features="None"/>
 </MEMBERS>
 <THEMROLES>
 <THEMROLE type="Agent">

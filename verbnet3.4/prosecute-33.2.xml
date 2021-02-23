@@ -7,7 +7,7 @@
 <MEMBER name="impeach" wn="impeach%2:32:03" grouping="impeach.02" fn_mapping="None" verbnet_key="impeach#1" features="None"/>
 <MEMBER name="nab" wn="" grouping="nab.02" fn_mapping="None" verbnet_key="nab#1" features="None"/>
 <MEMBER name="penalize" wn="penalize%2:41:00" grouping="" fn_mapping="None" verbnet_key="penalize#1" features="None"/>
-<MEMBER name="report" wn="wn%2:32:01" grouping="report.02" fn_mapping="None" verbnet_key="report#3" features="None"/>
+<MEMBER name="report" wn="report%2:32:01" grouping="report.02" fn_mapping="None" verbnet_key="report#3" features="None"/>
 <MEMBER name="sanction" wn="" grouping="sanction.02" fn_mapping="None" verbnet_key="sanction#2" features="None"/>
 </MEMBERS>
 <THEMROLES>

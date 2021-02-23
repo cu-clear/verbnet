@@ -63,7 +63,7 @@ John cut the engine.
 <MEMBER name="close" wn="close%2:41:01 close%2:42:00 close%2:42:01 close%2:30:08" grouping="close.03" fn_mapping="None" verbnet_key="close#4" features="None"/>
 <MEMBER name="cut_off" wn="cut_off%2:32:00 cut_off%2:30:00" grouping="cut.05" fn_mapping="None" verbnet_key="cut_off#1" features="None"/>
 <MEMBER name="cut_out" wn="cut_out%2:30:01" grouping="cut.05" fn_mapping="None" verbnet_key="cut_out#1" features="None"/>
-<MEMBER name="deactivate" wn="deactive%2:30:00" grouping="" fn_mapping="None" verbnet_key="deactivate#1" features="None"/>
+<MEMBER name="deactivate" wn="deactivate%2:30:00" grouping="" fn_mapping="None" verbnet_key="deactivate#1" features="None"/>
 <MEMBER name="halt" wn="halt%2:38:05 halt%2:38:01 halt%2:41:00" grouping="halt.01" fn_mapping="None" verbnet_key="halt#1" features="None"/>
 <MEMBER name="lift" wn="" grouping="lift.03" fn_mapping="None" verbnet_key="lift#3" features="None"/>
 <MEMBER name="repeat" wn="repeat%2:30:00 repeat%2:41:00" grouping="repeat.01" fn_mapping="None" verbnet_key="repeat#3" features="None"/>

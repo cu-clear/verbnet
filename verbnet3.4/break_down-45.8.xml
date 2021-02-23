@@ -5,7 +5,7 @@
 <MEMBER name="croak" wn="" grouping="" fn_mapping="None" verbnet_key="croak#2" features="None"/>
 <MEMBER name="die" wn="" grouping="" fn_mapping="Death" verbnet_key="die#1" features="None"/>
 <MEMBER name="expire" wn="" grouping="" fn_mapping="None" verbnet_key="expire#1" features="None"/>
-<MEMBER name="fall_apart" wn="fall_apart%2:37:00 fall_apart%2:35:00         fall_apart%2:30:00 fall_apart%2:30:03" grouping="fall.10" fn_mapping="None" verbnet_key="fall_apart#1" features="None"/>
+<MEMBER name="fall_apart" wn="fall_apart%2:37:00 fall_apart%2:35:00 fall_apart%2:30:03" grouping="fall.10" fn_mapping="None" verbnet_key="fall_apart#1" features="None"/>
 <MEMBER name="go_out" wn="" grouping="" fn_mapping="None" verbnet_key="go_out#1" features="None"/>
 <MEMBER name="go_down" wn="" grouping="" fn_mapping="None" verbnet_key="go_down#1" features="None"/>
 <MEMBER name="go_off" wn="" grouping="" fn_mapping="None" verbnet_key="go_off#1" features="None"/>

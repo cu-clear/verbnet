@@ -365,7 +365,7 @@ I understand.
 <VNSUBCLASS ID="comprehend-87.2-1-1-1">
 <MEMBERS>
 <MEMBER name="know" wn="know%2:31:15" grouping="know.03" fn_mapping="None" verbnet_key="know#1" features="None"/>
-<MEMBER name="understand" wn="understand%2:31:00                     understand%2:31:01 undertand%2:31:02 understand%2:31:03" grouping="understand.01                     understand.02 understand.03" fn_mapping="None" verbnet_key="understand#2" features="None"/>
+<MEMBER name="understand" wn="understand%2:31:00 understand%2:31:01 understand%2:31:02 understand%2:31:03" grouping="understand.01 understand.02 understand.03" fn_mapping="None" verbnet_key="understand#2" features="None"/>
 </MEMBERS>
 <THEMROLES/>
 <FRAMES>

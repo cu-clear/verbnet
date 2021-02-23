@@ -182,7 +182,7 @@ They distinguished her from her twin sister by her birthmark.
 <SUBCLASSES>
 <VNSUBCLASS ID="distinguish-23.5-1">
 <MEMBERS>
-<MEMBER name="distinguish" wn="distingiush%2:31:00" grouping="distinguish.01" fn_mapping="None" verbnet_key="distinguish#1" features="None"/>
+<MEMBER name="distinguish" wn="distinguish%2:31:00" grouping="distinguish.01" fn_mapping="None" verbnet_key="distinguish#1" features="None"/>
 <MEMBER name="differentiate" wn="differentiate%2:31:01" grouping="differentiate.01" fn_mapping="None" verbnet_key="differentiate#1" features="None"/>
 </MEMBERS>
 <THEMROLES/>
