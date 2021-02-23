@@ -1,328 +1,328 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="modes_of_being_with_motion-47.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <!--Each member adds a manner predicate for how the Theme is moving-->
-  <MEMBER features="None" fn_mapping="Body_movement" grouping="bob.01" name="bob" verbnet_key="bob#3" wn="bob%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="bow.01" name="bow" verbnet_key="bow#4" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="circulate.01" name="circulate" verbnet_key="circulate#1" wn="circulate%2:38:03 circulate%2:38:04"/>
-  <MEMBER features="None" fn_mapping="Self_motion" grouping="creep.01 creep.02" name="creep" verbnet_key="creep#1" wn="creep%2:38:06"/>
-  <MEMBER features="None" fn_mapping="Self_motion" grouping="dance.02" name="dance" verbnet_key="dance#1" wn="dance%2:38:02"/>
-  <MEMBER features="None" fn_mapping="Motion" grouping="drift.01 drift.02" name="drift" verbnet_key="drift#1" wn="drift%2:38:02 drift%2:38:06 drift%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="eddy" verbnet_key="eddy#1" wn="eddy%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="falter.01" name="falter" verbnet_key="falter#1" wn=""/>
-  <MEMBER features="None" fn_mapping="Body_movement" grouping="flap.01" name="flap" verbnet_key="flap#3" wn="flap%2:38:01 flap%2:38:00"/>
-  <MEMBER features="None" fn_mapping="Motion" grouping="float.01" name="float" verbnet_key="float#1" wn="float%2:38:00 float%2:38:02"/>
-  <MEMBER features="None" fn_mapping="None" grouping="flutter.01" name="flutter" verbnet_key="flutter#2" wn="flutter%2:38:01 flutter%2:38:00 flutter%2:29:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="hover.01" name="hover" verbnet_key="hover#1" wn="hover%2:38:00 hover%2:38:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="jiggle" verbnet_key="jiggle#2" wn="jiggle%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="joggle" verbnet_key="joggle#1" wn="joggle%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="oscillate" verbnet_key="oscillate#1" wn="oscillate%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="pulsate" verbnet_key="pulsate#1" wn="pulsate%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="pulse.01" name="pulse" verbnet_key="pulse#1" wn="pulse%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="quake" verbnet_key="quake#2" wn="quake%2:38:01 quake%2:38:02"/>
-  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="" name="quiver" verbnet_key="quiver#2" wn="quiver%2:38:00 quiver%2:38:04"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="recirculate" verbnet_key="recirculate#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="revolve.01" name="revolve" verbnet_key="revolve#1" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02"/>
-  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="rock.01" name="rock" verbnet_key="rock#2" wn="rock%2:38:00"/>
-  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="rotate.01" name="rotate" verbnet_key="rotate#2" wn="rotate%2:38:01 rotate%2:38:00"/>
-  <MEMBER features="None" fn_mapping="Cause_to_move_in_place" grouping="shake.01" name="shake" verbnet_key="shake#6" wn="shake%2:38:00 shake%2:29:00 shake%2:38:02"/>
-  <MEMBER features="None" fn_mapping="None" grouping="stir.01" name="stir" verbnet_key="stir#2" wn="stir%2:38:01 stir%2:38:00 stir%2:38:04"/>
-  <MEMBER features="None" fn_mapping="None" grouping="swag.03" name="swag" verbnet_key="swag#1" wn="swag%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="sway.01" name="sway" verbnet_key="sway#3" wn="sway%2:38:00 sway%2:38:06"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="swirl" verbnet_key="swirl#2" wn="swirl%2:38:01 swirl%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="teeter" verbnet_key="teeter#2" wn="teeter%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="throb.01" name="throb" verbnet_key="throb#1" wn="throb%2:39:00 throb%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="totter" verbnet_key="totter#2" wn="totter%2:38:02 totter%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="tremble" verbnet_key="tremble#2" wn="tremble%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="undulate" verbnet_key="undulate#2" wn="undulate%2:38:01 undulate%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="vacillate" verbnet_key="vacillate#1" wn=""/>
-  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="vibrate.01" name="vibrate" verbnet_key="vibrate#1" wn="vibrate%2:38:00 vibrate%2:38:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="waft" verbnet_key="waft#1" wn="waft%2:43:00"/>
-  <MEMBER features="None" fn_mapping="Moving_in_place" grouping="wave.02" name="wave" verbnet_key="wave#2" wn="wave%2:35:00 wave%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="waver.02" name="waver" verbnet_key="waver#1" wn="waver%2:38:01 waver%2:38:02 waver%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="wiggle" verbnet_key="wiggle#3" wn="wiggle%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="wobble" verbnet_key="wobble#2" wn="wobble%2:38:00 wobble%2:38:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="worm" verbnet_key="worm#1" wn="worm%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="writhe" verbnet_key="writhe#2" wn="writhe%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="roil" verbnet_key="roil#3" wn="roil%2:38:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="int_control"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Location">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="location"/>
-    <SELRESTR Value="-" type="region"/>
-   </SELRESTRS>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     A flag fluttered.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="be">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="intrinsic_motion">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED value="manner">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="Constant" value="Movement"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     A flag fluttered over the fort.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="loc"/>
-     </SELRESTRS>
-    </PREP>
-    <NP value="Location">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="be">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="intrinsic_motion">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED value="manner">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="Constant" value="Movement"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NP; Expletive-there Subject" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     There fluttered a flag over the fort.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <LEX value="there"/>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="definite"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="be">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="intrinsic_motion">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED value="manner">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="Constant" value="Movement"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-   <!--some verbs-->
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="6.2" primary="PP.location V NP" secondary="Locative Inversion" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Over the fort fluttered a flag.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="loc"/>
-     </SELRESTRS>
-    </PREP>
-    <NP value="Location">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="be">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="intrinsic_motion">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED value="manner">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="Constant" value="Movement"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-   <!--some verbs-->
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V NP.theme" secondary="NP; Causative variant" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     The patriots waved the flag.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="be">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="intrinsic_motion">
-     <ARGS>
-      <ARG type="Event" value="ë2"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED value="manner">
-     <ARGS>
-      <ARG type="Event" value="ë2"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="Constant" value="Movement"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="Event" value="ë2"/>
-     </ARGS>
-    </PRED>
-    <PRED value="co-temporal">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="Event" value="ë2"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-   <!--some verbs-->
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<!--Each member adds a manner predicate for how the Theme is moving-->
+<MEMBER name="bob" wn="bob%2:38:00" grouping="bob.01" fn_mapping="Body_movement" verbnet_key="bob#3" features="None"/>
+<MEMBER name="bow" wn="" grouping="bow.01" fn_mapping="None" verbnet_key="bow#4" features="None"/>
+<MEMBER name="circulate" wn="circulate%2:38:03 circulate%2:38:04" grouping="circulate.01" fn_mapping="None" verbnet_key="circulate#1" features="None"/>
+<MEMBER name="creep" wn="creep%2:38:06" grouping="creep.01 creep.02" fn_mapping="Self_motion" verbnet_key="creep#1" features="None"/>
+<MEMBER name="dance" wn="dance%2:38:02" grouping="dance.02" fn_mapping="Self_motion" verbnet_key="dance#1" features="None"/>
+<MEMBER name="drift" wn="drift%2:38:02 drift%2:38:06 drift%2:30:00" grouping="drift.01 drift.02" fn_mapping="Motion" verbnet_key="drift#1" features="None"/>
+<MEMBER name="eddy" wn="eddy%2:38:00" grouping="" fn_mapping="None" verbnet_key="eddy#1" features="None"/>
+<MEMBER name="falter" wn="" grouping="falter.01" fn_mapping="None" verbnet_key="falter#1" features="None"/>
+<MEMBER name="flap" wn="flap%2:38:01 flap%2:38:00" grouping="flap.01" fn_mapping="Body_movement" verbnet_key="flap#3" features="None"/>
+<MEMBER name="float" wn="float%2:38:00 float%2:38:02" grouping="float.01" fn_mapping="Motion" verbnet_key="float#1" features="None"/>
+<MEMBER name="flutter" wn="flutter%2:38:01 flutter%2:38:00 flutter%2:29:00" grouping="flutter.01" fn_mapping="None" verbnet_key="flutter#2" features="None"/>
+<MEMBER name="hover" wn="hover%2:38:00 hover%2:38:01" grouping="hover.01" fn_mapping="None" verbnet_key="hover#1" features="None"/>
+<MEMBER name="jiggle" wn="jiggle%2:38:00" grouping="" fn_mapping="None" verbnet_key="jiggle#2" features="None"/>
+<MEMBER name="joggle" wn="joggle%2:38:00" grouping="" fn_mapping="None" verbnet_key="joggle#1" features="None"/>
+<MEMBER name="oscillate" wn="oscillate%2:38:00" grouping="" fn_mapping="None" verbnet_key="oscillate#1" features="None"/>
+<MEMBER name="pulsate" wn="pulsate%2:38:00" grouping="" fn_mapping="None" verbnet_key="pulsate#1" features="None"/>
+<MEMBER name="pulse" wn="pulse%2:38:00" grouping="pulse.01" fn_mapping="None" verbnet_key="pulse#1" features="None"/>
+<MEMBER name="quake" wn="quake%2:38:01 quake%2:38:02" grouping="" fn_mapping="None" verbnet_key="quake#2" features="None"/>
+<MEMBER name="quiver" wn="quiver%2:38:00 quiver%2:38:04" grouping="" fn_mapping="Moving_in_place" verbnet_key="quiver#2" features="None"/>
+<MEMBER name="recirculate" wn="" grouping="" fn_mapping="None" verbnet_key="recirculate#1" features="None"/>
+<MEMBER name="revolve" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02" grouping="revolve.01" fn_mapping="None" verbnet_key="revolve#1" features="None"/>
+<MEMBER name="rock" wn="rock%2:38:00" grouping="rock.01" fn_mapping="Moving_in_place" verbnet_key="rock#2" features="None"/>
+<MEMBER name="rotate" wn="rotate%2:38:01 rotate%2:38:00" grouping="rotate.01" fn_mapping="Moving_in_place" verbnet_key="rotate#2" features="None"/>
+<MEMBER name="shake" wn="shake%2:38:00 shake%2:29:00 shake%2:38:02" grouping="shake.01" fn_mapping="Cause_to_move_in_place" verbnet_key="shake#6" features="None"/>
+<MEMBER name="stir" wn="stir%2:38:01 stir%2:38:00 stir%2:38:04" grouping="stir.01" fn_mapping="None" verbnet_key="stir#2" features="None"/>
+<MEMBER name="swag" wn="swag%2:38:00" grouping="swag.03" fn_mapping="None" verbnet_key="swag#1" features="None"/>
+<MEMBER name="sway" wn="sway%2:38:00 sway%2:38:06" grouping="sway.01" fn_mapping="None" verbnet_key="sway#3" features="None"/>
+<MEMBER name="swirl" wn="swirl%2:38:01 swirl%2:38:00" grouping="" fn_mapping="None" verbnet_key="swirl#2" features="None"/>
+<MEMBER name="teeter" wn="teeter%2:38:00" grouping="" fn_mapping="None" verbnet_key="teeter#2" features="None"/>
+<MEMBER name="throb" wn="throb%2:39:00 throb%2:38:00" grouping="throb.01" fn_mapping="None" verbnet_key="throb#1" features="None"/>
+<MEMBER name="totter" wn="totter%2:38:02 totter%2:38:00" grouping="" fn_mapping="None" verbnet_key="totter#2" features="None"/>
+<MEMBER name="tremble" wn="tremble%2:38:00" grouping="" fn_mapping="None" verbnet_key="tremble#2" features="None"/>
+<MEMBER name="undulate" wn="undulate%2:38:01 undulate%2:38:00" grouping="" fn_mapping="None" verbnet_key="undulate#2" features="None"/>
+<MEMBER name="vacillate" wn="" grouping="" fn_mapping="None" verbnet_key="vacillate#1" features="None"/>
+<MEMBER name="vibrate" wn="vibrate%2:38:00 vibrate%2:38:01" grouping="vibrate.01" fn_mapping="Moving_in_place" verbnet_key="vibrate#1" features="None"/>
+<MEMBER name="waft" wn="waft%2:43:00" grouping="" fn_mapping="None" verbnet_key="waft#1" features="None"/>
+<MEMBER name="wave" wn="wave%2:35:00 wave%2:38:00" grouping="wave.02" fn_mapping="Moving_in_place" verbnet_key="wave#2" features="None"/>
+<MEMBER name="waver" wn="waver%2:38:01 waver%2:38:02 waver%2:38:00" grouping="waver.02" fn_mapping="None" verbnet_key="waver#1" features="None"/>
+<MEMBER name="wiggle" wn="wiggle%2:38:00" grouping="" fn_mapping="None" verbnet_key="wiggle#3" features="None"/>
+<MEMBER name="wobble" wn="wobble%2:38:00 wobble%2:38:01" grouping="" fn_mapping="None" verbnet_key="wobble#2" features="None"/>
+<MEMBER name="worm" wn="worm%2:38:00" grouping="" fn_mapping="None" verbnet_key="worm#1" features="None"/>
+<MEMBER name="writhe" wn="writhe%2:38:00" grouping="" fn_mapping="None" verbnet_key="writhe#2" features="None"/>
+<MEMBER name="roil" wn="roil%2:38:00" grouping="" fn_mapping="None" verbnet_key="roil#3" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS>
+<SELRESTR Value="+" type="int_control"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Location">
+<SELRESTRS>
+<SELRESTR Value="+" type="location"/>
+<SELRESTR Value="-" type="region"/>
+</SELRESTRS>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+<EXAMPLES>
+<EXAMPLE>
+A flag fluttered.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Location"/>
+</ARGS>
+</PRED>
+<PRED value="intrinsic_motion">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED value="manner">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="Constant" value="Movement"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+A flag fluttered over the fort.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="loc"/>
+</SELRESTRS>
+</PREP>
+<NP value="Location">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="intrinsic_motion">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED value="manner">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="Constant" value="Movement"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NP; Expletive-there Subject" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+There fluttered a flag over the fort.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<LEX value="there"/>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="-" type="definite"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="intrinsic_motion">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED value="manner">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="Constant" value="Movement"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+<!--some verbs-->
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="6.2" primary="PP.location V NP" secondary="Locative Inversion" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Over the fort fluttered a flag.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="loc"/>
+</SELRESTRS>
+</PREP>
+<NP value="Location">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="intrinsic_motion">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED value="manner">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="Constant" value="Movement"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+<!--some verbs-->
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V NP.theme" secondary="NP; Causative variant" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+The patriots waved the flag.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="intrinsic_motion">
+<ARGS>
+<ARG type="Event" value="ë2"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED value="manner">
+<ARGS>
+<ARG type="Event" value="ë2"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="Constant" value="Movement"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="Event" value="ë2"/>
+</ARGS>
+</PRED>
+<PRED value="co-temporal">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="Event" value="ë2"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+<!--some verbs-->
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>

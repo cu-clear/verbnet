@@ -1,492 +1,492 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="bend-45.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <!--each verb specifies Form of Patient as a result of the action-->
-  <MEMBER features="None" fn_mapping="Body_movement" grouping="bend.02 bend.05" name="bend" verbnet_key="bend#2" wn="?bend%2:38:00 bend%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="crease" verbnet_key="crease#1" wn="crease%2:35:00 crease%2:35:01 crease%2:30:10"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="crinkle" verbnet_key="crinkle#1" wn="crinkle%2:35:00 crinkle%2:30:10"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="compact" verbnet_key="compact#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="compress.01" name="compress" verbnet_key="compress#1" wn="compress%2:35:01 compress%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="constrict" verbnet_key="constrict#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="contract.02 contract.03" name="contract" verbnet_key="contract#1" wn="contract%2:35:04 contract%2:30:04 contract%2:35:00"/>
-  <MEMBER features="None" fn_mapping="Body_movement" grouping="crumple.02" name="crumple" verbnet_key="crumple#1" wn="crumple%2:35:00 crumple%2:30:10"/>
-  <MEMBER features="None" fn_mapping="None" grouping="decompress.01 decompress.02" name="decompress" verbnet_key="decompress#1" wn="decompress%2:35:00 decompress%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="deflate.01" name="deflate" verbnet_key="deflate#1" wn="deflate%2:35:01 deflate%2:35:00 deflate%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="distend" verbnet_key="distend#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="flex.02" name="flex" verbnet_key="flex#1" wn="flex%2:38:00 flex%2:35:02"/>
-  <MEMBER features="None" fn_mapping="Reshaping" grouping="fold.01" name="fold" verbnet_key="fold#1" wn="fold%2:35:00 fold%2:30:10"/>
-  <MEMBER features="None" fn_mapping="None" grouping="furrow.01 furrow.02" name="furrow" verbnet_key="furrow#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="hyperextend" verbnet_key="hyperextend#1" wn="hyperextend%2:29:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="inflate.01 inflate.02 inflate.03" name="inflate" verbnet_key="inflate#1" wn="inflate%2:30:00 inflate%2:30:02"/>
-  <MEMBER features="None" fn_mapping="Reshaping" grouping="" name="roll" verbnet_key="roll#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="round" verbnet_key="round#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="rumple.02" name="rumple" verbnet_key="rumple#1" wn="rumple%2:35:01 rumple%2:30:10"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="scrunch" verbnet_key="scrunch#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="shrink.01" name="shrink" verbnet_key="shrink#1" wn="shrink%2:30:02 shrink%2:30:01 shrink%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="shrivel" verbnet_key="shrivel#1" wn="shrivel%2:30:00 shrivel%2:30:11"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="slack" verbnet_key="slack#1" wn="slack%2:30:00 slack%2:30:03 slack%2:30:05 slack%2:30:04 slack%2:30:07 slack%2:30:06"/>
-  <MEMBER features="None" fn_mapping="None" grouping="slacken.01 slacken.02" name="slacken" verbnet_key="slacken#1" wn="slacken%2:30:02 slacken%2:30:03 slacken%2:30:00 slacken%2:30:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="splay" verbnet_key="splay#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="straighten" verbnet_key="straighten#1" wn=""/>
-  <MEMBER features="None" fn_mapping="Body_movement" grouping="" name="stretch" verbnet_key="stretch#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="tauten" verbnet_key="tauten#1" wn="tauten%2:30:00 tauten%2:30:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="unfold" verbnet_key="unfold#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="unfurl" verbnet_key="unfurl#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="unroll" verbnet_key="unroll#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="unwind" verbnet_key="unwind#1" wn=""/>
-  <MEMBER features="None" fn_mapping="Reshaping" grouping="" name="warp" verbnet_key="warp#1" wn=""/>
-  <MEMBER features="None" fn_mapping="Body_movement" grouping="" name="wrinkle" verbnet_key="wrinkle#1" wn="wrinkle%2:35:01 ?wrinkle%2:35:00 wrinkle%2:35:02 wrinkle%2:30:10"/>
-  <MEMBER features="None" fn_mapping="None" grouping="unbend.01 unbend.02" name="unbend" verbnet_key="unbend#1" wn="unbend%2:38:00 unbend%2:35:00 unbend%2:30:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="int_control"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Patient">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="solid"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Instrument">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="solid"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Result">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic Transitive; Causative" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Tony bent the rod.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Tony bent the rod with pliers.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="with">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Instrument">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="contact">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Instrument"/>
-      <ARG type="ThemRole" value="Patient"/>
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="Intransitive; Inchoative" xtag="0.1"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     The rod bent.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     The copper rods bent easily.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <ADV/>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     The pliers bent the rod.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Instrument">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="contact">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="?Agent"/>
-      <ARG type="ThemRole" value="Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="?Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Tony folded the flaps open.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-    <NP value="Result">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="Result"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-   <!--some verbs-->
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Tony bent the rod into a U.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="to into">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Result">
-     <SELRESTRS>
-      <SELRESTR Value="+" type="state"/>
-     </SELRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="Result"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-   <!--some verbs-->
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Tony bent the rod into a U with pliers.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="to into">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Result">
-     <SELRESTRS>
-      <SELRESTR Value="+" type="state"/>
-     </SELRESTRS>
-    </NP>
-    <PREP value="with">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Instrument">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="contact">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="physical_form">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="VerbSpecific" value="V_Final_State"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Patient"/>
-      <ARG type="ThemRole" value="Result"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-   <!--some verbs-->
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<!--each verb specifies Form of Patient as a result of the action-->
+<MEMBER name="bend" wn="?bend%2:38:00 bend%2:35:00" grouping="bend.02 bend.05" fn_mapping="Body_movement" verbnet_key="bend#2" features="None"/>
+<MEMBER name="crease" wn="crease%2:35:00 crease%2:35:01 crease%2:30:10" grouping="" fn_mapping="None" verbnet_key="crease#1" features="None"/>
+<MEMBER name="crinkle" wn="crinkle%2:35:00 crinkle%2:30:10" grouping="" fn_mapping="None" verbnet_key="crinkle#1" features="None"/>
+<MEMBER name="compact" wn="" grouping="" fn_mapping="None" verbnet_key="compact#1" features="None"/>
+<MEMBER name="compress" wn="compress%2:35:01 compress%2:35:00" grouping="compress.01" fn_mapping="None" verbnet_key="compress#1" features="None"/>
+<MEMBER name="constrict" wn="" grouping="" fn_mapping="None" verbnet_key="constrict#1" features="None"/>
+<MEMBER name="contract" wn="contract%2:35:04 contract%2:30:04 contract%2:35:00" grouping="contract.02 contract.03" fn_mapping="None" verbnet_key="contract#1" features="None"/>
+<MEMBER name="crumple" wn="crumple%2:35:00 crumple%2:30:10" grouping="crumple.02" fn_mapping="Body_movement" verbnet_key="crumple#1" features="None"/>
+<MEMBER name="decompress" wn="decompress%2:35:00 decompress%2:30:00" grouping="decompress.01 decompress.02" fn_mapping="None" verbnet_key="decompress#1" features="None"/>
+<MEMBER name="deflate" wn="deflate%2:35:01 deflate%2:35:00 deflate%2:30:00" grouping="deflate.01" fn_mapping="None" verbnet_key="deflate#1" features="None"/>
+<MEMBER name="distend" wn="" grouping="" fn_mapping="None" verbnet_key="distend#1" features="None"/>
+<MEMBER name="flex" wn="flex%2:38:00 flex%2:35:02" grouping="flex.02" fn_mapping="None" verbnet_key="flex#1" features="None"/>
+<MEMBER name="fold" wn="fold%2:35:00 fold%2:30:10" grouping="fold.01" fn_mapping="Reshaping" verbnet_key="fold#1" features="None"/>
+<MEMBER name="furrow" wn="" grouping="furrow.01 furrow.02" fn_mapping="None" verbnet_key="furrow#1" features="None"/>
+<MEMBER name="hyperextend" wn="hyperextend%2:29:00" grouping="" fn_mapping="None" verbnet_key="hyperextend#1" features="None"/>
+<MEMBER name="inflate" wn="inflate%2:30:00 inflate%2:30:02" grouping="inflate.01 inflate.02 inflate.03" fn_mapping="None" verbnet_key="inflate#1" features="None"/>
+<MEMBER name="roll" wn="" grouping="" fn_mapping="Reshaping" verbnet_key="roll#1" features="None"/>
+<MEMBER name="round" wn="" grouping="" fn_mapping="None" verbnet_key="round#1" features="None"/>
+<MEMBER name="rumple" wn="rumple%2:35:01 rumple%2:30:10" grouping="rumple.02" fn_mapping="None" verbnet_key="rumple#1" features="None"/>
+<MEMBER name="scrunch" wn="" grouping="" fn_mapping="None" verbnet_key="scrunch#1" features="None"/>
+<MEMBER name="shrink" wn="shrink%2:30:02 shrink%2:30:01 shrink%2:30:00" grouping="shrink.01" fn_mapping="None" verbnet_key="shrink#1" features="None"/>
+<MEMBER name="shrivel" wn="shrivel%2:30:00 shrivel%2:30:11" grouping="" fn_mapping="None" verbnet_key="shrivel#1" features="None"/>
+<MEMBER name="slack" wn="slack%2:30:00 slack%2:30:03 slack%2:30:05 slack%2:30:04 slack%2:30:07 slack%2:30:06" grouping="" fn_mapping="None" verbnet_key="slack#1" features="None"/>
+<MEMBER name="slacken" wn="slacken%2:30:02 slacken%2:30:03 slacken%2:30:00 slacken%2:30:01" grouping="slacken.01 slacken.02" fn_mapping="None" verbnet_key="slacken#1" features="None"/>
+<MEMBER name="splay" wn="" grouping="" fn_mapping="None" verbnet_key="splay#1" features="None"/>
+<MEMBER name="straighten" wn="" grouping="" fn_mapping="None" verbnet_key="straighten#1" features="None"/>
+<MEMBER name="stretch" wn="" grouping="" fn_mapping="Body_movement" verbnet_key="stretch#1" features="None"/>
+<MEMBER name="tauten" wn="tauten%2:30:00 tauten%2:30:01" grouping="" fn_mapping="None" verbnet_key="tauten#1" features="None"/>
+<MEMBER name="unfold" wn="" grouping="" fn_mapping="None" verbnet_key="unfold#1" features="None"/>
+<MEMBER name="unfurl" wn="" grouping="" fn_mapping="None" verbnet_key="unfurl#1" features="None"/>
+<MEMBER name="unroll" wn="" grouping="" fn_mapping="None" verbnet_key="unroll#1" features="None"/>
+<MEMBER name="unwind" wn="" grouping="" fn_mapping="None" verbnet_key="unwind#1" features="None"/>
+<MEMBER name="warp" wn="" grouping="" fn_mapping="Reshaping" verbnet_key="warp#1" features="None"/>
+<MEMBER name="wrinkle" wn="wrinkle%2:35:01 ?wrinkle%2:35:00 wrinkle%2:35:02 wrinkle%2:30:10" grouping="" fn_mapping="Body_movement" verbnet_key="wrinkle#1" features="None"/>
+<MEMBER name="unbend" wn="unbend%2:38:00 unbend%2:35:00 unbend%2:30:00" grouping="unbend.01 unbend.02" fn_mapping="None" verbnet_key="unbend#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS>
+<SELRESTR Value="+" type="int_control"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Patient">
+<SELRESTRS>
+<SELRESTR Value="+" type="solid"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Instrument">
+<SELRESTRS>
+<SELRESTR Value="+" type="solid"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Result">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic Transitive; Causative" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+Tony bent the rod.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="physical_form">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="physical_form">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Tony bent the rod with pliers.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+<PREP value="with">
+<SELRESTRS/>
+</PREP>
+<NP value="Instrument">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="physical_form">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="contact">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Instrument"/>
+<ARG type="ThemRole" value="Patient"/>
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="physical_form">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="Intransitive; Inchoative" xtag="0.1"/>
+<EXAMPLES>
+<EXAMPLE>
+The rod bent.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="physical_form">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="physical_form">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+The copper rods bent easily.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<ADV/>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="physical_form">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="physical_form">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+The pliers bent the rod.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Instrument">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="physical_form">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="contact">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="ThemRole" value="Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="?Agent"/>
+<ARG type="ThemRole" value="Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="?Agent"/>
+</ARGS>
+</PRED>
+<PRED value="physical_form">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Tony folded the flaps open.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+<NP value="Result">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="physical_form">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="physical_form">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="ThemRole" value="Result"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+<!--some verbs-->
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Tony bent the rod into a U.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+<PREP value="to into">
+<SELRESTRS/>
+</PREP>
+<NP value="Result">
+<SELRESTRS>
+<SELRESTR Value="+" type="state"/>
+</SELRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="physical_form">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="physical_form">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="ThemRole" value="Result"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+<!--some verbs-->
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Tony bent the rod into a U with pliers.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+<PREP value="to into">
+<SELRESTRS/>
+</PREP>
+<NP value="Result">
+<SELRESTRS>
+<SELRESTR Value="+" type="state"/>
+</SELRESTRS>
+</NP>
+<PREP value="with">
+<SELRESTRS/>
+</PREP>
+<NP value="Instrument">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="physical_form">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="contact">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="ThemRole" value="Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="physical_form">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="VerbSpecific" value="V_Final_State"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Patient"/>
+<ARG type="ThemRole" value="Result"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+<!--some verbs-->
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>

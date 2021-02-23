@@ -1,143 +1,143 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="spend_time-104" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="kill" verbnet_key="kill#5" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="lead.06" name="lead" verbnet_key="lead#4" wn=""/>
-  <MEMBER features="None" fn_mapping="Process_end" grouping="pass.03" name="pass" verbnet_key="pass#7" wn="pass%2:42:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="serve.05" name="serve" verbnet_key="serve#5" wn="serve%2:42:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="misspend" verbnet_key="misspend#2" wn="misspend%2:42:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="spend.01" name="spend" verbnet_key="spend#3" wn="spend%2:42:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="use.03" name="use" verbnet_key="use#3" wn="use%2:34:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="waste.01" name="waste" verbnet_key="waste#4" wn="waste%2:40:00 waste%2:34:05"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Duration">
-   <SELRESTRS>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Attribute">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I misspent 5 hours.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Duration">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="spend">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Duration"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Sam served five years as a prisoner.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Duration">
-     <SYNRESTRS/>
-    </NP>
-    <LEX value="as"/>
-    <NP value="Attribute">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="spend">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Duration"/>
-     </ARGS>
-    </PRED>
-    <PRED value="characterize">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Attribute"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     She served five years as a waitress.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Duration">
-     <SYNRESTRS/>
-    </NP>
-    <LEX value="as"/>
-    <NP value="Attribute">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="spend">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Duration"/>
-     </ARGS>
-    </PRED>
-    <PRED value="masquerade">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Attribute"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="Event" value="E"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<MEMBER name="kill" wn="" grouping="" fn_mapping="None" verbnet_key="kill#5" features="None"/>
+<MEMBER name="lead" wn="" grouping="lead.06" fn_mapping="None" verbnet_key="lead#4" features="None"/>
+<MEMBER name="pass" wn="pass%2:42:00" grouping="pass.03" fn_mapping="Process_end" verbnet_key="pass#7" features="None"/>
+<MEMBER name="serve" wn="serve%2:42:00" grouping="serve.05" fn_mapping="None" verbnet_key="serve#5" features="None"/>
+<MEMBER name="misspend" wn="misspend%2:42:00" grouping="" fn_mapping="None" verbnet_key="misspend#2" features="None"/>
+<MEMBER name="spend" wn="spend%2:42:00" grouping="spend.01" fn_mapping="None" verbnet_key="spend#3" features="None"/>
+<MEMBER name="use" wn="use%2:34:00" grouping="use.03" fn_mapping="None" verbnet_key="use#3" features="None"/>
+<MEMBER name="waste" wn="waste%2:40:00 waste%2:34:05" grouping="waste.01" fn_mapping="None" verbnet_key="waste#4" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Duration">
+<SELRESTRS>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Attribute">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I misspent 5 hours.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Duration">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="spend">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Duration"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="Event" value="E"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+Sam served five years as a prisoner.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Duration">
+<SYNRESTRS/>
+</NP>
+<LEX value="as"/>
+<NP value="Attribute">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="spend">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Duration"/>
+</ARGS>
+</PRED>
+<PRED value="characterize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Attribute"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+She served five years as a waitress.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Duration">
+<SYNRESTRS/>
+</NP>
+<LEX value="as"/>
+<NP value="Attribute">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="spend">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Duration"/>
+</ARGS>
+</PRED>
+<PRED value="masquerade">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Attribute"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="Event" value="E"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>

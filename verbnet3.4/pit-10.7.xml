@@ -1,120 +1,120 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="pit-10.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="bark.03" name="bark" verbnet_key="bark#4" wn="bark%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="beard" verbnet_key="beard#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="bone" verbnet_key="bone#1" wn="bone%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="burl" verbnet_key="burl#1" wn="burl%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="core" verbnet_key="core#1" wn="core%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="gill" verbnet_key="gill#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="gut" verbnet_key="gut#1" wn="gut%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="head.05" name="head" verbnet_key="head#3" wn="head%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="hull" verbnet_key="hull#1" wn="hull%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="husk" verbnet_key="husk#1" wn="husk%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="lint" verbnet_key="lint#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="louse" verbnet_key="louse#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="milk.02" name="milk" verbnet_key="milk#2" wn="milk%2:30:00"/>
-  <MEMBER features="None" fn_mapping="Emptying" grouping="peel.01" name="peel" verbnet_key="peel#1" wn="peel%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="pinion" verbnet_key="pinion#1" wn="pinion%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="pip" verbnet_key="pip#1" wn=""/>
-  <MEMBER features="None" fn_mapping="Emptying" grouping="pit.02" name="pit" verbnet_key="pit#1" wn="pit%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="pith" verbnet_key="pith#1" wn="pith%2:40:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="pod" verbnet_key="pod#1" wn="pod%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="poll.03" name="poll" verbnet_key="poll#1" wn="poll%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="pulp" verbnet_key="pulp#1" wn="pulp%2:35:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="rind" verbnet_key="rind#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="scale.04" name="scale" verbnet_key="scale#1" wn="scale%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="scalp" verbnet_key="scalp#1" wn="scalp%2:30:00"/>
-  <MEMBER features="None" fn_mapping="Emptying" grouping="seed.07" name="seed" verbnet_key="seed#3" wn="seed%2:30:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="shell.01" name="shell" verbnet_key="shell#2" wn="shell%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="shuck" verbnet_key="shuck#1" wn="shuck%2:30:00"/>
-  <MEMBER features="None" fn_mapping="Emptying" grouping="" name="skin" verbnet_key="skin#2" wn="skin%2:35:01 skin%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="snail" verbnet_key="snail#2" wn="snail%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="stalk" verbnet_key="stalk#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="stem.04" name="stem" verbnet_key="stem#2" wn="stem%2:30:01"/>
-  <MEMBER features="None" fn_mapping="Emptying" grouping="stone.02" name="stone" verbnet_key="stone#2" wn="stone%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="string.04" name="string" verbnet_key="string#2" wn="string%2:35:03"/>
-  <MEMBER features="None" fn_mapping="None" grouping="tail.02 tail.03" name="tail" verbnet_key="tail#2" wn="tail%2:35:00 tail%2:35:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="tassel" verbnet_key="tassel#2" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="vein" verbnet_key="vein#2" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="weed" verbnet_key="weed#1" wn="weed%2:30:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="wind" verbnet_key="wind#4" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="worm" verbnet_key="worm#2" wn="worm%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="zest" verbnet_key="zest#1" wn=""/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="animate"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Source">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <!--Theme is an inalienable possession of Source
-                                Theme is always realized in the verb-->
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     The cook boned the fish.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Source">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="VerbSpecific" value="V_Theme"/>
-      <ARG type="ThemRole" value="Source"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="VerbSpecific" value="V_Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="VerbSpecific" value="V_Theme"/>
-      <ARG type="ThemRole" value="Source"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="part_of">
-     <ARGS>
-      <ARG type="VerbSpecific" value="V_Theme"/>
-      <ARG type="ThemRole" value="Source"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<MEMBER name="bark" wn="bark%2:35:00" grouping="bark.03" fn_mapping="None" verbnet_key="bark#4" features="None"/>
+<MEMBER name="beard" wn="" grouping="" fn_mapping="None" verbnet_key="beard#1" features="None"/>
+<MEMBER name="bone" wn="bone%2:30:00" grouping="" fn_mapping="None" verbnet_key="bone#1" features="None"/>
+<MEMBER name="burl" wn="burl%2:30:00" grouping="" fn_mapping="None" verbnet_key="burl#1" features="None"/>
+<MEMBER name="core" wn="core%2:35:00" grouping="" fn_mapping="None" verbnet_key="core#1" features="None"/>
+<MEMBER name="gill" wn="" grouping="" fn_mapping="None" verbnet_key="gill#1" features="None"/>
+<MEMBER name="gut" wn="gut%2:35:00" grouping="" fn_mapping="None" verbnet_key="gut#1" features="None"/>
+<MEMBER name="head" wn="head%2:35:00" grouping="head.05" fn_mapping="None" verbnet_key="head#3" features="None"/>
+<MEMBER name="hull" wn="hull%2:30:00" grouping="" fn_mapping="None" verbnet_key="hull#1" features="None"/>
+<MEMBER name="husk" wn="husk%2:30:00" grouping="" fn_mapping="None" verbnet_key="husk#1" features="None"/>
+<MEMBER name="lint" wn="" grouping="" fn_mapping="None" verbnet_key="lint#1" features="None"/>
+<MEMBER name="louse" wn="" grouping="" fn_mapping="None" verbnet_key="louse#1" features="None"/>
+<MEMBER name="milk" wn="milk%2:30:00" grouping="milk.02" fn_mapping="None" verbnet_key="milk#2" features="None"/>
+<MEMBER name="peel" wn="peel%2:35:00" grouping="peel.01" fn_mapping="Emptying" verbnet_key="peel#1" features="None"/>
+<MEMBER name="pinion" wn="pinion%2:30:00" grouping="" fn_mapping="None" verbnet_key="pinion#1" features="None"/>
+<MEMBER name="pip" wn="" grouping="" fn_mapping="None" verbnet_key="pip#1" features="None"/>
+<MEMBER name="pit" wn="pit%2:30:00" grouping="pit.02" fn_mapping="Emptying" verbnet_key="pit#1" features="None"/>
+<MEMBER name="pith" wn="pith%2:40:00" grouping="" fn_mapping="None" verbnet_key="pith#1" features="None"/>
+<MEMBER name="pod" wn="pod%2:30:00" grouping="" fn_mapping="None" verbnet_key="pod#1" features="None"/>
+<MEMBER name="poll" wn="poll%2:35:00" grouping="poll.03" fn_mapping="None" verbnet_key="poll#1" features="None"/>
+<MEMBER name="pulp" wn="pulp%2:35:01" grouping="" fn_mapping="None" verbnet_key="pulp#1" features="None"/>
+<MEMBER name="rind" wn="" grouping="" fn_mapping="None" verbnet_key="rind#1" features="None"/>
+<MEMBER name="scale" wn="scale%2:35:00" grouping="scale.04" fn_mapping="None" verbnet_key="scale#1" features="None"/>
+<MEMBER name="scalp" wn="scalp%2:30:00" grouping="" fn_mapping="None" verbnet_key="scalp#1" features="None"/>
+<MEMBER name="seed" wn="seed%2:30:01" grouping="seed.07" fn_mapping="Emptying" verbnet_key="seed#3" features="None"/>
+<MEMBER name="shell" wn="shell%2:30:00" grouping="shell.01" fn_mapping="None" verbnet_key="shell#2" features="None"/>
+<MEMBER name="shuck" wn="shuck%2:30:00" grouping="" fn_mapping="None" verbnet_key="shuck#1" features="None"/>
+<MEMBER name="skin" wn="skin%2:35:01 skin%2:35:00" grouping="" fn_mapping="Emptying" verbnet_key="skin#2" features="None"/>
+<MEMBER name="snail" wn="snail%2:35:00" grouping="" fn_mapping="None" verbnet_key="snail#2" features="None"/>
+<MEMBER name="stalk" wn="" grouping="" fn_mapping="None" verbnet_key="stalk#1" features="None"/>
+<MEMBER name="stem" wn="stem%2:30:01" grouping="stem.04" fn_mapping="None" verbnet_key="stem#2" features="None"/>
+<MEMBER name="stone" wn="stone%2:30:00" grouping="stone.02" fn_mapping="Emptying" verbnet_key="stone#2" features="None"/>
+<MEMBER name="string" wn="string%2:35:03" grouping="string.04" fn_mapping="None" verbnet_key="string#2" features="None"/>
+<MEMBER name="tail" wn="tail%2:35:00 tail%2:35:01" grouping="tail.02 tail.03" fn_mapping="None" verbnet_key="tail#2" features="None"/>
+<MEMBER name="tassel" wn="" grouping="" fn_mapping="None" verbnet_key="tassel#2" features="None"/>
+<MEMBER name="vein" wn="" grouping="" fn_mapping="None" verbnet_key="vein#2" features="None"/>
+<MEMBER name="weed" wn="weed%2:30:00" grouping="" fn_mapping="None" verbnet_key="weed#1" features="None"/>
+<MEMBER name="wind" wn="" grouping="" fn_mapping="None" verbnet_key="wind#4" features="None"/>
+<MEMBER name="worm" wn="worm%2:38:00" grouping="" fn_mapping="None" verbnet_key="worm#2" features="None"/>
+<MEMBER name="zest" wn="" grouping="" fn_mapping="None" verbnet_key="zest#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS>
+<SELRESTR Value="+" type="animate"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Source">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete"/>
+</SELRESTRS>
+</THEMROLE>
+<!--Theme is an inalienable possession of Source
+Theme is always realized in the verb-->
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+The cook boned the fish.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Source">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="VerbSpecific" value="V_Theme"/>
+<ARG type="ThemRole" value="Source"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="VerbSpecific" value="V_Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="VerbSpecific" value="V_Theme"/>
+<ARG type="ThemRole" value="Source"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="part_of">
+<ARGS>
+<ARG type="VerbSpecific" value="V_Theme"/>
+<ARG type="ThemRole" value="Source"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>

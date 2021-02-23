@@ -1,388 +1,388 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="swarm-47.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS/>
- <THEMROLES>
-  <THEMROLE type="Theme">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete"/>
-    <SELRESTR Value="+" type="plural"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Location">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="location"/>
-    <SELRESTR Value="-" type="region"/>
-   </SELRESTRS>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES/>
- <SUBCLASSES>
-  <VNSUBCLASS ID="swarm-47.5.1-1">
-   <MEMBERS>
-    <!--Each member adds a predicate for the motion of the Theme-->
-    <MEMBER features="None" fn_mapping="None" grouping="" name="bustle" verbnet_key="bustle#2" wn="bustle%2:38:00"/>
-    <MEMBER features="None" fn_mapping="Self_motion" grouping="crawl.01 crawl.02" name="crawl" verbnet_key="crawl#3" wn="crawl%2:38:00 crawl%2:42:00"/>
-    <MEMBER features="None" fn_mapping="Self_motion" grouping="creep.01" name="creep" verbnet_key="creep#3" wn="creep%2:38:00"/>
-    <MEMBER features="None" fn_mapping="Self_motion" grouping="hop.02" name="hop" verbnet_key="hop#2" wn="hop%2:38:04"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="swarm" verbnet_key="swarm#1" wn="swarm%2:42:00 swarm%2:38:00"/>
-    <MEMBER features="None" fn_mapping="Self_motion" grouping="swim.01" name="swim" verbnet_key="swim#2" wn="swim%2:38:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="teem" verbnet_key="teem#1" wn="teem%2:42:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="pullulate" verbnet_key="pullulate#2" wn="pullulate%2:42:00"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       Bees swarmed in the garden.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP>
-       <SELRESTRS>
-        <SELRESTR Value="+" type="loc"/>
-       </SELRESTRS>
-      </PREP>
-      <NP value="Location">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="be">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="motion">
-       <ARGS>
-        <ARG type="Event" value="ë"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="full_of">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Location"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="6.1" primary="There V NP PP" secondary="NP-PP; Expletive-there Subject" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       There swarmed bees in the garden.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <LEX value="there"/>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="definite"/>
-       </SYNRESTRS>
-      </NP>
-      <PREP>
-       <SELRESTRS>
-        <SELRESTR Value="+" type="loc"/>
-       </SELRESTRS>
-      </PREP>
-      <NP value="Location">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="be">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="motion">
-       <ARGS>
-        <ARG type="Event" value="ë"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="full_of">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Location"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="6.2" primary="PP.location V NP" secondary="Locative Inversion" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       In the aquarium swam a striped fish.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <PREP>
-       <SELRESTRS>
-        <SELRESTR Value="+" type="loc"/>
-       </SELRESTRS>
-      </PREP>
-      <NP value="Location">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="be">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="motion">
-       <ARGS>
-        <ARG type="Event" value="ë"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="full_of">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Location"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-     <!--some verbs-->
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="2.3" primary="PP.location V PP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       The garden swarmed with bees.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Location">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="with">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="be">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="motion">
-       <ARGS>
-        <ARG type="Event" value="ë"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="full_of">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Location"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
-  <VNSUBCLASS ID="swarm-47.5.1-2">
-   <!--no motion-->
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="abound.01" name="abound" verbnet_key="abound#1" wn="abound%2:42:00 abound%2:42:01"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="throng" verbnet_key="throng#1" wn="throng%2:38:00"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       Flowers abounded in the garden.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP>
-       <SELRESTRS>
-        <SELRESTR Value="+" type="loc"/>
-       </SELRESTRS>
-      </PREP>
-      <NP value="Location">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="be">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="full_of">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Location"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="6.1" primary="There V NP PP" secondary="NP-PP; Expletive-there Subject" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       There abounded flowers in the garden.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <LEX value="there"/>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="definite"/>
-       </SYNRESTRS>
-      </NP>
-      <PREP>
-       <SELRESTRS>
-        <SELRESTR Value="+" type="loc"/>
-       </SELRESTRS>
-      </PREP>
-      <NP value="Location">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="be">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="full_of">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Location"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="2.3" primary="NP.location V PP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       The garden abounded with flowers.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Location">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="with">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="be">
-       <ARGS>
-       <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="full_of">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Location"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS/>
+<THEMROLES>
+<THEMROLE type="Theme">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete"/>
+<SELRESTR Value="+" type="plural"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Location">
+<SELRESTRS>
+<SELRESTR Value="+" type="location"/>
+<SELRESTR Value="-" type="region"/>
+</SELRESTRS>
+</THEMROLE>
+</THEMROLES>
+<FRAMES/>
+<SUBCLASSES>
+<VNSUBCLASS ID="swarm-47.5.1-1">
+<MEMBERS>
+<!--Each member adds a predicate for the motion of the Theme-->
+<MEMBER name="bustle" wn="bustle%2:38:00" grouping="" fn_mapping="None" verbnet_key="bustle#2" features="None"/>
+<MEMBER name="crawl" wn="crawl%2:38:00 crawl%2:42:00" grouping="crawl.01 crawl.02" fn_mapping="Self_motion" verbnet_key="crawl#3" features="None"/>
+<MEMBER name="creep" wn="creep%2:38:00" grouping="creep.01" fn_mapping="Self_motion" verbnet_key="creep#3" features="None"/>
+<MEMBER name="hop" wn="hop%2:38:04" grouping="hop.02" fn_mapping="Self_motion" verbnet_key="hop#2" features="None"/>
+<MEMBER name="swarm" wn="swarm%2:42:00 swarm%2:38:00" grouping="" fn_mapping="None" verbnet_key="swarm#1" features="None"/>
+<MEMBER name="swim" wn="swim%2:38:00" grouping="swim.01" fn_mapping="Self_motion" verbnet_key="swim#2" features="None"/>
+<MEMBER name="teem" wn="teem%2:42:00" grouping="" fn_mapping="None" verbnet_key="teem#1" features="None"/>
+<MEMBER name="pullulate" wn="pullulate%2:42:00" grouping="" fn_mapping="None" verbnet_key="pullulate#2" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Bees swarmed in the garden.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="loc"/>
+</SELRESTRS>
+</PREP>
+<NP value="Location">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="full_of">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Location"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="6.1" primary="There V NP PP" secondary="NP-PP; Expletive-there Subject" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+There swarmed bees in the garden.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<LEX value="there"/>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="-" type="definite"/>
+</SYNRESTRS>
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="loc"/>
+</SELRESTRS>
+</PREP>
+<NP value="Location">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="full_of">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Location"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="6.2" primary="PP.location V NP" secondary="Locative Inversion" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+In the aquarium swam a striped fish.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="loc"/>
+</SELRESTRS>
+</PREP>
+<NP value="Location">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="full_of">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Location"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+<!--some verbs-->
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="2.3" primary="PP.location V PP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+The garden swarmed with bees.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Location">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="with">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="full_of">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Location"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+<VNSUBCLASS ID="swarm-47.5.1-2">
+<!--no motion-->
+<MEMBERS>
+<MEMBER name="abound" wn="abound%2:42:00 abound%2:42:01" grouping="abound.01" fn_mapping="None" verbnet_key="abound#1" features="None"/>
+<MEMBER name="throng" wn="throng%2:38:00" grouping="" fn_mapping="None" verbnet_key="throng#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Flowers abounded in the garden.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="loc"/>
+</SELRESTRS>
+</PREP>
+<NP value="Location">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="full_of">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Location"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="6.1" primary="There V NP PP" secondary="NP-PP; Expletive-there Subject" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+There abounded flowers in the garden.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<LEX value="there"/>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="-" type="definite"/>
+</SYNRESTRS>
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="loc"/>
+</SELRESTRS>
+</PREP>
+<NP value="Location">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="full_of">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Location"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="2.3" primary="NP.location V PP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+The garden abounded with flowers.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Location">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="with">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="be">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Location"/>
+</ARGS>
+</PRED>
+<PRED value="full_of">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Location"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

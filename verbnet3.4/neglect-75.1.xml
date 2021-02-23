@@ -1,92 +1,92 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="neglect-75.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="disregard.01" name="disregard" verbnet_key="disregard#1" wn="disregard%2:31:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="forgo.01" name="forgo" verbnet_key="forgo#4" wn="forgo%2:41:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="forego" verbnet_key="forego#1" wn="forego%2:41:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="ignore.01" name="ignore" verbnet_key="ignore#1" wn="ignore%2:31:03"/>
-  <MEMBER features="None" fn_mapping="None" grouping="leave.05" name="leave_out" verbnet_key="leave_out#1" wn="leave_out%2:31:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="overleap.03" name="overleap" verbnet_key="overleap#2" wn="overleap%2:31:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="overlook.01" name="overlook" verbnet_key="overlook#1" wn="overlook%2:31:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I disregarded the message.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="neglect">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="neglect-75.1-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="fail.03" name="fail" verbnet_key="fail#1" wn="fail%2:41:02"/>
-    <MEMBER features="None" fn_mapping="None" grouping="neglect.01 neglect.02" name="neglect" verbnet_key="neglect#1" wn="neglect%2:31:00 neglect%2:41:00                 neglect%2:31:05 neglect%2:31:01"/>
-    <MEMBER features="None" fn_mapping="None" grouping="omit.02" name="omit" verbnet_key="omit#2" wn="omit%2:31:00"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="0.2" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I neglected to do the job.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="sc_to_inf"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="neglect">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS>
+<MEMBER name="disregard" wn="disregard%2:31:00" grouping="disregard.01" fn_mapping="None" verbnet_key="disregard#1" features="None"/>
+<MEMBER name="forgo" wn="forgo%2:41:00" grouping="forgo.01" fn_mapping="None" verbnet_key="forgo#4" features="None"/>
+<MEMBER name="forego" wn="forego%2:41:00" grouping="" fn_mapping="None" verbnet_key="forego#1" features="None"/>
+<MEMBER name="ignore" wn="ignore%2:31:03" grouping="ignore.01" fn_mapping="None" verbnet_key="ignore#1" features="None"/>
+<MEMBER name="leave_out" wn="leave_out%2:31:00" grouping="leave.05" fn_mapping="None" verbnet_key="leave_out#1" features="None"/>
+<MEMBER name="overleap" wn="overleap%2:31:00" grouping="overleap.03" fn_mapping="None" verbnet_key="overleap#2" features="None"/>
+<MEMBER name="overlook" wn="overlook%2:31:00" grouping="overlook.01" fn_mapping="None" verbnet_key="overlook#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I disregarded the message.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="neglect">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="neglect-75.1-1">
+<MEMBERS>
+<MEMBER name="fail" wn="fail%2:41:02" grouping="fail.03" fn_mapping="None" verbnet_key="fail#1" features="None"/>
+<MEMBER name="neglect" wn="neglect%2:31:00 neglect%2:41:00                 neglect%2:31:05 neglect%2:31:01" grouping="neglect.01 neglect.02" fn_mapping="None" verbnet_key="neglect#1" features="None"/>
+<MEMBER name="omit" wn="omit%2:31:00" grouping="omit.02" fn_mapping="None" verbnet_key="omit#2" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I neglected to do the job.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="sc_to_inf"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="neglect">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

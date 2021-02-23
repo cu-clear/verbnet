@@ -1,187 +1,187 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="conjecture-29.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="Reveal_secret" grouping="admit.01" name="admit" verbnet_key="admit#3" wn="admit%2:32:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="affirm.01" name="affirm" verbnet_key="affirm#2" wn="affirm%2:32:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="assert.01" name="assert" verbnet_key="assert#1" wn="assert%2:32:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="conjecture" verbnet_key="conjecture#1" wn="conjecture%2:31:00"/>
-  <MEMBER features="None" fn_mapping="Affirm_or_deny" grouping="deny.01 deny.03" name="deny" verbnet_key="deny#1" wn="?deny%2:32:04"/>
-  <MEMBER features="None" fn_mapping="None" grouping="determine.02 determine.03" name="determine" verbnet_key="determine#1" wn="determine%2:32:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="doubt.01" name="doubt" verbnet_key="doubt#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="hold.02 hold.05" name="hold" verbnet_key="hold#3" wn="hold%2:31:01 hold%2:32:11"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="prognosticate" verbnet_key="prognosticate#1" wn="prognosticate%2:32:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="repute" verbnet_key="repute#1" wn="repute%2:31:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="speculate.01" name="spectulate" verbnet_key="spectulate#1" wn="speculate%2:31:01 speculate%2:32:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="surmise" verbnet_key="surmise#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="swear.03" name="swear" verbnet_key="swear#1" wn=""/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Predicate">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V NP to be NP" secondary="Infinitival Copular Clause" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     He knew the choice to be a bad one.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <LEX value="to"/>
-    <LEX value="be"/>
-    <NP value="Predicate">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="believe">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Predicate"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V that S" secondary="S" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     The populace feel that the RIAA has too much power.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="that_comp"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="believe">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Predicate"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="conjecture-29.5-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="Expectation" grouping="anticipate.01" name="anticipate" verbnet_key="anticipate#1" wn="anticipate%2:31:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="believe.01" name="believe" verbnet_key="believe#2" wn="believe%2:31:04 believe%2:31:03"/>
-    <MEMBER features="None" fn_mapping="None" grouping="expect.01" name="expect" verbnet_key="expect#1" wn="expect%2:31:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="foreknow" verbnet_key="foreknow#1" wn=""/>
-    <MEMBER features="None" fn_mapping="None" grouping="foresee.01" name="foresee" verbnet_key="foresee#1" wn="foresee%2:31:00"/>
-    <MEMBER features="None" fn_mapping="Predicting" grouping="foretell.01" name="foretell" verbnet_key="foretell#1" wn="foretell%2:32:00"/>
-    <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="guess.02" name="guess" verbnet_key="guess#1" wn="guess%2:31:01"/>
-    <MEMBER features="None" fn_mapping="Coming_to_believe" grouping="infer.01" name="infer" verbnet_key="infer#1" wn="infer%2:31:00 infer%2:32:00"/>
-    <MEMBER features="None" fn_mapping="Awareness" grouping="presume.01" name="presume" verbnet_key="presume#1" wn="presume%2:31:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="prophesy" verbnet_key="prophesy#1" wn=""/>
-    <MEMBER features="None" fn_mapping="None" grouping="trust.01" name="trust" verbnet_key="trust#2" wn="trust%2:31:02"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="vaticinate" verbnet_key="vaticinate#1" wn=""/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       He trusted the woman's statement.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="believe">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="?Predicate"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
-  <VNSUBCLASS ID="conjecture-29.5-2">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="feel.03" name="feel" verbnet_key="feel#1" wn="feel%2:31:00"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="" primary="NP V S" secondary="NP-INF-OC" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I feel like the RIAA has too much power.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="like | as if | as though">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="sentential"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="believe">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="?Predicate"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS>
+<MEMBER name="admit" wn="admit%2:32:00" grouping="admit.01" fn_mapping="Reveal_secret" verbnet_key="admit#3" features="None"/>
+<MEMBER name="affirm" wn="affirm%2:32:00" grouping="affirm.01" fn_mapping="None" verbnet_key="affirm#2" features="None"/>
+<MEMBER name="assert" wn="assert%2:32:00" grouping="assert.01" fn_mapping="None" verbnet_key="assert#1" features="None"/>
+<MEMBER name="conjecture" wn="conjecture%2:31:00" grouping="" fn_mapping="None" verbnet_key="conjecture#1" features="None"/>
+<MEMBER name="deny" wn="?deny%2:32:04" grouping="deny.01 deny.03" fn_mapping="Affirm_or_deny" verbnet_key="deny#1" features="None"/>
+<MEMBER name="determine" wn="determine%2:32:00" grouping="determine.02 determine.03" fn_mapping="None" verbnet_key="determine#1" features="None"/>
+<MEMBER name="doubt" wn="" grouping="doubt.01" fn_mapping="None" verbnet_key="doubt#1" features="None"/>
+<MEMBER name="hold" wn="hold%2:31:01 hold%2:32:11" grouping="hold.02 hold.05" fn_mapping="None" verbnet_key="hold#3" features="None"/>
+<MEMBER name="prognosticate" wn="prognosticate%2:32:00" grouping="" fn_mapping="None" verbnet_key="prognosticate#1" features="None"/>
+<MEMBER name="repute" wn="repute%2:31:00" grouping="" fn_mapping="None" verbnet_key="repute#1" features="None"/>
+<MEMBER name="spectulate" wn="speculate%2:31:01 speculate%2:32:00" grouping="speculate.01" fn_mapping="None" verbnet_key="spectulate#1" features="None"/>
+<MEMBER name="surmise" wn="" grouping="" fn_mapping="None" verbnet_key="surmise#1" features="None"/>
+<MEMBER name="swear" wn="" grouping="swear.03" fn_mapping="None" verbnet_key="swear#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Predicate">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V NP to be NP" secondary="Infinitival Copular Clause" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+He knew the choice to be a bad one.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<LEX value="to"/>
+<LEX value="be"/>
+<NP value="Predicate">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="believe">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Predicate"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V that S" secondary="S" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+The populace feel that the RIAA has too much power.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="that_comp"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="believe">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Predicate"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="conjecture-29.5-1">
+<MEMBERS>
+<MEMBER name="anticipate" wn="anticipate%2:31:00" grouping="anticipate.01" fn_mapping="Expectation" verbnet_key="anticipate#1" features="None"/>
+<MEMBER name="believe" wn="believe%2:31:04 believe%2:31:03" grouping="believe.01" fn_mapping="None" verbnet_key="believe#2" features="None"/>
+<MEMBER name="expect" wn="expect%2:31:00" grouping="expect.01" fn_mapping="None" verbnet_key="expect#1" features="None"/>
+<MEMBER name="foreknow" wn="" grouping="" fn_mapping="None" verbnet_key="foreknow#1" features="None"/>
+<MEMBER name="foresee" wn="foresee%2:31:00" grouping="foresee.01" fn_mapping="None" verbnet_key="foresee#1" features="None"/>
+<MEMBER name="foretell" wn="foretell%2:32:00" grouping="foretell.01" fn_mapping="Predicting" verbnet_key="foretell#1" features="None"/>
+<MEMBER name="guess" wn="guess%2:31:01" grouping="guess.02" fn_mapping="Coming_to_believe" verbnet_key="guess#1" features="None"/>
+<MEMBER name="infer" wn="infer%2:31:00 infer%2:32:00" grouping="infer.01" fn_mapping="Coming_to_believe" verbnet_key="infer#1" features="None"/>
+<MEMBER name="presume" wn="presume%2:31:00" grouping="presume.01" fn_mapping="Awareness" verbnet_key="presume#1" features="None"/>
+<MEMBER name="prophesy" wn="" grouping="" fn_mapping="None" verbnet_key="prophesy#1" features="None"/>
+<MEMBER name="trust" wn="trust%2:31:02" grouping="trust.01" fn_mapping="None" verbnet_key="trust#2" features="None"/>
+<MEMBER name="vaticinate" wn="" grouping="" fn_mapping="None" verbnet_key="vaticinate#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+He trusted the woman's statement.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="-" type="sentential"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="believe">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Predicate"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+<VNSUBCLASS ID="conjecture-29.5-2">
+<MEMBERS>
+<MEMBER name="feel" wn="feel%2:31:00" grouping="feel.03" fn_mapping="None" verbnet_key="feel#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V S" secondary="NP-INF-OC" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+I feel like the RIAA has too much power.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="like | as if | as though">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="sentential"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="believe">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Predicate"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

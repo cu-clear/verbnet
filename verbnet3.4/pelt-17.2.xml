@@ -1,228 +1,228 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="pelt-17.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="bombard.01" name="bombard" verbnet_key="bombard#3" wn="bombard%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="buffet" verbnet_key="buffet#1" wn="buffet%2:35:00 buffet%2:35:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="pelt" verbnet_key="pelt#1" wn="pelt%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="pepperspray" verbnet_key="pepperspray#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="shell.02" name="shell" verbnet_key="shell#1" wn="shell%2:33:00"/>
-  <MEMBER features="None" fn_mapping="Placing" grouping="shower.01" name="shower" verbnet_key="shower#2" wn="shower%2:35:00"/>
-  <MEMBER features="None" fn_mapping="Cause_harm" grouping="stone.01" name="stone" verbnet_key="stone#1" wn="stone%2:35:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="int_control"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Destination">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete"/>
-   </SELRESTRS>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; with-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Steve pelted Anna with acorns.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Destination">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="with">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="exert_force">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="contact">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="contact">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e5"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-     </ARGS>
-    </PRED>
-    <PRED value="repeated_sequence">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="Event" value="e4"/>
-      <ARG type="Event" value="e5"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="overlaps">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="overlaps">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="Event" value="e4"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; dropped Theme" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Steve pelted Anna.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Destination">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="PredSpecific" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="exert_force">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="contact">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="PredSpecific" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="contact">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e5"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-     </ARGS>
-    </PRED>
-    <PRED value="repeated_sequence">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="Event" value="e4"/>
-      <ARG type="Event" value="e5"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="overlaps">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="overlaps">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="Event" value="e4"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<MEMBER name="bombard" wn="bombard%2:35:00" grouping="bombard.01" fn_mapping="None" verbnet_key="bombard#3" features="None"/>
+<MEMBER name="buffet" wn="buffet%2:35:00 buffet%2:35:01" grouping="" fn_mapping="None" verbnet_key="buffet#1" features="None"/>
+<MEMBER name="pelt" wn="pelt%2:35:00" grouping="" fn_mapping="None" verbnet_key="pelt#1" features="None"/>
+<MEMBER name="pepperspray" wn="" grouping="" fn_mapping="None" verbnet_key="pepperspray#1" features="None"/>
+<MEMBER name="shell" wn="shell%2:33:00" grouping="shell.02" fn_mapping="None" verbnet_key="shell#1" features="None"/>
+<MEMBER name="shower" wn="shower%2:35:00" grouping="shower.01" fn_mapping="Placing" verbnet_key="shower#2" features="None"/>
+<MEMBER name="stone" wn="stone%2:35:00" grouping="stone.01" fn_mapping="Cause_harm" verbnet_key="stone#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS>
+<SELRESTR Value="+" type="int_control"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Destination">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete"/>
+</SELRESTRS>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; with-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Steve pelted Anna with acorns.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Destination">
+<SYNRESTRS/>
+</NP>
+<PREP value="with">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="exert_force">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="contact">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="contact">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e5"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Destination"/>
+</ARGS>
+</PRED>
+<PRED value="repeated_sequence">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+<ARG type="Event" value="e4"/>
+<ARG type="Event" value="e5"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="overlaps">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="overlaps">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="Event" value="e4"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; dropped Theme" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Steve pelted Anna.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Destination">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="PredSpecific" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="exert_force">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+<PRED value="contact">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="PredSpecific" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="contact">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e5"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="Destination"/>
+</ARGS>
+</PRED>
+<PRED value="repeated_sequence">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+<ARG type="Event" value="e4"/>
+<ARG type="Event" value="e5"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="overlaps">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="overlaps">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="Event" value="e4"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>

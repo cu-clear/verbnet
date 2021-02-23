@@ -1,311 +1,311 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="help-72.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS/>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Beneficiary">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES/>
- <SUBCLASSES>
-  <VNSUBCLASS ID="help-72.1-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="support.02" name="support" verbnet_key="support#3" wn="support%2:41:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="succor" verbnet_key="succor#1" wn="succor%2:41:00"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I helped him.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Beneficiary">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="help">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-        <ARG type="ThemRole" value="?Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme" secondary="NP-PP; with-PP" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I helped him with homework.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Beneficiary">
-       <SYNRESTRS/>
-      </NP>
-      <PREP value="with">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="help">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; with-PP" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I helped him with finishing the homework.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Beneficiary">
-       <SYNRESTRS/>
-      </NP>
-      <PREP value="with">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="oc_ing"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="help">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_INF" secondary="NP-TO-INF-OC" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I helped him to finish the homework.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Beneficiary">
-       <SYNRESTRS/>
-      </NP>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="oc_to_inf"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="help">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-AC; with-PP" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I helped with finishing the homework.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="with">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="ac_ing"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="help">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="?Beneficiary"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES>
-    <VNSUBCLASS ID="help-72.1-1-1">
-     <MEMBERS>
-      <MEMBER features="None" fn_mapping="Assistance" grouping="aid.01" name="aid" verbnet_key="aid#1" wn="aid%2:41:00"/>
-      <MEMBER features="None" fn_mapping="None" grouping="" name="abet" verbnet_key="abet#1" wn="abet%2:41:00"/>
-      <MEMBER features="None" fn_mapping="Assistance" grouping="assist.01" name="assist" verbnet_key="assist#1" wn="assist%2:41:02"/>
-      <MEMBER features="None" fn_mapping="Assistance" grouping="help.01" name="help" verbnet_key="help#1" wn="help%2:41:00"/>
-     </MEMBERS>
-     <THEMROLES/>
-     <FRAMES>
-      <FRAME>
-       <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; with-PP" xtag="0.1"/>
-       <EXAMPLES>
-        <EXAMPLE>
-         I helped with the homework.
-        </EXAMPLE>
-       </EXAMPLES>
-       <SYNTAX>
-        <NP value="Agent">
-         <SYNRESTRS/>
-        </NP>
-        <VERB/>
-        <PREP value="with">
-         <SELRESTRS/>
-        </PREP>
-        <NP value="Theme">
-         <SYNRESTRS>
-          <SYNRESTR Value="-" type="sentential"/>
-         </SYNRESTRS>
-        </NP>
-       </SYNTAX>
-       <SEMANTICS>
-        <PRED value="help">
-         <ARGS>
-          <ARG type="Event" value="e1"/>
-          <ARG type="ThemRole" value="Agent"/>
-          <ARG type="ThemRole" value="?Beneficiary"/>
-          <ARG type="ThemRole" value="Theme"/>
-         </ARGS>
-        </PRED>
-       </SEMANTICS>
-      </FRAME>
-     </FRAMES>
-     <SUBCLASSES/>
-    </VNSUBCLASS>
-   </SUBCLASSES>
-  </VNSUBCLASS>
-  <VNSUBCLASS ID="help-72.1-2">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="go" verbnet_key="go#7" wn=""/>
-    <MEMBER features="None" fn_mapping="None" grouping="pull.11" name="pull" verbnet_key="pull#3" wn="pull%2:33:13"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.beneficiary" secondary="PP; with-PP" xtag="0.1"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I went with the first candidate.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="with | for">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Beneficiary">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="help">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-        <ARG type="ThemRole" value="?Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.beneficiary PP.theme" secondary="PP-PP; beneficiary-PP theme-PP" xtag="0.1"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I went with the first candidate in the
-                                                                                                                                                                                                                                                                                                                                                                                                gubernational race.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="with | for">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Beneficiary">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="help">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-        <ARG type="ThemRole" value="?Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS/>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Beneficiary">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES/>
+<SUBCLASSES>
+<VNSUBCLASS ID="help-72.1-1">
+<MEMBERS>
+<MEMBER name="support" wn="support%2:41:00" grouping="support.02" fn_mapping="None" verbnet_key="support#3" features="None"/>
+<MEMBER name="succor" wn="succor%2:41:00" grouping="" fn_mapping="None" verbnet_key="succor#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I helped him.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="help">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme" secondary="NP-PP; with-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I helped him with homework.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+<PREP value="with">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="-" type="sentential"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="help">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; with-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I helped him with finishing the homework.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+<PREP value="with">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="oc_ing"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="help">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_INF" secondary="NP-TO-INF-OC" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I helped him to finish the homework.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="oc_to_inf"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="help">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-AC; with-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I helped with finishing the homework.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="with">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="ac_ing"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="help">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="help-72.1-1-1">
+<MEMBERS>
+<MEMBER name="aid" wn="aid%2:41:00" grouping="aid.01" fn_mapping="Assistance" verbnet_key="aid#1" features="None"/>
+<MEMBER name="abet" wn="abet%2:41:00" grouping="" fn_mapping="None" verbnet_key="abet#1" features="None"/>
+<MEMBER name="assist" wn="assist%2:41:02" grouping="assist.01" fn_mapping="Assistance" verbnet_key="assist#1" features="None"/>
+<MEMBER name="help" wn="help%2:41:00" grouping="help.01" fn_mapping="Assistance" verbnet_key="help#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; with-PP" xtag="0.1"/>
+<EXAMPLES>
+<EXAMPLE>
+I helped with the homework.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="with">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="-" type="sentential"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="help">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
+</VNSUBCLASS>
+<VNSUBCLASS ID="help-72.1-2">
+<MEMBERS>
+<MEMBER name="go" wn="" grouping="" fn_mapping="None" verbnet_key="go#7" features="None"/>
+<MEMBER name="pull" wn="pull%2:33:13" grouping="pull.11" fn_mapping="None" verbnet_key="pull#3" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.beneficiary" secondary="PP; with-PP" xtag="0.1"/>
+<EXAMPLES>
+<EXAMPLE>
+I went with the first candidate.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="with | for">
+<SELRESTRS/>
+</PREP>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="help">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.beneficiary PP.theme" secondary="PP-PP; beneficiary-PP theme-PP" xtag="0.1"/>
+<EXAMPLES>
+<EXAMPLE>
+I went with the first candidate in the
+gubernational race.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="with | for">
+<SELRESTRS/>
+</PREP>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="help">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

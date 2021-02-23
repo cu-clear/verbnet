@@ -1,86 +1,86 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="representation-110.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="be.01" name="be" verbnet_key="be#1" wn="be%2:42:08 be%2:42:06"/>
-  <MEMBER features="None" fn_mapping="None" grouping="denote.01" name="denote" verbnet_key="denote#2" wn="denote%2:32:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="mean.02" name="mean" verbnet_key="mean#2" wn="mean%2:32:03"/>
-  <MEMBER features="None" fn_mapping="None" grouping="represent.01" name="represent" verbnet_key="represent#2" wn="represent%2:42:02 represent%2:32:02"/>
-  <MEMBER features="None" fn_mapping="None" grouping="signify.01" name="signify" verbnet_key="signify#1" wn="signify%2:32:02"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="symbolize" verbnet_key="symbolize#1" wn="symbolize%2:32:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Co-Theme">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Attribute">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Black symbolizes mourning.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Co-Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="signify">
-     <ARGS>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Co-Theme"/>
-      <ARG type="ThemRole" value="?Attribute"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.attribute" secondary="NP-PP; Manner-PP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     'Cuando' means 'when' in Spanish.
-    </EXAMPLE>
-    <EXAMPLE>
-     5 is 101 in binary.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Co-Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="in | for | to">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Attribute">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="signify">
-     <ARGS>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Co-Theme"/>
-      <ARG type="ThemRole" value="Attribute"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<MEMBER name="be" wn="be%2:42:08 be%2:42:06" grouping="be.01" fn_mapping="None" verbnet_key="be#1" features="None"/>
+<MEMBER name="denote" wn="denote%2:32:00" grouping="denote.01" fn_mapping="None" verbnet_key="denote#2" features="None"/>
+<MEMBER name="mean" wn="mean%2:32:03" grouping="mean.02" fn_mapping="None" verbnet_key="mean#2" features="None"/>
+<MEMBER name="represent" wn="represent%2:42:02 represent%2:32:02" grouping="represent.01" fn_mapping="None" verbnet_key="represent#2" features="None"/>
+<MEMBER name="signify" wn="signify%2:32:02" grouping="signify.01" fn_mapping="None" verbnet_key="signify#1" features="None"/>
+<MEMBER name="symbolize" wn="symbolize%2:32:00" grouping="" fn_mapping="None" verbnet_key="symbolize#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Co-Theme">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Attribute">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+Black symbolizes mourning.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Co-Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="signify">
+<ARGS>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Co-Theme"/>
+<ARG type="ThemRole" value="?Attribute"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.attribute" secondary="NP-PP; Manner-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+'Cuando' means 'when' in Spanish.
+</EXAMPLE>
+<EXAMPLE>
+5 is 101 in binary.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Co-Theme">
+<SYNRESTRS/>
+</NP>
+<PREP value="in | for | to">
+<SELRESTRS/>
+</PREP>
+<NP value="Attribute">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="signify">
+<ARGS>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Co-Theme"/>
+<ARG type="ThemRole" value="Attribute"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>

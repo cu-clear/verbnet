@@ -1,95 +1,95 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="comprise-107.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS/>
- <THEMROLES>
-  <THEMROLE type="Pivot">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES/>
- <SUBCLASSES>
-  <VNSUBCLASS ID="comprise-107.2-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="comprise.02" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:03"/>
-    <MEMBER features="None" fn_mapping="None" grouping="compose.02" name="compose" verbnet_key="compose#1" wn="compose%2:42:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="make.06" name="make" verbnet_key="make#3" wn="make%2:36:05"/>
-    <MEMBER features="None" fn_mapping="None" grouping="make.06" name="make_up" verbnet_key="make_up#1" wn="make_up%2:42:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="constitute.01" name="constitute" verbnet_key="constitute#1" wn="constitute%2:42:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="form" verbnet_key="form#2" wn="form%2:42:00"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       Textiles make up the majority of exports.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Pivot">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="has_set_member">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Pivot"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
-  <VNSUBCLASS ID="comprise-107.2-2">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="comprise.01" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:01"/>
-    <MEMBER features="None" fn_mapping="None" grouping="consist.02" name="consist_of" verbnet_key="consist_of#1" wn="consist%2:42:01"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="encompass" verbnet_key="encompass#1" wn="encompass%2:42:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="contain.01" name="contain" verbnet_key="contain#1" wn="contain%2:42:00"/>
-   </MEMBERS>
-   <THEMROLES>
-   </THEMROLES>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       The Milky Way comprises more than 100
-                        billion stars.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Pivot">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="has_set_member">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Pivot"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS/>
+<THEMROLES>
+<THEMROLE type="Pivot">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES/>
+<SUBCLASSES>
+<VNSUBCLASS ID="comprise-107.2-1">
+<MEMBERS>
+<MEMBER name="comprise" wn="comprise%2:42:03" grouping="comprise.02" fn_mapping="None" verbnet_key="comprise#1" features="None"/>
+<MEMBER name="compose" wn="compose%2:42:00" grouping="compose.02" fn_mapping="None" verbnet_key="compose#1" features="None"/>
+<MEMBER name="make" wn="make%2:36:05" grouping="make.06" fn_mapping="None" verbnet_key="make#3" features="None"/>
+<MEMBER name="make_up" wn="make_up%2:42:00" grouping="make.06" fn_mapping="None" verbnet_key="make_up#1" features="None"/>
+<MEMBER name="constitute" wn="constitute%2:42:00" grouping="constitute.01" fn_mapping="None" verbnet_key="constitute#1" features="None"/>
+<MEMBER name="form" wn="form%2:42:00" grouping="" fn_mapping="None" verbnet_key="form#2" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Textiles make up the majority of exports.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Pivot">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_set_member">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+<VNSUBCLASS ID="comprise-107.2-2">
+<MEMBERS>
+<MEMBER name="comprise" wn="comprise%2:42:01" grouping="comprise.01" fn_mapping="None" verbnet_key="comprise#1" features="None"/>
+<MEMBER name="consist_of" wn="consist%2:42:01" grouping="consist.02" fn_mapping="None" verbnet_key="consist_of#1" features="None"/>
+<MEMBER name="encompass" wn="encompass%2:42:00" grouping="" fn_mapping="None" verbnet_key="encompass#1" features="None"/>
+<MEMBER name="contain" wn="contain%2:42:00" grouping="contain.01" fn_mapping="None" verbnet_key="contain#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+The Milky Way comprises more than 100
+billion stars.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Pivot">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_set_member">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

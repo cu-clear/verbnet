@@ -1,152 +1,152 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="use-105.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="Using" grouping="use.01" name="use" verbnet_key="use#4" wn="use%2:34:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="utilize.01" name="utilize" verbnet_key="utilize#1" wn="utilize%2:34:00"/>
-  <MEMBER features="None" fn_mapping="Using" grouping="apply.01" name="apply" verbnet_key="apply#2" wn="apply%2:34:00"/>
-  <MEMBER features="None" fn_mapping="Using" grouping="employ.02" name="employ" verbnet_key="employ#2" wn="employ%2:34:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="exert.01" name="exert" verbnet_key="exert#1" wn="exert%2:34:00 exert%2:40:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="exploit.01" name="exploit" verbnet_key="exploit#1" wn="exploit%2:34:00 exploit%2:34:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="play" verbnet_key="play#5" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="reuse" verbnet_key="reuse#2" wn="reuse%2:34:00"/>
-  <MEMBER features="None" fn_mapping="Leadership" grouping="run.03" name="run" verbnet_key="run#8" wn="run%2:35:04 run%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="work.06" name="work" verbnet_key="work#5" wn="work%2:41:11 work%2:41:12"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Predicate">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I used the shovel.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="use">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Predicate"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADV" secondary="NP-ADVP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I used the shovel well.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <ADV/>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="use">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Predicate"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PP; for-PP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I used the shovel for digging .
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="for">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Predicate">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="use">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Predicate"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_INF" secondary="NP-TO-INF-VC" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I used the cupboard to store food.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <NP value="Predicate">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="oc_to_inf"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="use">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Predicate"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<MEMBER name="use" wn="use%2:34:01" grouping="use.01" fn_mapping="Using" verbnet_key="use#4" features="None"/>
+<MEMBER name="utilize" wn="utilize%2:34:00" grouping="utilize.01" fn_mapping="None" verbnet_key="utilize#1" features="None"/>
+<MEMBER name="apply" wn="apply%2:34:00" grouping="apply.01" fn_mapping="Using" verbnet_key="apply#2" features="None"/>
+<MEMBER name="employ" wn="employ%2:34:00" grouping="employ.02" fn_mapping="Using" verbnet_key="employ#2" features="None"/>
+<MEMBER name="exert" wn="exert%2:34:00 exert%2:40:00" grouping="exert.01" fn_mapping="None" verbnet_key="exert#1" features="None"/>
+<MEMBER name="exploit" wn="exploit%2:34:00 exploit%2:34:01" grouping="exploit.01" fn_mapping="None" verbnet_key="exploit#1" features="None"/>
+<MEMBER name="play" wn="" grouping="" fn_mapping="None" verbnet_key="play#5" features="None"/>
+<MEMBER name="reuse" wn="reuse%2:34:00" grouping="" fn_mapping="None" verbnet_key="reuse#2" features="None"/>
+<MEMBER name="run" wn="run%2:35:04 run%2:35:00" grouping="run.03" fn_mapping="Leadership" verbnet_key="run#8" features="None"/>
+<MEMBER name="work" wn="work%2:41:11 work%2:41:12" grouping="work.06" fn_mapping="None" verbnet_key="work#5" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Predicate">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I used the shovel.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="use">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Predicate"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADV" secondary="NP-ADVP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I used the shovel well.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<ADV/>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="use">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Predicate"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PP; for-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I used the shovel for digging .
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP value="for">
+<SELRESTRS/>
+</PREP>
+<NP value="Predicate">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="use">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Predicate"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_INF" secondary="NP-TO-INF-VC" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I used the cupboard to store food.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<NP value="Predicate">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="oc_to_inf"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="use">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Predicate"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>

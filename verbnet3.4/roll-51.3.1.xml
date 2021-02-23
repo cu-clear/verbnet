@@ -1,666 +1,666 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="roll-51.3.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  
-  <MEMBER features="+manner" fn_mapping="None" grouping="bounce.01 bounce.06" name="bounce" verbnet_key="bounce#1" wn="bounce%2:38:00 bounce%2:35:03 bounce%2:38:02" />
-  <MEMBER features="+manner" fn_mapping="Motion" grouping="drift.01 drift.02 drift.04" name="drift" verbnet_key="drift#2" wn="drift%2:38:02 drift%2:38:04 drift%2:38:06" />
-  <MEMBER features="+directionOfMotion" fn_mapping="Change_position_on_a_scale" grouping="drop.01 drop.02" name="drop" verbnet_key="drop#5" wn="drop%2:38:01 drop%2:38:00" />
-  <MEMBER features="+manner" fn_mapping="Motion" grouping="float.01 float.03" name="float" verbnet_key="float#2" wn="float%2:38:00 float%2:38:02 float%2:38:04" />
-  <MEMBER features="+manner" fn_mapping="Motion" grouping="glide.01" name="glide" verbnet_key="glide#1" wn="glide%2:38:00 glide%2:38:02" />
-  <MEMBER features="None" fn_mapping="Cause_change_of_position_on_a_scale" grouping="move.01" name="move" verbnet_key="move#4" wn="move%2:38:03 move%2:38:01 move%2:38:00" />
-  <MEMBER features="+directionOfMotion" fn_mapping="None" grouping="nose.02" name="nose" verbnet_key="nose#2" wn="nose%2:38:00" />
-  <MEMBER features="+manner" fn_mapping="Cause_motion" grouping="roll.01" name="roll" verbnet_key="roll#6" wn="roll%2:38:00 roll%2:29:06" />
-  <MEMBER features="+manner" fn_mapping="Cause_motion" grouping="slide.01 slide.02" name="slide" verbnet_key="slide#2" wn="slide%2:38:01 slide%2:38:00 slide%2:38:02" />
-  <MEMBER features="+manner" fn_mapping="Body_movement" grouping="swing.01" name="swing" verbnet_key="swing#4" wn="swing%2:38:02 swing%2:38:03 swing%2:35:00" />
-  <MEMBER features="+path_shape" fn_mapping="None" grouping="coil.01" name="coil" verbnet_key="coil#3" wn="coil%2:38:00" />
-  <MEMBER features="+path_shape" fn_mapping="None" grouping="revolve.01" name="revolve" verbnet_key="revolve#3" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02" />
-  <MEMBER features="+path_shape" fn_mapping="Cause_to_move_in_place" grouping="rotate.01" name="rotate" verbnet_key="rotate#4" wn="rotate%2:38:01 rotate%2:38:00" />
-  <MEMBER features="+path_shape" fn_mapping="Perception_body" grouping="spin.01" name="spin" verbnet_key="spin#4" wn="spin%2:38:01 spin%2:38:02" />
-  <MEMBER features="+path_shape" fn_mapping="Cause_to_move_in_place" grouping="turn.01 turn.03 turn.08" name="turn" verbnet_key="turn#6" wn="turn%2:38:02 turn%2:38:04 turn%2:38:01 turn%2:38:13" />
-  <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="twirl" verbnet_key="twirl#4" wn="twirl%2:38:00 twirl%2:38:01" />
-  <MEMBER features="+path_shape" fn_mapping="None" grouping="twist.01" name="twist" verbnet_key="twist#5" wn="twist%2:38:01 twist%2:38:02 twist%2:35:06" />
-  <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="whirl" verbnet_key="whirl#2" wn="whirl%2:38:01 whirl%2:38:02 whirl%2:38:00 whirl%2:38:04 whirl%2:38:03" />
-  <MEMBER features="+path_shape" fn_mapping="Path_shape" grouping="wind.01 wind.02" name="wind" verbnet_key="wind#5" wn="wind%2:38:00 wind%2:35:06" />
-  <MEMBER features="+path_shape" fn_mapping="None" grouping="snake.01" name="snake" verbnet_key="snake#2" wn="" />
-  <MEMBER features="+directionOfMotion" fn_mapping="None" grouping="" name="soar" verbnet_key="soar#2" wn="" />
-  <MEMBER features="+path_shape" fn_mapping="Motion" grouping="" name="spiral" verbnet_key="spiral#1" wn="" />
-  <MEMBER features="+path_shape" fn_mapping="None" grouping="" name="undulate" verbnet_key="undulate#3" wn="" />
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="int_control" />
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete" />
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Initial_Location">
-   <SELRESTRS />
-  </THEMROLE>
-  <THEMROLE type="Trajectory">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete" />
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Destination">
-   <SELRESTRS />
-  </THEMROLE>
-  <THEMROLE type="Result">
-   <SELRESTRS />
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP.theme V" secondary="Basic Intransitive; inchoative" xtag="0.1" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The ball rolled.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Trajectory" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.trajectory" secondary="PP; path-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The ball rolled down the hill.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="spatial" />
-     </SELRESTRS>
-    </PREP>
-    <NP value="Trajectory">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë2" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Trajectory" />
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë2" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Destination" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP.theme V PP.source PP.trajectory PP.destination" secondary="PP; source-PP, path-PP, destination-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The ball rolled off the table, down the hall, and into the kitchen.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="spatial" />
-     </SELRESTRS>
-    </PREP>
-    <NP value="Source">
-     <SYNRESTRS />
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="spatial" />
-     </SELRESTRS>
-    </PREP>
-    <NP value="Trajectory">
-     <SYNRESTRS />
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="spatial" />
-     </SELRESTRS>
-    </PREP>
-    <NP value="Destination">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë2" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Trajectory" />
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë2" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Destination" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="Transitive; Causative" xtag="0.2" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Bill rolled the ball.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Trajectory" />
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Destination" />
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="Event" value="ë3" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.trajectory" secondary="NP-PP; path-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Bill rolled the ball down the hill.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="path" />
-     </SELRESTRS>
-    </PREP>
-    <NP value="Trajectory">
-     <SELRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Trajectory" />
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Destination" />
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="Event" value="ë3" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP.agent V NP.theme PP.source PP.trajectory PP.destination" secondary="NP-PP-PP-PP; path-PPs" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Bill rolled the ball off the ramp, through the tunnel, and into the hole.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="spatial" />
-     </SELRESTRS>
-    </PREP>
-    <NP value="Source">
-     <SYNRESTRS />
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="spatial" />
-     </SELRESTRS>
-    </PREP>
-    <NP value="Trajectory">
-     <SYNRESTRS />
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="spatial" />
-     </SELRESTRS>
-    </PREP>
-    <NP value="Destination">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Trajectory" />
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Destination" />
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="Event" value="ë3" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V ADJ.result" secondary="ADJP; Resultative" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The drawer rolled open.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Result">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë2" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Trajectory" />
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë2" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Destination" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Result" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.result" secondary="PP; Result-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The drawer rolled to an open position.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <PREP value="to into">
-     <SELRESTRS />
-    </PREP>
-    <NP value="Result">
-     <SELRESTRS>
-      <SELRESTR Value="+" type="state" />
-     </SELRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë2" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Trajectory" />
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë2" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Destination" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Result" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ.result" secondary="NP-ADJP; Resultative" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Bill rolled the drawer open.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-    <NP value="Result">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Trajectory" />
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Destination" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Result" />
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="Event" value="ë3" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Bill rolled the drawer to an open position.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Theme">
-     <SYNRESTRS />
-    </NP>
-    <PREP value="to into">
-     <SELRESTRS />
-    </PREP>
-    <NP value="Result">
-     <SELRESTRS>
-      <SELRESTR Value="+" type="state" />
-     </SELRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Trajectory" />
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Initial_Location" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="?Destination" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Result" />
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="Event" value="ë3" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES />
+<MEMBERS>
+
+<MEMBER name="bounce" wn="bounce%2:38:00 bounce%2:35:03 bounce%2:38:02" grouping="bounce.01 bounce.06" fn_mapping="None" verbnet_key="bounce#1" features="+manner"/>
+<MEMBER name="drift" wn="drift%2:38:02 drift%2:38:04 drift%2:38:06" grouping="drift.01 drift.02 drift.04" fn_mapping="Motion" verbnet_key="drift#2" features="+manner"/>
+<MEMBER name="drop" wn="drop%2:38:01 drop%2:38:00" grouping="drop.01 drop.02" fn_mapping="Change_position_on_a_scale" verbnet_key="drop#5" features="+directionOfMotion"/>
+<MEMBER name="float" wn="float%2:38:00 float%2:38:02 float%2:38:04" grouping="float.01 float.03" fn_mapping="Motion" verbnet_key="float#2" features="+manner"/>
+<MEMBER name="glide" wn="glide%2:38:00 glide%2:38:02" grouping="glide.01" fn_mapping="Motion" verbnet_key="glide#1" features="+manner"/>
+<MEMBER name="move" wn="move%2:38:03 move%2:38:01 move%2:38:00" grouping="move.01" fn_mapping="Cause_change_of_position_on_a_scale" verbnet_key="move#4" features="None"/>
+<MEMBER name="nose" wn="nose%2:38:00" grouping="nose.02" fn_mapping="None" verbnet_key="nose#2" features="+directionOfMotion"/>
+<MEMBER name="roll" wn="roll%2:38:00 roll%2:29:06" grouping="roll.01" fn_mapping="Cause_motion" verbnet_key="roll#6" features="+manner"/>
+<MEMBER name="slide" wn="slide%2:38:01 slide%2:38:00 slide%2:38:02" grouping="slide.01 slide.02" fn_mapping="Cause_motion" verbnet_key="slide#2" features="+manner"/>
+<MEMBER name="swing" wn="swing%2:38:02 swing%2:38:03 swing%2:35:00" grouping="swing.01" fn_mapping="Body_movement" verbnet_key="swing#4" features="+manner"/>
+<MEMBER name="coil" wn="coil%2:38:00" grouping="coil.01" fn_mapping="None" verbnet_key="coil#3" features="+path_shape"/>
+<MEMBER name="revolve" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02" grouping="revolve.01" fn_mapping="None" verbnet_key="revolve#3" features="+path_shape"/>
+<MEMBER name="rotate" wn="rotate%2:38:01 rotate%2:38:00" grouping="rotate.01" fn_mapping="Cause_to_move_in_place" verbnet_key="rotate#4" features="+path_shape"/>
+<MEMBER name="spin" wn="spin%2:38:01 spin%2:38:02" grouping="spin.01" fn_mapping="Perception_body" verbnet_key="spin#4" features="+path_shape"/>
+<MEMBER name="turn" wn="turn%2:38:02 turn%2:38:04 turn%2:38:01 turn%2:38:13" grouping="turn.01 turn.03 turn.08" fn_mapping="Cause_to_move_in_place" verbnet_key="turn#6" features="+path_shape"/>
+<MEMBER name="twirl" wn="twirl%2:38:00 twirl%2:38:01" grouping="" fn_mapping="None" verbnet_key="twirl#4" features="+path_shape"/>
+<MEMBER name="twist" wn="twist%2:38:01 twist%2:38:02 twist%2:35:06" grouping="twist.01" fn_mapping="None" verbnet_key="twist#5" features="+path_shape"/>
+<MEMBER name="whirl" wn="whirl%2:38:01 whirl%2:38:02 whirl%2:38:00 whirl%2:38:04 whirl%2:38:03" grouping="" fn_mapping="None" verbnet_key="whirl#2" features="+path_shape"/>
+<MEMBER name="wind" wn="wind%2:38:00 wind%2:35:06" grouping="wind.01 wind.02" fn_mapping="Path_shape" verbnet_key="wind#5" features="+path_shape"/>
+<MEMBER name="snake" wn="" grouping="snake.01" fn_mapping="None" verbnet_key="snake#2" features="+path_shape"/>
+<MEMBER name="soar" wn="" grouping="" fn_mapping="None" verbnet_key="soar#2" features="+directionOfMotion"/>
+<MEMBER name="spiral" wn="" grouping="" fn_mapping="Motion" verbnet_key="spiral#1" features="+path_shape"/>
+<MEMBER name="undulate" wn="" grouping="" fn_mapping="None" verbnet_key="undulate#3" features="+path_shape"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS>
+<SELRESTR Value="+" type="int_control" />
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete" />
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Initial_Location">
+<SELRESTRS />
+</THEMROLE>
+<THEMROLE type="Trajectory">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete" />
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Destination">
+<SELRESTRS />
+</THEMROLE>
+<THEMROLE type="Result">
+<SELRESTRS />
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP.theme V" secondary="Basic Intransitive; inchoative" xtag="0.1" />
+<EXAMPLES>
+<EXAMPLE>
+The ball rolled.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+<VERB />
+</SYNTAX>
+<SEMANTICS>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Trajectory" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.trajectory" secondary="PP; path-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+The ball rolled down the hill.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+<VERB />
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="spatial" />
+</SELRESTRS>
+</PREP>
+<NP value="Trajectory">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë2" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Trajectory" />
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë2" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Destination" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP.theme V PP.source PP.trajectory PP.destination" secondary="PP; source-PP, path-PP, destination-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+The ball rolled off the table, down the hall, and into the kitchen.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+<VERB />
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="spatial" />
+</SELRESTRS>
+</PREP>
+<NP value="Source">
+<SYNRESTRS />
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="spatial" />
+</SELRESTRS>
+</PREP>
+<NP value="Trajectory">
+<SYNRESTRS />
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="spatial" />
+</SELRESTRS>
+</PREP>
+<NP value="Destination">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë2" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Trajectory" />
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë2" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Destination" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="Transitive; Causative" xtag="0.2" />
+<EXAMPLES>
+<EXAMPLE>
+Bill rolled the ball.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Trajectory" />
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Destination" />
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="Event" value="ë3" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.trajectory" secondary="NP-PP; path-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+Bill rolled the ball down the hill.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="path" />
+</SELRESTRS>
+</PREP>
+<NP value="Trajectory">
+<SELRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Trajectory" />
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Destination" />
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="Event" value="ë3" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP.agent V NP.theme PP.source PP.trajectory PP.destination" secondary="NP-PP-PP-PP; path-PPs" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+Bill rolled the ball off the ramp, through the tunnel, and into the hole.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="spatial" />
+</SELRESTRS>
+</PREP>
+<NP value="Source">
+<SYNRESTRS />
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="spatial" />
+</SELRESTRS>
+</PREP>
+<NP value="Trajectory">
+<SYNRESTRS />
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="spatial" />
+</SELRESTRS>
+</PREP>
+<NP value="Destination">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Trajectory" />
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Destination" />
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="Event" value="ë3" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V ADJ.result" secondary="ADJP; Resultative" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+The drawer rolled open.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Result">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë2" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Trajectory" />
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë2" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Destination" />
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Result" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V PP.result" secondary="PP; Result-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+The drawer rolled to an open position.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+<VERB />
+<PREP value="to into">
+<SELRESTRS />
+</PREP>
+<NP value="Result">
+<SELRESTRS>
+<SELRESTR Value="+" type="state" />
+</SELRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë2" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Trajectory" />
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë2" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Destination" />
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Result" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ.result" secondary="NP-ADJP; Resultative" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+Bill rolled the drawer open.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+<NP value="Result">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Trajectory" />
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Destination" />
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Result" />
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="Event" value="ë3" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+Bill rolled the drawer to an open position.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Theme">
+<SYNRESTRS />
+</NP>
+<PREP value="to into">
+<SELRESTRS />
+</PREP>
+<NP value="Result">
+<SELRESTRS>
+<SELRESTR Value="+" type="state" />
+</SELRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Trajectory" />
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Initial_Location" />
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="?Destination" />
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Theme" />
+<ARG type="ThemRole" value="Result" />
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="Event" value="ë3" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES />
 </VNCLASS>

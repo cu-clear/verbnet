@@ -1,72 +1,72 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="sight-30.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="+seeing" fn_mapping="None" grouping="behold.01" name="behold" verbnet_key="behold#1" wn="behold%2:39:00" />
-  <MEMBER features="+seeing" fn_mapping="None" grouping="" name="descry" verbnet_key="descry#1" wn="descry%2:39:00" />
-  <MEMBER features="+seeing" fn_mapping="Becoming_aware" grouping="discover.01" name="discover" verbnet_key="discover#2" wn="discover%2:36:00 discover%2:40:00 discover%2:39:00" />
-  <MEMBER features="+seeing" fn_mapping="None" grouping="" name="espy" verbnet_key="espy#1" wn="espy%2:39:00" />
-  <MEMBER features="+perceiving" fn_mapping="Feeling" grouping="experience.01" name="experience" verbnet_key="experience#1" wn="experience%2:31:00" />
-  <MEMBER features="+seeing" fn_mapping="None" grouping="" name="eye" verbnet_key="eye#1" wn="eye%2:39:00" />
-  <MEMBER features="+seeing" fn_mapping="None" grouping="" name="glimpse" verbnet_key="glimpse#1" wn="glimpse%2:39:00" />
-  <MEMBER features="+manner" fn_mapping="None" grouping="" name="make_out" verbnet_key="make_out#1" wn="make_out%2:39:00" />
-  <MEMBER features="+seeing" fn_mapping="Becoming_aware" grouping="note.01" name="note" verbnet_key="note#2" wn="note%2:39:00 note%2:39:02 note%2:32:01" />
-  <MEMBER features="+seeing" fn_mapping="Becoming_aware" grouping="observe.01 observe.03" name="observe" verbnet_key="observe#3" wn="observe%2:39:02 observe%2:39:01 observe%2:41:00 observe%2:31:00" />
-  <MEMBER features="+hearing" fn_mapping="None" grouping="" name="overhear" verbnet_key="overhear#1" wn="overhear%2:39:00" />
-  <MEMBER features="+perceiving" fn_mapping="Perception_experience" grouping="perceive.01" name="perceive" verbnet_key="perceive#3" wn="perceive%2:39:00" />
-  <MEMBER features="+perceiving" fn_mapping="Becoming_aware" grouping="recognize.01" name="recognize" verbnet_key="recognize#2" wn="recognize%2:39:01 recognize%2:32:01" />
-  <MEMBER features="+tasting" fn_mapping="None" grouping="savor.01" name="savor" verbnet_key="savor#2" wn="savor%2:37:00 savor%2:39:00" />
-  <MEMBER features="+smelling" fn_mapping="None" grouping="scent.02" name="scent" verbnet_key="scent#2" wn="scent%2:39:01" />
-  <MEMBER features="+smelling" fn_mapping="None" grouping="" name="scent_out" verbnet_key="scent_out#2" wn="scent_out%2:39:00" />
-  <MEMBER features="+seeing" fn_mapping="None" grouping="" name="sight" verbnet_key="sight#1" wn="sight%2:39:00" />
-  <MEMBER features="+seeing" fn_mapping="Becoming_aware" grouping="spot.01" name="spot" verbnet_key="spot#2" wn="spot%2:39:00 spot%2:30:00" />
-  <MEMBER features="+seeing" fn_mapping="Perception_active" grouping="spy.01" name="spy" verbnet_key="spy#1" wn="spy%2:39:00 spy%2:32:01" />
-  <MEMBER features="+seeing" fn_mapping="Perception_active" grouping="view.02" name="view" verbnet_key="view#2" wn="view%2:39:02" />
-  <MEMBER features="+seeing" fn_mapping="None" grouping="witness.01 witness.02" name="witness" verbnet_key="witness#2" wn="witness%2:39:00 witness%2:39:01" />
-  <MEMBER features="+smelling" fn_mapping="Perception_active" grouping="sniff.01" name="sniff" verbnet_key="sniff#3" wn="sniff%2:39:00" />
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Experiencer">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="animate" />
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Stimulus">
-   <SELRESTRS />
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The crew spotted the island.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Experiencer">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Stimulus">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="perceive">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Experiencer" />
-      <ARG type="ThemRole" value="Stimulus" />
-     </ARGS>
-    </PRED>
-    <PRED value="in_reaction_to">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Stimulus" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES />
+<MEMBERS>
+<MEMBER name="behold" wn="behold%2:39:00" grouping="behold.01" fn_mapping="None" verbnet_key="behold#1" features="+seeing"/>
+<MEMBER name="descry" wn="descry%2:39:00" grouping="" fn_mapping="None" verbnet_key="descry#1" features="+seeing"/>
+<MEMBER name="discover" wn="discover%2:36:00 discover%2:40:00 discover%2:39:00" grouping="discover.01" fn_mapping="Becoming_aware" verbnet_key="discover#2" features="+seeing"/>
+<MEMBER name="espy" wn="espy%2:39:00" grouping="" fn_mapping="None" verbnet_key="espy#1" features="+seeing"/>
+<MEMBER name="experience" wn="experience%2:31:00" grouping="experience.01" fn_mapping="Feeling" verbnet_key="experience#1" features="+perceiving"/>
+<MEMBER name="eye" wn="eye%2:39:00" grouping="" fn_mapping="None" verbnet_key="eye#1" features="+seeing"/>
+<MEMBER name="glimpse" wn="glimpse%2:39:00" grouping="" fn_mapping="None" verbnet_key="glimpse#1" features="+seeing"/>
+<MEMBER name="make_out" wn="make_out%2:39:00" grouping="" fn_mapping="None" verbnet_key="make_out#1" features="+manner"/>
+<MEMBER name="note" wn="note%2:39:00 note%2:39:02 note%2:32:01" grouping="note.01" fn_mapping="Becoming_aware" verbnet_key="note#2" features="+seeing"/>
+<MEMBER name="observe" wn="observe%2:39:02 observe%2:39:01 observe%2:41:00 observe%2:31:00" grouping="observe.01 observe.03" fn_mapping="Becoming_aware" verbnet_key="observe#3" features="+seeing"/>
+<MEMBER name="overhear" wn="overhear%2:39:00" grouping="" fn_mapping="None" verbnet_key="overhear#1" features="+hearing"/>
+<MEMBER name="perceive" wn="perceive%2:39:00" grouping="perceive.01" fn_mapping="Perception_experience" verbnet_key="perceive#3" features="+perceiving"/>
+<MEMBER name="recognize" wn="recognize%2:39:01 recognize%2:32:01" grouping="recognize.01" fn_mapping="Becoming_aware" verbnet_key="recognize#2" features="+perceiving"/>
+<MEMBER name="savor" wn="savor%2:37:00 savor%2:39:00" grouping="savor.01" fn_mapping="None" verbnet_key="savor#2" features="+tasting"/>
+<MEMBER name="scent" wn="scent%2:39:01" grouping="scent.02" fn_mapping="None" verbnet_key="scent#2" features="+smelling"/>
+<MEMBER name="scent_out" wn="scent_out%2:39:00" grouping="" fn_mapping="None" verbnet_key="scent_out#2" features="+smelling"/>
+<MEMBER name="sight" wn="sight%2:39:00" grouping="" fn_mapping="None" verbnet_key="sight#1" features="+seeing"/>
+<MEMBER name="spot" wn="spot%2:39:00 spot%2:30:00" grouping="spot.01" fn_mapping="Becoming_aware" verbnet_key="spot#2" features="+seeing"/>
+<MEMBER name="spy" wn="spy%2:39:00 spy%2:32:01" grouping="spy.01" fn_mapping="Perception_active" verbnet_key="spy#1" features="+seeing"/>
+<MEMBER name="view" wn="view%2:39:02" grouping="view.02" fn_mapping="Perception_active" verbnet_key="view#2" features="+seeing"/>
+<MEMBER name="witness" wn="witness%2:39:00 witness%2:39:01" grouping="witness.01 witness.02" fn_mapping="None" verbnet_key="witness#2" features="+seeing"/>
+<MEMBER name="sniff" wn="sniff%2:39:00" grouping="sniff.01" fn_mapping="Perception_active" verbnet_key="sniff#3" features="+smelling"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Experiencer">
+<SELRESTRS>
+<SELRESTR Value="+" type="animate" />
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Stimulus">
+<SELRESTRS />
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+The crew spotted the island.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Experiencer">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Stimulus">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="perceive">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Experiencer" />
+<ARG type="ThemRole" value="Stimulus" />
+</ARGS>
+</PRED>
+<PRED value="in_reaction_to">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Stimulus" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES />
 </VNCLASS>

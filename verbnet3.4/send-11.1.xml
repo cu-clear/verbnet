@@ -1,478 +1,478 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="send-11.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="Bringing" grouping="convey.02" name="convey" verbnet_key="convey#2" wn="convey%2:40:10 convey%2:38:00 convey%2:35:00"/>
-  <MEMBER features="None" fn_mapping="Delivery" grouping="deliver.05" name="deliver" verbnet_key="deliver#2" wn="deliver%2:35:00"/>
-  <MEMBER features="None" fn_mapping="Sending" grouping="dispatch.01" name="dispatch" verbnet_key="dispatch#2" wn="dispatch%2:38:00"/>
-  <MEMBER features="None" fn_mapping="Cause_motion" grouping="drive.02" name="drive" verbnet_key="drive#6" wn="drive%2:38:02"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="handdeliver" verbnet_key="handdeliver#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="pass_on" verbnet_key="pass_on#1" wn="pass_on%2:40:01 pass_on%2:40:00 pass_on%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="port.03" name="port" verbnet_key="port#1" wn="port%2:35:07"/>
-  <MEMBER features="None" fn_mapping="Sending" grouping="post.03" name="post" verbnet_key="post#1" wn="post%2:32:02"/>
-  <MEMBER features="None" fn_mapping="None" grouping="return.02 return.03" name="return" verbnet_key="return#5" wn="return%2:40:08 return%2:35:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="shift.01" name="shift" verbnet_key="shift#3" wn="shift%2:38:02"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="shunt" verbnet_key="shunt#1" wn="shunt%2:38:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="transfer.01 transfer.02" name="transfer" verbnet_key="transfer#2" wn="transfer%2:40:01 transfer%2:35:00"/>
-  <MEMBER features="None" fn_mapping="Bringing" grouping="transport.01" name="transport" verbnet_key="transport#2" wn="transport%2:38:00 transport%2:38:01 transport%2:35:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="export" verbnet_key="export#1" wn="export%2:40:00"/>
-  <MEMBER features="None" fn_mapping="Importing" grouping="" name="import" verbnet_key="import#1" wn="import%2:40:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="transship" verbnet_key="transship#1" wn="transship%2:38:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Initial_Location">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="location"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Destination">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="location"/>
-    <SELRESTR Value="-" type="region"/>
-   </SELRESTRS>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Nora sent the book.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Destination"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Nora sent the book from Paris.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="src"/>
-     </SELRESTRS>
-    </PREP>
-    <NP value="Initial_Location">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Destination"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Goal-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Nora sent the book to London.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="to">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Destination">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP-PP; Initial_Location-PP Goal-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Nora sent the book from Paris to London.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="src"/>
-     </SELRESTRS>
-    </PREP>
-    <NP value="Initial_Location">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="to">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Destination">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination PP.initial_location" secondary="NP-PP-PP; Goal-PP Initial_Location-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     TransCanada is shifting its HQ to Calgary from Toronto.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="to">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Destination">
-     <SYNRESTRS/>
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="src"/>
-     </SELRESTRS>
-    </PREP>
-    <NP value="Initial_Location">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="send-11.1-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="airmail" verbnet_key="airmail#1" wn="airmail%2:32:00"/>
-    <MEMBER features="None" fn_mapping="Sending" grouping="express.03" name="express" verbnet_key="express#2" wn="express%2:32:09"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="FedEx" verbnet_key="FedEx#1" wn=""/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="forward" verbnet_key="forward#1" wn="forward%2:38:00"/>
-    <MEMBER features="None" fn_mapping="Giving" grouping="hand.01" name="hand" verbnet_key="hand#1" wn="hand%2:40:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="mail.01" name="mail" verbnet_key="mail#1" wn="mail%2:35:00 mail%2:32:00"/>
-    <MEMBER features="None" fn_mapping="Giving" grouping="pass.04 pass.08" name="pass" verbnet_key="pass#6" wn="pass%2:40:00 pass%2:32:01"/>
-    <MEMBER features="None" fn_mapping="Causation" grouping="send.01 send.03" name="send" verbnet_key="send#2" wn="send%2:38:01 send%2:35:00 send%2:32:00 send%2:38:00 send%2:32:02"/>
-    <MEMBER features="None" fn_mapping="Sending" grouping="ship.01" name="ship" verbnet_key="ship#1" wn="ship%2:38:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="slip.01" name="slip" verbnet_key="slip#2" wn="slip%2:40:10"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="smuggle" verbnet_key="smuggle#1" wn="smuggle%2:40:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="sneak.02" name="sneak" verbnet_key="sneak#2" wn="sneak%2:40:00 sneak%2:40:10"/>
-    <MEMBER features="None" fn_mapping="None" grouping="transmit.01" name="transmit" verbnet_key="transmit#1" wn="transmit%2:40:10 transmit%2:35:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="UPS" verbnet_key="UPS#1" wn=""/>
-    <MEMBER features="None" fn_mapping="Sending" grouping="wire.03" name="wire" verbnet_key="wire#2" wn="wire%2:32:00"/>
-   </MEMBERS>
-   <THEMROLES>
-    <THEMROLE type="Destination">
-     <SELRESTRS>
-      <SELRESTR Value="+" type="animate"/>
-     </SELRESTRS>
-    </THEMROLE>
-   </THEMROLES>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="2.1" primary="NP V NP-Dative NP" secondary="Dative" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       Nora sent me the book.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Destination">
-       <SYNRESTRS/>
-      </NP>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="?Initial_Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="do">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED value="cause">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="Event" value="ë3"/>
-       </ARGS>
-      </PRED>
-      <PRED value="motion">
-       <ARGS>
-        <ARG type="Event" value="ë3"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="PredSpecific" value="Trajectory"/>
-       </ARGS>
-      </PRED>
-      <PRED bool="!" value="has_location">
-       <ARGS>
-        <ARG type="Event" value="ë3"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="?Initial_Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="e4"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="?Destination"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS>
+<MEMBER name="convey" wn="convey%2:40:10 convey%2:38:00 convey%2:35:00" grouping="convey.02" fn_mapping="Bringing" verbnet_key="convey#2" features="None"/>
+<MEMBER name="deliver" wn="deliver%2:35:00" grouping="deliver.05" fn_mapping="Delivery" verbnet_key="deliver#2" features="None"/>
+<MEMBER name="dispatch" wn="dispatch%2:38:00" grouping="dispatch.01" fn_mapping="Sending" verbnet_key="dispatch#2" features="None"/>
+<MEMBER name="drive" wn="drive%2:38:02" grouping="drive.02" fn_mapping="Cause_motion" verbnet_key="drive#6" features="None"/>
+<MEMBER name="handdeliver" wn="" grouping="" fn_mapping="None" verbnet_key="handdeliver#1" features="None"/>
+<MEMBER name="pass_on" wn="pass_on%2:40:01 pass_on%2:40:00 pass_on%2:38:00" grouping="" fn_mapping="None" verbnet_key="pass_on#1" features="None"/>
+<MEMBER name="port" wn="port%2:35:07" grouping="port.03" fn_mapping="None" verbnet_key="port#1" features="None"/>
+<MEMBER name="post" wn="post%2:32:02" grouping="post.03" fn_mapping="Sending" verbnet_key="post#1" features="None"/>
+<MEMBER name="return" wn="return%2:40:08 return%2:35:01" grouping="return.02 return.03" fn_mapping="None" verbnet_key="return#5" features="None"/>
+<MEMBER name="shift" wn="shift%2:38:02" grouping="shift.01" fn_mapping="None" verbnet_key="shift#3" features="None"/>
+<MEMBER name="shunt" wn="shunt%2:38:00" grouping="" fn_mapping="None" verbnet_key="shunt#1" features="None"/>
+<MEMBER name="transfer" wn="transfer%2:40:01 transfer%2:35:00" grouping="transfer.01 transfer.02" fn_mapping="None" verbnet_key="transfer#2" features="None"/>
+<MEMBER name="transport" wn="transport%2:38:00 transport%2:38:01 transport%2:35:01" grouping="transport.01" fn_mapping="Bringing" verbnet_key="transport#2" features="None"/>
+<MEMBER name="export" wn="export%2:40:00" grouping="" fn_mapping="None" verbnet_key="export#1" features="None"/>
+<MEMBER name="import" wn="import%2:40:00" grouping="" fn_mapping="Importing" verbnet_key="import#1" features="None"/>
+<MEMBER name="transship" wn="transship%2:38:00" grouping="" fn_mapping="None" verbnet_key="transship#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Initial_Location">
+<SELRESTRS>
+<SELRESTR Value="+" type="location"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Destination">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="location"/>
+<SELRESTR Value="-" type="region"/>
+</SELRESTRS>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+Nora sent the book.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Destination"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Nora sent the book from Paris.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="src"/>
+</SELRESTRS>
+</PREP>
+<NP value="Initial_Location">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Destination"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Goal-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Nora sent the book to London.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP value="to">
+<SELRESTRS/>
+</PREP>
+<NP value="Destination">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Destination"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP-PP; Initial_Location-PP Goal-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Nora sent the book from Paris to London.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="src"/>
+</SELRESTRS>
+</PREP>
+<NP value="Initial_Location">
+<SYNRESTRS/>
+</NP>
+<PREP value="to">
+<SELRESTRS/>
+</PREP>
+<NP value="Destination">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Destination"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination PP.initial_location" secondary="NP-PP-PP; Goal-PP Initial_Location-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+TransCanada is shifting its HQ to Calgary from Toronto.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP value="to">
+<SELRESTRS/>
+</PREP>
+<NP value="Destination">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="src"/>
+</SELRESTRS>
+</PREP>
+<NP value="Initial_Location">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Destination"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="send-11.1-1">
+<MEMBERS>
+<MEMBER name="airmail" wn="airmail%2:32:00" grouping="" fn_mapping="None" verbnet_key="airmail#1" features="None"/>
+<MEMBER name="express" wn="express%2:32:09" grouping="express.03" fn_mapping="Sending" verbnet_key="express#2" features="None"/>
+<MEMBER name="FedEx" wn="" grouping="" fn_mapping="None" verbnet_key="FedEx#1" features="None"/>
+<MEMBER name="forward" wn="forward%2:38:00" grouping="" fn_mapping="None" verbnet_key="forward#1" features="None"/>
+<MEMBER name="hand" wn="hand%2:40:00" grouping="hand.01" fn_mapping="Giving" verbnet_key="hand#1" features="None"/>
+<MEMBER name="mail" wn="mail%2:35:00 mail%2:32:00" grouping="mail.01" fn_mapping="None" verbnet_key="mail#1" features="None"/>
+<MEMBER name="pass" wn="pass%2:40:00 pass%2:32:01" grouping="pass.04 pass.08" fn_mapping="Giving" verbnet_key="pass#6" features="None"/>
+<MEMBER name="send" wn="send%2:38:01 send%2:35:00 send%2:32:00 send%2:38:00 send%2:32:02" grouping="send.01 send.03" fn_mapping="Causation" verbnet_key="send#2" features="None"/>
+<MEMBER name="ship" wn="ship%2:38:00" grouping="ship.01" fn_mapping="Sending" verbnet_key="ship#1" features="None"/>
+<MEMBER name="slip" wn="slip%2:40:10" grouping="slip.01" fn_mapping="None" verbnet_key="slip#2" features="None"/>
+<MEMBER name="smuggle" wn="smuggle%2:40:00" grouping="" fn_mapping="None" verbnet_key="smuggle#1" features="None"/>
+<MEMBER name="sneak" wn="sneak%2:40:00 sneak%2:40:10" grouping="sneak.02" fn_mapping="None" verbnet_key="sneak#2" features="None"/>
+<MEMBER name="transmit" wn="transmit%2:40:10 transmit%2:35:00" grouping="transmit.01" fn_mapping="None" verbnet_key="transmit#1" features="None"/>
+<MEMBER name="UPS" wn="" grouping="" fn_mapping="None" verbnet_key="UPS#1" features="None"/>
+<MEMBER name="wire" wn="wire%2:32:00" grouping="wire.03" fn_mapping="Sending" verbnet_key="wire#2" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Destination">
+<SELRESTRS>
+<SELRESTR Value="+" type="animate"/>
+</SELRESTRS>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="2.1" primary="NP V NP-Dative NP" secondary="Dative" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Nora sent me the book.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Destination">
+<SYNRESTRS/>
+</NP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Destination"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

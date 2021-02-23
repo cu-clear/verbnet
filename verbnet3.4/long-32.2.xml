@@ -1,138 +1,138 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="long-32.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS/>
- <THEMROLES>
-  <THEMROLE type="Pivot">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
-  <!--class needs to be subdivided-->
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V S_INF" secondary="TO-INF-SC" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     John hankered to move up the corporate ladder.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Pivot">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="sc_to_inf"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="desire">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Pivot"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="long-32.2-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="Desiring" grouping="ache.02" name="ache" verbnet_key="ache#1" wn="ache%2:37:06"/>
-    <MEMBER features="None" fn_mapping="Desiring" grouping="crave.01" name="crave" verbnet_key="crave#1" wn="crave%2:34:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="die.03" name="die" verbnet_key="die#6" wn="die%2:37:00 die%2:37:01"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="fall" verbnet_key="fall#7" wn=""/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="hanker" verbnet_key="hanker#1" wn="hanker%2:37:00"/>
-    <MEMBER features="None" fn_mapping="Desiring" grouping="hope.01" name="hope" verbnet_key="hope#1" wn="hope%2:37:01"/>
-    <MEMBER features="None" fn_mapping="Desiring" grouping="hunger.01" name="hunger" verbnet_key="hunger#1" wn="hunger%2:34:01"/>
-    <MEMBER features="None" fn_mapping="Desiring" grouping="itch.03" name="itch" verbnet_key="itch#1" wn="itch%2:37:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="long" verbnet_key="long#1" wn="long%2:37:02"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="lust" verbnet_key="lust#1" wn="lust%2:34:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="pine" verbnet_key="pine#1" wn="pine%2:37:00"/>
-    <MEMBER features="None" fn_mapping="Rite" grouping="pray.01" name="pray" verbnet_key="pray#1" wn="pray%2:32:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="thirst" verbnet_key="thirst#1" wn="thirst%2:34:00"/>
-    <MEMBER features="None" fn_mapping="Desiring" grouping="wish.01 wish.02" name="wish" verbnet_key="wish#1" wn="?wish%2:37:00 ?wish%2:32:01"/>
-    <MEMBER features="None" fn_mapping="Desiring" grouping="" name="yearn" verbnet_key="yearn#1" wn="yearn%2:37:00 yearn%2:37:01"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="PP; for-PP" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       Danny longs for a sunny day.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Pivot">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="for">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="desire">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Pivot"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
-  <VNSUBCLASS ID="long-32.2-2">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="hanker" verbnet_key="hanker#1" wn="hanker%2:37:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="lust" verbnet_key="lust#1" wn="lust%2:34:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="thirst" verbnet_key="thirst#1" wn="thirst%2:34:00"/>
-    <MEMBER features="None" fn_mapping="Desiring" grouping="" name="yearn" verbnet_key="yearn#1" wn="yearn%2:37:00 yearn%2:37:01"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="PP; after-PP" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       Danny yearns after sunny days.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Pivot">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="after">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="desire">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Pivot"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS/>
+<THEMROLES>
+<THEMROLE type="Pivot">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+<!--class needs to be subdivided-->
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V S_INF" secondary="TO-INF-SC" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+John hankered to move up the corporate ladder.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Pivot">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="sc_to_inf"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="desire">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="long-32.2-1">
+<MEMBERS>
+<MEMBER name="ache" wn="ache%2:37:06" grouping="ache.02" fn_mapping="Desiring" verbnet_key="ache#1" features="None"/>
+<MEMBER name="crave" wn="crave%2:34:00" grouping="crave.01" fn_mapping="Desiring" verbnet_key="crave#1" features="None"/>
+<MEMBER name="die" wn="die%2:37:00 die%2:37:01" grouping="die.03" fn_mapping="None" verbnet_key="die#6" features="None"/>
+<MEMBER name="fall" wn="" grouping="" fn_mapping="None" verbnet_key="fall#7" features="None"/>
+<MEMBER name="hanker" wn="hanker%2:37:00" grouping="" fn_mapping="None" verbnet_key="hanker#1" features="None"/>
+<MEMBER name="hope" wn="hope%2:37:01" grouping="hope.01" fn_mapping="Desiring" verbnet_key="hope#1" features="None"/>
+<MEMBER name="hunger" wn="hunger%2:34:01" grouping="hunger.01" fn_mapping="Desiring" verbnet_key="hunger#1" features="None"/>
+<MEMBER name="itch" wn="itch%2:37:00" grouping="itch.03" fn_mapping="Desiring" verbnet_key="itch#1" features="None"/>
+<MEMBER name="long" wn="long%2:37:02" grouping="" fn_mapping="None" verbnet_key="long#1" features="None"/>
+<MEMBER name="lust" wn="lust%2:34:00" grouping="" fn_mapping="None" verbnet_key="lust#1" features="None"/>
+<MEMBER name="pine" wn="pine%2:37:00" grouping="" fn_mapping="None" verbnet_key="pine#1" features="None"/>
+<MEMBER name="pray" wn="pray%2:32:00" grouping="pray.01" fn_mapping="Rite" verbnet_key="pray#1" features="None"/>
+<MEMBER name="thirst" wn="thirst%2:34:00" grouping="" fn_mapping="None" verbnet_key="thirst#1" features="None"/>
+<MEMBER name="wish" wn="?wish%2:37:00 ?wish%2:32:01" grouping="wish.01 wish.02" fn_mapping="Desiring" verbnet_key="wish#1" features="None"/>
+<MEMBER name="yearn" wn="yearn%2:37:00 yearn%2:37:01" grouping="" fn_mapping="Desiring" verbnet_key="yearn#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="PP; for-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Danny longs for a sunny day.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Pivot">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="for">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="desire">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+<VNSUBCLASS ID="long-32.2-2">
+<MEMBERS>
+<MEMBER name="hanker" wn="hanker%2:37:00" grouping="" fn_mapping="None" verbnet_key="hanker#1" features="None"/>
+<MEMBER name="lust" wn="lust%2:34:00" grouping="" fn_mapping="None" verbnet_key="lust#1" features="None"/>
+<MEMBER name="thirst" wn="thirst%2:34:00" grouping="" fn_mapping="None" verbnet_key="thirst#1" features="None"/>
+<MEMBER name="yearn" wn="yearn%2:37:00 yearn%2:37:01" grouping="" fn_mapping="Desiring" verbnet_key="yearn#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="PP; after-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Danny yearns after sunny days.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Pivot">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="after">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="desire">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

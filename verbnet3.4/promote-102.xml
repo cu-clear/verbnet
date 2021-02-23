@@ -1,109 +1,109 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="promote-102" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="promote.01" name="promote" verbnet_key="promote#1" wn="promote%2:41:01 promote%2:32:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="advance.03 advance.04" name="advance" verbnet_key="advance#4" wn="advance%2:41:01 advance%2:41:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="boost.01" name="boost" verbnet_key="boost#1" wn="boost%2:41:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="further.01" name="further" verbnet_key="further#1" wn="further%2:41:00 further%2:41:01"/>
-  <MEMBER features="None" fn_mapping="Subjective_influence" grouping="encourage.01" name="encourage" verbnet_key="encourage#4" wn="encourage%2:41:00"/>
-  <MEMBER features="None" fn_mapping="Request" grouping="invite.01" name="invite" verbnet_key="invite#1" wn="invite%2:32:01"/>
-  <MEMBER features="None" fn_mapping="Convey_importance" grouping="emphasize.01" name="emphasize" verbnet_key="emphasize#1" wn="emphasize%2:32:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="underscore.01" name="underscore" verbnet_key="underscore#1" wn="underscore%2:32:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     We promoted the cause.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="promote">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-AC" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     We promoted writing novels.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="ac_ing"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="promote">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     We promoted their writing novels.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="poss_ing"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="promote">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<MEMBER name="promote" wn="promote%2:41:01 promote%2:32:00" grouping="promote.01" fn_mapping="None" verbnet_key="promote#1" features="None"/>
+<MEMBER name="advance" wn="advance%2:41:01 advance%2:41:00" grouping="advance.03 advance.04" fn_mapping="None" verbnet_key="advance#4" features="None"/>
+<MEMBER name="boost" wn="boost%2:41:00" grouping="boost.01" fn_mapping="None" verbnet_key="boost#1" features="None"/>
+<MEMBER name="further" wn="further%2:41:00 further%2:41:01" grouping="further.01" fn_mapping="None" verbnet_key="further#1" features="None"/>
+<MEMBER name="encourage" wn="encourage%2:41:00" grouping="encourage.01" fn_mapping="Subjective_influence" verbnet_key="encourage#4" features="None"/>
+<MEMBER name="invite" wn="invite%2:32:01" grouping="invite.01" fn_mapping="Request" verbnet_key="invite#1" features="None"/>
+<MEMBER name="emphasize" wn="emphasize%2:32:00" grouping="emphasize.01" fn_mapping="Convey_importance" verbnet_key="emphasize#1" features="None"/>
+<MEMBER name="underscore" wn="underscore%2:32:00" grouping="underscore.01" fn_mapping="None" verbnet_key="underscore#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+We promoted the cause.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="promote">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-AC" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+We promoted writing novels.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="ac_ing"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="promote">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+We promoted their writing novels.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="poss_ing"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="promote">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>

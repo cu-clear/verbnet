@@ -1,312 +1,312 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="employment-95.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="clerk" verbnet_key="clerk#2" wn="clerk%2:41:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="freelance" verbnet_key="freelance#1" wn="freelance%2:41:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="subcontract" verbnet_key="subcontract#1" wn="subcontract%2:41:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="temp" verbnet_key="temp#1" wn=""/>
-  <MEMBER features="None" fn_mapping="Being_employed" grouping="work.01" name="work" verbnet_key="work#2" wn="work%2:41:00 work%2:41:04"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Beneficiary">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Attribute">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     She worked.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="authority_relationship">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Attribute"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="work">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.beneficiary" secondary="Beneficiary-PP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     She worked for IBM.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <PREP value="for">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Beneficiary">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="authority_relationship">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Beneficiary"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Attribute"/>
-      <ARG type="ThemRole" value="Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="work">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="Theme-PP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     She worked on secret government projects.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <PREP value="on | in | at">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="authority_relationship">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Attribute"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="work">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme PP.beneficary" secondary="PP-PP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     She worked on secret government projects at IBM.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <PREP value="on">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="at">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Beneficiary">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="authority_relationship">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Beneficiary"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Attribute"/>
-      <ARG type="ThemRole" value="Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="work">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.attribute PP.beneficiary" secondary="PP-PP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     She worked as an engineer for IBM.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <PREP value="as">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Attribute">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="for">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Beneficiary">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="authority_relationship">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Beneficiary"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Attribute"/>
-      <ARG type="ThemRole" value="Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="work">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.attribute PP.theme PP.beneficiary" secondary="PP-PP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     She worked as a code breaker on secret projects for the British government.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <PREP value="as">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Attribute">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="on">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="for">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Beneficiary">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="authority_relationship">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Beneficiary"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Attribute"/>
-      <ARG type="ThemRole" value="Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="work">
-     <ARGS>
-      <ARG type="Event" value="ë"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<MEMBER name="clerk" wn="clerk%2:41:00" grouping="" fn_mapping="None" verbnet_key="clerk#2" features="None"/>
+<MEMBER name="freelance" wn="freelance%2:41:00" grouping="" fn_mapping="None" verbnet_key="freelance#1" features="None"/>
+<MEMBER name="subcontract" wn="subcontract%2:41:00" grouping="" fn_mapping="None" verbnet_key="subcontract#1" features="None"/>
+<MEMBER name="temp" wn="" grouping="" fn_mapping="None" verbnet_key="temp#1" features="None"/>
+<MEMBER name="work" wn="work%2:41:00 work%2:41:04" grouping="work.01" fn_mapping="Being_employed" verbnet_key="work#2" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Beneficiary">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Attribute">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+She worked.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="authority_relationship">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.beneficiary" secondary="Beneficiary-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+She worked for IBM.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="for">
+<SELRESTRS/>
+</PREP>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="authority_relationship">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="Theme-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+She worked on secret government projects.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="on | in | at">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="authority_relationship">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme PP.beneficary" secondary="PP-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+She worked on secret government projects at IBM.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="on">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP value="at">
+<SELRESTRS/>
+</PREP>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="authority_relationship">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.attribute PP.beneficiary" secondary="PP-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+She worked as an engineer for IBM.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="as">
+<SELRESTRS/>
+</PREP>
+<NP value="Attribute">
+<SYNRESTRS/>
+</NP>
+<PREP value="for">
+<SELRESTRS/>
+</PREP>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="authority_relationship">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Attribute"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.attribute PP.theme PP.beneficiary" secondary="PP-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+She worked as a code breaker on secret projects for the British government.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="as">
+<SELRESTRS/>
+</PREP>
+<NP value="Attribute">
+<SYNRESTRS/>
+</NP>
+<PREP value="on">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP value="for">
+<SELRESTRS/>
+</PREP>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="authority_relationship">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Attribute"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="ë"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>

@@ -1,508 +1,508 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="wipe_instr-10.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <!--individual verbs will each add a "use" predicate-->
-  <MEMBER features="None" fn_mapping="None" grouping="file.02" name="file" verbnet_key="file#6" wn="file%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="filter.01" name="filter" verbnet_key="filter#1" wn="filter%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="hoover" verbnet_key="hoover#1" wn="hoover%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="iron" verbnet_key="iron#2" wn="iron%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="plough" verbnet_key="plough#1" wn="plough%2:36:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="sandpaper" verbnet_key="sandpaper#1" wn="sandpaper%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="sponge" verbnet_key="sponge#2" wn="sponge%2:35:00 sponge%2:35:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="squeegee" verbnet_key="squeegee#1" wn="squeegee%2:35:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="towel" verbnet_key="towel#2" wn="towel%2:35:00"/>
- </MEMBERS>
- <THEMROLES>
-  <!--Instrument is realized in the verb; when it appears explicitly in a with-PP, it is further constrained by the specific verb-->
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="machine"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete"/>
-    <SELRESTR Value="-" type="animate"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Initial_Location">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="location"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Destination">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="location"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Instrument">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete"/>
-    <SELRESTR Value="-" type="animate"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Result">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Carla shoveled the snow from the walk.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="src"/>
-     </SELRESTRS>
-    </PREP>
-    <NP value="Initial_Location">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="VerbSpecific" value="V_Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="?Destination"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP-PP; Initial_Location-PP, Destination-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Carla shoveled the snow from the sidewalk into the street.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="src"/>
-     </SELRESTRS>
-    </PREP>
-    <NP value="Initial_Location">
-     <SYNRESTRS/>
-    </NP>
-    <PREP>
-     <SELRESTRS>
-      <SELRESTR Value="+" type="dest_dir"/>
-     </SELRESTRS>
-    </PREP>
-    <NP value="Destination">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="VerbSpecific" value="V_Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.initial_location" secondary="Transitive; Initial_Location Object" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Carla shoveled the walk.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Initial_Location">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="VerbSpecific" value="V_Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="PredSpecific" value="Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Destination"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="1.2.1" primary="NP V" secondary="Unspecified Object" xtag=""/>
-   <!-- Theme comes from the verb (wrinkles, liquid, snow/dirt, dust)-->
-   <!-- Note: But at the end of an "iron" event, does it make sense that the wrinkles are not located at the initial_location?  Maybe?-->
-   <EXAMPLES>
-    <EXAMPLE>
-     Carla vacuumed.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="VerbSpecific" value="V_Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Destination"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP-Result" secondary="NP-ADJP; Resultative" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Carla shoveled the walk clean.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Initial_Location">
-     <SYNRESTRS/>
-    </NP>
-    <NP value="Result">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="VerbSpecific" value="V_Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="motion">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Trajectory"/>
-     </ARGS>
-    </PRED>
-    <PRED bool="!" value="has_location">
-     <ARGS>
-      <ARG type="Event" value="ë3"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="Initial_Location"/>
-      <ARG type="ThemRole" value="Result"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_location">
-     <ARGS>
-      <ARG type="Event" value="e4"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Destination"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="ë3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="wipe_instr-10.4.2-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="Grooming" grouping="brush.01" name="brush" verbnet_key="brush#5" wn="brush%2:35:01 brush%2:35:02 brush%2:30:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="comb.01" name="comb" verbnet_key="comb#3" wn="?comb%2:29:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="hose" verbnet_key="hose#1" wn="hose%2:30:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="mop" verbnet_key="mop#1" wn="mop%2:35:01"/>
-    <MEMBER features="None" fn_mapping="None" grouping="plow.01 plow.03" name="plow" verbnet_key="plow#1" wn="plow%2:36:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="rake.01 rake.02" name="rake" verbnet_key="rake#3" wn="rake%2:35:01 rake%2:35:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="shear" verbnet_key="shear#1" wn="shear%2:35:00 shear%2:35:02 shear%2:35:01"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="shovel" verbnet_key="shovel#2" wn="shovel%2:35:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="siphon.01 siphon.02" name="siphon" verbnet_key="siphon#2" wn="siphon%2:38:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="vacuum" verbnet_key="vacuum#1" wn="vacuum%2:35:00"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       He plowed the snow back into the ditch.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-      <PREP>
-       <SELRESTRS>
-        <SELRESTR Value="+" type="dest_conf"/>
-       </SELRESTRS>
-      </PREP>
-      <NP value="Destination">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="?Theme"/>
-        <ARG type="ThemRole" value="?Initial_Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="do">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED value="utilize">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="VerbSpecific" value="V_Instrument"/>
-       </ARGS>
-      </PRED>
-      <PRED value="motion">
-       <ARGS>
-        <ARG type="Event" value="ë3"/>
-        <ARG type="ThemRole" value="?Theme"/>
-        <ARG type="ThemRole" value="?Trajectory"/>
-       </ARGS>
-      </PRED>
-      <PRED bool="!" value="has_location">
-       <ARGS>
-        <ARG type="Event" value="ë3"/>
-        <ARG type="ThemRole" value="?Theme"/>
-        <ARG type="ThemRole" value="?Initial_Location"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_location">
-       <ARGS>
-        <ARG type="Event" value="e4"/>
-        <ARG type="ThemRole" value="?Theme"/>
-        <ARG type="ThemRole" value="Destination"/>
-       </ARGS>
-      </PRED>
-      <PRED value="cause">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="Event" value="ë3"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS>
+<!--individual verbs will each add a "use" predicate-->
+<MEMBER name="file" wn="file%2:35:00" grouping="file.02" fn_mapping="None" verbnet_key="file#6" features="None"/>
+<MEMBER name="filter" wn="filter%2:35:00" grouping="filter.01" fn_mapping="None" verbnet_key="filter#1" features="None"/>
+<MEMBER name="hoover" wn="hoover%2:35:00" grouping="" fn_mapping="None" verbnet_key="hoover#1" features="None"/>
+<MEMBER name="iron" wn="iron%2:35:00" grouping="" fn_mapping="None" verbnet_key="iron#2" features="None"/>
+<MEMBER name="plough" wn="plough%2:36:00" grouping="" fn_mapping="None" verbnet_key="plough#1" features="None"/>
+<MEMBER name="sandpaper" wn="sandpaper%2:35:00" grouping="" fn_mapping="None" verbnet_key="sandpaper#1" features="None"/>
+<MEMBER name="sponge" wn="sponge%2:35:00 sponge%2:35:01" grouping="" fn_mapping="None" verbnet_key="sponge#2" features="None"/>
+<MEMBER name="squeegee" wn="squeegee%2:35:00" grouping="" fn_mapping="None" verbnet_key="squeegee#1" features="None"/>
+<MEMBER name="towel" wn="towel%2:35:00" grouping="" fn_mapping="None" verbnet_key="towel#2" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<!--Instrument is realized in the verb; when it appears explicitly in a with-PP, it is further constrained by the specific verb-->
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="machine"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete"/>
+<SELRESTR Value="-" type="animate"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Initial_Location">
+<SELRESTRS>
+<SELRESTR Value="+" type="location"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Destination">
+<SELRESTRS>
+<SELRESTR Value="+" type="location"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Instrument">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete"/>
+<SELRESTR Value="-" type="animate"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Result">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Carla shoveled the snow from the walk.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="src"/>
+</SELRESTRS>
+</PREP>
+<NP value="Initial_Location">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="VerbSpecific" value="V_Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Destination"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP-PP; Initial_Location-PP, Destination-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Carla shoveled the snow from the sidewalk into the street.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="src"/>
+</SELRESTRS>
+</PREP>
+<NP value="Initial_Location">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="dest_dir"/>
+</SELRESTRS>
+</PREP>
+<NP value="Destination">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="VerbSpecific" value="V_Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Destination"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP.initial_location" secondary="Transitive; Initial_Location Object" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+Carla shoveled the walk.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Initial_Location">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="VerbSpecific" value="V_Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="PredSpecific" value="Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Destination"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="1.2.1" primary="NP V" secondary="Unspecified Object" xtag=""/>
+<!-- Theme comes from the verb (wrinkles, liquid, snow/dirt, dust)-->
+<!-- Note: But at the end of an "iron" event, does it make sense that the wrinkles are not located at the initial_location?  Maybe?-->
+<EXAMPLES>
+<EXAMPLE>
+Carla vacuumed.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="VerbSpecific" value="V_Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Destination"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP-Result" secondary="NP-ADJP; Resultative" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Carla shoveled the walk clean.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Initial_Location">
+<SYNRESTRS/>
+</NP>
+<NP value="Result">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="VerbSpecific" value="V_Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="Initial_Location"/>
+<ARG type="ThemRole" value="Result"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Destination"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="wipe_instr-10.4.2-1">
+<MEMBERS>
+<MEMBER name="brush" wn="brush%2:35:01 brush%2:35:02 brush%2:30:00" grouping="brush.01" fn_mapping="Grooming" verbnet_key="brush#5" features="None"/>
+<MEMBER name="comb" wn="?comb%2:29:00" grouping="comb.01" fn_mapping="None" verbnet_key="comb#3" features="None"/>
+<MEMBER name="hose" wn="hose%2:30:00" grouping="" fn_mapping="None" verbnet_key="hose#1" features="None"/>
+<MEMBER name="mop" wn="mop%2:35:01" grouping="" fn_mapping="None" verbnet_key="mop#1" features="None"/>
+<MEMBER name="plow" wn="plow%2:36:00" grouping="plow.01 plow.03" fn_mapping="None" verbnet_key="plow#1" features="None"/>
+<MEMBER name="rake" wn="rake%2:35:01 rake%2:35:00" grouping="rake.01 rake.02" fn_mapping="None" verbnet_key="rake#3" features="None"/>
+<MEMBER name="shear" wn="shear%2:35:00 shear%2:35:02 shear%2:35:01" grouping="" fn_mapping="None" verbnet_key="shear#1" features="None"/>
+<MEMBER name="shovel" wn="shovel%2:35:00" grouping="" fn_mapping="None" verbnet_key="shovel#2" features="None"/>
+<MEMBER name="siphon" wn="siphon%2:38:00" grouping="siphon.01 siphon.02" fn_mapping="None" verbnet_key="siphon#2" features="None"/>
+<MEMBER name="vacuum" wn="vacuum%2:35:00" grouping="" fn_mapping="None" verbnet_key="vacuum#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+He plowed the snow back into the ditch.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS>
+<SELRESTR Value="+" type="dest_conf"/>
+</SELRESTRS>
+</PREP>
+<NP value="Destination">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="VerbSpecific" value="V_Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="motion">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Trajectory"/>
+</ARGS>
+</PRED>
+<PRED bool="!" value="has_location">
+<ARGS>
+<ARG type="Event" value="ë3"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="?Initial_Location"/>
+</ARGS>
+</PRED>
+<PRED value="has_location">
+<ARGS>
+<ARG type="Event" value="e4"/>
+<ARG type="ThemRole" value="?Theme"/>
+<ARG type="ThemRole" value="Destination"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="ë3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

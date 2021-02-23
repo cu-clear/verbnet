@@ -1,150 +1,150 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="reject-77.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="decline" verbnet_key="decline#2" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="rebuff" verbnet_key="rebuff#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="refuse" verbnet_key="refuse#1" wn=""/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="turn-down" verbnet_key="turn-down#1" wn=""/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I turned down the offer.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="approve">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I discouraged their writing novels.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="poss_ing"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="approve">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="reject-77.2-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="discourage.02" name="discourage" verbnet_key="discourage#3" wn="discourage%2:32:01 discourage%2:37:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="dismiss" verbnet_key="dismiss#3" wn=""/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="disparage" verbnet_key="disparage#2" wn=""/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="disprefer" verbnet_key="disprefer#1" wn=""/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="pooh_pooh" verbnet_key="pooh_pooh#1" wn=""/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="reject" verbnet_key="reject#1" wn=""/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V how S" secondary="HOW-S" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I reject how you explain it.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="how_extract"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED bool="!" value="approve">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I rejected what they were doing.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="what_extract"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED bool="!" value="approve">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS>
+<MEMBER name="decline" wn="" grouping="" fn_mapping="None" verbnet_key="decline#2" features="None"/>
+<MEMBER name="rebuff" wn="" grouping="" fn_mapping="None" verbnet_key="rebuff#1" features="None"/>
+<MEMBER name="refuse" wn="" grouping="" fn_mapping="None" verbnet_key="refuse#1" features="None"/>
+<MEMBER name="turn-down" wn="" grouping="" fn_mapping="None" verbnet_key="turn-down#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I turned down the offer.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="-" type="sentential"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="approve">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I discouraged their writing novels.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="poss_ing"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="approve">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="reject-77.2-1">
+<MEMBERS>
+<MEMBER name="discourage" wn="discourage%2:32:01 discourage%2:37:00" grouping="discourage.02" fn_mapping="None" verbnet_key="discourage#3" features="None"/>
+<MEMBER name="dismiss" wn="" grouping="" fn_mapping="None" verbnet_key="dismiss#3" features="None"/>
+<MEMBER name="disparage" wn="" grouping="" fn_mapping="None" verbnet_key="disparage#2" features="None"/>
+<MEMBER name="disprefer" wn="" grouping="" fn_mapping="None" verbnet_key="disprefer#1" features="None"/>
+<MEMBER name="pooh_pooh" wn="" grouping="" fn_mapping="None" verbnet_key="pooh_pooh#1" features="None"/>
+<MEMBER name="reject" wn="" grouping="" fn_mapping="None" verbnet_key="reject#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V how S" secondary="HOW-S" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I reject how you explain it.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="how_extract"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="approve">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I rejected what they were doing.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="what_extract"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="approve">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

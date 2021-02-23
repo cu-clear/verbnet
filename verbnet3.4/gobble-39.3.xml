@@ -1,154 +1,154 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="gobble-39.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="+liquid" fn_mapping="None" grouping="" name="gulp" verbnet_key="gulp#1" wn="gulp%2:34:01"/>
-  <MEMBER features="+liquid" fn_mapping="None" grouping="" name="guzzle" verbnet_key="guzzle#1" wn="guzzle%2:34:00"/>
-  <MEMBER features="+liquid" fn_mapping="None" grouping="" name="quaff" verbnet_key="quaff#1" wn="quaff%2:34:00"/>
-  <MEMBER features="+liquid" fn_mapping="None" grouping="" name="slug" verbnet_key="slug#1" wn=""/>
-  <MEMBER features="+substance" fn_mapping="None" grouping="swallow.01" name="swallow" verbnet_key="swallow#1" wn="swallow%2:34:00"/>
-  <MEMBER features="+liquid" fn_mapping="None" grouping="" name="swig" verbnet_key="swig#1" wn="swig%2:34:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="animate"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Patient">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="comestible"/>
-   </SELRESTRS>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Cynthia gobbled the pizza.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="take_in">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Patient"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="Event" value="e2"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V NP down" secondary="NP-PART; down" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Cynthia gobbled the pizza down.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Patient">
-     <SYNRESTRS/>
-    </NP>
-    <LEX value="down"/>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="take_in">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Patient"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="Event" value="e2"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="gobble-39.3-1">
-   <MEMBERS>
-    <MEMBER features="+solid" fn_mapping="None" grouping="bolt.03" name="bolt" verbnet_key="bolt#2" wn="bolt%2:34:01 bolt%2:34:00"/>
-    <MEMBER features="+solid" fn_mapping="None" grouping="" name="gobble" verbnet_key="gobble#2" wn="gobble%2:34:00"/>
-    <MEMBER features="+solid" fn_mapping="None" grouping="" name="wolf" verbnet_key="wolf#1" wn="wolf%2:34:00"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="" primary="NP V NP up" secondary="NP-PART; up" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       Cynthia gobbled the pizza up.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Patient">
-       <SYNRESTRS/>
-      </NP>
-      <LEX value="up"/>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="do">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED value="take_in">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Patient"/>
-       </ARGS>
-      </PRED>
-      <PRED value="cause">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="Event" value="e2"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS>
+<MEMBER name="gulp" wn="gulp%2:34:01" grouping="" fn_mapping="None" verbnet_key="gulp#1" features="+liquid"/>
+<MEMBER name="guzzle" wn="guzzle%2:34:00" grouping="" fn_mapping="None" verbnet_key="guzzle#1" features="+liquid"/>
+<MEMBER name="quaff" wn="quaff%2:34:00" grouping="" fn_mapping="None" verbnet_key="quaff#1" features="+liquid"/>
+<MEMBER name="slug" wn="" grouping="" fn_mapping="None" verbnet_key="slug#1" features="+liquid"/>
+<MEMBER name="swallow" wn="swallow%2:34:00" grouping="swallow.01" fn_mapping="None" verbnet_key="swallow#1" features="+substance"/>
+<MEMBER name="swig" wn="swig%2:34:00" grouping="" fn_mapping="None" verbnet_key="swig#1" features="+liquid"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS>
+<SELRESTR Value="+" type="animate"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Patient">
+<SELRESTRS>
+<SELRESTR Value="+" type="comestible"/>
+</SELRESTRS>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Cynthia gobbled the pizza.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="take_in">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Patient"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="Event" value="e2"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V NP down" secondary="NP-PART; down" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Cynthia gobbled the pizza down.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+<LEX value="down"/>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="take_in">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Patient"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="Event" value="e2"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="gobble-39.3-1">
+<MEMBERS>
+<MEMBER name="bolt" wn="bolt%2:34:01 bolt%2:34:00" grouping="bolt.03" fn_mapping="None" verbnet_key="bolt#2" features="+solid"/>
+<MEMBER name="gobble" wn="gobble%2:34:00" grouping="" fn_mapping="None" verbnet_key="gobble#2" features="+solid"/>
+<MEMBER name="wolf" wn="wolf%2:34:00" grouping="" fn_mapping="None" verbnet_key="wolf#1" features="+solid"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="" primary="NP V NP up" secondary="NP-PART; up" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Cynthia gobbled the pizza up.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Patient">
+<SYNRESTRS/>
+</NP>
+<LEX value="up"/>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="take_in">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Patient"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="Event" value="e2"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

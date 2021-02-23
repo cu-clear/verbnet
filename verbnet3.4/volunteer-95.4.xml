@@ -1,466 +1,466 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="volunteer-95.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="offer.03" name="offer" verbnet_key="offer#3" wn="offer%2:41:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="animate"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Pivot">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="animate"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Attribute">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Beneficiary">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP" secondary="NP-PP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     John volunteered my sister for the task.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Pivot">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="for">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Pivot"/>
-      <ARG type="ThemRole" value="?Attribute"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Pivot"/>
-      <ARG type="ThemRole" value="?Attribute"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="work">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Pivot"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="irrealis">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP" secondary="NP-PP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     John volunteered my sister as treasurer.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Pivot">
-     <SYNRESTRS/>
-    </NP>
-    <PREP value="as">
-     <SELRESTRS/>
-    </PREP>
-    <NP value="Attribute">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Pivot"/>
-      <ARG type="ThemRole" value="Attribute"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Pivot"/>
-      <ARG type="ThemRole" value="Attribute"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="work">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Pivot"/>
-      <ARG type="ThemRole" value="?Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="irrealis">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="Transitive; S_INF" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I volunteered to run the workshop.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Attribute"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="has_organization_role">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Attribute"/>
-      <ARG type="ThemRole" value="?Beneficiary"/>
-     </ARGS>
-    </PRED>
-    <PRED value="work">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-    <PRED value="irrealis">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="volunteer-95.4-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="enlist.01" name="enlist" verbnet_key="enlist#2" wn="enlist%2:40:00"/>
-    <MEMBER features="None" fn_mapping="Get_a_job" grouping="" name="hire_on" verbnet_key="hire_on#1" wn=""/>
-    <MEMBER features="None" fn_mapping="Get_a_job" grouping="" name="sign_on" verbnet_key="sign_on#1" wn="sign_on%2:41:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="" name="sign_up" verbnet_key="sign_up#2" wn="sign_up%2:33:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="volunteer.03" name="volunteer" verbnet_key="volunteer#3" wn="volunteer%2:41:00"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.attribute" secondary="Transitive;as-Attribute" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       John volunteered as a workshop coordinator.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="as">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Attribute">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED bool="!" value="has_organization_role">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Attribute"/>
-        <ARG type="ThemRole" value="?Beneficiary"/>
-       </ARGS>
-      </PRED>
-      <PRED value="do">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_organization_role">
-       <ARGS>
-        <ARG type="Event" value="e3"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Attribute"/>
-        <ARG type="ThemRole" value="?Beneficiary"/>
-       </ARGS>
-      </PRED>
-      <PRED value="work">
-       <ARGS>
-        <ARG type="Event" value="e3"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="?Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="cause">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="Event" value="e3"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="PP" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I volunteered for the task.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="for">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED bool="!" value="has_organization_role">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="?Attribute"/>
-        <ARG type="ThemRole" value="?Beneficiary"/>
-       </ARGS>
-      </PRED>
-      <PRED value="do">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_organization_role">
-       <ARGS>
-        <ARG type="Event" value="e3"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="?Attribute"/>
-        <ARG type="ThemRole" value="?Beneficiary"/>
-       </ARGS>
-      </PRED>
-      <PRED value="work">
-       <ARGS>
-        <ARG type="Event" value="e3"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="cause">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="Event" value="e3"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.beneficiary" secondary="PP" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I volunteered with the Red Cross.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="with in for">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Beneficiary">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED bool="!" value="has_organization_role">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="?Attribute"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-       </ARGS>
-      </PRED>
-      <PRED value="do">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_organization_role">
-       <ARGS>
-        <ARG type="Event" value="e3"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="?Attribute"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-       </ARGS>
-      </PRED>
-      <PRED value="work">
-       <ARGS>
-        <ARG type="Event" value="e3"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="?Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="cause">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="Event" value="e3"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.beneficiary" secondary="PP" xtag="0.2"/>
-     <EXAMPLES>
-      <EXAMPLE>
-       I volunteered my sister with the Red Cross.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Pivot">
-       <SYNRESTRS/>
-      </NP>
-      <PREP value="with in for">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Beneficiary">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED bool="!" value="has_organization_role">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Pivot"/>
-        <ARG type="ThemRole" value="?Attribute"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-       </ARGS>
-      </PRED>
-      <PRED value="do">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED value="has_organization_role">
-       <ARGS>
-        <ARG type="Event" value="e3"/>
-        <ARG type="ThemRole" value="Pivot"/>
-        <ARG type="ThemRole" value="?Attribute"/>
-        <ARG type="ThemRole" value="Beneficiary"/>
-       </ARGS>
-      </PRED>
-      <PRED value="work">
-       <ARGS>
-        <ARG type="Event" value="e3"/>
-        <ARG type="ThemRole" value="Pivot"/>
-        <ARG type="ThemRole" value="?Theme"/>
-       </ARGS>
-      </PRED>
-      <PRED value="cause">
-       <ARGS>
-        <ARG type="Event" value="e2"/>
-        <ARG type="Event" value="e3"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS>
+<MEMBER name="offer" wn="offer%2:41:00" grouping="offer.03" fn_mapping="None" verbnet_key="offer#3" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS>
+<SELRESTR Value="+" type="animate"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Pivot">
+<SELRESTRS>
+<SELRESTR Value="+" type="animate"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Attribute">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Beneficiary">
+<SELRESTRS>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP" secondary="NP-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+John volunteered my sister for the task.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Pivot">
+<SYNRESTRS/>
+</NP>
+<PREP value="for">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+<PRED value="irrealis">
+<ARGS>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP" secondary="NP-PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+John volunteered my sister as treasurer.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Pivot">
+<SYNRESTRS/>
+</NP>
+<PREP value="as">
+<SELRESTRS/>
+</PREP>
+<NP value="Attribute">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+<PRED value="irrealis">
+<ARGS>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="Transitive; S_INF" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I volunteered to run the workshop.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+<PRED value="irrealis">
+<ARGS>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="volunteer-95.4-1">
+<MEMBERS>
+<MEMBER name="enlist" wn="enlist%2:40:00" grouping="enlist.01" fn_mapping="None" verbnet_key="enlist#2" features="None"/>
+<MEMBER name="hire_on" wn="" grouping="" fn_mapping="Get_a_job" verbnet_key="hire_on#1" features="None"/>
+<MEMBER name="sign_on" wn="sign_on%2:41:00" grouping="" fn_mapping="Get_a_job" verbnet_key="sign_on#1" features="None"/>
+<MEMBER name="sign_up" wn="sign_up%2:33:00" grouping="" fn_mapping="None" verbnet_key="sign_up#2" features="None"/>
+<MEMBER name="volunteer" wn="volunteer%2:41:00" grouping="volunteer.03" fn_mapping="None" verbnet_key="volunteer#3" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.attribute" secondary="Transitive;as-Attribute" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+John volunteered as a workshop coordinator.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="as">
+<SELRESTRS/>
+</PREP>
+<NP value="Attribute">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I volunteered for the task.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="for">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="?Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Theme"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.beneficiary" secondary="PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I volunteered with the Red Cross.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="with in for">
+<SELRESTRS/>
+</PREP>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.beneficiary" secondary="PP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I volunteered my sister with the Red Cross.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Pivot">
+<SYNRESTRS/>
+</NP>
+<PREP value="with in for">
+<SELRESTRS/>
+</PREP>
+<NP value="Beneficiary">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="ThemRole" value="Agent"/>
+</ARGS>
+</PRED>
+<PRED value="has_organization_role">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="?Attribute"/>
+<ARG type="ThemRole" value="Beneficiary"/>
+</ARGS>
+</PRED>
+<PRED value="work">
+<ARGS>
+<ARG type="Event" value="e3"/>
+<ARG type="ThemRole" value="Pivot"/>
+<ARG type="ThemRole" value="?Theme"/>
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e2"/>
+<ARG type="Event" value="e3"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

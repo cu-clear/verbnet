@@ -1,621 +1,621 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="cooking-45.3" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  
-  <MEMBER features="+bake" fn_mapping="Cooking_creation" grouping="bake.01" name="bake" verbnet_key="bake#2" wn="bake%2:30:00 bake%2:36:00" />
-  <MEMBER features="+barbecue" fn_mapping="None" grouping="" name="barbecue" verbnet_key="barbecue#1" wn="barbecue%2:30:00" />
-  <MEMBER features="+barbecue" fn_mapping="None" grouping="" name="barbeque" verbnet_key="barbeque#1" wn="barbeque%2:30:00" />
-  <MEMBER features="+prepare" fn_mapping="None" grouping="" name="blanch" verbnet_key="blanch#2" wn="blanch%2:30:00" />
-  <MEMBER features="+boil" fn_mapping="Apply_heat" grouping="boil.01 boil.02" name="boil" verbnet_key="boil#1" wn="boil%2:30:01 boil%2:30:00" />
-  <MEMBER features="+stew" fn_mapping="None" grouping="" name="braise" verbnet_key="braise#1" wn="braise%2:30:00" />
-  <MEMBER features="+roast" fn_mapping="Apply_heat" grouping="broil.01" name="broil" verbnet_key="broil#1" wn="broil%2:30:00" />
-  <MEMBER features="+brown" fn_mapping="Apply_heat" grouping="brown.01" name="brown" verbnet_key="brown#1" wn="brown%2:30:00" />
-  <MEMBER features="+brown" fn_mapping="None" grouping="" name="caramelize" verbnet_key="caramelize#1" wn="caramelize%2:30:01 caramelize%2:30:00" />
-  <MEMBER features="+roast" fn_mapping="None" grouping="" name="char" verbnet_key="char#1" wn="" />
-  <MEMBER features="+roast" fn_mapping="None" grouping="" name="charbroil" verbnet_key="charbroil#1" wn="" />
-  <MEMBER features="+roast" fn_mapping="None" grouping="" name="charcoal-broil" verbnet_key="charcoal-broil#1" wn="" />
-  <MEMBER features="+boil" fn_mapping="None" grouping="" name="coddle" verbnet_key="coddle#1" wn="coddle%2:30:00" />
-  <MEMBER features="None" fn_mapping="Apply_heat" grouping="cook.01" name="cook" verbnet_key="cook#2" wn="cook%2:36:00 cook%2:30:00" />
-  <MEMBER features="None" fn_mapping="None" grouping="" name="crisp" verbnet_key="crisp#1" wn="crisp%2:30:00" />
-  <MEMBER features="+fry" fn_mapping="None" grouping="" name="deep-fry" verbnet_key="deep-fry#1" wn="deep-fry%2:30:00" />
-  <MEMBER features="+fry" fn_mapping="None" grouping="" name="french-fry" verbnet_key="french-fry#1" wn="french-fry%2:30:00" />
-  <MEMBER features="+fry" fn_mapping="Apply_heat" grouping="fry.02" name="fry" verbnet_key="fry#1" wn="fry%2:30:00" />
-  <MEMBER features="+barbecue" fn_mapping="Apply_heat" grouping="grill.01" name="grill" verbnet_key="grill#1" wn="grill%2:30:00" />
-  <MEMBER features="+boil" fn_mapping="None" grouping="" name="hardboil" verbnet_key="hardboil#1" wn="" />
-  <MEMBER features="+heat" fn_mapping="Cause_temperature_change" grouping="heat.01" name="heat" verbnet_key="heat#1" wn="heat%2:30:01 heat%2:30:00" />
-  <MEMBER features="+heat" fn_mapping="None" grouping="" name="microwave" verbnet_key="microwave#1" wn="microwave%2:30:00" />
-  <MEMBER features="+fry" fn_mapping="None" grouping="" name="oven-fry" verbnet_key="oven-fry#1" wn="" />
-  <MEMBER features="+boil" fn_mapping="None" grouping="" name="oven-poach" verbnet_key="oven-poach#1" wn="" />
-  <MEMBER features="+bake" fn_mapping="None" grouping="" name="overbake" verbnet_key="overbake#1" wn="" />
-  <MEMBER features="None" fn_mapping="None" grouping="" name="overcook" verbnet_key="overcook#1" wn="overcook%2:30:00" />
-  <MEMBER features="+heat" fn_mapping="None" grouping="" name="overheat" verbnet_key="overheat#1" wn="" />
-  <MEMBER features="+fry" fn_mapping="None" grouping="" name="pan-broil" verbnet_key="pan-broil#1" wn="pan-broil%2:30:00" />
-  <MEMBER features="+fry" fn_mapping="None" grouping="" name="pan-fry" verbnet_key="pan-fry#1" wn="pan-fry%2:30:00" />
-  <MEMBER features="+boil" fn_mapping="None" grouping="" name="parboil" verbnet_key="parboil#1" wn="parboil%2:30:00" />
-  <MEMBER features="+heat" fn_mapping="None" grouping="" name="parch" verbnet_key="parch#1" wn="" />
-  <MEMBER features="+prepare" fn_mapping="None" grouping="" name="percolate" verbnet_key="percolate#1" wn="percolate%2:35:03" />
-  <MEMBER features="+prepare" fn_mapping="None" grouping="" name="perk" verbnet_key="perk#1" wn="" />
-  <MEMBER features="+prepare" fn_mapping="None" grouping="" name="pickle" verbnet_key="pickle#1" wn="pickle%2:30:00" />
-  <MEMBER features="+barbecue" fn_mapping="None" grouping="" name="plank" verbnet_key="plank#2" wn="plank%2:34:00" />
-  <MEMBER features="+boil" fn_mapping="None" grouping="" name="poach" verbnet_key="poach#1" wn="poach%2:30:00" />
-  <MEMBER features="+roast" fn_mapping="None" grouping="" name="pot-roast" verbnet_key="pot-roast#1" wn="" />
-  <MEMBER features="+heat" fn_mapping="None" grouping="" name="reheat" verbnet_key="reheat#1" wn="" />
-  <MEMBER features="+fry" fn_mapping="None" grouping="" name="rissole" verbnet_key="rissole#1" wn="" />
-  <MEMBER features="+roast" fn_mapping="Apply_heat" grouping="roast.01" name="roast" verbnet_key="roast#1" wn="roast%2:30:00" />
-  <MEMBER features="+fry" fn_mapping="None" grouping="" name="saute" verbnet_key="saute#1" wn="saute%2:30:00" />
-  <MEMBER features="+boil" fn_mapping="Apply_heat" grouping="scald.01" name="scald" verbnet_key="scald#1" wn="scald%2:30:00" />
-  <MEMBER features="+bake" fn_mapping="None" grouping="" name="scallop" verbnet_key="scallop#1" wn="" />
-  <MEMBER features="+brown" fn_mapping="None" grouping="" name="sear" verbnet_key="sear#1" wn="" />
-  <MEMBER features="+bake" fn_mapping="None" grouping="" name="shirr" verbnet_key="shirr#1" wn="shirr%2:30:00" />
-  <MEMBER features="None" fn_mapping="Apply_heat" grouping="simmer.01" name="simmer" verbnet_key="simmer#1" wn="simmer%2:30:00" />
-  <MEMBER features="+boil" fn_mapping="None" grouping="" name="softboil" verbnet_key="softboil#1" wn="" />
-  <MEMBER features="None" fn_mapping="None" grouping="steam.03" name="steam" verbnet_key="steam#1" wn="steam%2:30:00" />
-  <MEMBER features="+bake" fn_mapping="None" grouping="" name="steam-bake" verbnet_key="steam-bake#1" wn="" />
-  <MEMBER features="+prepare" fn_mapping="None" grouping="" name="steep" verbnet_key="steep#1" wn="" />
-  <MEMBER features="+stew" fn_mapping="Absorb_heat" grouping="stew.02" name="stew" verbnet_key="stew#1" wn="stew%2:30:00" />
-  <MEMBER features="+fry" fn_mapping="None" grouping="" name="stir-fry" verbnet_key="stir-fry#1" wn="stir_fry%2:30:00" />
-  <MEMBER features="+heat" fn_mapping="None" grouping="" name="toast" verbnet_key="toast#1" wn="toast%2:30:00" />
-  <MEMBER features="+heat" fn_mapping="Cause_of_temperature" grouping="" name="warm_up" verbnet_key="warm_up#1" wn="" />
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="animate" />
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Patient">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="concrete" />
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Instrument">
-   <SELRESTRS>
-    <SELRESTR Value="+" type="solid" />
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Result">
-   <SELRESTRS />
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic Transitive; Causative" xtag="0.2" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Jennifer baked the potatoes.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Patient">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="apply_heat">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="Event" value="e4" />
-     </ARGS>
-    </PRED>
-    <PRED value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Jennifer baked the potatoes in the oven.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Patient">
-     <SYNRESTRS />
-    </NP>
-    <PREP value="in on with">
-     <SELRESTRS />
-    </PREP>
-    <NP value="Instrument">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-      <ARG type="ThemRole" value="Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="apply_heat">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="Event" value="e4" />
-     </ARGS>
-    </PRED>
-    <PRED value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="Intransitive; Inchoative" xtag="0.1" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The potatoes baked.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Patient">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="?Agent" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="apply_heat">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The Idaho potatoes baked beautifully.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Patient">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <ADV />
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="?Agent" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="apply_heat">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The oven baked the potatoes.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Instrument">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Patient">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="?Agent" />
-      <ARG type="ThemRole" value="Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="apply_heat">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Jennifer baked the potatoes to a crisp.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Patient">
-     <SYNRESTRS />
-    </NP>
-    <PREP value="to into">
-     <SELRESTRS />
-    </PREP>
-    <NP value="Result">
-     <SELRESTRS>
-      <SELRESTR Value="+" type="state" />
-     </SELRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="apply_heat">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="Event" value="e4" />
-     </ARGS>
-    </PRED>
-    <PRED value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="Result" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Jennifer baked the potatoes to a crisp in the oven.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <NP value="Patient">
-     <SYNRESTRS />
-    </NP>
-    <PREP value="to into">
-     <SELRESTRS />
-    </PREP>
-    <NP value="Result">
-     <SELRESTRS>
-      <SELRESTR Value="+" type="state" />
-     </SELRESTRS>
-    </NP>
-    <PREP value="in on with">
-     <SELRESTRS />
-    </PREP>
-    <NP value="Instrument">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="do">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="Agent" />
-      <ARG type="ThemRole" value="Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="apply_heat">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="cause">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="Event" value="e4" />
-     </ARGS>
-    </PRED>
-    <PRED value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="Result" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.result" secondary="PP; Result-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     The potatoes baked to a crisp.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Patient">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <PREP value="to into">
-     <SELRESTRS />
-    </PREP>
-    <NP value="Result">
-     <SELRESTRS>
-      <SELRESTR Value="+" type="state" />
-     </SELRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="?Agent" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="apply_heat">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="?Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="Result" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.result PP.instrument" secondary="PP-PP; Result-PP, Instrument-PP" xtag="" />
-   <EXAMPLES>
-    <EXAMPLE>
-     Potatoes bake to a crisp in the oven.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Patient">
-     <SYNRESTRS />
-    </NP>
-    <VERB />
-    <PREP value="to into">
-     <SELRESTRS />
-    </PREP>
-    <NP value="Result">
-     <SELRESTRS>
-      <SELRESTR Value="+" type="state" />
-     </SELRESTRS>
-    </NP>
-    <PREP value="in on with">
-     <SELRESTRS />
-    </PREP>
-    <NP value="Instrument">
-     <SYNRESTRS />
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e1" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e2" />
-      <ARG type="ThemRole" value="?Agent" />
-      <ARG type="ThemRole" value="Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="apply_heat">
-     <ARGS>
-      <ARG type="Event" value="e3" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="Instrument" />
-     </ARGS>
-    </PRED>
-    <PRED value="cooked">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="VerbSpecific" value="V_Final_State" />
-     </ARGS>
-    </PRED>
-    <PRED value="has_state">
-     <ARGS>
-      <ARG type="Event" value="e4" />
-      <ARG type="ThemRole" value="Patient" />
-      <ARG type="ThemRole" value="Result" />
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES />
+<MEMBERS>
+
+<MEMBER name="bake" wn="bake%2:30:00 bake%2:36:00" grouping="bake.01" fn_mapping="Cooking_creation" verbnet_key="bake#2" features="+bake"/>
+<MEMBER name="barbecue" wn="barbecue%2:30:00" grouping="" fn_mapping="None" verbnet_key="barbecue#1" features="+barbecue"/>
+<MEMBER name="barbeque" wn="barbeque%2:30:00" grouping="" fn_mapping="None" verbnet_key="barbeque#1" features="+barbecue"/>
+<MEMBER name="blanch" wn="blanch%2:30:00" grouping="" fn_mapping="None" verbnet_key="blanch#2" features="+prepare"/>
+<MEMBER name="boil" wn="boil%2:30:01 boil%2:30:00" grouping="boil.01 boil.02" fn_mapping="Apply_heat" verbnet_key="boil#1" features="+boil"/>
+<MEMBER name="braise" wn="braise%2:30:00" grouping="" fn_mapping="None" verbnet_key="braise#1" features="+stew"/>
+<MEMBER name="broil" wn="broil%2:30:00" grouping="broil.01" fn_mapping="Apply_heat" verbnet_key="broil#1" features="+roast"/>
+<MEMBER name="brown" wn="brown%2:30:00" grouping="brown.01" fn_mapping="Apply_heat" verbnet_key="brown#1" features="+brown"/>
+<MEMBER name="caramelize" wn="caramelize%2:30:01 caramelize%2:30:00" grouping="" fn_mapping="None" verbnet_key="caramelize#1" features="+brown"/>
+<MEMBER name="char" wn="" grouping="" fn_mapping="None" verbnet_key="char#1" features="+roast"/>
+<MEMBER name="charbroil" wn="" grouping="" fn_mapping="None" verbnet_key="charbroil#1" features="+roast"/>
+<MEMBER name="charcoal-broil" wn="" grouping="" fn_mapping="None" verbnet_key="charcoal-broil#1" features="+roast"/>
+<MEMBER name="coddle" wn="coddle%2:30:00" grouping="" fn_mapping="None" verbnet_key="coddle#1" features="+boil"/>
+<MEMBER name="cook" wn="cook%2:36:00 cook%2:30:00" grouping="cook.01" fn_mapping="Apply_heat" verbnet_key="cook#2" features="None"/>
+<MEMBER name="crisp" wn="crisp%2:30:00" grouping="" fn_mapping="None" verbnet_key="crisp#1" features="None"/>
+<MEMBER name="deep-fry" wn="deep-fry%2:30:00" grouping="" fn_mapping="None" verbnet_key="deep-fry#1" features="+fry"/>
+<MEMBER name="french-fry" wn="french-fry%2:30:00" grouping="" fn_mapping="None" verbnet_key="french-fry#1" features="+fry"/>
+<MEMBER name="fry" wn="fry%2:30:00" grouping="fry.02" fn_mapping="Apply_heat" verbnet_key="fry#1" features="+fry"/>
+<MEMBER name="grill" wn="grill%2:30:00" grouping="grill.01" fn_mapping="Apply_heat" verbnet_key="grill#1" features="+barbecue"/>
+<MEMBER name="hardboil" wn="" grouping="" fn_mapping="None" verbnet_key="hardboil#1" features="+boil"/>
+<MEMBER name="heat" wn="heat%2:30:01 heat%2:30:00" grouping="heat.01" fn_mapping="Cause_temperature_change" verbnet_key="heat#1" features="+heat"/>
+<MEMBER name="microwave" wn="microwave%2:30:00" grouping="" fn_mapping="None" verbnet_key="microwave#1" features="+heat"/>
+<MEMBER name="oven-fry" wn="" grouping="" fn_mapping="None" verbnet_key="oven-fry#1" features="+fry"/>
+<MEMBER name="oven-poach" wn="" grouping="" fn_mapping="None" verbnet_key="oven-poach#1" features="+boil"/>
+<MEMBER name="overbake" wn="" grouping="" fn_mapping="None" verbnet_key="overbake#1" features="+bake"/>
+<MEMBER name="overcook" wn="overcook%2:30:00" grouping="" fn_mapping="None" verbnet_key="overcook#1" features="None"/>
+<MEMBER name="overheat" wn="" grouping="" fn_mapping="None" verbnet_key="overheat#1" features="+heat"/>
+<MEMBER name="pan-broil" wn="pan-broil%2:30:00" grouping="" fn_mapping="None" verbnet_key="pan-broil#1" features="+fry"/>
+<MEMBER name="pan-fry" wn="pan-fry%2:30:00" grouping="" fn_mapping="None" verbnet_key="pan-fry#1" features="+fry"/>
+<MEMBER name="parboil" wn="parboil%2:30:00" grouping="" fn_mapping="None" verbnet_key="parboil#1" features="+boil"/>
+<MEMBER name="parch" wn="" grouping="" fn_mapping="None" verbnet_key="parch#1" features="+heat"/>
+<MEMBER name="percolate" wn="percolate%2:35:03" grouping="" fn_mapping="None" verbnet_key="percolate#1" features="+prepare"/>
+<MEMBER name="perk" wn="" grouping="" fn_mapping="None" verbnet_key="perk#1" features="+prepare"/>
+<MEMBER name="pickle" wn="pickle%2:30:00" grouping="" fn_mapping="None" verbnet_key="pickle#1" features="+prepare"/>
+<MEMBER name="plank" wn="plank%2:34:00" grouping="" fn_mapping="None" verbnet_key="plank#2" features="+barbecue"/>
+<MEMBER name="poach" wn="poach%2:30:00" grouping="" fn_mapping="None" verbnet_key="poach#1" features="+boil"/>
+<MEMBER name="pot-roast" wn="" grouping="" fn_mapping="None" verbnet_key="pot-roast#1" features="+roast"/>
+<MEMBER name="reheat" wn="" grouping="" fn_mapping="None" verbnet_key="reheat#1" features="+heat"/>
+<MEMBER name="rissole" wn="" grouping="" fn_mapping="None" verbnet_key="rissole#1" features="+fry"/>
+<MEMBER name="roast" wn="roast%2:30:00" grouping="roast.01" fn_mapping="Apply_heat" verbnet_key="roast#1" features="+roast"/>
+<MEMBER name="saute" wn="saute%2:30:00" grouping="" fn_mapping="None" verbnet_key="saute#1" features="+fry"/>
+<MEMBER name="scald" wn="scald%2:30:00" grouping="scald.01" fn_mapping="Apply_heat" verbnet_key="scald#1" features="+boil"/>
+<MEMBER name="scallop" wn="" grouping="" fn_mapping="None" verbnet_key="scallop#1" features="+bake"/>
+<MEMBER name="sear" wn="" grouping="" fn_mapping="None" verbnet_key="sear#1" features="+brown"/>
+<MEMBER name="shirr" wn="shirr%2:30:00" grouping="" fn_mapping="None" verbnet_key="shirr#1" features="+bake"/>
+<MEMBER name="simmer" wn="simmer%2:30:00" grouping="simmer.01" fn_mapping="Apply_heat" verbnet_key="simmer#1" features="None"/>
+<MEMBER name="softboil" wn="" grouping="" fn_mapping="None" verbnet_key="softboil#1" features="+boil"/>
+<MEMBER name="steam" wn="steam%2:30:00" grouping="steam.03" fn_mapping="None" verbnet_key="steam#1" features="None"/>
+<MEMBER name="steam-bake" wn="" grouping="" fn_mapping="None" verbnet_key="steam-bake#1" features="+bake"/>
+<MEMBER name="steep" wn="" grouping="" fn_mapping="None" verbnet_key="steep#1" features="+prepare"/>
+<MEMBER name="stew" wn="stew%2:30:00" grouping="stew.02" fn_mapping="Absorb_heat" verbnet_key="stew#1" features="+stew"/>
+<MEMBER name="stir-fry" wn="stir_fry%2:30:00" grouping="" fn_mapping="None" verbnet_key="stir-fry#1" features="+fry"/>
+<MEMBER name="toast" wn="toast%2:30:00" grouping="" fn_mapping="None" verbnet_key="toast#1" features="+heat"/>
+<MEMBER name="warm_up" wn="" grouping="" fn_mapping="Cause_of_temperature" verbnet_key="warm_up#1" features="+heat"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS>
+<SELRESTR Value="+" type="animate" />
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Patient">
+<SELRESTRS>
+<SELRESTR Value="+" type="concrete" />
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Instrument">
+<SELRESTRS>
+<SELRESTR Value="+" type="solid" />
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Result">
+<SELRESTRS />
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic Transitive; Causative" xtag="0.2" />
+<EXAMPLES>
+<EXAMPLE>
+Jennifer baked the potatoes.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Patient">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="cooked">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="apply_heat">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="Event" value="e4" />
+</ARGS>
+</PRED>
+<PRED value="cooked">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+Jennifer baked the potatoes in the oven.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Patient">
+<SYNRESTRS />
+</NP>
+<PREP value="in on with">
+<SELRESTRS />
+</PREP>
+<NP value="Instrument">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="cooked">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+<ARG type="ThemRole" value="Instrument" />
+</ARGS>
+</PRED>
+<PRED value="apply_heat">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="Instrument" />
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="Event" value="e4" />
+</ARGS>
+</PRED>
+<PRED value="cooked">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="Intransitive; Inchoative" xtag="0.1" />
+<EXAMPLES>
+<EXAMPLE>
+The potatoes baked.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Patient">
+<SYNRESTRS />
+</NP>
+<VERB />
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="cooked">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="?Agent" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="apply_heat">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="cooked">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+The Idaho potatoes baked beautifully.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Patient">
+<SYNRESTRS />
+</NP>
+<VERB />
+<ADV />
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="cooked">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="?Agent" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="apply_heat">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="cooked">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+The oven baked the potatoes.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Instrument">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Patient">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="cooked">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="?Agent" />
+<ARG type="ThemRole" value="Instrument" />
+</ARGS>
+</PRED>
+<PRED value="apply_heat">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="Instrument" />
+</ARGS>
+</PRED>
+<PRED value="cooked">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+Jennifer baked the potatoes to a crisp.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Patient">
+<SYNRESTRS />
+</NP>
+<PREP value="to into">
+<SELRESTRS />
+</PREP>
+<NP value="Result">
+<SELRESTRS>
+<SELRESTR Value="+" type="state" />
+</SELRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="cooked">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="apply_heat">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="Event" value="e4" />
+</ARGS>
+</PRED>
+<PRED value="cooked">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="Result" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+Jennifer baked the potatoes to a crisp in the oven.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS />
+</NP>
+<VERB />
+<NP value="Patient">
+<SYNRESTRS />
+</NP>
+<PREP value="to into">
+<SELRESTRS />
+</PREP>
+<NP value="Result">
+<SELRESTRS>
+<SELRESTR Value="+" type="state" />
+</SELRESTRS>
+</NP>
+<PREP value="in on with">
+<SELRESTRS />
+</PREP>
+<NP value="Instrument">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="cooked">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="do">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="Agent" />
+<ARG type="ThemRole" value="Instrument" />
+</ARGS>
+</PRED>
+<PRED value="apply_heat">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="Instrument" />
+</ARGS>
+</PRED>
+<PRED value="cause">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="Event" value="e4" />
+</ARGS>
+</PRED>
+<PRED value="cooked">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="Result" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V PP.result" secondary="PP; Result-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+The potatoes baked to a crisp.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Patient">
+<SYNRESTRS />
+</NP>
+<VERB />
+<PREP value="to into">
+<SELRESTRS />
+</PREP>
+<NP value="Result">
+<SELRESTRS>
+<SELRESTR Value="+" type="state" />
+</SELRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="cooked">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="?Agent" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="apply_heat">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="?Instrument" />
+</ARGS>
+</PRED>
+<PRED value="cooked">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="Result" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.4" primary="NP V PP.result PP.instrument" secondary="PP-PP; Result-PP, Instrument-PP" xtag="" />
+<EXAMPLES>
+<EXAMPLE>
+Potatoes bake to a crisp in the oven.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Patient">
+<SYNRESTRS />
+</NP>
+<VERB />
+<PREP value="to into">
+<SELRESTRS />
+</PREP>
+<NP value="Result">
+<SELRESTRS>
+<SELRESTR Value="+" type="state" />
+</SELRESTRS>
+</NP>
+<PREP value="in on with">
+<SELRESTRS />
+</PREP>
+<NP value="Instrument">
+<SYNRESTRS />
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED bool="!" value="cooked">
+<ARGS>
+<ARG type="Event" value="e1" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e2" />
+<ARG type="ThemRole" value="?Agent" />
+<ARG type="ThemRole" value="Instrument" />
+</ARGS>
+</PRED>
+<PRED value="apply_heat">
+<ARGS>
+<ARG type="Event" value="e3" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="Instrument" />
+</ARGS>
+</PRED>
+<PRED value="cooked">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="VerbSpecific" value="V_Final_State" />
+</ARGS>
+</PRED>
+<PRED value="has_state">
+<ARGS>
+<ARG type="Event" value="e4" />
+<ARG type="ThemRole" value="Patient" />
+<ARG type="ThemRole" value="Result" />
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES />
 </VNCLASS>

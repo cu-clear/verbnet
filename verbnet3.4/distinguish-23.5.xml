@@ -1,265 +1,265 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="distinguish-23.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="None" grouping="tell.02" name="tell_apart" verbnet_key="tell_apart#1" wn="tell_apart%2:39:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Agent">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Instrument">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Theme">
-   <SELRESTRS/>
-  </THEMROLE>
-  <THEMROLE type="Co-Theme">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     We told them apart.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="plural"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="different">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme_I"/>
-      <ARG type="ThemRole" value="Theme_J"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V NP.theme PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     We told them apart by their spots.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="plural"/>
-     </SYNRESTRS>
-    </NP>
-    <PREP>
-      <SELRESTRS/>
-    </PREP>
-    <NP value="Instrument">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="different">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme_I"/>
-      <ARG type="ThemRole" value="Theme_J"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V NP.theme PP.co-theme" secondary="NP-PP; Co-Theme-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     They distinguished her from her twin sister.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP>
-      <SELRESTRS/>
-    </PREP>
-    <NP value="Co-Theme">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="different">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Co-Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V NP.theme PP.co-theme PP.instrument" secondary="NP-PP-PP; Co-Theme-PP, Instrument-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     They distinguished her from her twin sister by her birthmark.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP>
-      <SELRESTRS/>
-    </PREP>
-    <NP value="Co-Theme">
-     <SYNRESTRS/>
-    </NP>
-    <PREP>
-      <SELRESTRS/>
-    </PREP>
-    <NP value="Instrument">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="utilize">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Instrument"/>
-     </ARGS>
-    </PRED>
-    <PRED value="different">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Co-Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="distinguish-23.5-1">
-   <MEMBERS>
-    <MEMBER features="None" fn_mapping="None" grouping="distinguish.01" name="distinguish" verbnet_key="distinguish#1" wn="distingiush%2:31:00"/>
-    <MEMBER features="None" fn_mapping="None" grouping="differentiate.01" name="differentiate" verbnet_key="differentiate#1" wn="differentiate%2:31:01"/>
-   </MEMBERS>
-   <THEMROLES/>
-   <FRAMES>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP" secondary="NP-PP; Instrument PP" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       Cultural differences distinguished Babylon.     
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Instrument">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <NP value="Theme">
-       <SYNRESTRS/>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="utilize">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="?Agent"/>
-        <ARG type="ThemRole" value="Instrument"/>
-       </ARGS>
-      </PRED>
-      <PRED value="different">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme"/>
-        <ARG type="ThemRole" value="?Co-Theme"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-    <FRAME>
-     <DESCRIPTION descriptionNumber="0.1" primary="NP V PP" secondary="" xtag=""/>
-     <EXAMPLES>
-      <EXAMPLE>
-       The Chinese differentiate between two types.                                                                                                                                                                                                                                                                                                                                                                                                of faces.
-      </EXAMPLE>
-     </EXAMPLES>
-     <SYNTAX>
-      <NP value="Agent">
-       <SYNRESTRS/>
-      </NP>
-      <VERB/>
-      <PREP value="between">
-       <SELRESTRS/>
-      </PREP>
-      <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
-      </NP>
-     </SYNTAX>
-     <SEMANTICS>
-      <PRED value="utilize">
-       <ARGS>
-        <ARG type="Event" value="e1"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="?Instrument"/>
-       </ARGS>
-      </PRED>
-      <PRED value="different">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Theme_I"/>
-        <ARG type="ThemRole" value="Theme_J"/>
-       </ARGS>
-      </PRED>
-     </SEMANTICS>
-    </FRAME>
-   </FRAMES>
-   <SUBCLASSES/>
-  </VNSUBCLASS>
- </SUBCLASSES>
+<MEMBERS>
+<MEMBER name="tell_apart" wn="tell_apart%2:39:00" grouping="tell.02" fn_mapping="None" verbnet_key="tell_apart#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Agent">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Instrument">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Theme">
+<SELRESTRS/>
+</THEMROLE>
+<THEMROLE type="Co-Theme">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+We told them apart.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="plural"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="different">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme_I"/>
+<ARG type="ThemRole" value="Theme_J"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V NP.theme PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+We told them apart by their spots.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="plural"/>
+</SYNRESTRS>
+</NP>
+<PREP>
+<SELRESTRS/>
+</PREP>
+<NP value="Instrument">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="different">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme_I"/>
+<ARG type="ThemRole" value="Theme_J"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V NP.theme PP.co-theme" secondary="NP-PP; Co-Theme-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+They distinguished her from her twin sister.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS/>
+</PREP>
+<NP value="Co-Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="different">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Co-Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V NP.theme PP.co-theme PP.instrument" secondary="NP-PP-PP; Co-Theme-PP, Instrument-PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+They distinguished her from her twin sister by her birthmark.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS/>
+</PREP>
+<NP value="Co-Theme">
+<SYNRESTRS/>
+</NP>
+<PREP>
+<SELRESTRS/>
+</PREP>
+<NP value="Instrument">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="different">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="Co-Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES>
+<VNSUBCLASS ID="distinguish-23.5-1">
+<MEMBERS>
+<MEMBER name="distinguish" wn="distingiush%2:31:00" grouping="distinguish.01" fn_mapping="None" verbnet_key="distinguish#1" features="None"/>
+<MEMBER name="differentiate" wn="differentiate%2:31:01" grouping="differentiate.01" fn_mapping="None" verbnet_key="differentiate#1" features="None"/>
+</MEMBERS>
+<THEMROLES/>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP" secondary="NP-PP; Instrument PP" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+Cultural differences distinguished Babylon.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Instrument">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Theme">
+<SYNRESTRS/>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="?Agent"/>
+<ARG type="ThemRole" value="Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="different">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme"/>
+<ARG type="ThemRole" value="?Co-Theme"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="0.1" primary="NP V PP" secondary="" xtag=""/>
+<EXAMPLES>
+<EXAMPLE>
+The Chinese differentiate between two types.                                                                                                                                                                                                                                                                                                                                                                                                of faces.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Agent">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<PREP value="between">
+<SELRESTRS/>
+</PREP>
+<NP value="Theme">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="plural"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="utilize">
+<ARGS>
+<ARG type="Event" value="e1"/>
+<ARG type="ThemRole" value="Agent"/>
+<ARG type="ThemRole" value="?Instrument"/>
+</ARGS>
+</PRED>
+<PRED value="different">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Theme_I"/>
+<ARG type="ThemRole" value="Theme_J"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
+</VNSUBCLASS>
+</SUBCLASSES>
 </VNCLASS>

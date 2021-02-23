@@ -1,197 +1,197 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="wish-62" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER features="None" fn_mapping="Opinion" grouping="expect.01" name="expect" verbnet_key="expect#2" wn="expect%2:32:00"/>
-  <MEMBER features="None" fn_mapping="Desiring" grouping="wish.02" name="wish" verbnet_key="wish#2" wn="wish%2:37:02"/>
-  <MEMBER features="None" fn_mapping="None" grouping="intend.01" name="intend" verbnet_key="intend#3" wn="intend%2:31:00"/>
-  <MEMBER features="None" fn_mapping="Purpose" grouping="plan.01" name="plan" verbnet_key="plan#2" wn="plan%2:31:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="propose.02" name="propose" verbnet_key="propose#3" wn="propose%2:31:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="think.05" name="think" verbnet_key="think#3" wn="think%2:31:03"/>
-  <MEMBER features="None" fn_mapping="Purpose" grouping="aim.02" name="aim" verbnet_key="aim#2" wn="aim%2:31:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="dream.01" name="dream" verbnet_key="dream#1" wn="dream%2:36:00"/>
-  <MEMBER features="None" fn_mapping="None" grouping="imagine.02" name="imagine" verbnet_key="imagine#2" wn="imagine%2:31:01"/>
-  <MEMBER features="None" fn_mapping="None" grouping="" name="yen" verbnet_key="yen#1" wn="yen%2:37:00"/>
- </MEMBERS>
- <THEMROLES>
-  <THEMROLE type="Experiencer">
-   <SELRESTRS logic="or">
-    <SELRESTR Value="+" type="animate"/>
-    <SELRESTR Value="+" type="organization"/>
-   </SELRESTRS>
-  </THEMROLE>
-  <THEMROLE type="Stimulus">
-   <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V for NP S_INF" secondary="FOR-TO-INF" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I wished for her to do it.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Experiencer">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="for_comp"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="desire">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Experiencer"/>
-      <ARG type="ThemRole" value="Stimulus"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="NP" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I wished it.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Experiencer">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="desire">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Experiencer"/>
-      <ARG type="ThemRole" value="Stimulus"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP to be ADJ" secondary="Infinitival Copular Clause" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I wished him to be nice.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Experiencer">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="to_be"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="desire">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Experiencer"/>
-      <ARG type="ThemRole" value="Stimulus"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADJ" secondary="NP-VEN-NP-OMIT" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     I wished the children found.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Experiencer">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="np_ppart"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="desire">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Experiencer"/>
-      <ARG type="ThemRole" value="Stimulus"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     He wished that she would come immediately.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Experiencer">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="that_comp"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="desire">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Experiencer"/>
-      <ARG type="ThemRole" value="Stimulus"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.2"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     He wished to come.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Experiencer">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="sc_to_inf"/>
-     </SYNRESTRS>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="desire">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Experiencer"/>
-      <ARG type="ThemRole" value="Stimulus"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
- <SUBCLASSES/>
+<MEMBERS>
+<MEMBER name="expect" wn="expect%2:32:00" grouping="expect.01" fn_mapping="Opinion" verbnet_key="expect#2" features="None"/>
+<MEMBER name="wish" wn="wish%2:37:02" grouping="wish.02" fn_mapping="Desiring" verbnet_key="wish#2" features="None"/>
+<MEMBER name="intend" wn="intend%2:31:00" grouping="intend.01" fn_mapping="None" verbnet_key="intend#3" features="None"/>
+<MEMBER name="plan" wn="plan%2:31:01" grouping="plan.01" fn_mapping="Purpose" verbnet_key="plan#2" features="None"/>
+<MEMBER name="propose" wn="propose%2:31:01" grouping="propose.02" fn_mapping="None" verbnet_key="propose#3" features="None"/>
+<MEMBER name="think" wn="think%2:31:03" grouping="think.05" fn_mapping="None" verbnet_key="think#3" features="None"/>
+<MEMBER name="aim" wn="aim%2:31:01" grouping="aim.02" fn_mapping="Purpose" verbnet_key="aim#2" features="None"/>
+<MEMBER name="dream" wn="dream%2:36:00" grouping="dream.01" fn_mapping="None" verbnet_key="dream#1" features="None"/>
+<MEMBER name="imagine" wn="imagine%2:31:01" grouping="imagine.02" fn_mapping="None" verbnet_key="imagine#2" features="None"/>
+<MEMBER name="yen" wn="yen%2:37:00" grouping="" fn_mapping="None" verbnet_key="yen#1" features="None"/>
+</MEMBERS>
+<THEMROLES>
+<THEMROLE type="Experiencer">
+<SELRESTRS logic="or">
+<SELRESTR Value="+" type="animate"/>
+<SELRESTR Value="+" type="organization"/>
+</SELRESTRS>
+</THEMROLE>
+<THEMROLE type="Stimulus">
+<SELRESTRS/>
+</THEMROLE>
+</THEMROLES>
+<FRAMES>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V for NP S_INF" secondary="FOR-TO-INF" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I wished for her to do it.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Experiencer">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Stimulus">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="for_comp"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="desire">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Experiencer"/>
+<ARG type="ThemRole" value="Stimulus"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="NP" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I wished it.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Experiencer">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Stimulus">
+<SYNRESTRS>
+<SYNRESTR Value="-" type="sentential"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="desire">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Experiencer"/>
+<ARG type="ThemRole" value="Stimulus"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP to be ADJ" secondary="Infinitival Copular Clause" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I wished him to be nice.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Experiencer">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Stimulus">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="to_be"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="desire">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Experiencer"/>
+<ARG type="ThemRole" value="Stimulus"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADJ" secondary="NP-VEN-NP-OMIT" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+I wished the children found.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Experiencer">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Stimulus">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="np_ppart"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="desire">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Experiencer"/>
+<ARG type="ThemRole" value="Stimulus"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+He wished that she would come immediately.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Experiencer">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Stimulus">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="that_comp"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="desire">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Experiencer"/>
+<ARG type="ThemRole" value="Stimulus"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+<FRAME>
+<DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.2"/>
+<EXAMPLES>
+<EXAMPLE>
+He wished to come.
+</EXAMPLE>
+</EXAMPLES>
+<SYNTAX>
+<NP value="Experiencer">
+<SYNRESTRS/>
+</NP>
+<VERB/>
+<NP value="Stimulus">
+<SYNRESTRS>
+<SYNRESTR Value="+" type="sc_to_inf"/>
+</SYNRESTRS>
+</NP>
+</SYNTAX>
+<SEMANTICS>
+<PRED value="desire">
+<ARGS>
+<ARG type="Event" value="E"/>
+<ARG type="ThemRole" value="Experiencer"/>
+<ARG type="ThemRole" value="Stimulus"/>
+</ARGS>
+</PRED>
+</SEMANTICS>
+</FRAME>
+</FRAMES>
+<SUBCLASSES/>
 </VNCLASS>
