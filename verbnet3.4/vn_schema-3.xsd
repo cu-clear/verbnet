@@ -113,7 +113,7 @@
 
 <xsd:element name="ADV">
   <xsd:complexType>
-    <xsd:attribute name="value" type="xsd:string" use="optional"/>
+    <xsd:attribute name="value" type="themRoleType" use="optional"/>
   </xsd:complexType>
 </xsd:element>
 
