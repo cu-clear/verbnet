@@ -111,6 +111,12 @@
   <xsd:attribute name="value" use="required" type="xsd:string"/>
 </xsd:complexType></xsd:element>
 
+<xsd:element name="ADV">
+  <xsd:complexType>
+    <xsd:attribute name="value" type="themRoleType" use="optional"/>
+  </xsd:complexType>
+</xsd:element>
+
 <xsd:element name="SYNTAX"><xsd:complexType>
   <xsd:sequence>
     <xsd:choice minOccurs="0" maxOccurs="unbounded">
