@@ -1,0 +1,161 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="conspire-71" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="ally.01" name="ally" verbnet_key="ally#1" wn="ally%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="collaborate.02" name="collaborate" verbnet_key="collaborate#1" wn="collaborate%2:41:00 collaborate%2:41:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="collude" verbnet_key="collude#1" wn="collude%2:31:00" features=""/>
+  <MEMBER fn_mapping="Collaboration" grouping="conspire.01" name="conspire" verbnet_key="conspire#1" wn="conspire%2:31:00 conspire%2:31:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="machinate" verbnet_key="machinate#1" wn="machinate%2:36:00" features=""/>
+  <MEMBER fn_mapping="Collaboration" grouping="partner.01" name="partner" verbnet_key="partner#2" wn="partner%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="scheme" verbnet_key="scheme#1" wn="scheme%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="team_up" verbnet_key="team_up#1" wn="team_up%2:33:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Co-Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Maleficiary">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     John and Sarah conspired.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="social_interaction">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent_I"/>
+      <ARG type="ThemRole" value="Agent_J"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.co-agent" secondary="PP; with-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     John conspired with Sarah.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Co-Agent">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="social_interaction">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Co-Agent"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.maleficiary" secondary="PP; against-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     John conspired against her.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="against">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Maleficiary">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="social_interaction">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Co-Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="harm">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Maleficiary"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF; N-SC" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The US conspired to overthrow the UN.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="sc_to_inf"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="social_interaction">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent_I"/>
+      <ARG type="ThemRole" value="Agent_J"/>
+     </ARGS>
+    </PRED>
+    <PRED value="about">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

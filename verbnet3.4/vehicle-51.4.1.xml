@@ -1,607 +1,632 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="vehicle-51.4.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="balloon" wn="balloon%2:38:00" grouping="balloon.03" fn_mapping="Operate_vehicle" verbnet_key="balloon#2" features="+medium_air"/>
-<MEMBER name="boat" wn="boat%2:38:00" grouping="" fn_mapping="None" verbnet_key="boat#1" features="+medium_water"/>
-<MEMBER name="bobsled" wn="bobsled%2:38:00" grouping="" fn_mapping="None" verbnet_key="bobsled#1" features="+medium_snow"/>
-<MEMBER name="bus" wn="bus%2:38:01 bus%2:38:00" grouping="" fn_mapping="None" verbnet_key="bus#2" features="+medium_ground"/>
-<MEMBER name="cab" wn="" grouping="" fn_mapping="None" verbnet_key="cab#1" features="+medium_ground"/>
-<MEMBER name="caravan" wn="" grouping="" fn_mapping="None" verbnet_key="caravan#1" features="+medium_ground"/>
-<MEMBER name="chariot" wn="chariot%2:38:01 chariot%2:38:00" grouping="" fn_mapping="None" verbnet_key="chariot#1" features="+medium_ground"/>
-<MEMBER name="coach" wn="coach%2:38:00" grouping="coach.02" fn_mapping="None" verbnet_key="coach#2" features="+medium_ground"/>
-<MEMBER name="dogsled" wn="" grouping="" fn_mapping="None" verbnet_key="dogsled#1" features="+medium_snow"/>
-<MEMBER name="ferry" wn="ferry%2:38:01 ferry%2:38:00" grouping="ferry.01" fn_mapping="Bringing" verbnet_key="ferry#2" features="+medium_water"/>
-<MEMBER name="gondola" wn="" grouping="" fn_mapping="None" verbnet_key="gondola#1" features="+medium_water"/>
-<MEMBER name="helicopter" wn="" grouping="" fn_mapping="None" verbnet_key="helicopter#1" features="+medium_air"/>
-<MEMBER name="jeep" wn="" grouping="" fn_mapping="None" verbnet_key="jeep#1" features="+medium_ground"/>
-<MEMBER name="jet" wn="jet%2:38:00" grouping="" fn_mapping="None" verbnet_key="jet#2" features="+medium_air"/>
-<MEMBER name="moped" wn="" grouping="" fn_mapping="None" verbnet_key="moped#1" features="+medium_ground"/>
-<MEMBER name="motor" wn="motor%2:38:00" grouping="" fn_mapping="None" verbnet_key="motor#2" features="+medium_ground +biking"/>
-<MEMBER name="parachute" wn="parachute%2:38:00" grouping="" fn_mapping="None" verbnet_key="parachute#1" features="+medium_air"/>
-<MEMBER name="punt" wn="punt%2:35:00" grouping="punt.02" fn_mapping="Cause_motion" verbnet_key="punt#3" features="+medium_water"/>
-<MEMBER name="rickshaw" wn="" grouping="" fn_mapping="None" verbnet_key="rickshaw#1" features="+medium_ground"/>
-<MEMBER name="rocket" wn="rocket%2:35:00" grouping="" fn_mapping="None" verbnet_key="rocket#2" features="+medium_air"/>
-<MEMBER name="sledge" wn="sledge%2:38:02 sledge%2:38:01" grouping="sledge.01" fn_mapping="Operate_vehicle" verbnet_key="sledge#1" features="+medium_snow"/>
-<MEMBER name="sleigh" wn="sleigh%2:38:00" grouping="" fn_mapping="None" verbnet_key="sleigh#1" features="+medium_snow"/>
-<MEMBER name="taxi" wn="taxi%2:38:00" grouping="" fn_mapping="None" verbnet_key="taxi#1" features="+medium_ground"/>
-<MEMBER name="tram" wn="" grouping="" fn_mapping="None" verbnet_key="tram#1" features="+medium_ground"/>
-<MEMBER name="trolley" wn="" grouping="" fn_mapping="None" verbnet_key="trolley#1" features="+medium_ground"/>
-<MEMBER name="yacht" wn="yacht%2:38:00" grouping="" fn_mapping="None" verbnet_key="yacht#1" features="+medium_water"/>
-</MEMBERS>
-<THEMROLES>
-
-<THEMROLE type="Agent">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate" />
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate" />
-<SELRESTR Value="+" type="vehicle_part" />
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Initial_Location">
-<SELRESTRS />
-</THEMROLE>
-<THEMROLE type="Trajectory">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete" />
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Destination">
-<SELRESTRS />
-</THEMROLE>
-<THEMROLE type="Result">
-<SELRESTRS />
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP.theme V" secondary="Basic Intransitive; inchoative" xtag="0.1" />
-<EXAMPLES>
-<EXAMPLE>
-Claire rickshawed.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-<VERB />
-</SYNTAX>
-<SEMANTICS>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Trajectory" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP.theme V PP.location" secondary="PP; inchoative, locative-PP" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-Claire rickshawed along the creek path.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-<VERB />
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="path" />
-</SELRESTRS>
-</PREP>
-<NP value="Trajectory">
-<SELRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë2" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Trajectory" />
-</ARGS>
-</PRED>
-<PRED bool="!" value="has_location">
-<ARGS>
-<ARG type="Event" value="ë2" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Destination" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP PP.location" secondary="NP-PP; Induced Action with accompanied motion, path-PP" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-James rickshawed Penny around the block.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="path" />
-</SELRESTRS>
-</PREP>
-<NP value="Trajectory">
-<SELRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Agent" />
-</ARGS>
-</PRED>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Trajectory" />
-</ARGS>
-</PRED>
-<PRED bool="!" value="has_location">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë5" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="Trajectory" />
-</ARGS>
-</PRED>
-<PRED bool="!" value="has_location">
-<ARGS>
-<ARG type="Event" value="ë5" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e6" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Destination" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e7" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Destination" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="Event" value="ë4" />
-</ARGS>
-</PRED>
-<PRED value="co-temporal">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="Event" value="ë5" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP" secondary="NP; Induced Action with accompanied motion" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-James rickshawed Penny.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Agent" />
-</ARGS>
-</PRED>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Trajectory" />
-</ARGS>
-</PRED>
-<PRED bool="!" value="has_location">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë5" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Trajectory" />
-</ARGS>
-</PRED>
-<PRED bool="!" value="has_location">
-<ARGS>
-<ARG type="Event" value="ë5" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e6" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Destination" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e7" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Destination" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="Event" value="ë4" />
-</ARGS>
-</PRED>
-<PRED value="co-temporal">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="Event" value="ë5" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-James rickshawed his legs off.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="genitive" />
-</SYNRESTRS>
-</NP>
-<NP value="Result">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Agent" />
-</ARGS>
-</PRED>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Trajectory" />
-</ARGS>
-</PRED>
-<PRED bool="!" value="has_location">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë5" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Trajectory" />
-</ARGS>
-</PRED>
-<PRED bool="!" value="has_location">
-<ARGS>
-<ARG type="Event" value="ë5" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e6" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Destination" />
-</ARGS>
-</PRED>
-<PRED value="has_state">
-<ARGS>
-<ARG type="Event" value="e6" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e7" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Destination" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="Event" value="ë4" />
-</ARGS>
-</PRED>
-<PRED value="co-temporal">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="Event" value="ë5" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-James rickshawed his legs to exhaustion.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="genitive" />
-</SYNRESTRS>
-</NP>
-<PREP value="to into">
-<SELRESTRS />
-</PREP>
-<NP value="Result">
-<SELRESTRS>
-<SELRESTR Value="+" type="state" />
-</SELRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Agent" />
-</ARGS>
-</PRED>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Trajectory" />
-</ARGS>
-</PRED>
-<PRED bool="!" value="has_location">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë5" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Trajectory" />
-</ARGS>
-</PRED>
-<PRED bool="!" value="has_location">
-<ARGS>
-<ARG type="Event" value="ë5" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Initial_Location" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e6" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Destination" />
-</ARGS>
-</PRED>
-<PRED value="has_state">
-<ARGS>
-<ARG type="Event" value="e6" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="e7" />
-<ARG type="ThemRole" value="Agent" />
-<ARG type="ThemRole" value="?Destination" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="Event" value="ë4" />
-</ARGS>
-</PRED>
-<PRED value="co-temporal">
-<ARGS>
-<ARG type="Event" value="ë4" />
-<ARG type="Event" value="ë5" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="vehicle-51.4.1-1">
-<MEMBERS>
-<MEMBER name="bicycle" wn="bicycle%2:38:00" grouping="" fn_mapping="None" verbnet_key="bicycle#1" features="+medium_ground +biking"/>
-<MEMBER name="bike" wn="bike%2:38:00" grouping="" fn_mapping="None" verbnet_key="bike#2" features="+medium_ground +biking"/>
-<MEMBER name="canoe" wn="canoe%2:38:00" grouping="" fn_mapping="None" verbnet_key="canoe#1" features="+medium_water"/>
-<MEMBER name="cycle" wn="cycle%2:38:00 cycle%2:38:01" grouping="cycle.02" fn_mapping="Operate_vehicle" verbnet_key="cycle#1" features="+medium_ground +biking"/>
-<MEMBER name="kayak" wn="kayak%2:38:00" grouping="" fn_mapping="None" verbnet_key="kayak#1" features="+medium_water"/>
-<MEMBER name="motorbike" wn="motorbike%2:38:00" grouping="" fn_mapping="None" verbnet_key="motorbike#1" features="+medium_ground +biking"/>
-<MEMBER name="motorcycle" wn="motorcycle%2:38:00" grouping="" fn_mapping="None" verbnet_key="motorcycle#1" features="+medium_ground +biking"/>
-<MEMBER name="raft" wn="raft%2:38:01 raft%2:38:00" grouping="" fn_mapping="None" verbnet_key="raft#1" features="+medium_water"/>
-<MEMBER name="skate" wn="skate%2:38:00" grouping="" fn_mapping="None" verbnet_key="skate#1" features="+medium_ground"/>
-<MEMBER name="skateboard" wn="skateboard%2:38:00" grouping="" fn_mapping="None" verbnet_key="skateboard#1" features="+medium_ground"/>
-<MEMBER name="ski" wn="ski%2:38:00" grouping="" fn_mapping="None" verbnet_key="ski#1" features="+medium_snow"/>
-<MEMBER name="sled" wn="sled%2:38:00" grouping="" fn_mapping="None" verbnet_key="sled#1" features="+medium_snow"/>
-<MEMBER name="toboggan" wn="toboggan%2:38:00" grouping="" fn_mapping="None" verbnet_key="toboggan#1" features="+medium_snow"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Location">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete" />
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Locative Preposition Drop" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-Claire rickshawed the streets.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Location">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="motion">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Trajectory" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Location" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES />
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <MEMBER fn_mapping="Operate_vehicle" grouping="balloon.03" name="balloon" verbnet_key="balloon#2" wn="balloon%2:38:00" features="+medium_air"/>
+  <MEMBER fn_mapping="None" grouping="" name="boat" verbnet_key="boat#1" wn="boat%2:38:00" features="+medium_water"/>
+  <MEMBER fn_mapping="None" grouping="" name="bobsled" verbnet_key="bobsled#1" wn="bobsled%2:38:00" features="+medium_snow"/>
+  <MEMBER fn_mapping="None" grouping="" name="bus" verbnet_key="bus#2" wn="bus%2:38:01 bus%2:38:00" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="cab" verbnet_key="cab#1" wn="" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="caravan" verbnet_key="caravan#1" wn="" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="chariot" verbnet_key="chariot#1" wn="chariot%2:38:01 chariot%2:38:00" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="coach.02" name="coach" verbnet_key="coach#2" wn="coach%2:38:00" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="dogsled" verbnet_key="dogsled#1" wn="" features="+medium_snow"/>
+  <MEMBER fn_mapping="Bringing" grouping="ferry.01" name="ferry" verbnet_key="ferry#2" wn="ferry%2:38:01 ferry%2:38:00" features="+medium_water"/>
+  <MEMBER fn_mapping="None" grouping="" name="gondola" verbnet_key="gondola#1" wn="" features="+medium_water"/>
+  <MEMBER fn_mapping="None" grouping="" name="helicopter" verbnet_key="helicopter#1" wn="" features="+medium_air"/>
+  <MEMBER fn_mapping="None" grouping="" name="jeep" verbnet_key="jeep#1" wn="" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="jet" verbnet_key="jet#2" wn="jet%2:38:00" features="+medium_air"/>
+  <MEMBER fn_mapping="None" grouping="" name="moped" verbnet_key="moped#1" wn="" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="motor" verbnet_key="motor#2" wn="motor%2:38:00" features="+medium_ground +biking"/>
+  <MEMBER fn_mapping="None" grouping="" name="parachute" verbnet_key="parachute#1" wn="parachute%2:38:00" features="+medium_air"/>
+  <MEMBER fn_mapping="Cause_motion" grouping="punt.02" name="punt" verbnet_key="punt#3" wn="punt%2:35:00" features="+medium_water"/>
+  <MEMBER fn_mapping="None" grouping="" name="rickshaw" verbnet_key="rickshaw#1" wn="" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="rocket" verbnet_key="rocket#2" wn="rocket%2:35:00" features="+medium_air"/>
+  <MEMBER fn_mapping="Operate_vehicle" grouping="sledge.01" name="sledge" verbnet_key="sledge#1" wn="sledge%2:38:02 sledge%2:38:01" features="+medium_snow"/>
+  <MEMBER fn_mapping="None" grouping="" name="sleigh" verbnet_key="sleigh#1" wn="sleigh%2:38:00" features="+medium_snow"/>
+  <MEMBER fn_mapping="None" grouping="" name="taxi" verbnet_key="taxi#1" wn="taxi%2:38:00" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="tram" verbnet_key="tram#1" wn="" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="trolley" verbnet_key="trolley#1" wn="" features="+medium_ground"/>
+  <MEMBER fn_mapping="None" grouping="" name="yacht" verbnet_key="yacht#1" wn="yacht%2:38:00" features="+medium_water"/>
+ </MEMBERS>
+ <THEMROLES>
+  
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate" />
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate" />
+    <SELRESTR Value="+" type="vehicle_part" />
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Initial_Location">
+   <SELRESTRS />
+  </THEMROLE>
+  <THEMROLE type="Trajectory">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete" />
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Destination">
+   <SELRESTRS />
+  </THEMROLE>
+  <THEMROLE type="Result">
+   <SELRESTRS />
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP.theme V" secondary="Basic Intransitive; inchoative" xtag="0.1" />
+   <EXAMPLES>
+    <EXAMPLE>
+     Claire rickshawed.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+   </SYNTAX>
+   <SEMANTICS>
+   <PRED value="operate_vehicle">
+     <ARGS>
+      <ARG type="Event" value="ë" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="V_Vehicle" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Trajectory" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP.theme V PP.location" secondary="PP; inchoative, locative-PP" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     Claire rickshawed along the creek path.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="path" />
+     </SELRESTRS>
+    </PREP>
+    <NP value="Trajectory">
+     <SELRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+   <PRED value="operate_vehicle">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="V_Vehicle" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë2" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Destination" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP PP.location" secondary="NP-PP; Induced Action with accompanied motion, path-PP" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     James rickshawed Penny around the block.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="path" />
+     </SELRESTRS>
+    </PREP>
+    <NP value="Trajectory">
+     <SELRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="operate_vehicle">
+     <ARGS>
+      <ARG type="Event" value="ë3" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="V_Vehicle" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë5" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë5" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e6" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Destination" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e7" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Destination" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="ë3" />
+      <ARG type="Event" value="ë4" />
+     </ARGS>
+    </PRED>
+    <PRED value="co-temporal">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="Event" value="ë5" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP" secondary="NP; Induced Action with accompanied motion" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     James rickshawed Penny.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="operate_vehicle">
+     <ARGS>
+      <ARG type="Event" value="ë3" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="V_Vehicle" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë5" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë5" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e6" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Destination" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e7" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Destination" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="ë3" />
+      <ARG type="Event" value="ë4" />
+     </ARGS>
+    </PRED>
+    <PRED value="co-temporal">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="Event" value="ë5" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     James rickshawed his legs off.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Theme">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="genitive" />
+     </SYNRESTRS>
+    </NP>
+    <NP value="Result">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="operate_vehicle">
+     <ARGS>
+      <ARG type="Event" value="ë3" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="V_Vehicle" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë5" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë5" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e6" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Destination" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e6" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Result" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e7" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Destination" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="ë3" />
+      <ARG type="Event" value="ë4" />
+     </ARGS>
+    </PRED>
+    <PRED value="co-temporal">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="Event" value="ë5" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     James rickshawed his legs to exhaustion.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Theme">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="genitive" />
+     </SYNRESTRS>
+    </NP>
+    <PREP value="to into">
+     <SELRESTRS />
+    </PREP>
+    <NP value="Result">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="state" />
+     </SELRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="operate_vehicle">
+     <ARGS>
+      <ARG type="Event" value="ë3" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="V_Vehicle" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë5" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë5" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Initial_Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e6" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="?Destination" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e6" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Result" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e7" />
+      <ARG type="ThemRole" value="Agent" />
+      <ARG type="ThemRole" value="?Destination" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="ë3" />
+      <ARG type="Event" value="ë4" />
+     </ARGS>
+    </PRED>
+    <PRED value="co-temporal">
+     <ARGS>
+      <ARG type="Event" value="ë4" />
+      <ARG type="Event" value="ë5" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="vehicle-51.4.1-1" features="+medium_ground +biking+medium_ground +biking+medium_ground +biking+medium_water+medium_water+medium_ground +biking+medium_ground +biking+medium_water+medium_water+medium_ground +biking+medium_ground +biking+medium_ground +biking+medium_ground +biking+medium_water+medium_water+medium_ground+medium_ground+medium_ground+medium_ground+medium_snow+medium_snow+medium_snow+medium_snow+medium_snow+medium_snow">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="" name="bicycle" verbnet_key="bicycle#1" wn="bicycle%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="bike" verbnet_key="bike#2" wn="bike%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="canoe" verbnet_key="canoe#1" wn="canoe%2:38:00" features=""/>
+    <MEMBER fn_mapping="Operate_vehicle" grouping="cycle.02" name="cycle" verbnet_key="cycle#1" wn="cycle%2:38:00 cycle%2:38:01" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="kayak" verbnet_key="kayak#1" wn="kayak%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="motorbike" verbnet_key="motorbike#1" wn="motorbike%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="motorcycle" verbnet_key="motorcycle#1" wn="motorcycle%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="raft" verbnet_key="raft#1" wn="raft%2:38:01 raft%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="skate" verbnet_key="skate#1" wn="skate%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="skateboard" verbnet_key="skateboard#1" wn="skateboard%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="ski" verbnet_key="ski#1" wn="ski%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="sled" verbnet_key="sled#1" wn="sled%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="toboggan" verbnet_key="toboggan#1" wn="toboggan%2:38:00" features=""/>
+   </MEMBERS>
+   <THEMROLES>
+    <THEMROLE type="Location">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="concrete" />
+     </SELRESTRS>
+    </THEMROLE>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Locative Preposition Drop" xtag="" />
+     <EXAMPLES>
+      <EXAMPLE>
+       Claire rickshawed the streets.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS />
+      </NP>
+      <VERB />
+      <NP value="Location">
+       <SYNRESTRS />
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="operate_vehicle">
+       <ARGS>
+        <ARG type="Event" value="ë" />
+        <ARG type="ThemRole" value="Theme" />
+        <ARG type="ThemRole" value="V_Vehicle" />
+       </ARGS>
+      </PRED>
+      <PRED value="motion">
+       <ARGS>
+        <ARG type="Event" value="ë" />
+        <ARG type="ThemRole" value="Theme" />
+        <ARG type="ThemRole" value="Trajectory" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_location">
+       <ARGS>
+        <ARG type="Event" value="ë" />
+        <ARG type="ThemRole" value="Theme" />
+        <ARG type="ThemRole" value="Location" />
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES />
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

@@ -1,76 +1,76 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="overstate-37.12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="overstate" wn="overstate%2:32:00" grouping="overstate.01" fn_mapping="None" verbnet_key="overstate#1" features="None"/>
-<MEMBER name="overdraw" wn="overdraw%2:32:00" grouping="" fn_mapping="None" verbnet_key="overdraw#1" features="None"/>
-<MEMBER name="hyperbolize" wn="hyperbolize%2:32:00" grouping="" fn_mapping="None" verbnet_key="hyperbolize#1" features="None"/>
-<MEMBER name="magnify" wn="magnify%2:32:00" grouping="magnify.01" fn_mapping="None" verbnet_key="magnify#1" features="None"/>
-<MEMBER name="amplify" wn="amplify%2:32:00" grouping="amplify.01" fn_mapping="None" verbnet_key="amplify#2" features="None"/>
-<MEMBER name="overemphasize" wn="overemphasize%2:32:00" grouping="" fn_mapping="None" verbnet_key="overemphasize#1" features="None"/>
-<MEMBER name="overrate" wn="overrate%2:31:00" grouping="" fn_mapping="None" verbnet_key="overrate#1" features="None"/>
-<MEMBER name="overstress" wn="overstress%2:32:00" grouping="" fn_mapping="None" verbnet_key="overstress#1" features="None"/>
-<MEMBER name="tout" wn="tout%2:32:00" grouping="tout.01" fn_mapping="Judgment_communication" verbnet_key="tout#1" features="None"/>
-<MEMBER name="glorify" wn="glorify%2:32:00" grouping="glorify.01" fn_mapping="None" verbnet_key="glorify#2" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-<SELRESTR Value="+" type="organization"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He overstated the position.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_information">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="transfer_info">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="PredSpecific" value="Recipient"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="Event" value="e2"/>
-</ARGS>
-</PRED>
-<PRED value="has_information">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="PredSpecific" value="Recipient"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="overstate.01" name="overstate" verbnet_key="overstate#1" wn="overstate%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="overdraw" verbnet_key="overdraw#1" wn="overdraw%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="hyperbolize" verbnet_key="hyperbolize#1" wn="hyperbolize%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="magnify.01" name="magnify" verbnet_key="magnify#1" wn="magnify%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="amplify.01" name="amplify" verbnet_key="amplify#2" wn="amplify%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="overemphasize" verbnet_key="overemphasize#1" wn="overemphasize%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="overrate" verbnet_key="overrate#1" wn="overrate%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="overstress" verbnet_key="overstress#1" wn="overstress%2:32:00" features=""/>
+  <MEMBER fn_mapping="Judgment_communication" grouping="tout.01" name="tout" verbnet_key="tout#1" wn="tout%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="glorify.01" name="glorify" verbnet_key="glorify#2" wn="glorify%2:32:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He overstated the position.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="Event" value="e2"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="PredSpecific" value="Recipient"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

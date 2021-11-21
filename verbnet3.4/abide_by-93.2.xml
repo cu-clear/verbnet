@@ -1,0 +1,52 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="abide_by-93.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="abide.03" name="abide_by" verbnet_key="abide-by#1" wn="abide_by%2:41:00" features=""/>
+  <MEMBER fn_mapping="Compliance" grouping="follow.03" name="follow" verbnet_key="follow#1" wn="follow%2:41:00 follow%2:40:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="heed" verbnet_key="heed#1" wn="heed%2:41:00" features=""/>
+  <MEMBER fn_mapping="Compliance" grouping="keep.04" name="keep_to" verbnet_key="keep_to#1" wn="" features=""/>
+  <MEMBER fn_mapping="Compliance" grouping="" name="adhere_to" verbnet_key="adhere_to#1" wn="adhere%2:42:00 adhere%2:42:02 adhere%2:30:00" features=""/>
+  <MEMBER fn_mapping="Compliance" grouping="observe.02" name="observe" verbnet_key="observe#3" wn="observe%2:41:02 observe%2:41:01" features=""/>
+  <MEMBER fn_mapping="Compliance" grouping="" name="obey" verbnet_key="obey#1" wn="obey%2:41:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He followed the tenets of Buddhism.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="abide_by">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

@@ -1,178 +1,254 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="stop-55.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="cut" wn="cut%2:30:00" grouping="cut.05" fn_mapping="Change_operational_state" verbnet_key="cut#10" features="None"/>
-<MEMBER name="raise" wn="raise%2:30:13" grouping="raise.08" fn_mapping="None" verbnet_key="raise#8" features="None"/>
-<MEMBER name="kill" wn="kill%2:30:08 kill%2:30:03" grouping="kill.04 kill.07" fn_mapping="None" verbnet_key="kill#6" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Affector">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-<SELRESTR Value="+" type="organization"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS>
-<SELRESTR Value="+" type="eventive"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V NP.theme" secondary="NP.theme" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-John cut the engine.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Affector">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Affector"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e1"/>
-</ARGS>
-</PRED>
-<PRED value="end">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="stop-55.4-1">
-<MEMBERS>
-<MEMBER name="close" wn="close%2:41:01 close%2:42:00 close%2:42:01 close%2:30:08" grouping="close.03" fn_mapping="None" verbnet_key="close#4" features="None"/>
-<MEMBER name="cut_off" wn="cut_off%2:32:00 cut_off%2:30:00" grouping="cut.05" fn_mapping="None" verbnet_key="cut_off#1" features="None"/>
-<MEMBER name="cut_out" wn="cut_out%2:30:01" grouping="cut.05" fn_mapping="None" verbnet_key="cut_out#1" features="None"/>
-<MEMBER name="deactivate" wn="deactivate%2:30:00" grouping="" fn_mapping="None" verbnet_key="deactivate#1" features="None"/>
-<MEMBER name="halt" wn="halt%2:38:05 halt%2:38:01 halt%2:41:00" grouping="halt.01" fn_mapping="None" verbnet_key="halt#1" features="None"/>
-<MEMBER name="lift" wn="" grouping="lift.03" fn_mapping="None" verbnet_key="lift#3" features="None"/>
-<MEMBER name="repeat" wn="repeat%2:30:00 repeat%2:41:00" grouping="repeat.01" fn_mapping="None" verbnet_key="repeat#3" features="None"/>
-<MEMBER name="terminate" wn="terminate%2:30:01 terminate%2:42:00 terminate%2:42:05" grouping="terminate.01" fn_mapping="None" verbnet_key="terminate#2" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP.theme V" secondary="Intransitive; Inchoative" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The storm ended.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="end">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V ADJ-Middle" secondary="(SUBCAT ADL)" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The party stopped easily.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<ADV/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="end">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="stop-55.4-1-1">
-<MEMBERS>
-<MEMBER name="cease" wn="cease%2:42:00" grouping="cease.01" fn_mapping="None" verbnet_key="cease#1" features="None"/>
-<MEMBER name="conclude" wn="conclude%2:31:01 conclude%2:32:01 conclude%2:42:02" grouping="conclude.01" fn_mapping="None" verbnet_key="conclude#2" features="None"/>
-<MEMBER name="discontinue" wn="discontinue%2:42:00 discontinue%2:30:00" grouping="discontinue.01" fn_mapping="None" verbnet_key="discontinue#2" features="None"/>
-<MEMBER name="end" wn="end%2:30:01 end%2:36:13" grouping="end.02" fn_mapping="None" verbnet_key="end#1" features="None"/>
-<MEMBER name="finish" wn="finish%2:30:02 finish%2:34:00 finish%2:30:03" grouping="finish.01" fn_mapping="None" verbnet_key="finish#1" features="None"/>
-<MEMBER name="stop" wn="stop%2:38:00 stop%2:42:00 stop%2:30:05 stop%2:33:00" grouping="stop.01" fn_mapping="None" verbnet_key="stop#3" features="None"/>
-<MEMBER name="quit" wn="quit%2:42:04" grouping="quit.01" fn_mapping="None" verbnet_key="quit#3" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-SC/BE-ING-SC" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-He stopped going to the area.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="be_sc_ing"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e1"/>
-</ARGS>
-</PRED>
-<PRED value="end">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-</SUBCLASSES>
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <MEMBER fn_mapping="Change_operational_state" grouping="cut.05" name="cut" verbnet_key="cut#10" wn="cut%2:30:00" features=""/>
+      <MEMBER fn_mapping="None" grouping="discontinue.01" name="discontinue" verbnet_key="discontinue#2" wn="discontinue%2:42:00 discontinue%2:30:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="kill.04 kill.07" name="kill" verbnet_key="kill#6" wn="kill%2:30:08 kill%2:30:03" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Affector">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Eventuality">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP.eventuality" secondary="NP.theme" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     John cut the engine.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Affector">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Eventuality">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="occur">
+     <ARGS>
+      <ARG type="Event" value="ë1"/>
+      <ARG type="ThemRole" value="Eventuality"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Affector"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="occur">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Eventuality"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="stop-55.4-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="close.03" name="close" verbnet_key="close#4" wn="close%2:41:01 close%2:42:00 close%2:42:01 close%2:30:08" features=""/>
+    <MEMBER fn_mapping="None" grouping="cut.05" name="cut_off" verbnet_key="cut_off#1" wn="cut_off%2:32:00 cut_off%2:30:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="cut.05" name="cut_out" verbnet_key="cut_out#1" wn="cut_out%2:30:01" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="deactivate" verbnet_key="deactivate#1" wn="deactive%2:30:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="halt.01" name="halt" verbnet_key="halt#1" wn="halt%2:38:05 halt%2:38:01 halt%2:41:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="stall.02" name="stall" verbnet_key="stall#2" wn="stall%2:38:00 stall%2:38:04 stall%2:38:02 stall%2:38:01" features=""/>
+    <MEMBER fn_mapping="None" grouping="terminate.01" name="terminate" verbnet_key="terminate#2" wn="terminate%2:30:01 terminate%2:42:00 terminate%2:42:05" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP.eventuality V" secondary="Intransitive; Inchoative" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The storm ended.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Eventuality">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="occur">
+       <ARGS>
+        <ARG type="Event" value="ë1"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+       </ARGS>
+      </PRED>
+      <PRED bool="!" value="occur">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="stop-55.4-1-1">
+     <MEMBERS>
+      <MEMBER fn_mapping="None" grouping="cease.01" name="cease" verbnet_key="cease#1" wn="cease%2:42:00" features=""/>
+      <MEMBER fn_mapping="None" grouping="conclude.01" name="conclude" verbnet_key="conclude#2" wn="conclude%2:31:01 conclude%2:32:01 conclude%2:42:02" features=""/>
+      <MEMBER fn_mapping="None" grouping="end.02" name="end" verbnet_key="end#1" wn="end%2:30:01 end%2:36:13" features=""/>
+      <MEMBER fn_mapping="None" grouping="finish.01" name="finish" verbnet_key="finish#1" wn="finish%2:30:02 finish%2:34:00 finish%2:30:03" features=""/>
+      <MEMBER fn_mapping="None" grouping="stop.01" name="stop" verbnet_key="stop#3" wn="stop%2:38:00 stop%2:42:00 stop%2:30:05 stop%2:33:00" features=""/>
+      <MEMBER fn_mapping="None" grouping="quit.01" name="quit" verbnet_key="quit#3" wn="quit%2:42:04" features=""/>
+     </MEMBERS>
+     <THEMROLES>
+      <THEMROLE type="Subeventuality">
+       <SELRESTRS/>
+      </THEMROLE>
+      </THEMROLES>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-SC/BE-ING-SC" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         He stopped eating the popsicle.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Affector">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Eventuality">
+         <SYNRESTRS>
+          <SYNRESTR Value="+" type="be_sc_ing"/>
+         </SYNRESTRS>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="engage_in">
+         <ARGS>
+          <ARG type="Event" value="ë1"/>
+          <ARG type="ThemRole" value="Eventuality"/>
+         </ARGS>
+        </PRED>
+        <PRED bool="!" value="engage_in">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Eventuality"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="8.1" primary="NP V NP.eventuality PP.subeventuality" secondary="ING-SC/BE-ING-SC" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         He ended the party with fireworks.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Affector">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Eventuality">
+         <SYNRESTRS/>
+        </NP>
+        <PREP value="with">
+         <SELRESTRS/>
+        </PREP>
+        <NP value="Subeventuality">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="occur">
+         <ARGS>
+          <ARG type="Event" value="ë1"/>
+          <ARG type="ThemRole" value="Eventuality"/>
+         </ARGS>
+        </PRED>
+        <PRED value="engage_in">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Affector"/>
+          <ARG type="ThemRole" value="Subeventuality"/>
+         </ARGS>
+        </PRED>
+        <PRED bool="!" value="occur">
+         <ARGS>
+          <ARG type="Event" value="e3"/>
+          <ARG type="ThemRole" value="Eventuality"/>
+         </ARGS>
+        </PRED>
+        <PRED value="finish">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="ë1"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="" primary="NP V NP.eventuality" secondary="" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         A wedding ended the book.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Subeventuality">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Eventuality">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="occur">
+         <ARGS>
+          <ARG type="Event" value="ë1"/>
+          <ARG type="ThemRole" value="Eventuality"/>
+         </ARGS>
+        </PRED>
+        <PRED value="occur">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Subeventuality"/>
+         </ARGS>
+        </PRED>
+        <PRED bool="!" value="occur">
+         <ARGS>
+          <ARG type="Event" value="e3"/>
+          <ARG type="ThemRole" value="Eventuality"/>
+         </ARGS>
+        </PRED>
+        <PRED value="finish">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="ë1"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

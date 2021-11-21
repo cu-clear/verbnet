@@ -1,448 +1,448 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="amuse-31.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="abash" wn="abash%2:37:00" grouping="" fn_mapping="None" verbnet_key="abash#1" features="+neg_feeling"/>
-<MEMBER name="affect" wn="affect%2:37:00" grouping="affect.02" fn_mapping="None" verbnet_key="affect#1" features="+neg_feeling"/>
-<MEMBER name="afflict" wn="afflict%2:37:00" grouping="afflict.01" fn_mapping="None" verbnet_key="afflict#1" features="+neg_feeling"/>
-<MEMBER name="affront" wn="affront%2:32:00" grouping="" fn_mapping="None" verbnet_key="affront#1" features="+neg_feeling"/>
-<MEMBER name="aggravate" wn="aggravate%2:37:00" grouping="aggravate.01" fn_mapping="Experiencer_obj" verbnet_key="aggravate#1" features="+neg_feeling"/>
-<MEMBER name="aggrieve" wn="" grouping="" fn_mapping="None" verbnet_key="aggrieve#1" features="+neg_feeling"/>
-<MEMBER name="agitate" wn="agitate%2:37:00" grouping="agitate.01" fn_mapping="None" verbnet_key="agitate#1" features="+neg_feeling"/>
-<MEMBER name="agonize" wn="agonize%2:37:01 agonize%2:37:00" grouping="" fn_mapping="None" verbnet_key="agonize#1" features="+neg_feeling"/>
-<MEMBER name="alarm" wn="alarm%2:37:00" grouping="alarm.01 alarm.02" fn_mapping="Experiencer_obj" verbnet_key="alarm#1" features="+neg_feeling"/>
-<MEMBER name="alienate" wn="alienate%2:37:00" grouping="alienate.01" fn_mapping="None" verbnet_key="alienate#1" features="+neg_feeling"/>
-<MEMBER name="amaze" wn="amaze%2:31:00 amaze%2:31:01" grouping="amaze.01" fn_mapping="Experiencer_obj" verbnet_key="amaze#1" features="+pos_feeling"/>
-<MEMBER name="amuse" wn="amuse%2:41:00 amuse%2:32:00" grouping="amuse.01" fn_mapping="Cause_to_experience" verbnet_key="amuse#1" features="+attention"/>
-<MEMBER name="anger" wn="anger%2:37:00 anger%2:37:01" grouping="anger.01" fn_mapping="Experiencer_obj" verbnet_key="anger#1" features="+neg_feeling"/>
-<MEMBER name="annoy" wn="annoy%2:37:00" grouping="" fn_mapping="None" verbnet_key="annoy#1" features="+neg_feeling"/>
-<MEMBER name="antagonize" wn="antagonize%2:41:00" grouping="" fn_mapping="None" verbnet_key="antagonize#1" features="+neg_feeling"/>
-<MEMBER name="appall" wn="appall%2:37:00 appall%2:37:10" grouping="appall.01" fn_mapping="None" verbnet_key="appall#1" features="+neg_feeling"/>
-<MEMBER name="appease" wn="appease%2:37:00" grouping="appease.01" fn_mapping="None" verbnet_key="appease#1" features="+pos_feeling"/>
-<MEMBER name="arouse" wn="arouse%2:29:00 arouse%2:37:01" grouping="arouse.02 arouse.03" fn_mapping="Experiencer_obj" verbnet_key="arouse#1" features="+produce_feeling"/>
-<MEMBER name="assuage" wn="assuage%2:37:00" grouping="" fn_mapping="None" verbnet_key="assuage#1" features="+pos_feeling"/>
-<MEMBER name="astonish" wn="astonish%2:31:00" grouping="" fn_mapping="None" verbnet_key="astonish#1" features="+surprised"/>
-<MEMBER name="astound" wn="astound%2:31:00" grouping="" fn_mapping="None" verbnet_key="astound#1" features="+surprised"/>
-<MEMBER name="awe" wn="awe%2:37:00" grouping="" fn_mapping="None" verbnet_key="awe#1" features="+surprised"/>
-<MEMBER name="baffle" wn="baffle%2:31:00" grouping="baffle.01" fn_mapping="Experiencer_obj" verbnet_key="baffle#1" features="+confused"/>
-<MEMBER name="befuddle" wn="" grouping="" fn_mapping="None" verbnet_key="befuddle#1" features="+confused"/>
-<MEMBER name="beguile" wn="beguile%2:41:00 beguile%2:37:00" grouping="" fn_mapping="None" verbnet_key="beguile#1" features="+pos_feeling"/>
-<MEMBER name="bewilder" wn="bewilder%2:31:00 bewilder%2:37:00" grouping="" fn_mapping="None" verbnet_key="bewilder#1" features="+confused"/>
-<MEMBER name="bewitch" wn="bewitch%2:37:00 bewitch%2:32:00" grouping="bewitch.01" fn_mapping="Experiencer_obj" verbnet_key="bewitch#1" features="+pos_feeling"/>
-<MEMBER name="boggle" wn="boggle%2:38:00 boggle%2:31:00" grouping="boggle.01 boggle.02" fn_mapping="Experiencer_obj" verbnet_key="boggle#1" features="+confused"/>
-<MEMBER name="bore" wn="bore%2:37:00" grouping="" fn_mapping="None" verbnet_key="bore#1" features="+attention"/>
-<MEMBER name="bother" wn="bother%2:37:00 bother%2:37:03 bother%2:37:02" grouping="bother.02" fn_mapping="None" verbnet_key="bother#1" features="+neg_feeling"/>
-<MEMBER name="browbeat" wn="browbeat%2:37:00 browbeat%2:32:00" grouping="" fn_mapping="None" verbnet_key="browbeat#1" features="+neg_feeling"/>
-<MEMBER name="bug" wn="bug%2:37:00" grouping="bug.01" fn_mapping="None" verbnet_key="bug#1" features="+neg_feeling"/>
-<MEMBER name="calm" wn="calm%2:37:00" grouping="calm.01" fn_mapping="Experiencer_obj" verbnet_key="calm#1" features="+pos_feeling"/>
-<MEMBER name="captivate" wn="captivate%2:37:00" grouping="" fn_mapping="None" verbnet_key="captivate#1" features="+attention"/>
-<MEMBER name="chagrin" wn="chagrin%2:37:01" grouping="" fn_mapping="None" verbnet_key="chagrin#1" features="+neg_feeling"/>
-<MEMBER name="charm" wn="charm%2:37:00" grouping="charm.01" fn_mapping="Experiencer_obj" verbnet_key="charm#1" features="+pos_feeling"/>
-<MEMBER name="cheer" wn="cheer%2:32:03 cheer%2:32:00" grouping="cheer.01 cheer.02" fn_mapping="Experiencer_obj" verbnet_key="cheer#1" features="+pos_feeling"/>
-<MEMBER name="chill" wn="chill%2:37:00" grouping="chill.01" fn_mapping="None" verbnet_key="chill#1" features="+neg_feeling"/>
-<MEMBER name="cloy" wn="cloy%2:40:00" grouping="" fn_mapping="None" verbnet_key="cloy#1" features="+neg_feeling"/>
-<MEMBER name="comfort" wn="comfort%2:37:01" grouping="comfort.01" fn_mapping="Experiencer_obj" verbnet_key="comfort#1" features="+pos_feeling"/>
-<MEMBER name="concern" wn="concern%2:42:01" grouping="concern.02" fn_mapping="Cause_emotion" verbnet_key="concern#1" features="+neg_feeling"/>
-<MEMBER name="confound" wn="confound%2:31:02" grouping="" fn_mapping="None" verbnet_key="confound#1" features="+confused"/>
-<MEMBER name="confuse" wn="confuse%2:31:03 confuse%2:37:00" grouping="confuse.02" fn_mapping="Experiencer_obj" verbnet_key="confuse#2" features="+confused"/>
-<MEMBER name="console" wn="console%2:37:00" grouping="" fn_mapping="None" verbnet_key="console#1" features="+pos_feeling"/>
-<MEMBER name="content" wn="content%2:37:00" grouping="" fn_mapping="None" verbnet_key="content#1" features="+pos_feeling"/>
-<MEMBER name="convince" wn="convince%2:32:00" grouping="convince.01" fn_mapping="Suasion" verbnet_key="convince#1" features="+change_belief"/>
-<MEMBER name="cow" wn="cow%2:37:00" grouping="" fn_mapping="None" verbnet_key="cow#1" features="+neg_feeling"/>
-<MEMBER name="crush" wn="crush%2:37:00" grouping="crush.03" fn_mapping="None" verbnet_key="crush#1" features="+neg_feeling"/>
-<MEMBER name="cut" wn="" grouping="" fn_mapping="None" verbnet_key="cut#1" features="+neg_feeling"/>
-<MEMBER name="daunt" wn="daunt%2:37:00" grouping="" fn_mapping="None" verbnet_key="daunt#1" features="+neg_feeling"/>
-<MEMBER name="daze" wn="daze%2:39:00" grouping="" fn_mapping="None" verbnet_key="daze#1" features="+confused"/>
-<MEMBER name="dazzle" wn="dazzle%2:31:00" grouping="" fn_mapping="None" verbnet_key="dazzle#1" features="+pos_feeling"/>
-<MEMBER name="deject" wn="deject%2:37:00" grouping="" fn_mapping="None" verbnet_key="deject#1" features="+neg_feeling"/>
-<MEMBER name="delight" wn="delight%2:37:00 delight%2:37:02" grouping="delight.01" fn_mapping="Experiencer_obj" verbnet_key="delight#1" features="+pos_feeling"/>
-<MEMBER name="demolish" wn="demolish%2:37:00" grouping="demolish.02" fn_mapping="None" verbnet_key="demolish#1" features="+neg_feeling"/>
-<MEMBER name="demoralize" wn="demoralize%2:37:00" grouping="demoralize.02" fn_mapping="None" verbnet_key="demoralize#1" features="+neg_feeling"/>
-<MEMBER name="depress" wn="depress%2:37:00" grouping="depress.01" fn_mapping="Experiencer_obj" verbnet_key="depress#1" features="+neg_feeling"/>
-<MEMBER name="devastate" wn="devastate%2:30:01" grouping="devastate.02" fn_mapping="Experiencer_obj" verbnet_key="devastate#1" features="+neg_feeling"/>
-<MEMBER name="disappoint" wn="disappoint%2:37:00" grouping="disappoint.01" fn_mapping="Experiencer_obj" verbnet_key="disappoint#1" features="+neg_feeling"/>
-<MEMBER name="disarm" wn="disarm%2:37:00" grouping="disarm.02" fn_mapping="None" verbnet_key="disarm#1" features="+surprised"/>
-<MEMBER name="discombobulate" wn="discombobulate%2:37:00 discombobulate%2:31:00" grouping="" fn_mapping="None" verbnet_key="discombobulate#1" features="+confused"/>
-<MEMBER name="discomfit" wn="discomfit%2:37:00" grouping="" fn_mapping="None" verbnet_key="discomfit#1" features="+neg_feeling"/>
-<MEMBER name="disconcert" wn="disconcert%2:37:02 disconcert%2:37:01" grouping="" fn_mapping="None" verbnet_key="disconcert#1" features="+neg_feeling"/>
-<MEMBER name="discompose" wn="discompose%2:37:00" grouping="" fn_mapping="None" verbnet_key="discompose#1" features="+neg_feeling"/>
-<MEMBER name="discourage" wn="discourage%2:37:00" grouping="discourage.01" fn_mapping="Experiencer_obj" verbnet_key="discourage#1" features="+neg_feeling"/>
-<MEMBER name="disgrace" wn="disgrace%2:41:00 disgrace%2:37:00" grouping="disgrace.01" fn_mapping="None" verbnet_key="disgrace#1" features="+neg_feeling"/>
-<MEMBER name="disgruntle" wn="disgruntle%2:37:00" grouping="" fn_mapping="None" verbnet_key="disgruntle#1" features="+neg_feeling"/>
-<MEMBER name="disgust" wn="disgust%2:39:00 disgust%2:37:00" grouping="disgust.01" fn_mapping="None" verbnet_key="disgust#1" features="+neg_feeling"/>
-<MEMBER name="dishearten" wn="dishearten%2:37:00" grouping="" fn_mapping="None" verbnet_key="dishearten#1" features="+neg_feeling"/>
-<MEMBER name="dishonour" wn="dishonour%2:41:00" grouping="dishonour.01" fn_mapping="None" verbnet_key="dishonour#1" features="+neg_feeling"/>
-<MEMBER name="disillusion" wn="disillusion%2:37:00" grouping="" fn_mapping="None" verbnet_key="disillusion#1" features="+neg_feeling"/>
-<MEMBER name="dismay" wn="dismay%2:37:01 dismay%2:37:00" grouping="" fn_mapping="None" verbnet_key="dismay#1" features="+neg_feeling"/>
-<MEMBER name="dispirit" wn="dispirit%2:37:00" grouping="" fn_mapping="None" verbnet_key="dispirit#1" features="+neg_feeling"/>
-<MEMBER name="displease" wn="displease%2:37:00" grouping="" fn_mapping="None" verbnet_key="displease#1" features="+neg_feeling"/>
-<MEMBER name="disquiet" wn="disquiet%2:37:00" grouping="" fn_mapping="None" verbnet_key="disquiet#1" features="+neg_feeling"/>
-<MEMBER name="dissatisfy" wn="dissatisfy%2:37:00" grouping="" fn_mapping="None" verbnet_key="dissatisfy#1" features="+neg_feeling"/>
-<MEMBER name="distract" wn="distract%2:37:02" grouping="distract.01" fn_mapping="None" verbnet_key="distract#1" features="+attention"/>
-<MEMBER name="distress" wn="distress%2:37:00" grouping="" fn_mapping="None" verbnet_key="distress#1" features="+neg_feeling"/>
-<MEMBER name="disturb" wn="disturb%2:37:00" grouping="disturb.02" fn_mapping="Experiencer_obj" verbnet_key="disturb#1" features="+neg_feeling"/>
-<MEMBER name="divert" wn="" grouping="divert.02" fn_mapping="Cause_to_experience" verbnet_key="divert#1" features="+attention"/>
-<MEMBER name="dumbfound" wn="dumbfound%2:31:00" grouping="" fn_mapping="None" verbnet_key="dumbfound#1" features="+surprised"/>
-<MEMBER name="elate" wn="elate%2:37:00" grouping="" fn_mapping="None" verbnet_key="elate#1" features="+pos_feeling"/>
-<MEMBER name="electrify" wn="electrify%2:37:00" grouping="electrify.01" fn_mapping="None" verbnet_key="electrify#1" features="+pos_feeling"/>
-<MEMBER name="embarrass" wn="embarrass%2:37:00" grouping="embarrass.01" fn_mapping="Experiencer_obj" verbnet_key="embarrass#1" features="+neg_feeling"/>
-<MEMBER name="embolden" wn="embolden%2:37:00" grouping="" fn_mapping="None" verbnet_key="embolden#1" features="+pos_feeling"/>
-<MEMBER name="enchant" wn="enchant%2:37:01" grouping="enchant.01" fn_mapping="Experiencer_obj" verbnet_key="enchant#1" features="+pos_feeling"/>
-<MEMBER name="encourage" wn="encourage%2:37:00" grouping="encourage.02" fn_mapping="None" verbnet_key="encourage#3" features="+pos_feeling"/>
-<MEMBER name="enervate" wn="" grouping="" fn_mapping="None" verbnet_key="enervate#1" features="+neg_feeling"/>
-<MEMBER name="enflame" wn="" grouping="" fn_mapping="None" verbnet_key="enflame#1" features="+neg_feeling"/>
-<MEMBER name="engage" wn="engage%2:31:00" grouping="engage.01" fn_mapping="Intentionally_act" verbnet_key="engage#2" features="+attention"/>
-<MEMBER name="engross" wn="engross%2:31:02 engross%2:31:00" grouping="" fn_mapping="None" verbnet_key="engross#1" features="+attention"/>
-<MEMBER name="enlighten" wn="enlighten%2:32:01" grouping="enlighten.02" fn_mapping="None" verbnet_key="enlighten#1" features="+pos_feeling"/>
-<MEMBER name="enliven" wn="" grouping="" fn_mapping="None" verbnet_key="enliven#1" features="+pos_feeling"/>
-<MEMBER name="enrage" wn="enrage%2:37:00" grouping="" fn_mapping="None" verbnet_key="enrage#1" features="+neg_feeling"/>
-<MEMBER name="enrapture" wn="enrapture%2:37:00" grouping="" fn_mapping="None" verbnet_key="enrapture#1" features="+pos_feeling"/>
-<MEMBER name="entertain" wn="entertain%2:41:00" grouping="entertain.01" fn_mapping="Cause_to_experience" verbnet_key="entertain#1" features="+pos_feeling"/>
-<MEMBER name="enthrall" wn="enthrall%2:37:00" grouping="" fn_mapping="None" verbnet_key="enthrall#1" features="+attention"/>
-<MEMBER name="enthuse" wn="enthuse%2:37:00" grouping="" fn_mapping="None" verbnet_key="enthuse#1" features="+pos_feeling"/>
-<MEMBER name="entice" wn="entice%2:32:00" grouping="entice.01" fn_mapping="Subjective_influence" verbnet_key="entice#1" features="+pos_feeling"/>
-<MEMBER name="entrance" wn="entrance%2:37:00" grouping="" fn_mapping="None" verbnet_key="entrance#1" features="+pos_feeling"/>
-<MEMBER name="exasperate" wn="exasperate%2:37:00 exasperate%2:37:01" grouping="exasperate.01" fn_mapping="Experiencer_obj" verbnet_key="exasperate#1" features="+neg_feeling"/>
-<MEMBER name="excite" wn="excite%2:37:02 excite%2:37:03 excite%2:37:01 excite%2:37:00" grouping="excite.01" fn_mapping="None" verbnet_key="excite#1" features="+pos_feeling"/>
-<MEMBER name="exhaust" wn="exhaust%2:29:00" grouping="exhaust.01" fn_mapping="None" verbnet_key="exhaust#1" features="+neg_feeling"/>
-<MEMBER name="exhilarate" wn="exhilarate%2:37:00" grouping="" fn_mapping="None" verbnet_key="exhilarate#1" features="+pos_feeling"/>
-<MEMBER name="fascinate" wn="fascinate%2:42:00 fascinate%2:37:01" grouping="fascinate.01" fn_mapping="Experiencer_obj" verbnet_key="fascinate#1" features="+pos_feeling"/>
-<MEMBER name="fatigue" wn="" grouping="" fn_mapping="None" verbnet_key="fatigue#1" features="+neg_feeling"/>
-<MEMBER name="faze" wn="faze%2:37:00" grouping="" fn_mapping="None" verbnet_key="faze#1" features="+neg_feeling"/>
-<MEMBER name="flabbergast" wn="flabbergast%2:31:00" grouping="" fn_mapping="None" verbnet_key="flabbergast#1" features="+surprised"/>
-<MEMBER name="flatter" wn="flatter%2:32:00" grouping="" fn_mapping="None" verbnet_key="flatter#1" features="+pos_feeling"/>
-<MEMBER name="floor" wn="floor%2:37:00" grouping="" fn_mapping="None" verbnet_key="floor#1" features="+surprised"/>
-<MEMBER name="flummox" wn="flummox%2:31:00" grouping="" fn_mapping="None" verbnet_key="flummox#1" features="+confused"/>
-<MEMBER name="fluster" wn="fluster%2:37:01 fluster%2:37:00" grouping="" fn_mapping="None" verbnet_key="fluster#1" features="+neg_feeling"/>
-<MEMBER name="fox" wn="fox%2:31:00" grouping="fox.01" fn_mapping="None" verbnet_key="fox#1" features="+neg_feeling"/>
-<MEMBER name="frighten" wn="frighten%2:37:00" grouping="frighten.01" fn_mapping="Experiencer_obj" verbnet_key="frighten#1" features="+neg_feeling +fear"/>
-<MEMBER name="frustrate" wn="frustrate%2:37:00" grouping="frustrate.01" fn_mapping="Experiencer_obj" verbnet_key="frustrate#1" features="+neg_feeling"/>
-<MEMBER name="fuddle" wn="fuddle%2:31:00" grouping="fuddle.02" fn_mapping="None" verbnet_key="fuddle#1" features="+confused"/>
-<MEMBER name="gall" wn="gall%2:37:00" grouping="" fn_mapping="None" verbnet_key="gall#1" features="+neg_feeling"/>
-<MEMBER name="galvanize" wn="galvanize%2:37:00" grouping="galvanize.01" fn_mapping="None" verbnet_key="galvanize#1" features="+neg_feeling +surprised"/>
-<MEMBER name="gladden" wn="gladden%2:37:01 gladden%2:37:00" grouping="" fn_mapping="None" verbnet_key="gladden#1" features="+pos_feeling"/>
-<MEMBER name="gratify" wn="gratify%2:37:00 gratify%2:34:00" grouping="" fn_mapping="None" verbnet_key="gratify#1" features="+pos_feeling"/>
-<MEMBER name="grieve" wn="grieve%2:37:01" grouping="" fn_mapping="None" verbnet_key="grieve#1" features="+neg_feeling"/>
-<MEMBER name="harass" wn="harass%2:37:00" grouping="harass.01" fn_mapping="Manipulate_into_doing" verbnet_key="harass#1" features="+neg_feeling"/>
-<MEMBER name="harm" wn="" grouping="harm.01" fn_mapping="None" verbnet_key="harm#1" features="+neg_feeling"/>
-<MEMBER name="haunt" wn="haunt%2:37:00" grouping="haunt.01" fn_mapping="None" verbnet_key="haunt#1" features="+neg_feeling"/>
-<MEMBER name="hearten" wn="hearten%2:37:00" grouping="" fn_mapping="None" verbnet_key="hearten#1" features="+pos_feeling"/>
-<MEMBER name="horrify" wn="horrify%2:37:01" grouping="" fn_mapping="None" verbnet_key="horrify#1" features="+neg_feeling"/>
-<MEMBER name="humble" wn="humble%2:37:01 humble%2:37:00" grouping="" fn_mapping="None" verbnet_key="humble#1" features="None"/>
-<MEMBER name="humiliate" wn="humiliate%2:37:00" grouping="" fn_mapping="None" verbnet_key="humiliate#1" features="+neg_feeling"/>
-<MEMBER name="hurt" wn="hurt%2:30:04" grouping="hurt.02" fn_mapping="None" verbnet_key="hurt#1" features="+neg_feeling"/>
-<MEMBER name="hypnotize" wn="" grouping="" fn_mapping="None" verbnet_key="hypnotize#1" features="+attention"/>
-<MEMBER name="impair" wn="" grouping="" fn_mapping="None" verbnet_key="impair#1" features="+neg_feeling"/>
-<MEMBER name="impress" wn="impress%2:37:01 impress%2:37:00 impress%2:31:00" grouping="impress.01" fn_mapping="Experiencer_obj" verbnet_key="impress#1" features="+pos_feeling"/>
-<MEMBER name="incense" wn="incense%2:37:01" grouping="" fn_mapping="None" verbnet_key="incense#1" features="+neg_feeling"/>
-<MEMBER name="inflame" wn="" grouping="" fn_mapping="None" verbnet_key="inflame#1" features="+neg_feeling"/>
-<MEMBER name="infuriate" wn="infuriate%2:37:00" grouping="" fn_mapping="None" verbnet_key="infuriate#1" features="+neg_feeling"/>
-<MEMBER name="inspire" wn="inspire%2:32:00" grouping="inspire.01" fn_mapping="Subjective_influence" verbnet_key="inspire#1" features="+pos_feeling"/>
-<MEMBER name="insult" wn="insult%2:32:00" grouping="" fn_mapping="None" verbnet_key="insult#1" features="+neg_feeling"/>
-<MEMBER name="interest" wn="interest%2:37:00" grouping="interest.01" fn_mapping="Experiencer_obj" verbnet_key="interest#1" features="+attention"/>
-<MEMBER name="intimidate" wn="intimidate%2:37:00" grouping="intimidate.01" fn_mapping="Experiencer_obj" verbnet_key="intimidate#1" features="+neg_feeling"/>
-<MEMBER name="intoxicate" wn="intoxicate%2:37:00" grouping="intoxicate.01" fn_mapping="None" verbnet_key="intoxicate#1" features="+pos_feeling"/>
-<MEMBER name="intrigue" wn="intrigue%2:42:00" grouping="intrigue.01" fn_mapping="Experiencer_obj" verbnet_key="intrigue#1" features="+pos_feeling"/>
-<MEMBER name="invigorate" wn="invigorate%2:30:01 invigorate%2:29:00" grouping="" fn_mapping="None" verbnet_key="invigorate#1" features="+pos_feeling"/>
-<MEMBER name="irk" wn="irk%2:37:00" grouping="" fn_mapping="None" verbnet_key="irk#1" features="+neg_feeling"/>
-<MEMBER name="irritate" wn="irritate%2:37:00" grouping="irritate.01" fn_mapping="Experiencer_obj" verbnet_key="irritate#1" features="+neg_feeling"/>
-<MEMBER name="jade" wn="" grouping="" fn_mapping="None" verbnet_key="jade#1" features="+neg_feeling +attention"/>
-<MEMBER name="jar" wn="jar%2:37:00" grouping="" fn_mapping="None" verbnet_key="jar#1" features="+neg_feeling"/>
-<MEMBER name="jollify" wn="" grouping="" fn_mapping="None" verbnet_key="jollify#1" features="+pos_feeling"/>
-<MEMBER name="jolt" wn="jolt%2:37:00" grouping="jolt.02" fn_mapping="None" verbnet_key="jolt#1" features="+surprised"/>
-<MEMBER name="kill" wn="kill%2:37:00" grouping="kill.05" fn_mapping="None" verbnet_key="kill#1" features="+neg_feeling"/>
-<MEMBER name="lull" wn="lull%2:37:01" grouping="" fn_mapping="None" verbnet_key="lull#1" features="+pos_feeling"/>
-<MEMBER name="madden" wn="madden%2:37:01 madden%2:37:00" grouping="" fn_mapping="Experiencer_obj" verbnet_key="madden#1" features="+neg_feeling"/>
-<MEMBER name="menace" wn="" grouping="menace.02" fn_mapping="None" verbnet_key="menace#1" features="+neg_feeling"/>
-<MEMBER name="mesmerize" wn="mesmerize%2:32:00" grouping="" fn_mapping="None" verbnet_key="mesmerize#1" features="+attention"/>
-<MEMBER name="miff" wn="miff%2:37:00" grouping="" fn_mapping="None" verbnet_key="miff#1" features="+neg_feeling"/>
-<MEMBER name="misguide" wn="misguide%2:38:00 misguide%2:32:00" grouping="" fn_mapping="None" verbnet_key="misguide#1" features="None"/>
-<MEMBER name="molest" wn="" grouping="" fn_mapping="None" verbnet_key="molest#1" features="+neg_feeling"/>
-<MEMBER name="mollify" wn="mollify%2:37:00" grouping="" fn_mapping="None" verbnet_key="mollify#1" features="+pos_feeling"/>
-<MEMBER name="mortify" wn="mortify%2:37:02" grouping="" fn_mapping="None" verbnet_key="mortify#1" features="+neg_feeling"/>
-<MEMBER name="move" wn="move%2:37:00 move%2:37:01" grouping="move.03" fn_mapping="None" verbnet_key="move#2" features="+produce_feeling"/>
-<MEMBER name="muddle" wn="muddle%2:31:00" grouping="" fn_mapping="None" verbnet_key="muddle#2" features="+pos_feeling"/>
-<MEMBER name="mystify" wn="mystify%2:31:00" grouping="" fn_mapping="None" verbnet_key="mystify#1" features="+confused"/>
-<MEMBER name="nauseate" wn="nauseate%2:37:00" grouping="" fn_mapping="None" verbnet_key="nauseate#1" features="+neg_feeling"/>
-<MEMBER name="nettle" wn="nettle%2:37:00" grouping="" fn_mapping="None" verbnet_key="nettle#1" features="+neg_feeling"/>
-<MEMBER name="nonplus" wn="nonplus%2:31:00" grouping="" fn_mapping="None" verbnet_key="nonplus#1" features="+neg_feeling"/>
-<MEMBER name="numb" wn="numb%2:39:00" grouping="" fn_mapping="None" verbnet_key="numb#1" features="+deprive_feeling"/>
-<MEMBER name="obsess" wn="obsess%2:37:00" grouping="obsess.01" fn_mapping="Emotion_active" verbnet_key="obsess#1" features="+attention"/>
-<MEMBER name="occupy" wn="" grouping="occupy.02" fn_mapping="None" verbnet_key="occupy#1" features="+attention"/>
-<MEMBER name="offend" wn="offend%2:37:01 offend%2:37:02 offend%2:37:00" grouping="offend.01" fn_mapping="Experiencer_obj" verbnet_key="offend#1" features="+neg_feeling"/>
-<MEMBER name="outrage" wn="outrage%2:37:01" grouping="" fn_mapping="Experiencer_obj" verbnet_key="outrage#1" features="+neg_feeling"/>
-<MEMBER name="overawe" wn="overawe%2:37:00" grouping="" fn_mapping="None" verbnet_key="overawe#1" features="+surprised"/>
-<MEMBER name="overwhelm" wn="overwhelm%2:37:00" grouping="overwhelm.01" fn_mapping="None" verbnet_key="overwhelm#1" features="+produce_feeling"/>
-<MEMBER name="pacify" wn="pacify%2:37:00" grouping="" fn_mapping="None" verbnet_key="pacify#1" features="+pos_feeling"/>
-<MEMBER name="pain" wn="pain%2:37:00" grouping="" fn_mapping="None" verbnet_key="pain#1" features="+neg_feeling"/>
-<MEMBER name="peeve" wn="peeve%2:37:00" grouping="" fn_mapping="None" verbnet_key="peeve#1" features="+neg_feeling"/>
-<MEMBER name="perplex" wn="perplex%2:31:00" grouping="" fn_mapping="None" verbnet_key="perplex#1" features="+confused"/>
-<MEMBER name="perturb" wn="perturb%2:37:00" grouping="" fn_mapping="None" verbnet_key="perturb#1" features="+neg_feeling"/>
-<MEMBER name="pester" wn="" grouping="" fn_mapping="None" verbnet_key="pester#1" features="+neg_feeling"/>
-<MEMBER name="pique" wn="pique%2:37:00" grouping="" fn_mapping="None" verbnet_key="pique#1" features="+neg_feeling"/>
-<MEMBER name="placate" wn="placate%2:37:00" grouping="" fn_mapping="None" verbnet_key="placate#1" features="+pos_feeling"/>
-<MEMBER name="plague" wn="plague%2:37:00" grouping="plague.01" fn_mapping="None" verbnet_key="plague#1" features="+neg_feeling"/>
-<MEMBER name="please" wn="please%2:37:00" grouping="please.01" fn_mapping="None" verbnet_key="please#1" features="+pos_feeling"/>
-<MEMBER name="preoccupy" wn="preoccupy%2:37:00" grouping="preoccupy.01" fn_mapping="None" verbnet_key="preoccupy#1" features="+attention"/>
-<MEMBER name="provoke" wn="provoke%2:37:00 provoke%2:37:01" grouping="provoke.02" fn_mapping="None" verbnet_key="provoke#1" features="+produce_feeling"/>
-<MEMBER name="puzzle" wn="puzzle%2:31:00" grouping="puzzle.01" fn_mapping="Experiencer_obj" verbnet_key="puzzle#1" features="+confused"/>
-<MEMBER name="quench" wn="" grouping="" fn_mapping="None" verbnet_key="quench#1" features="+pos_feeling"/>
-<MEMBER name="rag" wn="rag%2:37:00 rag%2:37:01 rag%2:32:01 rag%2:32:00" grouping="rag.01" fn_mapping="None" verbnet_key="rag#1" features="+neg_feeling"/>
-<MEMBER name="rankle" wn="rankle%2:37:00" grouping="" fn_mapping="None" verbnet_key="rankle#1" features="+neg_feeling"/>
-<MEMBER name="ravish" wn="" grouping="" fn_mapping="None" verbnet_key="ravish#1" features="+neg_feeling"/>
-<MEMBER name="reassure" wn="reassure%2:37:00 reassure%2:32:00" grouping="reassure.01" fn_mapping="Experiencer_obj" verbnet_key="reassure#1" features="+pos_feeling"/>
-<MEMBER name="recharge" wn="" grouping="" fn_mapping="None" verbnet_key="recharge#1" features="+pos_feeling"/>
-<MEMBER name="refresh" wn="refresh%2:30:00" grouping="refresh.02" fn_mapping="Rejuvenation" verbnet_key="refresh#1" features="+pos_feeling"/>
-<MEMBER name="rejuvenate" wn="" grouping="" fn_mapping="Rejuvenation" verbnet_key="rejuvenate#1" features="+pos_feeling"/>
-<MEMBER name="relax" wn="relax%2:29:01" grouping="relax.01" fn_mapping="None" verbnet_key="relax#1" features="+pos_feeling"/>
-<MEMBER name="relieve" wn="relieve%2:37:00 relieve%2:40:01" grouping="relieve.01 relieve.04" fn_mapping="None" verbnet_key="relieve#1" features="+pos_feeling"/>
-<MEMBER name="repel" wn="repel%2:37:00 repel%2:39:00" grouping="repel.02" fn_mapping="Experiencer_obj" verbnet_key="repel#1" features="+neg_feeling"/>
-<MEMBER name="repulse" wn="repulse%2:37:00" grouping="" fn_mapping="None" verbnet_key="repulse#1" features="+neg_feeling"/>
-<MEMBER name="revitalize" wn="revitalize%2:29:00" grouping="" fn_mapping="None" verbnet_key="revitalize#1" features="+pos_feeling"/>
-<MEMBER name="revolt" wn="revolt%2:39:00 revolt%2:37:00" grouping="revolt.02" fn_mapping="Experiencer_obj" verbnet_key="revolt#1" features="+neg_feeling"/>
-<MEMBER name="rile" wn="rile%2:37:00" grouping="" fn_mapping="None" verbnet_key="rile#1" features="+neg_feeling"/>
-<MEMBER name="ruffle" wn="ruffle%2:37:00 ruffle%2:37:01" grouping="ruffle.02" fn_mapping="None" verbnet_key="ruffle#1" features="+neg_feeling"/>
-<MEMBER name="sadden" wn="sadden%2:37:01" grouping="" fn_mapping="None" verbnet_key="sadden#1" features="+neg_feeling"/>
-<MEMBER name="satisfy" wn="satisfy%2:37:00" grouping="satisfy.01" fn_mapping="Experiencer_obj" verbnet_key="satisfy#1" features="+pos_feeling"/>
-<MEMBER name="scandalize" wn="scandalize%2:37:00" grouping="" fn_mapping="None" verbnet_key="scandalize#1" features="+neg_feeling"/>
-<MEMBER name="scare" wn="scare%2:37:00 scare%2:37:04" grouping="scare.01" fn_mapping="None" verbnet_key="scare#1" features="+neg_feeling +fear"/>
-<MEMBER name="shake" wn="shake%2:37:00" grouping="shake.02" fn_mapping="Experiencer_obj" verbnet_key="shake#1" features="+neg_feeling"/>
-<MEMBER name="shame" wn="shame%2:41:00 shame%2:37:00" grouping="shame.01" fn_mapping="Experiencer_obj" verbnet_key="shame#1" features="+neg_feeling"/>
-<MEMBER name="shock" wn="shock%2:37:01 shock%2:37:02 shock%2:37:00" grouping="shock.01" fn_mapping="Experiencer_obj" verbnet_key="shock#1" features="+neg_feeling +surprised"/>
-<MEMBER name="sicken" wn="sicken%2:37:00" grouping="sicken.01" fn_mapping="Experiencer_obj" verbnet_key="sicken#1" features="+neg_feeling"/>
-<MEMBER name="sober" wn="sober%2:30:02" grouping="" fn_mapping="Experiencer_obj" verbnet_key="sober#1" features="+deprive_feeling"/>
-<MEMBER name="solace" wn="solace%2:37:00" grouping="" fn_mapping="None" verbnet_key="solace#1" features="+pos_feeling"/>
-<MEMBER name="soothe" wn="soothe%2:37:00" grouping="" fn_mapping="None" verbnet_key="soothe#1" features="+pos_feeling"/>
-<MEMBER name="spellbind" wn="spellbind%2:32:00" grouping="" fn_mapping="None" verbnet_key="spellbind#1" features="+pos_feeling"/>
-<MEMBER name="spook" wn="spook%2:37:00" grouping="spook.01" fn_mapping="Experiencer_obj" verbnet_key="spook#1" features="+neg_feeling +fear"/>
-<MEMBER name="stagger" wn="stagger%2:37:00" grouping="stagger.03" fn_mapping="Experiencer_obj" verbnet_key="stagger#1" features="+surprised"/>
-<MEMBER name="startle" wn="startle%2:37:00" grouping="" fn_mapping="None" verbnet_key="startle#1" features="+surprised"/>
-<MEMBER name="stimulate" wn="stimulate%2:37:00 stimulate%2:29:00 stimulate%2:39:00" grouping="stimulate.01" fn_mapping="Experiencer_obj" verbnet_key="stimulate#1" features="+produce_feeling"/>
-<MEMBER name="sting" wn="sting%2:37:00" grouping="sting.03" fn_mapping="Experiencer_obj" verbnet_key="sting#1" features="+neg_feeling"/>
-<MEMBER name="stir" wn="stir%2:37:01 stir%2:36:00" grouping="stir.02" fn_mapping="Experiencer_obj" verbnet_key="stir#1" features="None"/>
-<MEMBER name="strike" wn="strike%2:37:00" grouping="strike.01" fn_mapping="Cause_harm" verbnet_key="strike#1" features="+surprised"/>
-<MEMBER name="stump" wn="stump%2:31:00" grouping="stump.01" fn_mapping="None" verbnet_key="stump#1" features="+neg_feeling"/>
-<MEMBER name="stun" wn="stun%2:39:00" grouping="stun.02" fn_mapping="Experiencer_obj" verbnet_key="stun#1" features="+surprised"/>
-<MEMBER name="stupefy" wn="stupefy%2:39:00 stupefy%2:31:00" grouping="" fn_mapping="None" verbnet_key="stupefy#1" features="+surprised"/>
-<MEMBER name="surprise" wn="surprise%2:31:00" grouping="surprise.01" fn_mapping="Experiencer_obj" verbnet_key="surprise#1" features="+surprised"/>
-<MEMBER name="tantalize" wn="tantalize%2:32:00" grouping="" fn_mapping="None" verbnet_key="tantalize#1" features="+neg_feeling"/>
-<MEMBER name="tempt" wn="tempt%2:37:00 tempt%2:37:01" grouping="tempt.01 tempt.03" fn_mapping="Subjective_influence" verbnet_key="tempt#1" features="+desire"/>
-<MEMBER name="terrify" wn="terrify%2:37:00" grouping="" fn_mapping="None" verbnet_key="terrify#1" features="+neg_feeling +fear"/>
-<MEMBER name="terrorize" wn="terrorize%2:37:00" grouping="terrorize.01" fn_mapping="Cause_to_experience" verbnet_key="terrorize#1" features="+neg_feeling +fear"/>
-<MEMBER name="threaten" wn="threaten%2:42:00" grouping="threaten.02" fn_mapping="None" verbnet_key="threaten#1" features="+neg_feeling"/>
-<MEMBER name="thrill" wn="thrill%2:39:00 thrill%2:37:02 thrill%2:37:01" grouping="thrill.01" fn_mapping="Experiencer_obj" verbnet_key="thrill#1" features="+pos_feeling"/>
-<MEMBER name="throw" wn="throw%2:37:00 throw%2:31:00" grouping="throw.05" fn_mapping="None" verbnet_key="throw#1" features="None"/>
-<MEMBER name="tickle" wn="tickle%2:37:01" grouping="tickle.02" fn_mapping="Experiencer_obj" verbnet_key="tickle#1" features="+pos_feeling"/>
-<MEMBER name="tire" wn="tire%2:37:01" grouping="tire.02" fn_mapping="None" verbnet_key="tire#1" features="+neg_feeling +attention"/>
-<MEMBER name="titillate" wn="titillate%2:37:00" grouping="" fn_mapping="None" verbnet_key="titillate#1" features="+pos_feeling"/>
-<MEMBER name="torment" wn="torment%2:37:00 torment%2:37:01" grouping="torment.01" fn_mapping="Cause_to_experience" verbnet_key="torment#1" features="+neg_feeling"/>
-<MEMBER name="torture" wn="" grouping="torture.01 torture.02" fn_mapping="Cause_harm" verbnet_key="torture#1" features="+neg_feeling"/>
-<MEMBER name="touch" wn="touch%2:37:00" grouping="touch.03" fn_mapping="None" verbnet_key="touch#1" features="+produce_feeling"/>
-<MEMBER name="transfix" wn="" grouping="" fn_mapping="None" verbnet_key="transfix#1" features="+surprised"/>
-<MEMBER name="transport" wn="transport%2:37:00" grouping="transport.02" fn_mapping="Bringing" verbnet_key="transport#1" features="+produce_feeling"/>
-<MEMBER name="trouble" wn="trouble%2:37:01 trouble%2:37:00" grouping="trouble.01" fn_mapping="None" verbnet_key="trouble#1" features="+neg_feeling"/>
-<MEMBER name="try" wn="try%2:37:01" grouping="try.04" fn_mapping="None" verbnet_key="try#1" features="+neg_feeling"/>
-<MEMBER name="unnerve" wn="unnerve%2:37:00" grouping="" fn_mapping="None" verbnet_key="unnerve#1" features="+neg_feeling"/>
-<MEMBER name="unsettle" wn="unsettle%2:37:00" grouping="" fn_mapping="None" verbnet_key="unsettle#1" features="+neg_feeling"/>
-<MEMBER name="uplift" wn="uplift%2:37:00" grouping="uplift.01" fn_mapping="None" verbnet_key="uplift#1" features="+pos_feeling"/>
-<MEMBER name="upset" wn="upset%2:37:01 upset%2:37:00" grouping="upset.02" fn_mapping="Experiencer_obj" verbnet_key="upset#1" features="+neg_feeling"/>
-<MEMBER name="vex" wn="vex%2:37:00" grouping="" fn_mapping="Experiencer_obj" verbnet_key="vex#1" features="+neg_feeling"/>
-<MEMBER name="weary" wn="weary%2:29:00" grouping="" fn_mapping="None" verbnet_key="weary#1" features="+neg_feeling"/>
-<MEMBER name="worry" wn="worry%2:37:01 worry%2:42:00" grouping="worry.01" fn_mapping="Experiencer_obj" verbnet_key="worry#1" features="+neg_feeling"/>
-<MEMBER name="wound" wn="wound%2:37:00" grouping="" fn_mapping="None" verbnet_key="wound#1" features="+neg_feeling"/>
-<MEMBER name="wow" wn="wow%2:37:00" grouping="" fn_mapping="None" verbnet_key="wow#1" features="+pos_feeling"/>
-<MEMBER name="roil" wn="" grouping="" fn_mapping="None" verbnet_key="roil#1" features="+produce_feeling"/>
-<MEMBER name="smite" wn="smite%2:37:00" grouping="smite.02" fn_mapping="None" verbnet_key="smite#1" features="+produce_feeling"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Experiencer">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate" />
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Stimulus">
-<SELRESTRS />
-</THEMROLE>
-<THEMROLE type="Result">
-<SELRESTRS />
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-The clown amused the children.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Stimulus">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Experiencer">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="Experiencer" />
-<ARG type="VerbSpecific" value="Emotion" />
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="Stimulus" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-The little children amused easily.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS />
-</NP>
-<VERB />
-<ADV />
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="Experiencer" />
-<ARG type="VerbSpecific" value="Emotion" />
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="?Stimulus" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="1.2.5" primary="NP V NP-PRO-ARB" secondary="PRO-Arb Object Alternation" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-The clown amused.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Stimulus">
-<SYNRESTRS />
-</NP>
-<VERB />
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="?Experiencer" />
-<ARG type="VerbSpecific" value="Emotion" />
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="Stimulus" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.13.4" primary="NP.cause V NP" secondary="NP; Attribute Subject" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-The clown's antics amused the children.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Stimulus">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="genitive" />
-</SYNRESTRS>
-</NP>
-<LEX value="'s" />
-<VERB />
-<NP value="Experiencer">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="Experiencer" />
-<ARG type="VerbSpecific" value="Emotion" />
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="ë" />
-<ARG type="ThemRole" value="Stimulus" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-That movie bored me silly.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Stimulus">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Experiencer">
-<SYNRESTRS />
-</NP>
-<NP value="Result">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="has_state">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Experiencer" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="ë2" />
-<ARG type="ThemRole" value="Experiencer" />
-<ARG type="VerbSpecific" value="Emotion" />
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="ë2" />
-<ARG type="ThemRole" value="Stimulus" />
-</ARGS>
-</PRED>
-<PRED value="has_state">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Experiencer" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES />
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="" name="abash" verbnet_key="abash#1" wn="abash%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="affect.02" name="affect" verbnet_key="affect#1" wn="affect%2:37:00" features="purpose: influence"/>
+  <MEMBER fn_mapping="None" grouping="afflict.01" name="afflict" verbnet_key="afflict#1" wn="afflict%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="affront" verbnet_key="affront#1" wn="affront%2:32:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="aggravate.01" name="aggravate" verbnet_key="aggravate#1" wn="aggravate%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="aggrieve" verbnet_key="aggrieve#1" wn="" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="agitate.01" name="agitate" verbnet_key="agitate#1" wn="agitate%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="agonize" verbnet_key="agonize#1" wn="agonize%2:37:01 agonize%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="alarm.01 alarm.02" name="alarm" verbnet_key="alarm#1" wn="alarm%2:37:00" features="end_cognitive_state: negative_feeling, fear"/>
+  <MEMBER fn_mapping="None" grouping="alienate.01" name="alienate" verbnet_key="alienate#1" wn="alienate%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="amaze.01" name="amaze" verbnet_key="amaze#1" wn="amaze%2:31:00 amaze%2:31:01" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Cause_to_experience" grouping="amuse.01" name="amuse" verbnet_key="amuse#1" wn="amuse%2:41:00 amuse%2:32:00" features="end_cognitive_state: +attention"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="anger.01" name="anger" verbnet_key="anger#1" wn="anger%2:37:00 anger%2:37:01" features="end_cognitive_state: negative_feeling; end_state: angry"/>
+  <MEMBER fn_mapping="None" grouping="" name="annoy" verbnet_key="annoy#1" wn="annoy%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="antagonize" verbnet_key="antagonize#1" wn="antagonize%2:41:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="appall.01" name="appall" verbnet_key="appall#1" wn="appall%2:37:00 appall%2:37:10" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="appease.01" name="appease" verbnet_key="appease#1" wn="appease%2:37:00" features="end_cognitive_state: positive_feeling; end_state: satisfaction"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="arouse.02 arouse.03" name="arouse" verbnet_key="arouse#1" wn="arouse%2:29:00 arouse%2:37:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="assuage" verbnet_key="assuage#1" wn="assuage%2:37:00" features="end_cognitive_state: positive_feeling; end_state: satisfaction"/>
+  <MEMBER fn_mapping="None" grouping="" name="astonish" verbnet_key="astonish#1" wn="astonish%2:31:00" features="end_cognitive_state: surprise"/>
+  <MEMBER fn_mapping="None" grouping="" name="astound" verbnet_key="astound#1" wn="astound%2:31:00" features="end_cognitive_state: surprise"/>
+  <MEMBER fn_mapping="None" grouping="" name="awe" verbnet_key="awe#1" wn="awe%2:37:00" features="end_cognitive_state: surprise, fear"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="baffle.01" name="baffle" verbnet_key="baffle#1" wn="baffle%2:31:00" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="None" grouping="" name="befuddle" verbnet_key="befuddle#1" wn="" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="None" grouping="" name="beguile" verbnet_key="beguile#1" wn="beguile%2:41:00 beguile%2:37:00" features="end_cognitive_state: positive_feeling; purpose: deceive"/>
+  <MEMBER fn_mapping="None" grouping="" name="bewilder" verbnet_key="bewilder#1" wn="bewilder%2:31:00 bewilder%2:37:00" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="bewitch.01" name="bewitch" verbnet_key="bewitch#1" wn="bewitch%2:37:00 bewitch%2:32:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="boggle.01 boggle.02" name="boggle" verbnet_key="boggle#1" wn="boggle%2:38:00 boggle%2:31:00" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="None" grouping="" name="bore" verbnet_key="bore#1" wn="bore%2:37:00" features="end_cognitive_state: negative_feeling; end_cognitive_state: -attention"/>
+  <MEMBER fn_mapping="None" grouping="bother.02" name="bother" verbnet_key="bother#1" wn="bother%2:37:00 bother%2:37:03 bother%2:37:02" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="browbeat" verbnet_key="browbeat#1" wn="browbeat%2:37:00 browbeat%2:32:00" features="purpose: persuade"/>
+  <MEMBER fn_mapping="None" grouping="bug.01" name="bug" verbnet_key="bug#1" wn="bug%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="calm.01" name="calm" verbnet_key="calm#1" wn="calm%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="captivate" verbnet_key="captivate#1" wn="captivate%2:37:00" features="end_cognitive_state: +attention"/>
+  <MEMBER fn_mapping="None" grouping="" name="chagrin" verbnet_key="chagrin#1" wn="chagrin%2:37:01" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="charm.01" name="charm" verbnet_key="charm#1" wn="charm%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="cheer.01 cheer.02" name="cheer" verbnet_key="cheer#1" wn="cheer%2:32:03 cheer%2:32:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="chill.01" name="chill" verbnet_key="chill#1" wn="chill%2:37:00" features="end_cognitive_state: negative_feeling, fear"/>
+  <MEMBER fn_mapping="None" grouping="" name="cloy" verbnet_key="cloy#1" wn="cloy%2:40:00" features=""/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="comfort.01" name="comfort" verbnet_key="comfort#1" wn="comfort%2:37:01" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Cause_emotion" grouping="concern.02" name="concern" verbnet_key="concern#1" wn="concern%2:42:01" features="attitude: +curious"/>
+  <MEMBER fn_mapping="None" grouping="" name="confound" verbnet_key="confound#1" wn="confound%2:31:02" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="confuse.02" name="confuse" verbnet_key="confuse#2" wn="confuse%2:31:03 confuse%2:37:00" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="None" grouping="" name="console" verbnet_key="console#1" wn="console%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="content" verbnet_key="content#1" wn="content%2:37:00" features="end_cognitive_state: positive_feeling; end_state: satisfaction"/>
+  <MEMBER fn_mapping="Suasion" grouping="convince.01" name="convince" verbnet_key="convince#1" wn="convince%2:32:00" features="purpose: persuade"/>
+  <MEMBER fn_mapping="None" grouping="" name="cow" verbnet_key="cow#1" wn="cow%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="crush.03" name="crush" verbnet_key="crush#1" wn="crush%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="cut" verbnet_key="cut#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="daunt" verbnet_key="daunt#1" wn="daunt%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="daze" verbnet_key="daze#1" wn="daze%2:39:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="dazzle" verbnet_key="dazzle#1" wn="dazzle%2:31:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="deject" verbnet_key="deject#1" wn="deject%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="delight.01" name="delight" verbnet_key="delight#1" wn="delight%2:37:00 delight%2:37:02" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="demolish.02" name="demolish" verbnet_key="demolish#1" wn="demolish%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="demoralize.02" name="demoralize" verbnet_key="demoralize#1" wn="demoralize%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="depress.01" name="depress" verbnet_key="depress#1" wn="depress%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="devastate.02" name="devastate" verbnet_key="devastate#1" wn="devastate%2:30:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="disarm.02" name="disarm" verbnet_key="disarm#1" wn="disarm%2:37:00" features="end_cognitive_state: surprise"/>
+  <MEMBER fn_mapping="None" grouping="" name="discombobulate" verbnet_key="discombobulate#1" wn="discombobulate%2:37:00 discombobulate%2:31:00" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="None" grouping="" name="discomfit" verbnet_key="discomfit#1" wn="discomfit%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="disconcert" verbnet_key="disconcert#1" wn="disconcert%2:37:02 disconcert%2:37:01" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="discourage.01" name="discourage" verbnet_key="discourage#1" wn="discourage%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="disgrace.01" name="disgrace" verbnet_key="disgrace#1" wn="disgrace%2:41:00 disgrace%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="disgruntle" verbnet_key="disgruntle#1" wn="disgruntle%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="disgust.01" name="disgust" verbnet_key="disgust#1" wn="disgust%2:39:00 disgust%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="dishearten" verbnet_key="dishearten#1" wn="dishearten%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="dishonour.01" name="dishonour" verbnet_key="dishonour#1" wn="dishonour%2:41:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="disillusion" verbnet_key="disillusion#1" wn="disillusion%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="dismay" verbnet_key="dismay#1" wn="dismay%2:37:01 dismay%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="dispirit" verbnet_key="dispirit#1" wn="dispirit%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="displease" verbnet_key="displease#1" wn="displease%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="disquiet" verbnet_key="disquiet#1" wn="disquiet%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="dissatisfy" verbnet_key="dissatisfy#1" wn="dissatisfy%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="distract.01" name="distract" verbnet_key="distract#1" wn="distract%2:37:02" features="end_cognitive_state: -attention"/>
+  <MEMBER fn_mapping="None" grouping="" name="distress" verbnet_key="distress#1" wn="distress%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="disturb.02" name="disturb" verbnet_key="disturb#1" wn="disturb%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Cause_to_experience" grouping="divert.02" name="divert" verbnet_key="divert#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="dumbfound" verbnet_key="dumbfound#1" wn="dumbfound%2:31:00" features="end_cognitive_state: surprise"/>
+  <MEMBER fn_mapping="None" grouping="" name="elate" verbnet_key="elate#1" wn="elate%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="electrify.01" name="electrify" verbnet_key="electrify#1" wn="electrify%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="embarrass.01" name="embarrass" verbnet_key="embarrass#1" wn="embarrass%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="embolden" verbnet_key="embolden#1" wn="embolden%2:37:00" features=""/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="enchant.01" name="enchant" verbnet_key="enchant#1" wn="enchant%2:37:01" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="encourage.02" name="encourage" verbnet_key="encourage#3" wn="encourage%2:37:00" features="end_cognitive_state: positive_feeling; purpose: influence"/>
+  <MEMBER fn_mapping="None" grouping="" name="enervate" verbnet_key="enervate#1" wn="" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="enflame" verbnet_key="enflame#1" wn="" features=""/>
+  <MEMBER fn_mapping="Intentionally_act" grouping="engage.01" name="engage" verbnet_key="engage#2" wn="engage%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="engross" verbnet_key="engross#1" wn="engross%2:31:02 engross%2:31:00" features="end_cognitive_state: +attention"/>
+  <MEMBER fn_mapping="None" grouping="enlighten.02" name="enlighten" verbnet_key="enlighten#1" wn="enlighten%2:32:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="enliven" verbnet_key="enliven#1" wn="" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="enrage" verbnet_key="enrage#1" wn="enrage%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="enrapture" verbnet_key="enrapture#1" wn="enrapture%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Cause_to_experience" grouping="entertain.01" name="entertain" verbnet_key="entertain#1" wn="entertain%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="enthrall" verbnet_key="enthrall#1" wn="enthrall%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="enthuse" verbnet_key="enthuse#1" wn="enthuse%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Subjective_influence" grouping="entice.01" name="entice" verbnet_key="entice#1" wn="entice%2:32:00" features="end_cognitive_state: desire"/>
+  <MEMBER fn_mapping="None" grouping="" name="entrance" verbnet_key="entrance#1" wn="entrance%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="exasperate.01" name="exasperate" verbnet_key="exasperate#1" wn="exasperate%2:37:00 exasperate%2:37:01" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="excite.01" name="excite" verbnet_key="excite#1" wn="excite%2:37:02 excite%2:37:03 excite%2:37:01 excite%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="exhaust.01" name="exhaust" verbnet_key="exhaust#1" wn="exhaust%2:29:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="exhilarate" verbnet_key="exhilarate#1" wn="exhilarate%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="fascinate.01" name="fascinate" verbnet_key="fascinate#1" wn="fascinate%2:42:00 fascinate%2:37:01" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="fatigue" verbnet_key="fatigue#1" wn="" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="faze" verbnet_key="faze#1" wn="faze%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="flatter" verbnet_key="flatter#1" wn="flatter%2:32:00" features="end_cognitive_state: positive_feeling; purpose: influence"/>
+  <MEMBER fn_mapping="None" grouping="" name="flummox" verbnet_key="flummox#1" wn="flummox%2:31:00" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="None" grouping="fox.01" name="fox" verbnet_key="fox#1" wn="fox%2:31:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="frighten.01" name="frighten" verbnet_key="frighten#1" wn="frighten%2:37:00" features="end_cognitive_state: negative_feeling, fear"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="frustrate.01" name="frustrate" verbnet_key="frustrate#1" wn="frustrate%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="fuddle.02" name="fuddle" verbnet_key="fuddle#1" wn="fuddle%2:31:00" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="None" grouping="" name="gall" verbnet_key="gall#1" wn="gall%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="galvanize.01" name="galvanize" verbnet_key="galvanize#1" wn="galvanize%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="gladden" verbnet_key="gladden#1" wn="gladden%2:37:01 gladden%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="gratify" verbnet_key="gratify#1" wn="gratify%2:37:00 gratify%2:34:00" features="end_cognitive_state: positive_feeling; end_state: satisfaction"/>
+  <MEMBER fn_mapping="None" grouping="" name="grieve" verbnet_key="grieve#1" wn="grieve%2:37:01" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Manipulate_into_doing" grouping="harass.01" name="harass" verbnet_key="harass#1" wn="harass%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="harm.01" name="harm" verbnet_key="harm#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="haunt.01" name="haunt" verbnet_key="haunt#1" wn="haunt%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="hearten" verbnet_key="hearten#1" wn="hearten%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="horrify" verbnet_key="horrify#1" wn="horrify%2:37:01" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="humble" verbnet_key="humble#1" wn="humble%2:37:01 humble%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="humiliate" verbnet_key="humiliate#1" wn="humiliate%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="hurt.02" name="hurt" verbnet_key="hurt#1" wn="hurt%2:30:04" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="hypnotize" verbnet_key="hypnotize#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="impair" verbnet_key="impair#1" wn="" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="impress.01" name="impress" verbnet_key="impress#1" wn="impress%2:37:01 impress%2:37:00 impress%2:31:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="incense" verbnet_key="incense#1" wn="incense%2:37:01" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="inflame" verbnet_key="inflame#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="infuriate" verbnet_key="infuriate#1" wn="infuriate%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Subjective_influence" grouping="inspire.01" name="inspire" verbnet_key="inspire#1" wn="inspire%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="insult" verbnet_key="insult#1" wn="insult%2:32:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="interest.01" name="interest" verbnet_key="interest#1" wn="interest%2:37:00" features="end_cognitive_state: +attention"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="intimidate.01" name="intimidate" verbnet_key="intimidate#1" wn="intimidate%2:37:00" features="purpose: threaten"/>
+  <MEMBER fn_mapping="None" grouping="intoxicate.01" name="intoxicate" verbnet_key="intoxicate#1" wn="intoxicate%2:37:00" features=""/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="intrigue.01" name="intrigue" verbnet_key="intrigue#1" wn="intrigue%2:42:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="invigorate" verbnet_key="invigorate#1" wn="invigorate%2:30:01 invigorate%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="irk" verbnet_key="irk#1" wn="irk%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="irritate.01" name="irritate" verbnet_key="irritate#1" wn="irritate%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="jade" verbnet_key="jade#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="jar" verbnet_key="jar#1" wn="jar%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="jollify" verbnet_key="jollify#1" wn="" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="jolt.02" name="jolt" verbnet_key="jolt#1" wn="jolt%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="kill.05" name="kill" verbnet_key="kill#1" wn="kill%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="lull" verbnet_key="lull#1" wn="lull%2:37:01" features=""/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="" name="madden" verbnet_key="madden#1" wn="madden%2:37:01 madden%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="menace.02" name="menace" verbnet_key="menace#1" wn="" features="purpose: threaten"/>
+  <MEMBER fn_mapping="None" grouping="" name="mesmerize" verbnet_key="mesmerize#1" wn="mesmerize%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="miff" verbnet_key="miff#1" wn="miff%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="misguide" verbnet_key="misguide#1" wn="misguide%2:38:00 misguide%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="molest" verbnet_key="molest#1" wn="" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="mollify" verbnet_key="mollify#1" wn="mollify%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="mortify" verbnet_key="mortify#1" wn="mortify%2:37:02" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="move.03" name="move" verbnet_key="move#2" wn="move%2:37:00 move%2:37:01" features="purpose: influence"/>
+  <MEMBER fn_mapping="None" grouping="" name="muddle" verbnet_key="muddle#2" wn="muddle%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="mystify" verbnet_key="mystify#1" wn="mystify%2:31:00" features="end_cognitive_state: surprise; purpose: deceive"/>
+  <MEMBER fn_mapping="None" grouping="" name="nauseate" verbnet_key="nauseate#1" wn="nauseate%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="nettle" verbnet_key="nettle#1" wn="nettle%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="nonplus" verbnet_key="nonplus#1" wn="nonplus%2:31:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="numb" verbnet_key="numb#1" wn="numb%2:39:00" features=""/>
+  <MEMBER fn_mapping="Emotion_active" grouping="obsess.01" name="obsess" verbnet_key="obsess#1" wn="obsess%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="occupy.02" name="occupy" verbnet_key="occupy#1" wn="" features="end_cognitive_state: +attention"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="offend.01" name="offend" verbnet_key="offend#1" wn="offend%2:37:01 offend%2:37:02 offend%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="" name="outrage" verbnet_key="outrage#1" wn="outrage%2:37:01" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="overawe" verbnet_key="overawe#1" wn="overawe%2:37:00" features="end_cognitive_state: surprise"/>
+  <MEMBER fn_mapping="None" grouping="overwhelm.01" name="overwhelm" verbnet_key="overwhelm#1" wn="overwhelm%2:37:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="pacify" verbnet_key="pacify#1" wn="pacify%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="pain" verbnet_key="pain#1" wn="pain%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="peeve" verbnet_key="peeve#1" wn="peeve%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="perplex" verbnet_key="perplex#1" wn="perplex%2:31:00" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+  <MEMBER fn_mapping="None" grouping="" name="perturb" verbnet_key="perturb#1" wn="perturb%2:37:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="None" grouping="" name="pester" verbnet_key="pester#1" wn="" features=""/>
+   <MEMBER fn_mapping="None" grouping="" name="pique" verbnet_key="pique#1" wn="pique%2:37:00" features=""/>
+   <MEMBER fn_mapping="None" grouping="" name="placate" verbnet_key="placate#1" wn="placate%2:37:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="None" grouping="plague.01" name="plague" verbnet_key="plague#1" wn="plague%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="please.01" name="please" verbnet_key="please#1" wn="please%2:37:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="None" grouping="preoccupy.01" name="preoccupy" verbnet_key="preoccupy#1" wn="preoccupy%2:37:00" features="end_cognitive_state: +attention"/>
+   <MEMBER fn_mapping="None" grouping="provoke.02" name="provoke" verbnet_key="provoke#1" wn="provoke%2:37:00 provoke%2:37:01" features=""/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="puzzle.01" name="puzzle" verbnet_key="puzzle#1" wn="puzzle%2:31:00" features="end_cognitive_state: negative_feeling; end_state: +confusion"/>
+   <MEMBER fn_mapping="None" grouping="" name="quench" verbnet_key="quench#1" wn="" features=""/>
+   <MEMBER fn_mapping="None" grouping="rag.01" name="rag" verbnet_key="rag#1" wn="rag%2:37:00 rag%2:37:01 rag%2:32:01 rag%2:32:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="rankle" verbnet_key="rankle#1" wn="rankle%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="ravish" verbnet_key="ravish#1" wn="" features=""/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="reassure.01" name="reassure" verbnet_key="reassure#1" wn="reassure%2:37:00 reassure%2:32:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="recharge" verbnet_key="recharge#1" wn="" features=""/>
+   <MEMBER fn_mapping="Rejuvenation" grouping="refresh.02" name="refresh" verbnet_key="refresh#1" wn="refresh%2:30:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="Rejuvenation" grouping="" name="rejuvenate" verbnet_key="rejuvenate#1" wn="" features=""/>
+   <MEMBER fn_mapping="None" grouping="relax.01" name="relax" verbnet_key="relax#1" wn="relax%2:29:01" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="None" grouping="relieve.01 relieve.04" name="relieve" verbnet_key="relieve#1" wn="relieve%2:37:00 relieve%2:40:01" features=""/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="repel.02" name="repel" verbnet_key="repel#1" wn="repel%2:37:00 repel%2:39:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="repulse" verbnet_key="repulse#1" wn="repulse%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="revitalize" verbnet_key="revitalize#1" wn="revitalize%2:29:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="revolt.02" name="revolt" verbnet_key="revolt#1" wn="revolt%2:39:00 revolt%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="rile" verbnet_key="rile#1" wn="rile%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="ruffle.02" name="ruffle" verbnet_key="ruffle#1" wn="ruffle%2:37:00 ruffle%2:37:01" features=""/>
+   <MEMBER fn_mapping="None" grouping="" name="sadden" verbnet_key="sadden#1" wn="sadden%2:37:01" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="satisfy.01" name="satisfy" verbnet_key="satisfy#1" wn="satisfy%2:37:00" features="end_cognitive_state: positive_feeling; end_state: satisfaction"/>
+   <MEMBER fn_mapping="None" grouping="" name="scandalize" verbnet_key="scandalize#1" wn="scandalize%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="scare.01" name="scare" verbnet_key="scare#1" wn="scare%2:37:00 scare%2:37:04" features="end_cognitive_state: negative_feeling, fear"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="shake.02" name="shake" verbnet_key="shake#1" wn="shake%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="shame.01" name="shame" verbnet_key="shame#1" wn="shame%2:41:00 shame%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="shock.01" name="shock" verbnet_key="shock#1" wn="shock%2:37:01 shock%2:37:02 shock%2:37:00" features="end_cognitive_state: negative_feeling, surprise"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="sicken.01" name="sicken" verbnet_key="sicken#1" wn="sicken%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="" name="sober" verbnet_key="sober#1" wn="sober%2:30:02" features=""/>
+   <MEMBER fn_mapping="None" grouping="" name="solace" verbnet_key="solace#1" wn="solace%2:37:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="soothe" verbnet_key="soothe#1" wn="soothe%2:37:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="spellbind" verbnet_key="spellbind#1" wn="spellbind%2:32:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="spook.01" name="spook" verbnet_key="spook#1" wn="spook%2:37:00" features="end_cognitive_state: negative_feeling, fear"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="stagger.03" name="stagger" verbnet_key="stagger#1" wn="stagger%2:37:00" features="end_cognitive_state: surprise"/>
+   <MEMBER fn_mapping="None" grouping="" name="startle" verbnet_key="startle#1" wn="startle%2:37:00" features="end_cognitive_state: surprise"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="stimulate.01" name="stimulate" verbnet_key="stimulate#1" wn="stimulate%2:37:00 stimulate%2:29:00 stimulate%2:39:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="sting.03" name="sting" verbnet_key="sting#1" wn="sting%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="stir.02" name="stir" verbnet_key="stir#1" wn="stir%2:37:01 stir%2:36:00" features=""/>
+   <MEMBER fn_mapping="Cause_harm" grouping="strike.01" name="strike" verbnet_key="strike#1" wn="strike%2:37:00" features=""/>
+   <MEMBER fn_mapping="None" grouping="stump.01" name="stump" verbnet_key="stump#1" wn="stump%2:31:00" features="end_cognitive_state: negative_feeling"/>
+  <MEMBER fn_mapping="Experiencer_obj" grouping="stun.02" name="stun" verbnet_key="stun#1" wn="stun%2:39:00" features="end_cognitive_state: surprise"/>
+   <MEMBER fn_mapping="None" grouping="" name="stupefy" verbnet_key="stupefy#1" wn="stupefy%2:39:00 stupefy%2:31:00" features="end_cognitive_state: surprise"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="surprise.01" name="surprise" verbnet_key="surprise#1" wn="surprise%2:31:00" features="end_cognitive_state: surprise"/>
+   <MEMBER fn_mapping="None" grouping="" name="tantalize" verbnet_key="tantalize#1" wn="tantalize%2:32:00" features=""/>
+   <MEMBER fn_mapping="Subjective_influence" grouping="tempt.01 tempt.03" name="tempt" verbnet_key="tempt#1" wn="tempt%2:37:00 tempt%2:37:01" features="end_cognitive_state: desire"/>
+   <MEMBER fn_mapping="None" grouping="" name="terrify" verbnet_key="terrify#1" wn="terrify%2:37:00" features="end_cognitive_state: fear, negative_feeling"/>
+   <MEMBER fn_mapping="Cause_to_experience" grouping="terrorize.01" name="terrorize" verbnet_key="terrorize#1" wn="terrorize%2:37:00" features="end_cognitive_state: fear, negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="threaten.02" name="threaten" verbnet_key="threaten#1" wn="threaten%2:42:00" features="purpose: threaten"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="thrill.01" name="thrill" verbnet_key="thrill#1" wn="thrill%2:39:00 thrill%2:37:02 thrill%2:37:01" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="None" grouping="throw.05" name="throw" verbnet_key="throw#1" wn="throw%2:37:00 throw%2:31:00" features=""/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="tickle.02" name="tickle" verbnet_key="tickle#1" wn="tickle%2:37:01" features=""/>
+   <MEMBER fn_mapping="None" grouping="tire.02" name="tire" verbnet_key="tire#1" wn="tire%2:37:01" features="end_cognitive_state: negative_feeling, -attention"/>
+   <MEMBER fn_mapping="None" grouping="" name="titillate" verbnet_key="titillate#1" wn="titillate%2:37:00" features="end_cognitive_state: positive_feeling"/>
+  <MEMBER fn_mapping="Cause_to_experience" grouping="torment.01" name="torment" verbnet_key="torment#1" wn="torment%2:37:00 torment%2:37:01" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="Cause_harm" grouping="torture.01 torture.02" name="torture" verbnet_key="torture#1" wn="" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="touch.03" name="touch" verbnet_key="touch#1" wn="touch%2:37:00" features=""/>
+   <MEMBER fn_mapping="None" grouping="" name="transfix" verbnet_key="transfix#1" wn="" features=""/>
+   <MEMBER fn_mapping="Bringing" grouping="transport.02" name="transport" verbnet_key="transport#1" wn="transport%2:37:00" features=""/>
+   <MEMBER fn_mapping="None" grouping="trouble.01" name="trouble" verbnet_key="trouble#1" wn="trouble%2:37:01 trouble%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="try.04" name="try" verbnet_key="try#1" wn="try%2:37:01" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="unnerve" verbnet_key="unnerve#1" wn="unnerve%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="unsettle" verbnet_key="unsettle#1" wn="unsettle%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="uplift.01" name="uplift" verbnet_key="uplift#1" wn="uplift%2:37:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="upset.02" name="upset" verbnet_key="upset#1" wn="upset%2:37:01 upset%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="" name="vex" verbnet_key="vex#1" wn="vex%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="weary" verbnet_key="weary#1" wn="weary%2:29:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="Experiencer_obj" grouping="worry.01" name="worry" verbnet_key="worry#1" wn="worry%2:37:01 worry%2:42:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="wound" verbnet_key="wound#1" wn="wound%2:37:00" features="end_cognitive_state: negative_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="wow" verbnet_key="wow#1" wn="wow%2:37:00" features="end_cognitive_state: positive_feeling"/>
+   <MEMBER fn_mapping="None" grouping="" name="roil" verbnet_key="roil#1" wn="" features=""/>
+   <MEMBER fn_mapping="None" grouping="smite.02" name="smite" verbnet_key="smite#1" wn="smite%2:37:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Experiencer">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate" />
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Stimulus">
+   <SELRESTRS />
+  </THEMROLE>
+  <THEMROLE type="Result">
+   <SELRESTRS />
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     The clown amused the children.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Stimulus">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Experiencer">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Experiencer" />
+      <ARG type="VerbSpecific" value="V_Emotion" />
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Stimulus" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     The little children amused easily.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <ADV />
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Experiencer" />
+      <ARG type="VerbSpecific" value="V_Emotion" />
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="?Stimulus" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.2.5" primary="NP V NP-PRO-ARB" secondary="PRO-Arb Object Alternation" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     The clown amused.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Stimulus">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="?Experiencer" />
+      <ARG type="VerbSpecific" value="V_Emotion" />
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Stimulus" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.13.4" primary="NP.cause V NP" secondary="NP; Attribute Subject" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     The clown's antics amused the children.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Stimulus">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="genitive" />
+     </SYNRESTRS>
+    </NP>
+    <LEX value="'s" />
+    <VERB />
+    <NP value="Experiencer">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Experiencer" />
+      <ARG type="VerbSpecific" value="V_Emotion" />
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Stimulus" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     That movie bored me silly.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Stimulus">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Experiencer">
+     <SYNRESTRS />
+    </NP>
+    <NP value="Result">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Experiencer" />
+      <ARG type="ThemRole" value="Result" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_emotional_state">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Experiencer" />
+      <ARG type="VerbSpecific" value="V_Emotion" />
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Stimulus" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Experiencer" />
+      <ARG type="ThemRole" value="Result" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="Event" value="e3" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES />
 </VNCLASS>

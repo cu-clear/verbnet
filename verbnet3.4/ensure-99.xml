@@ -1,156 +1,156 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="ensure-99" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="ensure" wn="ensure%2:32:00" grouping="ensure.01" fn_mapping="None" verbnet_key="ensure#1" features="None"/>
-<MEMBER name="assure" wn="assure%2:32:03" grouping="assure.02" fn_mapping="None" verbnet_key="assure#2" features="None"/>
-<MEMBER name="guarantee" wn="guarantee%2:32:03" grouping="guarantee.02" fn_mapping="None" verbnet_key="guarantee#1" features="None"/>
-<MEMBER name="insure" wn="insure%2:32:04" grouping="insure.02" fn_mapping="None" verbnet_key="insure#2" features="None"/>
-<MEMBER name="secure" wn="secure%2:32:00" grouping="secure.01" fn_mapping="Getting" verbnet_key="secure#1" features="None"/>
-<MEMBER name="ascertain" wn="ascertain%2:31:00" grouping="ascertain.02" fn_mapping="None" verbnet_key="ascertain#2" features="None"/>
-<MEMBER name="reinsure" wn="reinsure%2:40:00 reinsure%2:32:00         reinsure%2:32:01" grouping="" fn_mapping="None" verbnet_key="reinsure#1" features="None"/>
-<MEMBER name="provide" wn="provide%2:32:00" grouping="provide.03" fn_mapping="None" verbnet_key="provide#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Precondition">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Beneficiary">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-His mistakes guaranteed his failure.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Precondition">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="ensure">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Precondition"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP NP" secondary="NP-NP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-Our exertions ensured us a good outcome.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Precondition">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Beneficiary">
-<SYNRESTRS/>
-</NP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="-" type="sentential"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="ensure">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Precondition"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="benefit">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Beneficiary"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.beneficiary" secondary="NP-PP; for-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-The circumstances ensured a good outcome for him.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Precondition">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP value="for">
-<SELRESTRS/>
-</PREP>
-<NP value="Beneficiary">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="ensure">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Precondition"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="benefit">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Beneficiary"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-The circumstances ensured that he would arrive in time.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Precondition">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="oc_to_inf"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="ensure">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Precondition"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="ensure.01" name="ensure" verbnet_key="ensure#1" wn="ensure%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="assure.02" name="assure" verbnet_key="assure#2" wn="assure%2:32:03" features=""/>
+  <MEMBER fn_mapping="None" grouping="guarantee.02" name="guarantee" verbnet_key="guarantee#1" wn="guarantee%2:32:03" features=""/>
+  <MEMBER fn_mapping="None" grouping="insure.02" name="insure" verbnet_key="insure#2" wn="insure%2:32:04" features=""/>
+  <MEMBER fn_mapping="Getting" grouping="secure.01" name="secure" verbnet_key="secure#1" wn="secure%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="ascertain.02" name="ascertain" verbnet_key="ascertain#2" wn="ascertain%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="reinsure" verbnet_key="reinsure#1" wn="reinsure%2:40:00 reinsure%2:32:00         reinsure%2:32:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="provide.03" name="provide" verbnet_key="provide#1" wn="provide%2:32:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Precondition">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Beneficiary">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     His mistakes guaranteed his failure.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Precondition">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="ensure">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Precondition"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP NP" secondary="NP-NP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Our exertions ensured us a good outcome.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Precondition">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Beneficiary">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Theme">
+     <SYNRESTRS>
+      <SYNRESTR Value="-" type="sentential"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="ensure">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Precondition"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="benefit">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Beneficiary"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.beneficiary" secondary="NP-PP; for-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The circumstances ensured a good outcome for him.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Precondition">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="for">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Beneficiary">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="ensure">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Precondition"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="benefit">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Beneficiary"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The circumstances ensured that he would arrive in time.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Precondition">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="oc_to_inf"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="ensure">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Precondition"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

@@ -1,59 +1,97 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="ferret-35.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="ferret" wn="ferret%2:31:00" grouping="ferret.02" fn_mapping="None" verbnet_key="ferret#1" features="None"/>
-<MEMBER name="nose" wn="nose%2:39:01" grouping="nose.03" fn_mapping="Seeking" verbnet_key="nose#1" features="None"/>
-<MEMBER name="tease" wn="" grouping="tease.06" fn_mapping="None" verbnet_key="tease#3" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Source">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-I ferreted the secret out of him.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="dir"/>
-</SELRESTRS>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="search">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Source"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="ferret.02" name="ferret_out" verbnet_key="ferret_out#1" wn="ferret%2:31:00" features=""/>
+  <MEMBER fn_mapping="Seeking" grouping="nose.03" name="nose" verbnet_key="nose_out#1" wn="nose%2:39:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="tease.06" name="tease" verbnet_key="tease_out#3" wn="" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Source">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I ferreted the secret out of him.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP/>
+    <NP value="Source">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="search">
+     <ARGS>
+      <ARG type="Event" value="ë1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="Find">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I ferreted out his secret.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="search">
+     <ARGS>
+      <ARG type="Event" value="ë1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="Find">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

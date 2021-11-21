@@ -1,313 +1,313 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="adjust-26.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="adapt" wn="adapt%2:30:02" grouping="adapt.01" fn_mapping="None" verbnet_key="adapt#1" features="None"/>
-<MEMBER name="accommodate" wn="accommodate%2:30:00 accommodate%2:30:01" grouping="accommodate.02" fn_mapping="None" verbnet_key="accommodate#1" features="None"/>
-<MEMBER name="conform" wn="conform%2:30:01" grouping="conform.02" fn_mapping="Compliance" verbnet_key="conform#1" features="None"/>
-<MEMBER name="adjust" wn="adjust%2:30:01" grouping="adjust.02" fn_mapping="None" verbnet_key="adjust#1" features="None"/>
-<MEMBER name="gear" wn="gear%2:30:00" grouping="gear.01" fn_mapping="None" verbnet_key="gear#1" features="None"/>
-<MEMBER name="fit" wn="fit%2:30:02" grouping="fit.02" fn_mapping="None" verbnet_key="fit#1" features="None"/>
-<MEMBER name="readjust" wn="readjust%2:30:00" grouping="" fn_mapping="None" verbnet_key="readjust#1" features="None"/>
-<MEMBER name="readapt" wn="readapt%2:30:03" grouping="" fn_mapping="None" verbnet_key="readapt#1" features="None"/>
-<MEMBER name="assimilate" wn="assimilate%2:30:00" grouping="assimilate.01" fn_mapping="None" verbnet_key="assimilate#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-<SELRESTR Value="+" type="organization"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Patient">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Goal">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Source">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He adapted himself.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="adjusted">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="ThemRole" value="?Goal"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="adjusted">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="ThemRole" value="?Goal"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP" secondary="NP-PP; to-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He adapted himself to the situation.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-<PREP value="to">
-<SELRESTRS/>
-</PREP>
-<NP value="Goal">
-<SYNRESTRS>
-<SYNRESTR Value="-" type="sentential"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="adjusted">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="ThemRole" value="Goal"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="adjusted">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="ThemRole" value="Goal"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; to-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He adapted himself to waking up early.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-<PREP value="to">
-<SELRESTRS/>
-</PREP>
-<NP value="Goal">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="oc_ing"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="adjusted">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="ThemRole" value="Goal"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="adjusted">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="ThemRole" value="Goal"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-SC; to-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He adapted to waking up early.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="to">
-<SELRESTRS/>
-</PREP>
-<NP value="Goal">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="sc_ing"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="adjusted">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="?Patient"/>
-<ARG type="ThemRole" value="Goal"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="adjusted">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="?Patient"/>
-<ARG type="ThemRole" value="Goal"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="?Patient"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP" secondary="PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He adapted to the situation.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="to">
-<SELRESTRS/>
-</PREP>
-<NP value="Goal">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="adjusted">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="?Patient"/>
-<ARG type="ThemRole" value="Goal"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="adjusted">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="?Patient"/>
-<ARG type="ThemRole" value="Goal"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="?Patient"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="adapt.01" name="adapt" verbnet_key="adapt#1" wn="adapt%2:30:02" features=""/>
+  <MEMBER fn_mapping="None" grouping="accommodate.02" name="accommodate" verbnet_key="accommodate#1" wn="accommodate%2:30:00 accommodate%2:30:01" features=""/>
+  <MEMBER fn_mapping="Compliance" grouping="conform.02" name="conform" verbnet_key="conform#1" wn="conform%2:30:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="adjust.02" name="adjust" verbnet_key="adjust#1" wn="adjust%2:30:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="gear.01" name="gear" verbnet_key="gear#1" wn="gear%2:30:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="fit.02" name="fit" verbnet_key="fit#1" wn="fit%2:30:02" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="readjust" verbnet_key="readjust#1" wn="readjust%2:30:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="readapt" verbnet_key="readapt#1" wn="readapt%2:30:03" features=""/>
+  <MEMBER fn_mapping="None" grouping="assimilate.01" name="assimilate" verbnet_key="assimilate#1" wn="assimilate%2:30:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Goal">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Source">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He adapted himself.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="?Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="?Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP" secondary="NP-PP; to-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He adapted himself to the situation.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Goal">
+     <SYNRESTRS>
+      <SYNRESTR Value="-" type="sentential"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; to-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He adapted himself to waking up early.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Goal">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="oc_ing"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-SC; to-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He adapted to waking up early.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="to">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Goal">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="sc_ing"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP" secondary="PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He adapted to the situation.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="to">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Goal">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="adjusted">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="?Patient"/>
+      <ARG type="ThemRole" value="Goal"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

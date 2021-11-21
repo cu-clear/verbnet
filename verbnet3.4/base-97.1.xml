@@ -1,210 +1,218 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="base-97.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="base" wn="base%2:31:00" grouping="base.01" fn_mapping="None" verbnet_key="base#1" features="None"/>
-<MEMBER name="establish" wn="establish%2:31:03" grouping="establish.02" fn_mapping="None" verbnet_key="establish#1" features="None"/>
-<MEMBER name="ground" wn="ground%2:31:00" grouping="ground.02" fn_mapping="None" verbnet_key="ground#1" features="None"/>
-<MEMBER name="found" wn="found%2:31:00" grouping="found.02" fn_mapping="None" verbnet_key="found#1" features="None"/>
-<MEMBER name="build" wn="build%2:31:03" grouping="build.03" fn_mapping="None" verbnet_key="build#1" features="None"/>
-<MEMBER name="construe" wn="construe%2:31:00" grouping="" fn_mapping="None" verbnet_key="construe#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-<SELRESTR Value="+" type="organization"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Source">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source" secondary="NP-PP; on-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-We based our plans on his information.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP value="on">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e1"/>
-</ARGS>
-</PRED>
-<PRED value="base">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source whether S" secondary="NP-P-WH-S; on-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-They based their decision on whether he happened to come or not.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP value="on">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="wh_comp"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e1"/>
-</ARGS>
-</PRED>
-<PRED value="base">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source S_ING" secondary="NP-P-POSSING; on-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-They based their plan on his seizing the base.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP value="on">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="poss_ing"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e1"/>
-</ARGS>
-</PRED>
-<PRED value="base">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source S" secondary="NP-P-NP-ING; on-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-They based their plans on him getting in on time.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP value="on">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="ac_ing"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e1"/>
-</ARGS>
-</PRED>
-<PRED value="base">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="base.01" name="base" verbnet_key="base#1" wn="base%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="establish.02" name="establish" verbnet_key="establish#1" wn="establish%2:31:03" features=""/>
+  <MEMBER fn_mapping="None" grouping="ground.02" name="ground" verbnet_key="ground#1" wn="ground%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="found.02" name="found" verbnet_key="found#1" wn="found%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="build.03" name="build" verbnet_key="build#1" wn="build%2:31:03" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="construe" verbnet_key="construe#1" wn="construe%2:31:00" features=""/> 
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Source">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source" secondary="NP-PP; on-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     We based our plans on his information.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="on | with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Source">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="support">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="engage_in">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source whether S" secondary="NP-P-WH-S; on-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     They based their decision on whether he happened to come or not.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="on | with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Source">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="wh_comp"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="support">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="engage_in">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source S_ING" secondary="NP-P-POSSING; on-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     They based their plan on his seizing the base.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="on | with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Source">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="poss_ing"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="support">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="engage_in">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source S" secondary="NP-P-NP-ING; on-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     They based their plans on him getting in on time.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="on | with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Source">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="ac_ing"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="support">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Source"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="engage_in">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

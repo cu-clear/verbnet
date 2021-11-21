@@ -1,173 +1,173 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="performance-26.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="belt" wn="belt%2:36:00" grouping="belt.01" fn_mapping="None" verbnet_key="belt#1" features="None"/>
-<MEMBER name="chant" wn="chant%2:32:00" grouping="chant.01" fn_mapping="None" verbnet_key="chant#2" features="None"/>
-<MEMBER name="direct" wn="direct%2:36:00 direct%2:36:02" grouping="direct.01" fn_mapping="None" verbnet_key="direct#1" features="None"/>
-<MEMBER name="enact" wn="" grouping="enact.02" fn_mapping="None" verbnet_key="enact#1" features="None"/>
-<MEMBER name="heel" wn="heel%2:36:00" grouping="heel.03" fn_mapping="None" verbnet_key="heel#2" features="None"/>
-<MEMBER name="improvise" wn="" grouping="" fn_mapping="None" verbnet_key="improvise#2" features="None"/>
-<MEMBER name="intone" wn="intone%2:32:00" grouping="" fn_mapping="None" verbnet_key="intone#1" features="None"/>
-<MEMBER name="model" wn="model%2:39:01" grouping="model.03" fn_mapping="None" verbnet_key="model#3" features="None"/>
-<MEMBER name="perform" wn="perform%2:36:01" grouping="perform.02" fn_mapping="None" verbnet_key="perform#3" features="None"/>
-<MEMBER name="rap" wn="rap%2:36:10" grouping="rap.03" fn_mapping="None" verbnet_key="rap#4" features="None"/>
-<MEMBER name="vocalize" wn="vocalize%2:36:00" grouping="vocalize.02" fn_mapping="None" verbnet_key="vocalize#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Beneficiary">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-Sandy sang a song.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="perform">
-<ARGS>
-<ARG type="Event" value="ë1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="1.2.1" primary="NP V" secondary="Unspecified Object" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Sandy sang.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="perform">
-<ARGS>
-<ARG type="Event" value="ë1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="?Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; for-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Sandy sang a song for me.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP value="for">
-<SELRESTRS/>
-</PREP>
-<NP value="Beneficiary">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="perform">
-<ARGS>
-<ARG type="Event" value="ë1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="benefit">
-<ARGS>
-<ARG type="Event" value="ë1"/>
-<ARG type="ThemRole" value="Beneficiary"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="performance-26.7-1">
-<MEMBERS>
-<MEMBER name="dance" wn="dance%2:36:00" grouping="dance.01" fn_mapping="None" verbnet_key="dance#2" features="None"/>
-<MEMBER name="hum" wn="hum%2:32:00" grouping="hum.01" fn_mapping="None" verbnet_key="hum#3" features="None"/>
-<MEMBER name="play" wn="play%2:36:12 play%2:36:02 play%2:36:00 play%2:36:01 play%2:36:11 play%2:36:05 play%2:36:10 play%2:36:04" grouping="play.02 play.04" fn_mapping="None" verbnet_key="play#2" features="None"/>
-<MEMBER name="recite" wn="recite%2:32:02 recite%2:32:00                 recite%2:36:00" grouping="recite.01" fn_mapping="None" verbnet_key="recite#1" features="None"/>
-<MEMBER name="replay" wn="replay%2:36:00" grouping="" fn_mapping="None" verbnet_key="replay#1" features="None"/>
-<MEMBER name="stage" wn="stage%2:36:00" grouping="stage.01                 stage.02 stage.03" fn_mapping="None" verbnet_key="stage#2" features="None"/>
-<MEMBER name="sing" wn="sing%2:36:01 sing%2:36:00" grouping="sing.01" fn_mapping="None" verbnet_key="sing#2" features="None"/>
-<MEMBER name="whistle" wn="whistle%2:32:00" grouping="whistle.01" fn_mapping="None" verbnet_key="whistle#4" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.2" primary="NP V NP.beneficiary NP" secondary="NP-NP; Beneficiary Object" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Claire drew me a picture.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Beneficiary">
-<SYNRESTRS/>
-</NP>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="perform">
-<ARGS>
-<ARG type="Event" value="ë1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="benefit">
-<ARGS>
-<ARG type="Event" value="ë1"/>
-<ARG type="ThemRole" value="Beneficiary"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="belt.01" name="belt" verbnet_key="belt#1" wn="belt%2:36:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="chant.01" name="chant" verbnet_key="chant#2" wn="chant%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="direct.01" name="direct" verbnet_key="direct#1" wn="direct%2:36:00 direct%2:36:02" features=""/>
+  <MEMBER fn_mapping="None" grouping="enact.02" name="enact" verbnet_key="enact#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="heel.03" name="heel" verbnet_key="heel#2" wn="heel%2:36:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="improvise" verbnet_key="improvise#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="intone" verbnet_key="intone#1" wn="intone%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="model.03" name="model" verbnet_key="model#3" wn="model%2:39:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="perform.02" name="perform" verbnet_key="perform#3" wn="perform%2:36:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="rap.03" name="rap" verbnet_key="rap#4" wn="rap%2:36:10" features=""/>
+  <MEMBER fn_mapping="None" grouping="vocalize.02" name="vocalize" verbnet_key="vocalize#1" wn="vocalize%2:36:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Beneficiary">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Sandy sang a song.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="perform">
+     <ARGS>
+      <ARG type="Event" value="ë1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="1.2.1" primary="NP V" secondary="Unspecified Object" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Sandy sang.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="perform">
+     <ARGS>
+      <ARG type="Event" value="ë1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; for-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Sandy sang a song for me.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="for">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Beneficiary">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="perform">
+     <ARGS>
+      <ARG type="Event" value="ë1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="benefit">
+     <ARGS>
+      <ARG type="Event" value="ë1"/>
+      <ARG type="ThemRole" value="Beneficiary"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="performance-26.7-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="dance.01" name="dance" verbnet_key="dance#2" wn="dance%2:36:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="hum.01" name="hum" verbnet_key="hum#3" wn="hum%2:32:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="play.02 play.04" name="play" verbnet_key="play#2" wn="play%2:36:12 play%2:36:02 play%2:36:00 play%2:36:01 play%2:36:11 play%2:36:05 play%2:36:10 play%2:36:04" features=""/>
+    <MEMBER fn_mapping="None" grouping="recite.01" name="recite" verbnet_key="recite#1" wn="recite%2:32:02 recite%2:32:00                 recite%2:36:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="replay" verbnet_key="replay#1" wn="replay%2:36:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="stage.01                 stage.02 stage.03" name="stage" verbnet_key="stage#2" wn="stage%2:36:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="sing.01" name="sing" verbnet_key="sing#2" wn="sing%2:36:01 sing%2:36:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="whistle.01" name="whistle" verbnet_key="whistle#4" wn="whistle%2:32:00" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="2.2" primary="NP V NP.beneficiary NP" secondary="NP-NP; Beneficiary Object" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Claire drew me a picture.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Beneficiary">
+       <SYNRESTRS/>
+      </NP>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="perform">
+       <ARGS>
+        <ARG type="Event" value="ë1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="benefit">
+       <ARGS>
+        <ARG type="Event" value="ë1"/>
+        <ARG type="ThemRole" value="Beneficiary"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

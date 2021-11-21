@@ -1,138 +1,111 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="cognize-85" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="cognise" wn="cognise%2:31:00" grouping="" fn_mapping="None" verbnet_key="cognise#1" features="None"/>
-<MEMBER name="cognize" wn="cognize%2:31:00" grouping="" fn_mapping="None" verbnet_key="cognize#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Experiencer">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Stimulus">
-<SELRESTRS>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="NP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-We consciously cognize our environment.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS>
-</SYNRESTRS>
-</NP>
-<VERB/>
-<NP value="Stimulus">
-<SYNRESTRS>
-<SYNRESTR Value="-" type="sentential"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="understand">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Experiencer"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-I cognize of the soul.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="of">
-<SELRESTRS/>
-</PREP>
-<NP value="Stimulus">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="understand">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Experiencer"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus how/whether S" secondary="PP; Stimulus-PP; WH-S" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-She cognized about whether she should memorize it.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Stimulus">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="wh_comp"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="understand">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Experiencer"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-You cognized that the fiscal onus is on her.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Stimulus">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="that_comp"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="understand">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Experiencer"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="" name="cognize" verbnet_key="cognize#1" wn="cognize%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="daydream" verbnet_key="daydream#1" wn="daydream%2:36:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="dream.01" name="dream" verbnet_key="dream#2" wn="dream%2:39:00 dream%2:36:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="visualize.01" name="visualize" verbnet_key="visualize#2" wn="visualize%2:36:00 visualize%2:36:02" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Topic">
+   <SELRESTRS>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="NP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     We consciously cognized our environment.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS>
+     </SYNRESTRS>
+    </NP>
+    <VERB/>
+    <NP value="Topic">
+     <SYNRESTRS>
+      <SYNRESTR Value="-" type="sentential"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="think">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic " secondary="PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     She cognized about what mattered.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="about">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Topic">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="wh_comp"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="think">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     We cognized that we ran the risk of allowing subsidized farm imports.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Topic">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="that_comp"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="think">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

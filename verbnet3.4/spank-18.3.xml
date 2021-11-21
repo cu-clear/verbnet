@@ -1,667 +1,667 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="spank-18.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="belt" wn="belt%2:35:00" grouping="belt.02" fn_mapping="Cause_harm" verbnet_key="belt#2" features="None"/>
-<MEMBER name="biff" wn="biff%2:35:00" grouping="" fn_mapping="None" verbnet_key="biff#1" features="None"/>
-<MEMBER name="birch" wn="birch%2:35:00" grouping="" fn_mapping="None" verbnet_key="birch#1" features="None"/>
-<MEMBER name="bludgeon" wn="bludgeon%2:35:00" grouping="" fn_mapping="None" verbnet_key="bludgeon#1" features="None"/>
-<MEMBER name="bonk" wn="bonk%2:35:00" grouping="" fn_mapping="None" verbnet_key="bonk#1" features="None"/>
-<MEMBER name="brain" wn="brain%2:35:01" grouping="" fn_mapping="None" verbnet_key="brain#1" features="None"/>
-<MEMBER name="cane" wn="cane%2:35:00" grouping="" fn_mapping="None" verbnet_key="cane#1" features="None"/>
-<MEMBER name="clobber" wn="clobber%2:35:01" grouping="clobber.01" fn_mapping="None" verbnet_key="clobber#1" features="None"/>
-<MEMBER name="clout" wn="clout%2:35:00" grouping="" fn_mapping="None" verbnet_key="clout#1" features="None"/>
-<MEMBER name="club" wn="club%2:35:00" grouping="club.02" fn_mapping="Cause_harm" verbnet_key="club#1" features="None"/>
-<MEMBER name="conk" wn="conk%2:35:00" grouping="" fn_mapping="None" verbnet_key="conk#2" features="None"/>
-<MEMBER name="cosh" wn="cosh%2:35:00" grouping="" fn_mapping="None" verbnet_key="cosh#1" features="None"/>
-<MEMBER name="cudgel" wn="cudgel%2:35:00" grouping="" fn_mapping="None" verbnet_key="cudgel#1" features="None"/>
-<MEMBER name="cuff" wn="cuff%2:35:00" grouping="" fn_mapping="None" verbnet_key="cuff#1" features="None"/>
-<MEMBER name="elbow" wn="elbow%2:35:00" grouping="" fn_mapping="None" verbnet_key="elbow#1" features="None"/>
-<MEMBER name="flagellate" wn="flagellate%2:35:00" grouping="" fn_mapping="None" verbnet_key="flagellate#1" features="None"/>
-<MEMBER name="flail" wn="" grouping="" fn_mapping="None" verbnet_key="flail#1" features="None"/>
-<MEMBER name="flog" wn="flog%2:35:00 flog%2:35:01" grouping="" fn_mapping="None" verbnet_key="flog#1" features="None"/>
-<MEMBER name="fustigate" wn="" grouping="" fn_mapping="None" verbnet_key="fustigate#1" features="None"/>
-<MEMBER name="knee" wn="" grouping="" fn_mapping="None" verbnet_key="knee#1" features="None"/>
-<MEMBER name="knife" wn="knife%2:35:00" grouping="" fn_mapping="None" verbnet_key="knife#2" features="None"/>
-<MEMBER name="k.o." wn="" grouping="" fn_mapping="None" verbnet_key="k.o.#1" features="None"/>
-<MEMBER name="lam" wn="" grouping="" fn_mapping="None" verbnet_key="lam#1" features="None"/>
-<MEMBER name="larrup" wn="" grouping="" fn_mapping="None" verbnet_key="larrup#1" features="None"/>
-<MEMBER name="lather" wn="" grouping="" fn_mapping="None" verbnet_key="lather#2" features="None"/>
-<MEMBER name="paddle" wn="paddle%2:35:07" grouping="paddle.03" fn_mapping="Corporal_punishment" verbnet_key="paddle#3" features="None"/>
-<MEMBER name="pommel" wn="" grouping="" fn_mapping="None" verbnet_key="pommel#1" features="None"/>
-<MEMBER name="pummel" wn="pummel%2:35:00" grouping="" fn_mapping="None" verbnet_key="pummel#1" features="None"/>
-<MEMBER name="slam" wn="slam%2:35:01 slam%2:35:00 slam%2:35:02" grouping="slam.01" fn_mapping="Cause_impact" verbnet_key="slam#2" features="None"/>
-<MEMBER name="sock" wn="sock%2:35:00" grouping="" fn_mapping="None" verbnet_key="sock#1" features="None"/>
-<MEMBER name="spank" wn="spank%2:35:00" grouping="" fn_mapping="None" verbnet_key="spank#1" features="None"/>
-<MEMBER name="strap" wn="strap%2:35:01" grouping="strap.03" fn_mapping="None" verbnet_key="strap#1" features="None"/>
-<MEMBER name="thrash" wn="thrash%2:35:00 thrash%2:35:01" grouping="thrash.02" fn_mapping="None" verbnet_key="thrash#1" features="None"/>
-<MEMBER name="thump" wn="thump%2:39:00 thump%2:35:00" grouping="" fn_mapping="Impact" verbnet_key="thump#4" features="None"/>
-<MEMBER name="truncheon" wn="" grouping="" fn_mapping="None" verbnet_key="truncheon#1" features="None"/>
-<MEMBER name="wallop" wn="wallop%2:35:00" grouping="" fn_mapping="None" verbnet_key="wallop#1" features="None"/>
-<MEMBER name="wham" wn="" grouping="" fn_mapping="None" verbnet_key="wham#2" features="None"/>
-<MEMBER name="whap" wn="" grouping="" fn_mapping="None" verbnet_key="whap#2" features="None"/>
-<MEMBER name="whip" wn="whip%2:35:00 whip%2:35:02" grouping="whip.01" fn_mapping="Cause_harm" verbnet_key="whip#3" features="None"/>
-<MEMBER name="whisk" wn="whisk%2:35:01" grouping="" fn_mapping="None" verbnet_key="whisk#2" features="None"/>
-<MEMBER name="whomp" wn="" grouping="" fn_mapping="None" verbnet_key="whomp#1" features="None"/>
-<MEMBER name="whop" wn="" grouping="" fn_mapping="None" verbnet_key="whop#2" features="None"/>
-<MEMBER name="horsewhip" wn="horsewhip%2:35:00" grouping="" fn_mapping="None" verbnet_key="horsewhip#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS>
-<SELRESTR Value="+" type="int_control"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Patient">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Instrument">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Location">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Result">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-Paula socked the mugger.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="contact">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Constant" value="Movement"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="Constant" value="Forceful"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Paula socked the mugger with her right hand.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-<PREP value="with">
-<SELRESTRS/>
-</PREP>
-<NP value="Instrument">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="contact">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Instrument"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="utilize">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Instrument"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Constant" value="Movement"/>
-<ARG type="ThemRole" value="Instrument"/>
-</ARGS>
-</PRED>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Instrument"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="Constant" value="Forceful"/>
-<ARG type="ThemRole" value="Instrument"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-They knifed him dead.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-<NP value="Result">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="contact">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Constant" value="Movement"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="Constant" value="Forceful"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="has_state">
-<ARGS>
-<ARG type="Event" value="e4"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="ThemRole" value="Result"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-They knifed him to death.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-<PREP value="to into">
-<SELRESTRS/>
-</PREP>
-<NP value="Result">
-<SELRESTRS>
-<SELRESTR Value="+" type="state"/>
-</SELRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="contact">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Constant" value="Movement"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="Constant" value="Forceful"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="has_state">
-<ARGS>
-<ARG type="Event" value="e4"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="ThemRole" value="Result"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-They knifed him to death with a shiv.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-<PREP value="to into">
-<SELRESTRS/>
-</PREP>
-<NP value="Result">
-<SELRESTRS>
-<SELRESTR Value="+" type="state"/>
-</SELRESTRS>
-</NP>
-<PREP value="with">
-<SELRESTRS/>
-</PREP>
-<NP value="Instrument">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="contact">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Instrument"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="utilize">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Instrument"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Constant" value="Movement"/>
-<ARG type="ThemRole" value="Instrument"/>
-</ARGS>
-</PRED>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Instrument"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="Constant" value="Forceful"/>
-<ARG type="ThemRole" value="Instrument"/>
-</ARGS>
-</PRED>
-<PRED value="has_state">
-<ARGS>
-<ARG type="Event" value="e4"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="ThemRole" value="Result"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V NP PP.location" secondary="NP-PP; Body-part-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Paula socked the mugger in the nose.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="loc"/>
-</SELRESTRS>
-</PREP>
-<NP value="Location">
-<SELRESTRS>
-<SELRESTR Value="+" type="body_part"/>
-</SELRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="contact">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Constant" value="Movement"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="Constant" value="Forceful"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="part_of">
-<ARGS>
-<ARG type="ThemRole" value="Location"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V NP PP PP.instrument" secondary="NP-PP-PP; Body-part-PP Instrument-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Paula socked the mugger in the nose with her fist.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="loc"/>
-</SELRESTRS>
-</PREP>
-<NP value="Location">
-<SELRESTRS>
-<SELRESTR Value="+" type="body_part"/>
-</SELRESTRS>
-</NP>
-<PREP value="with">
-<SELRESTRS/>
-</PREP>
-<NP value="Instrument">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="contact">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="utilize">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Instrument"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Constant" value="Movement"/>
-<ARG type="ThemRole" value="Instrument"/>
-</ARGS>
-</PRED>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="Constant" value="Forceful"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="part_of">
-<ARGS>
-<ARG type="ThemRole" value="Location"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="NP-PP; Body Part Object" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Paula socked the mugger's nose.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SELRESTRS>
-<SELRESTR Value="+" type="body_part"/>
-</SELRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="contact">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Constant" value="Movement"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="Constant" value="Forceful"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="part_of">
-<ARGS>
-<ARG type="ThemRole" value="Location"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="Cause_harm" grouping="belt.02" name="belt" verbnet_key="belt#2" wn="belt%2:35:00" features="contact_manner; instrument_type: Clothing Artifact"/>
+  <MEMBER fn_mapping="None" grouping="" name="biff" verbnet_key="biff#1" wn="biff%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="birch" verbnet_key="birch#1" wn="birch%2:35:00" features="instrument_type: Wood"/>
+  <MEMBER fn_mapping="None" grouping="" name="bludgeon" verbnet_key="bludgeon#1" wn="bludgeon%2:35:00" features="purpose: Damaging; instrument_type: Weapon"/>
+  <MEMBER fn_mapping="None" grouping="" name="bonk" verbnet_key="bonk#1" wn="bonk%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="brain" verbnet_key="brain#1" wn="brain%2:35:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="cane" verbnet_key="cane#1" wn="cane%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="clobber.01" name="clobber" verbnet_key="clobber#1" wn="clobber%2:35:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="clout" verbnet_key="clout#1" wn="clout%2:35:00" features=""/>
+  <MEMBER fn_mapping="Cause_harm" grouping="club.02" name="club" verbnet_key="club#1" wn="club%2:35:00" features="instrument_type: Sport Artifact"/>
+  <MEMBER fn_mapping="None" grouping="" name="conk" verbnet_key="conk#2" wn="conk%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="cosh" verbnet_key="cosh#1" wn="cosh%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="cudgel" verbnet_key="cudgel#1" wn="cudgel%2:35:00" features="instrument_type: Weapon"/>
+  <MEMBER fn_mapping="None" grouping="" name="cuff" verbnet_key="cuff#1" wn="cuff%2:35:00" features="instrument_type: Clothing Artifact"/>
+  <MEMBER fn_mapping="None" grouping="" name="elbow" verbnet_key="elbow#1" wn="elbow%2:35:00" features="instrument_type: Body Part"/>
+  <MEMBER fn_mapping="None" grouping="" name="flagellate" verbnet_key="flagellate#1" wn="flagellate%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="flail" verbnet_key="flail#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="flog" verbnet_key="flog#1" wn="flog%2:35:00 flog%2:35:01" features="purpose: Damaging"/>
+  <MEMBER fn_mapping="None" grouping="" name="fustigate" verbnet_key="fustigate#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="knee" verbnet_key="knee#1" wn="" features="instrument_type: Body Part"/>
+  <MEMBER fn_mapping="None" grouping="" name="knife" verbnet_key="knife#2" wn="knife%2:35:00" features="instrument_type: Weapon"/>
+  <MEMBER fn_mapping="None" grouping="" name="k.o." verbnet_key="k.o.#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="lam" verbnet_key="lam#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="larrup" verbnet_key="larrup#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="lather" verbnet_key="lather#2" wn="" features="purpose: Damaging"/>
+  <MEMBER fn_mapping="Corporal_punishment" grouping="paddle.03" name="paddle" verbnet_key="paddle#3" wn="paddle%2:35:07" features="instrument_type: Sport Artifact"/>
+  <MEMBER fn_mapping="None" grouping="" name="pommel" verbnet_key="pommel#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="pummel" verbnet_key="pummel#1" wn="pummel%2:35:00" features=""/>
+  <MEMBER fn_mapping="Cause_impact" grouping="slam.01" name="slam" verbnet_key="slam#2" wn="slam%2:35:01 slam%2:35:00 slam%2:35:02" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="sock" verbnet_key="sock#1" wn="sock%2:35:00" features="instrument_type: Clothing Artifact"/>
+  <MEMBER fn_mapping="None" grouping="" name="spank" verbnet_key="spank#1" wn="spank%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="strap.03" name="strap" verbnet_key="strap#1" wn="strap%2:35:01" features="purpose: Damaging"/>
+  <MEMBER fn_mapping="None" grouping="thrash.02" name="thrash" verbnet_key="thrash#1" wn="thrash%2:35:00 thrash%2:35:01" features=""/>
+  <MEMBER fn_mapping="Impact" grouping="" name="thump" verbnet_key="thump#4" wn="thump%2:39:00 thump%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="truncheon" verbnet_key="truncheon#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="wallop" verbnet_key="wallop#1" wn="wallop%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="wham" verbnet_key="wham#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="whap" verbnet_key="whap#2" wn="" features=""/>
+  <MEMBER fn_mapping="Cause_harm" grouping="whip.01" name="whip" verbnet_key="whip#3" wn="whip%2:35:00 whip%2:35:02" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="whisk" verbnet_key="whisk#2" wn="whisk%2:35:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="whomp" verbnet_key="whomp#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="whop" verbnet_key="whop#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="horsewhip" verbnet_key="horsewhip#1" wn="horsewhip%2:35:00" features="purpose: Damaging"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="int_control"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Instrument">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Result">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paula socked the mugger.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Constant" value="movement"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paula socked the mugger with her right hand.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Constant" value="movement"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     They knifed him dead.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Result">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Constant" value="movement"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     They knifed him to death.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to into">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Result">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="state"/>
+     </SELRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Constant" value="movement"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     They knifed him to death with a shiv.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="to into">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Result">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="state"/>
+     </SELRESTRS>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Constant" value="movement"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Instrument"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="ThemRole" value="Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP PP.location" secondary="NP-PP; Body-part-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paula socked the mugger in the nose.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="loc"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="body_part"/>
+     </SELRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Constant" value="movement"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="part_of">
+     <ARGS>
+      <ARG type="ThemRole" value="Location"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP PP PP.instrument" secondary="NP-PP-PP; Body-part-PP Instrument-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paula socked the mugger in the nose with her fist.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="loc"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="body_part"/>
+     </SELRESTRS>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Constant" value="movement"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="part_of">
+     <ARGS>
+      <ARG type="ThemRole" value="Location"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="NP-PP; Body Part Object" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paula socked the mugger's nose.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="body_part"/>
+     </SELRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="contact">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Constant" value="movement"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="Constant" value="forceful"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="part_of">
+     <ARGS>
+      <ARG type="ThemRole" value="Location"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

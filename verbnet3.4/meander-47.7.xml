@@ -1,360 +1,355 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="meander-47.7" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="angle" wn="" grouping="angle.01" fn_mapping="Motion_directional" verbnet_key="angle#1" features="+directionOfMotion"/>
-<MEMBER name="cascade" wn="cascade%2:38:00" grouping="cascade.01" fn_mapping="Fluidic_motion" verbnet_key="cascade#1" features="+directionOfMotion"/>
-<MEMBER name="crawl" wn="" grouping="crawl.01" fn_mapping="Self_motion" verbnet_key="crawl#1" features="+manner"/>
-<MEMBER name="crest" wn="" grouping="" fn_mapping="None" verbnet_key="crest#1" features="+directionOfMotion"/>
-<MEMBER name="cross" wn="" grouping="" fn_mapping="Body_movement" verbnet_key="cross#4" features="None"/>
-<MEMBER name="cut" wn="" grouping="cut.04" fn_mapping="Change_direction" verbnet_key="cut#8" features="None"/>
-<MEMBER name="dive" wn="" grouping="" fn_mapping="Path_shape" verbnet_key="dive#2" features="+directionOfMotion"/>
-<MEMBER name="edge" wn="" grouping="" fn_mapping="None" verbnet_key="edge#3" features="+path_shape"/>
-<MEMBER name="emerge" wn="" grouping="" fn_mapping="None" verbnet_key="emerge#3" features="None"/>
-<MEMBER name="fall" wn="fall%2:38:11 fall%2:35:00" grouping="fall.07" fn_mapping="None" verbnet_key="fall#8" features="+directionOfMotion"/>
-<MEMBER name="go" wn="go%2:42:00" grouping="go.10" fn_mapping="Motion" verbnet_key="go#8" features="None"/>
-<MEMBER name="lance" wn="lance%2:38:00" grouping="" fn_mapping="None" verbnet_key="lance#3" features="+manner"/>
-<MEMBER name="mount" wn="" grouping="" fn_mapping="Traversing" verbnet_key="mount#2" features="+directionOfMotion"/>
-<MEMBER name="pass" wn="pass%2:42:08" grouping="pass.06" fn_mapping="None" verbnet_key="pass#4" features="None"/>
-<MEMBER name="round" wn="round%2:38:00" grouping="round.02" fn_mapping="Path_shape" verbnet_key="round#2" features="+path_shape"/>
-<MEMBER name="skirt" wn="" grouping="" fn_mapping="None" verbnet_key="skirt#2" features="+path_shape"/>
-<MEMBER name="straggle" wn="straggle%2:38:01" grouping="" fn_mapping="None" verbnet_key="straggle#1" features="+manner"/>
-<MEMBER name="stretch" wn="stretch%2:42:00" grouping="stretch.01" fn_mapping="None" verbnet_key="stretch#4" features="None"/>
-<MEMBER name="sweep" wn="sweep%2:42:03" grouping="sweep.05" fn_mapping="None" verbnet_key="sweep#2" features="+manner"/>
-<MEMBER name="tumble" wn="" grouping="" fn_mapping="None" verbnet_key="tumble#3" features="+directionOfMotion"/>
-<MEMBER name="wander" wn="wander%2:38:01" grouping="wander.02" fn_mapping="None" verbnet_key="wander#1" features="+manner"/>
-<MEMBER name="weave" wn="weave%2:38:00" grouping="weave.03" fn_mapping="Motion" verbnet_key="weave#2" features="+path_shape"/>
-<MEMBER name="wind" wn="wind%2:38:00 wind%2:42:00" grouping="wind.01" fn_mapping="Path_shape" verbnet_key="wind#3" features="+path_shape"/>
-<MEMBER name="range" wn="" grouping="" fn_mapping="None" verbnet_key="range#1" features="None"/>
-<MEMBER name="veer" wn="" grouping="" fn_mapping="None" verbnet_key="veer#1" features="+directionOfMotion"/>
-<MEMBER name="zag" wn="" grouping="" fn_mapping="None" verbnet_key="zag#1" features="+path_shape"/>
-<MEMBER name="zig" wn="" grouping="" fn_mapping="None" verbnet_key="zig#1" features="+path_shape"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Location">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete" />
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS>
-<SELRESTR Value="+" type="elongated" />
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; path-PP" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-The river ran through the valley.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-<VERB />
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="path" />
-</SELRESTRS>
-</PREP>
-<NP value="Location">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Location" />
-</ARGS>
-</PRED>
-<PRED value="physical_form">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="VerbSpecific" value="V_Form" />
-</ARGS>
-</PRED>
-<PRED value="fictive_motion">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="VerbSpecific" value="V_Form" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="6.2" primary="PP.location V NP" secondary="Locative Inversion" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-Through the valley meandered the river.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="path" />
-</SELRESTRS>
-</PREP>
-<NP value="Location">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Location" />
-</ARGS>
-</PRED>
-<PRED value="physical_form">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="VerbSpecific" value="V_Form" />
-</ARGS>
-</PRED>
-<PRED value="fictive_motion">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="VerbSpecific" value="V_Form" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="6.1" primary="There V PP NP" secondary="PP-NP; Expletive-there Subject" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-There meandered through the valley a river.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<LEX value="there" />
-<VERB />
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="path" />
-</SELRESTRS>
-</PREP>
-<NP value="Location">
-<SYNRESTRS />
-</NP>
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Location" />
-</ARGS>
-</PRED>
-<PRED value="physical_form">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="VerbSpecific" value="V_Form" />
-</ARGS>
-</PRED>
-<PRED value="fictive_motion">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="VerbSpecific" value="V_Form" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="6.1" primary="There V NP PP" secondary="NP-PP; Expletive-there Subject" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-There meandered a river through the valley.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<LEX value="there" />
-<VERB />
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="path" />
-</SELRESTRS>
-</PREP>
-<NP value="Location">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="Location" />
-</ARGS>
-</PRED>
-<PRED value="physical_form">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="VerbSpecific" value="V_Form" />
-</ARGS>
-</PRED>
-<PRED value="fictive_motion">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="VerbSpecific" value="V_Form" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="meander-47.7-1">
-<MEMBERS>
-<MEMBER name="ascend" wn="" grouping="" fn_mapping="None" verbnet_key="ascend#2" features="+directionOfMotion_up"/>
-<MEMBER name="bend" wn="" grouping="" fn_mapping="None" verbnet_key="bend#4" features="+path_shape"/>
-<MEMBER name="climb" wn="climb%2:38:06" grouping="climb.02" fn_mapping="None" verbnet_key="climb#3" features="+directionOfMotion_up"/>
-<MEMBER name="converge" wn="converge%2:42:00" grouping="converge.01" fn_mapping="None" verbnet_key="converge#2" features="+path_shape"/>
-<MEMBER name="crisscross" wn="" grouping="" fn_mapping="None" verbnet_key="crisscross#2" features="+path_shape"/>
-<MEMBER name="descend" wn="" grouping="" fn_mapping="None" verbnet_key="descend#2" features="+directionOfMotion_down"/>
-<MEMBER name="dip" wn="" grouping="" fn_mapping="None" verbnet_key="dip#3" features="+directionOfMotion_down"/>
-<MEMBER name="drop" wn="" grouping="drop.07" fn_mapping="None" verbnet_key="drop#3" features="+directionOfMotion_down"/>
-<MEMBER name="meander" wn="meander%2:38:00" grouping="" fn_mapping="None" verbnet_key="meander#1" features="+path_shape"/>
-<MEMBER name="plummit" wn="" grouping="" fn_mapping="None" verbnet_key="plummit#1" features="+directionOfMotion_down"/>
-<MEMBER name="plunge" wn="" grouping="" fn_mapping="None" verbnet_key="plunge#3" features="+directionOfMotion_down"/>
-<MEMBER name="rise" wn="" grouping="" fn_mapping="None" verbnet_key="rise#5" features="+directionOfMotion_up"/>
-<MEMBER name="run" wn="run%2:42:00" grouping="run.02" fn_mapping="Fluidic_motion" verbnet_key="run#5" features="None"/>
-<MEMBER name="slant" wn="" grouping="" fn_mapping="None" verbnet_key="slant#2" features="+directionOfMotion"/>
-<MEMBER name="snake" wn="" grouping="snake.02" fn_mapping="None" verbnet_key="snake#1" features="+path_shape"/>
-<MEMBER name="turn" wn="" grouping="" fn_mapping="None" verbnet_key="turn#5" features="+path_shape"/>
-<MEMBER name="twist" wn="" grouping="twist.05" fn_mapping="None" verbnet_key="twist#4" features="+path_shape"/>
-<MEMBER name="undulate" wn="" grouping="" fn_mapping="None" verbnet_key="undulate#1" features="+path_shape"/>
-<MEMBER name="swerve" wn="" grouping="" fn_mapping="None" verbnet_key="swerve#1" features="+directionOfMotion_change"/>
-<MEMBER name="zigzag" wn="zigzag%2:38:00" grouping="" fn_mapping="None" verbnet_key="zigzag#1" features="+path_shape"/>
-</MEMBERS>
-<THEMROLES />
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="6.1" primary="NP V" secondary="Basic Intransitive" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-The river was twisting.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS />
-</NP>
-<VERB />
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="ThemRole" value="?Location" />
-</ARGS>
-</PRED>
-<PRED value="physical_form">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="VerbSpecific" value="V_Form" />
-</ARGS>
-</PRED>
-<PRED value="fictive_motion">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Theme" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="VerbSpecific" value="V_Form" />
-<ARG type="PredSpecific" value="Trajectory" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES />
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <MEMBER fn_mapping="Motion_directional" grouping="angle.01" name="angle" verbnet_key="angle#1" wn="" features="+directionOfMotion"/>
+  <MEMBER fn_mapping="Fluidic_motion" grouping="cascade.01" name="cascade" verbnet_key="cascade#1" wn="cascade%2:38:00" features="+directionOfMotion"/>
+  <MEMBER fn_mapping="Self_motion" grouping="crawl.01" name="crawl" verbnet_key="crawl#1" wn="" features="+manner"/>
+  <MEMBER fn_mapping="None" grouping="" name="crest" verbnet_key="crest#1" wn="" features="+directionOfMotion"/>
+  <MEMBER fn_mapping="Body_movement" grouping="" name="cross" verbnet_key="cross#4" wn="" features=""/>
+  <MEMBER fn_mapping="Change_direction" grouping="cut.04" name="cut" verbnet_key="cut#8" wn="" features=""/>
+  <MEMBER fn_mapping="Path_shape" grouping="" name="dive" verbnet_key="dive#2" wn="" features="+directionOfMotion"/>
+  <MEMBER fn_mapping="None" grouping="" name="edge" verbnet_key="edge#3" wn="" features="+path_shape"/>
+  <MEMBER fn_mapping="None" grouping="" name="emerge" verbnet_key="emerge#3" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="fall.07" name="fall" verbnet_key="fall#8" wn="fall%2:38:11 fall%2:35:00" features="+directionOfMotion"/>
+  <MEMBER fn_mapping="Motion" grouping="go.10" name="go" verbnet_key="go#8" wn="go%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="lance" verbnet_key="lance#3" wn="lance%2:38:00" features="+manner"/>
+  <MEMBER fn_mapping="Traversing" grouping="" name="mount" verbnet_key="mount#2" wn="" features="+directionOfMotion"/>
+  <MEMBER fn_mapping="None" grouping="pass.06" name="pass" verbnet_key="pass#4" wn="pass%2:42:08" features=""/>
+  <MEMBER fn_mapping="Path_shape" grouping="round.02" name="round" verbnet_key="round#2" wn="round%2:38:00" features="+path_shape"/>
+  <MEMBER fn_mapping="None" grouping="" name="skirt" verbnet_key="skirt#2" wn="" features="+path_shape"/>
+  <MEMBER fn_mapping="None" grouping="" name="straggle" verbnet_key="straggle#1" wn="straggle%2:38:01" features="+manner"/>
+  <MEMBER fn_mapping="None" grouping="stretch.01" name="stretch" verbnet_key="stretch#4" wn="stretch%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="sweep.05" name="sweep" verbnet_key="sweep#2" wn="sweep%2:42:03" features="+manner"/>
+  <MEMBER fn_mapping="None" grouping="" name="tumble" verbnet_key="tumble#3" wn="" features="+directionOfMotion"/>
+  <MEMBER fn_mapping="None" grouping="wander.02" name="wander" verbnet_key="wander#1" wn="wander%2:38:01" features="+manner"/>
+  <MEMBER fn_mapping="Motion" grouping="weave.03" name="weave" verbnet_key="weave#2" wn="weave%2:38:00" features="+path_shape"/>
+  <MEMBER fn_mapping="Path_shape" grouping="wind.01" name="wind" verbnet_key="wind#3" wn="wind%2:38:00 wind%2:42:00" features="+path_shape"/>
+  <MEMBER fn_mapping="None" grouping="" name="range" verbnet_key="range#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="veer" verbnet_key="veer#1" wn="" features="+directionOfMotion"/>
+  <MEMBER fn_mapping="None" grouping="" name="zag" verbnet_key="zag#1" wn="" features="+path_shape"/>
+  <MEMBER fn_mapping="None" grouping="" name="zig" verbnet_key="zig#1" wn="" features="+path_shape"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete" />
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="elongated" />
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; path-PP" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     The river ran through the valley.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="path" />
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_physical_form">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="VerbSpecific" value="V_Form" />
+     </ARGS>
+    </PRED>
+    <PRED value="fictive_motion">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="PredSpecific" value="Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="VerbSpecific" value="V_Form" />
+      <ARG type="PredSpecific" value="Trajectory" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="6.2" primary="PP.location V NP" secondary="Locative Inversion" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     Through the valley meandered the river.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="path" />
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_physical_form">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="VerbSpecific" value="V_Form" />
+     </ARGS>
+    </PRED>
+    <PRED value="fictive_motion">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="PredSpecific" value="Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="VerbSpecific" value="V_Form" />
+      <ARG type="PredSpecific" value="Trajectory" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="6.1" primary="There V PP NP" secondary="PP-NP; Expletive-there Subject" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     There meandered through the valley a river.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <LEX value="there" />
+    <VERB />
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="path" />
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS />
+    </NP>
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_physical_form">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="VerbSpecific" value="V_Form" />
+     </ARGS>
+    </PRED>
+    <PRED value="fictive_motion">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="PredSpecific" value="Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="VerbSpecific" value="V_Form" />
+      <ARG type="PredSpecific" value="Trajectory" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="6.1" primary="There V NP PP" secondary="NP-PP; Expletive-there Subject" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     There meandered a river through the valley.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <LEX value="there" />
+    <VERB />
+    <NP value="Theme">
+     <SYNRESTRS />
+    </NP>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="path" />
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="ThemRole" value="Location" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_physical_form">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="VerbSpecific" value="V_Form" />
+     </ARGS>
+    </PRED>
+    <PRED value="fictive_motion">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Theme" />
+      <ARG type="PredSpecific" value="Trajectory" />
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="VerbSpecific" value="V_Form" />
+      <ARG type="PredSpecific" value="Trajectory" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="meander-47.7-1" features="+directionOfMotion+path_shape+path_shape+directionOfMotion+directionOfMotion+path_shape+path_shape+path_shape+path_shape+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+manner +path_shape+manner +path_shape+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+directionOfMotion+manner+manner+directionOfMotion+directionOfMotion+path_shape +manner+path_shape +manner+path_shape+path_shape+path_shape+path_shape+path_shape +manner+path_shape +manner+directionOfMotion+directionOfMotion+path_shape+path_shape">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="" name="ascend" verbnet_key="ascend#2" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="bend" verbnet_key="bend#4" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="climb.02" name="climb" verbnet_key="climb#3" wn="climb%2:38:06" features=""/>
+    <MEMBER fn_mapping="None" grouping="converge.01" name="converge" verbnet_key="converge#2" wn="converge%2:42:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="crisscross" verbnet_key="crisscross#2" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="descend" verbnet_key="descend#2" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="dip" verbnet_key="dip#3" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="drop.07" name="drop" verbnet_key="drop#3" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="meander" verbnet_key="meander#1" wn="meander%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="plummit" verbnet_key="plummit#1" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="plunge" verbnet_key="plunge#3" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="rise" verbnet_key="rise#5" wn="" features=""/>
+    <MEMBER fn_mapping="Fluidic_motion" grouping="run.02" name="run" verbnet_key="run#5" wn="run%2:42:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="slant" verbnet_key="slant#2" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="snake.02" name="snake" verbnet_key="snake#1" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="turn" verbnet_key="turn#5" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="twist.05" name="twist" verbnet_key="twist#4" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="undulate" verbnet_key="undulate#1" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="swerve" verbnet_key="swerve#1" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="zigzag" verbnet_key="zigzag#1" wn="zigzag%2:38:00" features=""/>
+   </MEMBERS>
+   <THEMROLES />
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="6.1" primary="NP V" secondary="Basic Intransitive" xtag="" />
+     <EXAMPLES>
+      <EXAMPLE>
+       The river was twisting.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS />
+      </NP>
+      <VERB />
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="be">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Theme" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_location">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Theme" />
+        <ARG type="ThemRole" value="?Location" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_physical_form">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Theme" />
+        <ARG type="VerbSpecific" value="V_Form" />
+       </ARGS>
+      </PRED>
+      <PRED value="fictive_motion">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Theme" />
+        <ARG type="PredSpecific" value="Trajectory" />
+       </ARGS>
+      </PRED>
+      <PRED value="equals">
+       <ARGS>
+        <ARG type="VerbSpecific" value="V_Form" />
+        <ARG type="PredSpecific" value="Trajectory" />
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES />
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

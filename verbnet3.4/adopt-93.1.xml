@@ -1,0 +1,56 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="adopt-93.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="Adopt_selection" grouping="assume.02" name="assume" verbnet_key="assume#1" wn="assume%2:41:00 assume%2:30:00 assume%2:38:00" features=""/>
+  <MEMBER fn_mapping="Adopt_selection" grouping="adopt.01" name="adopt" verbnet_key="adopt#1" wn="adopt%2:40:02" features=""/>
+  <MEMBER fn_mapping="Conquering" grouping="take.08" name="take" verbnet_key="take#2" wn="take%2:40:05" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="take_on" verbnet_key="take_on#1" wn="take_on%2:30:00 take_on%2:41:01" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He assumed the position that dogs are people. 
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="abide_by">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="abide_by">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS>

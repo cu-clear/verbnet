@@ -1,102 +1,106 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="confront-98" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="face" wn="face%2:32:00 face%2:33:00 face%2:32:03" grouping="face.01" fn_mapping="Confronting_problem" verbnet_key="face#1" features="None"/>
-<MEMBER name="confront" wn="confront%2:33:00 confront%2:32:00 confront%2:32:03" grouping="confront.01 confront.02 confront.03" fn_mapping="Hostile_encounter" verbnet_key="confront#1" features="None"/>
-<MEMBER name="head_on" wn="" grouping="" fn_mapping="None" verbnet_key="head_on#1" features="None"/>
-<MEMBER name="undertake" wn="undertake%2:41:01" grouping="undertake.01" fn_mapping="None" verbnet_key="undertake#2" features="None"/>
-<MEMBER name="tackle" wn="tackle%2:41:00" grouping="tackle.01" fn_mapping="None" verbnet_key="tackle#1" features="None"/>
-<MEMBER name="take_on" wn="take_on%2:41:00" grouping="" fn_mapping="None" verbnet_key="take_on#2" features="None"/>
-<MEMBER name="go_about" wn="go_about%2:41:00" grouping="" fn_mapping="None" verbnet_key="go_about#1" features="None"/>
-<MEMBER name="approach" wn="approach%2:41:00" grouping="approach.03" fn_mapping="None" verbnet_key="approach#1" features="None"/>
-<MEMBER name="brave" wn="brave%2:42:00" grouping="" fn_mapping="None" verbnet_key="brave#1" features="None"/>
-<MEMBER name="handle" wn="handle%2:41:00" grouping="handle.02" fn_mapping="None" verbnet_key="handle#1" features="None"/>
-<MEMBER name="intercept" wn="intercept%2:35:00" grouping="intercept.01" fn_mapping="None" verbnet_key="intercept#1" features="None"/>
-<MEMBER name="target" wn="target%2:33:00" grouping="target.01" fn_mapping="None" verbnet_key="target#1" features="None"/>
-<MEMBER name="rival" wn="rival%2:33:00" grouping="" fn_mapping="None" verbnet_key="rival#1" features="None"/>
-<MEMBER name="counter" wn="counter%2:41:00" grouping="counter.01" fn_mapping="None" verbnet_key="counter#1" features="None"/>
-<MEMBER name="pre-empt" wn="" grouping="" fn_mapping="None" verbnet_key="pre-empt#1" features="None"/>
-<MEMBER name="combat" wn="combat%2:33:00" grouping="combat.01" fn_mapping="None" verbnet_key="combat#2" features="None"/>
-<MEMBER name="breast" wn="breast%2:33:00" grouping="" fn_mapping="None" verbnet_key="breast#1" features="None"/>
-<MEMBER name="move_in_on" wn="move_in_on%2:38:00         move_in_on%2:41:00" grouping="move.07" fn_mapping="None" verbnet_key="move_in_on#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-<SELRESTR Value="+" type="organization"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Instrument">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-John confronted the disaster.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="confront">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Instrument"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.instrument" secondary="NP-PP; with-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-John confronted it with emergency measures.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP value="with">
-<SELRESTRS/>
-</PREP>
-<NP value="Instrument">
-<SYNRESTRS>
-<SYNRESTR Value="-" type="sentential"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="confront">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Instrument"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="approach.03" name="approach" verbnet_key="approach#1" wn="approach%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="brave" verbnet_key="brave#1" wn="brave%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="breast" verbnet_key="breast#1" wn="breast%2:33:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="combat.01" name="combat" verbnet_key="combat#2" wn="combat%2:33:00" features=""/>
+  <MEMBER fn_mapping="Hostile_encounter" grouping="confront.01 confront.02 confront.03" name="confront" verbnet_key="confront#1" wn="confront%2:33:00 confront%2:32:00 confront%2:32:03" features=""/>
+  <MEMBER fn_mapping="None" grouping="counter.01" name="counter" verbnet_key="counter#1" wn="counter%2:41:00" features=""/>
+  <MEMBER fn_mapping="Confronting_problem" grouping="face.01" name="face" verbnet_key="face#1" wn="face%2:32:00 face%2:33:00 face%2:32:03" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="go_about" verbnet_key="go_about#1" wn="go_about%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="handle.02" name="handle" verbnet_key="handle#1" wn="handle%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="head_on" verbnet_key="head_on#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="intercept.01" name="intercept" verbnet_key="intercept#1" wn="intercept%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="move.07" name="move_in_on" verbnet_key="move_in_on#1" wn="move_in_on%2:38:00 move_in_on%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="pre-empt" verbnet_key="pre-empt#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="tackle.01" name="tackle" verbnet_key="tackle#1" wn="tackle%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="take_on" verbnet_key="take_on#2" wn="take_on%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="target.01" name="target" verbnet_key="target#1" wn="target%2:33:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="undertake.01" name="undertake" verbnet_key="undertake#2" wn="undertake%2:41:01" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Instrument">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     John confronted the disaster.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="handle">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.instrument" secondary="NP-PP; with-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     John confronted it with emergency measures.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Instrument">
+     <SYNRESTRS>
+      <SYNRESTR Value="-" type="sentential"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="handle">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="utilize">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Instrument"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

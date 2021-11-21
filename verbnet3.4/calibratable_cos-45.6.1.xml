@@ -1,673 +1,673 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="calibratable_cos-45.6.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="build" wn="" grouping="build.02" fn_mapping="None" verbnet_key="build#3" features="+directionOfChange_increase"/>
-<MEMBER name="die" wn="" grouping="die.02" fn_mapping="None" verbnet_key="die#2" features="+directionOfChange_decrease"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Patient">
-<SELRESTRS />
-</THEMROLE>
-<THEMROLE type="Attribute">
-<SELRESTRS />
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.13.5" primary="NP.attribute V" secondary="Intransitive; Attribute Subject" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-The price of oil soared.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Attribute">
-<SYNRESTRS />
-</NP>
-<LEX value="of" />
-<NP value="Patient">
-<SYNRESTRS />
-</NP>
-<VERB />
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="PredSpecific" value="Initial_State" />
-</ARGS>
-</PRED>
-<PRED value="change_value">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="VerbSpecific" value="V_Direction" />
-<ARG type="PredSpecific" value="Extent" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="PredSpecific" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="Event" value="e3" />
-</ARGS>
-</PRED>
-<PRED value="has_property">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V PP.attribute" secondary="PP; Possessor Subject, Attribute-PP" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-Oil soared in price.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Patient">
-<SYNRESTRS />
-</NP>
-<VERB />
-<PREP value="in">
-<SELRESTRS />
-</PREP>
-<NP value="Attribute">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="PredSpecific" value="Initial_State" />
-</ARGS>
-</PRED>
-<PRED value="change_value">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="VerbSpecific" value="V_Direction" />
-<ARG type="PredSpecific" value="Extent" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="PredSpecific" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="Event" value="e3" />
-</ARGS>
-</PRED>
-<PRED value="has_property">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V" secondary="Basic Intransitive" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-Imports declined.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Patient">
-<SYNRESTRS />
-</NP>
-<VERB />
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="PredSpecific" value="Initial_State" />
-</ARGS>
-</PRED>
-<PRED value="change_value">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="VerbSpecific" value="V_Direction" />
-<ARG type="PredSpecific" value="Extent" />
-<ARG type="ThemRole" value="?Attribute" />
-</ARGS>
-</PRED>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="PredSpecific" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="Event" value="e3" />
-</ARGS>
-</PRED>
-<PRED value="has_property">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="?Attribute" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="calibratable_cos-45.6.1-1">
-<MEMBERS>
-<MEMBER name="appreciate" wn="appreciate%2:30:00" grouping="appreciate.03" fn_mapping="None" verbnet_key="appreciate#2" features="+increase"/>
-<MEMBER name="climb" wn="climb%2:38:00 climb%2:38:01 climb%2:30:01" grouping="climb.01" fn_mapping="None" verbnet_key="climb#1" features="+increase"/>
-<MEMBER name="decline" wn="decline%2:30:01" grouping="decline.01" fn_mapping="None" verbnet_key="decline#1" features="+decrease"/>
-<MEMBER name="dip" wn="dip%2:38:01" grouping="dip.02" fn_mapping="None" verbnet_key="dip#1" features="+decrease"/>
-<MEMBER name="dive" wn="dive%2:38:00" grouping="dive.01" fn_mapping="None" verbnet_key="dive#1" features="+decrease"/>
-<MEMBER name="depreciate" wn="depreciate%2:30:00" grouping="depreciate.02" fn_mapping="None" verbnet_key="depreciate#1" features="+decrease"/>
-<MEMBER name="drop" wn="drop%2:30:00" grouping="drop.02" fn_mapping="None" verbnet_key="drop#1" features="+decrease"/>
-<MEMBER name="dwindle" wn="" grouping="" fn_mapping="None" verbnet_key="dwindle#1" features="+decrease"/>
-<MEMBER name="explode" wn="explode%2:30:02" grouping="explode.03" fn_mapping="None" verbnet_key="explode#1" features="+increase"/>
-<MEMBER name="fall" wn="fall%2:30:06" grouping="fall.04" fn_mapping="Change_position_on_a_scale" verbnet_key="fall#3" features="+decrease"/>
-<MEMBER name="fall_away" wn="fall_away%2:30:00" grouping="fall.02" fn_mapping="None" verbnet_key="fall_away#1" features="+decrease"/>
-<MEMBER name="fall-off" wn="" grouping="" fn_mapping="None" verbnet_key="fall-off#1" features="+decrease"/>
-<MEMBER name="fluctuate" wn="fluctuate%2:30:00" grouping="fluctuate.01" fn_mapping="None" verbnet_key="fluctuate#1" features="+fluctuate"/>
-<MEMBER name="gain" wn="gain%2:30:00" grouping="gain.02" fn_mapping="None" verbnet_key="gain#1" features="+increase"/>
-<MEMBER name="go_down" wn="go_down%2:30:00" grouping="go.02" fn_mapping="None" verbnet_key="go_down#2" features="+decrease"/>
-<MEMBER name="go_up" wn="go_up%2:30:00" grouping="go.01" fn_mapping="None" verbnet_key="go_up#1" features="+increase"/>
-<MEMBER name="grow" wn="" grouping="grow.02 grow.04" fn_mapping="None" verbnet_key="grow#4" features="+increase"/>
-<MEMBER name="jump" wn="jump%2:30:00" grouping="jump.01" fn_mapping="None" verbnet_key="jump#2" features="+increase"/>
-<MEMBER name="mushroom" wn="mushroom%2:30:00" grouping="mushroom.01" fn_mapping="None" verbnet_key="mushroom#2" features="+increase"/>
-<MEMBER name="multiply" wn="" grouping="" fn_mapping="None" verbnet_key="multiply#2" features="+increase"/>
-<MEMBER name="plummet" wn="plummet%2:38:00" grouping="plummet.01" fn_mapping="None" verbnet_key="plummet#1" features="+decrease"/>
-<MEMBER name="plump" wn="plump%2:38:01" grouping="plump.01" fn_mapping="None" verbnet_key="plump#1" features="+decrease"/>
-<MEMBER name="plunge" wn="plunge%2:38:01" grouping="plunge.02" fn_mapping="None" verbnet_key="plunge#1" features="+decrease"/>
-<MEMBER name="retreat" wn="" grouping="retreat.05" fn_mapping="None" verbnet_key="retreat#1" features="+decrease"/>
-<MEMBER name="rocket" wn="rocket%2:38:00" grouping="" fn_mapping="None" verbnet_key="rocket#1" features="+increase"/>
-<MEMBER name="rise" wn="rise%2:30:00 rise%2:30:03 rise%2:30:09 rise%2:38:02" grouping="rise.02" fn_mapping="None" verbnet_key="rise#3" features="+increase"/>
-<MEMBER name="seesaw" wn="seesaw%2:38:00" grouping="" fn_mapping="None" verbnet_key="seesaw#1" features="+fluctuate"/>
-<MEMBER name="skyrocket" wn="skyrocket%2:38:00" grouping="skyrocket.01" fn_mapping="None" verbnet_key="skyrocket#1" features="+increase"/>
-<MEMBER name="slide" wn="" grouping="slide.03" fn_mapping="None" verbnet_key="slide#1" features="+decrease"/>
-<MEMBER name="slip" wn="slip%2:30:00" grouping="slip.03" fn_mapping="None" verbnet_key="slip#1" features="+decrease"/>
-<MEMBER name="soar" wn="soar%2:38:01 soar%2:30:00" grouping="soar.02" fn_mapping="None" verbnet_key="soar#1" features="+increase"/>
-<MEMBER name="surge" wn="surge%2:38:00" grouping="surge.02" fn_mapping="None" verbnet_key="surge#2" features="+increase"/>
-<MEMBER name="swing" wn="swing%2:30:08" grouping="swing.03" fn_mapping="None" verbnet_key="swing#1" features="+fluctuate"/>
-<MEMBER name="tumble" wn="tumble%2:30:00" grouping="tumble.01" fn_mapping="None" verbnet_key="tumble#1" features="+decrease"/>
-<MEMBER name="swell" wn="swell%2:30:02" grouping="swell.01" fn_mapping="None" verbnet_key="swell#1" features="+increase"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Extent">
-<SELRESTRS />
-</THEMROLE>
-<THEMROLE type="Initial_State">
-<SELRESTRS />
-</THEMROLE>
-<THEMROLE type="Result">
-<SELRESTRS />
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V NP.extent PP.source PP.goal" secondary="NP-PP-PP; optional" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-Oil rose 565% from $26 to $147.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Patient">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Extent">
-<SYNRESTRS />
-</NP>
-<PREP value="from">
-<SELRESTRS />
-</PREP>
-<NP value="Initial_State">
-<SYNRESTRS />
-</NP>
-<PREP value="to">
-<SELRESTRS />
-</PREP>
-<NP value="Result">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Initial_State" />
-</ARGS>
-</PRED>
-<PRED value="change_value">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="VerbSpecific" value="V_Direction" />
-<ARG type="ThemRole" value="Extent" />
-<ARG type="ThemRole" value="?Attribute" />
-</ARGS>
-</PRED>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="Event" value="e3" />
-</ARGS>
-</PRED>
-<PRED value="has_property">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="?Attribute" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V PP.extent PP.source PP.goal" secondary="PP-PP-PP; optional" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-Oil rose by 565% from $26 to $147.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Patient">
-<SYNRESTRS />
-</NP>
-<VERB />
-<PREP value="by">
-<SELRESTRS />
-</PREP>
-<NP value="Extent">
-<SYNRESTRS />
-</NP>
-<PREP value="from">
-<SELRESTRS />
-</PREP>
-<NP value="Initial_State">
-<SYNRESTRS />
-</NP>
-<PREP value="to">
-<SELRESTRS />
-</PREP>
-<NP value="Result">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Initial_State" />
-</ARGS>
-</PRED>
-<PRED value="change_value">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="VerbSpecific" value="V_Direction" />
-<ARG type="ThemRole" value="Extent" />
-<ARG type="ThemRole" value="?Attribute" />
-</ARGS>
-</PRED>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="Event" value="e3" />
-</ARGS>
-</PRED>
-<PRED value="has_property">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="?Attribute" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.13.5" primary="NP.attribute V NP.extent PP.source PP.goal" secondary="NP-PP-PP; optional" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-The price of oil rose 565% from $26 to $147.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Attribute">
-<SYNRESTRS />
-</NP>
-<PREP value="of">
-<SELRESTRS />
-</PREP>
-<NP value="Patient">
-<SYNRESTRS />
-</NP>
-<VERB />
-<NP value="Extent">
-<SYNRESTRS />
-</NP>
-<PREP value="from">
-<SELRESTRS />
-</PREP>
-<NP value="Initial_State">
-<SYNRESTRS />
-</NP>
-<PREP value="to">
-<SELRESTRS />
-</PREP>
-<NP value="Result">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Initial_State" />
-</ARGS>
-</PRED>
-<PRED value="change_value">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="VerbSpecific" value="V_Direction" />
-<ARG type="ThemRole" value="Extent" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="Event" value="e3" />
-</ARGS>
-</PRED>
-<PRED value="has_property">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.13.5" primary="NP.attribute V PP.extent PP.source PP.goal" secondary="PP-PP-PP; optional" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-The price of oil rose by 565% from $26 to $147.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Attribute">
-<SYNRESTRS />
-</NP>
-<PREP value="of">
-<SELRESTRS />
-</PREP>
-<NP value="Patient">
-<SYNRESTRS />
-</NP>
-<VERB />
-<PREP value="by">
-<SELRESTRS />
-</PREP>
-<NP value="Extent">
-<SYNRESTRS />
-</NP>
-<PREP value="from">
-<SELRESTRS />
-</PREP>
-<NP value="Initial_State">
-<SYNRESTRS />
-</NP>
-<PREP value="to">
-<SELRESTRS />
-</PREP>
-<NP value="?Result">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Initial_State" />
-</ARGS>
-</PRED>
-<PRED value="change_value">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="VerbSpecific" value="V_Direction" />
-<ARG type="ThemRole" value="Extent" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="Event" value="e3" />
-</ARGS>
-</PRED>
-<PRED value="has_property">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V PP.attribute NP.extent PP.source PP.goal" secondary="PP-PP-PP-PP; optional" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-Oil rose in price 565% from $26 to $147.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Patient">
-<SYNRESTRS />
-</NP>
-<VERB />
-<PREP value="in">
-<SELRESTRS />
-</PREP>
-<NP value="Attribute">
-<SYNRESTRS />
-</NP>
-<NP value="Extent">
-<SYNRESTRS />
-</NP>
-<PREP value="from">
-<SELRESTRS />
-</PREP>
-<NP value="Initial_State">
-<SYNRESTRS />
-</NP>
-<PREP value="to">
-<SELRESTRS />
-</PREP>
-<NP value="Result">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Initial_State" />
-</ARGS>
-</PRED>
-<PRED value="change_value">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="VerbSpecific" value="V_Direction" />
-<ARG type="ThemRole" value="Extent" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="Event" value="e3" />
-</ARGS>
-</PRED>
-<PRED value="has_property">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V PP.attribute PP.extent PP.source PP.goal" secondary="PP-PP-PP-PP; optional" xtag="" />
-<EXAMPLES>
-<EXAMPLE>
-Oil rose in price by 565% from $26 to $147.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Patient">
-<SYNRESTRS />
-</NP>
-<VERB />
-<PREP value="in">
-<SELRESTRS />
-</PREP>
-<NP value="Attribute">
-<SYNRESTRS />
-</NP>
-<PREP value="by">
-<SELRESTRS />
-</PREP>
-<NP value="Extent">
-<SYNRESTRS />
-</NP>
-<PREP value="from">
-<SELRESTRS />
-</PREP>
-<NP value="Initial_State">
-<SYNRESTRS />
-</NP>
-<PREP value="to">
-<SELRESTRS />
-</PREP>
-<NP value="Result">
-<SYNRESTRS />
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e1" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Initial_State" />
-</ARGS>
-</PRED>
-<PRED value="change_value">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="VerbSpecific" value="V_Direction" />
-<ARG type="ThemRole" value="Extent" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-<PRED value="has_val">
-<ARGS>
-<ARG type="Event" value="e3" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Result" />
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2" />
-<ARG type="Event" value="e3" />
-</ARGS>
-</PRED>
-<PRED value="has_property">
-<ARGS>
-<ARG type="Event" value="E" />
-<ARG type="ThemRole" value="Patient" />
-<ARG type="ThemRole" value="Attribute" />
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES />
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="build.02" name="build" verbnet_key="build#3" wn="" features="+increase+directionOfChenge_increase"/>
+  <MEMBER fn_mapping="None" grouping="die.02" name="die" verbnet_key="die#2" wn="" features="+decrease+directionOfChenge_decrease"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Patient">
+   <SELRESTRS />
+  </THEMROLE>
+  <THEMROLE type="Attribute">
+   <SELRESTRS />
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.13.5" primary="NP.attribute V" secondary="Intransitive; Attribute Subject" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     The price of oil soared.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Attribute">
+     <SYNRESTRS />
+    </NP>
+    <LEX value="of" />
+    <NP value="Patient">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_attribute">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="ThemRole" value="Attribute" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_value">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="PredSpecific" value="Initial_State" />
+     </ARGS>
+    </PRED>
+    <PRED value="change_value">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="VerbSpecific" value="V_Direction" />
+      <ARG type="PredSpecific" value="Extent" />
+      <ARG type="ThemRole" value="Attribute" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_value">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="PredSpecific" value="Result" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="Event" value="e3" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V PP.attribute" secondary="PP; Possessor Subject, Attribute-PP" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     Oil soared in price.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Patient">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+    <PREP value="in">
+     <SELRESTRS />
+    </PREP>
+    <NP value="Attribute">
+     <SYNRESTRS />
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_attribute">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="ThemRole" value="Attribute" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_value">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="PredSpecific" value="Initial_State" />
+     </ARGS>
+    </PRED>
+    <PRED value="change_value">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="VerbSpecific" value="V_Direction" />
+      <ARG type="PredSpecific" value="Extent" />
+      <ARG type="ThemRole" value="Attribute" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_value">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="PredSpecific" value="Result" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="Event" value="e3" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Basic Intransitive" xtag="" />
+   <EXAMPLES>
+    <EXAMPLE>
+     Imports declined.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Patient">
+     <SYNRESTRS />
+    </NP>
+    <VERB />
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_attribute">
+     <ARGS>
+      <ARG type="Event" value="E" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="ThemRole" value="?Attribute" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_value">
+     <ARGS>
+      <ARG type="Event" value="e1" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="PredSpecific" value="Initial_State" />
+     </ARGS>
+    </PRED>
+    <PRED value="change_value">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="VerbSpecific" value="V_Direction" />
+      <ARG type="PredSpecific" value="Extent" />
+      <ARG type="ThemRole" value="?Attribute" />
+     </ARGS>
+    </PRED>
+    <PRED value="has_value">
+     <ARGS>
+      <ARG type="Event" value="e3" />
+      <ARG type="ThemRole" value="Patient" />
+      <ARG type="PredSpecific" value="Result" />
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2" />
+      <ARG type="Event" value="e3" />
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="calibratable_cos-45.6.1-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="appreciate.03" name="appreciate" verbnet_key="appreciate#2" wn="appreciate%2:30:00" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="climb.01" name="climb" verbnet_key="climb#1" wn="climb%2:38:00 climb%2:38:01 climb%2:30:01" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="decline.01" name="decline" verbnet_key="decline#1" wn="decline%2:30:01" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="dip.02" name="dip" verbnet_key="dip#1" wn="dip%2:38:01" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="dive.01" name="dive" verbnet_key="dive#1" wn="dive%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="depreciate.02" name="depreciate" verbnet_key="depreciate#1" wn="depreciate%2:30:00" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="drop.02" name="drop" verbnet_key="drop#1" wn="drop%2:30:00" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="" name="dwindle" verbnet_key="dwindle#1" wn="" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="explode.03" name="explode" verbnet_key="explode#1" wn="explode%2:30:02" features="+increase"/>
+    <MEMBER fn_mapping="Change_position_on_a_scale" grouping="fall.04" name="fall" verbnet_key="fall#3" wn="fall%2:30:06" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="fall.02" name="fall_away" verbnet_key="fall_away#1" wn="fall_away%2:30:00" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="" name="fall-off" verbnet_key="fall-off#1" wn="" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="fluctuate.01" name="fluctuate" verbnet_key="fluctuate#1" wn="fluctuate%2:30:00" features="+fluctuate"/>
+    <MEMBER fn_mapping="None" grouping="gain.02" name="gain" verbnet_key="gain#1" wn="gain%2:30:00" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="go.02" name="go_down" verbnet_key="go_down#2" wn="go_down%2:30:00" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="go.01" name="go_up" verbnet_key="go_up#1" wn="go_up%2:30:00" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="grow.02 grow.04" name="grow" verbnet_key="grow#4" wn="" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="jump.01" name="jump" verbnet_key="jump#2" wn="jump%2:30:00" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="mushroom.01" name="mushroom" verbnet_key="mushroom#2" wn="mushroom%2:30:00" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="" name="multiply" verbnet_key="multiply#2" wn="" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="plummet.01" name="plummet" verbnet_key="plummet#1" wn="plummet%2:38:00" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="plump.01" name="plump" verbnet_key="plump#1" wn="plump%2:38:01" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="plunge.02" name="plunge" verbnet_key="plunge#1" wn="plunge%2:38:01" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="retreat.05" name="retreat" verbnet_key="retreat#1" wn="" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="" name="rocket" verbnet_key="rocket#1" wn="rocket%2:38:00" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="rise.02" name="rise" verbnet_key="rise#3" wn="rise%2:30:00 rise%2:30:03 rise%2:30:09 rise%2:38:02" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="" name="seesaw" verbnet_key="seesaw#1" wn="seesaw%2:38:00" features="+fluctuate"/>
+    <MEMBER fn_mapping="None" grouping="skyrocket.01" name="skyrocket" verbnet_key="skyrocket#1" wn="skyrocket%2:38:00" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="slide.03" name="slide" verbnet_key="slide#1" wn="" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="slip.03" name="slip" verbnet_key="slip#1" wn="slip%2:30:00" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="soar.02" name="soar" verbnet_key="soar#1" wn="soar%2:38:01 soar%2:30:00" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="surge.02" name="surge" verbnet_key="surge#2" wn="surge%2:38:00" features="+increase"/>
+    <MEMBER fn_mapping="None" grouping="swing.03" name="swing" verbnet_key="swing#1" wn="swing%2:30:08" features="+fluctuate"/>
+    <MEMBER fn_mapping="None" grouping="tumble.01" name="tumble" verbnet_key="tumble#1" wn="tumble%2:30:00" features="+decrease"/>
+    <MEMBER fn_mapping="None" grouping="swell.01" name="swell" verbnet_key="swell#1" wn="swell%2:30:02" features="+increase"/>
+   </MEMBERS>
+   <THEMROLES>
+    <THEMROLE type="Extent">
+     <SELRESTRS />
+    </THEMROLE>
+    <THEMROLE type="Initial_State">
+     <SELRESTRS />
+    </THEMROLE>
+    <THEMROLE type="Result">
+     <SELRESTRS />
+    </THEMROLE>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V NP.extent PP.source PP.goal" secondary="NP-PP-PP; optional" xtag="" />
+     <EXAMPLES>
+      <EXAMPLE>
+       Oil rose 565% from $26 to $147.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Patient">
+       <SYNRESTRS />
+      </NP>
+      <VERB />
+      <NP value="Extent">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="from">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Initial_State">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="to">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Result">
+       <SYNRESTRS />
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_attribute">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="?Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e1" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Initial_State" />
+       </ARGS>
+      </PRED>
+      <PRED value="change_value">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="VerbSpecific" value="V_Direction" />
+        <ARG type="ThemRole" value="Extent" />
+        <ARG type="ThemRole" value="?Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e3" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Result" />
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="Event" value="e3" />
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V PP.extent PP.source PP.goal" secondary="PP-PP-PP; optional" xtag="" />
+     <EXAMPLES>
+      <EXAMPLE>
+       Oil rose by 565% from $26 to $147.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Patient">
+       <SYNRESTRS />
+      </NP>
+      <VERB />
+      <PREP value="by">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Extent">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="from">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Initial_State">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="to">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Result">
+       <SYNRESTRS />
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_attribute">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="?Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e1" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Initial_State" />
+       </ARGS>
+      </PRED>
+      <PRED value="change_value">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="VerbSpecific" value="V_Direction" />
+        <ARG type="ThemRole" value="Extent" />
+        <ARG type="ThemRole" value="?Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e3" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Result" />
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="Event" value="e3" />
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="2.13.5" primary="NP.attribute V NP.extent PP.source PP.goal" secondary="NP-PP-PP; optional" xtag="" />
+     <EXAMPLES>
+      <EXAMPLE>
+       The price of oil rose 565% from $26 to $147.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Attribute">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="of">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Patient">
+       <SYNRESTRS />
+      </NP>
+      <VERB />
+      <NP value="Extent">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="from">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Initial_State">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="to">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Result">
+       <SYNRESTRS />
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_attribute">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e1" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Initial_State" />
+       </ARGS>
+      </PRED>
+      <PRED value="change_value">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="VerbSpecific" value="V_Direction" />
+        <ARG type="ThemRole" value="Extent" />
+        <ARG type="ThemRole" value="Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e3" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Result" />
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="Event" value="e3" />
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="2.13.5" primary="NP.attribute V PP.extent PP.source PP.goal" secondary="PP-PP-PP; optional" xtag="" />
+     <EXAMPLES>
+      <EXAMPLE>
+       The price of oil rose by 565% from $26 to $147.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Attribute">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="of">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Patient">
+       <SYNRESTRS />
+      </NP>
+      <VERB />
+      <PREP value="by">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Extent">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="from">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Initial_State">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="to">
+       <SELRESTRS />
+      </PREP>
+      <NP value="?Result">
+       <SYNRESTRS />
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_attribute">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e1" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Initial_State" />
+       </ARGS>
+      </PRED>
+      <PRED value="change_value">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="VerbSpecific" value="V_Direction" />
+        <ARG type="ThemRole" value="Extent" />
+        <ARG type="ThemRole" value="Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e3" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Result" />
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="Event" value="e3" />
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V PP.attribute NP.extent PP.source PP.goal" secondary="PP-PP-PP-PP; optional" xtag="" />
+     <EXAMPLES>
+      <EXAMPLE>
+       Oil rose in price 565% from $26 to $147.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Patient">
+       <SYNRESTRS />
+      </NP>
+      <VERB />
+      <PREP value="in">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Attribute">
+       <SYNRESTRS />
+      </NP>
+      <NP value="Extent">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="from">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Initial_State">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="to">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Result">
+       <SYNRESTRS />
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_attribute">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e1" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Initial_State" />
+       </ARGS>
+      </PRED>
+      <PRED value="change_value">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="VerbSpecific" value="V_Direction" />
+        <ARG type="ThemRole" value="Extent" />
+        <ARG type="ThemRole" value="Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e3" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Result" />
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="Event" value="e3" />
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="2.13.5" primary="NP.patient V PP.attribute PP.extent PP.source PP.goal" secondary="PP-PP-PP-PP; optional" xtag="" />
+     <EXAMPLES>
+      <EXAMPLE>
+       Oil rose in price by 565% from $26 to $147.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Patient">
+       <SYNRESTRS />
+      </NP>
+      <VERB />
+      <PREP value="in">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Attribute">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="by">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Extent">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="from">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Initial_State">
+       <SYNRESTRS />
+      </NP>
+      <PREP value="to">
+       <SELRESTRS />
+      </PREP>
+      <NP value="Result">
+       <SYNRESTRS />
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_attribute">
+       <ARGS>
+        <ARG type="Event" value="E" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e1" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Initial_State" />
+       </ARGS>
+      </PRED>
+      <PRED value="change_value">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="VerbSpecific" value="V_Direction" />
+        <ARG type="ThemRole" value="Extent" />
+        <ARG type="ThemRole" value="Attribute" />
+       </ARGS>
+      </PRED>
+      <PRED value="has_value">
+       <ARGS>
+        <ARG type="Event" value="e3" />
+        <ARG type="ThemRole" value="Patient" />
+        <ARG type="ThemRole" value="Result" />
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2" />
+        <ARG type="Event" value="e3" />
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES />
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

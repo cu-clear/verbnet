@@ -1,155 +1,155 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="transcribe-25.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<!--In most predicates, such as location, Theme really means image_of(Theme)-->
-<MEMBERS>
-<MEMBER name="chart" wn="chart%2:31:13 chart%2:36:04" grouping="chart.01" fn_mapping="None" verbnet_key="chart#1" features="None"/>
-<MEMBER name="chronicle" wn="chronicle%2:32:00" grouping="" fn_mapping="None" verbnet_key="chronicle#1" features="None"/>
-<MEMBER name="copy" wn="copy%2:36:05 copy%2:36:01" grouping="copy.01" fn_mapping="Duplication" verbnet_key="copy#2" features="None"/>
-<MEMBER name="document" wn="document%2:32:00" grouping="document.01" fn_mapping="None" verbnet_key="document#1" features="None"/>
-<MEMBER name="duplicate" wn="duplicate%2:36:01" grouping="duplicate.02" fn_mapping="None" verbnet_key="duplicate#1" features="None"/>
-<MEMBER name="film" wn="film%2:32:00 film%2:36:00" grouping="film.01" fn_mapping="Behind_the_scenes" verbnet_key="film#1" features="None"/>
-<MEMBER name="forge" wn="forge%2:36:01" grouping="forge.02" fn_mapping="Forging" verbnet_key="forge#3" features="None"/>
-<MEMBER name="microfilm" wn="microfilm%2:36:00" grouping="" fn_mapping="None" verbnet_key="microfilm#1" features="None"/>
-<MEMBER name="photocopy" wn="photocopy%2:36:00" grouping="" fn_mapping="None" verbnet_key="photocopy#1" features="None"/>
-<MEMBER name="photograph" wn="photograph%2:32:00" grouping="photograph.01" fn_mapping="Create_representation" verbnet_key="photograph#1" features="None"/>
-<MEMBER name="record" wn="record%2:32:01" grouping="record.01" fn_mapping="Recording" verbnet_key="record#2" features="None"/>
-<MEMBER name="tally" wn="" grouping="tally.01" fn_mapping="Adding_up" verbnet_key="tally#2" features="None"/>
-<MEMBER name="tally_up" wn="" grouping="" fn_mapping="None" verbnet_key="tally_up#1" features="None"/>
-<MEMBER name="tape" wn="tape%2:32:03 tape%2:32:00" grouping="tape.02" fn_mapping="None" verbnet_key="tape#2" features="None"/>
-<MEMBER name="televise" wn="televise%2:32:00" grouping="televise.01" fn_mapping="None" verbnet_key="televise#1" features="None"/>
-<MEMBER name="transcribe" wn="transcribe%2:32:01 transcribe%2:32:00 transcribe%2:36:00 transcribe%2:32:02" grouping="transcribe.01 transcribe.02 transcribe.03" fn_mapping="None" verbnet_key="transcribe#1" features="None"/>
-<MEMBER name="type" wn="type%2:32:00" grouping="type.01" fn_mapping="Text_creation" verbnet_key="type#2" features="None"/>
-<MEMBER name="videotape" wn="videotape%2:32:00" grouping="" fn_mapping="None" verbnet_key="videotape#1" features="None"/>
-<MEMBER name="write_up" wn="write_up%2:36:00" grouping="write.01" fn_mapping="None" verbnet_key="write_up#2" features="None"/>
-<MEMBER name="write_out" wn="write_out%2:36:00" grouping="write.01" fn_mapping="None" verbnet_key="write_out#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Destination">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-The secretary transcribed the speech.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="be">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="create_image">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="part_of">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Destination"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; locative-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The secretary transcribed the speech into the record.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP>
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="loc"/>
-<SELRESTR Value="+" type="dest_conf"/>
-</SELRESTRS>
-</PREP>
-<NP value="Destination">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="be">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="create_image">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="part_of">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Destination"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <!--In most predicates, such as location, Theme really means image_of(Theme)-->
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="chart.01" name="chart" verbnet_key="chart#1" wn="chart%2:31:13 chart%2:36:04" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="chronicle" verbnet_key="chronicle#1" wn="chronicle%2:32:00" features=""/>
+  <MEMBER fn_mapping="Duplication" grouping="copy.01" name="copy" verbnet_key="copy#2" wn="copy%2:36:05 copy%2:36:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="document.01" name="document" verbnet_key="document#1" wn="document%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="duplicate.02" name="duplicate" verbnet_key="duplicate#1" wn="duplicate%2:36:01" features=""/>
+  <MEMBER fn_mapping="Behind_the_scenes" grouping="film.01" name="film" verbnet_key="film#1" wn="film%2:32:00 film%2:36:00" features=""/>
+  <MEMBER fn_mapping="Forging" grouping="forge.02" name="forge" verbnet_key="forge#3" wn="forge%2:36:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="microfilm" verbnet_key="microfilm#1" wn="microfilm%2:36:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="photocopy" verbnet_key="photocopy#1" wn="photocopy%2:36:00" features=""/>
+  <MEMBER fn_mapping="Create_representation" grouping="photograph.01" name="photograph" verbnet_key="photograph#1" wn="photograph%2:32:00" features=""/>
+  <MEMBER fn_mapping="Recording" grouping="record.01" name="record" verbnet_key="record#2" wn="record%2:32:01" features=""/>
+  <MEMBER fn_mapping="Adding_up" grouping="tally.01" name="tally" verbnet_key="tally#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="tally_up" verbnet_key="tally_up#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="tape.02" name="tape" verbnet_key="tape#2" wn="tape%2:32:03 tape%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="televise.01" name="televise" verbnet_key="televise#1" wn="televise%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="transcribe.01 transcribe.02 transcribe.03" name="transcribe" verbnet_key="transcribe#1" wn="transcribe%2:32:01 transcribe%2:32:00 transcribe%2:36:00 transcribe%2:32:02" features=""/>
+  <MEMBER fn_mapping="Text_creation" grouping="type.01" name="type" verbnet_key="type#2" wn="type%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="videotape" verbnet_key="videotape#1" wn="videotape%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="write.01" name="write_up" verbnet_key="write_up#2" wn="write_up%2:36:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="write.01" name="write_out" verbnet_key="write_out#1" wn="write_out%2:36:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Destination">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The secretary transcribed the speech.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="be">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="create_image">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="part_of">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; locative-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The secretary transcribed the speech into the record.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP>
+     <SELRESTRS logic="or">
+      <SELRESTR Value="+" type="loc"/>
+      <SELRESTR Value="+" type="dest_conf"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Destination">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="be">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="create_image">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="part_of">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Destination"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

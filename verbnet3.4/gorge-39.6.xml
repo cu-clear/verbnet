@@ -1,69 +1,88 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="gorge-39.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="exist" wn="exist%2:42:01" grouping="exist.02" fn_mapping="None" verbnet_key="exist#2" features="None"/>
-<MEMBER name="feed" wn="feed%2:34:00" grouping="feed.05" fn_mapping="Ingestion" verbnet_key="feed#3" features="None"/>
-<MEMBER name="flourish" wn="flourish%2:30:01" grouping="flourish.01" fn_mapping="Thriving" verbnet_key="flourish#2" features="None"/>
-<MEMBER name="gorge" wn="gorge%2:34:00" grouping="" fn_mapping="None" verbnet_key="gorge#1" features="None"/>
-<MEMBER name="prosper" wn="prosper%2:40:00" grouping="" fn_mapping="None" verbnet_key="prosper#2" features="None"/>
-<MEMBER name="subsist" wn="subsist%2:42:00" grouping="" fn_mapping="None" verbnet_key="subsist#1" features="None"/>
-<MEMBER name="survive" wn="survive%2:42:01" grouping="survive.01" fn_mapping="Surviving" verbnet_key="survive#2" features="None"/>
-<MEMBER name="thrive" wn="thrive%2:30:00" grouping="thrive.01" fn_mapping="None" verbnet_key="thrive#2" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Patient">
-<SELRESTRS>
-<SELRESTR Value="+" type="comestible"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.patient" secondary="PP; Patient-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Cynthia gorged on peaches.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="on">
-<SELRESTRS/>
-</PREP>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="take_in">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="Event" value="e2"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="exist.02" name="exist" verbnet_key="exist#2" wn="exist%2:42:01" features=""/>
+  <MEMBER fn_mapping="Ingestion" grouping="feed.05" name="feed" verbnet_key="feed#3" wn="feed%2:34:00" features=""/>
+  <MEMBER fn_mapping="Thriving" grouping="flourish.01" name="flourish" verbnet_key="flourish#2" wn="flourish%2:30:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="gorge" verbnet_key="gorge#1" wn="gorge%2:34:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="prosper" verbnet_key="prosper#2" wn="prosper%2:40:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="subsist" verbnet_key="subsist#1" wn="subsist%2:42:00" features=""/>
+  <MEMBER fn_mapping="Surviving" grouping="survive.01" name="survive" verbnet_key="survive#2" wn="survive%2:42:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="thrive.01" name="thrive" verbnet_key="thrive#2" wn="thrive%2:30:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="comestible"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.patient" secondary="PP; Patient-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Cynthia gorged on peaches.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="on">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="PredSpecific" value="Source"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="body_process">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë3"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contain">
+     <ARGS>
+      <ARG type="Event" value="e4"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

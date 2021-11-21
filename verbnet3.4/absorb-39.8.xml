@@ -1,82 +1,106 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="absorb-39.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="absorb" wn="absorb%2:35:00 absorb%2:43:00" grouping="absorb.01" fn_mapping="None" verbnet_key="absorb#1" features="None"/>
-<MEMBER name="ingest" wn="ingest%2:34:00" grouping="ingest.01" fn_mapping="None" verbnet_key="ingest#1" features="None"/>
-<MEMBER name="take" wn="take_in%2:34:00" grouping="take.11" fn_mapping="Ingest_substance" verbnet_key="take#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Goal">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Source">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The cotton absorbed the water.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Goal">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="take_in">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Goal"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.1" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The cow took in nutrients from her feed.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Goal">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP value="from">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="take_in">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Goal"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="absorb.01" name="absorb" verbnet_key="absorb#1" wn="absorb%2:35:00 absorb%2:43:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="ingest.01" name="ingest" verbnet_key="ingest#1" wn="ingest%2:34:00" features=""/>
+  <MEMBER fn_mapping="Ingest_substance" grouping="take.11" name="take" verbnet_key="take#1" wn="take_in%2:34:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Goal">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Source">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The cotton absorbed the water.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Goal">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Source"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contain">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Goal"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.1" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The cow took in nutrients from her feed.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Goal">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="from">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Source">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Source"/>
+     </ARGS>
+    </PRED>
+    <PRED value="motion">
+     <ARGS>
+      <ARG type="Event" value="ë2"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="contain">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Goal"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

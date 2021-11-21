@@ -1,60 +1,63 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="encounter-30.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="chance_across" wn="" grouping="" fn_mapping="None" verbnet_key="chance_across#2" features="None"/>
-<MEMBER name="chance_upon" wn="" grouping="" fn_mapping="None" verbnet_key="chance_upon#2" features="None"/>
-<MEMBER name="come_across" wn="" grouping="" fn_mapping="None" verbnet_key="come_across#1" features="None"/>
-<MEMBER name="encounter" wn="" grouping="" fn_mapping="None" verbnet_key="encounter#1" features="None"/>
-<MEMBER name="happen_on" wn="" grouping="" fn_mapping="None" verbnet_key="happen_on#1" features="None"/>
-<MEMBER name="happen_upon" wn="" grouping="" fn_mapping="None" verbnet_key="happen_upon#1" features="None"/>
-<MEMBER name="meet" wn="" grouping="" fn_mapping="None" verbnet_key="meet#2" features="None"/>
-<MEMBER name="meet_with" wn="" grouping="" fn_mapping="None" verbnet_key="meet_with#1" features="None"/>
-<MEMBER name="stumble_on" wn="" grouping="" fn_mapping="None" verbnet_key="stumble_on#1" features="None"/>
-<MEMBER name="stumble_upon" wn="" grouping="" fn_mapping="None" verbnet_key="stumble_upon#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Experiencer">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Stimulus">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-I stumbled across the silver chalice.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Stimulus">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="perceive">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Experiencer"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="" name="chance_across" verbnet_key="chance_across#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="chance_upon" verbnet_key="chance_upon#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="come_across" verbnet_key="come_across#1" wn="" features=""/>
+  <MEMBER fn_mapping="Becoming_aware" grouping="discover.01" name="discover" verbnet_key="discover#2" wn="discover%2:36:00 discover%2:40:00 discover%2:39:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="encounter" verbnet_key="encounter#1" wn="find%2:40:02 " features=""/>
+  <MEMBER fn_mapping="Locating Becoming_aware" grouping="find.01" name="find" verbnet_key="find#4" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="happen_on" verbnet_key="happen_on#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="happen_upon" verbnet_key="happen_upon#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="meet" verbnet_key="meet#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="meet_with" verbnet_key="meet_with#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="stumble_on" verbnet_key="stumble_on#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="stumble_upon" verbnet_key="stumble_upon#1" wn="" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Experiencer">
+   <SELRESTRS>
+    <SELRESTRS Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Stimulus">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I stumbled across the silver chalice.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Stimulus">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="perceive">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+    <PRED value="perceive">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

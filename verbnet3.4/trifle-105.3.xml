@@ -1,61 +1,61 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="trifle-105.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="dally" wn="dally%2:41:00 dally%2:32:00 dally%2:31:01" grouping="dally.02" fn_mapping="None" verbnet_key="dally#2" features="None"/>
-<MEMBER name="diddle" wn="diddle%2:35:00" grouping="" fn_mapping="None" verbnet_key="diddle#1" features="None"/>
-<MEMBER name="fiddle" wn="fiddle%2:35:00 fiddle%2:35:03 fiddle%2:30:00" grouping="fiddle.04" fn_mapping="None" verbnet_key="fiddle#1" features="None"/>
-<MEMBER name="play" wn="play%2:29:00 play%2:35:00 play%2:31:01 play%2:41:13" grouping="play.07" fn_mapping="None" verbnet_key="play#4" features="None"/>
-<MEMBER name="toy" wn="toy%2:41:00 toy%2:35:00 toy%2:29:00" grouping="toy.01" fn_mapping="None" verbnet_key="toy#1" features="None"/>
-<MEMBER name="trifle" wn="trifle%2:31:01" grouping="" fn_mapping="None" verbnet_key="trifle#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-<SELRESTR Value="+" type="organization"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="PP;PP-theme" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-She trifled with him.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="with">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="social_interaction">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="manner">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="Constant" value="unseriously"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="dally.02" name="dally" verbnet_key="dally#2" wn="dally%2:41:00 dally%2:32:00 dally%2:31:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="diddle" verbnet_key="diddle#1" wn="diddle%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="fiddle.04" name="fiddle" verbnet_key="fiddle#1" wn="fiddle%2:35:00 fiddle%2:35:03 fiddle%2:30:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="play.07" name="play" verbnet_key="play#4" wn="play%2:29:00 play%2:35:00 play%2:31:01 play%2:41:13" features=""/>
+  <MEMBER fn_mapping="None" grouping="toy.01" name="toy" verbnet_key="toy#1" wn="toy%2:52:00 toy%2:35:00 toy%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="trifle" verbnet_key="trifle#1" wn="trifle%2:31:01" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="PP;PP-theme" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     She trifled with him.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="social_interaction">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="Constant" value="unserious"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

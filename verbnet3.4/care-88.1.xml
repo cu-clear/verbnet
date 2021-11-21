@@ -1,231 +1,237 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="care-88.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="mind" wn="mind%2:32:00 mind%2:31:02" grouping="mind.01" fn_mapping="None" verbnet_key="mind#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Experiencer">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-<SELRESTR Value="+" type="organization"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Stimulus">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He doesn't care.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="VerbSpecific" value="Emotion"/>
-<ARG type="ThemRole" value="Experiencer"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He doesn't care that she comes.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Stimulus">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="that_comp"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="VerbSpecific" value="Emotion"/>
-<ARG type="ThemRole" value="Experiencer"/>
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V whether/if S" secondary="WH-S" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He doesn't care whether she comes.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Stimulus">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="wh_comp"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="VerbSpecific" value="Emotion"/>
-<ARG type="ThemRole" value="Experiencer"/>
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="care-88.1-1">
-<MEMBERS>
-<MEMBER name="care" wn="care%2:37:02 care%2:37:12" grouping="care.01" fn_mapping="None" verbnet_key="care#1" features="None"/>
-<MEMBER name="worry" wn="worry%2:37:00 worry%2:37:12" grouping="worry.01" fn_mapping="Emotion_active" verbnet_key="worry#2" features="None"/>
-<MEMBER name="wonder" wn="wonder%2:32:01" grouping="wonder.01" fn_mapping="Cogitation" verbnet_key="wonder#1" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus what S" secondary="P-WHAT-S; about-PP" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-He doesn't care about what he should do.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Stimulus">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="what_extract"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="VerbSpecific" value="Emotion"/>
-<ARG type="ThemRole" value="Experiencer"/>
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-I don't care what he does.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Stimulus">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="what_extract"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="VerbSpecific" value="Emotion"/>
-<ARG type="ThemRole" value="Experiencer"/>
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus how/whether S" secondary="P-WH-S; about-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-He doesn't care about how/whether she comes.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Experiencer">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Stimulus">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="wh_comp"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="emotional_state">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="VerbSpecific" value="Emotion"/>
-<ARG type="ThemRole" value="Experiencer"/>
-</ARGS>
-</PRED>
-<PRED value="in_reaction_to">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Stimulus"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="mind.01" name="mind" verbnet_key="mind#1" wn="mind%2:32:00 mind%2:31:02" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Experiencer">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Stimulus">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He didn't care.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="VerbSpecific" value="V_Emotion"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="?Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He didn't care that she came.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Stimulus">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="that_comp"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="VerbSpecific" value="V_Emotion"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V whether/if S" secondary="WH-S" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     He didn't care whether she came.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Experiencer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Stimulus">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="wh_comp"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_emotional_state">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Experiencer"/>
+      <ARG type="VerbSpecific" value="V_Emotion"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="care-88.1-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="care.01" name="care" verbnet_key="care#1" wn="care%2:37:02 care%2:37:12" features=""/>
+    <MEMBER fn_mapping="Emotion_active" grouping="worry.01" name="worry" verbnet_key="worry#2" wn="worry%2:37:00 worry%2:37:12" features=""/>
+    <MEMBER fn_mapping="Cogitation" grouping="wonder.01" name="wonder" verbnet_key="wonder#1" wn="wonder%2:32:01" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus what S" secondary="P-WHAT-S; about-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       He didn't care about what he should do.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Experiencer">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="about">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Stimulus">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="what_extract"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_emotional_state">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Experiencer"/>
+        <ARG type="VerbSpecific" value="V_Emotion"/>
+       </ARGS>
+      </PRED>
+      <PRED value="in_reaction_to">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Stimulus"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I didn't care what he did.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Experiencer">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Stimulus">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="what_extract"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_emotional_state">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Experiencer"/>
+        <ARG type="VerbSpecific" value="V_Emotion"/>
+       </ARGS>
+      </PRED>
+      <PRED value="in_reaction_to">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Stimulus"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus how/whether S" secondary="P-WH-S; about-PP" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       He didn't care about how/whether she came.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Experiencer">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="about">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Stimulus">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="wh_comp"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_emotional_state">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Experiencer"/>
+        <ARG type="VerbSpecific" value="V_Emotion"/>
+       </ARGS>
+      </PRED>
+      <PRED value="in_reaction_to">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Stimulus"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

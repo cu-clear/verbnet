@@ -1,133 +1,133 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="admit-64.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="allow" wn="allow%2:32:00" grouping="allow.01" fn_mapping="None" verbnet_key="allow#1" features="None"/>
-<MEMBER name="let" wn="" grouping="" fn_mapping="None" verbnet_key="let#1" features="None"/>
-<MEMBER name="hail" wn="hail%2:32:01" grouping="hail.03" fn_mapping="None" verbnet_key="hail#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Location">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="NP-PP" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-She admitted us.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="admit">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="admit-64.3-1">
-<MEMBERS>
-<MEMBER name="admit" wn="admit%2:41:01 admit%2:41:00" grouping="admit.02 admit.03" fn_mapping="None" verbnet_key="admit#1" features="None"/>
-<MEMBER name="include" wn="include%2:41:03" grouping="include.02" fn_mapping="None" verbnet_key="include#1" features="None"/>
-<MEMBER name="permit" wn="permit%2:32:00" grouping="permit.01" fn_mapping="None" verbnet_key="permit#1" features="None"/>
-<MEMBER name="receive" wn="receive%2:35:00" grouping="receive.02" fn_mapping="None" verbnet_key="receive#1" features="None"/>
-<MEMBER name="welcome" wn="welcome%2:35:00" grouping="welcome.02" fn_mapping="None" verbnet_key="welcome#1" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADV" secondary="NP-ADVP-PRED" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-She admitted us here.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<NP value="Location">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="adv_loc"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="admit">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.location" secondary="NP-PP; locative-PP" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-She allowed us near the house.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="loc"/>
-</SELRESTRS>
-</PREP>
-<NP value="Location">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="location"/>
-<SELRESTR Value="-" type="region"/>
-</SELRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="admit">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="allow.01" name="allow" verbnet_key="allow#1" wn="allow%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="let" verbnet_key="let#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="hail.03" name="hail" verbnet_key="hail#1" wn="hail%2:32:01" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Location">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="NP-PP" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     She admitted us.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="admit">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="admit-64.3-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="admit.02 admit.03" name="admit" verbnet_key="admit#1" wn="admit%2:41:01 admit%2:41:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="include.02" name="include" verbnet_key="include#1" wn="include%2:41:03" features=""/>
+    <MEMBER fn_mapping="None" grouping="permit.01" name="permit" verbnet_key="permit#1" wn="permit%2:41:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="receive.02" name="receive" verbnet_key="receive#1" wn="receive%2:35:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="welcome.02" name="welcome" verbnet_key="welcome#1" wn="welcome%2:35:00" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADV" secondary="NP-ADVP-PRED" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       She admitted us here.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <NP value="Location">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="adv_loc"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="admit">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Location"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.location" secondary="NP-PP; locative-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       She allowed us near the house.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <PREP>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="loc"/>
+       </SELRESTRS>
+      </PREP>
+      <NP value="Location">
+       <SELRESTRS logic="and">
+        <SELRESTR Value="+" type="location"/>
+        <SELRESTR Value="-" type="region"/>
+       </SELRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="admit">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Location"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

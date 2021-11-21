@@ -1,73 +1,73 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="orphan-29.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="apprentice" wn="" grouping="" fn_mapping="None" verbnet_key="apprentice#1" features="None"/>
-<MEMBER name="beggar" wn="beggar%2:40:00" grouping="" fn_mapping="None" verbnet_key="beggar#1" features="None"/>
-<MEMBER name="cripple" wn="cripple%2:29:00" grouping="cripple.01" fn_mapping="None" verbnet_key="cripple#1" features="None"/>
-<MEMBER name="cuckold" wn="cuckold%2:41:00" grouping="" fn_mapping="None" verbnet_key="cuckold#1" features="None"/>
-<MEMBER name="knight" wn="knight%2:41:01" grouping="" fn_mapping="None" verbnet_key="knight#1" features="None"/>
-<MEMBER name="martyr" wn="martyr%2:35:00 martyr%2:29:00" grouping="" fn_mapping="None" verbnet_key="martyr#1" features="None"/>
-<MEMBER name="orphan" wn="orphan%2:40:00" grouping="" fn_mapping="None" verbnet_key="orphan#1" features="None"/>
-<MEMBER name="outlaw" wn="outlaw%2:41:00" grouping="outlaw.01" fn_mapping="Prohibiting_or_licensing" verbnet_key="outlaw#1" features="None"/>
-<MEMBER name="pauper" wn="" grouping="" fn_mapping="None" verbnet_key="pauper#1" features="None"/>
-<MEMBER name="recruit" wn="recruit%2:40:00 recruit%2:33:00" grouping="recruit.01 recruit.02" fn_mapping="None" verbnet_key="recruit#2" features="None"/>
-<MEMBER name="whore" wn="whore%2:32:01" grouping="whore.01" fn_mapping="None" verbnet_key="whore#3" features="None"/>
-<MEMBER name="widow" wn="widow%2:30:00" grouping="" fn_mapping="None" verbnet_key="widow#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The king knighted the brave soldier.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="designated">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="PredSpecific" value="V_Result"/>
-</ARGS>
-</PRED>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="designated">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="PredSpecific" value="V_Result"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNCLASS>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="" name="apprentice" verbnet_key="apprentice#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="beggar" verbnet_key="beggar#1" wn="beggar%2:40:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="cripple.01" name="cripple" verbnet_key="cripple#1" wn="cripple%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="cuckold" verbnet_key="cuckold#1" wn="cuckold%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="knight" verbnet_key="knight#1" wn="knight%2:41:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="martyr" verbnet_key="martyr#1" wn="martyr%2:35:00 martyr%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="orphan" verbnet_key="orphan#1" wn="orphan%2:40:00" features=""/>
+  <MEMBER fn_mapping="Prohibiting_or_licensing" grouping="outlaw.01" name="outlaw" verbnet_key="outlaw#1" wn="outlaw%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="pauper" verbnet_key="pauper#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="recruit.01 recruit.02" name="recruit" verbnet_key="recruit#2" wn="recruit%2:40:00 recruit%2:33:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="whore.01" name="whore" verbnet_key="whore#3" wn="whore%2:32:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="widow" verbnet_key="widow#1" wn="widow%2:30:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The king knighted the brave soldier.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="has_designation">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="V_Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_designation">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="PredSpecific" value="V_Result"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
+</VNCLASS

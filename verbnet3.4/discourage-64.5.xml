@@ -1,0 +1,158 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="discourage-64.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="" name="dissuade" verbnet_key="dissuade#1" wn="dissuade%2:32:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Causer">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Eventuality">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Beneficiary">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.eventuality" secondary="" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The sign discouraged us from smoking.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Causer">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Beneficiary">
+     <SYNRESTRS/>
+    </NP>
+    <PREP value="from">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Eventuality">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="discourage">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Causer"/>
+      <ARG type="ThemRole" value="Eventuality"/>
+      <ARG type="ThemRole" value="Beneficiary"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="discourage-64.5-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="deter.01" name="deter" verbnet_key="deter#1" wn="deter%2:32:01 deter%2:32:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="discourage.02" name="discourage" verbnet_key="discourage#2" wn="discourage%2:32:01" features=""/>
+    <MEMBER fn_mapping="None" grouping="hamper.01" name="hamper" verbnet_key="hamper#1" wn="hamper%2:30:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="hinder.01" name="hinder" verbnet_key="hinder#1" wn="hinder%2:41:01 hinder%2:41:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="impede.01" name="impede" verbnet_key="impede#1" wn="impede%2:41:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="inhibit.01" name="inhibit" verbnet_key="inhibit#1" wn="inhibit%2:30:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="obstruct.01" name="obstruct" verbnet_key="obstruct#1" wn="obstruct%2:41:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="restrain.01" name="restrain" verbnet_key="restrain#1" wn="restrain%2:37:00" features=""/>
+   </MEMBERS>
+   <THEMROLES>
+   </THEMROLES>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The sign discouraged our smoking.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Causer">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Eventuality">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="poss_ing"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="discourage">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Causer"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="ThemRole" value="?Beneficiary"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-AC" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The sign discouraged smoking.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Causer">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Eventuality">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="ac_ing"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="discourage">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Causer"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="ThemRole" value="?Beneficiary"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       The warning sign discouraged it.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Causer">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Eventuality">
+       <SYNRESTRS>
+        <SYNRESTR Value="-" type="sentential"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="discourage">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Causer"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="ThemRole" value="?Beneficiary"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

@@ -1,96 +1,95 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="hold-15.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<!--This class includes an implicit hands instrument (for human Agents). -->
-<MEMBERS>
-<MEMBER name="wield" wn="wield%2:35:00" grouping="wield.01" fn_mapping="None" verbnet_key="wield#1" features="None"/>
-<MEMBER name="handle" wn="handle%2:35:00" grouping="handle.01" fn_mapping="None" verbnet_key="handle#2" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-She held the rail.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="hold-15.1-1">
-<MEMBERS>
-<MEMBER name="clasp" wn="clasp%2:35:00" grouping="clasp.01" fn_mapping="None" verbnet_key="clasp#1" features="None"/>
-<MEMBER name="clutch" wn="clutch%2:35:04" grouping="clutch.01" fn_mapping="None" verbnet_key="clutch#1" features="None"/>
-<MEMBER name="grab" wn="grab%2:35:00 grab%2:40:00 grab%2:38:02 grab%2:40:03  grab%2:35:05" grouping="grab.01 grab.02" fn_mapping="None" verbnet_key="grab#1" features="None"/>
-<MEMBER name="grasp" wn="grasp%2:35:00" grouping="grasp.01" fn_mapping="None" verbnet_key="grasp#2" features="None"/>
-<MEMBER name="grip" wn="grip%2:35:00" grouping="grip.01" fn_mapping="None" verbnet_key="grip#1" features="None"/>
-<MEMBER name="hold" wn="hold%2:35:00" grouping="hold.03" fn_mapping="None" verbnet_key="hold#7" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Theme">
-<SELRESTRS>
-<SELRESTR Value="+" type="body_part"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; Body-part Object" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-She held his arm.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-</SUBCLASSES>
+ <!--This class includes an implicit hands instrument (for human Agents). -->
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="wield.01" name="wield" verbnet_key="wield#1" wn="wield%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="handle.01" name="handle" verbnet_key="handle#2" wn="handle%2:35:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     She held the rail.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="hold-15.1-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="clasp.01" name="clasp" verbnet_key="clasp#1" wn="clasp%2:35:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="clutch.01" name="clutch" verbnet_key="clutch#1" wn="clutch%2:35:04" features=""/>
+    <MEMBER fn_mapping="None" grouping="grab.01 grab.02" name="grab" verbnet_key="grab#1" wn="grab%2:35:00 grab%2:40:00 grab%2:38:02 grab%2:40:03  grab%2:35:05" features=""/>
+    <MEMBER fn_mapping="None" grouping="grasp.01" name="grasp" verbnet_key="grasp#2" wn="grasp%2:35:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="grip.01" name="grip" verbnet_key="grip#1" wn="grip%2:35:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="hold.03" name="hold" verbnet_key="hold#7" wn="hold%2:35:00" features=""/>
+   </MEMBERS>
+    <THEMROLE type="Theme">
+     <SELRESTRS>
+      <SELRESTR Value="+" type="body_part"/>
+     </SELRESTRS>
+    </THEMROLE>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; Body-part Object" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       She held his arm.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="contact">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

@@ -1,90 +1,91 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="bulge-47.5.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="bristle" wn="bristle%2:42:00" grouping="bristle.02" fn_mapping="None" verbnet_key="bristle#1" features="None"/>
-<MEMBER name="bulge" wn="bulge%2:30:00 bulge%2:38:00" grouping="bulge.01" fn_mapping="None" verbnet_key="bulge#1" features="None"/>
-<MEMBER name="buzz" wn="" grouping="" fn_mapping="Motion_noise" verbnet_key="buzz#2" features="None"/>
-<MEMBER name="hum" wn="" grouping="" fn_mapping="None" verbnet_key="hum#1" features="None"/>
-<MEMBER name="hyperventilate" wn="hyperventilate%2:29:00         hyperventilate%2:29:01" grouping="" fn_mapping="None" verbnet_key="hyperventilate#1" features="None"/>
-<MEMBER name="seethe" wn="seethe%2:42:00" grouping="seethe.01" fn_mapping="None" verbnet_key="seethe#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Location">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; with-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The bag bulged with groceries.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Location">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="with">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-<PRED value="full_of">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Location"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-The bag bulged.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Location">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="?Theme"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-<PRED value="full_of">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Location"/>
-<ARG type="ThemRole" value="?Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="bristle.02" name="bristle" verbnet_key="bristle#1" wn="bristle%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="bulge.01" name="bulge" verbnet_key="bulge#1" wn="bulge%2:30:00 bulge%2:38:00" features=""/>
+  <MEMBER fn_mapping="Motion_noise" grouping="" name="buzz" verbnet_key="buzz#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="hum" verbnet_key="hum#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="hyperventilate" verbnet_key="hyperventilate#1" wn="hyperventilate%2:29:00
+  hyperventilate%2:29:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="seethe.01" name="seethe" verbnet_key="seethe#1" wn="seethe%2:42:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; with-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The bag bulged with groceries.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Location">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="full_of">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Location"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The bag bulged.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Location">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+    <PRED value="full_of">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Location"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

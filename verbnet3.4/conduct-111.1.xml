@@ -1,112 +1,112 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="conduct-111.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="conduct" wn="conduct%2:41:00" grouping="conduct.02" fn_mapping="None" verbnet_key="conduct#3" features="None"/>
-<MEMBER name="give" wn="give%2:36:02 give%2:36:12" grouping="give.07" fn_mapping="None" verbnet_key="give#2" features="None"/>
-<MEMBER name="head" wn="head%2:41:00 head%2:38:02" grouping="head.02" fn_mapping="None" verbnet_key="head#1" features="None"/>
-<MEMBER name="hold" wn="hold%2:36:00" grouping="hold.09" fn_mapping="None" verbnet_key="hold#2" features="None"/>
-<MEMBER name="host" wn="host%2:34:00" grouping="host.01" fn_mapping="None" verbnet_key="host#2" features="None"/>
-<MEMBER name="run" wn="run%2:41:02 run%2:30:07 run%2:36:00" grouping="run.03" fn_mapping="Leadership" verbnet_key="run#3" features="None"/>
-<MEMBER name="spearhead" wn="spearhead%2:41:00" grouping="" fn_mapping="None" verbnet_key="spearhead#1" features="None"/>
-<MEMBER name="throw" wn="throw%2:36:08" grouping="throw.07" fn_mapping="None" verbnet_key="throw#2" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS>
-<SELRESTR Value="+" type="eventive"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Beneficiary">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The White House held a gala.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e1"/>
-</ARGS>
-</PRED>
-<PRED value="occur">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V NP PP" secondary="NP-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The White House held a state dinner for the Chinese president.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<NP value="Beneficiary">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="do">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e1"/>
-</ARGS>
-</PRED>
-<PRED value="occur">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="benefit">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Beneficiary"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="conduct.02" name="conduct" verbnet_key="conduct#3" wn="conduct%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="give.07" name="give" verbnet_key="give#2" wn="give%2:36:02 give%2:36:12" features=""/>
+  <MEMBER fn_mapping="None" grouping="head.02" name="head" verbnet_key="head#1" wn="head%2:41:00 head%2:38:02" features=""/>
+  <MEMBER fn_mapping="None" grouping="hold.09" name="hold" verbnet_key="hold#2" wn="hold%2:36:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="host.01" name="host" verbnet_key="host#2" wn="host%2:34:00" features=""/>
+  <MEMBER fn_mapping="Leadership" grouping="run.03" name="run" verbnet_key="run#3" wn="run%2:41:02 run%2:30:07 run%2:36:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="spearhead" verbnet_key="spearhead#1" wn="spearhead%2:41:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="throw.07" name="throw" verbnet_key="throw#2" wn="throw%2:36:08" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="eventive"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Beneficiary">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The White House held a gala.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="occur">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e1"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP PP" secondary="NP-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The White House held a state dinner for the Chinese president.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <NP value="Beneficiary">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="do">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="occur">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e1"/>
+     </ARGS>
+    </PRED>
+    <PRED value="benefit">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Beneficiary"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

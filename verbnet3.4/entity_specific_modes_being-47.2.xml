@@ -1,198 +1,233 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="entity_specific_modes_being-47.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<!--Each member adds a predicate for what the Theme is doing while it exists-->
-<MEMBER name="billow" wn="billow%2:38:02" grouping="" fn_mapping="None" verbnet_key="billow#1" features="None"/>
-<MEMBER name="bloom" wn="bloom%2:30:00" grouping="" fn_mapping="None" verbnet_key="bloom#2" features="None"/>
-<MEMBER name="blossom" wn="blossom%2:30:01" grouping="" fn_mapping="None" verbnet_key="blossom#2" features="None"/>
-<MEMBER name="bristle" wn="bristle%2:38:00" grouping="bristle.01" fn_mapping="None" verbnet_key="bristle#2" features="None"/>
-<MEMBER name="bulge" wn="bulge%2:42:00" grouping="bulge.01" fn_mapping="None" verbnet_key="bulge#2" features="None"/>
-<MEMBER name="burn" wn="burn%2:43:01" grouping="burn.02" fn_mapping="None" verbnet_key="burn#2" features="None"/>
-<MEMBER name="effervesce" wn="effervesce%2:30:00" grouping="" fn_mapping="None" verbnet_key="effervesce#1" features="None"/>
-<MEMBER name="fester" wn="fester%2:29:00" grouping="" fn_mapping="None" verbnet_key="fester#2" features="None"/>
-<MEMBER name="fizz" wn="fizz%2:30:00" grouping="" fn_mapping="None" verbnet_key="fizz#1" features="None"/>
-<MEMBER name="flow" wn="flow%2:38:00 flow%2:35:04" grouping="flow.01 flow.03" fn_mapping="Fluidic_motion" verbnet_key="flow#2" features="None"/>
-<MEMBER name="flower" wn="flower%2:30:00" grouping="" fn_mapping="None" verbnet_key="flower#2" features="None"/>
-<MEMBER name="flux" wn="flux%2:38:00" grouping="flux.01" fn_mapping="None" verbnet_key="flux#1" features="None"/>
-<MEMBER name="foam" wn="foam%2:30:05" grouping="" fn_mapping="None" verbnet_key="foam#1" features="None"/>
-<MEMBER name="froth" wn="froth%2:30:00 froth%2:30:01" grouping="froth.01" fn_mapping="None" verbnet_key="froth#1" features="None"/>
-<MEMBER name="moil" wn="moil%2:38:00" grouping="moil.02" fn_mapping="None" verbnet_key="moil#1" features="None"/>
-<MEMBER name="propagate" wn="propagate%2:38:01 propagate%2:29:00" grouping="propagate.01 propagate.02" fn_mapping="Giving_birth" verbnet_key="propagate#1" features="None"/>
-<MEMBER name="rage" wn="rage%2:42:00" grouping="rage.01" fn_mapping="None" verbnet_key="rage#1" features="None"/>
-<MEMBER name="ripple" wn="ripple%2:39:00" grouping="" fn_mapping="None" verbnet_key="ripple#1" features="None"/>
-<MEMBER name="roil" wn="roil%2:38:00" grouping="" fn_mapping="None" verbnet_key="roil#2" features="None"/>
-<MEMBER name="seethe" wn="seethe%2:30:03 seethe%2:30:00" grouping="seethe.02" fn_mapping="None" verbnet_key="seethe#2" features="None"/>
-<MEMBER name="smolder" wn="smolder%2:30:00" grouping="" fn_mapping="None" verbnet_key="smolder#1" features="None"/>
-<MEMBER name="sprout" wn="sprout%2:30:00 sprout%2:29:01" grouping="" fn_mapping="None" verbnet_key="sprout#2" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Location">
-<SELRESTRS>
-<SELRESTR Value="+" type="location"/>
-<SELRESTR Value="-" type="region"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-The beer foamed.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-A fire raged in the mountains.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="loc"/>
-</SELRESTRS>
-</PREP>
-<NP value="Location">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NP; Expletive-there Subject" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-There raged a fire.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<LEX value="there"/>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="-" type="definite"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="6.2" primary="NP.location V NP" secondary="Locative Inversion" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-All through the mountains raged a fire.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<PREP>
-<SELRESTRS>
-<SELRESTR Value="+" type="loc"/>
-</SELRESTRS>
-</PREP>
-<NP value="Location">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="2.3" primary="NP.location V PP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The garden flowered with roses.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Location">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="with">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="be">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-<PRED value="has_location">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Location"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <!--Each member adds a predicate for what the Theme is doing while it exists-->
+  <MEMBER fn_mapping="None" grouping="" name="billow" verbnet_key="billow#1" wn="billow%2:38:02" features="end_state: specific_shape"/>
+  <MEMBER fn_mapping="None" grouping="" name="bloom" verbnet_key="bloom#2" wn="bloom%2:30:00" features="entity_type: plant"/>
+  <MEMBER fn_mapping="None" grouping="" name="blossom" verbnet_key="blossom#2" wn="blossom%2:30:01" features="entity_type: plant"/>
+  <MEMBER fn_mapping="None" grouping="bristle.01" name="bristle" verbnet_key="bristle#2" wn="bristle%2:38:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="bulge.01" name="bulge" verbnet_key="bulge#2" wn="bulge%2:42:00" features="end_state: specific_shape"/>
+  <MEMBER fn_mapping="None" grouping="burn.02" name="burn" verbnet_key="burn#2" wn="burn%2:43:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="effervesce" verbnet_key="effervesce#1" wn="effervesce%2:30:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="fester" verbnet_key="fester#2" wn="fester%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="fizz" verbnet_key="fizz#1" wn="fizz%2:30:00" features="end_state: specific_end_product"/>
+  <MEMBER fn_mapping="Fluidic_motion" grouping="flow.01 flow.03" name="flow" verbnet_key="flow#2" wn="flow%2:38:00 flow%2:35:04" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="flower" verbnet_key="flower#2" wn="flower%2:30:00" features="entity_type: plant"/>
+  <MEMBER fn_mapping="None" grouping="flux.01" name="flux" verbnet_key="flux#1" wn="flux%2:38:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="foam" verbnet_key="foam#1" wn="foam%2:30:05" features="entity_type: liquid"/>
+  <MEMBER fn_mapping="None" grouping="froth.01" name="froth" verbnet_key="froth#1" wn="froth%2:30:00 froth%2:30:01" features="end_state: specific_end_product"/>
+  <MEMBER fn_mapping="None" grouping="moil.02" name="moil" verbnet_key="moil#1" wn="moil%2:38:00" features=""/>
+  <MEMBER fn_mapping="Giving_birth" grouping="propagate.01 propagate.02" name="propagate" verbnet_key="propagate#1" wn="propagate%2:38:01 propagate%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="rage.01" name="rage" verbnet_key="rage#1" wn="rage%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="ripple" verbnet_key="ripple#1" wn="ripple%2:39:00" features="end_state: specific_shape"/>
+  <MEMBER fn_mapping="None" grouping="" name="roil" verbnet_key="roil#2" wn="roil%2:38:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="seethe.02" name="seethe" verbnet_key="seethe#2" wn="seethe%2:30:03 seethe%2:30:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="smolder" verbnet_key="smolder#1" wn="smolder%2:30:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="sprout" verbnet_key="sprout#2" wn="sprout%2:30:00 sprout%2:29:01" features="property_changed: existence; result: +create; entity_type: plant"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Location">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="location"/>
+    <SELRESTR Value="-" type="region"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The beer foamed.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="VerbSpecific" value="V_Manner"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     A fire raged in the mountains.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="loc"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="VerbSpecific" value="V_Manner"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NP; Expletive-there Subject" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     There raged a fire.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <LEX value="there"/>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS>
+      <SYNRESTR Value="-" type="definite"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="VerbSpecific" value="V_Manner"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="6.2" primary="NP.location V NP" secondary="Locative Inversion" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     All through the mountains raged a fire.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="loc"/>
+     </SELRESTRS>
+    </PREP>
+    <NP value="Location">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="VerbSpecific" value="V_Manner"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="2.3" primary="NP.location V PP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The garden flowered with roses.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Location">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <PREP value="with">
+     <SELRESTRS/>
+    </PREP>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="be">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="manner">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="VerbSpecific" value="V_Manner"/>
+      <ARG type="ThemRole" value="Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_location">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Location"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

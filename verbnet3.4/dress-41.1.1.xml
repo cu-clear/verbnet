@@ -1,262 +1,262 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="dress-41.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="clothe" wn="" grouping="clothe.01" fn_mapping="None" verbnet_key="clothe#2" features="None"/>
-<MEMBER name="unclothe" wn="unclothe%2:29:00" grouping="unclothe.02" fn_mapping="None" verbnet_key="unclothe#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Patient">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-<SELRESTR Value="+" type="refl"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Marlene dressed the baby.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="has_state">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="VerbSpecific" value="V_Final_State"/>
-</ARGS>
-</PRED>
-<PRED value="take_care_of">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="has_state">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="VerbSpecific" value="V_Final_State"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="dress-41.1.1-1">
-<MEMBERS/>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="1.2.3" primary="NP V" secondary="Intransitive" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Marlene dressed.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="has_state">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="?Patient"/>
-<ARG type="VerbSpecific" value="V_Final_State"/>
-</ARGS>
-</PRED>
-<PRED value="take_care_of">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="?Patient"/>
-</ARGS>
-</PRED>
-<PRED value="has_state">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="?Patient"/>
-<ARG type="VerbSpecific" value="V_Final_State"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="?Patient"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="dress-41.1.1-1-1">
-<MEMBERS>
-<MEMBER name="bathe" wn="bathe%2:29:00 bathe%2:29:01" grouping="bathe.01" fn_mapping="Grooming" verbnet_key="bathe#1" features="None"/>
-<MEMBER name="change" wn="change%2:30:03 change%2:30:06" grouping="change.02" fn_mapping="Exchange_currency" verbnet_key="change#1" features="None"/>
-<MEMBER name="disrobe" wn="disrobe%2:29:01" grouping="" fn_mapping="None" verbnet_key="disrobe#1" features="None"/>
-<MEMBER name="doll_up" wn="" grouping="" fn_mapping="None" verbnet_key="doll#1" features="None"/>
-<MEMBER name="dress" wn="dress%2:29:00 dress%2:29:01 dress%2:29:07" grouping="dress.01" fn_mapping="Dressing" verbnet_key="dress#1" features="None"/>
-<MEMBER name="dress_up" wn="dress%2:29:05" grouping="dress.01" fn_mapping="Dressing" verbnet_key="dress_up#1" features="None"/>
-<MEMBER name="exercise" wn="exercise%2:29:01 exercise%2:29:00" grouping="exercise.02" fn_mapping="None" verbnet_key="exercise#1" features="None"/>
-<MEMBER name="frock" wn="frock%2:29:00" grouping="" fn_mapping="None" verbnet_key="frock#1" features="None"/>
-<MEMBER name="gussy_up" wn="" grouping="" fn_mapping="None" verbnet_key="gussy_up#1" features="None"/>
-<MEMBER name="lave" wn="lave%2:29:00 lave%2:29:02" grouping="lave.02" fn_mapping="Grooming" verbnet_key="lave#1" features="None"/>
-<MEMBER name="moisturize" wn="" grouping="" fn_mapping="None" verbnet_key="moisturize#1" features="None"/>
-<MEMBER name="preen" wn="preen%2:29:00" grouping="" fn_mapping="None" verbnet_key="preen#1" features="None"/>
-<MEMBER name="primp" wn="primp%2:29:00" grouping="" fn_mapping="None" verbnet_key="primp#1" features="None"/>
-<MEMBER name="shave" wn="shave%2:29:00 shave%2:35:01" grouping="shave.01" fn_mapping="Grooming" verbnet_key="shave#1" features="None"/>
-<MEMBER name="shower" wn="shower%2:29:00" grouping="shower.03" fn_mapping="Grooming" verbnet_key="shower#1" features="None"/>
-<MEMBER name="spruce_up" wn="spruce%2:29:00" grouping="" fn_mapping="None" verbnet_key="spruce_up#1" features="None"/>
-<MEMBER name="strip" wn="strip%2:40:03 strip%2:30:12" grouping="strip.01 strip.03" fn_mapping="Emptying" verbnet_key="strip#2" features="None"/>
-<MEMBER name="sunbathe" wn="" grouping="" fn_mapping="None" verbnet_key="sunbathe#1" features="None"/>
-<MEMBER name="tan" wn="" grouping="" fn_mapping="None" verbnet_key="tan#1" features="None"/>
-<MEMBER name="tog_up" wn="tog%2:29:00" grouping="" fn_mapping="None" verbnet_key="tog_up#1" features="None"/>
-<MEMBER name="undress" wn="undress%2:29:00 undress%2:30:00" grouping="" fn_mapping="None" verbnet_key="undress#1" features="None"/>
-<MEMBER name="wash" wn="wash%2:29:00 wash%2:35:00" grouping="wash.01" fn_mapping="Grooming" verbnet_key="wash#1" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Unspecified Reflexive ObjectReflexive variant" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Marlene dressed herself.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Patient">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="refl"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED bool="!" value="has_state">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="VerbSpecific" value="V_Final_State"/>
-</ARGS>
-</PRED>
-<PRED value="take_care_of">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="has_state">
-<ARGS>
-<ARG type="Event" value="e3"/>
-<ARG type="ThemRole" value="Patient"/>
-<ARG type="VerbSpecific" value="V_Final_State"/>
-</ARGS>
-</PRED>
-<PRED value="cause">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="Event" value="e3"/>
-</ARGS>
-</PRED>
-<PRED value="equals">
-<ARGS>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-<VNSUBCLASS ID="dress-41.1.1-1-2">
-<MEMBERS>
-<MEMBER name="attire" wn="attire%2:29:00" grouping="" fn_mapping="None" verbnet_key="attire#1" features="None"/>
-<MEMBER name="clothe" wn="clothe%2:29:00" grouping="" fn_mapping="None" verbnet_key="clothe#1" features="None"/>
-<MEMBER name="garb" wn="garb%2:29:00" grouping="" fn_mapping="None" verbnet_key="garb#1" features="None"/>
-<MEMBER name="outfit" wn="outfit%2:40:00" grouping="" fn_mapping="None" verbnet_key="outfit#1" features="None"/>
-<MEMBER name="robe" wn="robe%2:29:00" grouping="" fn_mapping="None" verbnet_key="robe#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Pivot">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="5.1" primary="Passive" secondary="Participle form" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-She was clad in black.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Pivot">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="in">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="wear">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Pivot"/>
-<ARG type="ThemRole" value="Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-</SUBCLASSES>
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="clothe.01" name="clothe" verbnet_key="clothe#2" wn="" features="None"/>
+  <MEMBER fn_mapping="None" grouping="unclothe.02" name="unclothe" verbnet_key="unclothe#1" wn="unclothe%2:29:00" features="None"/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Patient">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="refl"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Marlene dressed the baby.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED bool="!" value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="VerbSpecific" value="V_Final_State"/>
+     </ARGS>
+    </PRED>
+    <PRED value="take_care_of">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_state">
+     <ARGS>
+      <ARG type="Event" value="e3"/>
+      <ARG type="ThemRole" value="Patient"/>
+      <ARG type="VerbSpecific" value="V_Final_State"/>
+     </ARGS>
+    </PRED>
+    <PRED value="cause">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="Event" value="e3"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="dress-41.1.1-1">
+   <MEMBERS/>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.2.3" primary="NP V" secondary="Intransitive" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Marlene dressed.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED bool="!" value="has_state">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="?Patient"/>
+        <ARG type="VerbSpecific" value="V_Final_State"/>
+       </ARGS>
+      </PRED>
+      <PRED value="take_care_of">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_state">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
+        <ARG type="ThemRole" value="?Patient"/>
+        <ARG type="VerbSpecific" value="V_Final_State"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="e3"/>
+       </ARGS>
+      </PRED>
+      <PRED value="equals">
+       <ARGS>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Patient"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="dress-41.1.1-1-1">
+     <MEMBERS>
+      <MEMBER fn_mapping="Grooming" grouping="bathe.01" name="bathe" verbnet_key="bathe#1" wn="bathe%2:29:00 bathe%2:29:01" features="None"/>
+      <MEMBER fn_mapping="Exchange_currency" grouping="change.02" name="change" verbnet_key="change#1" wn="change%2:30:03 change%2:30:06" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="disrobe" verbnet_key="disrobe#1" wn="disrobe%2:29:01" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="doll_up" verbnet_key="doll#1" wn="" features="None"/>
+      <MEMBER fn_mapping="Dressing" grouping="dress.01" name="dress" verbnet_key="dress#1" wn="dress%2:29:00 dress%2:29:01 dress%2:29:07" features="None"/>
+      <MEMBER fn_mapping="Dressing" grouping="dress.01" name="dress_up" verbnet_key="dress_up#1" wn="dress%2:29:05" features="None"/>
+      <MEMBER fn_mapping="None" grouping="exercise.02" name="exercise" verbnet_key="exercise#1" wn="exercise%2:29:01 exercise%2:29:00" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="frock" verbnet_key="frock#1" wn="frock%2:29:00" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="gussy_up" verbnet_key="gussy_up#1" wn="" features="None"/>
+      <MEMBER fn_mapping="Grooming" grouping="lave.02" name="lave" verbnet_key="lave#1" wn="lave%2:29:00 lave%2:29:02" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="moisturize" verbnet_key="moisturize#1" wn="" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="preen" verbnet_key="preen#1" wn="preen%2:29:00" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="primp" verbnet_key="primp#1" wn="primp%2:29:00" features="None"/>
+      <MEMBER fn_mapping="Grooming" grouping="shave.01" name="shave" verbnet_key="shave#1" wn="shave%2:29:00 shave%2:35:01" features="None"/>
+      <MEMBER fn_mapping="Grooming" grouping="shower.03" name="shower" verbnet_key="shower#1" wn="shower%2:29:00" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="spruce_up" verbnet_key="spruce_up#1" wn="spruce%2:29:00" features="None"/>
+      <MEMBER fn_mapping="Emptying" grouping="strip.01 strip.03" name="strip" verbnet_key="strip#2" wn="strip%2:40:03 strip%2:30:12" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="sunbathe" verbnet_key="sunbathe#1" wn="" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="tan" verbnet_key="tan#1" wn="" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="tog_up" verbnet_key="tog_up#1" wn="tog%2:29:00" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="undress" verbnet_key="undress#1" wn="undress%2:29:00 undress%2:30:00" features="None"/>
+      <MEMBER fn_mapping="Grooming" grouping="wash.01" name="wash" verbnet_key="wash#1" wn="wash%2:29:00 wash%2:35:00" features="None"/>
+     </MEMBERS>
+     <THEMROLES/>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Unspecified Reflexive ObjectReflexive variant" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         Marlene dressed herself.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Patient">
+         <SYNRESTRS>
+          <SYNRESTR Value="+" type="refl"/>
+         </SYNRESTRS>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED bool="!" value="has_state">
+         <ARGS>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="Patient"/>
+          <ARG type="VerbSpecific" value="V_Final_State"/>
+         </ARGS>
+        </PRED>
+        <PRED value="take_care_of">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Patient"/>
+         </ARGS>
+        </PRED>
+        <PRED value="has_state">
+         <ARGS>
+          <ARG type="Event" value="e3"/>
+          <ARG type="ThemRole" value="Patient"/>
+          <ARG type="VerbSpecific" value="V_Final_State"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="e3"/>
+         </ARGS>
+        </PRED>
+        <PRED value="equals">
+         <ARGS>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Patient"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+    <VNSUBCLASS ID="dress-41.1.1-1-2">
+     <MEMBERS>
+      <MEMBER fn_mapping="None" grouping="" name="attire" verbnet_key="attire#1" wn="attire%2:29:00" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="clothe" verbnet_key="clothe#1" wn="clothe%2:29:00::" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="garb" verbnet_key="garb#1" wn="garb%2:29:00" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="outfit" verbnet_key="outfit#1" wn="outfit%2:40:00" features="None"/>
+      <MEMBER fn_mapping="None" grouping="" name="robe" verbnet_key="robe#1" wn="robe%2:29:00" features="None"/>
+     </MEMBERS>
+     <THEMROLES>
+      <THEMROLE type="Pivot">
+       <SELRESTRS>
+        <SELRESTR Value="+" type="animate"/>
+       </SELRESTRS>
+      </THEMROLE>
+      <THEMROLE type="Theme">
+       <SELRESTRS/>
+      </THEMROLE>
+     </THEMROLES>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="5.1" primary="Passive" secondary="Participle form" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         She was clad in black.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Pivot">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <PREP value="in">
+         <SELRESTRS/>
+        </PREP>
+        <NP value="Theme">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="wear">
+         <ARGS>
+          <ARG type="Event" value="ë"/>
+          <ARG type="ThemRole" value="Pivot"/>
+          <ARG type="ThemRole" value="Theme"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

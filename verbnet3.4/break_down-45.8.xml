@@ -1,68 +1,69 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="break_down-45.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="break_down" wn="" grouping="" fn_mapping="None" verbnet_key="break_down#2" features="None"/>
-<MEMBER name="croak" wn="" grouping="" fn_mapping="None" verbnet_key="croak#2" features="None"/>
-<MEMBER name="die" wn="" grouping="" fn_mapping="Death" verbnet_key="die#1" features="None"/>
-<MEMBER name="expire" wn="" grouping="" fn_mapping="None" verbnet_key="expire#1" features="None"/>
-<MEMBER name="fall_apart" wn="fall_apart%2:37:00 fall_apart%2:35:00 fall_apart%2:30:03" grouping="fall.10" fn_mapping="None" verbnet_key="fall_apart#1" features="None"/>
-<MEMBER name="go_out" wn="" grouping="" fn_mapping="None" verbnet_key="go_out#1" features="None"/>
-<MEMBER name="go_down" wn="" grouping="" fn_mapping="None" verbnet_key="go_down#1" features="None"/>
-<MEMBER name="go_off" wn="" grouping="" fn_mapping="None" verbnet_key="go_off#1" features="None"/>
-<MEMBER name="give_out" wn="" grouping="" fn_mapping="None" verbnet_key="give_out#1" features="None"/>
-<MEMBER name="give_way" wn="" grouping="give.06" fn_mapping="None" verbnet_key="give_way#2" features="None"/>
-<MEMBER name="give" wn="" grouping="give.06" fn_mapping="Giving_in" verbnet_key="give#1" features="None"/>
-<MEMBER name="kick_the_bucket" wn="" grouping="" fn_mapping="None" verbnet_key="kick_the_bucket#1" features="None"/>
-<MEMBER name="perish" wn="" grouping="" fn_mapping="None" verbnet_key="perish#1" features="None"/>
-<MEMBER name="poop_out" wn="" grouping="" fn_mapping="None" verbnet_key="poop_out#1" features="None"/>
-<MEMBER name="fizzle_out" wn="" grouping="" fn_mapping="None" verbnet_key="fizzle_out#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Patient">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V" secondary="Basic Intransitive" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-The bridge gave way.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Patient">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="function">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED bool="!" value="degradation_material_integrity">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED bool="!" value="function">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-<PRED value="degradation_material_integrity">
-<ARGS>
-<ARG type="Event" value="e2"/>
-<ARG type="ThemRole" value="Patient"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="" name="break_down" verbnet_key="break_down#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="croak" verbnet_key="croak#2" wn="" features=""/>
+  <MEMBER fn_mapping="Death" grouping="" name="die" verbnet_key="die#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="expire" verbnet_key="expire#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="fall.10" name="fall_apart" verbnet_key="fall_apart#1" wn="fall_apart%2:37:00 fall_apart%2:35:00
+  fall_apart%2:30:00 fall_apart%2:30:03" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="go_out" verbnet_key="go_out#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="go_down" verbnet_key="go_down#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="go_off" verbnet_key="go_off#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="give_out" verbnet_key="give_out#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="give.06" name="give_way" verbnet_key="give_way#2" wn="" features=""/>
+  <MEMBER fn_mapping="Giving_in" grouping="give.06" name="give" verbnet_key="give#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="kick_the_bucket" verbnet_key="kick_the_bucket#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="perish" verbnet_key="perish#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="poop_out" verbnet_key="poop_out#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="fizzle_out" verbnet_key="fizzle_out#1" wn="" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Patient">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Basic Intransitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     The bridge gave way.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Patient">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="function">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="degradation_material_integrity">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED bool="!" value="function">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="degradation_material_integrity">
+     <ARGS>
+      <ARG type="Event" value="e2"/>
+      <ARG type="ThemRole" value="Patient"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

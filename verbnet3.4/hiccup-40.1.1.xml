@@ -1,63 +1,63 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="hiccup-40.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<!--each verb adds a manner predicate-->
-<MEMBER name="belch" wn="belch%2:29:00" grouping="" fn_mapping="None" verbnet_key="belch#1" features="None"/>
-<MEMBER name="blink" wn="" grouping="" fn_mapping="Body_movement" verbnet_key="blink#1" features="None"/>
-<MEMBER name="blush" wn="blush%2:29:00" grouping="" fn_mapping="None" verbnet_key="blush#1" features="None"/>
-<MEMBER name="burp" wn="burp%2:29:00" grouping="" fn_mapping="None" verbnet_key="burp#1" features="None"/>
-<MEMBER name="eruct" wn="eruct%2:29:00" grouping="" fn_mapping="None" verbnet_key="eruct#1" features="None"/>
-<MEMBER name="fart" wn="fart%2:29:00" grouping="" fn_mapping="None" verbnet_key="fart#1" features="None"/>
-<MEMBER name="flush" wn="flush%2:29:00" grouping="flush.01" fn_mapping="None" verbnet_key="flush#1" features="None"/>
-<MEMBER name="hiccup" wn="hiccup%2:29:00" grouping="" fn_mapping="None" verbnet_key="hiccup#1" features="None"/>
-<MEMBER name="pant" wn="pant%2:29:00" grouping="" fn_mapping="None" verbnet_key="pant#1" features="None"/>
-<MEMBER name="salivate" wn="" grouping="" fn_mapping="None" verbnet_key="salivate#1" features="None"/>
-<MEMBER name="shiver" wn="" grouping="" fn_mapping="None" verbnet_key="shiver#2" features="None"/>
-<MEMBER name="sneeze" wn="sneeze%2:29:00" grouping="" fn_mapping="None" verbnet_key="sneeze#1" features="None"/>
-<MEMBER name="sniffle" wn="sniffle%2:29:00" grouping="" fn_mapping="None" verbnet_key="sniffle#1" features="None"/>
-<MEMBER name="snore" wn="snore%2:29:00" grouping="" fn_mapping="None" verbnet_key="snore#1" features="None"/>
-<MEMBER name="snuff" wn="snuff%2:29:02" grouping="" fn_mapping="None" verbnet_key="snuff#1" features="None"/>
-<MEMBER name="snuffle" wn="snuffle%2:29:00" grouping="snuffle.02" fn_mapping="None" verbnet_key="snuffle#1" features="None"/>
-<MEMBER name="swallow" wn="swallow%2:34:00" grouping="swallow.01" fn_mapping="None" verbnet_key="swallow#2" features="None"/>
-<MEMBER name="wheeze" wn="wheeze%2:29:00" grouping="" fn_mapping="None" verbnet_key="wheeze#2" features="None"/>
-<MEMBER name="yawn" wn="yawn%2:29:00" grouping="" fn_mapping="None" verbnet_key="yawn#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS>
-<SELRESTR Value="+" type="animate"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Paul hiccuped.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="body_process">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-<PRED value="involuntary">
-<ARGS>
-<ARG type="Event" value="ë"/>
-<ARG type="ThemRole" value="Agent"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
+ <MEMBERS>
+  <!--each verb adds a manner predicate-->
+  <MEMBER fn_mapping="None" grouping="" name="belch" verbnet_key="belch#1" wn="belch%2:29:00" features=""/>
+  <MEMBER fn_mapping="Body_movement" grouping="" name="blink" verbnet_key="blink#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="blush" verbnet_key="blush#1" wn="blush%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="burp" verbnet_key="burp#1" wn="burp%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="eruct" verbnet_key="eruct#1" wn="eruct%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="fart" verbnet_key="fart#1" wn="fart%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="flush.01" name="flush" verbnet_key="flush#1" wn="flush%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="hiccup" verbnet_key="hiccup#1" wn="hiccup%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="pant" verbnet_key="pant#1" wn="pant%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="salivate" verbnet_key="salivate#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="shiver" verbnet_key="shiver#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="sneeze" verbnet_key="sneeze#1" wn="sneeze%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="sniffle" verbnet_key="sniffle#1" wn="sniffle%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="snore" verbnet_key="snore#1" wn="snore%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="snuff" verbnet_key="snuff#1" wn="snuff%2:29:02" features=""/>
+  <MEMBER fn_mapping="None" grouping="snuffle.02" name="snuffle" verbnet_key="snuffle#1" wn="snuffle%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="swallow.01" name="swallow" verbnet_key="swallow#2" wn="swallow%2:34:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="wheeze" verbnet_key="wheeze#2" wn="wheeze%2:29:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="yawn" verbnet_key="yawn#1" wn="yawn%2:29:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive" xtag=""/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Paul hiccuped.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="body_process">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+    <PRED value="involuntary">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES/>
 </VNCLASS>

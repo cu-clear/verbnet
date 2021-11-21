@@ -1,167 +1,191 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="contiguous_location-47.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<!--Removed "miss" from the class-->
-<!--Verbs may add more specific description of the spatial relationship between Theme and Co-Theme-->
-<MEMBER name="bestride" wn="" grouping="" fn_mapping="None" verbnet_key="bestride#1" features="None"/>
-<MEMBER name="blanket" wn="blanket%2:35:00 blanket%2:42:00" grouping="" fn_mapping="None" verbnet_key="blanket#2" features="None"/>
-<MEMBER name="border" wn="border%2:35:01 border%2:42:00 border%2:35:00" grouping="border.01" fn_mapping="Locative_relation" verbnet_key="border#1" features="None"/>
-<MEMBER name="bound" wn="bound%2:42:00" grouping="bound.02" fn_mapping="None" verbnet_key="bound#1" features="None"/>
-<MEMBER name="bracket" wn="" grouping="" fn_mapping="None" verbnet_key="bracket#2" features="None"/>
-<MEMBER name="bridge" wn="bridge%2:42:00" grouping="bridge.01" fn_mapping="None" verbnet_key="bridge#1" features="None"/>
-<MEMBER name="cap" wn="cap%2:42:00" grouping="cap.01" fn_mapping="Closure" verbnet_key="cap#2" features="None"/>
-<MEMBER name="circle" wn="" grouping="circle.02" fn_mapping="None" verbnet_key="circle#1" features="None"/>
-<MEMBER name="cloak" wn="" grouping="cloak.02" fn_mapping="Eclipse" verbnet_key="cloak#2" features="None"/>
-<MEMBER name="cover" wn="cover%2:35:01" grouping="cover.01" fn_mapping="Distributed_position" verbnet_key="cover#1" features="None"/>
-<MEMBER name="edge" wn="edge%2:35:00" grouping="edge.03" fn_mapping="None" verbnet_key="edge#1" features="None"/>
-<MEMBER name="encircle" wn="encircle%2:35:12" grouping="" fn_mapping="None" verbnet_key="encircle#1" features="None"/>
-<MEMBER name="enclose" wn="enclose%2:35:01 enclose%2:35:00" grouping="enclose.01" fn_mapping="None" verbnet_key="enclose#1" features="None"/>
-<MEMBER name="encompass" wn="" grouping="" fn_mapping="None" verbnet_key="encompass#2" features="None"/>
-<MEMBER name="engulf" wn="" grouping="" fn_mapping="None" verbnet_key="engulf#1" features="None"/>
-<MEMBER name="envelop" wn="" grouping="" fn_mapping="None" verbnet_key="envelop#1" features="None"/>
-<MEMBER name="fence" wn="?fence%2:35:00" grouping="fence.01" fn_mapping="None" verbnet_key="fence#3" features="None"/>
-<MEMBER name="fill" wn="fill%2:42:00" grouping="fill.01" fn_mapping="Filling" verbnet_key="fill#1" features="None"/>
-<MEMBER name="flank" wn="flank%2:42:00" grouping="" fn_mapping="None" verbnet_key="flank#1" features="None"/>
-<MEMBER name="follow" wn="" grouping="follow.01" fn_mapping="Cotheme" verbnet_key="follow#5" features="None"/>
-<MEMBER name="forgo" wn="forgo%2:42:00" grouping="forgo.02 forgo.03" fn_mapping="None" verbnet_key="forgo#2" features="None"/>
-<MEMBER name="frame" wn="frame%2:35:00 frame%2:42:00" grouping="frame.01" fn_mapping="None" verbnet_key="frame#2" features="None"/>
-<MEMBER name="head" wn="head%2:42:00" grouping="head.02" fn_mapping="Leadership" verbnet_key="head#2" features="None"/>
-<MEMBER name="hug" wn="hug%2:35:00" grouping="hug.02" fn_mapping="None" verbnet_key="hug#1" features="None"/>
-<MEMBER name="line" wn="line%2:42:00" grouping="line.01" fn_mapping="None" verbnet_key="line#1" features="None"/>
-<MEMBER name="neighbor" wn="" grouping="" fn_mapping="Adjacency" verbnet_key="neighbor#1" features="None"/>
-<MEMBER name="overcast" wn="" grouping="" fn_mapping="None" verbnet_key="overcast#1" features="None"/>
-<MEMBER name="overhang" wn="overhang%2:42:01 overhang%2:42:00" grouping="" fn_mapping="None" verbnet_key="overhang#1" features="None"/>
-<MEMBER name="precede" wn="precede%2:42:01 precede%2:38:00" grouping="precede.01" fn_mapping="Relative_time" verbnet_key="precede#1" features="None"/>
-<MEMBER name="predate" wn="predate%2:42:00 predate%2:42:01" grouping="predate.01" fn_mapping="Relative_time" verbnet_key="predate#1" features="None"/>
-<MEMBER name="rim" wn="rim%2:42:00" grouping="rim.01" fn_mapping="None" verbnet_key="rim#1" features="None"/>
-<MEMBER name="ring" wn="ring%2:35:03" grouping="ring.02" fn_mapping="None" verbnet_key="ring#1" features="None"/>
-<MEMBER name="skirt" wn="skirt%2:35:00" grouping="skirt.02" fn_mapping="Path_shape" verbnet_key="skirt#1" features="None"/>
-<MEMBER name="span" wn="span%2:42:00" grouping="" fn_mapping="None" verbnet_key="span#1" features="None"/>
-<MEMBER name="straddle" wn="straddle%2:42:01 straddle%2:42:02" grouping="straddle.01 straddle.02" fn_mapping="None" verbnet_key="straddle#2" features="None"/>
-<MEMBER name="support" wn="support%2:35:00" grouping="support.01" fn_mapping="None" verbnet_key="support#2" features="None"/>
-<MEMBER name="surmount" wn="surmount%2:42:00" grouping="" fn_mapping="None" verbnet_key="surmount#1" features="None"/>
-<MEMBER name="surround" wn="surround%2:35:00" grouping="surround.01" fn_mapping="None" verbnet_key="surround#1" features="None"/>
-<MEMBER name="top" wn="top%2:40:00" grouping="top.03" fn_mapping="None" verbnet_key="top#2" features="None"/>
-<MEMBER name="traverse" wn="" grouping="traverse.01" fn_mapping="Traversing" verbnet_key="traverse#1" features="None"/>
-<MEMBER name="underlie" wn="underlie%2:42:00 underlie%2:42:01 underlay%2:35:00 underlay%2:34:00" grouping="underlie.01" fn_mapping="None" verbnet_key="underlie#1" features="None"/>
-<MEMBER name="wreathe" wn="" grouping="" fn_mapping="Distributed_position" verbnet_key="wreathe#2" features="None"/>
-<MEMBER name="enshroud" wn="enshroud%2:35:00" grouping="" fn_mapping="None" verbnet_key="enshroud#1" features="None"/>
-<MEMBER name="veil" wn="veil%2:35:00" grouping="" fn_mapping="None" verbnet_key="veil#2" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Theme">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Co-Theme">
-<SELRESTRS>
-<SELRESTR Value="+" type="concrete"/>
-</SELRESTRS>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-Italy borders France.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Co-Theme">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Co-Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="contiguous_location-47.8-1">
-<MEMBERS>
-<MEMBER name="abut" wn="abut%2:35:00" grouping="" fn_mapping="None" verbnet_key="abut#1" features="None"/>
-<MEMBER name="adjoin" wn="adjoin%2:35:02 adjoin%2:35:03" grouping="adjoin.01" fn_mapping="Adjacency" verbnet_key="adjoin#1" features="None"/>
-<MEMBER name="cross" wn="cross%2:38:03" grouping="cross.02" fn_mapping="Body_movement" verbnet_key="cross#1" features="None"/>
-<MEMBER name="hit" wn="" grouping="" fn_mapping="None" verbnet_key="hit#2" features="None"/>
-<MEMBER name="intersect" wn="intersect%2:38:00" grouping="" fn_mapping="None" verbnet_key="intersect#1" features="None"/>
-<MEMBER name="meet" wn="meet%2:42:02 meet%2:35:00" grouping="meet.03" fn_mapping="None" verbnet_key="meet#1" features="None"/>
-<MEMBER name="touch" wn="touch%2:35:01" grouping="touch.02" fn_mapping="Impact" verbnet_key="touch#2" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="1.2.4" primary="NP V" secondary="Understood Reciprocal Object" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-Italy and France touch.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<LEX value="and"/>
-<NP value="Co-Theme">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Co-Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-<VNSUBCLASS ID="contiguous_location-47.8-2">
-<MEMBERS>
-<MEMBER name="dominate" wn="?dominate%2:42:02" grouping="" fn_mapping="None" verbnet_key="dominate#1" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="" primary="NP V" secondary="Unspecified Object" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-DEC has often dominated.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Theme">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="contact">
-<ARGS>
-<ARG type="Event" value="E"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Co-Theme"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <!--Removed "miss" from the class-->
+  <!--Verbs may add more specific description of the spatial relationship between Theme and Co-Theme-->
+  <MEMBER fn_mapping="None" grouping="" name="bestride" verbnet_key="bestride#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="blanket" verbnet_key="blanket#2" wn="blanket%2:35:00 blanket%2:42:00" features=""/>
+  <MEMBER fn_mapping="Locative_relation" grouping="border.01" name="border" verbnet_key="border#1" wn="border%2:35:01 border%2:42:00 border%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="bound.02" name="bound" verbnet_key="bound#1" wn="bound%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="bracket" verbnet_key="bracket#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="bridge.01" name="bridge" verbnet_key="bridge#1" wn="bridge%2:42:00" features=""/>
+  <MEMBER fn_mapping="Closure" grouping="cap.01" name="cap" verbnet_key="cap#2" wn="cap%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="circle.02" name="circle" verbnet_key="circle#1" wn="" features=""/>
+  <MEMBER fn_mapping="Eclipse" grouping="cloak.02" name="cloak" verbnet_key="cloak#2" wn="" features=""/>
+  <MEMBER fn_mapping="Distributed_position" grouping="cover.01" name="cover" verbnet_key="cover#1" wn="cover%2:35:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="edge.03" name="edge" verbnet_key="edge#1" wn="edge%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="encircle" verbnet_key="encircle#1" wn="encircle%2:35:12" features=""/>
+  <MEMBER fn_mapping="None" grouping="enclose.01" name="enclose" verbnet_key="enclose#1" wn="enclose%2:35:01 enclose%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="encompass" verbnet_key="encompass#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="engulf" verbnet_key="engulf#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="envelop" verbnet_key="envelop#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="fence.01" name="fence" verbnet_key="fence#3" wn="?fence%2:35:00" features=""/>
+  <MEMBER fn_mapping="Filling" grouping="fill.01" name="fill" verbnet_key="fill#1" wn="fill%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="flank" verbnet_key="flank#1" wn="flank%2:42:00" features=""/>
+  <MEMBER fn_mapping="Cotheme" grouping="follow.01" name="follow" verbnet_key="follow#5" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="forgo.02 forgo.03" name="forgo" verbnet_key="forgo#2" wn="forgo%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="frame.01" name="frame" verbnet_key="frame#2" wn="frame%2:35:00 frame%2:42:00" features=""/>
+  <MEMBER fn_mapping="Leadership" grouping="head.02" name="head" verbnet_key="head#2" wn="head%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="hug.02" name="hug" verbnet_key="hug#1" wn="hug%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="line.01" name="line" verbnet_key="line#1" wn="line%2:42:00" features=""/>
+  <MEMBER fn_mapping="Adjacency" grouping="" name="neighbor" verbnet_key="neighbor#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="overcast" verbnet_key="overcast#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="overhang" verbnet_key="overhang#1" wn="overhang%2:42:01 overhang%2:42:00" features=""/>
+  <MEMBER fn_mapping="Relative_time" grouping="precede.01" name="precede" verbnet_key="precede#1" wn="precede%2:42:01 precede%2:38:00" features=""/>
+  <MEMBER fn_mapping="Relative_time" grouping="predate.01" name="predate" verbnet_key="predate#1" wn="predate%2:42:00 predate%2:42:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="rim.01" name="rim" verbnet_key="rim#1" wn="rim%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="ring.02" name="ring" verbnet_key="ring#1" wn="ring%2:35:03" features=""/>
+  <MEMBER fn_mapping="Path_shape" grouping="skirt.02" name="skirt" verbnet_key="skirt#1" wn="skirt%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="span" verbnet_key="span#1" wn="span%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="straddle.01 straddle.02" name="straddle" verbnet_key="straddle#2" wn="straddle%2:42:01 straddle%2:42:02" features=""/>
+  <MEMBER fn_mapping="None" grouping="support.01" name="support" verbnet_key="support#2" wn="support%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="surmount" verbnet_key="surmount#1" wn="surmount%2:42:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="surround.01" name="surround" verbnet_key="surround#1" wn="surround%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="top.03" name="top" verbnet_key="top#2" wn="top%2:40:00" features=""/>
+  <MEMBER fn_mapping="Traversing" grouping="traverse.01" name="traverse" verbnet_key="traverse#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="underlie.01" name="underlie" verbnet_key="underlie#1" wn="underlie%2:42:00 underlie%2:42:01 underlay%2:35:00 underlay%2:34:00" features=""/>
+  <MEMBER fn_mapping="Distributed_position" grouping="" name="wreathe" verbnet_key="wreathe#2" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="enshroud" verbnet_key="enshroud#1" wn="enshroud%2:35:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="veil" verbnet_key="veil#2" wn="veil%2:35:00" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Co-Theme">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="concrete"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     Italy borders France.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Theme">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Co-Theme">
+     <SYNRESTRS/>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="contact">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Co-Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="has_spatial_relationship">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="Co-Theme"/>
+      <ARG type="VerbSpecific" value="V_Spatial_Relation"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="contiguous_location-47.8-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="" name="abut" verbnet_key="abut#1" wn="abut%2:35:00" features=""/>
+    <MEMBER fn_mapping="Adjacency" grouping="adjoin.01" name="adjoin" verbnet_key="adjoin#1" wn="adjoin%2:35:02 adjoin%2:35:03" features=""/>
+    <MEMBER fn_mapping="Body_movement" grouping="cross.02" name="cross" verbnet_key="cross#1" wn="cross%2:38:03" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="hit" verbnet_key="hit#2" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="intersect" verbnet_key="intersect#1" wn="intersect%2:38:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="meet.03" name="meet" verbnet_key="meet#1" wn="meet%2:42:02 meet%2:35:00" features=""/>
+    <MEMBER fn_mapping="Impact" grouping="touch.02" name="touch" verbnet_key="touch#2" wn="touch%2:35:01" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="1.2.4" primary="NP V" secondary="Understood Reciprocal Object" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Italy and France touch.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <LEX value="and"/>
+      <NP value="Co-Theme">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="contact">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Co-Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_spatial_relationship">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Co-Theme"/>
+        <ARG type="VerbSpecific" value="V_Spatial_Relation"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+  <VNSUBCLASS ID="contiguous_location-47.8-2">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="" name="dominate" verbnet_key="dominate#1" wn="?dominate%2:42:02" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Unspecified Object" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       DEC has often dominated.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="contact">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="?Co-Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_spatial_relationship">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Theme"/>
+        <ARG type="ThemRole" value="Co-Theme"/>
+        <ARG type="VerbSpecific" value="V_Spatial_Relation"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

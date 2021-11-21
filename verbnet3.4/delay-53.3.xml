@@ -1,0 +1,373 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="delay-53.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS>
+    <SELRESTR Value="+" type="animate"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Eventuality">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES/>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="delay-53.3-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="Change_event_time" grouping="postpone.01" name="postpone" verbnet_key="postpone#1" wn="postpone%2:42:00" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       He delayed the watering.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Eventuality">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_temporal_location">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="PredSpecific" value="Initial_Time"/>
+       </ARGS>
+      </PRED>
+      <PRED value="do">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="temporal_motion">
+       <ARGS>
+        <ARG type="Event" value="ë3"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="PredSpecific" value="Trajectory"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_temporal_location">
+       <ARGS>
+        <ARG type="Event" value="e4"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="PredSpecific" value="Destination_Time"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="ë3"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V S_ING" secondary="S-ING complement" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       He delayed watering the lawn.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Eventuality">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="be_sc_ing"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_temporal_location">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="PredSpecific" value="Initial_Time"/>
+       </ARGS>
+      </PRED>
+      <PRED value="do">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="temporal_motion">
+       <ARGS>
+        <ARG type="Event" value="ë3"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="PredSpecific" value="Trajectory"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_temporal_location">
+       <ARGS>
+        <ARG type="Event" value="e4"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="PredSpecific" value="Destination_Time"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="ë3"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="delay-53.3-1-1">
+     <MEMBERS>
+      <MEMBER fn_mapping="Change_event_time" grouping="delay.02" name="delay" verbnet_key="delay#1" wn="delay%2:42:00" features=""/>
+      <MEMBER fn_mapping="None" grouping="defer.01" name="defer" verbnet_key="defer#1" wn="" features=""/>
+     </MEMBERS>
+     <THEMROLES/>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Intransitive" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         He deferred.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Source">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="has_temporal_location">
+         <ARGS>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="?Eventuality"/>
+          <ARG type="PredSpecific" value="Initial_Time"/>
+         </ARGS>
+        </PRED>
+        <PRED value="do">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Agent"/>
+         </ARGS>
+        </PRED>
+        <PRED value="temporal_motion">
+         <ARGS>
+          <ARG type="Event" value="ë3"/>
+          <ARG type="ThemRole" value="?Eventuality"/>
+          <ARG type="PredSpecific" value="Trajectory"/>
+         </ARGS>
+        </PRED>
+        <PRED value="has_temporal_location">
+         <ARGS>
+          <ARG type="Event" value="e4"/>
+          <ARG type="ThemRole" value="?Eventuality"/>
+          <ARG type="PredSpecific" value="Destination_Time"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="ë3"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+  <VNSUBCLASS ID="delay-53.3-2">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="stall.01" name="stall" verbnet_key="stall#1" wn="stall%2:42:00 stall%2:30:00" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Intransitive" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       He procrastinated.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_temporal_location">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="?Eventuality"/>
+        <ARG type="ThemRole" value="Initial_Time"/>
+       </ARGS>
+      </PRED>
+      <PRED value="engage_in">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="VerbSpecific" value="V_Eventuality"/>
+       </ARGS>
+      </PRED>
+      <PRED value="temporal_motion">
+       <ARGS>
+        <ARG type="Event" value="ë3"/>
+        <ARG type="ThemRole" value="?Eventuality"/>
+        <ARG type="ThemRole" value="Trajectory"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_temporal_location">
+       <ARGS>
+        <ARG type="Event" value="e4"/>
+        <ARG type="ThemRole" value="?Eventuality"/>
+        <ARG type="ThemRole" value="Destination_Time"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="ë3"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Isaac Asimov procrastinated his studies in chemistry.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Eventuality">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_temporal_location">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="ThemRole" value="Initial_Time"/>
+       </ARGS>
+      </PRED>
+      <PRED value="engage_in">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="VerbSpecific" value="V_Eventuality"/>
+       </ARGS>
+      </PRED>
+      <PRED value="temporal_motion">
+       <ARGS>
+        <ARG type="Event" value="ë3"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="ThemRole" value="Trajectory"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_temporal_location">
+       <ARGS>
+        <ARG type="Event" value="e4"/>
+        <ARG type="ThemRole" value="Eventuality"/>
+        <ARG type="ThemRole" value="Destination_Time"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="Event" value="ë3"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="delay-53.3-2-1">
+     <MEMBERS>
+      <MEMBER fn_mapping="" grouping="" name="procrastinate" verbnet_key="procrastinate#1" wn="procrastinate%2:42:01 procrastinate%2:42:00" features=""/>
+     </MEMBERS>
+     <THEMROLES/>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="" primary="NP V S_ING" secondary="S-ING complement" xtag=""/>
+       <EXAMPLES>
+        <EXAMPLE>
+         He procrastinated doing his homework.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Eventuality">
+         <SYNRESTRS>
+          <SYNRESTR Value="+" type="be_sc_ing"/>
+         </SYNRESTRS>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="has_temporal_location">
+         <ARGS>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="Eventuality"/>
+          <ARG type="ThemRole" value="Initial_Time"/>
+         </ARGS>
+        </PRED>
+        <PRED value="engage_in">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="VerbSpecific" value="V_Eventuality"/>
+         </ARGS>
+        </PRED>
+        <PRED value="temporal_motion">
+         <ARGS>
+          <ARG type="Event" value="ë3"/>
+          <ARG type="ThemRole" value="Eventuality"/>
+          <ARG type="ThemRole" value="Trajectory"/>
+         </ARGS>
+        </PRED>
+        <PRED value="has_temporal_location">
+         <ARGS>
+          <ARG type="Event" value="e4"/>
+          <ARG type="ThemRole" value="Eventuality"/>
+          <ARG type="ThemRole" value="Destination_Time"/>
+         </ARGS>
+        </PRED>
+        <PRED value="cause">
+         <ARGS>
+          <ARG type="Event" value="e2"/>
+          <ARG type="Event" value="ë3"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>

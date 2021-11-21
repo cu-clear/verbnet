@@ -1,677 +1,619 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="discover-84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-<MEMBERS>
-<MEMBER name="deduce" wn="deduce%2:31:00 deduce%2:32:00" grouping="deduce.01" fn_mapping="Coming_to_believe" verbnet_key="deduce#2" features="None"/>
-<MEMBER name="determine" wn="determine%2:32:00 determine%2:32:01" grouping="determine.01" fn_mapping="None" verbnet_key="determine#2" features="None"/>
-<MEMBER name="discover" wn="discover%2:39:03 discover%2:31:01 discover%2:36:00 discover%2:31:00 discover%2:40:00 discover%2:39:00 discover%2:31:03" grouping="discover.01" fn_mapping="Becoming_aware" verbnet_key="discover#1" features="None"/>
-<MEMBER name="find" wn="find%2:39:02 find%2:40:00 find%2:32:00 find%2:36:00 find%2:31:09" grouping="find.01 find.02" fn_mapping="Becoming_aware" verbnet_key="find#2" features="None"/>
-<MEMBER name="guess" wn="guess%2:31:02" grouping="guess.02" fn_mapping="Coming_to_believe" verbnet_key="guess#2" features="None"/>
-<MEMBER name="realize" wn="realize%2:31:01" grouping="realize.01" fn_mapping="Coming_to_believe" verbnet_key="realize#2" features="None"/>
-<MEMBER name="ascertain" wn="ascertain%2:31:01" grouping="ascertain.01" fn_mapping="Coming_to_believe" verbnet_key="ascertain#1" features="None"/>
-<MEMBER name="rationalize" wn="rationalize%2:32:00" grouping="rationalize.01" fn_mapping="Justifying" verbnet_key="rationalize#2" features="None"/>
-<MEMBER name="relearn" wn="relearn%2:31:00" grouping="" fn_mapping="None" verbnet_key="relearn#1" features="None"/>
-<MEMBER name="see" wn="see%2:31:02" grouping="see.02" fn_mapping="None" verbnet_key="see#2" features="None"/>
-<MEMBER name="scent_out" wn="scent_out%2:39:00" grouping="" fn_mapping="None" verbnet_key="scent_out#1" features="None"/>
-<MEMBER name="solve" wn="solve%2:31:00 solve%2:31:01" grouping="solve.01 solve.02" fn_mapping="Resolve_problem" verbnet_key="solve#1" features="None"/>
-<MEMBER name="chance_across" wn="" grouping="" fn_mapping="None" verbnet_key="chance_across#1" features="None"/>
-<MEMBER name="chance_on" wn="chance_on%2:40:00" grouping="" fn_mapping="None" verbnet_key="chance_on#1" features="None"/>
-<MEMBER name="chance_upon" wn="" grouping="" fn_mapping="None" verbnet_key="chance_upon#1" features="None"/>
-<MEMBER name="work_out" wn="work_out%2:31:04" grouping="work.08" fn_mapping="None" verbnet_key="work_out#1" features="None"/>
-</MEMBERS>
-<THEMROLES>
-<THEMROLE type="Agent">
-<SELRESTRS logic="or">
-<SELRESTR Value="+" type="animate"/>
-<SELRESTR Value="+" type="organization"/>
-</SELRESTRS>
-</THEMROLE>
-<THEMROLE type="Theme">
-<SELRESTRS/>
-</THEMROLE>
-<THEMROLE type="Source">
-<SELRESTRS/>
-</THEMROLE>
-</THEMROLES>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V how S" secondary="HOW-S" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered how she did it.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="how_extract"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V how S_INF" secondary="HOW-TO-INF" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered how to do it.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="wh_inf"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered the fleece.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="-" type="sentential"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered that it didn't make sense.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="that_comp"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.2" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered what he should do.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="what_extract"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF" secondary="WHAT-TO-INF" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered what to do.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="what_inf"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="discover-84-1">
-<MEMBERS>
-<MEMBER name="pick_up" wn="pick_up%2:31:00" grouping="" fn_mapping="None" verbnet_key="pick_up#1" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-NP-ING; about-PP" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered about him drinking.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="np_ing"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source how S" secondary="PP-HOW-S; from-PP" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered from them how she did it.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="from">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="how_extract"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source how S_INF" secondary="PP-HOW-TO-INF; from-PP" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered from them how to do it.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="from">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="wh_inf"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.theme whether/if S" secondary="PP-P-WH-S; from-PP about-PP" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered from him about whether he should kill the peasants.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="from">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="wh_comp"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.theme what S" secondary="PP-P-WHAT-S; from-PP about-PP" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered from him about what he should do.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="from">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="what_extract"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.theme what S_INF" secondary="PP-P-WHAT-TO-INF; from-PP about-PP" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-I learned from him about what to do.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="from">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="wh_inf"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.theme whether S_INF" secondary="PP-P-WH-TO-INF; from-PP about-PP" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered from him about whether to go.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="from">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="wheth_inf"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF" secondary="WHAT-TO-INF" xtag="0.1"/>
-<EXAMPLES>
-<EXAMPLE>
-I discovered what to do.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="what_inf"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES>
-<VNSUBCLASS ID="discover-84-1-1">
-<MEMBERS>
-<MEMBER name="hear" wn="hear%2:31:00" grouping="hear.01" fn_mapping="Hearsay" verbnet_key="hear#1" features="None"/>
-<MEMBER name="learn" wn="learn%2:31:01" grouping="learn.02" fn_mapping="None" verbnet_key="learn#1" features="None"/>
-<MEMBER name="study" wn="study%2:31:02" grouping="study.01" fn_mapping="Scrutiny" verbnet_key="study#2" features="None"/>
-<MEMBER name="find_out" wn="find_out%2:31:00 find_out%2:32:01" grouping="" fn_mapping="None" verbnet_key="find_out#1" features="None"/>
-<MEMBER name="figure_out" wn="figure_out%2:31:00" grouping="" fn_mapping="None" verbnet_key="figure_out#1" features="None"/>
-</MEMBERS>
-<THEMROLES/>
-<FRAMES>
-<FRAME>
-<DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
-<EXAMPLES>
-<EXAMPLE>
-I learned.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="?Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-POSSING; about-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-I learned about his drinking.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="poss_ing"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme what S" secondary="P-WHAT-S; about-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-I learned about what he drank.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="+" type="what_extract"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="PP; about-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-I learned about the drinking.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="-" type="sentential"/>
-</SYNRESTRS>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="?Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-<FRAME>
-<DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme PP.source" secondary="PP-PP; about-PP from-PP" xtag=""/>
-<EXAMPLES>
-<EXAMPLE>
-I learned about it from a book.
-</EXAMPLE>
-</EXAMPLES>
-<SYNTAX>
-<NP value="Agent">
-<SYNRESTRS/>
-</NP>
-<VERB/>
-<PREP value="about">
-<SELRESTRS/>
-</PREP>
-<NP value="Theme">
-<SYNRESTRS>
-<SYNRESTR Value="-" type="sentential"/>
-</SYNRESTRS>
-</NP>
-<PREP value="from">
-<SELRESTRS/>
-</PREP>
-<NP value="Source">
-<SYNRESTRS/>
-</NP>
-</SYNTAX>
-<SEMANTICS>
-<PRED value="discover">
-<ARGS>
-<ARG type="Event" value="e1"/>
-<ARG type="ThemRole" value="Agent"/>
-<ARG type="ThemRole" value="Theme"/>
-<ARG type="ThemRole" value="Source"/>
-</ARGS>
-</PRED>
-</SEMANTICS>
-</FRAME>
-</FRAMES>
-<SUBCLASSES/>
-</VNSUBCLASS>
-</SUBCLASSES>
-</VNSUBCLASS>
-</SUBCLASSES>
+ <MEMBERS>
+  <MEMBER fn_mapping="None" grouping="ascertain.02" name="ascertain" verbnet_key="ascertain#3" wn="" features=""/>
+  <MEMBER fn_mapping="Coming_to_believe" grouping="deduce.01" name="deduce" verbnet_key="deduce#2" wn="deduce%2:31:00 deduce%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="determine.01" name="determine" verbnet_key="determine#2" wn="determine%2:32:00 determine%2:32:01" features=""/>
+  <MEMBER fn_mapping="Becoming_aware" grouping="find.01 find.02" name="find" verbnet_key="find#2" wn="find%2:39:02 find%2:40:00 find%2:32:00 find%2:36:00 find%2:31:09" features=""/>
+  <MEMBER fn_mapping="Coming_to_believe" grouping="guess.02" name="guess" verbnet_key="guess#2" wn="guess%2:31:02" features=""/>
+  <MEMBER fn_mapping="Coming_to_believe" grouping="realize.01" name="realize" verbnet_key="realize#2" wn="realize%2:31:01" features=""/>
+  <MEMBER fn_mapping="Coming_to_believe" grouping="ascertain.01" name="ascertain" verbnet_key="ascertain#1" wn="ascertain%2:31:01" features=""/>
+  <MEMBER fn_mapping="Justifying" grouping="rationalize.01" name="rationalize" verbnet_key="rationalize#2" wn="rationalize%2:32:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="relearn" verbnet_key="relearn#1" wn="relearn%2:31:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="see.02" name="see" verbnet_key="see#2" wn="see%2:31:02" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="scent_out" verbnet_key="scent_out#1" wn="scent_out%2:39:00" features=""/>
+  <MEMBER fn_mapping="Resolve_problem" grouping="solve.01 solve.02" name="solve" verbnet_key="solve#1" wn="solve%2:31:00 solve%2:31:01" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="chance_across" verbnet_key="chance_across#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="chance_on" verbnet_key="chance_on#1" wn="chance_on%2:40:00" features=""/>
+  <MEMBER fn_mapping="None" grouping="" name="chance_upon" verbnet_key="chance_upon#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="work.08" name="work_out" verbnet_key="work_out#1" wn="work_out%2:31:04" features=""/>
+ </MEMBERS>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+  <THEMROLE type="Topic">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Source">
+   <SELRESTRS/>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V how S" secondary="HOW-S" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I discovered how she did it.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Topic">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="how_extract"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="conclude">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V how S_INF" secondary="HOW-TO-INF" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I discovered how to do it.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Topic">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="wh_inf"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="conclude">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I discovered the solution.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Topic">
+     <SYNRESTRS>
+      <SYNRESTR Value="-" type="sentential"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="conclude">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I discovered that it didn't make sense.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Topic">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="that_comp"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="conclude">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.2" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I discovered what he should do.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Topic">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="what_extract"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="conclude">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF" secondary="WHAT-TO-INF" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     I discovered what to do.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+    <NP value="Topic">
+     <SYNRESTRS>
+      <SYNRESTR Value="+" type="what_inf"/>
+     </SYNRESTRS>
+    </NP>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="conclude">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="discover-84-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="Becoming_aware" grouping="discover.01" name="discover" verbnet_key="discover#1" wn="discover%2:39:03 discover%2:31:01 discover%2:36:00 discover%2:31:00 discover%2:40:00 discover%2:39:00 discover%2:31:03" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="figure_out" verbnet_key="figure_out#1" wn="figure_out%2:31:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="pick_up" verbnet_key="pick_up#1" wn="pick_up%2:31:00" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic S_ING" secondary="P-NP-ING; about-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I discovered about him drinking.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="about">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Topic">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="np_ing"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+    <PRED value="conclude">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Topic"/>
+     </ARGS>
+    </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source how S" secondary="PP-HOW-S; from-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I discovered from them how she did it.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="from">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Source">
+       <SYNRESTRS/>
+      </NP>
+      <NP value="Topic">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="how_extract"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer_info">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source how S_INF" secondary="PP-HOW-TO-INF; from-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I discovered from them how to do it.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="from">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Source">
+       <SYNRESTRS/>
+      </NP>
+      <NP value="Topic">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="wh_inf"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer_info">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.topic whether/if S" secondary="PP-P-WH-S; from-PP about-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I discovered from him about whether he should kill the peasants.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="from">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Source">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="about">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Topic">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="wh_comp"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer_info">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.topic what S" secondary="PP-P-WHAT-S; from-PP about-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I discovered from him about what he should do.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="from">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Source">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="about">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Topic">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="what_extract"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer_info">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.topic what S_INF" secondary="PP-P-WHAT-TO-INF; from-PP about-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I learned from him about what to do.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="from">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Source">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="about">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Topic">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="wh_inf"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer_info">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.topic whether S_INF" secondary="PP-P-WH-TO-INF; from-PP about-PP" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I discovered from him about whether to go.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="from">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Source">
+       <SYNRESTRS/>
+      </NP>
+      <PREP value="about">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Topic">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="wheth_inf"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="transfer_info">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Source"/>
+        <ARG type="ThemRole" value="Topic"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="has_information">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="cause">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="Event" value="e2"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF" secondary="WHAT-TO-INF" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       I discovered what to do.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Topic">
+       <SYNRESTRS>
+        <SYNRESTR Value="+" type="what_inf"/>
+       </SYNRESTRS>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="conclude">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
 </VNCLASS>

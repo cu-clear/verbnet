@@ -1,0 +1,229 @@
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="rebel-71.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS/>
+ <THEMROLES>
+  <THEMROLE type="Agent">
+   <SELRESTRS/>
+  </THEMROLE>
+  <THEMROLE type="Maleficiary">
+   <SELRESTRS logic="or">
+    <SELRESTR Value="+" type="animate"/>
+    <SELRESTR Value="+" type="organization"/>
+   </SELRESTRS>
+  </THEMROLE>
+ </THEMROLES>
+ <FRAMES>
+  <FRAME>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
+   <EXAMPLES>
+    <EXAMPLE>
+     John rebelled.
+    </EXAMPLE>
+   </EXAMPLES>
+   <SYNTAX>
+    <NP value="Agent">
+     <SYNRESTRS/>
+    </NP>
+    <VERB/>
+   </SYNTAX>
+   <SEMANTICS>
+    <PRED value="engage_in">
+     <ARGS>
+      <ARG type="Event" value="ë"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Theme"/>
+     </ARGS>
+    </PRED>
+   </SEMANTICS>
+  </FRAME>
+ </FRAMES>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="rebel-71.2-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="discriminate.01" name="discriminate" verbnet_key="discriminate#1" wn="" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="rebel" verbnet_key="rebel#1" wn="rebel%2:41:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="retaliate" verbnet_key="retaliate#1" wn="retaliate%2:33:00" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.maleficiary" secondary="PP; against-PP" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       John rebelled against her.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="against">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Maleficiary">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="engage_in">
+       <ARGS>
+        <ARG type="Event" value="ë"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="VerbSpecific" value="V_Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="harm">
+       <ARGS>
+        <ARG type="Event" value="ë"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Maleficiary"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES>
+    <VNSUBCLASS ID="rebel-71.2-1-1">
+     <MEMBERS>
+      <MEMBER fn_mapping="Misdeed" grouping="sin.01" name="sin" verbnet_key="sin#1" wn="" features=""/>
+     </MEMBERS>
+     <THEMROLES>
+      <THEMROLE type="Theme">
+       <SELRESTRS/>
+      </THEMROLE>
+     </THEMROLES>
+     <FRAMES>
+      <FRAME>
+       <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag="0.2"/>
+       <EXAMPLES>
+        <EXAMPLE>
+         John sinned a venial sin.
+        </EXAMPLE>
+       </EXAMPLES>
+       <SYNTAX>
+        <NP value="Agent">
+         <SYNRESTRS/>
+        </NP>
+        <VERB/>
+        <NP value="Theme">
+         <SYNRESTRS/>
+        </NP>
+       </SYNTAX>
+       <SEMANTICS>
+        <PRED value="engage_in">
+         <ARGS>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Theme"/>
+         </ARGS>
+        </PRED>
+        <PRED value="harm">
+         <ARGS>
+          <ARG type="Event" value="e1"/>
+          <ARG type="ThemRole" value="Agent"/>
+          <ARG type="ThemRole" value="Maleficiary"/>
+         </ARGS>
+        </PRED>
+       </SEMANTICS>
+      </FRAME>
+     </FRAMES>
+     <SUBCLASSES/>
+    </VNSUBCLASS>
+   </SUBCLASSES>
+  </VNSUBCLASS>
+  <VNSUBCLASS ID="rebel-71.2-2">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="" name="legislate" verbnet_key="legislate#1" wn="legislate%2:41:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="protest.01" name="protest" verbnet_key="protest#1" wn="protest%2:32:00 protest%2:41:00" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.topic" secondary="PP; against-PP" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       They protested against discrimination in the workplace.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <PREP value="against">
+       <SELRESTRS/>
+      </PREP>
+      <NP value="Topic">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="engage_in">
+       <ARGS>
+        <ARG type="Event" value="ë"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="VerbSpecific" value="V_Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="about">
+       <ARGS>
+        <ARG type="Event" value="ë"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="harm">
+       <ARGS>
+        <ARG type="Event" value="ë"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Maleficiary"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag="0.2"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       They protested discrimination in the workplace.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Topic">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="engage_in">
+       <ARGS>
+        <ARG type="Event" value="ë"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="VerbSpecific" value="V_Theme"/>
+       </ARGS>
+      </PRED>
+      <PRED value="about">
+       <ARGS>
+        <ARG type="Event" value="ë"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="Topic"/>
+       </ARGS>
+      </PRED>
+      <PRED value="harm">
+       <ARGS>
+        <ARG type="Event" value="ë"/>
+        <ARG type="ThemRole" value="Agent"/>
+        <ARG type="ThemRole" value="?Maleficiary"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
+  </VNSUBCLASS>
+ </SUBCLASSES>
+</VNCLASS>
