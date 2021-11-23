@@ -53,7 +53,6 @@
     </PRED>
    </SEMANTICS>
   </FRAME>
- </FRAMES>
  <SUBCLASSES><VNSUBCLASS ID="bill-54.5">
    <MEMBERS>
     <MEMBER fn_mapping="None" grouping="" name="amerce" verbnet_key="amerce#1" wn="amerce%2:41:01" features=""/>
