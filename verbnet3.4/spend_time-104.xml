@@ -118,7 +118,7 @@
     </NP>
     <VP value="Eventuality">
      <SYNRESTRS/>
-    </NP>
+    </VP>
    </SYNTAX>
    <SEMANTICS>
     <PRED value="spend_time">
@@ -157,7 +157,7 @@
     </NP>
     <VP value="Eventuality">
      <SYNRESTRS/>
-    </NP>
+    </VP>
    </SYNTAX>
    <SEMANTICS>
     <PRED value="spend_time">
