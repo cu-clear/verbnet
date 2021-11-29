@@ -161,7 +161,7 @@
 	<MEMBER fn_mapping="None" grouping="bribe.01" name="bribe" verbnet_key="bribe#1" wn="bribe%2:40:00" features="+induce"/>
 	<MEMBER fn_mapping="None" grouping="" name="coerce" verbnet_key="coerce#1" wn="coerce%2:41:00" features="+compel"/>
 	<MEMBER fn_mapping="None" grouping="compel.01" name="compel" verbnet_key="compel#1" wn="compel%2:41:00" features="+compel"/>
-	<MEMBER fn_mapping="None" grouping="convince.01" name="convince" verbnet_key="convince#2" wn="convince%2:32:00"features="+induce" features=""/>
+	<MEMBER fn_mapping="None" grouping="convince.01" name="convince" verbnet_key="convince#2" wn="convince%2:32:00" features="+induce" />
 	<MEMBER fn_mapping="None" grouping="" name="commandeer" verbnet_key="commandeer#1" wn="commandeer%2:35:00" features="+compel"/>
 	<MEMBER fn_mapping="None" grouping="" name="dragoon" verbnet_key="dragoon#1" wn="dragoon%2:41:00" features="+compel"/>
 	<MEMBER fn_mapping="None" grouping="" name="drive" verbnet_key="drive#1" wn="" features="+compel"/>
@@ -313,4 +313,4 @@
    </SUBCLASSES>
   </VNSUBCLASS>
  </SUBCLASSES>
-</VNCLASS
+</VNCLASS>

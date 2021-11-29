@@ -16,19 +16,18 @@
  </MEMBERS>
  <THEMROLES>
   <THEMROLE type="Agent">
-   <SELRESTRS logic="or">
+    <SELRESTRS logic="or">
     <SELRESTR Value="+" type="animate"/>
     <SELRESTR Value="+" type="organization"/>
    </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Theme">
-   <SELRESTRS/>
+    <SELRESTRS/>
   </THEMROLE>
  </THEMROLES>
-  <THEMROLE type="Result">
+ <THEMROLE type="Result">
    <SELRESTRS/>
-  </THEMROLE>
- </THEMROLES>
+ </THEMROLE>
  <FRAMES>
   <FRAME>
    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
@@ -53,7 +52,6 @@
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="?Result"/>
      </ARGS>
-     </ARGS>
     </PRED>
     <PRED value="do">
      <ARGS>
@@ -72,7 +70,6 @@
       <ARG type="Event" value="e3"/>
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="?Result"/>
-     </ARGS>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -125,10 +122,10 @@
       <ARG type="ThemRole" value="Theme"/>
       <ARG type="ThemRole" value="Result"/>
      </ARGS>
-     </ARGS>
     </PRED>
    </SEMANTICS>
   </FRAME>
  </FRAMES>
  <SUBCLASSES/>
-</VNCLASS
+</VNCLASS>
+
