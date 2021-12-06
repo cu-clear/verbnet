@@ -23,6 +23,7 @@
    </SELRESTRS>
   </THEMROLE>
  </THEMROLES>
+ <FRAMES>
   <FRAME>
    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP NP.asset" secondary="NP-PP; Asset Object" xtag=""/>
    <EXAMPLES>

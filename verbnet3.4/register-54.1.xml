@@ -1,5 +1,6 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="register-54.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+ <MEMBERS/>
  <THEMROLES>
   <THEMROLE type="Theme">
    <SELRESTRS/>
