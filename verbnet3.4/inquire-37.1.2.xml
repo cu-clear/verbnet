@@ -21,7 +21,9 @@
    </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Topic">
-   <SELRESTR Value="+" type="question"/>
+   <SELRESTRS logic="or">    
+       <SELRESTR Value="+" type="question"/>
+   </SELRESTRS>
   </THEMROLE>
  </THEMROLES>
  <FRAMES>
