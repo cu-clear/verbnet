@@ -23,7 +23,7 @@
  </THEMROLES>
  <FRAMES>
   <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V NP" xtag=""/>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      John attacked Simon.
@@ -99,7 +99,7 @@
    <THEMROLES/>
    <FRAMES>
     <FRAME>
-     <DESCRIPTION descriptionNumber="" primary="NP V" xtag=""/>
+     <DESCRIPTION descriptionNumber="" primary="NP V" secondary="" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
        John attacked.
