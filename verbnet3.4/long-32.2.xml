@@ -30,13 +30,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Pivot">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="sc_to_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="sc_to_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -65,14 +65,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Pivot">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -112,14 +112,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Pivot">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="after">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>

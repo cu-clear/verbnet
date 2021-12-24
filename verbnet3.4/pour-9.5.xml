@@ -50,11 +50,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP>
      <SELRESTRS>
@@ -63,7 +63,7 @@
      </SELRESTRS>
     </PREP>
     <NP value="Destination">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -119,16 +119,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Destination">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="adv_loc"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="adv_loc"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -183,7 +183,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP>
@@ -193,7 +193,7 @@
      </SELRESTRS>
     </PREP>
     <NP value="Destination">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -248,11 +248,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP>
      <SELRESTRS>
@@ -260,7 +260,7 @@
      </SELRESTRS>
     </PREP>
     <NP value="Initial_Location">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP>
      <SELRESTRS>
@@ -268,7 +268,7 @@
      </SELRESTRS>
     </PREP>
     <NP value="Destination">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -323,7 +323,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP>
@@ -332,7 +332,7 @@
      </SELRESTRS>
     </PREP>
     <NP value="Initial_Location">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP>
      <SELRESTRS>
@@ -340,7 +340,7 @@
      </SELRESTRS>
     </PREP>
     <NP value="Destination">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>

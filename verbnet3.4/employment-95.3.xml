@@ -34,7 +34,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -72,14 +72,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -116,14 +116,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="on | in | at">
      <SELRESTRS/>
     </PREP>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -160,20 +160,20 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="on">
      <SELRESTRS/>
     </PREP>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="at">
      <SELRESTRS/>
     </PREP>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -210,20 +210,20 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="as">
      <SELRESTRS/>
     </PREP>
     <NP value="Attribute">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -260,26 +260,26 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="as">
      <SELRESTRS/>
     </PREP>
     <NP value="Attribute">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="on">
      <SELRESTRS/>
     </PREP>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>

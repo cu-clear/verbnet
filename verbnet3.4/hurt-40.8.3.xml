@@ -39,11 +39,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -114,7 +114,7 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Patient">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
        </SYNTAX>
@@ -195,13 +195,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="refl"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="refl"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -253,11 +253,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>

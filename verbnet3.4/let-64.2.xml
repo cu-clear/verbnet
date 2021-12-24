@@ -27,14 +27,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Eventuality">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>

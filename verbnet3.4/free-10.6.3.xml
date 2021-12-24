@@ -36,19 +36,19 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Causer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Source">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="of">
      <SELRESTRS/>
     </PREP>
     <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="-" type="sentential"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -103,19 +103,19 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Causer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Source">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="of">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="oc_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="oc_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -167,19 +167,19 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Causer">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Source">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <PREP value="from">
          <SELRESTRS/>
         </PREP>
         <NP value="Theme">
-         <SYNRESTRS>
-          <SYNRESTR Value="-" type="sentential"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="-" type="sentential"/>
+         </SELRESTRS>
         </NP>
        </SYNTAX>
        <SEMANTICS>

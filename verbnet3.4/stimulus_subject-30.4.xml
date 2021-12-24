@@ -27,7 +27,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Stimulus">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <ADJ/>
@@ -51,7 +51,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Stimulus">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <ADJ/>
@@ -59,7 +59,7 @@
      <SELRESTRS/>
     </PREP>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -81,7 +81,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Stimulus">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="like">

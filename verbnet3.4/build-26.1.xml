@@ -75,11 +75,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -125,17 +125,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="from out_of">
      <SELRESTRS/>
     </PREP>
     <NP value="Material">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -181,17 +181,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Material">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="into">
      <SELRESTRS/>
     </PREP>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -229,7 +229,7 @@
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; for-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; NP-product; for-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      Martha carved a toy for the baby.
@@ -237,17 +237,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -299,20 +299,20 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="from out_of">
      <SELRESTRS/>
     </PREP>
     <NP value="Material">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -364,23 +364,23 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="from out_of">
      <SELRESTRS/>
     </PREP>
     <NP value="Material">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -424,7 +424,7 @@
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; for-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; NP-material; for-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      Martha carved a piece of wood for the baby.
@@ -432,17 +432,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Material">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -494,23 +494,23 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Material">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="into">
      <SELRESTRS/>
     </PREP>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -563,11 +563,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Material">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -613,20 +613,20 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Asset">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -685,23 +685,23 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Product">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="from out_of">
      <SELRESTRS/>
     </PREP>
     <NP value="Material">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Asset">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -768,17 +768,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Product">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="for">
        <SELRESTRS/>
       </PREP>
       <NP value="Asset">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -831,11 +831,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Asset">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Product">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -888,14 +888,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Asset">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Beneficiary">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <NP value="Product">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -954,17 +954,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Asset">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Product">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="from out_of">
        <SELRESTRS/>
       </PREP>
       <NP value="Material">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -1017,20 +1017,20 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Asset">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Beneficiary">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <NP value="Product">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="from out_of">
        <SELRESTRS/>
       </PREP>
       <NP value="Material">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>

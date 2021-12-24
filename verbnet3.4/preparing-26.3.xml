@@ -58,11 +58,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Product">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -115,17 +115,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Product">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="from out_of with">
        <SELRESTRS />
       </PREP>
       <NP value="Material">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -178,14 +178,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Beneficiary">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <NP value="Product">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -244,17 +244,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Product">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="for">
        <SELRESTRS />
       </PREP>
       <NP value="Beneficiary">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -348,11 +348,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -393,14 +393,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Beneficiary">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -447,17 +447,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="for">
        <SELRESTRS />
       </PREP>
       <NP value="Beneficiary">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>

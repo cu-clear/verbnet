@@ -37,18 +37,18 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <PREP value="on">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -71,22 +71,22 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="with">
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="on">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -109,18 +109,18 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <PREP value="in">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -143,22 +143,22 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="with">
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="in">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -181,18 +181,18 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <PREP value="in">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="sc_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="sc_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -224,18 +224,18 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <PREP value="in">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -258,18 +258,18 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <PREP value="in">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="sc_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="sc_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -302,18 +302,18 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <PREP value="on">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -336,22 +336,22 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="with">
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="on">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -374,18 +374,18 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <PREP value="at">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="sc_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="sc_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -408,22 +408,22 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="with">
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="at">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="sc_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="sc_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>

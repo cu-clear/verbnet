@@ -35,11 +35,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Duration">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -67,15 +67,15 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Duration">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <LEX value="as"/>
     <NP value="Attribute">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -110,14 +110,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Duration">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VP value="Eventuality">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </VP>
    </SYNTAX>
    <SEMANTICS>
@@ -145,18 +145,18 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Duration">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <LEX value="as"/>
     <NP value="Attribute">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VP value="Eventuality">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </VP>
    </SYNTAX>
    <SEMANTICS>

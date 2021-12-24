@@ -33,7 +33,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -77,14 +77,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="to">
      <SELRESTRS/>
     </PREP>
     <NP value="Co-Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -127,14 +127,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="with">
      <SELRESTRS/>
     </PREP>
     <NP value="Co-Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -213,20 +213,20 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="to">
      <SELRESTRS/>
     </PREP>
     <NP value="Co-Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -269,20 +269,20 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="with">
      <SELRESTRS/>
     </PREP>
     <NP value="Co-Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -361,9 +361,9 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="plural"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="plural"/>
+     </SELRESTRS>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -443,9 +443,9 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="plural"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="plural"/>
+     </SELRESTRS>
     </NP>
     <VERB/>
     <LEX value="together"/>
@@ -526,20 +526,20 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="to">
      <SELRESTRS/>
     </PREP>
     <NP value="Co-Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -582,20 +582,20 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="with">
      <SELRESTRS/>
     </PREP>
     <NP value="Co-Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -674,14 +674,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>

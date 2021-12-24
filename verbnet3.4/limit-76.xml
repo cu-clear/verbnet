@@ -32,11 +32,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Causer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -59,19 +59,19 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Causer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="to">
      <SELRESTRS/>
     </PREP>
     <NP value="Goal">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="oc_ing"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="oc_ing"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -94,17 +94,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Causer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="to">
      <SELRESTRS/>
     </PREP>
     <NP value="Goal">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -127,16 +127,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Causer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Goal">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="oc_to_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="oc_to_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>

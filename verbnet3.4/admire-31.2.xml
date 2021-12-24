@@ -74,11 +74,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Stimulus">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -106,7 +106,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Stimulus">
@@ -116,7 +116,7 @@
      <SELRESTRS />
     </PREP>
     <NP value="Attribute">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -151,11 +151,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Stimulus">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -183,13 +183,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="that_comp" />
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="that_comp" />
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -217,13 +217,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="be_sc_ing" />
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="be_sc_ing" />
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -251,13 +251,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="poss_ing" />
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="poss_ing" />
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -299,13 +299,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Stimulus">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="sc_to_inf" />
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="sc_to_inf" />
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>

@@ -27,14 +27,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="at | to">
        <SELRESTRS/>
       </PREP>
       <NP value="Value">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -75,11 +75,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -95,7 +95,7 @@
      </SEMANTICS>
     </FRAME>
     <FRAME>
-     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.value" secondary="" xtag="0.2"/>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.value" secondary="theme" xtag="0.2"/>
      <EXAMPLES>
       <EXAMPLE>
        He clocked the runners at 16 mph.
@@ -103,19 +103,19 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="at">
        <SELRESTRS/>
       </PREP>
       <NP value="Value">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -131,7 +131,7 @@
      </SEMANTICS>
     </FRAME>
     <FRAME>
-     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.value" secondary="" xtag="0.2"/>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.value" secondary="attribute" xtag="0.2"/>
      <EXAMPLES>
       <EXAMPLE>
        He clocked his speed at 76 mph.
@@ -139,19 +139,19 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Attribute">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="at">
        <SELRESTRS/>
       </PREP>
       <NP value="Value">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -188,11 +188,11 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Theme">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Value">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
        </SYNTAX>
        <SEMANTICS>

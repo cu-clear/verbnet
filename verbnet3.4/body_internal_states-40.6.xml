@@ -32,7 +32,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -52,7 +52,7 @@
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP.from; Stimulus-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      Sharon shivered from fear.
@@ -60,14 +60,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="from">
      <SELRESTRS/>
     </PREP>
     <NP value="Stimulus">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -92,7 +92,7 @@
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP.at; Stimulus-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      Sharon shivered at the thought of the cold sea.
@@ -100,14 +100,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="at">
      <SELRESTRS/>
     </PREP>
     <NP value="Stimulus">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>

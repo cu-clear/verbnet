@@ -43,17 +43,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="with into to">
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -122,13 +122,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -197,13 +197,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <LEX value="together"/>
      </SYNTAX>
@@ -273,14 +273,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="with into to">
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -337,7 +337,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <ADV/>
@@ -345,7 +345,7 @@
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -402,9 +402,9 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <ADV/>
@@ -463,9 +463,9 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <ADV/>
@@ -544,9 +544,9 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Patient">
-         <SYNRESTRS>
-          <SYNRESTR Value="+" type="plural"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="+" type="plural"/>
+         </SELRESTRS>
         </NP>
         <VERB/>
        </SYNTAX>
@@ -604,9 +604,9 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Patient">
-         <SYNRESTRS>
-          <SYNRESTR Value="+" type="plural"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="+" type="plural"/>
+         </SELRESTRS>
         </NP>
         <VERB/>
         <LEX value="together"/>
@@ -678,17 +678,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="with into to">
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -729,13 +729,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -776,13 +776,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <LEX value="together"/>
      </SYNTAX>
@@ -824,7 +824,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <ADV/>
@@ -832,7 +832,7 @@
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -861,9 +861,9 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <ADV/>
@@ -894,9 +894,9 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural"/>
+       </SELRESTRS>
       </NP>
       <VERB/>
       <ADV/>
@@ -944,14 +944,14 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Patient">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <PREP value="with into to">
          <SELRESTRS/>
         </PREP>
         <NP value="Co-Patient">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -980,9 +980,9 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Patient">
-         <SYNRESTRS>
-          <SYNRESTR Value="+" type="plural"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="+" type="plural"/>
+         </SELRESTRS>
         </NP>
         <VERB/>
        </SYNTAX>
@@ -1012,9 +1012,9 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Patient">
-         <SYNRESTRS>
-          <SYNRESTR Value="+" type="plural"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="+" type="plural"/>
+         </SELRESTRS>
         </NP>
         <VERB/>
         <LEX value="together"/>

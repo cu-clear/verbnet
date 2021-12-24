@@ -33,19 +33,19 @@
       </EXAMPLES>
       <SYNTAX>
         <NP value="Agent">
-          <SYNRESTRS/>
+          <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Theme">
-          <SYNRESTRS/>
+          <SELRESTRS/>
         </NP>
         <PREP value="through">
           <SELRESTRS/>
         </PREP>
         <NP value="Instrument">
-          <SYNRESTRS>
-          <SYNRESTR Value="-" type="sentential"/>
-          </SYNRESTRS>
+          <SELRESTRS>
+          <SELRESTR Value="-" type="sentential"/>
+          </SELRESTRS>
         </NP>
       </SYNTAX>
       <SEMANTICS>
@@ -104,14 +104,14 @@
           </EXAMPLES>
           <SYNTAX>
             <NP value="Agent">
-              <SYNRESTRS/>
+              <SELRESTRS/>
             </NP>
             <VERB/>
             <NP value="Theme">
-              <SYNRESTRS/>
+              <SELRESTRS/>
             </NP>
             <NP value="Attribute">
-              <SYNRESTRS/>
+              <SELRESTRS/>
             </NP>
           </SYNTAX>
           <SEMANTICS>

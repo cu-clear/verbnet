@@ -24,13 +24,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Attribute">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="-" type="sentential"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -60,13 +60,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Attribute">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -100,16 +100,16 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Theme">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <PREP value="in">
          <SELRESTRS/>
         </PREP>
         <NP value="Attribute">
-         <SYNRESTRS>
-          <SYNRESTR Value="-" type="sentential"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="-" type="sentential"/>
+         </SELRESTRS>
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -140,13 +140,13 @@
          </EXAMPLES>
          <SYNTAX>
           <NP value="Theme">
-           <SYNRESTRS/>
+           <SELRESTRS/>
           </NP>
           <VERB/>
           <NP value="Attribute">
-           <SYNRESTRS>
-            <SYNRESTR Value="+" type="rs_to_inf"/>
-           </SYNRESTRS>
+           <SELRESTRS>
+            <SELRESTR Value="+" type="rs_to_inf"/>
+           </SELRESTRS>
           </NP>
          </SYNTAX>
          <SEMANTICS>

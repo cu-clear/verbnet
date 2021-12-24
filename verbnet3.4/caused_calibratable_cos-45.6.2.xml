@@ -36,29 +36,29 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Causer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="by at">
      <SELRESTRS />
     </PREP>
     <NP value="Extent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="from">
      <SELRESTRS />
     </PREP>
     <NP value="Initial_State">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="to">
      <SELRESTRS />
     </PREP>
     <NP value="Result">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -121,26 +121,26 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Causer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <NP value="Extent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="from">
      <SELRESTRS />
     </PREP>
     <NP value="Initial_State">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="to">
      <SELRESTRS />
     </PREP>
     <NP value="Result">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -221,11 +221,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Causer">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -288,7 +288,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <ADV />
@@ -335,7 +335,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
      </SYNTAX>
@@ -381,23 +381,23 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Extent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="from">
        <SELRESTRS />
       </PREP>
       <NP value="Initial_State">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="to">
        <SELRESTRS />
       </PREP>
       <NP value="Result">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -442,26 +442,26 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <PREP value="by at">
        <SELRESTRS />
       </PREP>
       <NP value="Extent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="from">
        <SELRESTRS />
       </PREP>
       <NP value="Initial_State">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="to">
        <SELRESTRS />
       </PREP>
       <NP value="Result">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -506,29 +506,29 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Attribute">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="of">
        <SELRESTRS />
       </PREP>
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Extent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="?from">
        <SELRESTRS />
       </PREP>
       <NP value="Initial_State">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="to">
        <SELRESTRS />
       </PREP>
       <NP value="Result">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -573,32 +573,32 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Attribute">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="of">
        <SELRESTRS />
       </PREP>
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <PREP value="by at">
        <SELRESTRS />
       </PREP>
       <NP value="Extent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="from">
        <SELRESTRS />
       </PREP>
       <NP value="Initial_State">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="to">
        <SELRESTRS />
       </PREP>
       <NP value="Result">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -643,29 +643,29 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <PREP value="in">
        <SELRESTRS />
       </PREP>
       <NP value="Attribute">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <NP value="Extent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="from">
        <SELRESTRS />
       </PREP>
       <NP value="Initial_State">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="to">
        <SELRESTRS />
       </PREP>
       <NP value="Result">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -710,32 +710,32 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <PREP value="in">
        <SELRESTRS />
       </PREP>
       <NP value="Attribute">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="by at">
        <SELRESTRS />
       </PREP>
       <NP value="Extent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="from">
        <SELRESTRS />
       </PREP>
       <NP value="Intial_State">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="to">
        <SELRESTRS />
       </PREP>
       <NP value="Result">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>

@@ -40,7 +40,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP>
@@ -49,7 +49,7 @@
        </SELRESTRS>
       </PREP>
       <NP value="Location">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -86,9 +86,9 @@
       <LEX value="there"/>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="definite"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="definite"/>
+       </SELRESTRS>
       </NP>
       <PREP>
        <SELRESTRS>
@@ -96,7 +96,7 @@
        </SELRESTRS>
       </PREP>
       <NP value="Location">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -136,11 +136,11 @@
        </SELRESTRS>
       </PREP>
       <NP value="Location">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -176,14 +176,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Location">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="with">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -236,7 +236,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP>
@@ -245,7 +245,7 @@
        </SELRESTRS>
       </PREP>
       <NP value="Location">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -282,9 +282,9 @@
       <LEX value="there"/>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="definite"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="definite"/>
+       </SELRESTRS>
       </NP>
       <PREP>
        <SELRESTRS>
@@ -292,7 +292,7 @@
        </SELRESTRS>
       </PREP>
       <NP value="Location">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -327,14 +327,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Location">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="with">
        <SELRESTRS/>
       </PREP>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>

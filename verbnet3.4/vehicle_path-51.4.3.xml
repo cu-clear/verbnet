@@ -39,11 +39,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -120,11 +120,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="to">
      <SELRESTRS/>
@@ -207,11 +207,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="from">
      <SELRESTRS/>
@@ -286,19 +286,19 @@
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP" secondary="Basic Transitive; with accompanied motion" xtag=""/>
+   <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP" secondary="Basic Transitive; with venue" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
-     Kevin sailed through the ocean strait.
+     Kevin sailed the seven seas.
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Trajectory">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -333,7 +333,7 @@
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP PP.destination" secondary="NP-PP; Trajectory-PP; Destination-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      Martha sailed through the channel to the shore.
@@ -341,11 +341,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Trajectory">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="to">
      <SELRESTRS/>
@@ -386,7 +386,7 @@
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.initial_location" secondary="NP-PP; Trajectory-PP; Initial_Location-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      Columbus sailed an unknown route from Europe.
@@ -394,11 +394,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Trajectory">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="from">
      <SELRESTRS/>
@@ -457,7 +457,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
      </SYNTAX>
