@@ -301,7 +301,7 @@
        <SELRESTRS/>
       </NP>
       <VERB/>
-      <LEX value="out"/>
+      <ADV value="out"/>
      </SYNTAX>
      <SEMANTICS>
       <PRED value="emit">

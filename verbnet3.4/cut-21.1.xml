@@ -172,7 +172,7 @@
      <SELRESTRS/>
     </NP>
     <VERB/>
-    <LEX value="at"/>
+    <PREP value="at"><SELRESTRS /></PREP>
     <NP value="Patient">
      <SELRESTRS/>
     </NP>
@@ -286,7 +286,7 @@
      <SELRESTRS/>
     </NP>
     <VERB/>
-    <LEX value="at"/>
+    <PREP value="at"><SELRESTRS /></PREP>
     <NP value="Patient">
      <SELRESTRS/>
     </NP>

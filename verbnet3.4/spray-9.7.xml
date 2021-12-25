@@ -394,7 +394,7 @@
       <NP value="Theme">
        <SELRESTRS/>
       </NP>
-      <LEX value="at"/>
+      <PREP value="at"><SELRESTRS /></PREP>
       <NP value="Destination">
        <SELRESTRS/>
       </NP>

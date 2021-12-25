@@ -303,7 +303,7 @@
        <SELRESTRS/>
       </NP>
       <VERB/>
-      <LEX value="at"/>
+      <PREP value="at"><SELRESTRS /></PREP>
       <NP value="Source">
        <SELRESTRS/>
       </NP>

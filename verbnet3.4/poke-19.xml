@@ -376,7 +376,7 @@
          <SELRESTRS/>
         </NP>
         <VERB/>
-        <LEX value="at"/>
+        <PREP value="at"><SELRESTRS /></PREP>
         <NP value="Theme">
          <SELRESTRS/>
         </NP>
@@ -442,7 +442,7 @@
          <SELRESTRS/>
         </NP>
         <VERB/>
-        <LEX value="at"/>
+        <PREP value="at"><SELRESTRS /></PREP>
         <NP value="Theme">
          <SELRESTRS/>
         </NP>
@@ -517,7 +517,7 @@
         <NP value="Instrument">
          <SELRESTRS/>
         </NP>
-        <LEX value="at"/>
+        <PREP value="at"><SELRESTRS /></PREP>
         <NP value="Theme">
          <SELRESTRS/>
         </NP>

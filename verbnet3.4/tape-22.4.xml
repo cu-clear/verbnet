@@ -295,7 +295,7 @@
       <SELRESTR Value="+" type="plural"/>
      </SELRESTRS>
     </NP>
-    <LEX value="together"/>
+    <ADV value="together"/>
    </SYNTAX>
    <SEMANTICS>
     <PRED bool="!" value="attached">
@@ -455,7 +455,7 @@
      </SELRESTRS>
     </NP>
     <VERB/>
-    <LEX value="together"/>
+    <ADV value="together"/>
     <ADV/>
    </SYNTAX>
    <SEMANTICS>

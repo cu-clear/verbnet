@@ -67,7 +67,7 @@
    <THEMROLES/>
    <FRAMES>
     <FRAME>
-     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.attribute" secondary="NP" xtag="0.2"/>
+     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.attribute of NP.theme" secondary="NP" xtag="0.2"/>
      <EXAMPLES>
       <EXAMPLE>
        He estimated the probability of Don Quixote spontaneously combusting upon contact with the curry powder.

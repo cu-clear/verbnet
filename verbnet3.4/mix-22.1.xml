@@ -205,7 +205,7 @@
         <SELRESTR Value="+" type="plural"/>
        </SELRESTRS>
       </NP>
-      <LEX value="together"/>
+      <ADV value="together"/>
      </SYNTAX>
      <SEMANTICS>
       <PRED bool="!" value="mingled">
@@ -469,7 +469,7 @@
       </NP>
       <VERB/>
       <ADV/>
-      <LEX value="together"/>
+      <ADV value="together"/>
      </SYNTAX>
      <SEMANTICS>
       <PRED bool="!" value="mingled">
@@ -609,7 +609,7 @@
          </SELRESTRS>
         </NP>
         <VERB/>
-        <LEX value="together"/>
+        <ADV value="together"/>
        </SYNTAX>
        <SEMANTICS>
         <PRED bool="!" value="mingled">
@@ -784,7 +784,7 @@
         <SELRESTR Value="+" type="plural"/>
        </SELRESTRS>
       </NP>
-      <LEX value="together"/>
+      <ADV value="together"/>
      </SYNTAX>
      <SEMANTICS>
       <PRED bool="!" value="together">
@@ -900,7 +900,7 @@
       </NP>
       <VERB/>
       <ADV/>
-      <LEX value="together"/>
+      <ADV value="together"/>
      </SYNTAX>
      <SEMANTICS>
       <PRED bool="!" value="together">
@@ -1017,7 +1017,7 @@
          </SELRESTRS>
         </NP>
         <VERB/>
-        <LEX value="together"/>
+        <ADV value="together"/>
        </SYNTAX>
        <SEMANTICS>
         <PRED bool="!" value="together">

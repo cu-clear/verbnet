@@ -191,7 +191,7 @@
       <SELRESTR Value="+" type="plural"/>
      </SELRESTRS>
     </NP>
-    <LEX value="together"/>
+    <ADV value="together"/>
    </SYNTAX>
    <SEMANTICS>
     <PRED bool="!" value="contact">
@@ -939,7 +939,7 @@
        <SELRESTRS/>
       </NP>
       <VERB/>
-      <LEX value="at"/>
+      <PREP value="at"><SELRESTRS /></PREP>
       <NP value="Patient">
        <SELRESTRS/>
       </NP>
@@ -979,7 +979,7 @@
        <SELRESTRS/>
       </NP>
       <VERB/>
-      <LEX value="at"/>
+      <PREP value="at"><SELRESTRS /></PREP>
       <NP value="Patient">
        <SELRESTRS/>
       </NP>

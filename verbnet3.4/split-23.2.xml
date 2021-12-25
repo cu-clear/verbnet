@@ -110,7 +110,7 @@
       <SELRESTR Value="+" type="plural"/>
      </SELRESTRS>
     </NP>
-    <LEX value="apart"/>
+    <ADV value="apart"/>
    </SYNTAX>
    <SEMANTICS>
     <PRED value="attached">
@@ -191,7 +191,7 @@
      </SELRESTRS>
     </NP>
     <VERB/>
-    <LEX value="apart"/>
+    <ADV value="apart"/>
    </SYNTAX>
    <SEMANTICS>
     <PRED value="attached">
@@ -261,7 +261,7 @@
      </SELRESTRS>
     </NP>
     <VERB/>
-    <LEX value="apart"/>
+    <ADV value="apart"/>
     <ADV/>
    </SYNTAX>
    <SEMANTICS>

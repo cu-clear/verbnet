@@ -70,7 +70,7 @@
     </NP>
     <VERB/>
     <ADV/>
-    <LEX value="together"/>
+    <ADV value="together"/>
    </SYNTAX>
    <SEMANTICS>
     <PRED bool="!" value="together">
@@ -168,7 +168,7 @@
         <SELRESTR Value="+" type="plural"/>
        </SELRESTRS>
       </NP>
-      <LEX value="together"/>
+      <ADV value="together"/>
      </SYNTAX>
      <SEMANTICS>
       <PRED bool="!" value="mingled">
@@ -419,7 +419,7 @@
         <SELRESTR Value="+" type="plural"/>
        </SELRESTRS>
       </NP>
-      <LEX value="together"/>
+      <ADV value="together"/>
      </SYNTAX>
      <SEMANTICS>
       <PRED bool="!" value="together">

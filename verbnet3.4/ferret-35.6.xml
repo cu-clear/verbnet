@@ -34,7 +34,9 @@
     <NP value="Theme">
      <SELRESTRS/>
     </NP>
-    <PREP/>
+    <PREP>
+        <SELRESTRS />
+    </PREP>
     <NP value="Source">
      <SELRESTRS/>
     </NP>
@@ -69,7 +71,7 @@
      <SELRESTRS/>
     </NP>
     <VERB/>
-    <PREP/>
+    <PREP><SELRESTRS/></PREP>
     <NP value="Theme">
      <SELRESTRS/>
     </NP>
