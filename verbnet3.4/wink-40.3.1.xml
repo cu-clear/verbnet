@@ -48,11 +48,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -128,17 +128,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="in">
      <SELRESTRS/>
     </PREP>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -214,7 +214,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -291,7 +291,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP>
@@ -300,7 +300,7 @@
      </SELRESTRS>
     </PREP>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -376,11 +376,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP>
      <SELRESTRS>
@@ -388,7 +388,7 @@
      </SELRESTRS>
     </PREP>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -464,11 +464,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -544,14 +544,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="in">
      <SELRESTRS/>
     </PREP>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -627,11 +627,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>

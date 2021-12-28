@@ -31,11 +31,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Co-Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -68,14 +68,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="to">
        <SELRESTRS/>
       </PREP>
       <NP value="Co-Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>

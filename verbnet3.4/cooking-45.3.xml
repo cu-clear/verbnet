@@ -87,11 +87,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -146,17 +146,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="in on with">
      <SELRESTRS />
     </PREP>
     <NP value="Instrument">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -211,7 +211,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
    </SYNTAX>
@@ -255,7 +255,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <ADV />
@@ -300,11 +300,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Instrument">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -347,11 +347,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="to into">
      <SELRESTRS />
@@ -421,11 +421,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="to into">
      <SELRESTRS />
@@ -439,7 +439,7 @@
      <SELRESTRS />
     </PREP>
     <NP value="Instrument">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -501,7 +501,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <PREP value="to into">
@@ -560,7 +560,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <PREP value="to into">
@@ -575,7 +575,7 @@
      <SELRESTRS />
     </PREP>
     <NP value="Instrument">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>

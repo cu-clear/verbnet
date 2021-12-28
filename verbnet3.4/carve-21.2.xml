@@ -72,11 +72,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -143,17 +143,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="with">
        <SELRESTRS/>
       </PREP>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -220,7 +220,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <ADV/>
@@ -263,11 +263,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -334,7 +334,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <ADV/>
@@ -421,11 +421,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -485,17 +485,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="with">
        <SELRESTRS/>
       </PREP>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -555,7 +555,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <ADV/>
@@ -597,11 +597,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -661,7 +661,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <ADV/>
@@ -741,11 +741,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -798,17 +798,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="with">
        <SELRESTRS/>
       </PREP>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -861,7 +861,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <ADV/>
@@ -916,11 +916,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -973,7 +973,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <ADV/>

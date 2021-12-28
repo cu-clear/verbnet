@@ -35,11 +35,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -80,19 +80,19 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="into">
      <SELRESTRS/>
     </PREP>
     <NP value="Result">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="oc_ing"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="oc_ing"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -146,19 +146,19 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="into">
      <SELRESTRS/>
     </PREP>
     <NP value="Result">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="-" type="sentential"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>

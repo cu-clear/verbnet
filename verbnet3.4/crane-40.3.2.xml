@@ -81,11 +81,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -161,11 +161,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP>
      <SELRESTRS>
@@ -173,7 +173,7 @@
      </SELRESTRS>
     </PREP>
     <NP value="Recipient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -249,11 +249,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Patient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP>
      <SELRESTRS>
@@ -261,13 +261,13 @@
      </SELRESTRS>
     </PREP>
     <NP value="Recipient">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="in">
      <SELRESTRS />
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>

@@ -70,11 +70,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Co-Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -118,11 +118,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <LEX value="and"/>
       <NP value="Co-Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
      </SYNTAX>
@@ -162,7 +162,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
      </SYNTAX>

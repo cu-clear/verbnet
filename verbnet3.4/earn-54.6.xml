@@ -26,11 +26,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Asset">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>

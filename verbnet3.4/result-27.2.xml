@@ -26,14 +26,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Precondition">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="in | to">
      <SELRESTRS/>
     </PREP>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>

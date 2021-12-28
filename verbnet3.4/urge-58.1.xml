@@ -29,11 +29,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -117,16 +117,16 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Recipient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <NP value="Topic">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="oc_to_inf"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="oc_to_inf"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -212,16 +212,16 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Agent">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Recipient">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <NP value="Topic">
-         <SYNRESTRS>
-          <SYNRESTR Value="+" type="that_comp"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="+" type="that_comp"/>
+         </SELRESTRS>
         </NP>
        </SYNTAX>
        <SEMANTICS>

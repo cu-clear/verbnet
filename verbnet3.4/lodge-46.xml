@@ -32,14 +32,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="at in with">
      <SELRESTRS/>
     </PREP>
     <NP value="Location">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -61,13 +61,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Location">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="adv_loc"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="adv_loc"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -82,7 +82,7 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS>
+  <VNSUBCLASS ID="lodge-46-1">
    <MEMBERS>
     <MEMBER fn_mapping="None" grouping="barrack.01" name="barrack" verbnet_key="barrack#1" wn="barrack%2:42:00" features=""/>
     <MEMBER fn_mapping="None" grouping="" name="bivouac" verbnet_key="bivouac#1" wn="bivouac%2:42:00" features=""/>
@@ -112,17 +112,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="at in with">
        <SELRESTRS/>
       </PREP>
       <NP value="Location">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>

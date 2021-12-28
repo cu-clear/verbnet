@@ -31,11 +31,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Precondition">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -57,16 +57,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Precondition">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="-" type="sentential"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -94,17 +94,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Precondition">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="for">
      <SELRESTRS/>
     </PREP>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -132,13 +132,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Precondition">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="oc_to_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="oc_to_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>

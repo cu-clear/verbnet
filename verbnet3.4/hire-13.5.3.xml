@@ -46,11 +46,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -107,19 +107,19 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="as">
      <SELRESTRS/>
     </PREP>
     <NP value="Attribute">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="-" type="sentential"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -176,16 +176,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Attribute">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="to_be"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="to_be"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>

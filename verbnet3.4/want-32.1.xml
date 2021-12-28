@@ -27,11 +27,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Pivot">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -68,13 +68,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Pivot">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="for_comp"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="for_comp"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -103,13 +103,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Pivot">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="np_omit_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="np_omit_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -138,11 +138,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Pivot">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <ADJ/>
      </SYNTAX>
@@ -172,11 +172,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Pivot">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -205,13 +205,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Pivot">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="ac_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="ac_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -240,13 +240,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Pivot">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="np_ppart"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="np_ppart"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -275,13 +275,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Pivot">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="poss_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="poss_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -310,13 +310,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Pivot">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="sc_to_inf"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="sc_to_inf"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -357,13 +357,13 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Pivot">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Theme">
-         <SYNRESTRS>
-          <SYNRESTR Value="+" type="np_to_inf"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="+" type="np_to_inf"/>
+         </SELRESTRS>
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -392,13 +392,13 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Pivot">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Theme">
-         <SYNRESTRS>
-          <SYNRESTR Value="+" type="to_be"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="+" type="to_be"/>
+         </SELRESTRS>
         </NP>
        </SYNTAX>
        <SEMANTICS>

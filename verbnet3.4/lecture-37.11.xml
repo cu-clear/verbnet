@@ -28,16 +28,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="ac_ing"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="ac_ing"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -103,7 +103,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
      </SYNTAX>
@@ -147,16 +147,16 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="about">
        <SELRESTRS/>
       </PREP>
       <NP value="Topic">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -199,22 +199,22 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="to">
        <SELRESTRS/>
       </PREP>
       <NP value="Recipient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="about">
        <SELRESTRS/>
       </PREP>
       <NP value="Topic">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -266,16 +266,16 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Agent">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <PREP value="about">
          <SELRESTRS/>
         </PREP>
         <NP value="Topic">
-         <SYNRESTRS>
-          <SYNRESTR Value="+" type="poss_ing"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="+" type="poss_ing"/>
+         </SELRESTRS>
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -329,16 +329,16 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="about">
        <SELRESTRS/>
       </PREP>
       <NP value="Topic">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -381,16 +381,16 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="on">
        <SELRESTRS/>
       </PREP>
       <NP value="Topic">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="poss_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="poss_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>

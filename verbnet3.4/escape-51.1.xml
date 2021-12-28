@@ -37,7 +37,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <PREP>
@@ -89,7 +89,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <PREP>
@@ -141,7 +141,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <PREP>
@@ -232,7 +232,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
      </SYNTAX>
@@ -276,7 +276,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <PREP>
@@ -342,11 +342,11 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Theme">
-         <SYNRESTRS />
+         <SELRESTRS />
         </NP>
         <VERB />
         <NP value="Initial_Location">
-         <SYNRESTRS />
+         <SELRESTRS />
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -399,11 +399,11 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Theme">
-         <SYNRESTRS />
+         <SELRESTRS />
         </NP>
         <VERB />
         <NP value="Destination">
-         <SYNRESTRS />
+         <SELRESTRS />
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -459,11 +459,11 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Theme">
-         <SYNRESTRS />
+         <SELRESTRS />
         </NP>
         <VERB />
         <NP value="Trajectory">
-         <SYNRESTRS />
+         <SELRESTRS />
         </NP>
        </SYNTAX>
        <SEMANTICS>

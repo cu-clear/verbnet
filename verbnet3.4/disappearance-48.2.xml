@@ -24,7 +24,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -73,14 +73,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="from">
        <SELRESTRS/>
       </PREP>
       <NP value="Initial_Location">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>

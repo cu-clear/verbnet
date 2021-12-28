@@ -27,7 +27,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -50,16 +50,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="from">
      <SELRESTRS/>
     </PREP>
     <NP value="Eventuality">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="sc_ing"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="sc_ing"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -81,16 +81,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="from">
      <SELRESTRS/>
     </PREP>
     <NP value="Eventuality">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="-" type="sentential"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>

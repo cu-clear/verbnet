@@ -25,13 +25,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="that_comp"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="that_comp"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -53,11 +53,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Stimulus">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -79,11 +79,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Stimulus">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -105,13 +105,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="how_extract"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="how_extract"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -133,13 +133,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="what_extract"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="what_extract"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -175,13 +175,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Stimulus">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="oc_bare_inf"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="oc_bare_inf"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -203,13 +203,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Stimulus">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="oc_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="oc_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -231,13 +231,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Stimulus">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="poss_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="poss_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -267,14 +267,14 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Experiencer">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <PREP value="about of">
          <SELRESTRS/>
         </PREP>
         <NP value="Stimulus">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
        </SYNTAX>
        <SEMANTICS>

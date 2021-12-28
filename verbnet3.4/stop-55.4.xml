@@ -26,11 +26,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Affector">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Eventuality">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -83,7 +83,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Eventuality">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
      </SYNTAX>
@@ -128,13 +128,13 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Affector">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Eventuality">
-         <SYNRESTRS>
-          <SYNRESTR Value="+" type="be_sc_ing"/>
-         </SYNRESTRS>
+         <SELRESTRS>
+          <SELRESTR Value="+" type="be_sc_ing"/>
+         </SELRESTRS>
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -161,17 +161,17 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Affector">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Eventuality">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <PREP value="with">
          <SELRESTRS/>
         </PREP>
         <NP value="Subeventuality">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -211,11 +211,11 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Subeventuality">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Eventuality">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
        </SYNTAX>
        <SEMANTICS>

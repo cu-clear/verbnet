@@ -33,7 +33,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>

@@ -27,11 +27,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Pivot">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Theme">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>

@@ -21,7 +21,9 @@
    </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Topic">
-   <SELRESTR Value="+" type="question"/>
+   <SELRESTRS logic="or">    
+       <SELRESTR Value="+" type="question"/>
+   </SELRESTRS>
   </THEMROLE>
  </THEMROLES>
  <FRAMES>
@@ -34,13 +36,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="how_extract"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="how_extract"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -90,13 +92,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wh_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wh_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -146,7 +148,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -197,11 +199,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -251,13 +253,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="-" type="sentential"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -307,19 +309,19 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="-" type="sentential"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -369,16 +371,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wh_comp"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wh_comp"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -428,16 +430,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="what_extract"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="what_extract"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -487,16 +489,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wheth_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wheth_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -546,16 +548,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="what_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="what_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -605,16 +607,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wh_comp"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wh_comp"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -664,19 +666,19 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="what_extract"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="what_extract"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -726,16 +728,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wheth_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wheth_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -785,16 +787,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="what_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="what_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -844,16 +846,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="-" type="sentential"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="-" type="sentential"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -903,7 +905,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="of">
@@ -913,9 +915,9 @@
      <SELRESTRS/>
     </NP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="how_extract"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="how_extract"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -965,19 +967,19 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="of">
      <SELRESTRS/>
     </PREP>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wh_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wh_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -1027,22 +1029,22 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="of">
      <SELRESTRS/>
     </PREP>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wh_comp"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wh_comp"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -1092,22 +1094,22 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="of">
      <SELRESTRS/>
     </PREP>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="what_extract"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="what_extract"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -1157,22 +1159,22 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="of">
      <SELRESTRS/>
     </PREP>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="what_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="what_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -1222,22 +1224,22 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="of">
      <SELRESTRS/>
     </PREP>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="about">
      <SELRESTRS/>
     </PREP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wheth_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wheth_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -1287,13 +1289,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wh_comp"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wh_comp"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -1343,13 +1345,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="what_extract"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="what_extract"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -1399,13 +1401,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wheth_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wheth_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -1455,13 +1457,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="what_inf"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="what_inf"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -1511,16 +1513,16 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Recipient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <NP value="Topic">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="how_extract"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="how_extract"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>

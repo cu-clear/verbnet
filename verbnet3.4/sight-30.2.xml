@@ -43,11 +43,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Stimulus">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>

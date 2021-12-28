@@ -24,17 +24,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Causer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Beneficiary">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="from">
      <SELRESTRS/>
     </PREP>
     <NP value="Eventuality">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -74,13 +74,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Causer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Eventuality">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="poss_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="poss_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -103,13 +103,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Causer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="ac_ing"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="ac_ing"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -132,13 +132,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Causer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="-" type="sentential"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="-" type="sentential"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>

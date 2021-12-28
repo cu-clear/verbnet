@@ -21,7 +21,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Stimulus">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -59,11 +59,11 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Stimulus">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -91,14 +91,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Stimulus">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="on at">
        <SELRESTRS/>
       </PREP>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -135,14 +135,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Stimulus">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="to">
        <SELRESTRS/>
       </PREP>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>

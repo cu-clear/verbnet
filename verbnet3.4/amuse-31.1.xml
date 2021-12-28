@@ -271,11 +271,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Stimulus">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -303,7 +303,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <ADV />
@@ -333,7 +333,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Stimulus">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
    </SYNTAX>
@@ -362,14 +362,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="genitive" />
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="genitive" />
+     </SELRESTRS>
     </NP>
     <LEX value="'s" />
     <VERB />
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -397,14 +397,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Stimulus">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Experiencer">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <NP value="Result">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>

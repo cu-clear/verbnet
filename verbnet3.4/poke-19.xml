@@ -34,11 +34,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -93,17 +93,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="with">
      <SELRESTRS/>
     </PREP>
     <NP value="Instrument">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -158,11 +158,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Instrument">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -225,17 +225,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="through">
        <SELRESTRS/>
       </PREP>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -290,17 +290,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Instrument">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="into">
        <SELRESTRS/>
       </PREP>
       <NP value="Patient">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -373,12 +373,12 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Agent">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
-        <LEX value="at"/>
+        <PREP value="at"><SELRESTRS /></PREP>
         <NP value="Theme">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -439,18 +439,18 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Agent">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
-        <LEX value="at"/>
+        <PREP value="at"><SELRESTRS /></PREP>
         <NP value="Theme">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <PREP value="with">
          <SELRESTRS/>
         </PREP>
         <NP value="Instrument">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -511,15 +511,15 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Agent">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
         <VERB/>
         <NP value="Instrument">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
-        <LEX value="at"/>
+        <PREP value="at"><SELRESTRS /></PREP>
         <NP value="Theme">
-         <SYNRESTRS/>
+         <SELRESTRS/>
         </NP>
        </SYNTAX>
        <SEMANTICS>
@@ -593,11 +593,11 @@
          </EXAMPLES>
          <SYNTAX>
           <NP value="Agent">
-           <SYNRESTRS/>
+           <SELRESTRS/>
           </NP>
           <VERB/>
           <NP value="Theme">
-           <SYNRESTRS/>
+           <SELRESTRS/>
           </NP>
          </SYNTAX>
          <SEMANTICS>
@@ -671,17 +671,17 @@
          </EXAMPLES>
          <SYNTAX>
           <NP value="Agent">
-           <SYNRESTRS/>
+           <SELRESTRS/>
           </NP>
           <VERB/>
           <NP value="Theme">
-           <SYNRESTRS/>
+           <SELRESTRS/>
           </NP>
           <PREP value="with">
            <SELRESTRS/>
           </PREP>
           <NP value="Instrument">
-           <SYNRESTRS/>
+           <SELRESTRS/>
           </NP>
          </SYNTAX>
          <SEMANTICS>
@@ -755,11 +755,11 @@
          </EXAMPLES>
          <SYNTAX>
           <NP value="Instrument">
-           <SYNRESTRS/>
+           <SELRESTRS/>
           </NP>
           <VERB/>
           <NP value="Theme">
-           <SYNRESTRS/>
+           <SELRESTRS/>
           </NP>
          </SYNTAX>
          <SEMANTICS>

@@ -23,7 +23,7 @@
  </THEMROLES>
  <FRAMES>
   <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V NP" xtag=""/>
+   <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      John attacked Simon.
@@ -31,11 +31,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -99,7 +99,7 @@
    <THEMROLES/>
    <FRAMES>
     <FRAME>
-     <DESCRIPTION descriptionNumber="" primary="NP V" xtag=""/>
+     <DESCRIPTION descriptionNumber="" primary="NP V" secondary="" xtag=""/>
      <EXAMPLES>
       <EXAMPLE>
        John attacked.
@@ -107,7 +107,7 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
      </SYNTAX>

@@ -26,14 +26,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Theme">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <PREP value="against into onto">
      <SELRESTRS />
     </PREP>
     <NP value="Location">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -107,9 +107,9 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Theme">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="plural" />
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="plural" />
+       </SELRESTRS>
       </NP>
       <VERB />
       <LEX value="together" />

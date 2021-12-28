@@ -37,23 +37,23 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="from">
      <SELRESTRS/>
     </PREP>
     <NP value="Initial_State">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="into">
      <SELRESTRS/>
     </PREP>
     <NP value="Result">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -100,20 +100,20 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="from">
      <SELRESTRS/>
     </PREP>
     <NP value="Initial_State">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="into">
      <SELRESTRS/>
     </PREP>
     <NP value="Result">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -148,17 +148,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <PREP value="into">
      <SELRESTRS/>
     </PREP>
     <NP value="Result">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -205,14 +205,14 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <PREP value="into">
      <SELRESTRS/>
     </PREP>
     <NP value="Result">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -247,7 +247,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -283,11 +283,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Patient">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -344,14 +344,14 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="to">
        <SELRESTRS/>
       </PREP>
       <NP value="Result">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -398,20 +398,20 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="from">
        <SELRESTRS/>
       </PREP>
       <NP value="Initial_State">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="to">
        <SELRESTRS/>
       </PREP>
       <NP value="Result">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -458,20 +458,20 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="to">
        <SELRESTRS/>
       </PREP>
       <NP value="Result">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <PREP value="from">
        <SELRESTRS/>
       </PREP>
       <NP value="Initial_State">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>

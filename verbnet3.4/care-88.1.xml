@@ -24,7 +24,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
    </SYNTAX>
@@ -53,13 +53,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="that_comp"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="that_comp"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -87,13 +87,13 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Experiencer">
-     <SYNRESTRS/>
+     <SELRESTRS/>
     </NP>
     <VERB/>
     <NP value="Stimulus">
-     <SYNRESTRS>
-      <SYNRESTR Value="+" type="wh_comp"/>
-     </SYNRESTRS>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="wh_comp"/>
+     </SELRESTRS>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -131,16 +131,16 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="about">
        <SELRESTRS/>
       </PREP>
       <NP value="Stimulus">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="what_extract"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="what_extract"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -168,13 +168,13 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <NP value="Stimulus">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="what_extract"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="what_extract"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -202,16 +202,16 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Experiencer">
-       <SYNRESTRS/>
+       <SELRESTRS/>
       </NP>
       <VERB/>
       <PREP value="about">
        <SELRESTRS/>
       </PREP>
       <NP value="Stimulus">
-       <SYNRESTRS>
-        <SYNRESTR Value="+" type="wh_comp"/>
-       </SYNRESTRS>
+       <SELRESTRS>
+        <SELRESTR Value="+" type="wh_comp"/>
+       </SELRESTRS>
       </NP>
      </SYNTAX>
      <SEMANTICS>

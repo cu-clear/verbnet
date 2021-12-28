@@ -36,11 +36,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Theme">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -78,17 +78,17 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Theme">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <PREP value="for">
      <SELRESTRS />
     </PREP>
     <NP value="Attribute">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -126,11 +126,11 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
     <VERB />
     <NP value="Attribute">
-     <SYNRESTRS />
+     <SELRESTRS />
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -247,17 +247,17 @@
      </EXAMPLES>
      <SYNTAX>
       <NP value="Agent">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <VERB />
       <NP value="Theme">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
       <PREP value="as">
        <SELRESTRS />
       </PREP>
       <NP value="Attribute">
-       <SYNRESTRS />
+       <SELRESTRS />
       </NP>
      </SYNTAX>
      <SEMANTICS>
@@ -305,14 +305,16 @@
        </EXAMPLES>
        <SYNTAX>
         <NP value="Agent">
-         <SYNRESTRS />
+         <SELRESTRS />
         </NP>
         <VERB />
         <NP value="Theme">
-         <SYNRESTRS />
+         <SELRESTRS />
         </NP>
         <NP value="Attribute">
-          <SYNRESTR Value="+" type="small_clause" />
+         <SELRESTRS>
+           <SELRESTR Value="+" type="small_clause">
+         </SELRESTRS>
         </NP>
        </SYNTAX>
        <SEMANTICS>

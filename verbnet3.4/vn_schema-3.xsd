@@ -53,13 +53,13 @@
   <xsd:attribute name="logic" use="optional" type="xsd:string"/>
 </xsd:complexType></xsd:element>          
 
-<xsd:element name="SYNRESTRS"><xsd:complexType>
+<xsd:element name="SELRESTRS"><xsd:complexType>
   <xsd:choice minOccurs="0" maxOccurs="unbounded">
-    <xsd:element name="SYNRESTR"><xsd:complexType>
+    <xsd:element name="SELRESTR"><xsd:complexType>
       <xsd:attribute name="Value" use="required" type="boolValue"/>
       <xsd:attribute name="type" use="required" type="synrestrType"/>
     </xsd:complexType></xsd:element>
-    <xsd:element ref="SYNRESTRS"/> 
+    <xsd:element ref="SELRESTRS"/> 
   </xsd:choice>  
   <xsd:attribute name="logic" use="optional" type="xsd:string"/>
 </xsd:complexType></xsd:element>          
@@ -86,7 +86,7 @@
   <xsd:complexType>
   <xsd:choice> 
     <xsd:element ref="SELRESTRS"/>
-    <xsd:element ref="SYNRESTRS"/>
+    <xsd:element ref="SELRESTRS"/>
   </xsd:choice>
   <xsd:attribute name="value" type="npType" use="required"/>
   </xsd:complexType>
