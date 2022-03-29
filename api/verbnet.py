@@ -331,8 +331,8 @@ class VerbClass(AbstractXML):
 
     def _subclass(self):
         """Get every subclass listed, if any"""
-        subclasses_soup = self.soup.find_all("SUBCLASSES")
-        if len(subclasses_soup[0].text) < 1:
+        subclasses_soup = self.soup.find_all("SUBCLASSES")        
+        if len(subclasses_soup) < 1 or len(subclasses_soup[0].text) < 1:
             return []
         return [VerbClass(sub_soup, self.version) for sub_soup in \
                 self.soup.SUBCLASSES.find_all("VNSUBCLASS", recursive=False)]
@@ -723,7 +723,7 @@ def search(verbclasslist, pred_type=None, themroles=None, synroles=None, semrole
 
 
 def test():
-    # vnp = VerbNetParser(directory="C:/Users/Kevin/PycharmProjects/lexical_resources/verbnet_svn/")
+    # vnp = VerbNetParser(directory='/Users/ghazalehk/codes/github/verbnet/verbnet3.4')
     #
     # for v in vnp.get_members():
     #     print(v)
