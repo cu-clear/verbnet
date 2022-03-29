@@ -82,7 +82,7 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS>
+  <VNSUBCLASS ID="odge-46-1">
    <MEMBERS>
     <MEMBER fn_mapping="None" grouping="barrack.01" name="barrack" verbnet_key="barrack#1" wn="barrack%2:42:00" features=""/>
     <MEMBER fn_mapping="None" grouping="" name="bivouac" verbnet_key="bivouac#1" wn="bivouac%2:42:00" features=""/>

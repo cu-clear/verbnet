@@ -17,7 +17,7 @@
  <THEMROLES>
   <THEMROLE type="Experiencer">
    <SELRESTRS>
-    <SELRESTRS Value="+" type="animate"/>
+    <SELRESTR Value="+" type="animate"/>
    </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Stimulus">
