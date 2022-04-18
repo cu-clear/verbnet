@@ -61,7 +61,7 @@
      <ARGS>
       <ARG type="Event" value="ë2" />
       <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Trajectory" />
+      <ARG type="ThemRole" value="?Trajectory" />
      </ARGS>
     </PRED>
     <PRED bool="!" value="has_location">
@@ -127,7 +127,7 @@
      <ARGS>
       <ARG type="Event" value="e3" />
       <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Destination" />
+      <ARG type="ThemRole" value="?Destination" />
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -173,7 +173,7 @@
      <ARGS>
       <ARG type="Event" value="ë2" />
       <ARG type="ThemRole" value="Theme" />
-      <ARG type="ThemRole" value="Trajectory" />
+      <ARG type="ThemRole" value="?Trajectory" />
      </ARGS>
     </PRED>
     <PRED bool="!" value="has_location">

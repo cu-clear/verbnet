@@ -173,7 +173,7 @@
      <ARGS>
       <ARG type="Event" value="ë3"/>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
     <PRED bool="!" value="has_location">
