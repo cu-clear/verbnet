@@ -89,6 +89,7 @@
     </PRED>
    </SEMANTICS>
   </FRAME>
+ </FRAMES>
  <SUBCLASSES>
   <VNSUBCLASS ID="acquiesce-95.1-1">
    <MEMBERS>
@@ -192,6 +193,5 @@
    </SUBCLASSES>
   </VNSUBCLASS>
  </SUBCLASSES>
-</FRAMES>
 </VNCLASS>
 
