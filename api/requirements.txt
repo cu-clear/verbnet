@@ -4,7 +4,7 @@ bs4==0.0.1
 definitions==0.2.0
 lxml==4.6.5
 nltk>=3.4.5
-numpy==1.12.1
+numpy==1.21.0
 packaging==16.8
 pyparsing==2.2.0
 PyYAML==5.4
