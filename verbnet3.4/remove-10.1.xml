@@ -4,7 +4,7 @@
   <MEMBER fn_mapping="None" grouping="abolish.01" name="abolish" verbnet_key="abolish#1" wn="abolish%2:41:00" features=""/>
   <MEMBER fn_mapping="None" grouping="abstract.02" name="abstract" verbnet_key="abstract#1" wn="abstract%2:40:00" features=""/>
   <MEMBER fn_mapping="None" grouping="" name="cull" verbnet_key="cull#2" wn="cull%2:40:00 cull%2:35:00" features=""/>
-  <MEMBER fn_mapping="None" grouping="cut.06" name="cut-off" verbnet_key="cut-off#1" wn="" features=""/>
+  <MEMBER fn_mapping="None" grouping="cut.06" name="cut_off" verbnet_key="cut_off#2" wn="" features=""/>
   <MEMBER fn_mapping="None" grouping="" name="deburr" verbnet_key="deburr#1" wn="" features=""/>
   <MEMBER fn_mapping="None" grouping="deduct.01" name="deduct" verbnet_key="deduct#3" wn="deduct%2:31:01 deduct%2:40:00" features=""/>
   <MEMBER fn_mapping="None" grouping="delete.01" name="delete" verbnet_key="delete#1" wn="delete%2:35:00 delete%2:32:00" features=""/>
