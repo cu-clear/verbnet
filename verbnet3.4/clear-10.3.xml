@@ -299,7 +299,7 @@
        <PRED value="do">
         <ARGS>
          <ARG type="Event" value="e2"/>
-         <ARG type="ThemRole" value="Agent"/>
+         <ARG type="ThemRole" value="?Agent"/>
         </ARGS>
        </PRED>
        <PRED value="motion">
@@ -377,7 +377,7 @@
        <PRED value="do">
         <ARGS>
          <ARG type="Event" value="e2"/>
-         <ARG type="ThemRole" value="Agent"/>
+         <ARG type="ThemRole" value="?Agent"/>
         </ARGS>
        </PRED>
        <PRED value="motion">
