@@ -55,7 +55,8 @@
    </SEMANTICS>
   </FRAME>
  </FRAMES>
- <SUBCLASSES><VNSUBCLASS ID="bill-54.5">
+ <SUBCLASSES>
+  <VNSUBCLASS ID="bill-54.5-1">
    <MEMBERS>
     <MEMBER fn_mapping="None" grouping="" name="amerce" verbnet_key="amerce#1" wn="amerce%2:41:01" features=""/>
     <MEMBER fn_mapping="None" grouping="bet.01" name="bet" verbnet_key="bet#1" wn="bet%2:33:00" features=""/>
@@ -99,7 +100,7 @@
      </SEMANTICS>
     </FRAME>
    </FRAMES>
-   <SUBCLASSES/>
+   </SUBCLASSES>
   </VNSUBCLASS>
  </SUBCLASSES>
 </VNCLASS>
