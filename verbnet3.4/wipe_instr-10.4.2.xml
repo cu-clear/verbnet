@@ -270,7 +270,7 @@
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="1.2.1" primary="NP V" secondary="Unspecified Object" xtag=""/>
+   <DESCRIPTION descriptionNumber="1.2.1" primary="NP.agent V" secondary="Unspecified Object" xtag=""/>
    <!-- Theme comes from the verb (wrinkles, liquid, snow/dirt, dust)-->
    <!-- Note: But at the end of an "iron" event, does it make sense that the wrinkles are not located at the initial_location?  Maybe?-->
    <EXAMPLES>
@@ -309,7 +309,7 @@
      <ARGS>
       <ARG type="Event" value="ë3"/>
       <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Trajectory"/>
+      <ARG type="PredSpecific" value="Trajectory"/>
      </ARGS>
     </PRED>
     <PRED bool="!" value="has_location">
@@ -378,7 +378,7 @@
      <ARGS>
       <ARG type="Event" value="ë3"/>
       <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="?Trajectory"/>
+      <ARG type="PredSpecific" value="Trajectory"/>
      </ARGS>
     </PRED>
     <PRED bool="!" value="has_location">
@@ -476,7 +476,7 @@
        <ARGS>
         <ARG type="Event" value="ë3"/>
         <ARG type="ThemRole" value="?Theme"/>
-        <ARG type="ThemRole" value="?Trajectory"/>
+        <ARG type="PredSpecific" value="Trajectory"/>
        </ARGS>
       </PRED>
       <PRED bool="!" value="has_location">

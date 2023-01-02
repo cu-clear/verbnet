@@ -1,10 +1,6 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="birth-28.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER fn_mapping="None" grouping="reproduce.01" name="reproduce" verbnet_key="reproduce#1" wn="reproduce%2:29:00" features=""/>
-  <MEMBER fn_mapping="None" grouping="multiply.02" name="multiply" verbnet_key="multiply#1" wn="multiply%2:29:00" features=""/>
-  <MEMBER fn_mapping="None" grouping="" name="procreate" verbnet_key="procreate#1" wn="procreate%2:29:00" features=""/>
- </MEMBERS>
+ <MEMBERS/>
  <THEMROLES>
   <THEMROLE type="Agent">
    <SELRESTRS>
@@ -17,42 +13,7 @@
    </SELRESTRS>
   </THEMROLE>
  </THEMROLES>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
-   <EXAMPLES>
-    <EXAMPLE>
-     They multiplied.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Agent">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED bool="!" value="be">
-     <ARGS>
-      <ARG type="Event" value="e1"/>
-      <ARG type="ThemRole" value="?Patient"/>
-     </ARGS>
-    </PRED>
-    <PRED value="procreate">
-     <ARGS>
-      <ARG type="Event" value="e2"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="be">
-     <ARGS>
-      <ARG type="Event" value="e3"/>
-      <ARG type="ThemRole" value="?Patient"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
+ <FRAMES/>
  <SUBCLASSES>
   <VNSUBCLASS ID="birth-28.2-1">
    <MEMBERS>
@@ -170,6 +131,51 @@
      </FRAMES>
     </VNSUBCLASS>
    </SUBCLASSES>
+  </VNSUBCLASS>
+  <VNSUBCLASS ID="birth-28.2-2">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="reproduce.01" name="reproduce" verbnet_key="reproduce#1" wn="reproduce%2:29:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="multiply.02" name="multiply" verbnet_key="multiply#1" wn="multiply%2:29:00" features=""/>
+    <MEMBER fn_mapping="None" grouping="" name="procreate" verbnet_key="procreate#1" wn="procreate%2:29:00" features=""/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
+     <EXAMPLES>
+      <EXAMPLE>
+       They multiplied.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Agent">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED bool="!" value="be">
+       <ARGS>
+        <ARG type="Event" value="e1"/>
+        <ARG type="ThemRole" value="?Patient"/>
+       </ARGS>
+      </PRED>
+      <PRED value="procreate">
+       <ARGS>
+        <ARG type="Event" value="e2"/>
+        <ARG type="ThemRole" value="Agent"/>
+       </ARGS>
+      </PRED>
+      <PRED value="be">
+       <ARGS>
+        <ARG type="Event" value="e3"/>
+        <ARG type="ThemRole" value="?Patient"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
   </VNSUBCLASS>
  </SUBCLASSES>
 </VNCLASS>
