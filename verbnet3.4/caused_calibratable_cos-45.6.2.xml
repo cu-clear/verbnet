@@ -728,7 +728,7 @@
       <PREP value="from">
        <SELRESTRS />
       </PREP>
-      <NP value="Intial_State">
+      <NP value="Initial_State">
        <SYNRESTRS />
       </NP>
       <PREP value="to">
