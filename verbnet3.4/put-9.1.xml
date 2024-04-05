@@ -64,7 +64,7 @@
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Theme "/>
-      <ARG type="PredSpecific" value="Initial_Location"/>
+      <ARG type="PredSpecific" value="?Initial_Location"/>
      </ARGS>
     </PRED>
     <PRED value="do">
@@ -84,7 +84,7 @@
      <ARGS>
       <ARG type="Event" value="ë3"/>
       <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Initial_Location"/>
+      <ARG type="PredSpecific" value="?Initial_Location"/>
      </ARGS>
     </PRED>
     <PRED value="has_location">
@@ -130,7 +130,7 @@
      <ARGS>
       <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Theme "/>
-      <ARG type="PredSpecific" value="Initial_Location"/>
+      <ARG type="PredSpecific" value="?Initial_Location"/>
      </ARGS>
     </PRED>
     <PRED value="do">
@@ -150,7 +150,7 @@
      <ARGS>
       <ARG type="Event" value="ë3"/>
       <ARG type="ThemRole" value="Theme"/>
-      <ARG type="PredSpecific" value="Initial_Location"/>
+      <ARG type="PredSpecific" value="?Initial_Location"/>
      </ARGS>
     </PRED>
     <PRED value="has_location">
@@ -209,7 +209,7 @@
        <ARGS>
         <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Theme "/>
-        <ARG type="PredSpecific" value="Initial_Location"/>
+        <ARG type="PredSpecific" value="?Initial_Location"/>
        </ARGS>
       </PRED>
       <PRED value="do">
@@ -229,7 +229,7 @@
        <ARGS>
         <ARG type="Event" value="ë3"/>
         <ARG type="ThemRole" value="Theme"/>
-        <ARG type="PredSpecific" value="Initial_Location"/>
+        <ARG type="PredSpecific" value="?Initial_Location"/>
        </ARGS>
       </PRED>
       <PRED value="has_location">
@@ -290,7 +290,7 @@
        <ARGS>
         <ARG type="Event" value="e1"/>
         <ARG type="ThemRole" value="Theme "/>
-        <ARG type="PredSpecific" value="Initial_Location"/>
+        <ARG type="PredSpecific" value="?Initial_Location"/>
        </ARGS>
       </PRED>
       <PRED value="do">
@@ -310,7 +310,7 @@
        <ARGS>
         <ARG type="Event" value="ë3"/>
         <ARG type="ThemRole" value="Theme"/>
-        <ARG type="PredSpecific" value="Initial_Location"/>
+        <ARG type="PredSpecific" value="?Initial_Location"/>
        </ARGS>
       </PRED>
       <PRED value="has_location">
