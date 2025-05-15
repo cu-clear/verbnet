@@ -24,7 +24,7 @@
   <THEMROLE type="Destination">
    <SELRESTRS logic="or">
     <SELRESTR Value="+" type="animate"/>
-    <SELRESTRS>
+    <SELRESTRS logic="and">
      <SELRESTR Value="+" type="location"/>
      <SELRESTR Value="-" type="region"/>
     </SELRESTRS>
@@ -92,7 +92,7 @@
     </NP>
     <VERB/>
     <PREP>
-     <SELRESTRS>
+     <SELRESTRS logic="and">
       <SELRESTR Value="+" type="path"/>
       <SELRESTR Value="-" type="dest_dir"/>
      </SELRESTRS>
@@ -315,7 +315,7 @@
      <SYNRESTRS/>
     </NP>
     <PREP>
-     <SELRESTRS>
+     <SELRESTRS logic="and">
       <SELRESTR Value="+" type="path"/>
       <SELRESTR Value="-" type="dest_dir"/>
      </SELRESTRS>

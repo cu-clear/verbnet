@@ -27,8 +27,7 @@
    </EXAMPLES>
    <SYNTAX>
     <NP value="Agent">
-     <SYNRESTRS>
-     </SYNRESTRS>
+     <SYNRESTRS/>
     </NP>
     <VERB/>
     <NP value="Topic">

@@ -121,8 +121,7 @@
     </NP>
     <VERB/>
     <NP value="Location">
-     <SYNRESTRS>
-     </SYNRESTRS>
+     <SYNRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
@@ -206,8 +205,7 @@
      <SYNRESTRS/>
     </NP>
     <PREP value="with">
-     <SELRESTRS>
-     </SELRESTRS>
+     <SELRESTRS/>
     </PREP>
     <NP value="Co-Theme">
      <SYNRESTRS/>

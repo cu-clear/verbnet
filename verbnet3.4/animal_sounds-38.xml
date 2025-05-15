@@ -90,10 +90,10 @@
   <THEMROLE type="Recipient">
    <SELRESTRS/>
   </THEMROLE>
+  <THEMROLE type="Stimulus">
+   <SELRESTRS/>
+  </THEMROLE>
  </THEMROLES>
- <THEMROLE type="Stimulus">
-  <SELRESTRS/>
- </THEMROLE>
  <FRAMES>
   <FRAME>
    <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag=""/>

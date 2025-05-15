@@ -312,7 +312,9 @@
          <SYNRESTRS />
         </NP>
         <NP value="Attribute">
-          <SYNRESTR Value="+" type="small_clause" />
+         <SYNRESTRS>
+          <SYNRESTR Value="+" type="small_clause"/>
+         </SYNRESTRS>
         </NP>
        </SYNTAX>
        <SEMANTICS>

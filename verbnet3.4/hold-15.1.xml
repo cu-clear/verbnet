@@ -55,12 +55,13 @@
     <MEMBER fn_mapping="None" grouping="grip.01" name="grip" verbnet_key="grip#1" wn="grip%2:35:00" features=""/>
     <MEMBER fn_mapping="None" grouping="hold.03" name="hold" verbnet_key="hold#7" wn="hold%2:35:00" features=""/>
    </MEMBERS>
+   <THEMROLES>
     <THEMROLE type="Theme">
      <SELRESTRS>
       <SELRESTR Value="+" type="body_part"/>
      </SELRESTRS>
     </THEMROLE>
-   <THEMROLES/>
+   </THEMROLES>
    <FRAMES>
     <FRAME>
      <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; Body-part Object" xtag="0.2"/>

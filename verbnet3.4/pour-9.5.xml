@@ -20,20 +20,20 @@
   <THEMROLE type="Theme">
    <SELRESTRS logic="or">
     <SELRESTR Value="+" type="substance"/>
-    <SELRESTRS>
+    <SELRESTRS logic="and">
      <SELRESTR Value="+" type="concrete"/>
      <SELRESTR Value="+" type="plural"/>
     </SELRESTRS>
    </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Initial_Location">
-   <SELRESTRS>
+   <SELRESTRS logic="and">
     <SELRESTR Value="+" type="location"/>
     <SELRESTR Value="-" type="region"/>
    </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Destination">
-   <SELRESTRS>
+   <SELRESTRS logic="and">
     <SELRESTR Value="+" type="location"/>
     <SELRESTR Value="-" type="region"/>
    </SELRESTRS>
@@ -57,7 +57,7 @@
      <SYNRESTRS/>
     </NP>
     <PREP>
-     <SELRESTRS>
+     <SELRESTRS logic="and">
       <SELRESTR Value="+" type="path"/>
       <SELRESTR Value="-" type="dest_dir"/>
      </SELRESTRS>
@@ -187,7 +187,7 @@
     </NP>
     <VERB/>
     <PREP>
-     <SELRESTRS>
+     <SELRESTRS logic="and">
       <SELRESTR Value="+" type="path"/>
       <SELRESTR Value="-" type="dest_dir"/>
      </SELRESTRS>

@@ -24,10 +24,10 @@
   <THEMROLE type="Theme">
     <SELRESTRS/>
   </THEMROLE>
- </THEMROLES>
- <THEMROLE type="Result">
+  <THEMROLE type="Result">
    <SELRESTRS/>
- </THEMROLE>
+  </THEMROLE>
+ </THEMROLES>
  <FRAMES>
   <FRAME>
    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
